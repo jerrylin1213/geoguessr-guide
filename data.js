@@ -2116,6 +2116,54 @@ const COUNTRIES = {
   ]
 },
 
+'liechtenstein': {
+  name: 'Liechtenstein', localName: 'Liechtenstein', flag: '🇱🇮', region: 'europe',
+  drivingSide: 'right', tld: '.li', phoneCode: '+423', language: 'German', currency: 'Franc (CHF)',
+  camera: [
+    "Gen 3 覆蓋為主",
+    "覆蓋有限 — 非常小的國家（160 km²）",
+    "可能有低相機覆蓋（與 Switzerland 類似）"
+  ],
+  car: [
+    "與 Switzerland 類似的車輛配置",
+    "可能有<strong>低相機</strong>（與 Switzerland 共享此特徵）"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>圓頂圓柱形，黑白配色</strong>（與 Switzerland 完全相同）",
+    "路面品質優良（已開發國家）",
+    "白色中心線"
+  ],
+  landscape: [
+    "阿爾卑斯山小國 — 完全被山脈環繞",
+    "Rhine 河谷",
+    "Vaduz 城堡可見",
+    "與 Switzerland 和 Austria 接壤",
+    "非常小、非常富裕"
+  ],
+  signs: [
+    "德語（與 Switzerland 德語區、Austria 相同）",
+    "路標風格類似 Switzerland"
+  ],
+  plates: [
+    "白色車牌，FL 代碼",
+    "黑色文字"
+  ],
+  unique: [
+    "<strong>Bollard 與 Switzerland 完全相同</strong>（圓頂黑白）",
+    "極小的國家 — 如果在阿爾卑斯山且不是 Switzerland/Austria 就可能是 Liechtenstein",
+    "FL 車牌代碼",
+    ".li 域名",
+    "使用 CHF（瑞士法郎），非歐元"
+  ],
+  tips: [
+    "黑白圓頂 bollard + 德語 + 極小阿爾卑斯國家 = Liechtenstein 或 Switzerland",
+    "看到 FL 車牌或 .li 域名 = Liechtenstein",
+    "比 Switzerland 更小、幾乎只有一條山谷",
+    "與 Switzerland 極難區分 — 主要靠車牌和域名"
+  ]
+},
+
 'turkey': {
   name: 'Turkey', localName: 'Türkiye', flag: '🇹🇷', region: 'europe',
   drivingSide: 'right', tld: '.tr', phoneCode: '+90', language: 'Turkish', currency: 'Lira (TRY)',
