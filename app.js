@@ -701,6 +701,18 @@
     });
   }
 
+  // ===== Lightbox (click to zoom images) =====
+  function setupLightbox() {
+    document.addEventListener('click', (e) => {
+      if (e.target.tagName === 'IMG' && e.target.closest('.detail-card-body')) {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        lightboxImg.src = e.target.src;
+        lightbox.classList.add('active');
+      }
+    });
+  }
+
   // ===== Utility =====
   function truncate(str, len) {
     return str.length > len ? str.slice(0, len) + '...' : str;
@@ -715,6 +727,7 @@
     setupSearch();
     setupMobileSidebar();
     setupBackToTop();
+    setupLightbox();
     handleRoute(); // Use hash routing - preserves page on refresh
   }
 

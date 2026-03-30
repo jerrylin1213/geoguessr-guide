@@ -223,5 +223,34 @@ const COUNTRY_IMAGES = {
     bollards: [],
     scenery: [],
     misc: []
-  }
+  },
+  'mexico': {
+    plates: [
+    ],
+    poles: [
+      'https://d33wubrfki0l68.cloudfront.net/42b6c00504f5fa1e5ead6295440d51f261bce836/bb6d5/static/img/places/mexico/poles/octogonal_pole.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/e287a15bccf6bd977cd7d0e2ab135a3efb411776/546c4/static/img/places/mexico/poles/mexico.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/581bf3db4a8861c70b0a88d5efcc36cbdbf7277c/782bd/static/img/places/mexico/poles/mx_pole_black_coily_insulators.jpg'
+    ],
+    signs: [
+      'https://d33wubrfki0l68.cloudfront.net/84df17ea202bf9a3195ff7e322e67d3a3229d843/32aaf/static/img/places/mexico/road-signs/turn_signals.jpg'
+    ],
+    carMetas: [],
+    bollards: [
+      'https://d33wubrfki0l68.cloudfront.net/dfe21c41e435db70d93b247d629019db934a65e3/3dad5/static/img/places/mexico/bollards/bollard_circular.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/8bbb0347e2d00ead98b530e6b34bfc7d6e64dbd6/35f28/static/img/places/mexico/bollards/bollard_flat.jpg'
+    ],
+    scenery: [
+      'https://d33wubrfki0l68.cloudfront.net/981f82ecc05c511b29916c00ecd57a26b59d2cc4/25b2c/static/img/places/mexico/scenery/oaxaca_cactus_fence.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/0f666fcfe4a9c88d44a9360ddc5e5847f1e85f1d/92ddd/static/img/places/mexico/scenery/yucatan-thatch.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/818e389847a1b492f55fdbe9748a30ed9be83bd3/de528/static/img/places/mexico/scenery/yucca_decipiens.jpg'
+    ],
+    architecture: [],
+    misc: [
+      'https://d33wubrfki0l68.cloudfront.net/2d61583a9da64ba365a77cd43ad6e5ee714ca018/9d9cb/static/img/places/mexico/road-markings/1_singl_yellow_center.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/ae57feac7e3653ab0e4e6090cc9108db587ba551/6137b/static/img/places/mexico/road-markings/2_yellow_outside.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/5f1d9be63379fdde34086fa436ae758f08f5bba3/78413/static/img/places/mexico/miscellaneous/cdmx_taxi.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/736f74b497c12697278ee59d151e2e2854e82140/020f1/static/img/places/mexico/miscellaneous/mx_electrical_meter.jpg'
+    ]
+  },
 };

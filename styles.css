@@ -951,6 +951,36 @@ mark {
   object-fit: contain;
   height: auto !important;
   max-height: 300px;
+  cursor: zoom-in;
+  transition: transform 0.2s;
+}
+
+/* Lightbox for image zoom */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  z-index: 9999;
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-overlay img {
+  max-width: 95vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
 }
 
 /* Inline icon badges */
