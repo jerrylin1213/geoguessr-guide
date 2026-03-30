@@ -321,6 +321,7 @@ const COUNTRIES = {
     "城市中有蘇聯時期公寓大樓"
   ],
   signs: [
+    "保加利亞文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">улица София Ъ</span> — Ъ 作為常見母音",
     "<strong>Bulgaria 西里爾文</strong> — 特殊字母：Ѝ（短 I）、Ъ（schwa 音）",
     "Bulgaria 被認為是西里爾字母的發源地",
     "標誌通常僅西里爾文，有時附拉丁轉寫",
@@ -909,6 +910,7 @@ const COUNTRIES = {
     "乾燥多岩地形"
   ],
   signs: [
+    "希臘文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">Οδός Αθήνα Φ Θ Ψ Ω</span>",
     "<strong>希臘字母</strong> — Φ、Γ、Δ、Θ、Λ、Ξ、Σ、Ψ、Ω",
     "標誌通常雙語（希臘語 + 拉丁轉寫）",
     "希臘文部分字母與西里爾文相似但不同",
@@ -1890,6 +1892,7 @@ const COUNTRIES = {
     "Siberia 荒野 — 遼闊的空曠"
   ],
   signs: [
+    "俄語範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">улица Москва Ы Ё Э</span> — 有 Ы Ё Э（烏克蘭語沒有）",
     "<strong>Russian 西里爾文</strong> — Ё、Ы、Э、Ъ 為 Russian 特有",
     "西里爾文標誌，有時附拉丁轉寫",
     "Russian 是使用最廣的西里爾文語言"
@@ -1965,6 +1968,7 @@ const COUNTRIES = {
     "鄂圖曼和奧匈帝國建築混合"
   ],
   signs: [
+    "塞爾維亞文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">улица Београд Ђ Ћ Џ</span> — 有 Ђ Ћ（獨有）",
     "<strong>Serbian 西里爾文</strong> — 獨特字母：Ђ、Ј、Љ、Њ、Ћ、Џ",
     "也使用拉丁文字（雙文字系統 — 兩種文字都使用）",
     "拉丁文字版本使用：đ、lj、nj、ć、dž",
@@ -2408,6 +2412,7 @@ const COUNTRIES = {
     "東正教教堂（Ukrainian 風格）"
   ],
   signs: [
+    "烏克蘭文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">вулиця Київ Ї Є І</span> — 有 Ї Є І（俄語沒有）",
     "<strong>Ukrainian 西里爾文</strong> — 關鍵獨特字母：Ґ、Є、І、Ї",
     "Ї（Yi）— I 上方兩個點，Ukrainian 專有",
     "沒有 Ы（Russian 有 Ы，Ukrainian 沒有）",
@@ -2534,6 +2539,7 @@ const COUNTRIES = {
     "洪水頻繁"
   ],
   signs: [
+    "孟加拉文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">রাস্তা ঢাকা</span> — 有頂部橫線+向左三角形",
     "<strong>孟加拉文</strong> — 頂部有水平連接線，類似天城文",
     "但孟加拉文有<strong>向左的小三角形</strong>（可與印地文區分）",
     "字形非常圓潤流暢"
@@ -2637,6 +2643,7 @@ const COUNTRIES = {
     "熱帶植被"
   ],
   signs: [
+    "高棉文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ផ្លូវ ភ្នំពេញ</span> — 每個字母頂部有向右的鉤",
     "<strong>高棉文</strong> — 幾乎每個字母頂部都有<strong>向右的小鉤</strong>",
     "字形非常有特色，曲線明顯",
     "比泰文或寮文曲線更銳利"
@@ -2731,6 +2738,7 @@ const COUNTRIES = {
     "印度教寺廟、清真寺、教堂"
   ],
   signs: [
+    "天城文(Hindi)範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">सड़क नई दिल्ली</span> — 頂部橫線連接",
     "<strong>天城文（印地語）</strong> — <strong>頂部有水平橫線連接字母</strong>",
     "多種地區文字（Tamil、Telugu、Bengali、Kannada、Malayalam 等）",
     "標誌上廣泛使用英文",
@@ -2864,6 +2872,7 @@ const COUNTRIES = {
     "挡土牆是日本農村地區的重要線索"
   ],
   signs: [
+    "日文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">通り 東京都 とうきょう カタカナ</span> — 漢字+平假名+片假名混用",
     "<strong>三種文字混合使用</strong>：漢字、平假名（ひらがな）、片假名（カタカナ）",
     "平假名：圓潤流暢的字形",
     "片假名：方角銳利的字形（用於外來語）",
@@ -2932,6 +2941,7 @@ const COUNTRIES = {
     "四季分明的樹木（櫻花、秋季紅葉）"
   ],
   signs: [
+    "韓文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">거리 서울특별시</span> — 方塊形音節文字",
     "<strong>韓文（한글）</strong> — 方塊形音節字形",
     "由圓形、線條和角度組成：ㄱ、ㄴ、ㄷ、ㅁ 等",
     "每個音節方塊為正方形",
@@ -3039,6 +3049,7 @@ const COUNTRIES = {
     "人口極度稀疏"
   ],
   signs: [
+    "蒙古西里爾文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">Зам Улаанбаатар</span>",
     "蒙古西里爾字母",
     "有時可見傳統蒙古文（直書）",
     "詞彙受俄語影響"
@@ -3083,6 +3094,7 @@ const COUNTRIES = {
     "山路沿途有經幡"
   ],
   signs: [
+    "天城文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">सडक काठमाडौं</span> — 與Hindi相同文字系統",
     "天城文（與印地語相同）",
     "也使用英文",
     "與 India 的標誌相似但使用尼泊爾語"
@@ -3230,6 +3242,7 @@ const COUNTRIES = {
     "紅色土壤在許多地區常見"
   ],
   signs: [
+    "僧伽羅文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">මාර්ගය කොළඹ</span> — 像各方向的 C",
     "<strong>僧伽羅文</strong> — 字形像各種方向的 'C'，非常圓潤／捲曲",
     "也使用淡米爾文",
     "英文為第三語言",
@@ -3276,6 +3289,7 @@ const COUNTRIES = {
     "佛教和道教寺廟"
   ],
   signs: [
+    "繁體中文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">路 台北市 注音ㄅㄆㄇ</span>",
     "<strong>繁體中文字</strong> — 非簡體字",
     "與 Hong Kong 使用相同的繁體字",
     "有時可見注音符號",
@@ -3337,6 +3351,7 @@ const COUNTRIES = {
     "南部有海灘"
   ],
   signs: [
+    "泰文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ถนน กรุงเทพ</span> — 有小圓圈+直線段",
     "<strong>泰文</strong> — 字形上有<strong>小圓圈</strong>",
     "直線段與曲線混合",
     "比寮文更有稜角（寮文更滑順／圓潤）",
@@ -3390,6 +3405,7 @@ const COUNTRIES = {
     "石灰岩喀斯特地形（下龍灣地區）"
   ],
   signs: [
+    "越南文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">Đường Nguyễn Huệ</span> — 拉丁字母+大量聲調符號",
     "<strong>越南文 — 拉丁字母帶有大量變音符號</strong>",
     "â、ă、đ、ê、ô、ơ、ư + 多種聲調符號",
     "看起來像是「戴了很多帽子的拉丁字母」",
@@ -3441,6 +3457,7 @@ const COUNTRIES = {
     "古老與現代建築並存"
   ],
   signs: [
+    "希伯來文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">רחוב הרצל ירושלים</span> — 方塊形、從右到左、無母音",
     "<strong>希伯來文</strong> — 由右至左書寫，方塊字形，不標註母音",
     "也使用阿拉伯文",
     "英文常作為第三語言",
@@ -3490,6 +3507,7 @@ const COUNTRIES = {
     "佩特拉地區"
   ],
   signs: [
+    "阿拉伯文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">شارع الملك عبدالله عمّان</span> — 連筆書寫、從右到左",
     "<strong>阿拉伯文</strong> — 由右至左書寫，連體／草書字形",
     "標誌上也常用英文",
     "阿拉伯文／英文雙語路牌"
@@ -3526,6 +3544,7 @@ const COUNTRIES = {
     "清真寺到處都有"
   ],
   signs: [
+    "阿拉伯文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">طريق الملك فهد الرياض</span>",
     "大多數路牌為阿拉伯文 + 英文",
     "高速公路使用綠色標誌",
     "指向麥加／麥地那的方向標誌"
@@ -3568,6 +3587,7 @@ const COUNTRIES = {
     "城市外有沙丘"
   ],
   signs: [
+    "阿拉伯文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">شارع الشيخ زايد دبي</span>",
     "所有標誌皆為阿拉伯文 + 英文",
     "高速公路使用綠色標誌"
   ],
@@ -4771,6 +4791,7 @@ const COUNTRIES = {
     "紅色/赤陶色建築（Marrakech）"
   ],
   signs: [
+    "阿拉伯文+柏柏爾文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ⵜⵉⴼⵉⵏⴰⵖ</span> Tifinagh 柏柏爾文 — 幾何符號",
     "阿拉伯語 + 法語雙語標誌",
     "有時也可見 Berber 柏柏爾語（Tifinagh 字母）",
     "Tifinagh 看起來像幾何符號"
@@ -4880,6 +4901,7 @@ const COUNTRIES = {
     "岩石雕鑿教堂（Lalibela）"
   ],
   signs: [
+    "Ge'ez 文字範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">መንገድ አዲስ አበባ</span> — 獨特幾何形狀",
     "<strong>Ge'ez（Ethiopic）字母</strong> — 獨特的音節書寫系統",
     "字符看起來像抽象幾何圖形",
     "標誌上也使用英語"
@@ -5318,6 +5340,7 @@ const COUNTRIES = {
       'Lahore 和 Islamabad 有密集城市地區'
     ],
     signs: [
+      "烏爾都文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">سڑک اسلام آباد</span> — 類似阿拉伯文但有額外字母",
       '烏爾都文字（اردو）— 從右到左書寫，類似阿拉伯文但有額外字符',
       '烏爾都文字在字母上下方有點（波斯體書法風格）',
       '標誌為雙語：烏爾都語 + 英語',
@@ -5475,6 +5498,7 @@ const COUNTRIES = {
       '城鎮中的早市場景'
     ],
     signs: [
+      "寮文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ຖະໜົນ ວຽງຈັນ</span> — 比泰文更圓滑，無直線邊",
       '寮文字母（ລາວ）— 結合泰文（圓圈）和高棉文（棱角）的特徵',
       '寮文字母看起來像簡化版泰文 — 裝飾性彎曲較少',
       '停車標誌有寮文 + 英文 "STOP"',
@@ -5557,6 +5581,7 @@ const COUNTRIES = {
       '鄉村地區有傳統的木造高腳屋'
     ],
     signs: [
+      "緬甸文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">လမ်း ရန်ကုန်</span> — 大量完美圓形",
       '緬文字母（မြန်မာ）— 圓形字符',
       '緬文看起來像一連串的圓圈和半圓串在一起',
       '與泰文、高棉文或寮文非常不同',
@@ -5718,6 +5743,7 @@ const COUNTRIES = {
       '獨特的中國建築：寶塔、寺廟屋頂、現代高樓'
     ],
     signs: [
+      "簡體中文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">路 北京市</span> — 簡化字體",
       '簡體中文字（简体中文）— 筆畫比繁體中文少',
       '中文字比日文漢字筆畫/複雜度更高',
       '許多標誌上中文下方有拼音（羅馬字母拼寫）',
@@ -6125,6 +6151,7 @@ const COUNTRIES = {
       '清真寺和教堂混合（宗教多元的國家）'
     ],
     signs: [
+      "阿拉伯文+法語範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">شارع بيروت</span> + Rue de Beyrouth",
       '阿拉伯文 + 法語或英語作為第二語言',
       '法國影響使 Lebanon 有別於其他阿拉伯國家',
       '標誌可能為三語：阿拉伯語 + 法語 + 英語',
