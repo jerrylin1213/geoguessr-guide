@@ -43,17 +43,21 @@ const COUNTRIES = {
     "城市名稱常以 -ë、-a、-i 結尾"
   ],
   plates: [
-    "白色車牌，左側有藍色 EU 風格條紋",
-    "格式：AA 000 AA",
-    "藍色條紋包含 Albania 國旗和 'AL' 代碼"
+    "車牌兩側有藍色條紋，或<strong>左側有一條紅色條紋</strong>",
+    "⚠️ 左側紅色條紋是<strong>歐洲唯一</strong>",
+    "Italy 也有兩側藍色條紋，但 Italy 前車牌明顯較短",
+    "格式：AA 000 AA"
   ],
   unique: [
-    "<strong>碉堡</strong> — 數十萬座混凝土碉堡散布全國各地（冷戰時期）",
-    "<strong>義大利風格 bollard</strong>，反光片到頂部有黑色條紋",
-    "Mercedes-Benz 汽車極為常見（Albania 以此聞名）",
-    "拉丁與鄂圖曼時期建築混合",
-    "政府建築上可見雙頭鷹徽章",
-    "地形非常多山，海拔變化劇烈"
+    "車牌左側<strong>紅色條紋</strong> — 歐洲唯一",
+    "兩種街景車：長天線版（有天空裂痕）和短天線版（無裂痕）",
+    "<strong>蘑菇形碉堡</strong>幾乎 100% 確認是 Albania",
+    "Mercedes 車極為普遍",
+    "路牌背面常塗<strong>黑色</strong>（Italy、Romania 也有）",
+    "STOP 標誌的 S 字形狀獨特 — 兩端與中間角度相同（Italy 也有）",
+    "轉向誘導標：<strong>黑底白箭頭</strong>（Montenegro 不同：白底黑箭頭或黃底紅箭頭）",
+    "倒三角形杆頂",
+    "路桩頂部黑色 + 紅灰反光板 + 底部白色（Italy 類似）"
   ],
   tips: [
     "蘑菇形碉堡幾乎 100% 確認是 Albania",
@@ -2335,11 +2339,12 @@ const COUNTRIES = {
     "部分區域覆蓋品質較低"
   ],
   car: [
-    "<strong>黑色 roof bars + 紅色側鏡 + 黃綠色車門</strong> — Bangladesh 獨有配置",
-    "Bars 和側鏡並非在所有地區都可見",
-    "部分區域使用不同車輛（白色車、黃綠色窄型車）",
-    "也有船隻覆蓋（Tanguar Haor 濕地區域）",
-    "⚠️ roof bars + 紅色側鏡 = 100% 確認為 Bangladesh"
+    "<strong>Gen 3 有三種街景車</strong>：支架紅鏡、經典白、條紋白",
+    "⚠️ <strong>支架紅鏡</strong>和<strong>條紋白</strong>為 Bangladesh 獨有",
+    "注意：Cambodia 也有高度相似的條紋白車，需要區分",
+    "Gen 4 有黑車和白車兩種",
+    "也有 shitcam（畫質極差的第三方覆蓋）",
+    "部分地區使用人力車/船隻拍攝"
   ],
   roads: [
     "左側通行",
@@ -2359,7 +2364,10 @@ const COUNTRIES = {
     "但孟加拉文有<strong>向左的小三角形</strong>（可與印地文區分）",
     "字形非常圓潤流暢"
   ],
-  plates: ["格式多樣"],
+  plates: [
+    "車牌有白色、黑色或<strong>青綠色</strong>三種",
+    "⚠️ <strong>青綠色和黑色車牌為 Bangladesh 獨有</strong>"
+  ],
   unique: [
     "<strong>孟加拉文帶有向左的三角形</strong>",
     "平坦三角洲地形 — 到處都是水",
