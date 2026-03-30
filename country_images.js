@@ -10,8 +10,11 @@ const COUNTRY_IMAGES = {
     signs: [
       'https://d33wubrfki0l68.cloudfront.net/29e4c671556321d77aa9fbf5548b949c28213b08/37537/static/img/places/albania/road-signs/direction-signs.jpg',
       'https://d33wubrfki0l68.cloudfront.net/c1d758a7ab2f00c46d8b0cb2e442e2c7768be0ad/eab4e/static/img/places/albania/road-signs/warning-sign.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/6d8386a6ef1c3c5765837271f2b360c69721bfba/6f4e7/static/img/places/albania/miscellaneous/rruga.jpg',
     ],
     carMetas: [
+      'https://d33wubrfki0l68.cloudfront.net/24ebfc52c88d821bb2cef9b7a98fb3baa77959f0/de58f/static/img/places/albania/miscellaneous/rift.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/ded42b4b609280a59d11f6e9cdfdaee6f1333145/94c2e/static/img/places/albania/miscellaneous/antenna.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/ecded83016700f26992e1a1f144e82e91c2e77be/ee90e/static/img/places/albania/bollards/bollard-front.jpg',
@@ -29,9 +32,6 @@ const COUNTRY_IMAGES = {
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/6d49129b8c4702b98359c0cec91a4d47b25cb52c/1f083/static/img/geoguessr.svg',
       'https://d33wubrfki0l68.cloudfront.net/31c27a9503fba73c3cd7df3307d81f23e29167d6/b563a/static/img/right.svg',
-      'https://d33wubrfki0l68.cloudfront.net/24ebfc52c88d821bb2cef9b7a98fb3baa77959f0/de58f/static/img/places/albania/miscellaneous/rift.jpg',
-      'https://d33wubrfki0l68.cloudfront.net/ded42b4b609280a59d11f6e9cdfdaee6f1333145/94c2e/static/img/places/albania/miscellaneous/antenna.jpg',
-      'https://d33wubrfki0l68.cloudfront.net/6d8386a6ef1c3c5765837271f2b360c69721bfba/6f4e7/static/img/places/albania/miscellaneous/rruga.jpg',
       'https://d33wubrfki0l68.cloudfront.net/acc885f14a376ce69431bb7cf9ff90e8a23bc7d9/d8e59/static/img/places/albania/miscellaneous/albania_water_tanker.jpg',
       'https://d33wubrfki0l68.cloudfront.net/09ba6f09e7ab5c62c5b450fbacadd7173ba12866/b6bf9/static/img/places/albania/miscellaneous/albania_market_shop.jpg',
     ],
@@ -122,6 +122,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/24d3773b1625fca7a560c3a4a357fd5a28e8cde9/675d9/static/img/places/australia/poles/tasmania.png',
       'https://d33wubrfki0l68.cloudfront.net/5a0ff009d63526b0323104b8bf024d9d0d912282/e63c2/static/img/places/australia/poles/green-wood.png',
       'https://d33wubrfki0l68.cloudfront.net/65089a163377b19287058ff804bfb1732e15a48e/aa8ab/static/img/places/australia/poles/nsw_traffic_light_band.png',
+      'https://d33wubrfki0l68.cloudfront.net/486323aa6281949f2b218a7b1a0e63d577b316b8/296e9/static/img/places/australia/miscellaneous/wa-yellow-pole.png',
     ],
     signs: [
       'https://d33wubrfki0l68.cloudfront.net/387c00eb9e9aa97ad92dc1abe2106062c016482a/80b31/static/img/places/australia/road-signs/nsw_qld_keep_left.png',
@@ -157,7 +158,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/df2dfaad1a86827c2af4053990957288de9235a8/9918e/static/img/left.svg',
       'https://d33wubrfki0l68.cloudfront.net/59c8224bfeaaf8b8338cc5204ba653855bec3f5e/23578/static/img/places/australia/area-codes/area-codes.png',
       'https://d33wubrfki0l68.cloudfront.net/25f592a0b28e36141fabdd8fb4cfe9df587a9d85/9fcf3/static/img/places/australia/miscellaneous/wa-curbs.png',
-      'https://d33wubrfki0l68.cloudfront.net/486323aa6281949f2b218a7b1a0e63d577b316b8/296e9/static/img/places/australia/miscellaneous/wa-yellow-pole.png',
       'https://d33wubrfki0l68.cloudfront.net/a536025e4ee190c7ec26857bb6c907d2d8c110f0/0f16b/static/img/places/australia/miscellaneous/nz_aus_diff.webp',
       'https://d33wubrfki0l68.cloudfront.net/ab12e7de86344d0a191c380cf02cece1f3063518/eb7e3/static/img/places/australia/miscellaneous/concise_guide.jpg',
     ],
@@ -694,6 +694,7 @@ const COUNTRY_IMAGES = {
     ],
     signs: [
       'https://d33wubrfki0l68.cloudfront.net/673486d9841ef88553049a23f5c72bf4f87f7dc5/26057/static/img/places/costa-rica/road-signs/alto.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/ac276ac253556009de21e6c0062abd8f88faed1c/cea9d/static/img/places/costa-rica/miscellaneous/university_sign.jpg',
     ],
     carMetas: [
     ],
@@ -709,7 +710,6 @@ const COUNTRY_IMAGES = {
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/6d49129b8c4702b98359c0cec91a4d47b25cb52c/1f083/static/img/geoguessr.svg',
       'https://d33wubrfki0l68.cloudfront.net/31c27a9503fba73c3cd7df3307d81f23e29167d6/b563a/static/img/right.svg',
-      'https://d33wubrfki0l68.cloudfront.net/ac276ac253556009de21e6c0062abd8f88faed1c/cea9d/static/img/places/costa-rica/miscellaneous/university_sign.jpg',
     ],
   },
   'croatia': {
@@ -1563,6 +1563,7 @@ const COUNTRY_IMAGES = {
     plates: [
     ],
     poles: [
+      'https://d33wubrfki0l68.cloudfront.net/b906a70d974aecb3a9c0091316fb228081da03de/a4ad1/static/img/places/kyrgyzstan/miscellaneous/painted_pole_supporters.jpg',
     ],
     signs: [
       'https://d33wubrfki0l68.cloudfront.net/7b094d10b7eeca964de11ac9608c4d569479d903/b812c/static/img/places/kyrgyzstan/road-signs/kygrzy_blue_sign.jpg',
@@ -1583,7 +1584,6 @@ const COUNTRY_IMAGES = {
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/6d49129b8c4702b98359c0cec91a4d47b25cb52c/1f083/static/img/geoguessr.svg',
       'https://d33wubrfki0l68.cloudfront.net/31c27a9503fba73c3cd7df3307d81f23e29167d6/b563a/static/img/right.svg',
-      'https://d33wubrfki0l68.cloudfront.net/b906a70d974aecb3a9c0091316fb228081da03de/a4ad1/static/img/places/kyrgyzstan/miscellaneous/painted_pole_supporters.jpg',
     ],
   },
   'laos': {
@@ -2865,6 +2865,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/438426b2a0fa000969219094ae4ac5326618a10d/67d3b/static/img/places/united-states/road-signs/wv_certified_business.jpg',
       'https://d33wubrfki0l68.cloudfront.net/69532be300e1ffeb50f5beddc298f878a7e6eced/b7b91/static/img/places/united-states/road-signs/wi_atv.png',
       'https://d33wubrfki0l68.cloudfront.net/acdd080198df9e4bfa04d3b9c25ce0fabbb307e6/e8025/static/img/places/united-states/road-signs/wy_stop_sign_double_brackets.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/36f2c4017d379d0897d9febcd400813a28b2f3f0/7a987/static/img/places/united-states/miscellaneous/speed_limits.png',
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/89fdd7b1f4fedff0115efaece3838e2472e562db/b09a5/static/img/places/united-states/car-metas/us_95_car_meta.jpg',
@@ -2895,7 +2896,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/31c27a9503fba73c3cd7df3307d81f23e29167d6/b563a/static/img/right.svg',
       'https://d33wubrfki0l68.cloudfront.net/c875e1c953b0cdc81f0621c033f0072d274b9cef/ee95d/static/img/places/united-states/area-codes/us-area-code-map.png',
       'https://d33wubrfki0l68.cloudfront.net/db03a565e857bf9c8e2c5c9f64ce0899bdb21142/983a9/static/img/places/united-states/miscellaneous/signs-summary-canada-usa.jpg',
-      'https://d33wubrfki0l68.cloudfront.net/36f2c4017d379d0897d9febcd400813a28b2f3f0/7a987/static/img/places/united-states/miscellaneous/speed_limits.png',
       'https://d33wubrfki0l68.cloudfront.net/e1e2f87561784c676813c0e8c4dd89cb561a3c31/ad824/static/img/places/united-states/miscellaneous/united_states_with_territory_states_and_dc_flags_new2.png',
       'https://d33wubrfki0l68.cloudfront.net/a5c3f366fca7b54bee91e29c749f580ea91e1e5c/443b8/static/img/places/united-states/miscellaneous/gas_pipeline_marker.jpg',
       'https://d33wubrfki0l68.cloudfront.net/0836dd69f4e3c65f663b2fad0a2c6cbf0f011e3a/9758e/static/img/places/united-states/miscellaneous/stop_and_shop.png',
@@ -3031,6 +3031,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/438426b2a0fa000969219094ae4ac5326618a10d/67d3b/static/img/places/united-states/road-signs/wv_certified_business.jpg',
       'https://d33wubrfki0l68.cloudfront.net/69532be300e1ffeb50f5beddc298f878a7e6eced/b7b91/static/img/places/united-states/road-signs/wi_atv.png',
       'https://d33wubrfki0l68.cloudfront.net/acdd080198df9e4bfa04d3b9c25ce0fabbb307e6/e8025/static/img/places/united-states/road-signs/wy_stop_sign_double_brackets.jpg',
+      'https://d33wubrfki0l68.cloudfront.net/36f2c4017d379d0897d9febcd400813a28b2f3f0/7a987/static/img/places/united-states/miscellaneous/speed_limits.png',
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/89fdd7b1f4fedff0115efaece3838e2472e562db/b09a5/static/img/places/united-states/car-metas/us_95_car_meta.jpg',
@@ -3059,7 +3060,6 @@ const COUNTRY_IMAGES = {
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/c875e1c953b0cdc81f0621c033f0072d274b9cef/ee95d/static/img/places/united-states/area-codes/us-area-code-map.png',
       'https://d33wubrfki0l68.cloudfront.net/db03a565e857bf9c8e2c5c9f64ce0899bdb21142/983a9/static/img/places/united-states/miscellaneous/signs-summary-canada-usa.jpg',
-      'https://d33wubrfki0l68.cloudfront.net/36f2c4017d379d0897d9febcd400813a28b2f3f0/7a987/static/img/places/united-states/miscellaneous/speed_limits.png',
       'https://d33wubrfki0l68.cloudfront.net/e1e2f87561784c676813c0e8c4dd89cb561a3c31/ad824/static/img/places/united-states/miscellaneous/united_states_with_territory_states_and_dc_flags_new2.png',
       'https://d33wubrfki0l68.cloudfront.net/a5c3f366fca7b54bee91e29c749f580ea91e1e5c/443b8/static/img/places/united-states/miscellaneous/gas_pipeline_marker.jpg',
       'https://d33wubrfki0l68.cloudfront.net/0836dd69f4e3c65f663b2fad0a2c6cbf0f011e3a/9758e/static/img/places/united-states/miscellaneous/stop_and_shop.png',

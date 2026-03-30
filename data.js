@@ -62,7 +62,6 @@ const COUNTRIES = {
     "路桩頂部黑色 + 紅灰反光板 + 底部白色（Italy 類似）"
   ],
   tips: [
-    "蘑菇形碉堡幾乎 100% 確認是 Albania",
     "大量 Mercedes 汽車是強力線索",
     "Albanian 語非常獨特 — 非斯拉夫語、非羅曼語、非希臘語",
     "注意標誌文字中的 ë 和 ç 字元",
@@ -1248,7 +1247,6 @@ const COUNTRIES = {
     "茂密的松樹和白樺林",
     "波羅的海沙灘",
     "Daugava 河",
-    "Riga 的新藝術建築",
     "鄉村的木造建築"
   ],
   signs: [
@@ -1265,7 +1263,6 @@ const COUNTRIES = {
     "<strong>高細 bollard 搭配橘色反光片和數字</strong>",
     "Latvian 語帶長音符號（ā、ē、ī、ū）",
     "子音下方的獨特軟音符號：ļ、ķ、ģ、ņ",
-    "Riga 的新藝術建築",
     "平坦地形配松林"
   ],
   tips: [
@@ -3044,7 +3041,6 @@ const COUNTRIES = {
     "遼闊草原 — 一望無際的草地",
     "南部為戈壁沙漠",
     "西部為山區",
-    "從道路上可見蒙古包（ger）",
     "遊牧民族與牲畜",
     "人口極度稀疏"
   ],
@@ -3059,7 +3055,6 @@ const COUNTRIES = {
     "<strong>Snorkel + 車頂露營裝備</strong> — 非常有辨識度的車輛特徵",
     "<strong>保齡球瓶形護柱</strong>",
     "遼闊空曠的草原，沒有樹木",
-    "從道路上可見蒙古包（ger）",
     "黑色條紋橫桿：西蒙古；無條紋：東蒙古",
     "可見遊牧文化（牧群、馬匹）"
   ],
@@ -3183,7 +3178,6 @@ const COUNTRIES = {
     "現代高樓建築",
     "熱帶花園和公園",
     "Marina Bay Sands、魚尾獅地標",
-    "HDB 組屋（公共住宅）"
   ],
   signs: [
     "四種官方語言：英文、馬來文、中文、淡米爾文",
@@ -3196,7 +3190,6 @@ const COUNTRIES = {
   unique: [
     "四語言標誌",
     "左側通行 + 英文為主 + 熱帶",
-    "HDB 組屋（公共住宅）",
     "高速公路上的 ERP 門架",
     "極度乾淨且有序的城市"
   ],
@@ -3491,7 +3484,6 @@ const COUNTRIES = {
     "Gen 3：<strong>黑色轎車</strong>",
     "<strong>無天線</strong>（與 Israel 黑色車有天線不同 — 辨識重點！）",
     "黑色車 vs UAE 白色車 — 這是分辨兩國最簡單的方式",
-    "黃色邊線（如 Israel）"
   ],
   roads: [
     "右側行駛",
@@ -3672,7 +3664,6 @@ const COUNTRIES = {
     "黃色校車",
     "USPS 郵務車",
     "藍色 USPS 郵筒（Canada 是紅色）",
-    "Adopt-a-Highway 標誌"
   ],
   signs: [
     "英語",
@@ -3692,7 +3683,6 @@ const COUNTRIES = {
     "黃色校車",
     "MPH 速限",
     "消防栓",
-    "Adopt-a-Highway 標誌"
   ],
   tips: [
     "雙黃線 + 'SPEED LIMIT' + MPH = USA（非 Canada）",
@@ -4389,7 +4379,6 @@ const COUNTRIES = {
   ],
   roads: [
     "白色實線邊線 + 黃色中心線",
-    "粗大未塗漆的木製標誌桿"
   ],
   poleInfo: [
     "不規則電線桿"
@@ -4411,7 +4400,6 @@ const COUNTRIES = {
     "Tigo 電信品牌招牌",
     "穿傳統服飾的婦女",
     "裸露紅磚建築",
-    "粗大未塗漆的木製標誌桿"
   ],
   tips: [
     "Wiphala（彩虹棋盤）旗 = Bolivia",

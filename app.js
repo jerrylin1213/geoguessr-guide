@@ -819,6 +819,7 @@
               `<img src="${url}" alt="Reference" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
             ).join('')}
           </div>
+          <p style="font-size:0.7rem;color:var(--text-muted);margin-top:8px;">圖片來源：<a href="https://geodummy.com" target="_blank" style="color:var(--text-muted)">geodummy.com</a>（Plonk It 社群授權使用）</p>
         </div>
       </div>
     `;
