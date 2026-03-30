@@ -389,7 +389,7 @@
       <div class="detail-grid animate-in">
         ${cameraCard(c.camera || [])}
         ${carImageCard(id, c.car || [])}
-        ${detailCard('🛣️', '道路特徵', c.roads || [])}
+        ${roadCard(id, c.roads || [])}
         ${bollardImageCard(id, c.bollardInfo || [])}
         ${poleImageCard(id, c.poleInfo || [])}
         ${architectureCard(id, c.landscape || [])}
@@ -487,6 +487,32 @@
           ${barHtml}
           <ul>
             ${barHtml ? items.slice(1).map(item => '<li>' + item + '</li>').join('') : items.map(item => '<li>' + item + '</li>').join('')}
+          </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  function roadCard(countryId, items) {
+    if (!items || items.length === 0) return '';
+    const geodummyRoads = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.roadMarkings;
+    let imgsHtml = '';
+    if (geodummyRoads && geodummyRoads.length > 0) {
+      imgsHtml = '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">' +
+        geodummyRoads.map(url =>
+          `<img src="${url}" alt="Road marking" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
+        ).join('') + '</div>';
+    }
+    return `
+      <div class="detail-card">
+        <div class="detail-card-header">
+          <span class="icon">🛣️</span>
+          <h3>道路特徵</h3>
+        </div>
+        <div class="detail-card-body">
+          ${imgsHtml}
+          <ul>
+            ${items.map(item => '<li>' + item + '</li>').join('')}
           </ul>
         </div>
       </div>
