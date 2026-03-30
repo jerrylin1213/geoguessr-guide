@@ -395,6 +395,8 @@ const COUNTRIES = {
     "棋盤格圖案（šahovnica）在徽章上",
     "亞得里亞海沿岸島嶼覆蓋",
     "地中海和歐陸風格混合"
+  ,
+    "路名使用 ulica（街道）、trg（廣場）、cesta（路）"
   ],
   tips: [
     "Gen 3 後視鏡上的黃色貼紙 = Croatia",
@@ -496,6 +498,9 @@ const COUNTRIES = {
     "楔形 bollard 設計（Slovakia 為弧形）",
     "全境哥德式和巴洛克建築",
     "Trdelník 和啤酒廣告常見"
+  ,
+    "<strong>漂亮的門牌號碼</strong> — Czech 的建築常有裝飾性門牌，紅色或藍色底色配白色數字",
+    "路名使用 ulice（街道）、náměstí（廣場）、třída（大道）"
   ],
   tips: [
     "標誌上看到 ř？→ Czech Republic，絕無僅有",
@@ -552,6 +557,8 @@ const COUNTRIES = {
     "到處都是紅磚建築",
     "幾乎每條路都有自行車道",
     "平坦農田，完全沒有山脈"
+  ,
+    "路名使用 gade（街道）、vej（路）、plads（廣場）、allé（林蔭道）"
   ],
   tips: [
     "平坦 + 紅磚 + Danish（æ、ø、å）= Denmark",
@@ -701,6 +708,8 @@ const COUNTRIES = {
     "雙字母的超長單字",
     "傳統紅色木造房屋（赭紅色塗料）",
     "Lapland 有馴鹿警告標誌"
+  ,
+    "路名使用 katu（街道）、tie（路）、tori（廣場）— 芬蘭語非常不同於瑞典語"
   ],
   tips: [
     "Finnish 文字（不像斯堪地那維亞語）+ 湖泊 + 森林 = Finland",
@@ -846,6 +855,9 @@ const COUNTRIES = {
     "藍色標誌的 Autobahn",
     "半木造 Fachwerk 房屋",
     "Germany 是 Street View 限制最多的國家之一"
+  ,
+    "路名使用 Straße（街道）、Weg（路）、Platz（廣場）、Gasse（巷）",
+    "<strong>狩獵區標誌</strong> (Jagdbezirk) — 德國鄉村可見"
   ],
   tips: [
     "德語文字 + 大量模糊房屋 = Germany（Austria 覆蓋更少）",
@@ -1160,6 +1172,8 @@ const COUNTRIES = {
     "Tuscany 的柏樹林蔭道路",
     "到處都是羅馬遺跡和文藝復興教堂",
     "Vespa 機車極為常見"
+  ,
+    "路名使用 Via（街道）、Piazza（廣場）、Corso（大道）、Vicolo（小巷）"
   ],
   tips: [
     "以母音結尾的 Italian 文字 + 地中海景觀 = Italy",
@@ -1564,6 +1578,8 @@ const COUNTRIES = {
     "可見 Dutch 語",
     "運河上的船屋",
     "平坦、低於海平面，可見水利基礎設施"
+  ,
+    "路名使用 straat（街道）、weg（路）、laan（大道）、plein（廣場）、gracht（運河街）"
   ],
   tips: [
     "黃色後車牌 = Netherlands（最獨特的特徵）",
@@ -1663,6 +1679,8 @@ const COUNTRIES = {
     "Norwegian 語：'vei' 非 'vej'（與 Danish 的區別）",
     "木板教堂（中世紀木造教堂）",
     "北部有北極覆蓋（Tromsø、Nordkapp）"
+  ,
+    "路名使用 gate/gata（街道）、vei/veien（路）、plass（廣場）"
   ],
   tips: [
     "æ、ø、å + 山脈/峽灣 = Norway（不是平坦的 Denmark）",
@@ -1719,6 +1737,8 @@ const COUNTRIES = {
     "Polish 文字中的子音組合（szcz、rz）",
     "電線桿上的鸛巢",
     "可見教宗 John Paul II 的引用/影像"
+  ,
+    "路名使用 ulica (ul.)（街道）、aleja (al.)（大道）、plac (pl.)（廣場）"
   ],
   tips: [
     "ą、ę（鉤形）+ ł（斜線 L）= Polish（非 Lithuanian 或 Czech）",
@@ -1774,6 +1794,8 @@ const COUNTRIES = {
     "軟木橡樹林（Portugal/Spain 獨有）",
     "Portuguese 文字帶 ã、õ 字元",
     "Douro 河谷的梯田葡萄園"
+  ,
+    "路名使用 Rua（街道）、Avenida（大道）、Praça（廣場）、Travessa（小巷）"
   ],
   tips: [
     "歐洲的 Portuguese 文字（ã、õ）= Portugal（不是 Brazil！）",
@@ -1884,6 +1906,8 @@ const COUNTRIES = {
     "洋蔥圓頂教堂",
     "蘇聯時期建築",
     "可見 Yandex 覆蓋（較低品質）"
+  ,
+    "路名使用 улица (ул.)（街道）、проспект (пр.)（大道）、переулок（小巷）"
   ],
   tips: [
     "西里爾文帶 Ы 和 Э = Russian（Ukrainian 沒有 Ы）",
@@ -1956,6 +1980,8 @@ const COUNTRIES = {
     "薄 bollard 搭配偏心反光片",
     "Belgrade 位於多瑙河和 Sava 河匯流處",
     "北部平坦的 Vojvodina 農田"
+  ,
+    "路名使用 улица/ulica（街道）、трг/trg（廣場）"
   ],
   tips: [
     "西里爾文中的 Ђ 或 Ћ = Serbian（非 Russian、Bulgarian 或 Ukrainian）",
@@ -2052,6 +2078,8 @@ const COUNTRIES = {
     "阿爾卑斯、地中海和 Pannonian 景觀混合",
     "Bled 湖 — 一眼就能辨認",
     "位於阿爾卑斯山和巴爾幹交匯處的小國"
+  ,
+    "路名使用 ulica（街道）、cesta（路）、trg（廣場）"
   ],
   tips: [
     "斯拉夫語 + 高山景觀 + 歐元 = 很可能是 Slovenia",
@@ -2084,6 +2112,8 @@ const COUNTRIES = {
   ],
   poleInfo: [
     "梯子形電桿（類似 France）"
+  ,
+    "電線桿旁常見<strong>灰色方形水泥塊基座</strong> — Slovakia 較常見此特徵"
   ],
   landscape: [
     "中部 Meseta — 乾燥高原",
@@ -2110,6 +2140,8 @@ const COUNTRIES = {
     "Andalusia 的白色村莊（pueblos blancos）",
     "到處都是橄欖園",
     "高速公路旁的公牛剪影（Osborne bull）"
+  ,
+    "路名使用 Calle（街道）、Avenida（大道）、Plaza（廣場）、Camino（小路）"
   ],
   tips: [
     "歐洲的 Spanish（ñ）= Spain（不是拉丁美洲）",
@@ -2165,6 +2197,8 @@ const COUNTRIES = {
     "falun 紅漆木造房屋",
     "駝鹿警告標誌",
     "茂密的白樺林"
+  ,
+    "路名使用 gata/gatan（街道）、väg/vägen（路）、torg（廣場）"
   ],
   tips: [
     "å、ä、ö = Swedish（Danish/Norwegian 改用 æ、ø、å）",
@@ -2336,6 +2370,8 @@ const COUNTRIES = {
     "白色柱 + 厚紅色反光片 bollard",
     "到處都是帶宣禮塔的清真寺",
     "茶（çay）文化 — 可見茶館"
+  ,
+    "路名使用 Sokak (Sk.)（街道）、Cadde/Caddesi (Cd.)（大道）、Bulvar（大道）"
   ],
   tips: [
     "ğ 或 ı（無點 i）= Turkish",
@@ -2847,6 +2883,8 @@ const COUNTRIES = {
     "神社的鳥居",
     "交通極度有序",
     "路邊有黃黑條紋護欄"
+  ,
+    "路名使用 通り (dōri)、丁目 (chōme)、番地 (banchi) — 日本地址系統基於區塊而非道路"
   ],
   tips: [
     "漢字 + 平假名 + 片假名混用 = Japan（China 只用漢字）",
@@ -3751,6 +3789,8 @@ const COUNTRIES = {
     "Mexico City 的粉白色計程車",
     "八角形電線桿",
     "Oaxaca 的 Gen 3 有獨特裂紋"
+  ,
+    "路名使用 Calle（街道）、Avenida（大道）、Boulevard（大道）、Callejón（小巷）"
   ],
   tips: [
     "單一實黃色中心線 = Mexico",
@@ -4087,6 +4127,8 @@ const COUNTRIES = {
     "「梯子」電線桿",
     "標誌上的 BR/SP/PR 州代碼",
     "車上的短天線"
+  ,
+    "路名使用 Rua（街道）、Avenida (Av.)（大道）、Praça（廣場）、Travessa（小巷）"
   ],
   tips: [
     "南美洲的葡萄牙語（ã、õ）= Brazil（100%）",
