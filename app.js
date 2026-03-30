@@ -356,7 +356,7 @@
         ${carImageCard(id, c.car || [])}
         ${detailCard('🛣️', '道路特徵', c.roads || [])}
         ${bollardImageCard(id)}
-        ${detailCard('🏗️', '建築 & 地景', c.landscape || [])}
+        ${architectureCard(id, c.landscape || [])}
         ${poleImageCard(id)}
         ${detailCard('🔤', '語言 & 標誌', c.signs || [])}
         ${plateImageCard(id, c.plates || [])}
@@ -515,6 +515,34 @@
         <div class="detail-card-body">
           ${content}
           <p style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">圖片來源：geodummy.com / geomastr.com</p>
+        </div>
+      </div>
+    `;
+  }
+
+  function architectureCard(countryId, items) {
+    if (!items || items.length === 0) return '';
+    const geodummyArch = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.architecture;
+    const geodummyScenery = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.scenery;
+    let imgsHtml = '';
+    const allImgs = [...(geodummyArch || []), ...(geodummyScenery || [])];
+    if (allImgs.length > 0) {
+      imgsHtml = `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
+        allImgs.map(url =>
+          `<img src="${url}" alt="Scenery" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+        ).join('') + `</div>`;
+    }
+    return `
+      <div class="detail-card">
+        <div class="detail-card-header">
+          <span class="icon">🏗️</span>
+          <h3>建築 & 地景</h3>
+        </div>
+        <div class="detail-card-body">
+          ${imgsHtml}
+          <ul>
+            ${items.map(item => `<li>${item}</li>`).join('')}
+          </ul>
         </div>
       </div>
     `;
