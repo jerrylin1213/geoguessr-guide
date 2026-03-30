@@ -398,6 +398,7 @@
         ${plateImageCard(id, c.plates || [])}
         ${detailCard('🔍', '獨特辨識特徵', c.unique || [], true)}
         ${c.tips && c.tips.length ? tipsCard(c.tips) : ''}
+        ${miscImagesCard(id)}
       </div>
     `;
   }
@@ -794,6 +795,29 @@
     backToTop.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+  }
+
+  function miscImagesCard(countryId) {
+    const geodummyMisc = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.misc;
+    if (!geodummyMisc || geodummyMisc.length === 0) return '';
+    // Filter out generic svg icons
+    const useful = geodummyMisc.filter(u => !u.endsWith('.svg'));
+    if (useful.length === 0) return '';
+    return `
+      <div class="detail-card full-width">
+        <div class="detail-card-header">
+          <span class="icon">📎</span>
+          <h3>其他參考圖片</h3>
+        </div>
+        <div class="detail-card-body">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            ${useful.map(url =>
+              `<img src="${url}" alt="Reference" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
+            ).join('')}
+          </div>
+        </div>
+      </div>
+    `;
   }
 
   // ===== Lightbox with arrow key navigation =====
