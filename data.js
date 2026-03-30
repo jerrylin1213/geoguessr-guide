@@ -11,7 +11,7 @@ const COUNTRIES = {
   name: 'Albania', localName: 'Shqipëria', flag: '🇦🇱', region: 'europe',
   drivingSide: 'right', tld: '.al', phoneCode: '+355', language: 'Albanian', currency: 'Lek (ALL)',
   camera: [
-    "Gen 2 覆蓋始於 2012 — 較低畫質，天空可見紫色光暈",
+    "<strong>主要 Gen 3（有兩種車：長天線版+短天線版）</strong>",
     "Gen 3 覆蓋始於 2015 — 主要道路影像清晰",
     "Gen 4 覆蓋始於 2022 — 色彩鮮豔，高解析度",
     "主要公路和城市覆蓋良好，山區較稀疏"
@@ -73,7 +73,7 @@ const COUNTRIES = {
   name: 'Andorra', localName: 'Andorra', flag: '🇦🇩', region: 'europe',
   drivingSide: 'right', tld: '.ad', phoneCode: '+376', language: 'Catalan', currency: 'Euro (EUR)',
   camera: [
-    "Gen 3 覆蓋，影像品質良好",
+    "<strong>Gen 2 和 Gen 3</strong>",
     "覆蓋範圍有限 — 小國，主要覆蓋幹道",
     "部分行人區有 trekker 覆蓋"
   ],
@@ -263,7 +263,7 @@ const COUNTRIES = {
   name: 'Bosnia and Herzegovina', localName: 'Bosna i Hercegovina', flag: '🇧🇦', region: 'europe',
   drivingSide: 'right', tld: '.ba', phoneCode: '+387', language: 'Bosnian, Croatian, Serbian', currency: 'Convertible Mark (BAM)',
   camera: [
-    "Gen 3 覆蓋主要道路",
+    "<strong>Gen 3</strong>",
     "與鄰國 Croatia/Serbia 相比覆蓋有限",
     "主要高速公路品質尚可"
   ],
@@ -329,20 +329,35 @@ const COUNTRIES = {
     "多種車色在 Gen 4 中可見"
   ],
   roads: [
-    "道路品質不一 — 高速公路好，鄉村道路差",
-    "白色中線（歐洲標準）",
+    "<strong>78% Gen 4 + 22% Gen 3</strong>",
+    "中心線比 Romania <strong>更細</strong> — 區分兩國的可靠線索",
+    "道路品質普遍較差，裂縫多偶有坑洼",
     "高速公路使用綠色標誌"
   ],
   bollardInfo: [
-    "Bollard：白色主體搭配紅色矩形反光片，背景上更明顯"
+    "路桩在 Bulgaria <strong>非常罕見</strong>",
+    "有時可見類似 Croatia/Hungary 的設計：正面紅/粉反光條，背面白色反光條"
+  ],
+  poleInfo: [
+    "圓柱型<strong>混凝土電線杆</strong>最常見，偶有梯子杆變種和木杆",
+    "交錯排布的<strong>鉤子形絕緣子</strong>常見",
+    "杆頂三個交錯絕緣子且鉤子<strong>垂直向上</strong> — 幾乎僅 Bulgaria"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（Romania/Turkey/North Macedonia 也同款）",
+    "⚠️ Serbia/Greece 用黑白誘導標",
+    "指路牌：藍色箭頭設計，西里爾 + 拉丁字母雙行",
+    "城鎮入口標志白色，雙行文字（西里爾 + 拉丁）",
+    "行人標志 <strong>4 道條紋</strong> + 行人戴帽子 — 其他中東歐國家無此設計",
+    "金屬垃圾桶形狀獨特（Turkey + 其他巴爾幹國家也有）"
   ],
   landscape: [
-    "巴爾幹山脈東西橫貫中部",
-    "北部多瑙河（與 Romania 邊界）",
-    "東部黑海沿岸",
-    "玫瑰谷（Kazanlak 地區）— 玫瑰花田",
-    "拜占庭建築風格的東正教教堂",
-    "城市中有蘇聯時期公寓大樓"
+    "巴爾幹山脈東西橫貫中部，將國家分為兩半",
+    "山脈以北大部分平坦至 Romania 邊境",
+    "Rhodope 山脈從 Sofia 向東南延伸至 Greece",
+    "東部黑海沿岸，Dobrich 省有風力發電機",
+    "屋頂多橙色瓦片，角瓦有<strong>灰泥斑塊</strong>且常不平整",
+    "郊區看起來較貧窮，房屋小而密集"
   ],
   signs: [
     "保加利亞文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">улица София Ъ</span> — Ъ 作為常見母音",
@@ -376,7 +391,7 @@ const COUNTRIES = {
   name: 'Croatia', localName: 'Hrvatska', flag: '🇭🇷', region: 'europe',
   drivingSide: 'right', tld: '.hr', phoneCode: '+385', language: 'Croatian', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 覆蓋始於 2011",
+    "<strong>Gen 3 + Gen 4</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "海岸和內陸城市覆蓋良好"
   ],
@@ -393,21 +408,34 @@ const COUNTRIES = {
     "主要高速公路上有收費站"
   ],
   bollardInfo: [
-    "Bollard：白色背面，反光片非常靠近頂部"
+    "白色路桩帶<strong>黑色平行四邊形</strong>（內有紅/白反光貼紙），俯視為三角形",
+    "⚠️ Hungary 類似但邊緣更圓潤；Lithuania 有橙色反光貼紙",
+    "護欄為<strong>方形 B 型</strong> — 歐洲少數國家使用"
+  ],
+  poleInfo: [
+    "圓柱形混凝土或木質電線杆，木杆上常有<strong>交替鉤子</strong>（類似 Latvia）"
+  ],
+  signInfo: [
+    "轉向誘導標：<strong>白底紅箭頭</strong>或<strong>黃底紅箭頭</strong>兩種",
+    "方向標志：<strong>黃底黑框鉛筆形</strong>（前南斯拉夫國家類似）",
+    "斑馬線標志：行人<strong>繫腰帶</strong> + 5 條條紋（Slovenia 行人無腰帶）",
+    "Istria 半島西部有 Croatian/Italian 雙語街道牌",
+    "消防栓為<strong>藍色</strong>兩側各有兩個對角突起（Hungary 也有類似款）"
   ],
   landscape: [
-    "Dalmatia 海岸 — 壯觀的懸崖和島嶼",
-    "內陸：起伏丘陵、農田",
-    "Plitvice 風格的喀斯特地貌",
-    "海岸地中海植被",
+    "Dalmatia 海岸 — 壯觀的懸崖、島嶼、地中海灌木",
+    "亞得里亞海岸建築：米黃色磚塊 + 綠色百葉窗（類似 Italy 部分地區）",
+    "內陸東北部平坦農業區（類似 Hungary/Serbia 西北部）",
+    "Zagreb 北部和西部多山且農業豐富",
     "海岸紅瓦石造建築（Dubrovnik 風格）",
-    "內陸為歐陸建築風格"
+    "Istria 西北部有獨特<strong>紅色土壤</strong>",
+    "南端多高大<strong>柏樹</strong>"
   ],
   signs: [
     "Croatian（拉丁文字）— 類似 Serbian 但無西里爾文",
-    "特殊字元：č、ć、đ、š、ž",
-    "與 Serbian 的區別：使用 đ 而非 ð",
-    "路標遵循 EU 標準"
+    "特殊字元：č、ć、đ、š、ž；常見 'ije' 組合（Serbian 用 'e' 代替）",
+    "路標遵循 EU 標準",
+    "中北部地區城鎮名常以 <strong>-ec</strong> 結尾"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + HR 代碼",
@@ -540,7 +568,7 @@ const COUNTRIES = {
   name: 'Denmark', localName: 'Danmark', flag: '🇩🇰', region: 'europe',
   drivingSide: 'right', tld: '.dk', phoneCode: '+45', language: 'Danish', currency: 'Krone (DKK)',
   camera: [
-    "Gen 2 覆蓋始於 2009",
+    "<strong>Gen 3 + Gen 4</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車，無天線）"
   ],
@@ -550,21 +578,31 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "路面品質極佳",
-    "白色中線和邊線",
+    "標線<strong>全部白色</strong>，常見<strong>雙白實線</strong>中線",
+    "外側標線由<strong>小白色正方形</strong>組成 — Denmark 獨有",
     "藍色高速公路標誌配白色文字",
     "自行車基礎設施優良"
   ],
   bollardInfo: [
-    "Bollard：類似 Belgium 色調但<strong>頂部有紅色條紋</strong>"
+    "白色路桩配<strong>黃色反光器 + 深橙色條紋</strong> — Denmark 獨有",
+    "也有綠色款式；⚠️ Belgium 類似但<strong>無橙色條紋</strong>",
+    "護欄：<strong>B 型方形</strong>無反光器 — 歐洲極少國家用此型"
+  ],
+  poleInfo: [
+    "街道電線杆<strong>較少見</strong>，鄉村主要為高架電力線路"
+  ],
+  signInfo: [
+    "指示牌離地面低，被<strong>管道框架</strong>環繞 — Denmark 獨有",
+    "誘導標：<strong>白底紅箭頭</strong>，通常離地面低",
+    "人行道標志 <strong>5 條條紋</strong>，首尾條紋觸碰白三角邊緣",
+    "公交站牌：黑黃色（舊版藍白色）"
   ],
   landscape: [
-    "極度平坦 — Denmark 是全世界最平坦的國家之一",
-    "風力發電機非常常見",
-    "農田主導景觀",
-    "北海沿岸有沙丘",
-    "紅磚建築為典型特徵",
-    "小城鎮有半木造房屋"
+    "極度平坦 — 全世界最平坦國家之一",
+    "風力發電機非常常見，農田主導景觀",
+    "紅磚建築典型，屋頂橙色/深棕/黑色瓦片",
+    "鄉村有<strong>茅草屋頂</strong>和木框架建築",
+    "北海沿岸有沙丘"
   ],
   signs: [
     "Danish 語 — 使用 æ、ø、å（與 Norwegian 共用）",
@@ -597,24 +635,48 @@ const COUNTRIES = {
 'estonia': {
   name: 'Estonia', localName: 'Eesti', flag: '🇪🇪', region: 'europe',
   drivingSide: 'right', tld: '.ee', phoneCode: '+372', language: 'Estonian', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋主要道路", "部分地區有 Gen 4 覆蓋"],
+  camera: [
+    "<strong>51.9% Gen 3 + 48.1% Gen 2</strong>",
+    "Gen 3 覆蓋比 Latvia/Lithuania 更廣（很多鄉村小路都有）",
+    "Gen 3 常有<strong>綠色模糊</strong>（green tint）— Latvia/Lithuania 不常有"
+  ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
     "無特殊車輛辨識特徵"
   ],
   roads: [
-    "右側行駛",
-    "白色中心線",
-    "歐式道路標誌",
-    "主要公路品質尚可"
+    "外側線有時為<strong>短虛線</strong>（Lithuania 也有；Sweden 也用短虛線）",
+    "護欄為標準 A 型<strong>無反光體</strong>（Latvia/Lithuania 護欄可能有反光體）"
+  ],
+  bollardInfo: [
+    "圓形棒狀護柱，正面<strong>矩形反光條</strong>，背面<strong>兩個圓形反光器</strong>（白色或橙色）",
+    "⚠️ Latvia/Lithuania 護柱外觀不同"
+  ],
+  poleInfo: [
+    "<strong>圓木杆</strong>最常見，有時有對角支撐",
+    "也有方形混凝土杆帶對角支撐（Lithuania 也有類似款）",
+    "三叉戟杆頂：頂部一個 + 側面兩個絕緣體",
+    "大多數木杆頂部有<strong>小金屬帽</strong>（類似北歐，Latvia 也偶有）"
+  ],
+  signInfo: [
+    "誘導標：<strong>紅底白箭頭</strong>（Russia/Ukraine 也同款）",
+    "⚠️ Latvia/Lithuania 相反：白底紅箭頭",
+    "波羅的海三國共用藍色公里路標但角度不同 — Estonia 為<strong>垂直於道路</strong>、兩面有數字",
+    "警告標志有細紅邊框，<strong>無白色輪廓</strong>（紅框延到邊緣）",
+    "斑馬線標誌 <strong>3 條條紋</strong> + 高細節行人（Lithuania 也 3 條但行人較粗糙；Latvia 5 條）",
+    "公交站牌上巴士有<strong>4 個窗戶</strong>（Latvia 5 個；Lithuania 同 Estonia）",
+    "藍白條紋路標包裹物（Finland/Sweden 也有但 Estonia 較鬆散）",
+    "路標為<strong>藍底白字</strong>帶白邊，箭頭後部垂直（Latvia 箭頭更有「風格感」）",
+    "橢圓形標誌牌較常見（Russia 也有）"
   ],
   landscape: [
-    "地形平坦到微幅起伏",
+    "地形平坦到微幅起伏（全國僅 10% 超過 100m）",
     "茂密森林（近 50% 森林覆蓋率）",
     "沼澤/濕地區域",
     "波羅的海沿岸有島嶼",
-    "中世紀老城區（Tallinn）",
-    "北歐風格木造建築"
+    "建築以白磚 + 木頭為主，屋頂陡坡 + 波紋鐵皮",
+    "Tallinn 老城中世紀/文藝復興建築",
+    "Ida-Viru 有大量俄語少數民族，Narva 附近有俄語/Estonian 雙語標誌"
   ],
   signs: [
     "Estonian 語 — 芬蘭-烏戈爾語系（與 Finnish 相關，非斯拉夫語）",
@@ -982,7 +1044,7 @@ const COUNTRIES = {
   name: 'Hungary', localName: 'Magyarország', flag: '🇭🇺', region: 'europe',
   drivingSide: 'right', tld: '.hu', phoneCode: '+36', language: 'Hungarian', currency: 'Forint (HUF)',
   camera: [
-    "Gen 2 和 Gen 3 覆蓋",
+    "<strong>Gen 3 + Gen 4（Gen 3 多在冬季拍攝，畫面灰暗）</strong>",
     "Gen 4 覆蓋（藍色車搭配圓形天線，或藍色車無天線）"
   ],
   car: [
@@ -1584,7 +1646,7 @@ const COUNTRIES = {
   name: 'Netherlands', localName: 'Nederland', flag: '🇳🇱', region: 'europe',
   drivingSide: 'right', tld: '.nl', phoneCode: '+31', language: 'Dutch', currency: 'Euro (EUR)',
   camera: [
-    "<strong>90% Gen 3 + 7.3% Gen 2 + 2.3% Gen 1</strong>",
+    "<strong>Gen 3（天空裂痕非常普遍）</strong>",
     "Gen 4 覆蓋部分區域（黑色車尾部有時可見模糊故障）",
     "全國覆蓋範圍廣泛"
   ],
@@ -1708,7 +1770,7 @@ const COUNTRIES = {
   name: 'Norway', localName: 'Norge / Noreg', flag: '🇳🇴', region: 'europe',
   drivingSide: 'right', tld: '.no', phoneCode: '+47', language: 'Norwegian', currency: 'Krone (NOK)',
   camera: [
-    "<strong>85.6% Gen 3 + 9.8% Gen 4 + 4.6% Gen 2</strong>",
+    "<strong>Gen 3</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車，無天線）"
   ],
@@ -1787,24 +1849,37 @@ const COUNTRIES = {
   name: 'Poland', localName: 'Polska', flag: '🇵🇱', region: 'europe',
   drivingSide: 'right', tld: '.pl', phoneCode: '+48', language: 'Polish', currency: 'Złoty (PLN)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
-    "Gen 4 可用",
+    "<strong>Gen 3 + Gen 4</strong>",
     "全國覆蓋範圍廣泛"
   ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
-    "無特殊車輛辨識特徵"
+    "Gen 4：極罕見黑色車或白色車"
   ],
   roads: [
-    "右側行駛",
-    "白色中心線",
-    "高速公路路面優良，鄉村路面差"
+    "道路劃線<strong>全白</strong>，<strong>雙白實線</strong>中線非常常見（Denmark/Greece 也有）",
+    "道路兩旁常<strong>成排種植樹木</strong>",
+    "高速公路路面優良，鄉村路面差",
+    "磚鋪人行道常見（灰色/淺紅色方磚）"
   ],
   bollardInfo: [
-    "Bollard：與 Germany 類似但有<strong>紅色帶作為反光片，帶上常有數字</strong>"
+    "路桩上側有<strong>紅色條帶環繞</strong>，正面紅色反光條，背面白色反光條 — Poland 特有",
+    "護欄為<strong>方形 B 型</strong>帶<strong>圓形紅色反光板</strong> — 歐洲少數國家使用"
   ],
   poleInfo: [
-    "混凝土有孔電桿 — 有時有 A 形支撐"
+    "混凝土細杆帶<strong>貫穿孔洞</strong>（多孔電線杆），洞不延到底部 — Poland 獨特",
+    "有時兩組孔洞交叉或兩根杆做 A 形結構",
+    "⚠️ Hungary/Romania 也有多孔杆但更寬大且孔延到底部",
+    "杆上有黃色/黑色/白色標記，分布有地區特徵"
+  ],
+  signInfo: [
+    "警告標志：<strong>黃色背景 + 細長紅邊</strong> — 歐洲此組合僅 Poland",
+    "禁止標志：白色背景 + 較厚紅框",
+    "人行橫道標志：無斑馬線，用<strong>一條水平線</strong>代替（Austria/Belgium 用兩條）",
+    "指路標志：<strong>綠色背景</strong>獨特字體（高速公路為藍色）",
+    "城鎮入口：綠色地名標志 + 黑白城區天際線標志",
+    "誘導標：<strong>白底紅箭頭</strong>",
+    "路邊常見<strong>天主教神龛</strong>和藍白/黃白教旗"
   ],
   landscape: [
     "中部/北部平坦，南部多山（Tatra 山脈）",
@@ -1845,7 +1920,7 @@ const COUNTRIES = {
   name: 'Portugal', localName: 'Portugal', flag: '🇵🇹', region: 'europe',
   drivingSide: 'right', tld: '.pt', phoneCode: '+351', language: 'Portuguese', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
+    "<strong>Gen 3 + Gen 4</strong>",
     "全國覆蓋良好"
   ],
   car: [
@@ -1911,14 +1986,31 @@ const COUNTRIES = {
     "Gen 3：天線有膠帶（東歐共通特徵，與 Czech, Slovakia, Hungary 共用）"
   ],
   roads: [
+    "<strong>76.7% Gen 4 + 23.1% Gen 3 + 0.3% Gen 2</strong>",
+    "外側線為<strong>短虛線窄空隙</strong>組成 — Romania 好線索",
+    "中心線比 Bulgaria <strong>更粗</strong>",
     "道路品質差異顯著",
-    "白色中線"
+    "67C 山路全部<strong>黃色標線</strong>"
   ],
   bollardInfo: [
-    "Bollard：白色搭配紅色矩形反光片（較少見）"
+    "路桩細長白色，頂部附近有<strong>紅色垂直條紋</strong> — 相對較少",
+    "⚠️ Turkey 有非常相似的路桩"
   ],
   poleInfo: [
-    "<strong>多孔混凝土電線桿</strong> — 類似 Hungary，底部有時塗白漆"
+    "<strong>多孔混凝土電線桿</strong>，洞延伸到底部，洞很寬或很高",
+    "⚠️ Poland 洞不到底部；Hungary 洞比 Romania 小",
+    "圓形混凝土電線杆也常見（與 Bulgaria 類似）",
+    "樹木和電線杆底部常<strong>塗白色</strong>（Ukraine/Russia 也有）",
+    "<strong>特大黃色貼紙</strong>在電線杆上 — Romania 特有（常標城鎮名）",
+    "倒三角形杆頂（Czech/Slovakia/Albania/Serbia 也有）"
+  ],
+  signInfo: [
+    "指路牌：<strong>藍底箭頭形</strong>白邊框，常標道路編號（紅或藍）",
+    "城鎮入口：黃底速限 + 城市天際線 + 白底鎮名",
+    "誘導標：<strong>白底紅箭頭 + 黃色框架</strong> — 黃框在 Romania 最常見",
+    "讓行標志有<strong>非常厚紅邊 + 薄白輪廓</strong> — Romania 獨有",
+    "標誌背面常為<strong>黑色</strong>（Italy/Albania/Germany 也有）",
+    "路標石很常見：紅色或藍色邊框 + 道路編號，也有石頭製和全白小版"
   ],
   landscape: [
     "喀爾巴阡山脈貫穿中部",
@@ -2274,7 +2366,7 @@ const COUNTRIES = {
   name: 'Sweden', localName: 'Sverige', flag: '🇸🇪', region: 'europe',
   drivingSide: 'right', tld: '.se', phoneCode: '+46', language: 'Swedish', currency: 'Krona (SEK)',
   camera: [
-    "Gen 2 + Gen 3 + Gen 4 覆蓋",
+    "<strong>Gen 3 + Gen 4（多種車色：藍/紅/白）</strong>",
     "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）"
   ],
   car: [
@@ -2534,7 +2626,7 @@ const COUNTRIES = {
   name: 'Ukraine', localName: 'Україна', flag: '🇺🇦', region: 'europe',
   drivingSide: 'right', tld: '.ua', phoneCode: '+380', language: 'Ukrainian', currency: 'Hryvnia (UAH)',
   camera: [
-    "Gen 3 覆蓋主要道路",
+    "<strong>Gen 3 + Gen 4（Gen 4 為紅色車）</strong>",
     "Gen 4 覆蓋（紅色車）",
     "覆蓋集中在 Ukraine 西部和中部"
   ],
@@ -2659,7 +2751,7 @@ const COUNTRIES = {
   name: 'Bangladesh', localName: 'বাংলাদেশ', flag: '🇧🇩', region: 'asia',
   drivingSide: 'left', tld: '.bd', phoneCode: '+880', language: 'Bengali', currency: 'Taka (BDT)',
   camera: [
-    "Gen 3 覆蓋（主要道路）",
+    "<strong>Gen 3 + Gen 4 + Shitcam（三代有三種特殊車型）</strong>",
     "覆蓋持續擴展中",
     "部分區域覆蓋品質較低"
   ],
@@ -2754,7 +2846,7 @@ const COUNTRIES = {
   name: 'Cambodia', localName: 'កម្ពុជា', flag: '🇰🇭', region: 'asia',
   drivingSide: 'right', tld: '.kh', phoneCode: '+855', language: 'Khmer', currency: 'Riel (KHR)',
   camera: [
-    "<strong>80.2% Gen 3 + 19.8% Shitcam（語雀：shitcam 在柬埔寨很常見）</strong>",
+    "<strong>Gen 3（覆蓋有限，銀灰色無天線車）</strong>",
     "也有少量 shitcam（印度相機）覆蓋",
     "主要道路覆蓋良好",
     "部分地區使用船隻和火車拍攝"
@@ -2857,7 +2949,7 @@ const COUNTRIES = {
   name: 'India', localName: 'भारत', flag: '🇮🇳', region: 'asia',
   drivingSide: 'left', tld: '.in', phoneCode: '+91', language: 'Hindi, English, + 20 others', currency: 'Rupee (INR)',
   camera: [
-    "⚠️ <strong>~99% 為 shitcam（低品質非官方相機）</strong>",
+    "<strong>Gen 3（密集城市覆蓋）</strong>",
     "Shitcam 特徵：偏棕色調、圓形大面積打碼蓋住街景車",
     "極少量 Gen 4（~0.9%）和 Gen 3（~0.1%）覆蓋",
     "所有覆蓋目前僅限城市地區（2022 年後擴展）"
@@ -3364,7 +3456,7 @@ const COUNTRIES = {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
   camera: [
-    "<strong>50% Gen 4 (low cam) + 40.4% Gen 3 + 9.6% Shitcam</strong>",
+    "<strong>Gen 3 + Gen 4</strong>",
     "幾乎全部為低品質覆蓋",
     "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
     "Gen 3 使用正常高度相機",
@@ -3474,7 +3566,7 @@ const COUNTRIES = {
   name: 'Thailand', localName: 'ประเทศไทย', flag: '🇹🇭', region: 'asia',
   drivingSide: 'left', tld: '.th', phoneCode: '+66', language: 'Thai', currency: 'Baht (THB)',
   camera: [
-    "<strong>~90% Gen 3</strong>",
+    "<strong>Gen 3 + Gen 4</strong>",
     "絕大部分 Gen 3 中看不見街景車",
     "拍攝有旱季/雨季差異 — 野火造成灰霾可見"
   ],
@@ -3802,7 +3894,7 @@ const COUNTRIES = {
   name: 'United States', localName: 'United States', flag: '🇺🇸', region: 'north-america',
   drivingSide: 'right', tld: '.us', phoneCode: '+1', language: 'English', currency: 'Dollar (USD)',
   camera: [
-    "<strong>78.6% Gen 3 + 21.3% Gen 4</strong>",
+    "<strong>Gen 3 + Gen 4</strong>",
     "Gen 2、Gen 3、Gen 4 — 所有世代都有",
     "全球涵蓋範圍最廣的國家"
   ],
@@ -4324,7 +4416,7 @@ const COUNTRIES = {
   name: 'Argentina', localName: 'Argentina', flag: '🇦🇷', region: 'south-america',
   drivingSide: 'right', tld: '.ar', phoneCode: '+54', language: 'Spanish', currency: 'Peso (ARS)',
   camera: [
-    "<strong>~69% Gen 3 + ~11% Gen 2 + ~6% Gen 4（各州不同）</strong>",
+    "<strong>Gen 3（銀色 pickup truck）</strong>",
     "2025 年前僅有 Trekker 步行覆蓋",
     "Gen 3：黑色 Google 街景車拍攝"
   ],
@@ -4730,7 +4822,7 @@ const COUNTRIES = {
   name: 'Nigeria', localName: 'Nigeria', flag: '🇳🇬', region: 'africa',
   drivingSide: 'right', tld: '.ng', phoneCode: '+234', language: 'English', currency: 'Naira (NGN)',
   camera: [
-    "<strong>~65% Gen 3 + ~25% Gen 4 + ~10% Gen 2</strong>",
+    "<strong>Gen 3 + Gen 4（Gen 3 有涉水喉，Gen 4 為皮卡）</strong>",
     "三代街景：車頂有行李架 + 幾乎都有警車跟車",
     "Shitcam 主要在東部城市",
     "阿布賈以北無三代覆蓋，西北/最南部無四代，東南部無 shitcam"
@@ -5155,7 +5247,7 @@ const COUNTRIES = {
   name: 'Uganda', localName: 'Uganda', flag: '🇺🇬', region: 'africa',
   drivingSide: 'left', tld: '.ug', phoneCode: '+256', language: 'English, Swahili', currency: 'Shilling (UGX)',
   camera: [
-    "<strong>100% Gen 3（白色 pickup truck）</strong>",
+    "<strong>Gen 3 trekker + 兩輛獨特街景車</strong>",
     "⚠️ <strong>大量非官方/第三方覆蓋 (shit cam)</strong> — 畫質極低、模糊、過曝/欠曝",
     "非官方覆蓋佔 Uganda 大部分影像 — 非 360° 全景、顏色失真",
     "國家公園覆蓋品質較好但範圍有限"
@@ -5268,7 +5360,7 @@ const COUNTRIES = {
   name: 'Australia', localName: 'Australia', flag: '🇦🇺', region: 'oceania',
   drivingSide: 'left', tld: '.au', phoneCode: '+61', language: 'English', currency: 'Dollar (AUD)',
   camera: [
-    "<strong>~64% Gen 3 + ~26% Gen 4 + ~12% Gen 2 + ~4.5% Gen 1</strong>",
+    "<strong>Gen 4（全部，白/黑/棕色 pickup truck）</strong>",
     "各州拍攝年份不同 — 可用於區域判斷",
     "南半球覆蓋最廣的國家"
   ],
@@ -5399,7 +5491,7 @@ const COUNTRIES = {
     language: 'Belarusian / Russian',
     currency: 'Belarusian Ruble (BYN)',
     camera: [
-      "<strong>~70% Gen 3 + ~20% Gen 4 + ~10% Gen 2</strong>",
+      "<strong>Gen 3 + Gen 4 + Gen 2</strong>",
       "Trekker 覆蓋一看就知道：相機高度較低，常搖晃",
       "覆蓋非常有限 — 主要在 Minsk 等城市和主要道路",
       "與鄰國相比畫質低且不連貫",
@@ -5627,7 +5719,7 @@ const COUNTRIES = {
     language: 'Lao',
     currency: 'Kip (LAK)',
     camera: [
-      'Gen 3 覆蓋主要路線',
+      "<strong>Gen 3（圓鏡，車側有藍線）</strong>",
       '覆蓋主要限於大城市和國道',
       'Vientiane 覆蓋最佳',
       '鄉村地區覆蓋非常有限或完全沒有',
@@ -5878,7 +5970,7 @@ const COUNTRIES = {
     language: 'Mandarin Chinese',
     currency: 'Renminbi/Yuan (CNY)',
     camera: [
-      '不在 Google 街景上 — 使用百度地圖和騰訊地圖',
+      "<strong>非 Google — 使用百度/騰訊街景</strong>",
       '在 GeoGuessr 中出現時，覆蓋來自第三方或非官方來源',
       '百度/騰訊覆蓋畫質不一 — 有時過暗或過亮',
       '部分覆蓋來自 Mapillary 和其他貢獻者',
@@ -5963,7 +6055,7 @@ const COUNTRIES = {
     language: 'Cantonese, Portuguese',
     currency: 'Pataca (MOP)',
     camera: [
-      '僅有 Gen 2 覆蓋 — 畫質較低、影像較舊',
+      "<strong>Gen 2（畫質較低）</strong>",
       '非標準車輛或 Trekker 涵蓋',
       '因 Macau 面積極小，覆蓋範圍有限',
       'Gen 2 畫質：顆粒感較重，色彩不如 Gen 3/4 鮮豔',
@@ -6122,7 +6214,7 @@ const COUNTRIES = {
     language: 'Kyrgyz, Russian',
     currency: 'Som (KGS)',
     camera: [
-      'Gen 3 覆蓋主要道路',
+      "<strong>Gen 3（方鏡，車身有黑線）</strong>",
       '獨特的相機車可見 BARS — 少數有此特徵的國家之一',
       '可見側鏡，特別是左側',
       '鏡子可能看起來髒或有風化痕跡',
@@ -6207,7 +6299,7 @@ const COUNTRIES = {
     language: 'Uzbek, Russian',
     currency: 'Som (UZS)',
     camera: [
-      '有限的 Gen 3 覆蓋',
+      "<strong>Gen 3（覆蓋有限）</strong>",
       '覆蓋主要在大城市（Tashkent、Samarkand、Bukhara）',
       '歷史/伊斯蘭建築景點有 Trekker 覆蓋',
       '主要路線以外覆蓋稀疏',
@@ -9230,7 +9322,7 @@ const COUNTRIES = {
   name: 'Georgia', localName: 'საქართველო', flag: '🇬🇪', region: 'asia',
   drivingSide: 'right', tld: '.ge', phoneCode: '+995', language: 'Georgian', currency: 'Lari (GEL)',
   camera: [
-    "Gen 3 和 Gen 4 覆蓋",
+    "<strong>Gen 3 + Gen 4</strong>",
     "主要城市和公路覆蓋良好",
     "鄉村山區覆蓋較少"
   ],
