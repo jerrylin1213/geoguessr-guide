@@ -9261,11 +9261,25 @@ const META_SECTIONS = [
     title: '道路標線顏色',
     content: `
       <div class="meta-info-block">
+        <h4>常見道路標線視覺圖例</h4>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:8px 0;">
+          <div class="road-line-demo"><div class="line yellow"></div><div class="line yellow"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">雙黃實線 (USA)</div></div>
+          <div class="road-line-demo"><div class="line yellow"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">單黃實線 (Mexico)</div></div>
+          <div class="road-line-demo"><div class="line white"></div><div class="line white"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">雙白實線 (EU)</div></div>
+          <div class="road-line-demo"><div class="line dashed"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">白虛線 (大部分歐洲)</div></div>
+          <div class="road-line-demo"><div class="line yellow"></div><div class="line dashed"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">黃+白虛 (Argentina)</div></div>
+          <div class="road-line-demo"><div class="line yellow-dashed"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">黃虛線邊線 (Ireland)</div></div>
+          <div class="road-line-demo"><div class="line yellow"></div><div class="line yellow"></div><div class="line dashed"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">三線 (Uruguay)</div></div>
+          <div class="road-line-demo"><div class="line white"></div><div class="line white"></div><div style="font-size:0.7rem;color:#ccc;white-space:nowrap">全白 (Chile)</div></div>
+        </div>
+      </div>
+      <div class="meta-info-block">
         <h4>黃色中線</h4>
         <p><strong>美洲：</strong>USA（雙黃線）, <a onclick="navigateTo('country','canada')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Canada</a>, Mexico（單黃線）, <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a>, <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, <a onclick="navigateTo('country','bolivia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bolivia</a>, Paraguay, Venezuela<br>
         <strong>歐洲：</strong><a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, Finland（多條中線時）<br>
         <strong>亞洲：</strong><a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>, <a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a><br>
-        <strong>非洲：</strong>Rwanda（黃色中線 + 白色邊線）</p>
+        <strong>非洲：</strong>Rwanda（黃色中線 + 白色邊線）<br>
+        <strong>⚠️ 混合使用：</strong>Argentina（白虛線、雙黃線、或單黃+白虛混合）, Turkey（大多白線但黃線也不少見，可能全黃或黃白組合）</p>
       </div>
       <div class="meta-info-block">
         <h4>白色中線</h4>
