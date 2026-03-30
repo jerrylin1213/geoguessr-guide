@@ -77,6 +77,12 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵",
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
+  roads: [
+    "右側行駛",
+    "山路多隧道和髮夾彎",
+    "路面品質良好（已開發國家）",
+    "km/h 速限"
+  ],
   landscape: [
     "全境為山地 — 庇里牛斯山脈",
     "較高海拔可見滑雪場",
@@ -234,6 +240,13 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵",
     "無 antenna、無 車頂架 (roof rack)"
   ],
+  roads: [
+    "右側行駛",
+    "良好高速公路與粗糙鄉村道路混合",
+    "白色中心線",
+    "歐式道路標誌",
+    "山路多彎道"
+  ],
   landscape: [
     "全國大部分地區為山地地形",
     "深邃的河谷和峽谷",
@@ -388,6 +401,13 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵",
     "無 antenna、無 車頂架 (roof rack)"
   ],
+  roads: [
+    "<strong>左側行駛</strong>（前英國殖民地）",
+    "英式道路基礎設施",
+    "圓環常見",
+    "黃色中心線和白色邊線",
+    "路面品質良好"
+  ],
   landscape: [
     "地中海島嶼 — 乾燥、多岩地形",
     "中部 Troodos 山脈",
@@ -533,6 +553,12 @@ const COUNTRIES = {
     "Gen 3：白色轎車，標準歐洲配置",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "白色中心線",
+    "歐式道路標誌",
+    "主要公路品質尚可"
+  ],
   landscape: [
     "地形平坦到微幅起伏",
     "茂密森林（近 50% 森林覆蓋率）",
@@ -623,6 +649,13 @@ const COUNTRIES = {
     "Gen 3：白色轎車，灰色 roof rack 和側鏡可見",
     "Gen 4 有限涵蓋",
     "與 Iceland 車不同（Finland 無天線）"
+  ],
+  roads: [
+    "右側行駛",
+    "白色中心線（多條中心線時用黃色）",
+    "路面品質優良",
+    "鄉村碎石路常見",
+    "Bollard：圓柱形，反光片上方空間較小"
   ],
   landscape: [
     "地形平坦到微幅起伏",
@@ -732,6 +765,14 @@ const COUNTRIES = {
     "Gen 4 涵蓋極為有限",
     "⚠️ 因隱私法規，涵蓋範圍有限（比 Austria 稍多）",
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
+  ],
+  roads: [
+    "右側行駛",
+    "<strong>白色中心線和邊線</strong>",
+    "Autobahn — 部分路段無速限",
+    "路面品質優良",
+    "Bollard：<strong>扁平白柱 + 單側矩形反光片 + 黑色條紋，背面有兩個圓形設計</strong>",
+    "Luxembourg 使用類似 bollard"
   ],
   landscape: [
     "北部：平原（北歐平原）",
@@ -1008,6 +1049,14 @@ const COUNTRIES = {
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
+  roads: [
+    "右側行駛",
+    "<strong>白色中心線和邊線</strong>",
+    "Bollard：<strong>反光片到頂部有黑色條紋，罕見垂直矩形反光片</strong>",
+    "類似 Albania bollard",
+    "Autostrada（高速公路）有收費站",
+    "北部路面品質優，南部較差"
+  ],
   landscape: [
     "北部阿爾卑斯山，亞平寧山脈貫穿中部",
     "地中海海岸",
@@ -1051,6 +1100,12 @@ const COUNTRIES = {
   car: [
     "Gen 3：白色轎車",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "新舊高速公路混合",
+    "歐式道路標誌",
+    "路面品質持續改善中"
   ],
   landscape: [
     "西部和南部為山地地形",
@@ -1178,6 +1233,12 @@ const COUNTRIES = {
     "Gen 4：<strong>白色轎車</strong>",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "路面品質優良",
+    "白色中心線",
+    "Bollard：與 Germany 相同設計"
+  ],
   landscape: [
     "起伏丘陵和森林（北部 Ardennes）",
     "東部 Moselle 河谷（葡萄園）",
@@ -1217,6 +1278,12 @@ const COUNTRIES = {
     "靠左行駛（英國殖民遺產）",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "<strong>左側行駛</strong>（英國殖民遺產）",
+    "狹窄城鎮街道",
+    "黃色石牆沿路",
+    "英式道路標誌"
+  ],
   landscape: [
     "小型地中海島嶼 — 乾燥、多岩",
     "到處都是蜂蜜色石灰岩建築",
@@ -1255,6 +1322,12 @@ const COUNTRIES = {
     "Gen 3：白色轎車",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "許多路面品質差",
+    "白色中心線",
+    "大量未鋪設/碎石鄉村道路"
+  ],
   landscape: [
     "起伏丘陵配葡萄園（主要葡萄酒產區）",
     "農業用地為主",
@@ -1291,6 +1364,19 @@ const COUNTRIES = {
     "標準轎車（涵蓋極少）",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "狹窄城市街道",
+    "隧道",
+    "F1 賽道基礎設施可見"
+  ],
+  landscape: [
+    "極度密集高層城市開發",
+    "地中海海岸",
+    "陡峭山坡",
+    "F1 賽道區域",
+    "Casino de Monte-Carlo 周邊"
+  ],
   signs: ["法語", "Monaco 特有的停車和交通標誌"],
   plates: ["Monaco 特有車牌"],
   unique: [
@@ -1313,6 +1399,12 @@ const COUNTRIES = {
     "Gen 3：白色轎車",
     "護柱有<strong>黑帽</strong>（類似 Austrian 風格）",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>有黑色帽蓋</strong>（類似 Austria 風格）",
+    "山路多隧道",
+    "沿海新高速公路 vs 粗糙山路"
   ],
   landscape: [
     "壯觀的亞得里亞海岸線（Kotor 灣）",
@@ -1504,6 +1596,13 @@ const COUNTRIES = {
     "Gen 3：白色轎車，標準歐洲配置",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "Bollard：與 Germany 類似但有<strong>紅色帶作為反光片，帶上常有數字</strong>",
+    "混凝土有孔電桿 — 有時有 A 形支撐",
+    "白色中心線",
+    "高速公路路面優良，鄉村路面差"
+  ],
   landscape: [
     "中部/北部平坦，南部多山（Tatra 山脈）",
     "茂密森林、農業平原",
@@ -1548,6 +1647,14 @@ const COUNTRIES = {
     "Gen 3：白色轎車，標準歐洲配置",
     "Gen 4 涵蓋有限",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>反光片上方空間極小</strong>，反光片可為方形或矩形",
+    "混凝土梯子形電桿（向頂部漸細）",
+    "白色中心線",
+    "高速公路有收費",
+    "城鎮有鵝卵石路面 (calçada)"
   ],
   landscape: [
     "北部丘陵地形，南部平坦的 Alentejo",
@@ -1718,6 +1825,12 @@ const COUNTRIES = {
     "<strong>無天線</strong> — 與大部分東歐國家不同（辨識重點！）",
     "Serbia 和 North Macedonia 是東歐中少數無天線的國家"
   ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>比典型歐洲 bollard 更細，偏離中心的紅色矩形反光片</strong>",
+    "白色中心線",
+    "新高速公路建設中"
+  ],
   landscape: [
     "多瑙河和 Sava 河流經 Belgrade",
     "北部平坦的 Vojvodina，南部多山",
@@ -1756,6 +1869,12 @@ const COUNTRIES = {
     "Gen 4：<strong>紅色轎車</strong>",
     "Gen 3：白色轎車，天線有膠帶",
     "護柱：<strong>分裂反光片 + 弧形設計</strong>"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>分裂式反光片 + 彎曲設計</strong>（vs Czech 楔形）",
+    "路面品質良好",
+    "白色中心線"
   ],
   landscape: [
     "北部 High Tatras 山脈",
@@ -1797,6 +1916,12 @@ const COUNTRIES = {
     "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2023）",
     "Gen 3：白色轎車",
     "護柱有<strong>黑帽</strong>（類似 Austrian 風格但反光片較淺）"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>有黑色帽蓋但反光片較淺</strong>（vs Austria 深色反光片）",
+    "良好高速公路網",
+    "白色中心線"
   ],
   landscape: [
     "西北部為高山（Julian Alps）",
@@ -1840,6 +1965,14 @@ const COUNTRIES = {
     "Gen 3：白色轎車，標準歐洲配置",
     "Gen 4 涵蓋有限",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "Bollard：<strong>黃色反光片帶微凹</strong>",
+    "白色中心線和邊線",
+    "良好的 autopista/autovía 高速公路網",
+    "梯子形電桿（類似 France）",
+    "藍色高速公路標誌"
   ],
   landscape: [
     "中部 Meseta — 乾燥高原",
@@ -2203,6 +2336,19 @@ const COUNTRIES = {
     "無標準 Google 車輛辨識特徵",
     "靠左行駛"
   ],
+  roads: [
+    "左側行駛",
+    "山路髮夾彎",
+    "單車道路面常見",
+    "路況不佳"
+  ],
+  landscape: [
+    "喜馬拉雅山脈",
+    "山坡茂密森林",
+    "佛教寺院（dzong）",
+    "經幡隨處可見",
+    "傳統不丹建築"
+  ],
   signs: [
     "宗喀語（藏文字母） — 有頂部橫線的方角字形",
     "標誌上也使用英文"
@@ -2538,6 +2684,12 @@ const COUNTRIES = {
     "靠左行駛（與 Singapore, Indonesia 相同）",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "<strong>左側行駛</strong>",
+    "Bollard：五段式設計帶反光片",
+    "<strong>雙白色中心線</strong>常見",
+    "高速公路路面品質良好"
+  ],
   landscape: [
     "熱帶 — 到處都是油棕種植園",
     "馬來半島：都市與叢林並存",
@@ -2628,6 +2780,12 @@ const COUNTRIES = {
     "靠左行駛",
     "極少可見標準 Google 車輛"
   ],
+  roads: [
+    "左側行駛",
+    "山路 — 狹窄蜿蜒",
+    "路面品質通常很差",
+    "大量未鋪設山路"
+  ],
   landscape: [
     "喜馬拉雅山 — 世界最高山脈（聖母峰）",
     "海拔變化劇烈",
@@ -2663,6 +2821,12 @@ const COUNTRIES = {
     "Gen 3：白色轎車（後方白色可見，有時前方有黑色部分）",
     "靠右行駛",
     "無特殊 antenna 或 roof rack 特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "<strong>三條中心線</strong>（部分區域）",
+    "木製十字架形電桿 — 非常獨特",
+    "Jeepney 在路上"
   ],
   landscape: [
     "熱帶群島 — 超過 7,000 個島嶼",
@@ -2705,6 +2869,11 @@ const COUNTRIES = {
     "標準白色轎車",
     "靠左行駛",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "左側行駛",
+    "路面品質極優",
+    "ERP 電子道路收費閘門可見"
   ],
   landscape: [
     "小型城市國家 — 完全都市化／郊區化",
@@ -2789,6 +2958,12 @@ const COUNTRIES = {
     "靠右行駛",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "<strong>圓柱形混凝土電桿帶斜向黑黃條紋延伸到地面</strong>",
+    "路面品質良好",
+    "機車大量出現"
+  ],
   landscape: [
     "內陸多山（中央山脈）",
     "亞熱帶氣候",
@@ -2831,6 +3006,13 @@ const COUNTRIES = {
     "靠左行駛",
     "無特殊 antenna 或 roof rack 特徵"
   ],
+  roads: [
+    "<strong>左側行駛</strong>",
+    "Bollard：<strong>黑白色塊 + 金字塔頂</strong>（類似 Indonesia）",
+    "<strong>黃色中心線</strong>",
+    "路面品質良好（高速公路）",
+    "藍白盾牌編號公路標誌"
+  ],
   landscape: [
     "熱帶 — 翠綠茂密的植被",
     "平坦的中部平原（稻田）",
@@ -2872,6 +3054,12 @@ const COUNTRIES = {
     "Gen 3：標準白色轎車",
     "靠右行駛",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "路面品質不一",
+    "機車主導所有道路",
+    "白色中心線"
   ],
   landscape: [
     "多樣化：北部山區、南部湄公河三角洲",
@@ -2917,6 +3105,13 @@ const COUNTRIES = {
     "黑色車 + 長天線 = Russia/Israel/Palestine/Donetsk",
     "Hebrew 文字 + 黑色車 + 長天線 = Israel"
   ],
+  roads: [
+    "右側行駛",
+    "<strong>黃色邊線</strong>（非常獨特）",
+    "白色中心線",
+    "路面品質良好",
+    "軍事檢查站有時可見"
+  ],
   landscape: [
     "西部為地中海海岸",
     "南部為內蓋夫沙漠",
@@ -2959,6 +3154,12 @@ const COUNTRIES = {
     "<strong>無天線</strong>（與 Israel 黑色車有天線不同 — 辨識重點！）",
     "黑色車 vs UAE 白色車 — 這是分辨兩國最簡單的方式",
     "黃色邊線（如 Israel）"
+  ],
+  roads: [
+    "右側行駛",
+    "<strong>黃色邊線</strong>（如 Israel）",
+    "沙漠公路 — 長直路段",
+    "路面品質尚可"
   ],
   landscape: [
     "沙漠 — 乾旱地形為主",
@@ -3031,6 +3232,13 @@ const COUNTRIES = {
     "Gen 4 涵蓋也有白色車",
     "無特殊 antenna 或 roof rack"
   ],
+  roads: [
+    "右側行駛",
+    "現代多車道高速公路",
+    "<strong>黃色邊線</strong>",
+    "路面品質極優",
+    "路邊有沙"
+  ],
   landscape: [
     "沙漠中的超現代城市",
     "杜拜：摩天大樓（哈里發塔）",
@@ -3064,6 +3272,17 @@ const COUNTRIES = {
     "天線在車左側",
     "沙漠景觀 + 白色 truck = Qatar/Oman/UAE 之一",
     "與 UAE 區別：Qatar 是 truck，UAE 是轎車"
+  ],
+  roads: [
+    "右側行駛",
+    "現代多車道高速公路",
+    "路面品質優良",
+    "路邊有沙"
+  ],
+  landscape: [
+    "平坦沙漠半島",
+    "Doha 現代天際線",
+    "大量建設工程"
   ],
   signs: ["阿拉伯文 + 英文雙語"],
   plates: ["卡達車牌"],
@@ -3428,34 +3647,34 @@ const COUNTRIES = {
 'bermuda': {
   name: 'Bermuda', localName: 'Bermuda', flag: '🇧🇲', region: 'caribbean',
   drivingSide: 'left', tld: '.bm', phoneCode: '+1-441', language: 'English', currency: 'Bermudian Dollar (BMD)',
-  camera: ["Gen 3 覆蓋", "Limited coverage — small island territory"],
+  camera: ["Gen 3 覆蓋", "覆蓋有限 — 小型島嶼領土"],
   car: [
     "<strong>黑色 pickup truck（皮卡車）</strong> — 非一般轎車",
     "Bermuda 使用 pickup truck 而非標準 Google car — 這是極強的辨識特徵"
   ],
   roads: [
-    "靠左行駛 (British territory)",
-    "Narrow roads with 35 km/h speed limit (world's lowest)",
-    "No rental cars allowed — only scooters and taxis",
+    "靠左行駛（英國領土）",
+    "窄路配 35 km/h 速限（全球最低）",
+    "不允許租車 — 只有機車和計程車",
     "道路品質良好"
   ],
   landscape: [
-    "Pink sand beaches",
-    "Subtropical island — lush green vegetation",
-    "Pastel-colored houses",
-    "British 殖民時期 architecture"
+    "粉色沙灘",
+    "亞熱帶島嶼 — 鬱鬱蔥蔥的綠色植被",
+    "粉彩色房屋",
+    "英國殖民時期建築"
   ],
-  signs: ["English — 英國風格路標"],
-  plates: ["Bermuda plates"],
+  signs: ["英語 — 英國風格路標"],
+  plates: ["Bermuda 車牌"],
   unique: [
     "<strong>黑色 pickup truck（皮卡車）</strong> — 非常罕見的 Google Street View 車輛",
-    "靠左行駛 + English + subtropical island",
-    "Pastel-colored houses and pink sand",
-    "British territory in North Atlantic"
+    "靠左行駛 + 英語 + 亞熱帶島嶼",
+    "粉彩色房屋和粉色沙灘",
+    "北大西洋的英國領土"
   ],
   tips: [
     "黑色 pickup truck + 左駕 + 英文 + 亞熱帶島嶼 = Bermuda",
-    "Very rare spawn — small territory"
+    "非常罕見的出生點 — small territory"
   ]
 },
 
@@ -3468,23 +3687,23 @@ const COUNTRIES = {
     "Christmas Island 使用銀色 pickup truck — 與 Bermuda 的黑色 pickup 不同"
   ],
   roads: [
-    "靠左行駛 (Australian territory)",
-    "Limited road network",
+    "靠左行駛（澳洲領土）",
+    "有限的道路網絡",
     "道路品質不一"
   ],
   landscape: [
-    "熱帶島嶼 covered in dense rainforest",
-    "Red crabs (famous annual migration)",
-    "Coastal cliffs and phosphate mining areas",
-    "Indian Ocean — between Australia and Indonesia"
+    "覆蓋茂密雨林的熱帶島嶼",
+    "紅蟹（著名的年度遷徙）",
+    "海岸懸崖和磷礦開採區",
+    "印度洋 — 位於 Australia 和 Indonesia 之間"
   ],
-  signs: ["English — Australian-style signs"],
-  plates: ["Australian plates"],
+  signs: ["英語 — 澳洲風格標誌"],
+  plates: ["澳洲車牌"],
   unique: [
     "<strong>銀色 pickup truck（皮卡車）</strong> — 與 Bermuda 的黑色 pickup 不同",
-    "Australian territory in Indian Ocean",
-    "Dense tropical rainforest + coastal cliffs",
-    "Very rare spawn"
+    "印度洋中的澳洲領土",
+    "茂密的熱帶雨林 + 海岸懸崖",
+    "非常罕見的出生點"
   ],
   tips: [
     "銀色 pickup truck + 左駕 + 英文 + 熱帶島嶼 = Christmas Island",
@@ -3828,6 +4047,12 @@ const COUNTRIES = {
     "Kruger National Park：<strong>迷彩花紋車</strong>（全球唯一！）",
     "靠左行駛"
   ],
+  roads: [
+    "<strong>左側行駛</strong>",
+    "<strong>三條中心線</strong>（如 Philippines、Uruguay）",
+    "<strong>黃色邊線</strong>（與 Botswana、Lesotho、Eswatini 共享）",
+    "紅白 V 形 (chevrons) 電桿標記"
+  ],
   landscape: [
     "多元地貌：Cape Town 海岸、Drakensberg 山脈、Highveld 高原、Karoo 半沙漠",
     "可見 township 棚戶區",
@@ -3991,6 +4216,11 @@ const COUNTRIES = {
     "黃色邊線",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "左側行駛",
+    "<strong>三條中心線</strong>（如 South Africa）",
+    "<strong>黃色邊線</strong>"
+  ],
   landscape: [
     "Kalahari 沙漠 — 乾燥草原",
     "Okavango Delta 三角洲",
@@ -4021,6 +4251,18 @@ const COUNTRIES = {
     "靠左行駛",
     "大量碎石路、筆直的沙漠長路"
   ],
+  roads: [
+    "左側行駛",
+    "大量碎石路 (gravel roads)",
+    "長直沙漠公路",
+    "路面品質差異大"
+  ],
+  landscape: [
+    "Namib 沙漠 — 沙丘（Sossusvlei）",
+    "Skeleton Coast",
+    "極度稀少人口",
+    "部分城鎮有德國殖民建築"
+  ],
   signs: ["英語", "部分地區可見德語（殖民遺產）", "也使用 Afrikaans 南非荷蘭語"],
   plates: ["Namibia 格式"],
   unique: [
@@ -4046,6 +4288,11 @@ const COUNTRIES = {
     "Gen 3：有 roof rack 的車（無特殊 rack 標記）",
     "Dakar 地區：引擎蓋/車頭更明顯可見",
     "有時可見紅色棍子標記（沿 N2/R32 路段）"
+  ],
+  roads: [
+    "右側行駛",
+    "法式 bollard（紅色/灰色反光帶環繞主體）",
+    "法式影響的道路基礎設施"
   ],
   landscape: [
     "平坦、半乾旱的 Sahel 地帶",
@@ -4076,6 +4323,18 @@ const COUNTRIES = {
     "法國風格的道路基礎設施",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "高速公路品質良好",
+    "法語+阿拉伯語混合路標"
+  ],
+  landscape: [
+    "Atlas 山脈",
+    "南部 Sahara 沙漠",
+    "地中海/大西洋海岸",
+    "Medina 老城區（Marrakech、Fez）",
+    "紅色/赤陶色建築（Marrakech）"
+  ],
   signs: [
     "阿拉伯語 + 法語雙語標誌",
     "有時也可見 Berber 柏柏爾語（Tifinagh 字母）",
@@ -4105,6 +4364,11 @@ const COUNTRIES = {
     "<strong>有 follow car</strong>：北部（Hammamet 以北）= 淺綠色 Toyota；中南部 = 深綠色 Mazda",
     "Follow car 顏色可辨識南北位置"
   ],
+  roads: [
+    "右側行駛",
+    "<strong>金屬鐵絲型電桿</strong>（非常獨特）",
+    "法式影響的道路系統"
+  ],
   landscape: [
     "北部為地中海海岸",
     "南部為 Sahara 沙漠",
@@ -4133,6 +4397,18 @@ const COUNTRIES = {
     "Gen 3：標準轎車",
     "無特殊車輛辨識特徵"
   ],
+  roads: [
+    "右側行駛",
+    "密集城市交通",
+    "路面品質不一"
+  ],
+  landscape: [
+    "Nile 河谷 — 沙漠中的綠色帶",
+    "Sahara 沙漠",
+    "Cairo 附近可見金字塔",
+    "密集城市（Cairo）",
+    "紅海海岸"
+  ],
   signs: ["阿拉伯語為主", "有時附加英語"],
   plates: ["Egypt 格式，含阿拉伯數字"],
   unique: [
@@ -4154,6 +4430,17 @@ const COUNTRIES = {
   car: [
     "Gen 3：標準轎車",
     "無特殊車輛辨識特徵"
+  ],
+  roads: [
+    "右側行駛",
+    "路面品質多處不佳",
+    "白色中心線"
+  ],
+  landscape: [
+    "Ethiopian Highlands — 高原台地",
+    "Great Rift Valley",
+    "半乾旱低地",
+    "岩石雕鑿教堂（Lalibela）"
   ],
   signs: [
     "<strong>Ge'ez（Ethiopic）字母</strong> — 獨特的音節書寫系統",
@@ -4181,18 +4468,29 @@ const COUNTRIES = {
     "標準轎車",
     "無特殊車輛辨識特徵"
   ],
-  signs: ["Malagasy (Austronesian language!) + French"],
-  plates: ["Malagasy format"],
+  roads: [
+    "右側行駛",
+    "路面品質差",
+    "大量未鋪設路面"
+  ],
+  landscape: [
+    "紅色土壤（非常獨特）",
+    "猴麵包樹 (Baobab trees)",
+    "東部雨林",
+    "獨特生物多樣性"
+  ],
+  signs: ["馬達加斯加語（南島語系！）+ 法語"],
+  plates: ["馬達加斯加格式"],
   unique: [
-    "Malagasy language — Austronesian (related to Indonesian/Malay, NOT African!)",
-    "Red soil",
-    "Baobab trees",
-    "Island setting",
-    "French as second language"
+    "馬達加斯加語 — 南島語系（與印尼/馬來語有關，不是非洲語言！）",
+    "紅色土壤",
+    "猴麵包樹",
+    "島嶼環境",
+    "法語為第二語言"
   ],
   tips: [
-    "French + Austronesian-looking language + red soil = Madagascar",
-    "Malagasy words look more Asian than African"
+    "法語 + 南島語系外觀的語言 + 紅土 = Madagascar",
+    "馬達加斯加語詞彙看起來更像亞洲語言而非非洲語言"
   ]
 },
 
@@ -4206,24 +4504,24 @@ const COUNTRIES = {
     "Ghana 膠帶在<strong>前</strong>桿，Réunion 膠帶在<strong>後</strong>桿 — 重要區別",
     "法屬海外領土，法式道路基礎設施"
   ],
-  roads: ["French-style road infrastructure", "Good quality — French territory"],
+  roads: ["法式道路基礎設施", "品質良好 — 法國領土"],
   landscape: [
-    "火山 tropical island in Indian Ocean",
-    "Piton de la Fournaise (active volcano)",
-    "Lush tropical vegetation",
+    "印度洋中的火山熱帶島嶼",
+    "Piton de la Fournaise（活火山）",
+    "鬱鬱蔥蔥的熱帶植被",
     "山地地形"
   ],
   signs: ["法語"],
-  plates: ["French plates (FR format)"],
+  plates: ["法國車牌（FR 格式）"],
   unique: [
-    "<strong>Black tape on REAR crossbar only</strong> (Ghana = FRONT crossbar)",
-    "French territory in Indian Ocean — uses Euro",
-    "火山 tropical island",
-    "French road infrastructure in tropical setting"
+    "<strong>僅後橫桿有黑色膠帶</strong>（Ghana = 前橫桿）",
+    "印度洋中的法國領土 — 使用歐元",
+    "火山熱帶島嶼",
+    "熱帶環境中的法式道路基礎設施"
   ],
   tips: [
-    "Black tape on rear crossbar = Réunion (Ghana = front crossbar)",
-    "French + tropical volcanic island = Réunion"
+    "後橫桿有黑色膠帶 = Réunion（Ghana = 前橫桿）",
+    "法語 + 熱帶火山島 = Réunion"
   ]
 },
 
@@ -4270,23 +4568,34 @@ const COUNTRIES = {
 'tanzania': {
   name: 'Tanzania', localName: 'Tanzania', flag: '🇹🇿', region: 'africa',
   drivingSide: 'left', tld: '.tz', phoneCode: '+255', language: 'Swahili, English', currency: 'Shilling (TZS)',
-  camera: ["Gen 3 覆蓋", "主要道路有覆蓋 routes"],
+  camera: ["Gen 3 覆蓋", "主要道路有覆蓋"],
   car: [
     "Gen 3：標準轎車",
     "靠左行駛",
     "無特殊車輛辨識特徵"
   ],
-  signs: ["Swahili (dominant) + English"],
-  plates: ["Tanzanian format"],
+  roads: [
+    "左側行駛",
+    "路面品質不一",
+    "主要公路尚可"
+  ],
+  landscape: [
+    "Kilimanjaro 可見於北部",
+    "Serengeti 大草原",
+    "Zanzibar — 熱帶島嶼",
+    "Ngorongoro 火山口地區"
+  ],
+  signs: ["斯瓦希里語（主導）+ 英語"],
+  plates: ["Tanzania 格式"],
   unique: [
-    "Swahili dominant on signs (more than Kenya)",
-    "Kilimanjaro visible",
-    "Serengeti landscape",
-    "More Swahili-dominant than Kenya"
+    "標誌上斯瓦希里語為主（比 Kenya 多）",
+    "可見吉力馬扎羅山",
+    "塞倫蓋蒂景觀",
+    "比 Kenya 更以斯瓦希里語為主"
   ],
   tips: [
-    "Swahili-heavy signs + 大草原 (savanna) + 靠左行駛 = Tanzania",
-    "Kenya has more English; Tanzania has more Swahili"
+    "斯瓦希里語為主的標誌 + 大草原 (savanna) + 靠左行駛 = Tanzania",
+    "Kenya 有更多英語；Tanzania 有更多斯瓦希里語"
   ]
 },
 
@@ -4300,23 +4609,28 @@ const COUNTRIES = {
     "車頂有<strong>紅色煞車燈</strong>可見",
     "相機支架幾乎都可見"
   ],
-  landscape: [
-    "'Land of a Thousand Hills' — very hilly terrain",
-    "翠綠茂密 vegetation",
-    "Terraced hillsides",
-    "Clean and organized for Africa"
+  roads: [
+    "右側行駛",
+    "<strong>黃色中心線 + 白色邊線</strong>（類似美洲慣例）",
+    "道路品質出奇地好（對非洲而言）"
   ],
-  signs: ["Kinyarwanda + French + English (trilingual)"],
-  plates: ["Rwandan format"],
+  landscape: [
+    "「千丘之國」— 地勢非常多丘陵",
+    "翠綠茂密的植被",
+    "梯田山坡",
+    "對非洲而言非常乾淨有序"
+  ],
+  signs: ["基尼亞盧安達語 + 法語 + 英語（三語）"],
+  plates: ["Rwanda 格式"],
   unique: [
-    "Yellow center + white side lines (like Americas convention)",
-    "Very hilly, terraced landscape",
-    "Clean and organized infrastructure (unusual for Africa)",
+    "黃色中線 + 白色邊線（類似美洲慣例）",
+    "地勢非常多丘陵、有梯田",
+    "乾淨有序的基礎設施（在非洲不常見）",
     "三語標誌"
   ],
   tips: [
-    "Very green, hilly, clean + yellow road lines + trilingual = Rwanda",
-    "Surprisingly 維護良好的 for African country"
+    "非常綠、多丘陵、乾淨 + 黃色道路標線 + 三語 = Rwanda",
+    "對非洲國家而言維護良好得出乎意料"
   ]
 },
 
@@ -4328,8 +4642,8 @@ const COUNTRIES = {
   name: 'Australia', localName: 'Australia', flag: '🇦🇺', region: 'oceania',
   drivingSide: 'left', tld: '.au', phoneCode: '+61', language: 'English', currency: 'Dollar (AUD)',
   camera: [
-    "Gen 1 (early), Gen 2, Gen 3, Gen 4 — all present",
-    "Most extensively covered country in Southern Hemisphere"
+    "Gen 1（早期）、Gen 2、Gen 3、Gen 4 — 全部都有",
+    "南半球覆蓋最廣的國家"
   ],
   car: [
     "Gen 1/3：有天線",
@@ -4338,42 +4652,49 @@ const COUNTRIES = {
     "靠左行駛",
     "Gen 4 車輛缺乏顯著特徵，難以單靠 car meta 辨識"
   ],
+  roads: [
+    "<strong>左側行駛</strong>",
+    "Bollard：<strong>簡單白色小柱 + 細紅色反光片在道路左側</strong>",
+    "白色中心線和邊線",
+    "袋鼠/野生動物警告標誌",
+    "路面品質良好"
+  ],
   landscape: [
-    "Vast outback — desert/semi-arid",
-    "Tropical north (Queensland)",
-    "Temperate southeast (Melbourne, Sydney)",
-    "Eucalyptus trees everywhere",
-    "Unique wildlife"
+    "遼闊的內陸荒野 — 沙漠/半乾旱",
+    "熱帶北部（Queensland）",
+    "溫帶東南部（Melbourne、Sydney）",
+    "到處都是桉樹",
+    "獨特的野生動物"
   ],
   signs: [
-    "English",
-    "Speed in km/h",
+    "英語",
+    "速限以 km/h 計",
     "高速公路使用綠色標誌"
   ],
   plates: [
-    "Vary by state — many different designs",
-    "NSW: yellow, VIC: white/blue, QLD: maroon"
+    "各州不同 — 許多不同設計",
+    "NSW：黃色、VIC：白/藍色、QLD：栗色"
   ],
   unique: [
-    "<strong>White bollards with thin red reflectors on LEFT</strong>",
-    "Kangaroo/wildlife warning signs",
-    "Eucalyptus forests",
-    "Vast desert outback",
-    "靠左行駛 + English + km/h",
-    "Unique wildlife crossing signs (kangaroo, wombat, etc.)"
+    "<strong>白色 bollard 配左側細紅色反光片</strong>",
+    "袋鼠/野生動物警告標誌",
+    "桉樹林",
+    "遼闊的沙漠荒野",
+    "靠左行駛 + 英語 + km/h",
+    "獨特的野生動物穿越標誌（袋鼠、袋熊等）"
   ],
   tips: [
-    "English + 靠左行駛 + km/h + huge empty landscape = Australia",
-    "Thin red reflector bollards on left side = Australia",
-    "Kangaroo signs = Australia",
-    "Much larger and drier than New Zealand"
+    "英語 + 靠左行駛 + km/h + 巨大空曠景觀 = Australia",
+    "左側細紅色反光片 bollard = Australia",
+    "袋鼠標誌 = Australia",
+    "比 New Zealand 大得多且更乾燥"
   ]
 },
 
 'new-zealand': {
   name: 'New Zealand', localName: 'Aotearoa', flag: '🇳🇿', region: 'oceania',
   drivingSide: 'left', tld: '.nz', phoneCode: '+64', language: 'English, Māori', currency: 'Dollar (NZD)',
-  camera: ["Gen 1 limited, Gen 2, Gen 3, Gen 4"],
+  camera: ["Gen 1 有限、Gen 2、Gen 3、Gen 4"],
   car: [
     "Gen 4：<strong>藍色轎車</strong>",
     "Gen 1-3：白色轎車",
@@ -4382,35 +4703,35 @@ const COUNTRIES = {
   ],
   roads: [
     "靠左行駛",
-    "Bollards: Similar to Australia but <strong>wider red band</strong>",
+    "Bollard：類似 Australia 但<strong>紅色帶更寬</strong>",
     "白色中線",
-    "Many winding 山路"
+    "許多蜿蜒的山路"
   ],
   landscape: [
-    "North Island: green rolling hills, volcanoes, geothermal areas",
-    "South Island: Southern Alps, fjords, glaciers",
-    "Very green and lush",
+    "北島：綠色起伏丘陵、火山、地熱區",
+    "南島：南阿爾卑斯山、峽灣、冰川",
+    "非常綠色且茂密",
     "到處都是羊",
-    "Much more mountainous than Australia"
+    "比 Australia 多山得多"
   ],
   signs: [
-    "English + <strong>Māori language</strong> — 雙語標誌",
-    "Māori place names (Whangarei, Tauranga, Whakatane)",
-    "Māori uses macrons: ā, ē, ī, ō, ū"
+    "英語 + <strong>毛利語</strong> — 雙語標誌",
+    "毛利語地名（Whangarei、Tauranga、Whakatane）",
+    "毛利語使用長音符號：ā、ē、ī、ō、ū"
   ],
-  plates: ["Various NZ formats"],
+  plates: ["各種 NZ 格式"],
   unique: [
-    "Wider red band bollards (vs Australia's thin)",
-    "Māori 雙語標誌",
-    "Dramatic mountainous landscape (vs Australia's flat outback)",
-    "Very green and lush (vs Australia's dry)",
-    "Much smaller than Australia",
-    "Three-ridge antenna on Gen 4 car"
+    "更寬紅色帶 bollard（相對 Australia 的細窄紅色帶）",
+    "毛利語雙語標誌",
+    "壯觀的多山景觀（相對 Australia 的平坦荒野）",
+    "非常綠色且茂密（相對 Australia 的乾燥）",
+    "比 Australia 小得多",
+    "Gen 4 車上的三脊天線"
   ],
   tips: [
-    "English + Māori 雙語標誌 = New Zealand",
-    "Green mountains + 靠左行駛 + English = New Zealand (not Australia)",
-    "Australia is dry/flat, New Zealand is green/mountainous"
+    "英語 + 毛利語雙語標誌 = New Zealand",
+    "綠色山脈 + 靠左行駛 + 英語 = New Zealand（不是 Australia）",
+    "Australia 乾燥/平坦，New Zealand 綠色/多山"
   ]
 },
 
@@ -4425,12 +4746,12 @@ const COUNTRIES = {
     language: 'Belarusian / Russian',
     currency: 'Belarusian Ruble (BYN)',
     camera: [
-      "Almost exclusively trekker/volunteer coverage — NOT official Google cars",
-      "Trekker coverage is immediately obvious: lower camera height, often shaky",
-      "覆蓋非常有限 overall — mainly in cities like Minsk and along main roads",
-      "Low quality and patchy imagery compared to neighboring countries",
-      "Some Yandex Maps coverage exists but not in GeoGuessr",
-      "Coverage may appear in unexpected locations from individual contributors"
+      "幾乎完全是 trekker/志願者覆蓋 — 非官方 Google 車",
+      "Trekker 覆蓋一看就知道：相機高度較低，常搖晃",
+      "覆蓋非常有限 — 主要在 Minsk 等城市和主要道路",
+      "與鄰國相比畫質低且不連貫",
+      "存在 Yandex Maps 覆蓋但不在 GeoGuessr 中",
+      "覆蓋可能在意外地點出現（來自個人貢獻者）"
     ],
     car: [
       '非標準 Google 車 — trekker 或車載設備',
@@ -4438,50 +4759,50 @@ const COUNTRIES = {
       '無天線、snorkel 或標準 Google 車特徵'
     ],
     roads: [
-      "Roads range from 維護良好的 highways near Minsk to poor rural roads",
-      "White road markings on major highways",
-      "Soviet-era road design with wide multi-lane boulevards in cities",
-      "M-road and P-road numbering system (M for main, P for regional)",
-      "Road surface quality drops significantly outside major cities",
-      "Many straight, flat roads through agricultural areas"
+      "道路從 Minsk 附近維護良好的公路到差的鄉村道路都有",
+      "主要公路上有白色道路標線",
+      "城市中有蘇聯時期寬闊多車道大道的道路設計",
+      "M 道路和 P 道路編號系統（M 為主要、P 為地區性）",
+      "大城市以外路面品質大幅下降",
+      "許多穿越農業地區的直且平坦道路"
     ],
     landscape: [
-      "平坦的 terrain — one of the flattest countries in Europe",
-      "Dense forests (about 40% of the country is forested)",
-      "蘇聯時期公寓大樓 dominate urban areas",
-      "Agricultural fields interspersed with birch and pine forests",
-      "Clean, orderly Soviet-planned city layouts",
-      "Memorial sites from WWII scattered throughout",
-      "Few distinguishing natural landmarks"
+      "平坦地形 — 歐洲最平坦的國家之一",
+      "茂密森林（約 40% 國土被森林覆蓋）",
+      "蘇聯時期公寓大樓主導城市地區",
+      "農田與白樺和松林交錯",
+      "乾淨、有序的蘇聯規劃城市佈局",
+      "二戰紀念場所散佈全國",
+      "很少有獨特的自然地標"
     ],
     signs: [
-      "Dual language signs: Belarusian (Cyrillic) and sometimes Russian",
-      "Belarusian Cyrillic uses unique letters: Ў (short U), І (Ukrainian-style I)",
-      "Road signs follow standard European/Soviet format",
-      "City entrance signs have Cyrillic names",
-      "距離標記以公里計 along main roads",
-      "Green directional signs on main highways"
+      "雙語標誌：白俄羅斯語（西里爾字母）和有時俄語",
+      "白俄羅斯西里爾字母有獨特字母：Ў（短 U）、І（烏克蘭式 I）",
+      "路標遵循標準歐洲/蘇聯格式",
+      "城市入口標誌有西里爾字母名稱",
+      "主要道路沿線有公里距離標記",
+      "主要公路上有綠色方向指示牌"
     ],
     plates: [
-      "No EU blue stripe — Belarus is not an EU member",
-      "白色車牌 with black text and a small national flag emblem",
-      "Regional number at left indicates the oblast (region)",
-      "Distinctive from Russian plates by the flag/emblem placement",
-      "Plates are wider format similar to Russian style"
+      "無 EU 藍色條紋 — Belarus 不是 EU 成員",
+      "白色車牌黑色字配小型國旗徽章",
+      "左側的地區號碼表示州（oblast）",
+      "通過旗幟/徽章位置與 Russia 車牌區分",
+      "車牌為較寬格式，類似俄式風格"
     ],
     unique: [
-      "Trekker/volunteer coverage is the biggest giveaway — 立即辨識zable",
-      "Lower camera height and shaky imagery distinguish it from neighbors",
-      "Belarusian Ў letter is unique to Belarus worldwide",
-      "Soviet-style urban planning is extremely prevalent",
-      "Limited overall coverage makes it relatively rare in world games"
+      "Trekker/志願者覆蓋是最大的辨識線索 — 立即可辨識",
+      "較低的相機高度和搖晃影像與鄰國區分",
+      "白俄羅斯字母 Ў 是全球 Belarus 獨有",
+      "蘇聯式城市規劃極為普遍",
+      "整體覆蓋有限使其在世界遊戲中相對罕見"
     ],
     tips: [
-      "If coverage looks like trekker (shaky, low, inconsistent) + Cyrillic text = think Belarus",
-      "The letter Ў is found only in Belarusian — instant confirmation",
-      "Don't confuse with Russia: Belarus has much less coverage and different plate style",
-      "平坦的 terrain + forests + Soviet architecture + trekker coverage = Belarus",
-      "Very rare in competitive play due to limited coverage"
+      "如果覆蓋看起來像 trekker（搖晃、低、不一致）+ 西里爾文字 = 想到 Belarus",
+      "字母 Ў 只在白俄羅斯語中存在 — 立即確認",
+      "不要與 Russia 混淆：Belarus 覆蓋少得多且車牌風格不同",
+      "平坦地形 + 森林 + 蘇聯建築 + trekker 覆蓋 = Belarus",
+      "因覆蓋有限在競技遊戲中非常罕見"
     ]
   },
 
@@ -4500,12 +4821,12 @@ const COUNTRIES = {
     language: 'Urdu, English',
     currency: 'Pakistani Rupee (PKR)',
     camera: [
-      'Only Trekker coverage — no Google Street View car',
-      'Gen 3 Trekker coverage at historical monuments and temples',
-      'Most coverage is in Lahore and religious/historical sites',
-      'Only about two dozen locations with Street View coverage',
-      'When panning down, you see the outline of a person carrying the camera',
-      'Coverage extremely limited — Pakistan is very rare in GeoGuessr'
+      '僅有 Trekker 覆蓋 — 無 Google 街景車',
+      'Gen 3 Trekker 覆蓋歷史古蹟和寺廟',
+      '大部分覆蓋在 Lahore 和宗教/歷史景點',
+      '僅約二十幾個地點有街景覆蓋',
+      '向下看時可見背負相機的人的輪廓',
+      '覆蓋極為有限 — Pakistan 在 GeoGuessr 中非常罕見'
     ],
     car: [
       '非標準車輛 — 全為 Trekker 涵蓋（人背負相機）',
@@ -4513,54 +4834,54 @@ const COUNTRIES = {
       '無 follow car meta'
     ],
     roads: [
-      'Coverage mostly at historical monuments, not roads',
-      'When road coverage exists, roads have concrete or asphalt surfaces',
-      'Metal or concrete utility poles visible in some areas',
-      '綠色高速公路標誌配白色文字 on major roads',
-      'Motorway signs similar to UK style',
-      'Road infrastructure varies dramatically between cities and rural areas',
-      'Speed breakers common in urban areas'
+      '覆蓋主要在歷史古蹟，而非道路',
+      '有道路覆蓋時，路面為混凝土或柏油',
+      '部分地區可見金屬或水泥電線桿',
+      '主要道路上有綠色高速公路標誌配白色文字',
+      '高速公路標誌類似英國風格',
+      '城市和鄉村地區的道路基礎設施差異極大',
+      '城市地區減速帶常見'
     ],
     landscape: [
-      'Diverse — from Karakoram mountains to Punjab plains to Balochistan desert',
-      'Lahore: flat terrain with Mughal-era architecture',
-      'Northern areas: dramatic mountain scenery (K2, Nanga Parbat)',
-      'Sindh/Punjab: flat agricultural plains',
-      'Balochistan: arid desert terrain',
-      'Mosques and minarets visible in most covered areas',
-      'Dense urban areas in Lahore and Islamabad'
+      '地形多樣 — 從喀喇崑崙山到旁遮普平原到俾路支沙漠',
+      'Lahore：平坦地形有莫臥兒時期建築',
+      '北部地區：壯觀的山景（K2、Nanga Parbat）',
+      'Sindh/Punjab：平坦農業平原',
+      'Balochistan：乾旱沙漠地形',
+      '大多數覆蓋地區可見清真寺和宣禮塔',
+      'Lahore 和 Islamabad 有密集城市地區'
     ],
     signs: [
-      'Urdu script (اردو) — written right-to-left, similar to Arabic but with additional characters',
-      'Urdu has dots above and below letters (nastaliq style calligraphy)',
-      'Signs bilingual: Urdu + English',
-      'English is widely used on commercial signage',
-      'Arabic-looking script but with distinct Urdu-specific characters',
-      'Highway signs in green with white text and English translations'
+      '烏爾都文字（اردو）— 從右到左書寫，類似阿拉伯文但有額外字符',
+      '烏爾都文字在字母上下方有點（波斯體書法風格）',
+      '標誌為雙語：烏爾都語 + 英語',
+      '英語廣泛用於商業標誌',
+      '看起來像阿拉伯文但有獨特的烏爾都語特有字符',
+      '公路標誌為綠底白字附英文翻譯'
     ],
     plates: [
-      'White plates with black lettering and black border',
-      'Green plates for government/military vehicles',
-      'Province abbreviations on plates (PB = Punjab, SD = Sindh, etc.)',
-      'Motorcycle plates are common',
-      'Format varies by province',
-      'Plates are often bilingual (Urdu + English numerals)'
+      '白色車牌黑色字和黑色邊框',
+      '綠色車牌為政府/軍用車輛',
+      '車牌上有省份縮寫（PB = Punjab、SD = Sindh 等）',
+      '機車車牌常見',
+      '格式因省份而異',
+      '車牌常為雙語（烏爾都語 + 英文數字）'
     ],
     unique: [
-      'Trekker coverage at historical Mughal/Sikh temples and monuments is characteristic',
-      'Lahore\'s Badshahi Mosque and Shalimar Gardens coverage',
-      'Colourful jingle trucks (decorated heavy trucks)',
-      'Urdu script (right-to-left) + left-hand driving is a rare combination',
-      'Limited to about two dozen locations — very rare in GeoGuessr',
-      'Mix of English and Urdu on commercial signs'
+      '歷史莫臥兒/錫克教寺廟和古蹟的 Trekker 覆蓋是特徵',
+      'Lahore 的巴德夏希清真寺和沙利瑪爾花園覆蓋',
+      '色彩繽紛的 jingle truck（裝飾重型卡車）',
+      '烏爾都文字（從右到左）+ 靠左行駛是罕見組合',
+      '僅約二十幾個地點 — 在 GeoGuessr 中非常罕見',
+      '商業標誌上英語和烏爾都語混合'
     ],
     tips: [
-      'Pakistan coverage is extremely rare — almost always at historical monuments in Lahore',
-      'Trekker coverage (person carrying camera) + Urdu script = Pakistan',
-      'Urdu looks like Arabic but Pakistan drives on the LEFT — Middle Eastern countries drive on the right',
-      'Pakistan vs India: Urdu (right-to-left) vs Hindi (left-to-right Devanagari)',
-      'If you see Mughal architecture + trekker coverage = likely Pakistan',
-      'Don\'t confuse with India — Pakistan has very limited coverage compared to India\'s extensive mapping'
+      'Pakistan 覆蓋極為罕見 — 幾乎總是在 Lahore 的歷史古蹟',
+      'Trekker 覆蓋（人背負相機）+ 烏爾都文字 = Pakistan',
+      '烏爾都文看起來像阿拉伯文但 Pakistan 靠左行駛 — 中東國家靠右行駛',
+      'Pakistan vs India：烏爾都語（從右到左）vs 印地語（從左到右天城體）',
+      '如果看到莫臥兒建築 + trekker 覆蓋 = 可能是 Pakistan',
+      '不要與 India 混淆 — Pakistan 覆蓋非常有限，India 有廣泛測繪'
     ]
   },
 
@@ -5762,7 +6083,7 @@ const COUNTRIES = {
       '無官方 Google 街景覆蓋 — Cuba 沒有 Google 車',
       '覆蓋來自 Mapillary 和其他第三方來源',
       '主要覆蓋 Havana（尤其是舊 Havana）和部分旅遊路線',
-      '影像品質不一 greatly — often lower quality than standard Google coverage',
+      '影像品質差異極大 — 通常低於標準 Google 覆蓋品質',
       '覆蓋為眾包：12 人團隊使用租賃汽車、機車和自行車繪製了 80-90% 的舊 Havana',
       '非正式、非標準化影像使 Cuba 非常有辨識度'
     ],
@@ -6838,7 +7159,7 @@ const COUNTRIES = {
     currency: 'Central African CFA Franc (XAF)',
     camera: [
       '覆蓋有限，主要在 Douala 和 Yaounde 地區',
-      'Contributed and unofficial coverage in various areas',
+      '社群貢獻和非官方覆蓋 in various areas',
       '部分 trekker 覆蓋',
       '覆蓋品質差異顯著',
       '與 Ghana/Nigeria 等西非鄰國相比覆蓋不密集',
@@ -6914,7 +7235,7 @@ const COUNTRIES = {
     currency: 'West African CFA Franc (XOF)',
     camera: [
       '覆蓋有限，主要在 Abidjan 和主要公路沿線',
-      'Contributed and unofficial coverage sources',
+      '社群貢獻和非官方覆蓋 sources',
       '覆蓋持續擴大但仍然稀疏',
       '有官方覆蓋的地方為 Gen 3',
       'Abidjan 覆蓋最密集',
@@ -7360,65 +7681,65 @@ const COUNTRIES = {
     currency: 'Djiboutian Franc (DJF)',
     camera: [
       '覆蓋非常有限',
-      'Some coverage in Djibouti City',
-      'Contributed and unofficial coverage',
+      'Djibouti 市有部分覆蓋',
+      '社群貢獻和非官方覆蓋',
       '部分地點有 Trekker',
       '覆蓋品質不一',
-      'One of the least-covered African countries',
+      '非洲覆蓋最少的國家之一',
     ],
     car: [
       '標準轎車',
       '無特殊車輛辨識特徵'
     ],
     roads: [
-      'RN-numbered routes',
+      'RN 編號路線',
       '靠右行駛',
-      'Main roads connecting Djibouti City to Ethiopia',
-      '道路品質不一: modern in the city, deteriorates outside',
-      'French and Arabic road signage',
-      'Desert roads with minimal features',
-      'Strategic location: Horn of Africa at Bab-el-Mandeb strait',
+      '連接 Djibouti 市到 Ethiopia 的主要道路',
+      '道路品質不一：城市中現代化，城外惡化',
+      '法語和阿拉伯語道路標誌',
+      '特徵極少的沙漠道路',
+      '戰略位置：非洲之角，曼德海峽',
     ],
     landscape: [
-      'Extremely arid and hot desert terrain',
-      'Lake Assal: lowest point in Africa, salt lake',
-      'Volcanic landscape: Ardoukoba volcano, lava fields',
-      'Almost no vegetation -- one of the driest countries on Earth',
-      'Gulf of Tadjoura: deep blue water against barren brown/black terrain',
-      'Afar Triangle geology: rift zone visible',
-      'Salt flats and barren rocky desert',
-      'Military bases visible (French, American, Chinese)',
+      '極度乾旱炎熱的沙漠地形',
+      '阿薩爾湖：非洲最低點，鹹水湖',
+      '火山景觀：Ardoukoba 火山、熔岩區',
+      '幾乎沒有植被 — 地球上最乾燥的國家之一',
+      '塔朱拉灣：深藍色海水對比荒涼的棕/黑色地形',
+      '阿法爾三角地質：可見裂谷帶',
+      '鹽灘和荒涼的岩石沙漠',
+      '可見軍事基地（法國、美國、中國）',
     ],
     signs: [
-      'French and Arabic on official signs',
-      'Somali and Afar languages also present',
-      'French dominant on government/official signage',
-      'Arabic script alongside French',
-      'Military installation signage (foreign bases)',
+      '官方標誌上有法語和阿拉伯語',
+      '也有索馬里語和阿法爾語',
+      '法語在政府/官方標誌上佔主導',
+      '阿拉伯文與法語並列',
+      '軍事設施標誌（外國基地）',
       '鄉村地區標誌有限',
     ],
     plates: [
       '各種車牌格式',
-      'DJ marking possible',
-      'Military vehicles have special plates',
+      '可能有 DJ 標記',
+      '軍用車輛有特殊車牌',
       '覆蓋中能見度有限',
     ],
     unique: [
-      'French + Arabic + extremely arid/volcanic terrain = Djibouti',
-      'Smallest country in East Africa',
-      'Multiple foreign military bases visible (France, USA, China, Japan)',
-      'Lake Assal (lowest point in Africa) trekker location',
-      'Volcanic/rift zone landscape unlike surrounding countries',
+      '法語 + 阿拉伯語 + 極度乾旱/火山地形 = Djibouti',
+      '東非最小的國家',
+      '可見多個外國軍事基地（France、USA、China、Japan）',
+      '阿薩爾湖（非洲最低點）trekker 地點',
+      '與周圍國家不同的火山/裂谷帶景觀',
       '非常罕見的出生點 — 覆蓋極為有限',
-      'Strategic location at the Bab-el-Mandeb strait',
+      '位於曼德海峽的戰略位置',
     ],
     tips: [
-      'French + Arabic + extreme desert + Horn of Africa = Djibouti',
-      'Very rare spawn -- only guess with strong evidence',
-      'Military bases help identify Djibouti',
-      'More barren/volcanic than neighboring Ethiopia',
-      'Djibouti City is the only likely spawn',
-      'Salt flats and volcanic terrain are distinctive',
+      '法語 + 阿拉伯語 + 極端沙漠 + 非洲之角 = Djibouti',
+      '非常罕見的出生點 -- only guess with strong evidence',
+      '軍事基地有助辨識 Djibouti',
+      '比鄰國 Ethiopia 更荒涼/更多火山',
+      'Djibouti 市是唯一可能的出生點',
+      '鹽灘和火山地形很有辨識度',
     ],
   },
 
@@ -7434,63 +7755,63 @@ const COUNTRIES = {
     currency: 'South Sudanese Pound (SSP)',
     camera: [
       '覆蓋極其有限',
-      'Primarily trekker and contributed coverage',
-      'Some coverage in Juba (capital)',
+      '主要為 trekker 和社群貢獻覆蓋',
+      '首都 Juba 有部分覆蓋',
       '全球覆蓋最少的國家之一',
       'Coverage quality generally low',
-      'Very few spawn locations on world map',
+      '世界地圖上出生點非常少',
     ],
     car: [
-      'No standard Google car coverage',
-      'Contributed/trekker coverage only',
-      'No identifiable car meta',
+      '無標準 Google 車覆蓋',
+      '僅有社群貢獻/trekker 覆蓋',
+      '無可辨識的 car meta',
     ],
     roads: [
-      'Very limited paved road infrastructure',
+      '鋪面道路基礎設施非常有限',
       '靠右行駛',
-      'Most roads are unpaved tracks, especially outside Juba',
-      'Roads become impassable in rainy season',
-      'UN/NGO vehicle traffic common in coverage',
-      'Infrastructure severely damaged by conflict',
+      '大部分道路為未鋪面小路，尤其在 Juba 以外',
+      '雨季道路無法通行',
+      '覆蓋中聯合國/NGO 車輛交通常見',
+      '基礎設施因衝突嚴重損壞',
     ],
     landscape: [
-      'White Nile and Sudd swamp (one of the world\'s largest wetlands)',
-      'Flat savanna and grasslands',
-      'Tropical vegetation in the south',
-      'Imatong Mountains in the far south',
-      'Green during rainy season, dry during dry season',
-      'Cattle herding communities (Dinka, Nuer) with large herds',
-      'UN and NGO compound infrastructure visible',
+      '白尼羅河和 Sudd 沼澤（世界最大濕地之一）',
+      '平坦稀樹草原和草地',
+      '南部有熱帶植被',
+      '極南部的伊馬通山',
+      '雨季綠色，旱季乾燥',
+      '有大型牛群的畜牧社區（丁卡人、努爾人）',
+      '可見聯合國和 NGO 營區基礎設施',
     ],
     signs: [
-      'English on official signs',
-      'Arabic also used, especially in transitional areas',
-      'Dinka and Nuer languages locally',
-      'UN/UNMISS signage visible in some areas',
-      'Very limited signage overall',
-      'NGO/humanitarian organization signage common',
+      '官方標誌為英語',
+      '也使用阿拉伯語，尤其在過渡地區',
+      '當地有丁卡語和努爾語',
+      '部分地區可見聯合國/UNMISS 標誌',
+      '整體標誌非常有限',
+      'NGO/人道主義組織標誌常見',
     ],
     plates: [
-      'Various formats, not well standardized',
-      'SS marking for South Sudan',
-      'Government and UN plates differ',
+      '各種格式，未良好標準化',
+      'South Sudan 的 SS 標記',
+      '政府和聯合國車牌不同',
       '能見度有限 in sparse coverage',
     ],
     unique: [
-      'English + very limited coverage + East Africa + savanna = could be South Sudan',
-      'World\'s newest country (independence 2011)',
-      'UN/NGO presence and signage visible',
+      '英語 + 非常有限覆蓋 + 東非 + 稀樹草原 = 可能是 South Sudan',
+      '世界上最年輕的國家（2011 年獨立）',
+      '可見聯合國/NGO 存在和標誌',
       '極為罕見的出生點 — 幾乎不會出現 on world map',
-      'Distinguished from Sudan by 英語 (Sudan uses Arabic)',
-      'Sudd swamp area is distinctive if coverage exists there',
+      '通過英語與 Sudan 區分（Sudan 使用阿拉伯語）',
+      '如果那裡有覆蓋，Sudd 沼澤地區很有辨識度',
     ],
     tips: [
-      'Almost never spawns in regular play -- extremely rare',
-      'English + conflict-affected + East Africa savanna = consider South Sudan',
-      'UN/UNMISS signage = likely South Sudan',
-      'Juba is the only likely spawn location',
-      'Do not confuse with Sudan (Arabic) or Uganda (more coverage)',
-      'Only guess if you see very strong evidence',
+      '在常規遊戲中幾乎不會出現 — 極為罕見',
+      '英語 + 受衝突影響 + 東非稀樹草原 = 考慮 South Sudan',
+      '聯合國/UNMISS 標誌 = 可能是 South Sudan',
+      'Juba 是唯一可能的出生點',
+      '不要與 Sudan（阿拉伯語）或 Uganda（更多覆蓋）混淆',
+      '只在看到非常強力的證據時才猜',
     ],
   },
 
@@ -7506,10 +7827,10 @@ const COUNTRIES = {
     currency: 'Sudanese Pound (SDG)',
     camera: [
       '覆蓋非常有限',
-      'Some contributed coverage in Khartoum',
-      'Trekker at some historical/tourist sites',
-      'Meroe pyramids may have trekker coverage',
-      'Very sparse overall',
+      'Khartoum 有部分社群貢獻覆蓋',
+      '部分歷史/旅遊景點有 Trekker',
+      'Meroe 金字塔可能有 trekker 覆蓋',
+      '整體非常稀疏',
       '覆蓋品質不一',
     ],
     car: [
@@ -7517,51 +7838,51 @@ const COUNTRIES = {
       '無特殊車輛辨識特徵'
     ],
     roads: [
-      'Main highways connecting Khartoum to Port Sudan and other cities',
+      '連接 Khartoum 到 Port Sudan 和其他城市的主要公路',
       '靠右行駛',
-      '道路品質不一: modern highways in Khartoum area, poor elsewhere',
-      'Desert highways through flat, arid terrain',
-      'Arabic road signage',
+      '道路品質不一：Khartoum 地區有現代公路，其他地方差',
+      '穿越平坦乾旱地形的沙漠公路',
+      '阿拉伯語道路標誌',
       '主要道路上有白色中線',
     ],
     landscape: [
-      'Sahara Desert in the north: vast sand and rock desert',
-      'Nile Valley: narrow green corridor (Blue Nile and White Nile converge at Khartoum)',
-      'Khartoum: at the confluence of the Blue and White Nile',
-      'Meroe pyramids: ancient Nubian pyramids in the desert',
-      'Semi-arid Sahel zone in the center/south',
-      'Red Sea coast with coral reefs',
-      'Flat desert terrain dominates most of the country',
+      '北部的撒哈拉沙漠：廣闘的沙漠和岩石沙漠',
+      '尼羅河谷：狹窄的綠色走廊（藍尼羅河和白尼羅河在 Khartoum 匯合）',
+      'Khartoum：位於藍尼羅河和白尼羅河匯合處',
+      'Meroe 金字塔：沙漠中的古努比亞金字塔',
+      '中部/南部的半乾旱薩赫勒帶',
+      '有珊瑚礁的紅海海岸',
+      '平坦沙漠地形主導國家大部分地區',
     ],
     signs: [
-      'Arabic script dominant on signs',
-      'English sometimes present on major signs',
-      'Arabic road signage standard',
-      'MTN and Zain telecom branding',
+      '標誌上以阿拉伯文為主',
+      '主要標誌上有時有英語',
+      '阿拉伯語道路標誌 standard',
+      'MTN 和 Zain 電信品牌',
       '距離標誌以公里計',
-      'Arabic reads right-to-left',
+      '阿拉伯語從右到左閱讀',
     ],
     plates: [
       '各種車牌格式',
-      'Arabic text on plates',
+      '車牌上有阿拉伯文',
       '政府車牌不同',
       '覆蓋中能見度有限',
     ],
     unique: [
-      'Arabic + Sahara/Sahel + East Africa = could be Sudan',
-      'Meroe pyramids (Nubian) are distinctive trekker locations',
-      'Khartoum at the confluence of Blue and White Nile',
-      'Arabic language distinguishes from South Sudan (English)',
-      'Very rare spawn -- minimal coverage',
-      'More developed infrastructure than South Sudan',
+      '阿拉伯語 + 撒哈拉/薩赫勒 + 東非 = 可能是 Sudan',
+      'Meroe 金字塔（努比亞）是獨特的 trekker 地點',
+      'Khartoum 位於藍尼羅河和白尼羅河匯合處',
+      '阿拉伯語與 South Sudan（英語）區分',
+      '非常罕見的出生點 — 覆蓋極少',
+      '基礎設施比 South Sudan 發達',
     ],
     tips: [
-      'Arabic + Saharan desert + East/North Africa = consider Sudan',
-      'Meroe pyramids = instant Sudan identification',
-      'Khartoum is the only likely city spawn',
-      'Arabic (not English) distinguishes from South Sudan',
-      'Very rare spawn -- only guess with strong evidence',
-      'Less coverage than Egypt but more than South Sudan',
+      '阿拉伯語 + 撒哈拉沙漠 + 東/北非 = 考慮 Sudan',
+      'Meroe 金字塔 = 立即辨識 Sudan',
+      'Khartoum 是唯一可能的城市出生點',
+      '阿拉伯語（非英語）與 South Sudan 區分',
+      '非常罕見的出生點 -- only guess with strong evidence',
+      '覆蓋比 Egypt 少但比 South Sudan 多',
     ],
   },
 
@@ -7580,12 +7901,12 @@ const COUNTRIES = {
     language: 'English, Fijian, Fiji Hindi',
     currency: 'Fijian Dollar (FJD)',
     camera: [
-      'Limited but present Google Street View coverage',
-      'Coverage on main roads of Viti Levu (largest island) and some of Vanua Levu',
+      '有限但存在的 Google 街景覆蓋',
+      'Viti Levu（最大島嶼）主要道路和部分 Vanua Levu 有覆蓋',
       '有覆蓋的地方為 Gen 3 相機',
-      'Coastal and resort areas may have additional coverage',
+      '海岸和度假區可能有額外覆蓋',
       'Trekker at some tourism spots',
-      'Coverage density lower than Australia/NZ',
+      '覆蓋密度低於 Australia/NZ',
     ],
     car: [
       '標準轎車',
@@ -7593,56 +7914,56 @@ const COUNTRIES = {
       '無特殊車輛辨識特徵'
     ],
     roads: [
-      'Kings Road and Queens Road circle Viti Levu island',
-      'Left-hand driving (British colonial influence)',
-      '道路品質不一: paved main roads, gravel rural roads',
-      'Speed bumps very common in villages',
-      'Two-lane roads with no center barrier on most routes',
-      'Palm-lined roads along the coast',
-      'Rural roads can be narrow and winding through mountains',
+      'Kings Road 和 Queens Road 環繞 Viti Levu 島',
+      '靠左行駛（英國殖民影響）',
+      '道路品質不一：主要道路鋪面，鄉村道路為碎石',
+      '村莊中減速帶非常常見',
+      '大多數路線為雙車道無中央分隔',
+      '沿海棕櫚成排的道路',
+      '鄉村道路可能狹窄且在山間蜿蜒',
     ],
     landscape: [
-      'Tropical islands with mountainous interiors',
-      'Coral reefs and turquoise lagoons surrounding islands',
-      'Lush tropical vegetation: palm trees, tropical flowers',
-      'Sugar cane fields widespread on Viti Levu',
-      'Volcanic mountain peaks with dense forest',
-      'River valleys and waterfalls in interior',
-      'Resort and tourism infrastructure on coastal areas',
-      'Indian-Fijian communities visible: Hindu temples alongside Fijian villages',
+      '有多山內陸的熱帶島嶼',
+      '珊瑚礁和碧綠潟湖環繞島嶼',
+      '鬱鬱蔥蔥的熱帶植被：棕櫚樹、熱帶花卉',
+      'Viti Levu 上甘蔗田廣泛分佈',
+      '火山峰配茂密森林',
+      '內陸有河谷和瀑布',
+      '海岸地區有度假村和旅遊基礎設施',
+      '可見印度裔斐濟社區：印度教寺廟與斐濟村莊並存',
     ],
     signs: [
       '所有官方標誌為英語',
-      'Fijian and Fiji Hindi on local/community signs',
-      'Hindi script (Devanagari) visible on temples and some businesses',
+      '當地/社區標誌上有斐濟語和斐濟印地語',
+      '寺廟和部分商業場所可見印地語天城體文字',
       '速限以 km/h 標示',
-      'Tourism signage common',
-      'Vodafone Fiji branding',
+      '旅遊標誌常見',
+      'Vodafone Fiji 品牌',
       '距離標誌以公里計',
     ],
     plates: [
-      'White/light plates',
-      'Various format with letter and number combinations',
+      '白色/淺色車牌',
+      '各種字母和數字組合格式',
       '政府車牌不同',
       '計程車車牌可能為不同顏色',
-      'Limited standardization visible through blur',
+      '透過模糊可見有限的標準化',
     ],
     unique: [
-      'Left-hand driving + tropical Pacific island + English + Hindi elements = Fiji',
-      'Only Pacific island nation with significant Indian/Hindi cultural influence',
-      'Hindu temples alongside Fijian bure (traditional thatched houses) is distinctive',
-      'Sugar cane fields on a tropical island = likely Fiji',
-      'Hindi/Devanagari script on a Pacific island = Fiji',
-      'Blue Union Jack in the flag visible on government buildings',
-      'Tourism infrastructure (resorts, dive shops) common',
+      '靠左行駛 + 熱帶太平洋島嶼 + 英語 + 印地語元素 = Fiji',
+      '唯一有顯著印度/印地語文化影響的太平洋島國',
+      '印度教寺廟與斐濟 bure（傳統茅草屋）並存很有辨識度',
+      '熱帶島嶼上的甘蔗田 = 可能是 Fiji',
+      '太平洋島嶼上的印地語/天城體文字 = Fiji',
+      '政府建築上可見國旗中的藍色英國國旗',
+      '旅遊基礎設施（度假村、潛水店）常見',
     ],
     tips: [
-      'Hindi text/temples on a tropical Pacific island = Fiji, guaranteed',
-      'Left-hand driving on a tropical Pacific island narrows options considerably',
-      'Sugar cane fields + tropical island + English signs = Fiji',
-      'Kings Road and Queens Road are the main circular routes on Viti Levu',
-      'Viti Levu is the most covered island -- most spawns will be here',
-      'Fiji has more coverage than most small Pacific island nations',
+      '熱帶太平洋島嶼上的印地語文字/寺廟 = Fiji，確定',
+      '在熱帶太平洋島嶼靠左行駛大幅縮小選項',
+      '甘蔗田 + 熱帶島嶼 + 英語標誌 = Fiji',
+      'Kings Road 和 Queens Road 是 Viti Levu 的主要環島路線',
+      'Viti Levu 是覆蓋最多的島嶼 — 大部分出生點在這裡',
+      'Fiji 比大多數小型太平洋島國覆蓋更多',
     ],
   },
 
@@ -7659,67 +7980,67 @@ const COUNTRIES = {
     camera: [
       '覆蓋非常有限',
       '部分 trekker 覆蓋 along Kokoda Track and tourist areas',
-      'Contributed coverage in Port Moresby and some highways',
+      'Port Moresby 和部分公路有社群貢獻覆蓋',
       '覆蓋品質差異顯著',
-      'One of the least-covered Pacific nations',
-      'Most coverage is unofficial/contributed',
+      '太平洋覆蓋最少的國家之一',
+      '大部分覆蓋為非官方/社群貢獻',
     ],
     car: [
       '無標準 Google 街景車',
       '各種車輛的社群貢獻覆蓋',
-      'Trekker coverage on walking paths',
-      'No consistent car meta',
+      '步道上有 Trekker 覆蓋',
+      '無一致的 car meta',
     ],
     roads: [
-      'Highland Highway connects major highland towns',
+      'Highland Highway 連接主要高地城鎮',
       '靠左行駛',
       '道路品質普遍差 outside major towns',
-      'Many areas only accessible by air or boat',
-      'Red soil/laterite on unpaved roads',
-      'PMV (Public Motor Vehicle) buses common',
+      '許多地區只能乘飛機或船抵達',
+      '未鋪面道路上有紅色土壤/紅土',
+      'PMV（公共機動車輛）巴士常見',
       '城鎮中有減速帶',
     ],
     landscape: [
-      'Extremely mountainous interior (up to 4,509m at Mount Wilhelm)',
-      'Dense tropical rainforest covering most of the country',
-      'Highland valleys with subsistence agriculture (sweet potato, coffee)',
-      'Coastal lowlands with mangroves and coral reefs',
-      'Active volcanoes (Rabaul, Manam)',
-      'Large rivers flowing through dense jungle',
-      'Traditional villages: stilt houses, thatched roofs',
-      'World\'s third largest island (shared with Indonesia)',
+      '內陸極為多山（Mount Wilhelm 海拔 4,509 米）',
+      '茂密的熱帶雨林覆蓋大部分國土',
+      '高地山谷有自給農業（番薯、咖啡）',
+      '沿海低地有紅樹林和珊瑚礁',
+      '活火山（Rabaul、Manam）',
+      '流經茂密叢林的大河',
+      '傳統村莊：高腳屋、茅草屋頂',
+      '世界第三大島嶼（與 Indonesia 共享）',
     ],
     signs: [
-      'English and Tok Pisin on signs',
-      'Tok Pisin words: "haus" (house), "pis" (fish), "wara" (water), "rot" (road)',
-      'Tok Pisin is English-based pidgin but distinct',
-      'Digicel (red) telecom branding very common',
-      'Limited signage outside urban areas',
-      'Warning signs about security/crime in some areas',
+      '標誌上有英語和托克皮辛語',
+      '托克皮辛語詞彙："haus"（房子）、"pis"（魚）、"wara"（水）、"rot"（道路）',
+      '托克皮辛語是英語系混合語但很獨特',
+      'Digicel（紅色）電信品牌非常常見',
+      '城市地區以外標誌有限',
+      '部分地區有安全/犯罪警告標誌',
     ],
     plates: [
       '各種車牌格式',
-      'Limited standardization visible',
+      '可見有限的標準化',
       '政府和外交車牌不同',
       '能見度有限 in sparse coverage',
     ],
     unique: [
-      'Tok Pisin language on signs = Papua New Guinea',
-      'Left-hand driving + tropical mountainous + English/Tok Pisin = PNG',
-      'Most linguistically diverse country on Earth (800+ languages)',
-      'Highland areas with subsistence agriculture look very different from coast',
-      'Very rare spawn -- limited coverage overall',
-      'Kokoda Track trekker coverage is recognizable',
-      'Traditional tribal culture visible in highland areas',
-      'Digicel (red branding) extremely prominent',
+      '標誌上的托克皮辛語 = Papua New Guinea',
+      '靠左行駛 + 熱帶多山 + 英語/托克皮辛語 = PNG',
+      '地球上語言最多樣的國家（800+ 種語言）',
+      '有自給農業的高地地區看起來與海岸非常不同',
+      '非常罕見的出生點 — 覆蓋有限 overall',
+      'Kokoda Track trekker 覆蓋可辨識',
+      '高地地區可見傳統部落文化',
+      'Digicel（紅色品牌）極為顯眼',
     ],
     tips: [
-      'Tok Pisin text on signs = PNG, instant confirmation',
-      'Extremely mountainous tropical island with left-hand driving = PNG',
-      'Very rare spawn -- do not guess unless you see Tok Pisin or strong evidence',
-      'Port Moresby is the most likely city spawn',
-      'Highland valleys with subsistence farming look very different from coastal PNG',
-      'Digicel red branding is the dominant telecom',
+      '標誌上的托克皮辛文字 = PNG，立即確認',
+      '靠左行駛的極度多山熱帶島嶼 = PNG',
+      '非常罕見的出生點 — 除非看到托克皮辛語或強力證據否則不要猜',
+      'Port Moresby 是最可能的城市出生點',
+      '有自給農業的高地山谷看起來與沿海 PNG 非常不同',
+      'Digicel 紅色品牌是主要電信',
     ],
   },
 
@@ -7734,12 +8055,12 @@ const COUNTRIES = {
     language: 'English, Chamorro',
     currency: 'US Dollar (USD)',
     camera: [
-      'Gen 3 覆蓋 with distinctive bars visible',
-      'Long antenna on front-right corner of camera car -- KEY identifier',
-      'Slight unblurred roof rack distinguishes from Northern Mariana Islands',
-      '覆蓋良好 across most of the island',
-      'Some trekker/beach walking coverage',
-      'Coverage includes main highways and many side roads',
+      'Gen 3 覆蓋可見獨特的 bars',
+      '相機車右前角的長天線 — 關鍵辨識特徵',
+      '微小未模糊的 roof rack 可與 Northern Mariana Islands 區分',
+      '全島大部分地區覆蓋良好',
+      '部分 trekker/海灘步行覆蓋',
+      '覆蓋包括主要公路和許多支線道路',
     ],
   car: [
       '長天線在右前方',
@@ -7749,57 +8070,57 @@ const COUNTRIES = {
       'Guam 有水泥電線桿（vs Northern Mariana 的木頭電線桿）'
     ],
     roads: [
-      'US-style road infrastructure with highway shields',
-      'Highway shields specifically say "GUAM" on them -- helpful',
-      'Right-hand driving (US territory)',
-      'White shoulder lines, yellow center dividers (US standard)',
-      'Studded roads more common than lined roads',
-      'Painted bus stops with island-specific designs',
-      'Roundabouts present in some areas',
+      '美式道路基礎設施配公路盾牌標誌',
+      '公路盾牌標誌上特別寫有 "GUAM" — 很有幫助',
+      '靠右行駛（美國領土）',
+      '白色路肩線、黃色中央分隔線（美國標準）',
+      '釘路比畫線路更常見',
+      '有島嶼特色設計的彩繪公車站',
+      '部分地區有圓環',
     ],
     landscape: [
-      'Tropical island with lush vegetation',
-      'Relatively flat in the north, hills and peaks in the south',
-      'Coral limestone plateau in the north',
-      'Beaches and high-rise tourist hotels along Tumon Bay',
-      'Military bases visible (US Navy and Air Force)',
-      'Japanese and Korean tourist facilities (signs in Japanese/Korean)',
-      'Dense tropical vegetation interior',
-      'Smaller and less developed than Hawaii but clearly American-style infrastructure',
+      '植被茂密的熱帶島嶼',
+      '北部相對平坦，南部有丘陵和山峰',
+      '北部有珊瑚石灰岩高原',
+      'Tumon 灣沿線有海灘和高層旅遊酒店',
+      '可見軍事基地（美國海軍和空軍）',
+      '日本和韓國旅遊設施（日/韓語標誌）',
+      '內陸有茂密的熱帶植被',
+      '比夏威夷更小且更不發達但明顯是美式基礎設施',
     ],
     signs: [
-      'English on all signs (US territory)',
-      'Chamorro language on some local signs',
-      'Japanese and Korean text common in tourist areas (Tumon)',
-      'US-style highway signs and road markings',
-      '"GUAM" highway shields are helpful identifiers',
-      '速限以 mph 標示 (US territory)',
-      'Military base entrance signs visible',
+      '所有標誌為英語（美國領土）',
+      '部分當地標誌上有查莫洛語',
+      '旅遊區（Tumon）常見日語和韓語文字',
+      '美式公路標誌和道路標線',
+      '"GUAM" 公路盾牌標誌是有用的辨識特徵',
+      '速限以 mph 標示（美國領土）',
+      '可見軍事基地入口標誌',
     ],
     plates: [
-      'Narrow white plates with black lettering (US-style but island-specific)',
-      'Yellow plates also possible',
-      'US-style plate format',
+      '窄型白色車牌黑色字（美式但為島嶼特有）',
+      '也可能有黃色車牌',
+      '美式車牌格式',
       '政府和軍用車牌不同',
-      'Front and rear plates required',
+      '要求前後車牌',
     ],
     unique: [
-      'Long antenna on front-right of camera car + tropical island = Guam or Northern Mariana Islands',
-      'CONCRETE utility poles distinguish Guam from Northern Mariana Islands (which has wooden poles)',
-      '"GUAM" highway shields on road signs = instant confirmation',
-      'Japanese/Korean tourist text on a US territory = Guam (tourist destination)',
-      'Right-hand driving on a tropical Pacific island with US infrastructure = Guam',
-      'High-rise tourist hotels along Tumon Bay beach',
-      'US military base infrastructure visible',
-      'Larger, busier streets than Northern Mariana Islands',
+      '相機車右前方長天線 + 熱帶島嶼 = Guam 或 Northern Mariana Islands',
+      '水泥電線桿區分 Guam 和 Northern Mariana Islands（後者有木頭電線桿）',
+      '路標上的 "GUAM" 公路盾牌 = 立即確認',
+      '美國領土上的日/韓語旅遊文字 = Guam（旅遊目的地）',
+      '在有美式基礎設施的熱帶太平洋島嶼靠右行駛 = Guam',
+      'Tumon 灣海灘沿線的高層旅遊酒店',
+      '可見美軍基地基礎設施',
+      '比 Northern Mariana Islands 更大、更繁忙的街道',
     ],
     tips: [
-      'Antenna on front-right of car + tropical island = Guam or CNMI',
-      'Concrete utility poles = Guam; wooden utility poles = Northern Mariana Islands',
-      '"GUAM" on highway shields = instant confirmation',
-      'Japanese/Korean tourist signage = likely Guam (major tourist destination for East Asia)',
-      'Wealthier/more developed appearance than CNMI',
-      'US-style road infrastructure on a tropical Pacific island',
+      '車右前方天線 + 熱帶島嶼 = Guam 或 CNMI',
+      '水泥電線桿 = Guam；木頭電線桿 = Northern Mariana Islands',
+      '公路盾牌上的 "GUAM" = 立即確認',
+      '日/韓語旅遊標誌 = 可能是 Guam（東亞主要旅遊目的地）',
+      '比 CNMI 更富裕/更發達的外觀',
+      '熱帶太平洋島嶼上的美式道路基礎設施',
     ],
   },
 
@@ -7814,68 +8135,68 @@ const COUNTRIES = {
     language: 'French, Kanak languages',
     currency: 'CFP Franc (XPF)',
     camera: [
-      'No official Google Street View coverage',
-      'Limited contributed/unofficial coverage available',
+      '無官方 Google 街景覆蓋',
+      '有限的社群貢獻/非官方覆蓋可用',
       '部分 trekker 覆蓋 at tourist locations',
-      'Google car and trekker imagery from alternate sources',
-      'Coverage very sparse',
+      '來自替代來源的 Google 車和 trekker 影像',
+      '覆蓋非常稀疏',
       'Quality varies significantly',
     ],
     car: [
       '無標準 Google 街景車',
       '各種來源的社群貢獻覆蓋',
-      'No consistent car meta',
+      '無一致的 car meta',
       '部分地點有 Trekker',
     ],
     roads: [
-      'RT-numbered territorial routes (Route Territoriale)',
-      'Right-hand driving (French territory)',
-      'French-style road infrastructure and signage',
-      'Wide, angular guardrails similar to Czech/Slovak style',
-      'Road quality generally good on main routes',
-      'Winding coastal roads',
+      'RT 編號領地路線（Route Territoriale）',
+      '靠右行駛（法國領土）',
+      '法式道路基礎設施和標誌',
+      '寬闊棱角的護欄類似捷克/斯洛伐克風格',
+      '主要路線道路品質普遍良好',
+      '蜿蜒的海岸道路',
       '圓環常見',
     ],
     landscape: [
-      'MINING MAQUIS biome: distinctive shrubby vegetation on metallic soils',
-      'Reddish/orange soil from high metal oxide content (nickel mining) -- KEY identifier',
-      'Among world leaders in nickel production',
-      'Barrier reef surrounding the island (UNESCO World Heritage)',
-      'Mountainous interior with tropical vegetation',
-      'Pine trees (Araucaria columnaris) -- tall, narrow, distinctive columnar shape',
-      'Turquoise lagoon visible from many coastal roads',
-      'Mix of Melanesian and French colonial landscape',
+      '礦區灌木群落：金屬土壤上獨特的灌木植被',
+      '高金屬氧化物含量（鎳礦開採）的紅/橙色土壤 — 關鍵辨識特徵',
+      '全球鎳生產領先者之一',
+      '環繞島嶼的堡礁（聯合國教科文組織世界遺產）',
+      '有熱帶植被的多山內陸',
+      '松樹（Araucaria columnaris）— 高大、狹窄、獨特的柱狀',
+      '許多海岸道路可見碧綠潟湖',
+      '美拉尼西亞和法國殖民景觀混合',
     ],
     signs: [
       '法語 on ALL signs (French overseas territory)',
-      'Kanak languages may appear on local signs',
-      'French road sign standards (same as mainland France)',
-      '.nc domain visible on some signs',
+      '當地標誌上可能出現卡納克語',
+      '法國路標標準（與法國本土相同）',
+      '部分標誌上可見 .nc 網域',
       '距離標誌以公里計',
-      'French commercial brands present',
+      '有法國商業品牌存在',
     ],
     plates: [
-      'French-style plates but with NC (New Caledonia) code',
-      'Different format from mainland France',
-      'White plates with regional markings',
+      '法式車牌但有 NC（New Caledonia）代碼',
+      '格式與法國本土不同',
+      '白色車牌有地區標記',
       '能見度有限 in sparse coverage',
     ],
     unique: [
-      'Reddish/orange soil from nickel mining + French + Pacific island = New Caledonia',
-      'Mining maquis biome with distinctive shrubby vegetation on metallic soils',
-      'Wide angular guardrails (Czech/Slovak style) on a Pacific island is unusual',
-      'Columnar Araucaria pine trees are distinctive',
-      'French + right-hand driving + Pacific tropical island = New Caledonia',
-      '.nc domain on signs',
-      'Barrier reef lagoon visible from coast',
+      '鎳礦開採的紅/橙色土壤 + 法語 + 太平洋島嶼 = New Caledonia',
+      '礦區灌木群落有金屬土壤上獨特的灌木植被',
+      '太平洋島嶼上寬闘棱角的護欄（捷克/斯洛伐克風格）很不尋常',
+      '柱狀南洋杉（Araucaria）很有辨識度',
+      '法語 + 靠右行駛 + 太平洋熱帶島嶼 = New Caledonia',
+      '標誌上的 .nc 網域',
+      '海岸可見堡礁潟湖',
     ],
     tips: [
-      'Reddish/orange mining soil + French + Pacific island = New Caledonia',
-      '法語 on a Pacific tropical island (not Reunion which is Indian Ocean)',
-      'Columnar pine trees (Araucaria) are distinctive of New Caledonia',
-      '.nc domain on business signs confirms New Caledonia',
-      'Very rare spawn -- limited coverage',
-      'Mining landscape with red soil distinguishes from other French territories',
+      '紅/橙色礦區土壤 + 法語 + 太平洋島嶼 = New Caledonia',
+      '太平洋熱帶島嶼上的法語（不是印度洋的 Reunion）',
+      '柱狀松樹（Araucaria）是 New Caledonia 的獨特特徵',
+      '商業標誌上的 .nc 網域確認 New Caledonia',
+      '非常罕見的出生點 — 覆蓋有限',
+      '紅色土壤的礦區景觀與其他法國領土區分',
     ],
   },
 
@@ -7890,12 +8211,12 @@ const COUNTRIES = {
     language: 'Samoan, English',
     currency: 'Tala (WST)',
     camera: [
-      'Limited coverage, primarily on main roads',
-      'Coverage on Upolu and Savai\'i islands',
+      '覆蓋有限，主要在主要道路上',
+      'Upolu 和 Savai’i 島有覆蓋',
       '有官方覆蓋的地方為 Gen 3',
       '部分 trekker 覆蓋',
       '各種來源的社群貢獻覆蓋',
-      'Coverage concentrated along coastal ring roads',
+      '覆蓋集中在沿海環島道路',
     ],
     car: [
       '靠左行駛',
@@ -7903,53 +8224,53 @@ const COUNTRIES = {
       '無特殊車輛辨識特徵'
     ],
     roads: [
-      'Main road circles each island along the coast',
-      'Left-hand driving (switched from right to left in 2009)',
-      '道路品質不一: paved main roads, rough rural roads',
+      '主要道路沿海岸環繞每座島嶼',
+      '靠左行駛（2009 年從靠右改為靠左）',
+      '道路品質不一：主要道路鋪面，鄉村道路崎嶇',
       '村莊中減速帶常見',
-      'Narrow roads through villages',
-      'Tropical vegetation encroaching on road edges',
+      '穿過村莊的窄路',
+      '熱帶植被侵入道路邊緣',
     ],
     landscape: [
-      'Volcanic islands with mountainous interiors',
-      'Tropical vegetation: coconut palms, breadfruit trees, tropical flowers',
-      'Black volcanic rock and sand visible on some beaches/coasts',
-      'White sand beaches on the coast',
-      'Lush green rainforest interior',
-      'Traditional Samoan fale (open-sided houses) visible',
-      'Church buildings prominent in every village',
-      'To Sua Ocean Trench: dramatic swimming hole (possible trekker spot)',
+      '有多山內陸的火山島嶼',
+      '熱帶植被：椰子棕櫚、麵包果樹、熱帶花卉',
+      '部分海灘/海岸可見黑色火山岩和沙子',
+      '海岸上的白色沙灘',
+      '鬱鬱蔥蔥的綠色雨林內陸',
+      '可見傳統薩摩亞 fale（開放式房屋）',
+      '每個村莊的教堂建築都很顯眼',
+      'To Sua 海溝：壯觀的游泳洞（可能的 trekker 地點）',
     ],
     signs: [
-      'English and Samoan on signs',
-      'Samoan language uses Latin alphabet with limited special characters',
-      'Church signage very prominent (Samoa is deeply religious)',
-      'Digicel (red) and Vodafone branding',
+      '標誌上有英語和薩摩亞語',
+      '薩摩亞語使用拉丁字母，特殊字符有限',
+      '教堂標誌非常顯眼（Samoa 是深度宗教國家）',
+      'Digicel（紅色）和 Vodafone 品牌',
       '速限以 km/h 標示',
-      'Tourism signage present',
+      '有旅遊標誌',
     ],
     plates: [
       '各種車牌格式',
-      'Limited standardization visible',
+      '可見有限的標準化',
       '政府車牌不同',
       '覆蓋中能見度有限',
     ],
     unique: [
-      'Left-hand driving + Polynesian tropical island + English = Samoa (not American Samoa which drives right)',
-      'Switched driving side from RIGHT to LEFT in 2009 (one of few countries to do this)',
-      'Open-sided fale (traditional houses) are distinctively Samoan',
-      'Churches in every village -- extremely prominent',
-      '.ws domain (Western Samoa historical name)',
-      'Distinguished from American Samoa: Samoa drives LEFT, American Samoa drives RIGHT',
-      'Volcanic black rock alongside tropical beaches',
+      '靠左行駛 + 波利尼西亞熱帶島嶼 + 英語 = Samoa（不是靠右行駛的 American Samoa）',
+      '2009 年從靠右改為靠左行駛（少數國家這樣做）',
+      '開放式 fale（傳統房屋）是薩摩亞獨有的',
+      '每個村莊都有教堂 — 極為顯眼',
+      '.ws 網域（西薩摩亞歷史名稱）',
+      '與 American Samoa 區分：Samoa 靠左行駛，American Samoa 靠右行駛',
+      '火山黑色岩石與熱帶海灘並存',
     ],
     tips: [
-      'Left-hand driving on a Polynesian island = Samoa (not American Samoa)',
-      'Open-sided fale houses are distinctive Samoan architecture',
-      'Churches extremely prominent in every village',
-      'Volcanic black rock + tropical greenery + left-hand driving = Samoa',
-      '.ws domain (Western Samoa) distinguishes from American Samoa (.as)',
-      'Very rare spawn -- limited coverage overall',
+      '在波利尼西亞島嶼靠左行駛 = Samoa（不是 American Samoa）',
+      '開放式 fale 房屋是薩摩亞獨特建築',
+      '每個村莊教堂極為顯眼',
+      '火山黑色岩石 + 熱帶綠色植被 + 靠左行駛 = Samoa',
+      '.ws 網域（Western Samoa）與 American Samoa（.as）區分',
+      '非常罕見的出生點 — 覆蓋有限 overall',
     ],
   },
 
@@ -7965,65 +8286,65 @@ const COUNTRIES = {
     currency: 'Solomon Islands Dollar (SBD)',
     camera: [
       '覆蓋非常有限',
-      'Primarily trekker and contributed coverage',
-      'Some coverage in Honiara (capital)',
-      'WWII memorial sites may have trekker coverage',
-      'One of the least-covered Pacific nations',
+      '主要為 trekker 和社群貢獻覆蓋',
+      '首都 Honiara 有部分覆蓋',
+      '二戰紀念景點可能有 trekker 覆蓋',
+      '太平洋覆蓋最少的國家之一',
       '覆蓋品質不一',
     ],
     car: [
       '無標準 Google 街景車',
       '各種來源的社群貢獻覆蓋',
-      'No consistent car meta',
+      '無一致的 car meta',
       '部分地點有 Trekker',
     ],
     roads: [
       '靠左行駛',
-      'Very limited road infrastructure',
-      'Honiara has some paved roads; rural areas mostly unpaved',
-      'Many areas only accessible by boat',
-      'No traffic lights outside Honiara',
-      'Simple road layout in the capital',
+      '道路基礎設施非常有限',
+      'Honiara 有部分鋪面道路；鄉村地區多為未鋪面',
+      '許多地區只能乘船抵達',
+      'Honiara 以外無交通號誌',
+      '首都道路佈局簡單',
     ],
     landscape: [
-      'Volcanic islands covered in dense tropical rainforest',
-      'Guadalcanal: largest island, site of WWII battle',
-      'Coral atolls and volcanic islands',
-      'Dense tropical jungle with limited road access',
-      'Clear blue/green waters surrounding islands',
-      'Traditional leaf-thatched houses in villages',
-      'WWII wrecks and memorials visible in some coverage',
-      'Mangrove forests along coastlines',
+      '被茂密熱帶雨林覆蓋的火山島嶼',
+      'Guadalcanal：最大島嶼，二戰戰場',
+      '珊瑚環礁和火山島嶼',
+      '道路可達性有限的茂密熱帶叢林',
+      '環繞島嶼的清澈藍/綠色海水',
+      '村莊中的傳統葉子茅草屋',
+      '部分覆蓋中可見二戰殘骸和紀念碑',
+      '沿海的紅樹林',
     ],
     signs: [
-      'English on official signs',
-      'Solomon Islands Pijin (English-based pidgin) on local signs',
-      'Limited signage overall',
-      'Our Telekom (blue) branding',
-      'Tourism and WWII memorial signage',
-      'Government signs in English',
+      '官方標誌為英語',
+      '當地標誌上有所羅門群島混合語（Pijin，英語系混合語）',
+      '整體標誌有限',
+      'Our Telekom（藍色）品牌',
+      '旅遊和二戰紀念標誌',
+      '政府標誌為英語',
     ],
     plates: [
       '各種格式',
-      'Limited standardization',
+      '有限的標準化',
       '政府車牌不同',
-      'Very limited visibility in coverage',
+      '覆蓋中能見度非常有限',
     ],
     unique: [
-      'Left-hand driving + Melanesian tropical islands + English = Solomon Islands or PNG',
-      'WWII battlefield sites and memorials (especially Guadalcanal)',
-      'English-based Pijin language distinct from Tok Pisin (PNG)',
-      'Very rare spawn -- minimal coverage',
-      'Dense tropical jungle with minimal road infrastructure',
-      'Distinguished from PNG by being smaller islands, less mountainous overall',
+      '靠左行駛 + 美拉尼西亞熱帶島嶼 + 英語 = Solomon Islands 或 PNG',
+      '二戰戰場和紀念碑（尤其 Guadalcanal）',
+      '英語系 Pijin 語與托克皮辛語（PNG）不同',
+      '非常罕見的出生點 — 覆蓋極少',
+      '道路基礎設施極少的茂密熱帶叢林',
+      '通過更小的島嶼和整體更少山地與 PNG 區分',
     ],
     tips: [
-      'WWII memorial/battlefield sites = consider Solomon Islands (Guadalcanal)',
-      'Melanesian islands + English + left-hand driving = Solomon Islands or PNG',
-      'Honiara is the only likely spawn location',
+      '二戰紀念/戰場 = 考慮 Solomon Islands（Guadalcanal）',
+      '美拉尼西亞島嶼 + 英語 + 靠左行駛 = Solomon Islands 或 PNG',
+      'Honiara 是唯一可能的出生點',
       '非常罕見 — 只在有強力證據時才猜',
-      'Less mountainous than PNG, more clearly island-chain geography',
-      'Our Telekom branding helps confirm Solomon Islands',
+      '比 PNG 更少山地，更明顯的島鏈地理',
+      'Our Telekom 品牌有助確認 Solomon Islands',
     ],
   },
 
@@ -8038,11 +8359,11 @@ const COUNTRIES = {
     language: 'English, French, Bislama',
     currency: 'Vatu (VUV)',
     camera: [
-      'Very limited coverage -- mostly trekker',
-      'Small amount of official trekker coverage, largely of Ambrym Volcano',
-      'Some contributed coverage in Port Vila (capital)',
-      'One of the least-covered Pacific nations',
-      'Black plates with white text visible but rare',
+      '覆蓋非常有限 — 主要為 trekker',
+      '少量官方 trekker 覆蓋，主要是 Ambrym 火山',
+      '首都 Port Vila 有部分社群貢獻覆蓋',
+      '太平洋覆蓋最少的國家之一',
+      '可見黑底白字車牌但罕見',
       '覆蓋品質差異顯著',
     ],
     car: [
@@ -8051,53 +8372,53 @@ const COUNTRIES = {
       '無特殊車輛辨識特徵'
     ],
     roads: [
-      'Right-hand driving (unusual for a former British colony)',
-      'Very limited road infrastructure',
-      'Port Vila has some paved roads',
-      'Most islands have minimal road networks',
-      'Many areas accessible only by boat or foot',
-      'Simple, narrow roads through villages',
+      '靠右行駛（對前英國殖民地來說不尋常）',
+      '道路基礎設施非常有限',
+      'Port Vila 有部分鋪面道路',
+      '大多數島嶼道路網絡極少',
+      '許多地區只能乘船或步行抵達',
+      '穿過村莊的簡單窄路',
     ],
     landscape: [
-      'Volcanic island chain with dramatic terrain',
-      'Active volcanoes: Mount Yasur on Tanna (accessible lava viewing)',
-      'Ambrym volcano with lava lake',
-      'Dense tropical rainforest',
-      'Blue holes (clear freshwater swimming pools) in the jungle',
-      'Coral reefs and beaches',
-      'Traditional villages with Kastom (custom) culture',
-      'Black volcanic sand beaches',
+      '地形壯觀的火山島鏈',
+      '活火山：Tanna 島上的 Mount Yasur（可近距離觀看熔岩）',
+      'Ambrym 火山有熔岩湖',
+      '茂密的熱帶雨林',
+      '叢林中的藍洞（清澈的淡水游泳池）',
+      '珊瑚礁和海灘',
+      '有 Kastom（習俗）文化的傳統村莊',
+      '黑色火山沙灘',
     ],
     signs: [
-      'Trilingual: English, French, and Bislama',
-      'Bislama (English-based creole): distinctive words visible on signs',
-      'French influence alongside English (unique in Melanesia)',
-      'Digicel (red) branding',
-      'Tourism signage common',
+      '三語：英語、法語和比斯拉馬語',
+      '比斯拉馬語（英語系克里奧爾語）：標誌上可見獨特詞彙',
+      '法語影響與英語並存（美拉尼西亞獨有）',
+      'Digicel（紅色）品牌',
+      '旅遊標誌常見',
       'Limited signage outside Port Vila',
     ],
     plates: [
-      'Black plates with white text',
-      'Different from most Pacific nations\' plate styles',
+      '黑底白字車牌',
+      '不同於大多數太平洋國家的車牌風格',
       '能見度有限 in sparse coverage',
       '政府車牌可能不同',
     ],
     unique: [
-      'Right-hand driving + English AND French + Melanesian Pacific island = Vanuatu',
-      'Only Melanesian country with both English and French as official languages',
-      'Bislama (creole) language visible on signs',
-      'Active lava viewing at Mount Yasur (Tanna) is iconic trekker location',
-      'Black plates with white text (rare Pacific plate style)',
+      '靠右行駛 + 英語和法語 + 美拉尼西亞太平洋島嶼 = Vanuatu',
+      '唯一以英語和法語為官方語言的美拉尼西亞國家',
+      '標誌上可見比斯拉馬語（克里奧爾語）',
+      'Mount Yasur（Tanna）的活熔岩觀賞是標誌性 trekker 地點',
+      '黑底白字車牌 (rare Pacific plate style)',
       '非常罕見的出生點 — 覆蓋極為有限',
-      'Ambrym volcano trekker coverage',
+      'Ambrym 火山 trekker 覆蓋',
     ],
     tips: [
-      'English + French + Melanesian island = Vanuatu (only country with this combination)',
-      'Active volcano trekker coverage = consider Vanuatu (Mount Yasur, Ambrym)',
-      'Right-hand driving in a Pacific island with English = could be Vanuatu, Guam, or American territories',
-      'Bislama text is distinctive: looks like English but with simplified spelling',
-      'Very rare spawn -- only guess with strong evidence',
-      'Port Vila is the only likely city spawn',
+      '英語 + 法語 + 美拉尼西亞島嶼 = Vanuatu（唯一有此組合的國家）',
+      '活火山 trekker 覆蓋 = 考慮 Vanuatu（Mount Yasur、Ambrym）',
+      '太平洋島嶼靠右行駛 + 英語 = 可能是 Vanuatu、Guam 或美國領土',
+      '比斯拉馬語文字很有辨識度：看起來像英語但拼寫簡化',
+      '非常罕見的出生點 — 只在有強力證據時才猜',
+      'Port Vila 是唯一可能的城市出生點',
     ],
   },
 
@@ -8113,11 +8434,11 @@ const COUNTRIES = {
     currency: 'Pa\'anga (TOP)',
     camera: [
       '覆蓋非常有限',
-      'Some coverage on Tongatapu (main island)',
-      'Contributed and trekker coverage',
-      'One of the least-covered Pacific nations',
-      'Coverage concentrated in Nuku\'alofa (capital) area',
-      'Quality varies',
+      'Tongatapu（主島）有部分覆蓋',
+      '社群貢獻和 trekker 覆蓋',
+      '太平洋覆蓋最少的國家之一',
+      '覆蓋集中在 Nuku\'alofa（首都）地區',
+      '品質不一',
     ],
     car: [
       '標準轎車或 trekker 涵蓋',
@@ -8126,55 +8447,55 @@ const COUNTRIES = {
     ],
     roads: [
       '靠左行駛',
-      'Flat, simple road network on Tongatapu',
-      'Paved main roads in Nuku\'alofa area',
-      'Unpaved roads in rural areas and outer islands',
-      'Minimal traffic',
+      'Tongatapu 上平坦簡單的道路網絡',
+      'Nuku’alofa 地區有鋪面主要道路',
+      '鄉村地區和外島有未鋪面道路',
+      '交通極少',
       'Speed bumps in villages',
-      'Straight, flat roads on main island',
+      '主島上直且平坦的道路',
     ],
     landscape: [
-      'Flat coral islands (Tongatapu) and volcanic islands (northern group)',
-      'Tongatapu (main island) is very flat -- no mountains',
-      'Coconut palms and tropical vegetation',
-      'Clean, well-kept villages',
-      'Churches prominent in every village (Tonga is deeply religious)',
-      'Royal Palace in Nuku\'alofa',
-      'Coral limestone visible',
-      'Tropical flowers and gardens',
+      '平坦珊瑚島（Tongatapu）和火山島（北部群島）',
+      'Tongatapu（主島）非常平坦 — 無山脈',
+      '椰子棕櫚和熱帶植被',
+      '乾淨、維護良好的村莊',
+      '每個村莊教堂都很顯眼（Tonga 是深度宗教國家）',
+      'Nuku’alofa 的皇宮',
+      '可見珊瑚石灰岩',
+      '熱帶花卉和花園',
     ],
     signs: [
-      'English and Tongan on signs',
-      'Tongan uses Latin alphabet',
-      'Church signage extremely prominent (multiple denominations)',
-      'Royal/monarchy-related signage',
-      'Digicel and U-Call branding',
+      '標誌上有英語和東加語',
+      '東加語使用拉丁字母',
+      '教堂標誌極為顯眼（多個教派）',
+      '皇室/君主制相關標誌',
+      'Digicel 和 U-Call 品牌',
       '速限以 km/h 標示',
-      'Limited signage outside main areas',
+      '主要地區以外標誌有限',
     ],
     plates: [
       '各種車牌格式',
-      'Limited standardization visible',
-      'Government plates: "GOVT" marking',
-      'Royal plates: distinctive',
+      '可見有限的標準化',
+      '政府車牌："GOVT" 標記',
+      '皇室車牌：獨特',
       '覆蓋中能見度有限',
     ],
     unique: [
-      'Left-hand driving + Polynesian flat coral island + English = Tonga',
-      'Only monarchy in the Pacific (royal symbols and palace)',
-      'Very flat terrain (Tongatapu) -- flatter than Samoa or Fiji',
-      'Churches extremely prominent (Tonga has highest church-per-capita in the Pacific)',
-      'Royal Palace in Nuku\'alofa is distinctive',
-      'Very rare spawn -- minimal coverage',
-      '.to domain (popular for URL shorteners)',
+      '靠左行駛 + 波利尼西亞平坦珊瑚島 + 英語 = Tonga',
+      '太平洋唯一的君主制國家（皇室象徵和皇宮）',
+      '非常平坦的地形（Tongatapu）— 比 Samoa 或 Fiji 更平坦',
+      '教堂極為顯眼（Tonga 在太平洋地區人均教堂數最高）',
+      'Nuku’alofa 的皇宮 is distinctive',
+      '非常罕見的出生點 — 覆蓋極少',
+      '.to 網域（URL 縮短服務常用）',
     ],
     tips: [
-      'Flat Polynesian island + left-hand driving + churches everywhere = Tonga',
-      'Royal palace/monarchy elements = Tonga (only Pacific monarchy)',
-      'Much flatter than Samoa (which is volcanic/mountainous)',
-      'Nuku\'alofa is the only likely spawn',
+      '平坦波利尼西亞島嶼 + 靠左行駛 + 到處都是教堂 = Tonga',
+      '皇宮/君主制元素 = Tonga（太平洋唯一的君主制）',
+      '比 Samoa 平坦得多（Samoa 是火山/多山的）',
+      'Nuku’alofa 是唯一可能的出生點',
       '非常罕見 — 只在有強力證據時才猜',
-      '.to domain may be visible on some signs',
+      '部分標誌上可能可見 .to 網域',
     ],
   },
 
