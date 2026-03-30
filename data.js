@@ -25,9 +25,11 @@ const COUNTRIES = {
   roads: [
     "公路上常見白色虛線中線",
     "道路品質差異極大 — 高速公路平整 vs 鄉村道路破損",
-    "Bollard 類似義大利風格 — 反光片到頂部有黑色條紋",
     "許多道路缺乏適當標線，尤其是鄉村地區",
     "混凝土或柏油路面，鄉村地區常有坑洞"
+  ],
+  bollardInfo: [
+    "Bollard 類似義大利風格 — 反光片到頂部有黑色條紋"
   ],
   landscape: [
     "北部和東部為山地地形，西部為沿海低地",
@@ -135,10 +137,12 @@ const COUNTRIES = {
   ],
   roads: [
     "維護良好的高速公路和 Autobahn",
-    "<strong>Bollard 帶黑色頂蓋 + 深紅/黑色反光片</strong> — Austria 獨有",
     "唯一同時有黑色頂蓋和黑色反光片的國家",
     "白色虛線中線（歐洲標準）",
     "綠色高速公路標誌配白色文字"
+  ],
+  bollardInfo: [
+    "<strong>Bollard 帶黑色頂蓋 + 深紅/黑色反光片</strong> — Austria 獨有"
   ],
   landscape: [
     "阿爾卑斯山主導 Austria 西部和中部",
@@ -189,11 +193,13 @@ const COUNTRIES = {
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：多種設計，都有橘色調 + 白色主體，也有雙紅條紋變體",
     "以路況差聞名 — 柏油路面不均勻，坑洞多",
     "白色中線和邊線（歐洲標準）",
     "藍色高速公路標誌",
     "特殊的菱形優先道路標誌，中心為橘/黃色"
+  ],
+  bollardInfo: [
+    "Bollard：多種設計，都有橘色調 + 白色主體，也有雙紅條紋變體"
   ],
   landscape: [
     "Flanders（北部）平坦，南部 Ardennes 丘陵",
@@ -299,10 +305,12 @@ const COUNTRIES = {
     "多種車色在 Gen 4 中可見"
   ],
   roads: [
-    "Bollard：白色主體搭配紅色矩形反光片，背景上更明顯",
     "道路品質不一 — 高速公路好，鄉村道路差",
     "白色中線（歐洲標準）",
     "高速公路使用綠色標誌"
+  ],
+  bollardInfo: [
+    "Bollard：白色主體搭配紅色矩形反光片，背景上更明顯"
   ],
   landscape: [
     "巴爾幹山脈東西橫貫中部",
@@ -354,11 +362,13 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：白色背面，反光片非常靠近頂部",
     "維護良好的高速公路（A1 Zagreb-Split 非常好）",
     "白色中線和邊線",
     "綠色高速公路標誌配白色文字",
     "主要高速公路上有收費站"
+  ],
+  bollardInfo: [
+    "Bollard：白色背面，反光片非常靠近頂部"
   ],
   landscape: [
     "Dalmatia 海岸 — 壯觀的懸崖和島嶼",
@@ -455,11 +465,13 @@ const COUNTRIES = {
     "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
   ],
   roads: [
-    "Bollard：<strong>螢光橘色條紋、分裂反光片 + 方形背面反光片</strong>",
-    "Bollard 為楔形（vs Slovakia 的弧形）",
     "維護良好的道路網絡",
     "白色中線和邊線",
     "測速照相常見"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>螢光橘色條紋、分裂反光片 + 方形背面反光片</strong>",
+    "Bollard 為楔形（vs Slovakia 的弧形）"
   ],
   landscape: [
     "起伏丘陵和森林（Bohemia 景觀）",
@@ -507,11 +519,13 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：類似 Belgium 色調但<strong>頂部有紅色條紋</strong>",
     "路面品質極佳",
     "白色中線和邊線",
     "藍色高速公路標誌配白色文字",
     "自行車基礎設施優良"
+  ],
+  bollardInfo: [
+    "Bollard：類似 Belgium 色調但<strong>頂部有紅色條紋</strong>"
   ],
   landscape: [
     "極度平坦 — Denmark 是全世界最平坦的國家之一",
@@ -656,7 +670,9 @@ const COUNTRIES = {
     "右側行駛",
     "白色中心線（多條中心線時用黃色）",
     "路面品質優良",
-    "鄉村碎石路常見",
+    "鄉村碎石路常見"
+  ],
+  bollardInfo: [
     "Bollard：圓柱形，反光片上方空間較小"
   ],
   landscape: [
@@ -709,19 +725,25 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：<strong>圓柱形白色尖頂路樁</strong>，反光帶（灰色或紅色）環繞整個主體；另有雙窄反光帶變體（法國獨有）",
-    "前法國殖民地（Senegal 等）也使用此 bollard 風格",
     "<strong>外側白色虛線間距極長</strong>（long dashes）— 法國典型特徵",
     "<strong>中線白色虛線也比一般更長</strong>",
     "⚠️ 法國獨有：<strong>中線虛線由兩個緊挨的白色方塊組成</strong>（不常見但 100% 法國）",
-    "<strong>電線桿</strong>：(1) 混凝土梯子桿（表面有階梯狀凹痕，「華夫餅桿」，Spain 也有）(2) 木桿和八邊形細金屬桿（農村常見）",
-    "電線桿上有<strong>藍色矩形小金屬片</strong>（法國獨有，幾乎所有木桿和金屬桿都有）",
-    "梯子桿頂部常有<strong>菱形三線杆頂</strong>（「法式杆頂」，Spain 也有）",
     "D 級道路（省道）以 'D' 為前綴編號，黃色小標牌顯示路號（法國獨有）",
-    "誘導標：<strong>藍底白箭頭</strong>（1-5 個箭頭）— 歐洲僅 France 和 Spain 使用此配色",
     "護欄為 A 型，通常無反光板",
     "優良的道路網絡",
     "標誌杆常為<strong>扁平矩形</strong>（歐洲僅 Portugal、Spain、Andorra 也有）"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>圓柱形白色尖頂路樁</strong>，反光帶（灰色或紅色）環繞整個主體；另有雙窄反光帶變體（法國獨有）",
+    "前法國殖民地（Senegal 等）也使用此 bollard 風格"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：(1) 混凝土梯子桿（表面有階梯狀凹痕，「華夫餅桿」，Spain 也有）(2) 木桿和八邊形細金屬桿（農村常見）",
+    "電線桿上有<strong>藍色矩形小金屬片</strong>（法國獨有，幾乎所有木桿和金屬桿都有）",
+    "梯子桿頂部常有<strong>菱形三線杆頂</strong>（「法式杆頂」，Spain 也有）"
+  ],
+  signInfo: [
+    "誘導標：<strong>藍底白箭頭</strong>（1-5 個箭頭）— 歐洲僅 France 和 Spain 使用此配色"
   ],
   landscape: [
     "多樣化：巴黎盆地、阿爾卑斯山、庇里牛斯山、蔚藍海岸、大西洋沿岸",
@@ -779,15 +801,19 @@ const COUNTRIES = {
     "<strong>白色中心線和邊線</strong>",
     "Autobahn — 部分路段無速限",
     "路面品質優良",
-    "Bollard：<strong>黑白配色路樁</strong>，白色/淺灰色反光板（十字路口旁為橘色），側面常有藍色附件；Luxembourg 有類似路樁但螺栓為 3 個而非 2 個",
-    "<strong>電線桿</strong>：(1) 木桿上常有<strong>白色矩形貼紙</strong>（德國獨有）(2) 前東德地區有圓形混凝土桿",
-    "杆頂多樣：水平桿配不對稱絕緣子、三角形杆頂、T 形杆頂等",
     "路牌背面通常為<strong>黑色或深灰色</strong>（歐洲少見，Italy、Romania、Albania 也有）",
     "路牌背面常有<strong>倒三角形紅色貼紙</strong>（黑底）",
     "每約 50 公尺就有一個路樁",
     "藍色矩形公里標記（白色邊框、圓角）",
     "城鎮入口標誌為<strong>黃色底 + 黑字 + 金屬框</strong>",
     "風力渦輪發電機比任何其他歐洲國家都普遍"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>黑白配色路樁</strong>，白色/淺灰色反光板（十字路口旁為橘色），側面常有藍色附件；Luxembourg 有類似路樁但螺栓為 3 個而非 2 個"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：(1) 木桿上常有<strong>白色矩形貼紙</strong>（德國獨有）(2) 前東德地區有圓形混凝土桿",
+    "杆頂多樣：水平桿配不對稱絕緣子、三角形杆頂、T 形杆頂等"
   ],
   landscape: [
     "北部：平原（北歐平原）",
@@ -841,16 +867,22 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：<strong>楔形路樁</strong>，正面近正方形<strong>紅色反光板</strong>，背面<strong>白色反光板</strong>",
     "<strong>略微褪色的雙白色中線</strong>（可與其他地中海國家區分）",
     "<strong>黃色道路線</strong>比任何其他南歐國家都更常見",
-    "<strong>電線桿</strong>：幾乎全部為<strong>木製</strong>，深棕色，通常比其他國家更高",
-    "杆頂獨特：<strong>竪琴形金屬框架</strong>（希臘獨有），常有五個垂直絕緣體",
-    "誘導標：<strong>黑底白箭頭</strong>（Albania、Italy、UK 也有）",
     "警告標誌：<strong>紅色邊框 + 黃色背景</strong>",
     "道路品質不一 — 高速公路好，鄉村道路可能崎嶇",
     "山路多髮夾彎",
     "路邊常見<strong>微型教堂</strong>（小基座上的祈禱亭），希臘獨有"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>楔形路樁</strong>，正面近正方形<strong>紅色反光板</strong>，背面<strong>白色反光板</strong>"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：幾乎全部為<strong>木製</strong>，深棕色，通常比其他國家更高",
+    "杆頂獨特：<strong>竪琴形金屬框架</strong>（希臘獨有），常有五個垂直絕緣體"
+  ],
+  signInfo: [
+    "誘導標：<strong>黑底白箭頭</strong>（Albania、Italy、UK 也有）"
   ],
   landscape: [
     "多山的本土配地中海海岸線",
@@ -900,11 +932,15 @@ const COUNTRIES = {
     "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
   ],
   roads: [
-    "Bollard：<strong>紅色反光片 + 較圓頂部，白色背面反光片</strong>",
-    "<strong>多孔混凝土電線桿</strong> — 大洞延伸到地面",
     "良好的高速公路網（M 級道路）",
     "白色中線",
     "高速公路通行貼紙系統"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>紅色反光片 + 較圓頂部，白色背面反光片</strong>"
+  ],
+  poleInfo: [
+    "<strong>多孔混凝土電線桿</strong> — 大洞延伸到地面"
   ],
   landscape: [
     "匈牙利大平原（Alföld）— 非常平坦",
@@ -958,11 +994,13 @@ const COUNTRIES = {
     "與 Faroe Islands 不同（Faroe 有灰色 rack，無天線）"
   ],
   roads: [
-    "Bollard：<strong>小型、全黃色搭配小型灰色反光片</strong>",
     "單線道橋梁常見（單車道配會車灣）",
     "許多碎石/未鋪裝道路（F 級道路）",
     "Route 1 環島公路 = 繞島主要公路",
     "道路品質差異極大"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>小型、全黃色搭配小型灰色反光片</strong>"
   ],
   landscape: [
     "火山地形 — 熔岩原、火山口、地熱區",
@@ -1014,11 +1052,13 @@ const COUNTRIES = {
   ],
   roads: [
     "靠左行駛",
-    "Bollard：<strong>綠白條紋，無反光片</strong>",
     "<strong>黃色虛線邊線</strong> — Ireland 非常獨特的特徵",
     "白色中線",
     "速限以 km/h 標示 (changed from mph in 2005)",
     "兩側有樹籬的狹窄鄉村道路"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>綠白條紋，無反光片</strong>"
   ],
   landscape: [
     "翠綠起伏丘陵（翡翠島）",
@@ -1072,16 +1112,22 @@ const COUNTRIES = {
   roads: [
     "右側行駛",
     "<strong>最常見劃線：無中線 + 白色實線外線</strong>（在地中海國家中獨特）",
-    "Bollard：<strong>三角形截面路樁</strong>，頂部黑色、下部白色，正面紅色反光條、背面白色反光條（Albania 也有）",
-    "<strong>電線桿</strong>：大量使用<strong>混凝土圓柱桿</strong>（地中海國家中獨特），木桿上常有<strong>白色貼紙</strong>",
-    "最常見杆頂為<strong>混凝土三叉型</strong>",
     "護欄為<strong>雙層護欄</strong>（常見），護欄上使用<strong>紅色反光板</strong>（Spain 用黃色）",
     "護欄末尾獨特：變平變寬，向道路外側彎曲",
     "路牌背面為<strong>黑色或深灰色</strong>",
-    "誘導標：<strong>黑底白箭頭</strong>（Spain、Greece、Albania 也有）",
     "道路編號以 SS（國道）、SR（區道）、SP（省道）開頭",
     "Autostrada（高速公路）有收費站，標誌為綠色",
     "北部路面品質優，南部較差"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>三角形截面路樁</strong>，頂部黑色、下部白色，正面紅色反光條、背面白色反光條（Albania 也有）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：大量使用<strong>混凝土圓柱桿</strong>（地中海國家中獨特），木桿上常有<strong>白色貼紙</strong>",
+    "最常見杆頂為<strong>混凝土三叉型</strong>"
+  ],
+  signInfo: [
+    "誘導標：<strong>黑底白箭頭</strong>（Spain、Greece、Albania 也有）"
   ],
   landscape: [
     "北部阿爾卑斯山，亞平寧山脈貫穿中部",
@@ -1171,9 +1217,11 @@ const COUNTRIES = {
     "Gen 3：白色轎車"
   ],
   roads: [
-    "Bollard：<strong>高、細，白色到橘色反光片，常有數字</strong>",
     "道路品質不一",
     "白色中線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>高、細，白色到橘色反光片，常有數字</strong>"
   ],
   landscape: [
     "平坦的波羅的海地形",
@@ -1216,9 +1264,11 @@ const COUNTRIES = {
     "Gen 3：白色轎車"
   ],
   roads: [
-    "Bollard：<strong>橘色反光片 + 白色背面反光片</strong>",
     "主要路線道路品質尚可",
     "白色中線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>橘色反光片 + 白色背面反光片</strong>"
   ],
   landscape: [
     "平坦的波羅的海地形配緩坡",
@@ -1262,7 +1312,9 @@ const COUNTRIES = {
   roads: [
     "右側行駛",
     "路面品質優良",
-    "白色中心線",
+    "白色中心線"
+  ],
+  bollardInfo: [
     "Bollard：與 Germany 相同設計"
   ],
   landscape: [
@@ -1428,9 +1480,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>有黑色帽蓋</strong>（類似 Austria 風格）",
     "山路多隧道",
     "沿海新高速公路 vs 粗糙山路"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>有黑色帽蓋</strong>（類似 Austria 風格）"
   ],
   landscape: [
     "壯觀的亞得里亞海岸線（Kotor 灣）",
@@ -1523,9 +1577,11 @@ const COUNTRIES = {
     "⚠️ North Macedonia <strong>沒有 Google 街景車覆蓋</strong> — 僅有 trekker 和第三方覆蓋"
   ],
   roads: [
-    "Bollard：反光片非常靠近頂部（類似 Croatia）",
     "道路品質不一",
     "白色中線"
+  ],
+  bollardInfo: [
+    "Bollard：反光片非常靠近頂部（類似 Croatia）"
   ],
   landscape: [
     "山地地形",
@@ -1570,11 +1626,13 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：<strong>頂部附近有小型斜向黑色條紋，白色反光片色調不同</strong>",
     "峽灣地區的單線道",
     "許多隧道 — 其中一些是世界最長",
     "主要路線道路品質優良",
     "有多條中線時偶爾使用黃色中線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>頂部附近有小型斜向黑色條紋，白色反光片色調不同</strong>"
   ],
   landscape: [
     "壯觀的峽灣 — 深窄的海灣",
@@ -1624,10 +1682,14 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：與 Germany 類似但有<strong>紅色帶作為反光片，帶上常有數字</strong>",
-    "混凝土有孔電桿 — 有時有 A 形支撐",
     "白色中心線",
     "高速公路路面優良，鄉村路面差"
+  ],
+  bollardInfo: [
+    "Bollard：與 Germany 類似但有<strong>紅色帶作為反光片，帶上常有數字</strong>"
+  ],
+  poleInfo: [
+    "混凝土有孔電桿 — 有時有 A 形支撐"
   ],
   landscape: [
     "中部/北部平坦，南部多山（Tatra 山脈）",
@@ -1676,11 +1738,14 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>反光片上方空間極小</strong>，反光片可為方形或矩形",
-    "混凝土梯子形電桿（向頂部漸細）",
     "白色中心線",
-    "高速公路有收費",
-    "城鎮有鵝卵石路面 (calçada)"
+    "高速公路有收費"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>反光片上方空間極小</strong>，反光片可為方形或矩形"
+  ],
+  poleInfo: [
+    "混凝土梯子形電桿（向頂部漸細）"
   ],
   landscape: [
     "北部丘陵地形，南部平坦的 Alentejo",
@@ -1727,10 +1792,14 @@ const COUNTRIES = {
     "Gen 3：天線有膠帶（東歐共通特徵，與 Czech, Slovakia, Hungary 共用）"
   ],
   roads: [
-    "Bollard：白色搭配紅色矩形反光片（較少見）",
-    "<strong>多孔混凝土電線桿</strong> — 類似 Hungary，底部有時塗白漆",
     "道路品質差異顯著",
     "白色中線"
+  ],
+  bollardInfo: [
+    "Bollard：白色搭配紅色矩形反光片（較少見）"
+  ],
+  poleInfo: [
+    "<strong>多孔混凝土電線桿</strong> — 類似 Hungary，底部有時塗白漆"
   ],
   landscape: [
     "喀爾巴阡山脈貫穿中部",
@@ -1780,10 +1849,12 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：<strong>十字路口極薄的「紙片狀」bollard</strong>",
     "道路品質差異極大 — Moscow 附近好，偏遠地區很差",
     "白色/黃色中線",
     "Siberia 聚落間距離極遠"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>十字路口極薄的「紙片狀」bollard</strong>"
   ],
   landscape: [
     "極大多樣性：凍原、泰加林、草原、山脈",
@@ -1853,9 +1924,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>比典型歐洲 bollard 更細，偏離中心的紅色矩形反光片</strong>",
     "白色中心線",
     "新高速公路建設中"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>比典型歐洲 bollard 更細，偏離中心的紅色矩形反光片</strong>"
   ],
   landscape: [
     "多瑙河和 Sava 河流經 Belgrade",
@@ -1898,9 +1971,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>分裂式反光片 + 彎曲設計</strong>（vs Czech 楔形）",
     "路面品質良好",
     "白色中心線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>分裂式反光片 + 彎曲設計</strong>（vs Czech 楔形）"
   ],
   landscape: [
     "北部 High Tatras 山脈",
@@ -1945,9 +2020,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>有黑色帽蓋但反光片較淺</strong>（vs Austria 深色反光片）",
     "良好高速公路網",
     "白色中心線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>有黑色帽蓋但反光片較淺</strong>（vs Austria 深色反光片）"
   ],
   landscape: [
     "西北部為高山（Julian Alps）",
@@ -1994,11 +2071,15 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>黃色反光片帶微凹</strong>",
     "白色中心線和邊線",
     "良好的 autopista/autovía 高速公路網",
-    "梯子形電桿（類似 France）",
     "藍色高速公路標誌"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>黃色反光片帶微凹</strong>"
+  ],
+  poleInfo: [
+    "梯子形電桿（類似 France）"
   ],
   landscape: [
     "中部 Meseta — 乾燥高原",
@@ -2048,10 +2129,12 @@ const COUNTRIES = {
     "Gen 3：白色轎車"
   ],
   roads: [
-    "Bollard：兩種風格 — 一種反光片周圍有黑色矩形邊框",
     "白色虛線邊線，間隔比虛線長（獨特風格）",
     "道路品質優良",
     "許多駝鹿/麋鹿警告標誌"
+  ],
+  bollardInfo: [
+    "Bollard：兩種風格 — 一種反光片周圍有黑色矩形邊框"
   ],
   landscape: [
     "森林為主（白樺、松樹、雲杉）",
@@ -2103,10 +2186,12 @@ const COUNTRIES = {
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "Bollard：<strong>圓頂圓柱形，黑白相間圖案</strong>",
-    "Liechtenstein 使用類似 bollard",
     "道路品質優良",
     "山口配髮夾彎"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>圓頂圓柱形，黑白相間圖案</strong>",
+    "Liechtenstein 使用類似 bollard"
   ],
   landscape: [
     "瑞士阿爾卑斯山 — 壯觀山景",
@@ -2156,9 +2241,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "Bollard：<strong>圓頂圓柱形，黑白配色</strong>（與 Switzerland 完全相同）",
     "路面品質優良（已開發國家）",
     "白色中心線"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>圓頂圓柱形，黑白配色</strong>（與 Switzerland 完全相同）"
   ],
   landscape: [
     "阿爾卑斯山小國 — 完全被山脈環繞",
@@ -2205,17 +2292,23 @@ const COUNTRIES = {
     "多種車型跨越不同涵蓋期間"
   ],
   roads: [
-    "Bollard：<strong>矩形純白薄片</strong>，正面紅色反光條（Romania 和 Australia 也有類似）",
     "<strong>道路標線不一致</strong>：大多數為白色，但<strong>黃色標線也不少見</strong>（全黃或黃白混合）",
     "路面常有<strong>「椒鹽狀」顆粒質感</strong>",
     "<strong>分離式道路</strong>比其他地中海國家更常見",
-    "<strong>電線桿</strong>：<strong>梯子狀/網狀金屬桿</strong>很常見（不同於 Romania/Hungary 的混凝土多孔桿）",
-    "誘導標：<strong>白底紅箭頭</strong>（箭頭尖端通常不延伸到標識邊緣，部分有霓虹黃邊框）",
-    "停車標誌：<strong>「DUR」</strong>（土耳其獨有）",
     "雪桿：從上到下黑色、橘色、黑色、白色，附小紅色反光鏡",
     "護欄：A 型和 B 型混用",
     "磚鋪路面非常常見",
     "主要高速公路道路品質良好"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>矩形純白薄片</strong>，正面紅色反光條（Romania 和 Australia 也有類似）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：<strong>梯子狀/網狀金屬桿</strong>很常見（不同於 Romania/Hungary 的混凝土多孔桿）"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（箭頭尖端通常不延伸到標識邊緣，部分有霓虹黃邊框）",
+    "停車標誌：<strong>「DUR」</strong>（土耳其獨有）"
   ],
   landscape: [
     "Turkey 西部：地中海/愛琴海沿岸",
@@ -2315,16 +2408,22 @@ const COUNTRIES = {
   ],
   roads: [
     "靠左行駛",
-    "Bollard：<strong>圓柱形，頂部光滑</strong>，正面紅色反光板、背面白色反光板，黑白黑間隔條紋",
     "Scotland 路樁較粗、紅灰色反光帶環繞整個路樁（外觀類似法國路樁但頂部光滑非尖頂）",
     "<strong>長白色虛線中線</strong>，線間隙有<strong>貓眼反射器</strong>（英國重要線索）",
     "<strong>雙黃線</strong>常用於道路兩側（禁止停車區，尤其城市區域）",
-    "<strong>電線桿</strong>：常用<strong>木質桿</strong>，桿側有<strong>金屬桿台階</strong>（一系列細水平金屬棒），Ireland 也有",
     "圓環極為常見",
-    "速限以 mph 標示",
-    "誘導標：<strong>黑底白箭頭</strong>（Ireland 為黑底黃箭頭）",
-    "讓行標誌寫 'GIVE WAY'（Ireland 寫 'YIELD'）",
+    "速限以 mph 標示"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>圓柱形，頂部光滑</strong>，正面紅色反光板、背面白色反光板，黑白黑間隔條紋"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：常用<strong>木質桿</strong>，桿側有<strong>金屬桿台階</strong>（一系列細水平金屬棒），Ireland 也有",
     "電線桿上有<strong>黃色警告貼紙</strong>（有被閃電擊中的人圖案，Ireland 的只有閃電）"
+  ],
+  signInfo: [
+    "誘導標：<strong>黑底白箭頭</strong>（Ireland 為黑底黃箭頭）",
+    "讓行標誌寫 'GIVE WAY'（Ireland 寫 'YIELD'）"
   ],
   landscape: [
     "England：翠綠起伏鄉村、樹籬",
@@ -2476,13 +2575,19 @@ const COUNTRIES = {
   roads: [
     "右側通行",
     "<strong>黃色中線</strong>（虛線或實線），外線罕見但若存在則為<strong>白色實線</strong>（與 Thailand 類似）",
-    "護柱：最常見為<strong>紅白相間條紋石柱</strong>，或頂部紅色底部白色石柱（紅色部分有反光板）",
-    "誘導標：<strong>黑底黃箭頭</strong>（不常見；其他東南亞國家為黃底黑箭頭，方向相反）",
-    "<strong>電線桿</strong>：(1) <strong>混凝土梯形桿</strong>（表面有梯子狀凹痕）(2) <strong>圓形混凝土桿帶小孔</strong>；簡單木桿罕見",
-    "⚠️ Thailand 用方形混凝土桿（有成排小孔），Cambodia 不常見此型",
     "<strong>許多道路未鋪設</strong> — 通常只有幹道和城市附近道路有鋪設",
     "路標為石製，白色底座 + 圓形紅頂",
     "路況不一 — 高速公路尚可，鄉間道路崎嶇"
+  ],
+  bollardInfo: [
+    "護柱：最常見為<strong>紅白相間條紋石柱</strong>，或頂部紅色底部白色石柱（紅色部分有反光板）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：(1) <strong>混凝土梯形桿</strong>（表面有梯子狀凹痕）(2) <strong>圓形混凝土桿帶小孔</strong>；簡單木桿罕見",
+    "⚠️ Thailand 用方形混凝土桿（有成排小孔），Cambodia 不常見此型"
+  ],
+  signInfo: [
+    "誘導標：<strong>黑底黃箭頭</strong>（不常見；其他東南亞國家為黃底黑箭頭，方向相反）"
   ],
   landscape: [
     "平坦地形 — 湄公河與洞里薩湖低地",
@@ -2569,12 +2674,14 @@ const COUNTRIES = {
   roads: [
     "左側通行",
     "路標杆通常為<strong>黑白條紋</strong>（Bangladesh 和 Sri Lanka 也有）",
-    "<strong>電線桿</strong>：最常見為<strong>矩形混凝土桿</strong>配<strong>三叉戟杆頂</strong>；幾乎全為混凝土或金屬材質，木桿極罕見",
-    "各地有獨特的桿子和杆頂樣式",
     "路面品質差異極大",
     "混亂的交通，各種車輛混行（卡車、三輪車、牛）",
     "國道系統（NH 編號）",
     "減速帶極為常見"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：最常見為<strong>矩形混凝土桿</strong>配<strong>三叉戟杆頂</strong>；幾乎全為混凝土或金屬材質，木桿極罕見",
+    "各地有獨特的桿子和杆頂樣式"
   ],
   landscape: [
     "極度多樣：喜馬拉雅山、沙漠、熱帶海岸、平原",
@@ -2625,14 +2732,18 @@ const COUNTRIES = {
   ],
   roads: [
     "左側通行",
-    "護柱：<strong>黑白方塊圓形/方形路樁</strong>（類似 Thailand）+ 黃黑色圓形路樁帶紅色反光片（英式路樁，常見於 Kalimantan）",
     "<strong>白色或黃色中線</strong>（實線或虛線），白色外線 — Malaysia 的道路線總是白色",
     "⚠️ 黃色中線在三代街景中較罕見（近年才開始使用）",
-    "<strong>電線桿</strong>：圓形<strong>混凝土或金屬桿</strong>；金屬桿常漆成<strong>黑色</strong>，上有<strong>印尼國旗圖案</strong>",
-    "杆頂對稱/不對稱是重要的<strong>區域猜測線索</strong>",
     "路況因島嶼而異",
     "機車主導交通",
     "黃色面向馬路的<strong>里程碑</strong>（印尼獨有），上有三個城鎮簡稱"
+  ],
+  bollardInfo: [
+    "護柱：<strong>黑白方塊圓形/方形路樁</strong>（類似 Thailand）+ 黃黑色圓形路樁帶紅色反光片（英式路樁，常見於 Kalimantan）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：圓形<strong>混凝土或金屬桿</strong>；金屬桿常漆成<strong>黑色</strong>，上有<strong>印尼國旗圖案</strong>",
+    "杆頂對稱/不對稱是重要的<strong>區域猜測線索</strong>"
   ],
   landscape: [
     "熱帶群島 — 超過 17,000 個島嶼",
@@ -2690,14 +2801,18 @@ const COUNTRIES = {
     "路面品質極佳",
     "<strong>三種道路劃線</strong>：(1) 白色實線外線 + 白色虛線中線（最常見）(2) 白色實線外線 + 黃色實線中線 (3) 白色實線外線 + 白色與黃色混合中線",
     "⚠️ 日本<strong>永遠不會有黃色外線</strong>",
-    "<strong>電線桿</strong>：圓形混凝土桿，表面有螺絲狀水平凸起（螺紋桿）— 非常普遍",
-    "電線桿上常有<strong>電力公司標牌</strong>（各地方設計不同，可用於區域猜測）和<strong>反光帶</strong>（垂直黃色條紋/對角黃色條紋/對角白色條紋）",
-    "停車標誌：日語「止まれ」（非 STOP）",
     "白色簡單路樁，頂部帶圓形反射塊",
     "白色護欄為標準配置",
     "住宅區街道狹窄",
     "收費快速道路眾多",
     "轉角處常見交通鏡"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：圓形混凝土桿，表面有螺絲狀水平凸起（螺紋桿）— 非常普遍",
+    "電線桿上常有<strong>電力公司標牌</strong>（各地方設計不同，可用於區域猜測）和<strong>反光帶</strong>（垂直黃色條紋/對角黃色條紋/對角白色條紋）"
+  ],
+  signInfo: [
+    "停車標誌：日語「止まれ」（非 STOP）"
   ],
   landscape: [
     "多山地形（70% 為山地）",
@@ -2754,13 +2869,17 @@ const COUNTRIES = {
   roads: [
     "右側通行",
     "<strong>黃色中線 + 白色外線</strong>",
-    "護柱：黑白楔形，正面圓形<strong>黃色反光板</strong>，背面灰色",
-    "<strong>電線桿</strong>：底部有<strong>黑黃色對角條紋標記</strong>（不延伸到底部，與 Taiwan 不同），頂部有<strong>錐形尖刺</strong>",
     "路面品質極佳",
     "路面上常見<strong>紅色減速帶</strong>",
     "人行橫道為<strong>黃白相間</strong>",
     "三角形警告標誌背景為<strong>黃色</strong>（非白色）",
-    "現代化高速公路系統",
+    "現代化高速公路系統"
+  ],
+  bollardInfo: [
+    "護柱：黑白楔形，正面圓形<strong>黃色反光板</strong>，背面灰色"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：底部有<strong>黑黃色對角條紋標記</strong>（不延伸到底部，與 Taiwan 不同），頂部有<strong>錐形尖刺</strong>",
     "藍色箭頭形路牌懸掛在電線桿金屬條上"
   ],
   landscape: [
@@ -2806,9 +2925,11 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>左側行駛</strong>",
-    "Bollard：五段式設計帶反光片",
     "<strong>雙白色中心線</strong>常見",
     "高速公路路面品質良好"
+  ],
+  bollardInfo: [
+    "Bollard：五段式設計帶反光片"
   ],
   landscape: [
     "熱帶 — 到處都是油棕種植園",
@@ -2856,12 +2977,16 @@ const COUNTRIES = {
     "與 Kyrgyzstan 區別：Mongolia 有背包/露營裝備，Kyrgyzstan 沒有"
   ],
   roads: [
-    "護柱：<strong>白色保齡球瓶形</strong>，頂部兩條紅色條紋（蒙古獨有）",
-    "停車標誌：<strong>「ЗОГС」</strong>（蒙古獨有）",
     "大量未鋪設道路 — 草原上的車轍痕跡",
     "烏蘭巴托以外極少有鋪設道路",
     "大多數道路無標線",
     "基礎設施明顯受<strong>俄羅斯影響</strong>：支撐石塊的木柱、白色燈柱、三條人行橫道標誌"
+  ],
+  bollardInfo: [
+    "護柱：<strong>白色保齡球瓶形</strong>，頂部兩條紅色條紋（蒙古獨有）"
+  ],
+  signInfo: [
+    "停車標誌：<strong>「ЗОГС」</strong>（蒙古獨有）"
   ],
   landscape: [
     "遼闊草原 — 一望無際的草地",
@@ -2947,8 +3072,10 @@ const COUNTRIES = {
   roads: [
     "右側行駛",
     "<strong>三條中心線</strong>（部分區域）",
-    "木製十字架形電桿 — 非常獨特",
     "Jeepney 在路上"
+  ],
+  poleInfo: [
+    "木製十字架形電桿 — 非常獨特"
   ],
   landscape: [
     "熱帶群島 — 超過 7,000 個島嶼",
@@ -3045,10 +3172,12 @@ const COUNTRIES = {
   roads: [
     "左側通行",
     "農村公路通常<strong>有外線但無中線</strong>；大多數小路完全無標線",
-    "<strong>電線桿</strong>：混凝土桿為主 — (1) <strong>方形桿，頂部有小型針孔</strong>（與 Thailand 類似但泰國針孔延伸到底部）(2) <strong>多孔電線桿</strong>（下半部有大型透視方孔，斯里蘭卡獨有）",
     "路樁：獨特的<strong>短寬石樁</strong>，錐形，底部黑色、頂部白色（斯里蘭卡獨有）",
     "路標為<strong>黑白條紋</strong>（Bangladesh 和 Malaysia 也有）",
     "路面品質不一"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：混凝土桿為主 — (1) <strong>方形桿，頂部有小型針孔</strong>（與 Thailand 類似但泰國針孔延伸到底部）(2) <strong>多孔電線桿</strong>（下半部有大型透視方孔，斯里蘭卡獨有）"
   ],
   landscape: [
     "熱帶島嶼",
@@ -3091,9 +3220,11 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "<strong>圓柱形混凝土電桿帶斜向黑黃條紋延伸到地面</strong>",
     "路面品質良好",
     "機車大量出現"
+  ],
+  poleInfo: [
+    "<strong>圓柱形混凝土電桿帶斜向黑黃條紋延伸到地面</strong>"
   ],
   landscape: [
     "內陸多山（中央山脈）",
@@ -3143,15 +3274,18 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>左側行駛</strong>",
-    "Bollard：<strong>方形路樁，錐形頂，黑白條紋</strong>（Cambodia、Laos、Indonesia 也有）",
     "<strong>黃色中線</strong>（實線或虛線）— Malaysia 只有白色中線",
     "白色外線",
-    "<strong>水泥路面</strong>很常見（看起來像一塊塊正方形拼接），Philippines 也常見但 Indonesia 不太常見",
-    "<strong>電線桿</strong>：<strong>方形混凝土桿</strong>，桿上有<strong>垂直方向延伸的小孔</strong>（Sri Lanka 和 Cambodia 有類似桿）",
     "路燈桿底部有<strong>黑紅或黑白條紋</strong>",
     "路標的柱子為<strong>方形白色粗柱</strong>，底部通常塗成黑色（東南亞中泰國獨有）",
     "路面品質良好（高速公路）",
     "藍白盾牌編號公路標誌，帶有<strong>迦樓羅</strong>（泰國國徽神鳥）"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>方形路樁，錐形頂，黑白條紋</strong>（Cambodia、Laos、Indonesia 也有）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：<strong>方形混凝土桿</strong>，桿上有<strong>垂直方向延伸的小孔</strong>（Sri Lanka 和 Cambodia 有類似桿）"
   ],
   landscape: [
     "熱帶 — 翠綠茂密的植被",
@@ -3465,9 +3599,11 @@ const COUNTRIES = {
     "白色邊線",
     "'SPEED LIMIT' 速限標誌（Canada 用 'MAXIMUM'）",
     "MPH 速度單位（非 km/h）",
-    "'YIELD' 讓行標誌有文字（Canada 是空白三角形）",
     "'ONE WAY' 單行標誌有文字（Canada 是空白箭頭）",
     "各州道路差異明顯"
+  ],
+  signInfo: [
+    "'YIELD' 讓行標誌有文字（Canada 是空白三角形）"
   ],
   landscape: [
     "地形極為多樣：西南沙漠、東北綠地、中西部平原、太平洋沿岸",
@@ -3519,10 +3655,12 @@ const COUNTRIES = {
     "白色實線邊線",
     "<strong>'MAXIMUM' 速限標誌</strong>（非 'SPEED LIMIT'）",
     "km/h 速度單位",
-    "<strong>空白讓行三角形</strong>（無 'YIELD' 文字）",
     "空白單行箭頭（無 'ONE WAY' 文字）",
     "木製標誌桿比 US 多（US 多用金屬）",
     "藍色資訊標誌較多（US 多用綠色）"
+  ],
+  signInfo: [
+    "<strong>空白讓行三角形</strong>（無 'YIELD' 文字）"
   ],
   landscape: [
     "BC：山脈、松樹林",
@@ -3575,10 +3713,16 @@ const COUNTRIES = {
   roads: [
     "<strong>單一實黃色中心線</strong> — Mexico 獨有特徵",
     "白色邊線",
-    "ALTO 停車標誌",
-    "<strong>白色香菸形 bollard，底部黑色 + 背面黃色</strong>",
-    "八角形電線桿；也有黑色螺旋絕緣子的木桿",
     "Topes（巨大減速丘）— 非常常見"
+  ],
+  bollardInfo: [
+    "<strong>白色香菸形 bollard，底部黑色 + 背面黃色</strong>"
+  ],
+  poleInfo: [
+    "八角形電線桿；也有黑色螺旋絕緣子的木桿"
+  ],
+  signInfo: [
+    "ALTO 停車標誌"
   ],
   landscape: [
     "北部：Chihuahuan 沙漠",
@@ -3628,9 +3772,13 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>白色外線 + 單黃色中線</strong>（與 Mexico 類似，但標線通常比 Mexico 更細）",
-    "ALTO 停車標誌",
-    "<strong>電線桿</strong>：常見塗有<strong>粉紅色、綠色</strong>或兩者結合的電線桿（獨特特徵）；東南部有<strong>全綠色電線桿</strong>（附白色小牌）",
     "棋盤式街道系統：Calle（東西向）、Avenida（南北向）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：常見塗有<strong>粉紅色、綠色</strong>或兩者結合的電線桿（獨特特徵）；東南部有<strong>全綠色電線桿</strong>（附白色小牌）"
+  ],
+  signInfo: [
+    "ALTO 停車標誌"
   ],
   landscape: ["從熱帶到高地", "火山地形", "可見瑪雅文化"],
   signs: ["西班牙語，有 Ñ"],
@@ -3658,8 +3806,10 @@ const COUNTRIES = {
   ],
   roads: [
     "單黃色中心線",
-    "ALTO 停車標誌",
     "銀色標誌桿，背面有十字支撐"
+  ],
+  signInfo: [
+    "ALTO 停車標誌"
   ],
   landscape: ["熱帶：雨林、火山、海灘", "茂密植被"],
   signs: ["西班牙語"],
@@ -3685,7 +3835,12 @@ const COUNTRIES = {
     "即使看不到天線，模糊區域通常也比較大",
     "無 車頂架 (roof rack)、無 snorkel"
   ],
-  roads: ["ALTO 停車標誌"],
+  roads: [
+
+  ],
+  signInfo: [
+    "ALTO 停車標誌"
+  ],
   landscape: ["Panama Canal 地區", "熱帶", "Barú 附近的火山地形"],
   signs: ["西班牙語"],
   plates: ["頂部有彩色條紋（綠色或藍色）", "部分全藍或全紅"],
@@ -3715,8 +3870,13 @@ const COUNTRIES = {
     "白色轎車"
   ],
   roads: [
-    "PARE 停車標誌（非 ALTO！）",
+
+  ],
+  poleInfo: [
     "Santiago：電線桿底部灰色塗漆；Santo Domingo：未塗漆"
+  ],
+  signInfo: [
+    "PARE 停車標誌（非 ALTO！）"
   ],
   landscape: ["熱帶加勒比海島嶼", "與 Haiti 共用同一島嶼"],
   signs: ["西班牙語"],
@@ -3742,11 +3902,15 @@ const COUNTRIES = {
     "Gen 3 涵蓋（主要西海岸）"
   ],
   roads: [
-    "<strong>PARE 停車標誌 + MPH 速限</strong> — 獨特組合！",
     "距離標記用 KM（但速度用 MPH）",
-    "粗壯的方形電線桿",
     "圓形盾牌公路標記（編號 100-9000+）",
     "街道標誌上有 'CALLE'"
+  ],
+  poleInfo: [
+    "粗壯的方形電線桿"
+  ],
+  signInfo: [
+    "<strong>PARE 停車標誌 + MPH 速限</strong> — 獨特組合！"
   ],
   landscape: ["熱帶加勒比海島嶼", "內陸有山脈"],
   signs: ["以西班牙語為主，也使用英語"],
@@ -3773,9 +3937,11 @@ const COUNTRIES = {
     "Roof rack 是辨識 Curaçao 的重要線索"
   ],
   roads: [
-    "底部白色的木製電線桿",
     "城鎮中亮黃色標誌桿",
     "黑白條紋交通號誌"
+  ],
+  poleInfo: [
+    "底部白色的木製電線桿"
   ],
   landscape: ["乾旱的加勒比海島嶼", "色彩繽紛的荷蘭殖民風格房屋"],
   signs: ["荷蘭語、英語、Papiamento"],
@@ -3877,17 +4043,20 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>中線雙黃線 + 白色外線</strong>（中線偶爾為單黃色虛線）",
-    "PARE 停車標誌",
     "<strong>黑色標誌背面</strong> — Brazil 最強辨識特徵之一",
-    "誘導標：<strong>黑底黃箭頭</strong>（南美洲大部分為黃底黑箭頭，巴西相反）",
-    "<strong>電線桿</strong>：最常見為<strong>梯子桿</strong>（底部矩形寬大，有 3-4 段分段凹痕，頂部有小孔）",
-    "南部（尤其 SP）常見<strong>圓柱形混凝土桿</strong>；RS、RR、AM、RJ 常見<strong>木桿</strong>",
-    "電線桿上有<strong>黃色杆漆標記</strong>（電力公司 ID），各州設計不同（重要區域線索）",
     "黃黑色V字標記",
     "道路兩側有<strong>白色路緣石</strong>（常見）",
     "藍色路標顯示道路編號和公里數",
-    "標誌上的州代碼（PR、SP、MG 等）",
-    "東北部和 RS 常見<strong>鵝卵石路面</strong>；SC 和 MG 常見<strong>六邊形混凝土磚路</strong>"
+    "標誌上的州代碼（PR、SP、MG 等）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：最常見為<strong>梯子桿</strong>（底部矩形寬大，有 3-4 段分段凹痕，頂部有小孔）",
+    "南部（尤其 SP）常見<strong>圓柱形混凝土桿</strong>；RS、RR、AM、RJ 常見<strong>木桿</strong>",
+    "電線桿上有<strong>黃色杆漆標記</strong>（電力公司 ID），各州設計不同（重要區域線索）"
+  ],
+  signInfo: [
+    "PARE 停車標誌",
+    "誘導標：<strong>黑底黃箭頭</strong>（南美洲大部分為黃底黑箭頭，巴西相反）"
   ],
   landscape: [
     "<strong>紅橘色土壤</strong> — 非常獨特",
@@ -3937,13 +4106,17 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>混合中線</strong>：白色虛線、雙黃線、或單黃線 + 白色虛線混合",
-    "PARE 停車標誌",
-    "誘導標：<strong>白底紅箭頭</strong>（拉丁美洲中阿根廷獨有）",
-    "<strong>電線桿</strong>：(1) <strong>混凝土圓桿</strong>，上有三根電線交替分布 (2) <strong>雙圓桿</strong>組合（阿根廷優秀線索，Bolivia 偶爾也有）(3) <strong>木桿</strong>（含木製 A 型桿，南美洲中僅阿根廷有木製 A 型桿）",
-    "La Rioja 和 Mendoza 有<strong>「拉脫維亞式」木製電線桿</strong>（獨有）",
     "護欄上有<strong>黃色和紅色矩形反光片</strong>（Uruguay 也有，但支撐柱形狀不同）",
     "RN（國道）/ RP（省道）公路標誌",
     "高速公路標識獨特：頂部標明路號"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：(1) <strong>混凝土圓桿</strong>，上有三根電線交替分布 (2) <strong>雙圓桿</strong>組合（阿根廷優秀線索，Bolivia 偶爾也有）(3) <strong>木桿</strong>（含木製 A 型桿，南美洲中僅阿根廷有木製 A 型桿）",
+    "La Rioja 和 Mendoza 有<strong>「拉脫維亞式」木製電線桿</strong>（獨有）"
+  ],
+  signInfo: [
+    "PARE 停車標誌",
+    "誘導標：<strong>白底紅箭頭</strong>（拉丁美洲中阿根廷獨有）"
   ],
   landscape: [
     "Pampas：平坦草原",
@@ -3984,10 +4157,16 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>全白色道路標線</strong> — 南美洲唯一全白標線的國家",
-    "PARE 停車標誌",
-    "頂部有插槽的標誌桿",
-    "方形混凝土電線桿，側面有凹痕 + 小孔",
+    "頂部有插槽的標誌桿"
+  ],
+  bollardInfo: [
     "西班牙式 bollard"
+  ],
+  poleInfo: [
+    "方形混凝土電線桿，側面有凹痕 + 小孔"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: [
     "北部：Atacama 沙漠（地球上最乾燥的地方）",
@@ -4023,10 +4202,12 @@ const COUNTRIES = {
   ],
   roads: [
     "黃色中心線 + 白色邊線",
-    "PARE 停車標誌",
     "<strong>「Colombia Cross」— 標誌背面的 X 形金屬結構</strong>",
     "細白色標誌桿",
     "紅色磁磚人行道"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: [
     "Andes 山脈",
@@ -4059,10 +4240,16 @@ const COUNTRIES = {
   ],
   roads: [
     "黃色中心線",
-    "PARE 停車標誌",
-    "<strong>雙護欄</strong> — 在南美洲少見",
-    "<strong>非常常見的 bollard</strong> — 圓柱形有兩條紅色條紋；或扁平型有兩個紅色反光片",
+    "<strong>雙護欄</strong> — 在南美洲少見"
+  ],
+  bollardInfo: [
+    "<strong>非常常見的 bollard</strong> — 圓柱形有兩條紅色條紋；或扁平型有兩個紅色反光片"
+  ],
+  poleInfo: [
     "法式梯子電線桿，有凹痕"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: ["Andes 山脈", "Galápagos 群島", "沿海熱帶低地"],
   signs: ["西班牙語，有 Ñ"],
@@ -4092,11 +4279,17 @@ const COUNTRIES = {
   ],
   roads: [
     "黃色中心線 + 白色路肩線",
-    "PARE 停車標誌",
     "<strong>黑白條紋標誌桿</strong> — 僅 Peru！",
-    "三臂電線桿；下半部塗黑",
-    "「香菸」bollard — 白色圓柱配黑色條紋",
     "標誌底座在凸起的混凝土塊上"
+  ],
+  bollardInfo: [
+    "「香菸」bollard — 白色圓柱配黑色條紋"
+  ],
+  poleInfo: [
+    "三臂電線桿；下半部塗黑"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: [
     "海岸：沙漠",
@@ -4130,9 +4323,13 @@ const COUNTRIES = {
   ],
   roads: [
     "白色實線邊線 + 黃色中心線",
-    "PARE 停車標誌",
-    "粗大未塗漆的木製標誌桿",
+    "粗大未塗漆的木製標誌桿"
+  ],
+  poleInfo: [
     "不規則電線桿"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: [
     "大部分為乾燥沙漠地形",
@@ -4167,11 +4364,15 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>三線：雙黃色中心線 + 白色虛線交錯</strong> — 僅 Uruguay！",
-    "PARE 停車標誌",
     "白色木製標誌桿",
-    "Bollard：白色正面 + 頂部矩形反光片",
     "白黑色交通號誌",
     "<strong>綠色塗漆里程碑</strong> — Uruguay 獨有"
+  ],
+  bollardInfo: [
+    "Bollard：白色正面 + 頂部矩形反光片"
+  ],
+  signInfo: [
+    "PARE 停車標誌"
   ],
   landscape: [
     "平坦草地牧場（牛/羊）",
@@ -4213,10 +4414,14 @@ const COUNTRIES = {
     "<strong>黃色外線 + 白色中線</strong>（Botswana、Lesotho、Eswatini 也有）",
     "⚠️ 看到黃色外線 + 非洲 = 很可能是南部非洲",
     "<strong>三條中心線</strong>：兩條白色實線 + 一條虛線（或兩白一黃），如 Philippines、Uruguay",
-    "<strong>電線桿</strong>：最常見為<strong>「飛鳥桿」</strong>（1-5 個平行於地面的長桿 + 絕緣裝置），各省有獨特杆頂（Western Cape 為 A 形、KwaZulu-Natal 為三叉戟、北部四省為「}」形）",
-    "誘導標：<strong>白底紅箭頭</strong>（細小版路旁也很常見）",
-    "紅白 V 形 (chevrons) 電桿標記",
     "道路編號：N 開頭為國道、R 開頭為省道（Botswana 和 Lesotho 用 A/B 開頭）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：最常見為<strong>「飛鳥桿」</strong>（1-5 個平行於地面的長桿 + 絕緣裝置），各省有獨特杆頂（Western Cape 為 A 形、KwaZulu-Natal 為三叉戟、北部四省為「}」形）",
+    "紅白 V 形 (chevrons) 電桿標記"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（細小版路旁也很常見）"
   ],
   landscape: [
     "多元地貌：Cape Town 海岸、Drakensberg 山脈、Highveld 高原、Karoo 半沙漠",
@@ -4314,8 +4519,10 @@ const COUNTRIES = {
   roads: [
     "靠右行駛（前英國殖民地中少見）",
     "道路線不常見 — 很多道路沒有標線或已褪色，坑洼和未鋪設路段常見",
-    "<strong>電線桿</strong>：<strong>混凝土桿</strong>帶凹痕和水平支撐（類似巴西梯子桿但<strong>無孔</strong>）",
     "路況差異極大"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：<strong>混凝土桿</strong>帶凹痕和水平支撐（類似巴西梯子桿但<strong>無孔</strong>）"
   ],
   landscape: [
     "南部為熱帶雨林",
@@ -4357,10 +4564,12 @@ const COUNTRIES = {
   roads: [
     "靠右行駛",
     "<strong>道路標線全部為白色</strong>（許多鋪設道路甚至無標線）",
-    "<strong>電線桿</strong>：通常為<strong>木製桿</strong>，配<strong>金屬橫桿 + 3 個絕緣子</strong>",
     "路樁通常為<strong>紅白相間</strong>，形狀不定",
     "城市中常見<strong>黑白相間路杆</strong>",
     "路況不一 — 北部多未鋪設道路"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：通常為<strong>木製桿</strong>，配<strong>金屬橫桿 + 3 個絕緣子</strong>"
   ],
   landscape: [
     "南部為熱帶雨林",
@@ -4469,8 +4678,10 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "法式 bollard（紅色/灰色反光帶環繞主體）",
     "法式影響的道路基礎設施"
+  ],
+  bollardInfo: [
+    "法式 bollard（紅色/灰色反光帶環繞主體）"
   ],
   landscape: [
     "平坦、半乾旱的 Sahel 地帶",
@@ -4544,8 +4755,10 @@ const COUNTRIES = {
   ],
   roads: [
     "右側行駛",
-    "<strong>金屬鐵絲型電桿</strong>（非常獨特）",
     "法式影響的道路系統"
+  ],
+  poleInfo: [
+    "<strong>金屬鐵絲型電桿</strong>（非常獨特）"
   ],
   landscape: [
     "北部為地中海海岸",
@@ -4833,17 +5046,23 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>左側行駛</strong>",
-    "Bollard：<strong>白色主體</strong>，正面<strong>紅色反光板</strong>，背面<strong>灰色反光板</strong>（NZ 的反光板環繞一圈，AU 只有正面）",
     "<strong>幾乎只用白色公路標線</strong>（某些高山地區例外如 Mount Kosciuszko 附近可見全黃線）",
     "⚠️ 看到黃色邊線可能是 South Africa；黃色中線可能是 New Zealand",
     "邊線常有<strong>振動帶</strong>（看起來像垂直小條紋），Northern Territory 大部分路沒有振動帶",
-    "<strong>電線桿</strong>：各州不同 — SA 有鋼筋混凝土桿配<strong>三叉戟杆頂</strong>；VIC 有混凝土桿配三線圈杆頂；QLD 有兩側微微向上的線圈杆頂；TAS 有 L 形薄金屬橫桿",
-    "NT 有<strong>生鏽金屬桿</strong>（中間有孔洞）",
     "WA 的路樁<strong>下方塗棕色</strong>，QLD 有<strong>黑黃相間路樁</strong>，WA 有<strong>黑白條紋路樁</strong>",
-    "誘導標：黑白相間和<strong>黃底黑箭頭</strong>",
-    "讓路標（GIVE WAY）白色邊框 + 黑色文字（NZ 用紅色文字）",
     "袋鼠/野生動物警告標誌",
     "路面品質良好"
+  ],
+  bollardInfo: [
+    "Bollard：<strong>白色主體</strong>，正面<strong>紅色反光板</strong>，背面<strong>灰色反光板</strong>（NZ 的反光板環繞一圈，AU 只有正面）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：各州不同 — SA 有鋼筋混凝土桿配<strong>三叉戟杆頂</strong>；VIC 有混凝土桿配三線圈杆頂；QLD 有兩側微微向上的線圈杆頂；TAS 有 L 形薄金屬橫桿",
+    "NT 有<strong>生鏽金屬桿</strong>（中間有孔洞）"
+  ],
+  signInfo: [
+    "誘導標：黑白相間和<strong>黃底黑箭頭</strong>",
+    "讓路標（GIVE WAY）白色邊框 + 黑色文字（NZ 用紅色文字）"
   ],
   landscape: [
     "遼闘的內陸荒野 — 沙漠/半乾旱",
@@ -4891,14 +5110,20 @@ const COUNTRIES = {
   ],
   roads: [
     "靠左行駛",
-    "Bollard：頂部有<strong>紅色帶環繞整個背部和部分前部</strong>（AU 只有正面小紅色反光片），前/後有薄黃色或白色反光體（NZ 獨有）",
     "外線一般為白色，人口稠密處也用<strong>黃色虛線外線</strong>；中線為白色虛線或雙黃實線",
-    "<strong>電線桿</strong>：最常見為<strong>混凝土桿帶長凹槽</strong>（延伸很高），大多有銀色<strong>防負鼠裝置</strong>；也有混凝土多孔桿和圓形木桿",
     "讓行標誌白色邊緣 + <strong>紅色文字</strong>（AU 為黑色文字）",
     "路面常畫有<strong>讓行三角形</strong>（AU 無此設計）",
-    "誘導標：<strong>黃底黑箭頭</strong>帶一圈薄黑邊（AU 無黑邊）",
     "許多蜿蜒的山路",
     "綠色方向標，國道上有<strong>紅色徽章</strong>（寫有路號）"
+  ],
+  bollardInfo: [
+    "Bollard：頂部有<strong>紅色帶環繞整個背部和部分前部</strong>（AU 只有正面小紅色反光片），前/後有薄黃色或白色反光體（NZ 獨有）"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>：最常見為<strong>混凝土桿帶長凹槽</strong>（延伸很高），大多有銀色<strong>防負鼠裝置</strong>；也有混凝土多孔桿和圓形木桿"
+  ],
+  signInfo: [
+    "誘導標：<strong>黃底黑箭頭</strong>帶一圈薄黑邊（AU 無黑邊）"
   ],
   landscape: [
     "北島：綠色起伏丘陵、火山、地熱區",
@@ -5027,14 +5252,16 @@ const COUNTRIES = {
       '無 follow car meta'
     ],
     roads: [
-      '覆蓋主要在歷史古蹟，而非道路',
-      '有道路覆蓋時，路面為混凝土或柏油',
-      '部分地區可見金屬或水泥電線桿',
-      '主要道路上有綠色高速公路標誌配白色文字',
-      '高速公路標誌類似英國風格',
-      '城市和鄉村地區的道路基礎設施差異極大',
-      '城市地區減速帶常見'
-    ],
+    '覆蓋主要在歷史古蹟，而非道路',
+    '有道路覆蓋時，路面為混凝土或柏油',
+    '主要道路上有綠色高速公路標誌配白色文字',
+    '高速公路標誌類似英國風格',
+    '城市和鄉村地區的道路基礎設施差異極大',
+    '城市地區減速帶常見'
+  ],
+  poleInfo: [
+    '部分地區可見金屬或水泥電線桿'
+  ],
     landscape: [
       '地形多樣 — 從喀喇崑崙山到旁遮普平原到俾路支沙漠',
       'Lahore：平坦地形有莫臥兒時期建築',
@@ -5178,15 +5405,19 @@ const COUNTRIES = {
       '涵蓋僅限 4 個城市'
     ],
     roads: [
-      '主要路線上有白色道路標線',
-      '黑白條紋 bollard',
-      '水泥電線桿',
-      '藍底標誌標示聚落和目的地',
-      '城市中有藍色街名牌',
-      '道路從不錯的鋪面公路到崎嶇土路都有',
-      '道路基礎設施不如 Thailand 或 Vietnam 發達',
-      '中國建造的公路越來越多（一帶一路項目）'
-    ],
+    '主要路線上有白色道路標線',
+    '藍底標誌標示聚落和目的地',
+    '城市中有藍色街名牌',
+    '道路從不錯的鋪面公路到崎嶇土路都有',
+    '道路基礎設施不如 Thailand 或 Vietnam 發達',
+    '中國建造的公路越來越多（一帶一路項目）'
+  ],
+  bollardInfo: [
+    '黑白條紋 bollard'
+  ],
+  poleInfo: [
+    '水泥電線桿'
+  ],
     landscape: [
       '北部地勢非常多山 — 崎嶇的喀斯特石灰岩地形',
       '西部為湄公河谷（與 Thailand 的邊界）',
@@ -5259,14 +5490,16 @@ const COUNTRIES = {
       '無可靠 car meta'
     ],
     roads: [
-      '道路從不錯的公路到極其崎嶇的鄉村小路都有',
-      '道路標線和基礎設施有限',
-      '電線桿通常為木頭或竹子',
-      '路標為緬文加部分英文',
-      '基礎設施普遍不如鄰國發達',
-      '主要路線為混凝土和柏油路面；其他地方為土路',
-      '減速帶塗成斑馬條紋'
-    ],
+    '道路從不錯的公路到極其崎嶇的鄉村小路都有',
+    '道路標線和基礎設施有限',
+    '路標為緬文加部分英文',
+    '基礎設施普遍不如鄰國發達',
+    '主要路線為混凝土和柏油路面；其他地方為土路',
+    '減速帶塗成斑馬條紋'
+  ],
+  poleInfo: [
+    '電線桿通常為木頭或竹子'
+  ],
     landscape: [
       '佛教寺廟和佛塔到處都是 — Myanmar 是深度佛教國家',
       '蒲甘：遼闊平原上數千座古寺廟',
@@ -5340,14 +5573,16 @@ const COUNTRIES = {
       '機車常見'
     ],
     roads: [
-      '道路品質普遍差 — 許多未鋪面道路',
-      '山路坡度陡峭',
-      '道路標線和標誌有限',
-      '基礎設施不發達',
-      '部分城市地區有混凝土道路',
-      'Dili 以外常見土路和碎石路',
-      '幾乎沒有正式 bollard 或道路設施'
-    ],
+    '道路品質普遍差 — 許多未鋪面道路',
+    '山路坡度陡峭',
+    '道路標線和標誌有限',
+    '基礎設施不發達',
+    '部分城市地區有混凝土道路',
+    'Dili 以外常見土路和碎石路'
+  ],
+  bollardInfo: [
+    '幾乎沒有正式 bollard 或道路設施'
+  ],
     landscape: [
       '山地地形搭配熱帶植被',
       '比 Indonesia 乾燥 — 類似印尼東部（東努沙登加拉）',
@@ -5661,14 +5896,16 @@ const COUNTRIES = {
       '冬季涵蓋常見'
     ],
     roads: [
-      '藍色方向指示路標',
-      '道路品質不一，從不錯的公路到崎嶇山路',
-      '道路沿線可見上漆的電線桿支撐物',
-      '蘇聯式道路基礎設施',
-      '有髮夾彎的山口',
-      '部分道路沿山間河谷行進',
-      '許多路線道路標線有限'
-    ],
+    '藍色方向指示路標',
+    '道路品質不一，從不錯的公路到崎嶇山路',
+    '蘇聯式道路基礎設施',
+    '有髮夾彎的山口',
+    '部分道路沿山間河谷行進',
+    '許多路線道路標線有限'
+  ],
+  poleInfo: [
+    '道路沿線可見上漆的電線桿支撐物'
+  ],
     landscape: [
       '地勢非常多山 — 天山山脈為主',
       '高山草甸和山谷',
@@ -5906,15 +6143,17 @@ const COUNTRIES = {
       '沙漠公路 + 白色 truck + 天線 = Oman 或 Qatar'
     ],
     roads: [
-      '主要地區公路維護良好',
-      'Oman 很少有 bollard — 缺少 bollard 是線索',
-      '可見部分公里標記和 T 形桿',
-      '路標為阿拉伯語 + 英語雙語',
-      '沙漠道路上有沙子侵入柏油路面',
-      '壯觀山景的山路（Jebel Shams）',
-      '十字路口常見圓環',
-      '主要路線道路品質優良'
-    ],
+    '主要地區公路維護良好',
+    '可見部分公里標記和 T 形桿',
+    '路標為阿拉伯語 + 英語雙語',
+    '沙漠道路上有沙子侵入柏油路面',
+    '壯觀山景的山路（Jebel Shams）',
+    '十字路口常見圓環',
+    '主要路線道路品質優良'
+  ],
+  bollardInfo: [
+    'Oman 很少有 bollard — 缺少 bollard 是線索'
+  ],
     landscape: [
       '地形多樣：壯觀的山脈（Jebel Akhdar、Jebel Shams「Oman 大峽谷」）',
       '海岸線有碧綠海水和壯觀懸崖',
@@ -6067,13 +6306,15 @@ const COUNTRIES = {
       '出現官方覆蓋時，為標準白色轎車，無顯著特徵'
     ],
     roads: [
-      'ALTO 停車標誌',
-      '黃色中線搭配白色路肩線（有標線時）',
-      '道路品質不一 — 主要公路鋪面，鄉村道路常未鋪面',
-      '泛美公路（CA-1）貫穿全國',
-      '中美洲公路標記：區域路線用 "CA" 前綴',
-      '城鎮和學校附近減速帶常見'
-    ],
+    '黃色中線搭配白色路肩線（有標線時）',
+    '道路品質不一 — 主要公路鋪面，鄉村道路常未鋪面',
+    '泛美公路（CA-1）貫穿全國',
+    '中美洲公路標記：區域路線用 "CA" 前綴',
+    '城鎮和學校附近減速帶常見'
+  ],
+  signInfo: [
+    'ALTO 停車標誌'
+  ],
     landscape: [
       '中美洲最小的國家但人口稠密',
       '南部沿線有火山鏈 — 火山土壤和地形',
@@ -6140,14 +6381,16 @@ const COUNTRIES = {
       '標準白色轎車（有涵蓋時）'
     ],
     roads: [
-      'ALTO 停車標誌',
-      '黃色中線搭配白色路肩標線（有標線時）',
-      '主要公路以外道路狀況普遍差',
-      '泛美公路連接鄰國',
-      '中美洲區域公路的 CA 路線標記',
-      '鄉村山區常見未鋪面道路',
-      '城鎮和學校附近有減速帶'
-    ],
+    '黃色中線搭配白色路肩標線（有標線時）',
+    '主要公路以外道路狀況普遍差',
+    '泛美公路連接鄰國',
+    '中美洲區域公路的 CA 路線標記',
+    '鄉村山區常見未鋪面道路',
+    '城鎮和學校附近有減速帶'
+  ],
+  signInfo: [
+    'ALTO 停車標誌'
+  ],
     landscape: [
       '內陸為松林覆蓋的多山高地',
       '加勒比海岸：平坦、熱帶、棕櫚樹、香蕉種植園',
@@ -6212,13 +6455,15 @@ const COUNTRIES = {
       '第三方涵蓋車輛外觀各異'
     ],
     roads: [
-      'ALTO 停車標誌',
-      '黃色中線搭配白色路肩線（有標線時）',
-      '道路狀況常差 — 主要路線以外許多未鋪面道路',
-      '泛美公路（NIC-1/CA-1）是主要幹道',
-      '城鎮附近有減速帶和道路標記',
-      '二級道路上坑洞常見'
-    ],
+    '黃色中線搭配白色路肩線（有標線時）',
+    '道路狀況常差 — 主要路線以外許多未鋪面道路',
+    '泛美公路（NIC-1/CA-1）是主要幹道',
+    '城鎮附近有減速帶和道路標記',
+    '二級道路上坑洞常見'
+  ],
+  signInfo: [
+    'ALTO 停車標誌'
+  ],
     landscape: [
       '太平洋海岸沿線有火山鏈（環太平洋火山帶的一部分）',
       'Nicaragua 湖（Cocibolca）— 中美洲最大的湖泊之一',
@@ -6285,14 +6530,15 @@ const COUNTRIES = {
       '涵蓋來自各種車型：汽車、機車、自行車'
     ],
     roads: [
-      'PARE 停車標誌（部分地區使用，但許多標誌缺失或損壞）',
-      '道路基礎設施普遍差且破碎',
-      '許多道路是 20 世紀中期的混凝土或鵝卵石路面',
-      '有標線處為黃色中線和白色外線，但標線常褪色或缺失',
-      'Havana 有殖民建築的寬闊大道',
-      '鄉村道路常未鋪面',
-      '與其他國家相比，現代公路標誌極少'
-    ],
+    '道路基礎設施普遍差且破碎',
+    '有標線處為黃色中線和白色外線，但標線常褪色或缺失',
+    'Havana 有殖民建築的寬闊大道',
+    '鄉村道路常未鋪面',
+    '與其他國家相比，現代公路標誌極少'
+  ],
+  signInfo: [
+    'PARE 停車標誌（部分地區使用，但許多標誌缺失或損壞）'
+  ],
     landscape: [
       'Havana：標誌性的西班牙殖民建築，彩色粉刷的破舊建築',
       '加勒比熱帶植被：棕櫚樹（王棕為國樹）',
@@ -6517,14 +6763,16 @@ const COUNTRIES = {
       '無獨特 car meta — 需靠其他線索辨識'
     ],
     roads: [
-      '黃色中線搭配白色外線（標準美洲模式）',
-      'PARE 停車標誌',
-      '道路品質不一：主要公路鋪面，許多鄉村道路未鋪面（紅土）',
-      'Ruta 1, Ruta 2, Ruta 3 — major national routes',
-      '泛查科公路：穿越查科地區的長直道路',
-      '城鎮中減速帶常見',
-      '許多道路旁可見紅橙色土壤'
-    ],
+    '黃色中線搭配白色外線（標準美洲模式）',
+    '道路品質不一：主要公路鋪面，許多鄉村道路未鋪面（紅土）',
+    'Ruta 1, Ruta 2, Ruta 3 — major national routes',
+    '泛查科公路：穿越查科地區的長直道路',
+    '城鎮中減速帶常見',
+    '許多道路旁可見紅橙色土壤'
+  ],
+  signInfo: [
+    'PARE 停車標誌'
+  ],
     landscape: [
       '東部 Paraguay：起伏丘陵、亞熱帶森林、紅土（類似 Argentina 的 Misiones 和南部 Brazil）',
       '西部 Paraguay（查科）：平坦、炎熱、乾燥灌木地 — 大查科地區的一部分',
@@ -6595,14 +6843,16 @@ const COUNTRIES = {
       '無可靠的 car meta 辨識'
     ],
     roads: [
-      '有標線處為黃色中線和白色外線',
-      '因經濟危機道路狀況普遍差',
-      'PARE 停車標誌',
-      'Caracas 附近的高速公路（Autopistas）狀況較好',
-      '許多道路標線褪色或缺失',
-      '二級道路上坑洞常見',
-      '城鎮附近有減速帶'
-    ],
+    '有標線處為黃色中線和白色外線',
+    '因經濟危機道路狀況普遍差',
+    'Caracas 附近的高速公路（Autopistas）狀況較好',
+    '許多道路標線褪色或缺失',
+    '二級道路上坑洞常見',
+    '城鎮附近有減速帶'
+  ],
+  signInfo: [
+    'PARE 停車標誌'
+  ],
     landscape: [
       '加勒比海岸：熱帶海灘、棕櫚樹、炎熱氣候',
       'Venezuela 西部的安地斯山（Merida 州）— 雪山頂',

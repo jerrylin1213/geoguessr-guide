@@ -390,12 +390,12 @@
         ${cameraCard(c.camera || [])}
         ${carImageCard(id, c.car || [])}
         ${detailCard('🛣️', '道路特徵', c.roads || [])}
-        ${bollardImageCard(id)}
+        ${bollardImageCard(id, c.bollardInfo || [])}
+        ${poleImageCard(id, c.poleInfo || [])}
         ${architectureCard(id, c.landscape || [])}
-        ${poleImageCard(id)}
+        ${signImageCard(id, c.signInfo || [])}
         ${detailCard('🔤', '語言 & 標誌', c.signs || [])}
         ${plateImageCard(id, c.plates || [])}
-        ${signImageCard(id)}
         ${detailCard('🔍', '獨特辨識特徵', c.unique || [], true)}
         ${c.tips && c.tips.length ? tipsCard(c.tips) : ''}
       </div>
@@ -521,25 +521,24 @@
     `;
   }
 
-  function bollardImageCard(countryId) {
+  function bollardImageCard(countryId, infoItems) {
     const bollardSlug = BOLLARD_IMAGES[countryId];
     const geodummyBollards = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.bollards;
-    if (!bollardSlug && (!geodummyBollards || geodummyBollards.length === 0)) return '';
+    if (!bollardSlug && (!geodummyBollards || geodummyBollards.length === 0) && (!infoItems || infoItems.length === 0)) return '';
 
     let imgsHtml = '';
-    // Geodummy images first (higher quality, from actual Street View)
     if (geodummyBollards && geodummyBollards.length > 0) {
       imgsHtml += geodummyBollards.map(url =>
         `<img src="${url}" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;object-fit:contain;height:auto;" onerror="this.style.display='none'">`
       ).join('');
     }
-    // Then geomastr variants
     if (bollardSlug) {
       const variants = [bollardSlug, bollardSlug + '2', bollardSlug + '3'];
       imgsHtml += variants.map(v =>
         `<img src="https://geomastr.com/assets/media/bollards/${v}.jpg" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;object-fit:contain;height:auto;" onerror="this.style.display='none'">`
       ).join('');
     }
+    const listHtml = infoItems && infoItems.length > 0 ? `<ul>${infoItems.map(i => '<li>' + i + '</li>').join('')}</ul>` : '';
     return `
       <div class="detail-card">
         <div class="detail-card-header">
@@ -547,8 +546,8 @@
           <h3>Bollard 防撞柱</h3>
         </div>
         <div class="detail-card-body">
-          <div style="display:flex;flex-wrap:wrap;">${imgsHtml}</div>
-          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">圖片來源：geodummy.com / geomastr.com</p>
+          ${imgsHtml ? '<div style="display:flex;flex-wrap:wrap;">' + imgsHtml + '</div>' : ''}
+          ${listHtml}
         </div>
       </div>
     `;
@@ -591,26 +590,25 @@
     `;
   }
 
-  function signImageCard(countryId) {
+  function signImageCard(countryId, infoItems) {
     const bollardSlug = BOLLARD_IMAGES[countryId];
     const geodummySigns = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.signs;
-    if (!bollardSlug && (!geodummySigns || geodummySigns.length === 0)) return '';
+    if (!bollardSlug && (!geodummySigns || geodummySigns.length === 0) && (!infoItems || infoItems.length === 0)) return '';
 
-    let content = '';
-    // Geodummy real Street View sign photos
+    let imgContent = '';
     if (geodummySigns && geodummySigns.length > 0) {
-      content += `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
+      imgContent += `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
         geodummySigns.map(url =>
           `<img src="${url}" alt="Road sign" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
         ).join('') + `</div>`;
     }
-    // Geomastr SVG road sign icons
     if (bollardSlug) {
       const signImgs = SIGN_TYPES.map(type =>
         `<img src="https://geomastr.com/assets/media/streetsigns/${type}/${bollardSlug}.svg" alt="${type}" style="max-width:70px;margin:4px;" onerror="this.style.display='none'">`
       ).join('');
-      content += `<div style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;">${signImgs}</div>`;
+      imgContent += `<div style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;">${signImgs}</div>`;
     }
+    const listHtml = infoItems && infoItems.length > 0 ? `<ul style="margin-top:8px">${infoItems.map(i => '<li>' + i + '</li>').join('')}</ul>` : '';
     return `
       <div class="detail-card">
         <div class="detail-card-header">
@@ -618,8 +616,8 @@
           <h3>道路標誌</h3>
         </div>
         <div class="detail-card-body">
-          ${content}
-          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">圖片來源：geodummy.com / geomastr.com</p>
+          ${imgContent}
+          ${listHtml}
         </div>
       </div>
     `;
@@ -653,10 +651,15 @@
     `;
   }
 
-  function poleImageCard(countryId) {
-    // Check geodummy country images for poles
+  function poleImageCard(countryId, infoItems) {
     const geodummyPoles = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.poles;
-    if (!geodummyPoles || geodummyPoles.length === 0) return '';
+    if ((!geodummyPoles || geodummyPoles.length === 0) && (!infoItems || infoItems.length === 0)) return '';
+    const imgsHtml = geodummyPoles && geodummyPoles.length > 0 ?
+      '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">' +
+      geodummyPoles.map(url =>
+        `<img src="${url}" alt="Pole" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
+      ).join('') + '</div>' : '';
+    const listHtml = infoItems && infoItems.length > 0 ? `<ul>${infoItems.map(i => '<li>' + i + '</li>').join('')}</ul>` : '';
     return `
       <div class="detail-card">
         <div class="detail-card-header">
@@ -664,12 +667,8 @@
           <h3>電線桿</h3>
         </div>
         <div class="detail-card-body">
-          <div style="display:flex;flex-wrap:wrap;gap:8px;">
-            ${geodummyPoles.map(url =>
-              `<img src="${url}" alt="Pole" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
-            ).join('')}
-          </div>
-          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">圖片來源：geodummy.com</p>
+          ${imgsHtml}
+          ${listHtml}
         </div>
       </div>
     `;
