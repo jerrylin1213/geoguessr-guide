@@ -943,6 +943,14 @@ mark {
   max-width: 200px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
+  object-fit: contain;
+}
+
+/* Fix all inline detail card images - prevent squashing */
+.detail-card-body img {
+  object-fit: contain;
+  height: auto !important;
+  max-height: 300px;
 }
 
 /* Inline icon badges */

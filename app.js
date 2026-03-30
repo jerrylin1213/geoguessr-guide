@@ -186,10 +186,21 @@
     });
   }
 
-  // ===== Navigation =====
+  // ===== Navigation with hash routing =====
   function navigateTo(page, countryId) {
     currentPage = page;
     currentCountry = countryId || null;
+
+    // Update URL hash for routing persistence
+    if (page === 'home') {
+      history.pushState(null, '', '#');
+    } else if (page === 'meta') {
+      history.pushState(null, '', '#meta');
+    } else if (page === 'country' && countryId) {
+      history.pushState(null, '', '#country/' + countryId);
+    } else if (page === 'region' && countryId) {
+      history.pushState(null, '', '#region/' + countryId);
+    }
 
     // Update active state in sidebar
     document.querySelectorAll('.nav-country').forEach(el => {
@@ -210,6 +221,30 @@
     renderPage();
     window.scrollTo({ top: 0 });
   }
+
+  // Handle hash routing on page load and back/forward
+  function handleRoute() {
+    const hash = window.location.hash.slice(1); // remove #
+    if (!hash || hash === '') {
+      currentPage = 'home';
+      currentCountry = null;
+    } else if (hash === 'meta') {
+      currentPage = 'meta';
+      currentCountry = null;
+    } else if (hash.startsWith('country/')) {
+      currentPage = 'country';
+      currentCountry = hash.split('/')[1];
+    } else if (hash.startsWith('region/')) {
+      currentPage = 'region';
+      currentCountry = hash.split('/')[1];
+    } else {
+      currentPage = 'home';
+      currentCountry = null;
+    }
+    renderPage();
+  }
+
+  window.addEventListener('popstate', handleRoute);
 
   function getRegionName(regionId) {
     const r = regions.find(r => r.id === regionId);
@@ -398,7 +433,7 @@
     if (geodummyCar) geodummyCar.forEach(url => { if (!imgs.includes(url)) imgs.push(url); });
 
     const imgHtml = imgs.length > 0 ? `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
-      imgs.map(url => `<img src="${url}" alt="Car meta" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`).join('') +
+      imgs.map(url => `<img src="${url}" alt="Car meta" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`).join('') +
       `</div>` : '';
     return `
       <div class="detail-card">
@@ -425,14 +460,14 @@
     // Geodummy images first (higher quality, from actual Street View)
     if (geodummyBollards && geodummyBollards.length > 0) {
       imgsHtml += geodummyBollards.map(url =>
-        `<img src="${url}" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;" onerror="this.style.display='none'">`
+        `<img src="${url}" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;object-fit:contain;height:auto;" onerror="this.style.display='none'">`
       ).join('');
     }
     // Then geomastr variants
     if (bollardSlug) {
       const variants = [bollardSlug, bollardSlug + '2', bollardSlug + '3'];
       imgsHtml += variants.map(v =>
-        `<img src="https://geomastr.com/assets/media/bollards/${v}.jpg" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;" onerror="this.style.display='none'">`
+        `<img src="https://geomastr.com/assets/media/bollards/${v}.jpg" alt="Bollard" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);margin:4px;object-fit:contain;height:auto;" onerror="this.style.display='none'">`
       ).join('');
     }
     return `
@@ -458,7 +493,7 @@
       const variants = [plateSlug, plateSlug + '2', plateSlug + '3', plateSlug + '4'];
       imgsHtml = `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
         variants.map(v =>
-          `<img src="https://geomastr.com/assets/media/licenseplates/${v}.jpg" alt="Plate" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+          `<img src="https://geomastr.com/assets/media/licenseplates/${v}.jpg" alt="Plate" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
         ).join('') + `</div>`;
     }
     // Also check geodummy for country-specific plate images
@@ -466,7 +501,7 @@
     if (geodummyPlates && geodummyPlates.length > 0) {
       imgsHtml += `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
         geodummyPlates.map(url =>
-          `<img src="${url}" alt="Plate detail" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+          `<img src="${url}" alt="Plate detail" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
         ).join('') + `</div>`;
     }
     return `
@@ -496,7 +531,7 @@
     if (geodummySigns && geodummySigns.length > 0) {
       content += `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
         geodummySigns.map(url =>
-          `<img src="${url}" alt="Road sign" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+          `<img src="${url}" alt="Road sign" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
         ).join('') + `</div>`;
     }
     // Geomastr SVG road sign icons
@@ -529,7 +564,7 @@
     if (allImgs.length > 0) {
       imgsHtml = `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">` +
         allImgs.map(url =>
-          `<img src="${url}" alt="Scenery" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+          `<img src="${url}" alt="Scenery" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
         ).join('') + `</div>`;
     }
     return `
@@ -561,7 +596,7 @@
         <div class="detail-card-body">
           <div style="display:flex;flex-wrap:wrap;gap:8px;">
             ${geodummyPoles.map(url =>
-              `<img src="${url}" alt="Pole" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);" onerror="this.style.display='none'">`
+              `<img src="${url}" alt="Pole" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
             ).join('')}
           </div>
           <p style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">圖片來源：geodummy.com</p>
@@ -680,7 +715,7 @@
     setupSearch();
     setupMobileSidebar();
     setupBackToTop();
-    renderHome();
+    handleRoute(); // Use hash routing - preserves page on refresh
   }
 
   init();
