@@ -8546,7 +8546,7 @@ const META_SECTIONS = [
       </div>
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
-        <p><strong>🔽 Low Cam（低相機）：</strong>Japan, Switzerland, Lebanon, Italy, Sri Lanka — 政府要求相機安裝較低位置以保護隱私，車輛模糊區域更大。Japan 和 Switzerland 最明顯。<br>
+        <p><strong>🔽 Low Cam（低相機）：</strong>確定有的國家：<strong>Japan、Switzerland</strong>（因隱私法規，全國性低相機）。部分覆蓋可能有低相機：Sri Lanka（Gen 4）、Lebanon、Italy。Japan 和 Switzerland 的模糊區域最大，是最可靠的辨識線索。<br>
         <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong>India — 畫質明顯比標準 Gen 3 差，略帶霧感 (foggy)，文字難以辨認。非 Google 官方拍攝，2022 年後城市擴展。<br>
         <strong>💩 Shit Cam（低品質第三方覆蓋）：</strong>Uganda 等非洲國家 — 極低畫質、嚴重模糊、過曝或欠曝、顏色失真。由 Mapillary 等第三方志願者拍攝，非 360° 全景。<br>
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。Costa Rica (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
