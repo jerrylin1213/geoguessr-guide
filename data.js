@@ -124,38 +124,53 @@ const COUNTRIES = {
   name: 'Austria', localName: 'Österreich', flag: '🇦🇹', region: 'europe',
   drivingSide: 'right', tld: '.at', phoneCode: '+43', language: 'German', currency: 'Euro (EUR)',
   camera: [
-    "<strong>85% Gen 4 + 15% Gen 3</strong>",
-    "與 Germany 不同，Austria 有較多 Gen 3 覆蓋",
-    "隱私法規限制覆蓋範圍"
+    "<strong>85% Gen 3 + 15% Gen 2</strong>（也有 Gen 4 小相機覆蓋）",
+    "⚠️ Germany 僅有 Gen 4；Switzerland 為低相機 — 可依此區分三個德語國家",
+    "Burgenland 有一條 Gen 2 道路"
   ],
   car: [
-    "Gen 2：白色轎車，有 purple halo",
     "Gen 3：白色轎車",
-    "⚠️ 因隱私法規，涵蓋範圍極為有限",
-    "<strong>護柱有黑帽 + 黑色反光片</strong> — 與車輛搭配辨識",
-    "無 antenna、無 snorkel、無 車頂架 (roof rack)"
+    "Gen 4 小相機：比正常 Gen 4 低，大圓形打碼前部突出",
+    "西部靠近 Switzerland 邊境有<strong>錫箔天線</strong> — Austria 獨有",
+    "無 antenna（除錫箔版）、無 snorkel"
   ],
   roads: [
     "維護良好的高速公路和 Autobahn",
-    "唯一同時有黑色頂蓋和黑色反光片的國家",
     "白色虛線中線（歐洲標準）",
     "綠色高速公路標誌配白色文字"
   ],
   bollardInfo: [
-    "<strong>Bollard 帶黑色頂蓋 + 深紅/黑色反光片</strong> — Austria 獨有"
+    "白色路桩，<strong>頂部黑色 + 黑帽子</strong>，反光條暗紅/深灰色",
+    "上部有時附雪杆",
+    "⚠️ Slovenia 類似但反光條總是紅色無黑色；Germany 為簡單黑白反光板"
+  ],
+  poleInfo: [
+    "<strong>圓形木製電線杆</strong>最常見"
+  ],
+  signInfo: [
+    "誘導標：<strong>紅底白箭頭</strong>和<strong>黃底紅箭頭</strong>兩種（Germany 為白底紅箭頭）",
+    "路牌<strong>白底藍框</strong> + 獨特字體（Germany 為黃底黑框）",
+    "城鎮入口標識為<strong>藍邊白底</strong> + 獨特字體（Germany 為黑邊黃底）",
+    "行人標志用<strong>兩條平行虛線</strong>代替斑馬線 — Austria 獨有（鄰國均用斑馬線）",
+    "路牌有時用<strong>四個鐵制卡子</strong>固定 — 中歐 Austria 獨有",
+    "里程碑：<strong>藍底白字</strong>，十位處用逗號分隔（Slovenia 白色；Germany 有細白輪廓）",
+    "公交站：綠色圓圈 + 字母 <strong>H</strong> + 黃色填充（Germany 有類似款）",
+    "單行路牌寫 <strong>Einbahn</strong>（Germany 寫 Einbahnstraße）",
+    "黃色天然氣指示杆（類似雪杆）— Austria 獨有",
+    "綠色指示牌指向當地設施，非常常見"
   ],
   landscape: [
-    "阿爾卑斯山主導 Austria 西部和中部",
-    "東部維也納盆地 — 較平坦地形",
-    "翠綠山谷配傳統高山村莊",
-    "Tyrol 和 Salzburg 地區有滑雪場",
+    "中西部阿爾卑斯山主導，東部/東北部較平坦農業地帶",
+    "翠綠山谷配阿爾卑斯式建築（淺色牆 + 木質結構 + 陽台）",
+    "Germany 南部有類似建築",
+    "東端（靠近 Hungary 邊境）有葡萄園，尤其 Vienna 和 Neusiedler See 周圍",
     "城市中有巴洛克和哈布斯堡時期建築"
   ],
   signs: [
     "德語 — 與 Germany 相同但有 Austria 方言用詞",
-    "注意 'Straße'（街道）、'Gasse'（巷弄）",
+    "'Straße'（街道）、'Gasse'（巷弄）",
     "變音字母：ä、ö、ü、ß",
-    "藍色資訊路標，綠色高速公路標誌"
+    "A 級道路由東向西數字遞增；B 級道路亦同"
   ],
   plates: [
     "白色車牌，左側有 EU 藍色條紋",
@@ -2161,25 +2176,30 @@ const COUNTRIES = {
 'serbia': {
   name: 'Serbia', localName: 'Србија', flag: '🇷🇸', region: 'europe',
   drivingSide: 'right', tld: '.rs', phoneCode: '+381', language: 'Serbian', currency: 'Dinar (RSD)',
-  camera: ["Gen 3 覆蓋", "主要道路覆蓋良好"],
+  camera: ["<strong>100% Gen 3</strong>", "大部分覆蓋在北部 Vojvodina、Belgrade 周邊、東南 Niš 附近"],
   car: [
     "Gen 3：白色轎車",
-    "<strong>無天線</strong> — 與大部分東歐國家不同（辨識重點！）",
-    "Serbia 和 North Macedonia 是東歐中少數無天線的國家"
+    "<strong>無天線</strong> — 東歐中少數無天線（辨識重點！）",
+    "部分覆蓋（Novi Sad/Belgrade/E75）有<strong>短天線白車</strong>"
   ],
   roads: [
-    "白色中心線（義大利風格）",
-    "右側行駛",
     "白色中心線",
-    "新高速公路建設中"
+    "護欄僅用 <strong>B 型</strong>（North Macedonia 不用 B 型）",
+    "3 條主要分隔高速：A1（匈→Belgrade→Niš）、A3（克→Belgrade）、A4（Niš 分支）",
+    "Pirot 北部 E-80 有<strong>黃色中心線</strong>"
   ],
   bollardInfo: [
-    "Bollard：<strong>比典型歐洲 bollard 更細，偏離中心的紅色矩形反光片</strong>"
+    "多種設計但反光器大多在<strong>路桩一側</strong>，通常扁平無側面寬度"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底黑箭頭</strong>（Slovenia/Montenegro/North Macedonia 也有）",
+    "Vojvodina 北部有<strong>Serbian/Hungarian 雙語</strong>標誌"
   ],
   landscape: [
+    "北部 Vojvodina 極平坦農業景觀（無任何山丘）",
+    "中北部輕微波狀丘陵，南部更多山脈",
+    "西南/東南沿 Bulgaria/Kosovo 邊境綠意盎然山區",
     "多瑙河和 Sava 河流經 Belgrade",
-    "北部平坦的 Vojvodina，南部多山",
-    "北部農業平原",
     "鄂圖曼和奧匈帝國建築混合"
   ],
   signs: [
@@ -2495,26 +2515,40 @@ const COUNTRIES = {
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "白色中心線和邊線",
-    "道路品質優良",
-    "山口配髮夾彎"
+    "<strong>87.2% Gen 3 + 12.8% Gen 4</strong>",
+    "道路上有<strong>黃色長虛線</strong> — Switzerland 好線索（Liechtenstein 也有）",
+    "<strong>黃色人行橫道</strong> — 歐洲僅 Switzerland/Liechtenstein",
+    "道路品質優良，山口配髮夾彎"
   ],
   bollardInfo: [
-    "Bollard：<strong>圓頂圓柱形，黑白相間圖案</strong>",
-    "Liechtenstein 使用類似 bollard"
+    "黑白相間路桩，帶白色或灰色反光板 — 楔形或<strong>圓頂柱形</strong>",
+    "Liechtenstein 用幾乎相同的圓頂柱形",
+    "Valais 州常見粗<strong>木質路桩</strong>（方形或圓柱形）",
+    "Glarus 州用反光板附在路邊欄杆代替路桩"
+  ],
+  signInfo: [
+    "行人標志有 <strong>7 道條紋</strong> + 高藍色長方形 — 歐洲幾乎獨有（Liechtenstein 同款）",
+    "誘導標：<strong>黑底白箭頭</strong>（也有罕見白底黑箭頭）— Austria 為紅白/紅黃",
+    "指路牌：主路<strong>藍色</strong>、辅路<strong>白色</strong>，常有<strong>灰色金屬圓框</strong>",
+    "城鎮入口標志白色或藍色 + 金屬框，背面可能有到大城市距離",
+    "公交站牌也有金屬框 — Switzerland 獨有風格",
+    "限速標志文字因語區不同：Generell（德）/ Limite générale（法）/ Limitazione generale（意）"
   ],
   landscape: [
-    "瑞士阿爾卑斯山 — 壯觀山景",
+    "南部瑞士阿爾卑斯山 — 壯觀高山景色",
+    "北部主要是平地或丘陵 + 大片農田，遠處森林丘陵",
     "翠綠山谷配木屋",
-    "日內瓦湖、蘇黎世湖、盧塞恩湖",
-    "整潔、維護良好的村莊",
-    "配牛鈴的牧場"
+    "Jura 山脈：樹木茂密丘陵中裸露石灰岩 + 石牆",
+    "Ticino 州（意語區）：橙黃色石墻 + 意式百叶窗",
+    "Bern 一帶：厚屋頂大房子，屋頂底部拱形",
+    "東北部：精緻紅色木質框架房子",
+    "Appenzell：住宅 + 長穀倉 90° 角拼接"
   ],
   signs: [
-    "多語言：北部/東部德語、西部法語、南部 Italian",
-    "路標可能是 4 種語言中的任何一種",
+    "四語國家：德語（北/東）、法語（西）、Italian（南 Ticino）、Romansh（東 Graubünden）",
+    "路標依所在語區使用對應語言",
     "棕色高速公路標誌",
-    "許多標誌上可見瑞士十字"
+    "州雙字母縮寫常見於城鎮入口標識上"
   ],
   plates: [
     "白色車牌附瑞士十字 + 州代碼",
@@ -5675,7 +5709,7 @@ const COUNTRIES = {
     language: 'Malay, English',
     currency: 'Brunei Dollar (BND)',
     camera: [
-      '有限的 Gen 3 和 Gen 4 覆蓋',
+      "<strong>95% Gen 3 + 5% Gen 4（Gen 4 為黑色 pickup）</strong>",
       '覆蓋主要集中在斯里巴加灣市及周邊地區',
       '並非所有道路都有覆蓋 — 鄉村/森林地區有缺口',
       '有覆蓋的地方畫質良好',
@@ -5837,7 +5871,7 @@ const COUNTRIES = {
     language: 'Burmese',
     currency: 'Kyat (MMK)',
     camera: [
-      '覆蓋非常有限 — 主要為 Trekker 和第三方覆蓋',
+      "<strong>72.7% Gen 4 + 27.3% Gen 3</strong>",
       '無官方 Google 街景車覆蓋',
       '蒲甘寺廟和大金寺有部分 Trekker 覆蓋',
       '覆蓋極為稀疏且不穩定',
@@ -5919,7 +5953,7 @@ const COUNTRIES = {
     language: 'Tetum, Portuguese',
     currency: 'US Dollar (USD)',
     camera: [
-      '覆蓋非常有限 — 主要為 Trekker 步行覆蓋和非官方來源',
+      "<strong>55.9% Gen 3 + 44.1% Gen 4</strong>",
       'Dili 附近主要道路有部分 Google 覆蓋',
       '整體覆蓋極為稀疏',
       '影像品質差異很大',
@@ -6576,7 +6610,7 @@ const COUNTRIES = {
     language: 'Arabic',
     currency: 'Israeli New Shekel (ILS) / Jordanian Dinar',
     camera: [
-      'Gen 3 覆蓋可進入的地區',
+      "<strong>66.6% Gen 3 + 32.3% Gen 4</strong>",
       '覆蓋主要在西岸城市（Ramallah、Bethlehem、Nablus）',
       '加薩走廊覆蓋非常有限',
       '覆蓋品質類似 Israel 但範圍較小',
@@ -6656,7 +6690,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'US Dollar (USD)',
     camera: [
-      'Google 街景覆蓋非常有限',
+      "<strong>68.7% Gen 4 + 31.2% Gen 3</strong>",
       '大部分為第三方和非官方覆蓋',
       '有覆蓋的地方，Gen 3 畫質最常見',
       '覆蓋集中在 San Salvador 和主要公路',
@@ -6732,7 +6766,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Lempira (HNL)',
     camera: [
-      '官方 Google 街景覆蓋非常有限',
+      "<strong>100% Gen 3</strong>",
       '有覆蓋的地方，通常為 Gen 3 畫質',
       '覆蓋主要沿主要公路和 Tegucigalpa',
       '旅遊區有部分第三方和非官方覆蓋（Roatan、Bay Islands）',
@@ -6806,7 +6840,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Cordoba (NIO)',
     camera: [
-      '官方 Google 街景覆蓋非常有限',
+      "<strong>85.6% Gen 4 + 14.3% Gen 3</strong>",
       '有覆蓋的地方大部分為第三方覆蓋',
       '現有覆蓋大部分為 Gen 3 畫質',
       '覆蓋稀疏 — 主要沿泛美公路和 Managua 地區',
@@ -6880,7 +6914,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Peso (CUP)',
     camera: [
-      '無官方 Google 街景覆蓋 — Cuba 沒有 Google 車',
+      "<strong>Gen 3 + Gen 4（Gen 4 紅色車報告）</strong>",
       '覆蓋來自 Mapillary 和其他第三方來源',
       '主要覆蓋 Havana（尤其是舊 Havana）和部分旅遊路線',
       '影像品質差異極大 — 通常低於標準 Google 覆蓋品質',
@@ -6956,7 +6990,7 @@ const COUNTRIES = {
     language: 'English / Jamaican Patois',
     currency: 'Dollar (JMD)',
     camera: [
-      'Gen 3 覆蓋為主要可用類型',
+      "<strong>73.5% Gen 4 + 26.5% Gen 3</strong>",
       '覆蓋集中在 Kingston、Montego Bay 和主要公路',
       '海岸道路和旅遊區有中等覆蓋',
       '旅遊景點有部分 trekker 覆蓋'
@@ -7031,7 +7065,7 @@ const COUNTRIES = {
     language: 'English',
     currency: 'Dollar (TTD)',
     camera: [
-      'Gen 3 覆蓋為主',
+      "<strong>Gen 3 + Gen 4（Gen 4 黑色車+圓形天線）</strong>",
       '覆蓋主要在 Trinidad（較大的島）',
       'Tobago（較小的島）覆蓋有限',
       'Port of Spain 及周邊地區的主要公路和城市區域已覆蓋'
@@ -7113,7 +7147,7 @@ const COUNTRIES = {
     language: 'Spanish / Guarani',
     currency: 'Guarani (PYG)',
     camera: [
-      '覆蓋比 Argentina 或 Brazil 有限',
+      "<strong>67.4% Gen 3 + 32.6% Gen 4</strong>",
       '有覆蓋的地方有 Gen 3 和 Gen 4',
       '覆蓋集中在 Asuncion 和主要公路',
       '泛查科公路有覆蓋',
@@ -7193,7 +7227,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Bolivar (VES)',
     camera: [
-      '官方 Google 街景覆蓋非常有限',
+      "<strong>67.3% Gen 3 + 32.6% Gen 4</strong>",
       '大部分為第三方和非官方覆蓋 (Mapillary, etc.)',
       '旅遊區有部分 trekker 覆蓋',
       '覆蓋品質差異顯著',
@@ -7352,7 +7386,7 @@ const COUNTRIES = {
     language: 'siSwati, English',
     currency: 'Lilangeni (SZL)',
     camera: [
-      'Gen 3 覆蓋',
+      "<strong>56.5% Gen 4 + 43.5% Gen 3</strong>",
       '覆蓋有限，集中在主要道路和城市',
       '覆蓋主要在 Mbabane 和 Ezulwini Valley 走廊',
       '無 Gen 2 或 Gen 4 覆蓋',
@@ -7428,7 +7462,7 @@ const COUNTRIES = {
     language: 'English, French, Mauritian Creole',
     currency: 'Mauritian Rupee (MUR)',
     camera: [
-      '全島 Gen 3 覆蓋',
+      "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>",
       '作為小島國覆蓋良好',
       '大部分主要道路和城鎮有覆蓋',
       '部分海岸和海灘有 trekker 覆蓋',
@@ -7503,7 +7537,7 @@ const COUNTRIES = {
     language: 'Portuguese',
     currency: 'Metical (MZN)',
     camera: [
-      '官方 Google 街景覆蓋有限',
+      "<strong>56.2% Gen 3 + 43.7% Gen 4</strong>",
       '主要公路沿線有部分車輛覆蓋（EN1 南北公路）',
       '部分地區有社群貢獻和非官方覆蓋',
       '覆蓋主要沿海岸和大城市（Maputo、Beira）',
@@ -7580,7 +7614,7 @@ const COUNTRIES = {
     language: 'English, Chichewa',
     currency: 'Kwacha (MWK)',
     camera: [
-      '覆蓋有限，主要沿主要道路',
+      "<strong>67.8% Gen 3 + 32.1% Gen 4</strong>",
       '有覆蓋的地方為 Gen 3 相機',
       '旅遊景點有部分 trekker 覆蓋',
       '覆蓋集中在 Malawi 南部和 Malawi 湖沿岸',
@@ -7656,7 +7690,7 @@ const COUNTRIES = {
     language: 'English, Bemba, Nyanja, Tonga + others',
     currency: 'Kwacha (ZMW)',
     camera: [
-      '有限但持續增長的 Google 街景覆蓋',
+      "<strong>100% Gen 3</strong>",
       '車輛覆蓋使用 Gen 3 相機',
       '覆蓋主要沿主要公路和 Lusaka/Livingstone',
       'Victoria Falls 有部分 trekker 覆蓋',
@@ -7735,7 +7769,7 @@ const COUNTRIES = {
     language: 'English, Shona, Ndebele',
     currency: 'Zimbabwe Gold (ZiG), USD widely used',
     camera: [
-      'Google 街景覆蓋有限',
+      "<strong>100% Gen 3（白色無天線車）</strong>",
       'Harare 和主要公路沿線有部分車輛覆蓋',
       'Victoria Falls（Zimbabwe 側）有 Trekker 覆蓋',
       '有覆蓋的地方為 Gen 3',
@@ -7813,7 +7847,7 @@ const COUNTRIES = {
     language: 'French, Lingala, Swahili, Kikongo, Tshiluba',
     currency: 'Congolese Franc (CDF)',
     camera: [
-      '覆蓋非常有限且稀疏',
+      "<strong>100% Gen 3（白色 pickup truck）</strong>",
       '主要為社群貢獻和非官方覆蓋',
       'Kinshasa 和主要路線沿線有部分覆蓋',
       '部分地點有 Trekker 步行覆蓋',
@@ -7891,7 +7925,7 @@ const COUNTRIES = {
     language: 'French, Lingala, Kikongo',
     currency: 'Central African CFA Franc (XAF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>99.5% Gen 3（2025前僅 Trekker）</strong>",
       '主要為社群貢獻/非官方覆蓋',
       'Brazzaville 和 Pointe-Noire 有部分覆蓋',
       '僅有 Trekker 和非標準覆蓋',
@@ -7963,7 +7997,7 @@ const COUNTRIES = {
     language: 'French, English',
     currency: 'Central African CFA Franc (XAF)',
     camera: [
-      '覆蓋有限，主要在 Douala 和 Yaounde 地區',
+      "<strong>100% Gen 3（獨特粗天線）</strong>",
       '社群貢獻和非官方覆蓋 in various areas',
       '部分 trekker 覆蓋',
       '覆蓋品質差異顯著',
@@ -8039,7 +8073,7 @@ const COUNTRIES = {
     language: 'French',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      '覆蓋有限，主要在 Abidjan 和主要公路沿線',
+      "<strong>100% Gen 3（可見黑色引擎蓋）</strong>",
       '社群貢獻和非官方覆蓋 sources',
       '覆蓋持續擴大但仍然稀疏',
       '有官方覆蓋的地方為 Gen 3',
@@ -8116,7 +8150,7 @@ const COUNTRIES = {
     language: 'French, Moore, Dioula',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>100% Gen 3（黑色 pickup truck）</strong>",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Ouagadougou 有部分覆蓋',
       '著名景點有 Trekker 覆蓋',
@@ -8192,7 +8226,7 @@ const COUNTRIES = {
     language: 'French, Bambara',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3（銀色 pickup truck）</strong>",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Bamako 有部分覆蓋',
       'Timbuktu 可能有 trekker 覆蓋',
@@ -8266,7 +8300,7 @@ const COUNTRIES = {
     language: 'French, Fula, Malinke, Susu',
     currency: 'Guinean Franc (GNF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>100% Gen 3</strong>",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Conakry 有部分覆蓋',
       '主要道路沿線覆蓋稀疏',
@@ -8340,7 +8374,7 @@ const COUNTRIES = {
     language: 'English, Krio',
     currency: 'Leone (SLL)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3（行李架中心填黑）</strong>",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Freetown 有部分覆蓋',
       'Sparse coverage along major roads',
@@ -8414,7 +8448,7 @@ const COUNTRIES = {
     language: 'French, Ewe, Kabiye',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3（PARE+MPH 獨特組合）</strong>",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Lome 有部分覆蓋',
       '主要道路沿線覆蓋稀疏',
@@ -8485,7 +8519,7 @@ const COUNTRIES = {
     language: 'French, Arabic, Somali, Afar',
     currency: 'Djiboutian Franc (DJF)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>全部 Gen 4（pickup truck）</strong>",
       'Djibouti 市有部分覆蓋',
       '社群貢獻和非官方覆蓋',
       '部分地點有 Trekker',
@@ -8559,7 +8593,7 @@ const COUNTRIES = {
     language: 'English, Arabic, Dinka, Nuer',
     currency: 'South Sudanese Pound (SSP)',
     camera: [
-      '覆蓋極其有限',
+      "<strong>Gen 3 + Gen 4 + Gen 2</strong>",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Juba 有部分覆蓋',
       '全球覆蓋最少的國家之一',
@@ -8631,7 +8665,7 @@ const COUNTRIES = {
     language: 'Arabic, English',
     currency: 'Sudanese Pound (SDG)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>~69% Gen 3 + ~11% Gen 2 + ~6% Gen 4</strong>",
       'Khartoum 有部分社群貢獻覆蓋',
       '部分歷史/旅遊景點有 Trekker',
       'Meroe 金字塔可能有 trekker 覆蓋',
@@ -8706,7 +8740,7 @@ const COUNTRIES = {
     language: 'English, Fijian, Fiji Hindi',
     currency: 'Fijian Dollar (FJD)',
     camera: [
-      '有限但存在的 Google 街景覆蓋',
+      "<strong>Gen 2 + Gen 3 + Gen 4</strong>",
       'Viti Levu（最大島嶼）主要道路和部分 Vanua Levu 有覆蓋',
       '有覆蓋的地方為 Gen 3 相機',
       '海岸和度假區可能有額外覆蓋',
@@ -8783,7 +8817,7 @@ const COUNTRIES = {
     language: 'English, Tok Pisin, Hiri Motu + 800+ indigenous',
     currency: 'Kina (PGK)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3 + Gen 4（涉水喉車/pickup truck）</strong>",
       '部分 trekker 覆蓋 along Kokoda Track and tourist areas',
       'Port Moresby 和部分公路有社群貢獻覆蓋',
       '覆蓋品質差異顯著',
@@ -8940,7 +8974,7 @@ const COUNTRIES = {
     language: 'French, Kanak languages',
     currency: 'CFP Franc (XPF)',
     camera: [
-      '無官方 Google 街景覆蓋',
+      "<strong>100% Gen 3（右前天線+大範圍打碼）</strong>",
       '有限的社群貢獻/非官方覆蓋可用',
       '部分 trekker 覆蓋 at tourist locations',
       '來自替代來源的 Google 車和 trekker 影像',
@@ -9016,7 +9050,7 @@ const COUNTRIES = {
     language: 'Samoan, English',
     currency: 'Tala (WST)',
     camera: [
-      '覆蓋有限，主要在主要道路上',
+      "<strong>Gen 3（獨特膠帶車）</strong>",
       'Upolu 和 Savai’i 島有覆蓋',
       '有官方覆蓋的地方為 Gen 3',
       '部分 trekker 覆蓋',
@@ -9090,7 +9124,7 @@ const COUNTRIES = {
     language: 'English, Solomon Islands Pijin',
     currency: 'Solomon Islands Dollar (SBD)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3 + Gen 4（天空常有裂痕）</strong>",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Honiara 有部分覆蓋',
       '二戰紀念景點可能有 trekker 覆蓋',
@@ -9164,7 +9198,7 @@ const COUNTRIES = {
     language: 'English, French, Bislama',
     currency: 'Vatu (VUV)',
     camera: [
-      '覆蓋非常有限 — 主要為 trekker',
+      "<strong>78.6% Gen 3 + 21.3% Gen 4</strong>",
       '少量官方 trekker 覆蓋，主要是 Ambrym 火山',
       '首都 Port Vila 有部分社群貢獻覆蓋',
       '太平洋覆蓋最少的國家之一',
@@ -9238,7 +9272,7 @@ const COUNTRIES = {
     language: 'Tongan, English',
     currency: 'Pa\'anga (TOP)',
     camera: [
-      '覆蓋非常有限',
+      "<strong>Gen 3（黑色車，無天線）</strong>",
       'Tongatapu（主島）有部分覆蓋',
       '社群貢獻和 trekker 覆蓋',
       '太平洋覆蓋最少的國家之一',
