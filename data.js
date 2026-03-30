@@ -9217,10 +9217,42 @@ const META_SECTIONS = [
         • <strong>Ge'ez</strong> — 獨特的幾何字元。Ethiopia/Eritrea。</p>
       </div>
       <div class="meta-info-block">
-        <h4>容易混淆的文字配對</h4>
-        <p>• <strong>Thai vs Lao vs Khmer：</strong>Thai 有圓圈+直線 → Lao 更圓滑 → Khmer 有向右的鉤<br>
-        • <strong>Devanagari vs Bengali：</strong>都有頂部橫線 → Bengali 有向左的三角形<br>
-        • <strong>Greek vs Cyrillic：</strong>共用部分字母 → Cyrillic 有獨特的 Ж, Ш, Щ, Ы</p>
+        <h4>容易混淆的文字配對 — 實體範例</h4>
+        <p><strong>Thai vs Lao vs Khmer：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">สวัสดี ถนน กรุงเทพ</div><div style="font-size:0.75rem;color:var(--text-muted)">Thai 泰文 — 有<strong>小圓圈</strong>和直線段</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">ສະບາຍດີ ຖະໜົນ ວຽງຈັນ</div><div style="font-size:0.75rem;color:var(--text-muted)">Lao 寮文 — 比泰文<strong>更圓滑</strong>，無直線邊</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">សួស្តី ផ្លូវ ភ្នំពេញ</div><div style="font-size:0.75rem;color:var(--text-muted)">Khmer 高棉文 — 頂部有<strong>向右的鉤</strong></div></div>
+        </div>
+        <p><strong>Devanagari vs Bengali：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">नमस्ते सड़क दिल्ली</div><div style="font-size:0.75rem;color:var(--text-muted)">Devanagari 天城文 (Hindi) — <strong>頂部橫線</strong>連接字母</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">নমস্কার রাস্তা ঢাকা</div><div style="font-size:0.75rem;color:var(--text-muted)">Bengali 孟加拉文 — 也有頂部橫線但有<strong>向左三角形</strong></div></div>
+        </div>
+        <p><strong>Greek vs Cyrillic：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">Καλημέρα Αθήνα Οδός</div><div style="font-size:0.75rem;color:var(--text-muted)">Greek 希臘文 — 有 Φ Θ Ψ Ω Δ</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">Здравствуйте Москва Улица</div><div style="font-size:0.75rem;color:var(--text-muted)">Cyrillic 西里爾文 (Russian) — 有 Ж Ш Щ Ы</div></div>
+        </div>
+        <p><strong>Sinhala vs Tamil：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">ආයුබෝවන් කොළඹ</div><div style="font-size:0.75rem;color:var(--text-muted)">Sinhala 僧伽羅文 — 像各方向的 <strong>C</strong></div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">வணக்கம் சாலை சென்னை</div><div style="font-size:0.75rem;color:var(--text-muted)">Tamil 坦米爾文 — 更多<strong>螺旋和曲線</strong></div></div>
+        </div>
+        <p><strong>Ukrainian vs Russian：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">Київ вулиця Ї Є І Ґ</div><div style="font-size:0.75rem;color:var(--text-muted)">Ukrainian — 有 <strong>Ї Є І Ґ</strong>，無 Ы Ё</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">Москва улица Ы Ё Э Ъ</div><div style="font-size:0.75rem;color:var(--text-muted)">Russian — 有 <strong>Ы Ё Э</strong>，無 Ї Є</div></div>
+        </div>
+        <p><strong>Georgian vs Armenian：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">გამარჯობა თბილისი</div><div style="font-size:0.75rem;color:var(--text-muted)">Georgian 喬治亞文 — 圓潤<strong>藤蔓狀</strong>曲線</div></div>
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.6rem">Բարև Երևան Փողոց</div><div style="font-size:0.75rem;color:var(--text-muted)">Armenian 亞美尼亞文 — <strong>角度+曲線</strong>組合</div></div>
+        </div>
+        <p><strong>Vietnamese 越南文 — 拉丁字母但大量聲調符號：</strong></p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;">
+          <div class="script-sample" style="text-align:center"><div style="font-size:1.4rem">Đường Nguyễn Huệ, Thành phố Hồ Chí Minh</div><div style="font-size:0.75rem;color:var(--text-muted)">像「戴了很多帽子的拉丁文」— đ ơ ư â ă ê</div></div>
+        </div>
       </div>
     `
   },
