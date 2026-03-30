@@ -9001,8 +9001,8 @@ const META_SECTIONS = [
         <img src="https://d33wubrfki0l68.cloudfront.net/ab0b7f648e4579d6245bc7df6229a5bda05c2608/14526/static/img/camera-gens/gen-1.jpg" alt="Gen 1" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>畫質：</strong>極低 — 嚴重壓縮失真、模糊、天空過曝且有可見接縫。<br>
         <strong>相機：</strong>Dodeca 2360 / R2<br>
-        <strong>涵蓋國家：</strong>僅 USA, Australia, New Zealand（只有這 3 國）<br>
-        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 USA、Australia 或 New Zealand<br>
+        <strong>涵蓋國家：</strong>僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, New Zealand（只有這 3 國）<br>
+        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>、<a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a> 或 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
         <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@37.7749,-122.4194,3a,75y,90t,0r/data=!3m6!1e1!3m4!1s2007" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 覆蓋 (Google Maps)</a></p>
       </div>
       <div class="meta-info-block">
@@ -9011,7 +9011,7 @@ const META_SECTIONS = [
         <p><strong>畫質：</strong>比 Gen 1 好但仍為低解析度。<br>
         <strong>關鍵特徵：</strong>太陽周圍有 <strong>purple halo</strong>（鏡頭光暈），地面車輛周圍有<strong>圓形紫色模糊</strong>。<br>
         <strong>相機：</strong>R5（8 顆 5MP 相機 + 魚眼鏡頭 + 3 組雷射掃描器）<br>
-        <strong>涵蓋國家：</strong>North America, Australia, NZ, Western Europe<br>
+        <strong>涵蓋國家：</strong>North America, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, NZ, Western Europe<br>
         <strong>辨識要點：</strong>天空有 purple halo = Gen 2 → 排除 Africa、大部分 Asia、South America<br>
         <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=48.8566,2.3522" target="_blank" style="color:var(--accent-blue)">Paris Gen 2 覆蓋 (Google Maps)</a></p>
       </div>
@@ -9035,20 +9035,20 @@ const META_SECTIONS = [
       </div>
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
-        <p><strong>🔽 Low Cam（低相機）：</strong>確定有的國家：<strong>Japan、Switzerland</strong>（因隱私法規，全國性低相機）。部分覆蓋可能有低相機：Sri Lanka（Gen 4）、Lebanon、Italy。Japan 和 Switzerland 的模糊區域最大，是最可靠的辨識線索。<br>
-        <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong>India — 畫質明顯比標準 Gen 3 差，略帶霧感 (foggy)，文字難以辨認。非 Google 官方拍攝，2022 年後城市擴展。<br>
-        <strong>💩 Shit Cam（低品質第三方覆蓋）：</strong>Uganda 等非洲國家 — 極低畫質、嚴重模糊、過曝或欠曝、顏色失真。由 Mapillary 等第三方志願者拍攝，非 360° 全景。<br>
+        <p><strong>🔽 Low Cam（低相機）：</strong>確定有的國家：<strong><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a>、<a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a></strong>（因隱私法規，全國性低相機）。部分覆蓋可能有低相機：Sri Lanka（Gen 4）、<a onclick="navigateTo('country','lebanon')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lebanon</a>、Italy。Japan 和 <a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> 的模糊區域最大，是最可靠的辨識線索。<br>
+        <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> — 畫質明顯比標準 Gen 3 差，略帶霧感 (foggy)，文字難以辨認。非 Google 官方拍攝，2022 年後城市擴展。<br>
+        <strong>💩 Shit Cam（低品質第三方覆蓋）：</strong><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> 等非洲國家 — 極低畫質、嚴重模糊、過曝或欠曝、顏色失真。由 Mapillary 等第三方志願者拍攝，非 360° 全景。<br>
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。Costa Rica (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、Christmas Island（銀色 pickup）、US Virgin Islands（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6762,139.6503" target="_blank" style="color:var(--accent-blue)">Japan Low Cam (Tokyo)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.3769,8.5417" target="_blank" style="color:var(--accent-blue)">Switzerland Low Cam (Zürich)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.6139,77.2090" target="_blank" style="color:var(--accent-blue)">India Unofficial Cam (Delhi)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=0.3136,32.5811" target="_blank" style="color:var(--accent-blue)">Uganda Coverage (Kampala)</a></p>
+        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6762,139.6503" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
+        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.3769,8.5417" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
+        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.6139,77.2090" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
+        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=0.3136,32.5811" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a></p>
       </div>
       <div class=meta-info-block>
         <h4>快速辨識流程</h4>
-        <p>1. 極差畫質 + 天空接縫 → <strong>Gen 1</strong>（僅 USA/AUS/NZ）<br>
+        <p>1. 極差畫質 + 天空接縫 → <strong>Gen 1</strong>（僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>/AUS/NZ）<br>
         2. 天空有 purple halo + 地面模糊 → <strong>Gen 2</strong><br>
         3. 正常畫質、乾淨 → <strong>Gen 3</strong>（最常見）<br>
         4. 超鮮豔色彩 + 超高解析度 → <strong>Gen 4</strong></p>
@@ -9062,113 +9062,113 @@ const META_SECTIONS = [
       <div class="meta-info-block">
         <h4>Pickup Truck 國家（非轎車）</h4>
         <p>以下國家使用 pickup truck 而非轎車拍攝 Street View：<br>
-        • <strong>Bermuda</strong> — 黑色 pickup truck（有時模糊化處理）<br>
-        • <strong>Christmas Island</strong> — 銀色 pickup/ute（後方貨斗可見）<br>
+        • <strong><a onclick="navigateTo('country','bermuda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bermuda</a></strong> — 黑色 pickup truck（有時模糊化處理）<br>
+        • <strong><a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a></strong> — 銀色 pickup/ute（後方貨斗可見）<br>
         • <strong>American Samoa</strong> — 黑色 ute/truck（後方可見）<br>
         • <strong>US Virgin Islands</strong> — St. Thomas/St. John = 白色 truck + 黑色天線；St. Croix = 紅白色 truck<br>
         • <strong>Kazakhstan</strong> — 白色 pickup truck（bars 在後方，常被完全模糊化）<br>
-        • <strong>Namibia</strong> — 白色 pickup truck<br>
-        • <strong>Oman</strong> — 白色 pickup truck（天線在中間）<br>
-        • <strong>Qatar</strong> — 白色 pickup truck（天線在左）<br>
-        • <strong>Senegal</strong> — Gen 4：銀色/白色 truck cab<br>
-        • <strong>Rwanda</strong> — Pickup truck（白/黑/灰棕色，紅色煞車燈在車頂）<br>
-        • <strong>Nigeria</strong> — 大型 pickup truck（白/紅色，黃黑色 rack）<br>
-        • <strong>Turkey</strong> — Gen 4：灰色 pickup truck（也有白色轎車）<br>
-        • <strong>Iceland</strong> — Gen 4：白色（七月）/紅色（八月）pickup truck<br>
-        • <strong>Mongolia</strong> — 部分涵蓋使用白/藍色 pickup truck<br>
-        • <strong>Peru</strong> — 部分涵蓋（120 號公路）使用黑色 truck</p>
+        • <strong><a onclick="navigateTo('country','namibia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Namibia</a></strong> — 白色 pickup truck<br>
+        • <strong><a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a></strong> — 白色 pickup truck（天線在中間）<br>
+        • <strong><a onclick="navigateTo('country','qatar')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Qatar</a></strong> — 白色 pickup truck（天線在左）<br>
+        • <strong><a onclick="navigateTo('country','senegal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Senegal</a></strong> — Gen 4：銀色/白色 truck cab<br>
+        • <strong><a onclick="navigateTo('country','rwanda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Rwanda</a></strong> — Pickup truck（白/黑/灰棕色，紅色煞車燈在車頂）<br>
+        • <strong><a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a></strong> — 大型 pickup truck（白/紅色，黃黑色 rack）<br>
+        • <strong><a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a></strong> — Gen 4：灰色 pickup truck（也有白色轎車）<br>
+        • <strong><a onclick="navigateTo('country','iceland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Iceland</a></strong> — Gen 4：白色（七月）/紅色（八月）pickup truck<br>
+        • <strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong> — 部分涵蓋使用白/藍色 pickup truck<br>
+        • <strong><a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a></strong> — 部分涵蓋（120 號公路）使用黑色 truck</p>
       </div>
       <div class="meta-info-block">
         <h4>Snorkel（進氣管）</h4>
         <p>只有兩個國家的 Google car 有 snorkel：<br>
-        • <strong>Kenya</strong> — 右前方大型黑色 snorkel（用於涉水過河）— 100% 確認 Kenya<br>
-        • <strong>Mongolia</strong> — Snorkel + 車頂露營裝備/背包</p>
+        • <strong><a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a></strong> — 右前方大型黑色 snorkel（用於涉水過河）— 100% 確認 <a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a><br>
+        • <strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong> — Snorkel + 車頂露營裝備/背包</p>
       </div>
       <div class="meta-info-block">
         <h4>Roof Rack 辨識</h4>
-        <p>• <strong>Ghana</strong> — 銀色車架，<strong>前橫桿右端</strong>纏黑色膠帶（100% Ghana）<br>
-        • <strong>Réunion</strong> — <strong>僅後橫桿</strong>纏黑色膠帶（前 vs 後 = Ghana vs Réunion）<br>
-        • <strong>Nigeria</strong> — 獨特黃/黑色橫桿 + 警車隨行護衛<br>
-        • <strong>Mongolia</strong> — 車架附露營裝備/背包；西部/UB = 黑色橡膠填充橫桿；東部 = 無填充<br>
-        • <strong>Kyrgyzstan</strong> — 四根橫桿可見 + 側鏡，但<strong>無背包</strong>（vs Mongolia 有背包）<br>
-        • <strong>Guatemala</strong> — 灰色車 + 車架 + 可見黑色側鏡（Guatemala 獨有側鏡配置）<br>
-        • <strong>Dominican Republic</strong> — 車架中間有黑色橡膠條紋（僅 DR 和 Mongolia UB 有此特徵）<br>
-        • <strong>Curaçao</strong> — 黑色車 + 車架 + 白色貼紙 + 可見黑色引擎蓋（全球唯一組合）<br>
+        <p>• <strong><a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a></strong> — 銀色車架，<strong>前橫桿右端</strong>纏黑色膠帶（100% <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a>）<br>
+        • <strong>Réunion</strong> — <strong>僅後橫桿</strong>纏黑色膠帶（前 vs 後 = <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a> vs Réunion）<br>
+        • <strong><a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a></strong> — 獨特黃/黑色橫桿 + 警車隨行護衛<br>
+        • <strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong> — 車架附露營裝備/背包；西部/UB = 黑色橡膠填充橫桿；東部 = 無填充<br>
+        • <strong><a onclick="navigateTo('country','kyrgyzstan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kyrgyzstan</a></strong> — 四根橫桿可見 + 側鏡，但<strong>無背包</strong>（vs <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a> 有背包）<br>
+        • <strong><a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a></strong> — 灰色車 + 車架 + 可見黑色側鏡（<a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a> 獨有側鏡配置）<br>
+        • <strong>Dominican Republic</strong> — 車架中間有黑色橡膠條紋（僅 DR 和 <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a> UB 有此特徵）<br>
+        • <strong><a onclick="navigateTo('country','curacao')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Curaçao</a></strong> — 黑色車 + 車架 + 白色貼紙 + 可見黑色引擎蓋（全球唯一組合）<br>
         • <strong>Laos</strong> — 可見 roof rack（首都 Vientiane 除外）<br>
         • <strong>Guam</strong> — 微小 roof rack + 右前長天線<br>
-        • <strong>Bangladesh</strong> — 黑色 bars + 紅色側鏡（全球獨有配置）</p>
+        • <strong><a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a></strong> — 黑色 bars + 紅色側鏡（全球獨有配置）</p>
       </div>
       <div class="meta-info-block">
         <h4>天線類型</h4>
-        <p>• <strong>圓形天線（circular）</strong> — Gen 4 Europe：Sweden, Hungary, Bulgaria, Romania, France, Croatia, Italy, Slovenia<br>
-        • <strong>長天線（long）</strong> — Russia, Donetsk, Israel, Palestine（黑色車配長天線）<br>
-        • <strong>短粗天線（stubby）</strong> — Mexico, Colombia, Ecuador, Brazil（拉丁美洲共通）<br>
-        • <strong>三脊天線（three-ridge）</strong> — USA, New Zealand, Hawaii, Cambodia<br>
-        • <strong>細短天線（thin stubby）</strong> — Java, Indonesia 限定<br>
+        <p>• <strong>圓形天線（circular）</strong> — Gen 4 Europe：Sweden, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, <a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a>, <a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a>, <a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a>, <a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a>, <a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a>, <a onclick="navigateTo('country','slovenia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovenia</a><br>
+        • <strong>長天線（long）</strong> — <a onclick="navigateTo('country','russia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Russia</a>, Donetsk, <a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a>, Palestine（黑色車配長天線）<br>
+        • <strong>短粗天線（stubby）</strong> — <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>, <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, Brazil（拉丁美洲共通）<br>
+        • <strong>三脊天線（three-ridge）</strong> — <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a>, Hawaii, <a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a><br>
+        • <strong>細短天線（thin stubby）</strong> — Java, <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a> 限定<br>
         • <strong>獨特粗天線</strong> — 僅 Panama（全球唯一，100% 確認）<br>
-        • <strong>Gen 3 膠帶天線</strong> — Czechia, Slovakia, Hungary, Romania（東歐共通特徵）<br>
-        • <strong>無天線</strong> — Greece（所有年份皆無）, Serbia, North Macedonia, Turkey (Gen 3)<br>
-        • <strong>Gen 4 無天線</strong> — Ireland, Norway, Denmark, Czechia (2019-2020)</p>
+        • <strong>Gen 3 膠帶天線</strong> — Czechia, <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, Romania（東歐共通特徵）<br>
+        • <strong>無天線</strong> — Greece（所有年份皆無）, <a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a>, North Macedonia, <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a> (Gen 3)<br>
+        • <strong>Gen 4 無天線</strong> — <a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a>, Czechia (2019-2020)</p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 Europe 車色（依年份）</h4>
-        <p><strong>藍色 + 圓形天線：</strong>Sweden, Hungary, Bulgaria, Romania, France (2021), Italy, Croatia (2022), Slovenia (2023)<br>
-        <strong>藍色，無天線：</strong>Ireland, Norway, Czechia (2019-2020), Denmark (2019-2020), Hungary (2019-2020)<br>
-        <strong>黑色 + 圓形天線：</strong>Bulgaria + Lithuania (2024), Lithuania + Czechia + Netherlands + UK (2023), Latvia (2022)<br>
-        <strong>紅色：</strong>Sweden, Slovakia, Bulgaria, Greece<br>
-        <strong>白色：</strong>Sweden, Turkey, Luxembourg<br>
-        <strong>⚠️ 注意：</strong>Austria 和 Belgium 在 Gen 4 中沒有可見車輛</p>
+        <p><strong>藍色 + 圓形天線：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, <a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a>, <a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a>, <a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a> (2021), <a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a>, <a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a> (2022), <a onclick="navigateTo('country','slovenia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovenia</a> (2023)<br>
+        <strong>藍色，無天線：</strong><a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, Czechia (2019-2020), <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a> (2019-2020), <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a> (2019-2020)<br>
+        <strong>黑色 + 圓形天線：</strong><a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a> + <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a> (2024), <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a> + Czechia + Netherlands + <a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a> (2023), <a onclick="navigateTo('country','latvia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Latvia</a> (2022)<br>
+        <strong>紅色：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, <a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a>, <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a><br>
+        <strong>白色：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a>, Luxembourg<br>
+        <strong>⚠️ 注意：</strong><a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a> 和 <a onclick="navigateTo('country','belgium')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Belgium</a> 在 Gen 4 中沒有可見車輛</p>
       </div>
       <div class="meta-info-block">
         <h4>南美車色</h4>
-        <p>• <strong>黑色車</strong> — Argentina, Uruguay<br>
-        • <strong>白色車</strong> — Chile, Bolivia, Ecuador<br>
-        • <strong>深灰色車</strong> — Peru (Gen 4)<br>
-        • <strong>藍色車</strong> — Brazil (Gen 4：所有 Gen 4 涵蓋皆為藍色)<br>
-        • <strong>多色</strong> — Colombia（黑/白/灰）, Peru (Gen 3：白+黑)</p>
+        <p>• <strong>黑色車</strong> — <a onclick="navigateTo('country','argentina')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Argentina</a>, <a onclick="navigateTo('country','uruguay')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uruguay</a><br>
+        • <strong>白色車</strong> — <a onclick="navigateTo('country','chile')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Chile</a>, <a onclick="navigateTo('country','bolivia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bolivia</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a><br>
+        • <strong>深灰色車</strong> — <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a> (Gen 4)<br>
+        • <strong>藍色車</strong> — <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a> (Gen 4：所有 Gen 4 涵蓋皆為藍色)<br>
+        • <strong>多色</strong> — Colombia（黑/白/灰）, <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a> (Gen 3：白+黑)</p>
       </div>
       <div class="meta-info-block">
         <h4>中東車輛快速辨識</h4>
-        <p>• <strong>UAE</strong> — 白色<strong>轎車</strong><br>
-        • <strong>Jordan</strong> — <strong>黑色</strong>轎車（vs UAE 白色 = 最簡單辨識法）<br>
-        • <strong>Israel</strong> — 黑色轎車 + <strong>長天線</strong><br>
-        • <strong>Oman</strong> — 白色 <strong>pickup truck</strong>（天線在中間）<br>
-        • <strong>Qatar</strong> — 白色 <strong>pickup truck</strong>（天線在左）</p>
+        <p>• <strong><a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a></strong> — 白色<strong>轎車</strong><br>
+        • <strong><a onclick="navigateTo('country','jordan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jordan</a></strong> — <strong>黑色</strong>轎車（vs <a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a> 白色 = 最簡單辨識法）<br>
+        • <strong><a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a></strong> — 黑色轎車 + <strong>長天線</strong><br>
+        • <strong><a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a></strong> — 白色 <strong>pickup truck</strong>（天線在中間）<br>
+        • <strong><a onclick="navigateTo('country','qatar')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Qatar</a></strong> — 白色 <strong>pickup truck</strong>（天線在左）</p>
       </div>
       <div class="meta-info-block">
         <h4>非洲車輛快速辨識</h4>
-        <p>• <strong>Kenya</strong> — Snorkel（100% 確認）<br>
-        • <strong>Ghana</strong> — 前橫桿黑色膠帶（100% 確認）<br>
-        • <strong>Nigeria</strong> — 黃/黑 rack + 警車護送<br>
-        • <strong>Senegal</strong> — 銀/白色 truck cab (Gen 4)<br>
-        • <strong>South Africa</strong> — Gen 4 天藍色車 + 短黑色天線；Kruger Park = 迷彩車<br>
-        • <strong>Uganda</strong> — 白色方形 SUV + 方形側鏡<br>
-        • <strong>Rwanda</strong> — Pickup truck + 車頂紅色煞車燈<br>
+        <p>• <strong><a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a></strong> — Snorkel（100% 確認）<br>
+        • <strong><a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a></strong> — 前橫桿黑色膠帶（100% 確認）<br>
+        • <strong><a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a></strong> — 黃/黑 rack + 警車護送<br>
+        • <strong><a onclick="navigateTo('country','senegal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Senegal</a></strong> — 銀/白色 truck cab (Gen 4)<br>
+        • <strong><a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a></strong> — Gen 4 天藍色車 + 短黑色天線；Kruger Park = 迷彩車<br>
+        • <strong><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a></strong> — 白色方形 SUV + 方形側鏡<br>
+        • <strong><a onclick="navigateTo('country','rwanda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Rwanda</a></strong> — Pickup truck + 車頂紅色煞車燈<br>
         • <strong>Réunion</strong> — 後橫桿黑色膠帶<br>
         • <strong>Tunisia</strong> — Follow car：北部 = 淺綠 Toyota；南部 = 深綠 Mazda</p>
       </div>
       <div class="meta-info-block">
         <h4>特殊功能 / 100% 辨識線索</h4>
-        <p>• <strong>Sri Lanka</strong> — 白色車 + 右側紅色模糊 + 前方藍/白/紅色塊<br>
-        • <strong>Croatia</strong> — Gen 3 側鏡有黃色貼紙（Croatia 獨有）<br>
-        • <strong>Japan</strong> — 非常低的相機位置，大型模糊區域<br>
-        • <strong>Switzerland</strong> — 極低的相機位置，所有國家中<strong>最大</strong>的模糊區域<br>
-        • <strong>Sri Lanka Gen 4</strong> — Low-cam（物體更大、道路更寬、圓形模糊更寬）<br>
-        • <strong>Kyrgyzstan</strong> — 銀色車反射可見於側鏡；側鏡狀態（乾淨/泥濘）可辨識東西部<br>
-        • <strong>Bangladesh</strong> — 黑色 bars + 紅色側鏡（全球獨有配置）<br>
-        • <strong>Panama</strong> — 獨特粗天線（全球唯一，100% 確認）<br>
-        • <strong>Bermuda</strong> — 黑色 truck（有時完全模糊化處理）<br>
-        • <strong>Christmas Island</strong> — 銀色 pickup 貨斗可見<br>
+        <p>• <strong><a onclick="navigateTo('country','sri-lanka')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sri Lanka</a></strong> — 白色車 + 右側紅色模糊 + 前方藍/白/紅色塊<br>
+        • <strong><a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a></strong> — Gen 3 側鏡有黃色貼紙（<a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a> 獨有）<br>
+        • <strong><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a></strong> — 非常低的相機位置，大型模糊區域<br>
+        • <strong><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a></strong> — 極低的相機位置，所有國家中<strong>最大</strong>的模糊區域<br>
+        • <strong><a onclick="navigateTo('country','sri-lanka')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sri Lanka</a> Gen 4</strong> — Low-cam（物體更大、道路更寬、圓形模糊更寬）<br>
+        • <strong><a onclick="navigateTo('country','kyrgyzstan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kyrgyzstan</a></strong> — 銀色車反射可見於側鏡；側鏡狀態（乾淨/泥濘）可辨識東西部<br>
+        • <strong><a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a></strong> — 黑色 bars + 紅色側鏡（全球獨有配置）<br>
+        • <strong><a onclick="navigateTo('country','panama')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Panama</a></strong> — 獨特粗天線（全球唯一，100% 確認）<br>
+        • <strong><a onclick="navigateTo('country','bermuda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bermuda</a></strong> — 黑色 truck（有時完全模糊化處理）<br>
+        • <strong><a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a></strong> — 銀色 pickup 貨斗可見<br>
         • <strong>American Samoa</strong> — 黑色 truck 後方可見<br>
-        • <strong>Pakistan</strong> — 向下看可見人的輪廓（Trekker 步行拍攝）<br>
+        • <strong><a onclick="navigateTo('country','pakistan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Pakistan</a></strong> — 向下看可見人的輪廓（Trekker 步行拍攝）<br>
         • <strong>Kruger National Park (South Africa)</strong> — 迷彩花紋車（全球唯一！）</p>
       </div>
       <div class="meta-info-block">
         <h4>Follow Car（跟隨車）辨識</h4>
-        <p>• <strong>Nigeria</strong> — 多種：棕色 Toyota SUV (Lagos)、黑色 SUV (Benin City)、紅色車、銀色車、警車<br>
+        <p>• <strong><a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a></strong> — 多種：棕色 Toyota SUV (Lagos)、黑色 SUV (Benin City)、紅色車、銀色車、警車<br>
         &nbsp;&nbsp;→ 警燈紅色在左 = 南部；紅色在右 = 北部/Abuja<br>
         • <strong>Tunisia</strong> — 北部 (Hammamet 以北) = 淺綠色 Toyota；南部 = 深綠色 Mazda<br>
-        • <strong>Kenya</strong> — Toyota follow car（都市區較少見）</p>
+        • <strong><a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a></strong> — Toyota follow car（都市區較少見）</p>
       </div>
     `
   },
@@ -9197,11 +9197,11 @@ const META_SECTIONS = [
         • 看到 <strong>Ъ 作為常用母音</strong> → <strong>Bulgarian</strong><br>
         • 看到 <strong>Ђ</strong> 或 <strong>Ћ</strong> → <strong>Serbian</strong><br>
         • 看到 <strong>Ѓ</strong> 或 <strong>Ќ</strong> → <strong>Macedonian</strong><br>
-        • 同一標誌上混用西里爾字母 + 拉丁字母 → <strong>Serbia</strong> 或 <strong>Bosnia</strong></p>
+        • 同一標誌上混用西里爾字母 + 拉丁字母 → <strong><a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a></strong> 或 <strong>Bosnia</strong></p>
       </div>
       <div class="meta-info-block">
         <h4>非拉丁文字快速指南</h4>
-        <p>• <strong>Greek</strong> — Φ, Γ, Δ, Θ, Σ, Ψ, Ω。僅 Greece/Cyprus。<br>
+        <p>• <strong>Greek</strong> — Φ, Γ, Δ, Θ, Σ, Ψ, Ω。僅 <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a>/Cyprus。<br>
         • <strong>Georgian</strong> — 圓形、藤蔓般的裝飾曲線。僅 Georgia。<br>
         • <strong>Armenian</strong> — 獨特的角形曲線。僅 Armenia。<br>
         • <strong>Hebrew</strong> — 從右至左、方塊字母、不連寫。Israel。<br>
@@ -9230,25 +9230,25 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>黃色中線</h4>
-        <p><strong>美洲：</strong>USA（雙黃線）, Canada, Mexico（單黃線）, Brazil, Colombia, Peru, Ecuador, Bolivia, Paraguay, Venezuela<br>
-        <strong>歐洲：</strong>Norway, Finland（多條中線時）<br>
-        <strong>亞洲：</strong>Thailand, Cambodia<br>
+        <p><strong>美洲：</strong>USA（雙黃線）, <a onclick="navigateTo('country','canada')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Canada</a>, Mexico（單黃線）, <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a>, <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, <a onclick="navigateTo('country','bolivia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bolivia</a>, Paraguay, Venezuela<br>
+        <strong>歐洲：</strong><a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, Finland（多條中線時）<br>
+        <strong>亞洲：</strong><a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>, <a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a><br>
         <strong>非洲：</strong>Rwanda（黃色中線 + 白色邊線）</p>
       </div>
       <div class="meta-info-block">
         <h4>白色中線</h4>
-        <p>歐洲大部分國家：France, Germany, Spain, Italy, UK, Ireland, Sweden, Denmark, Poland, Greece 等<br>
+        <p>歐洲大部分國家：France, <a onclick="navigateTo('country','germany')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Germany</a>, <a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a>, <a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a>, <a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a>, <a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a>, <a onclick="navigateTo('country','poland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Poland</a>, <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a> 等<br>
         南美洲：<strong>Chile（全白線 — 獨特！）</strong><br>
-        大洋洲：Australia, New Zealand<br>
+        大洋洲：Australia, <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
         亞洲：Malaysia（雙白線）</p>
       </div>
       <div class="meta-info-block">
         <h4>特殊標線樣式</h4>
-        <p>• <strong>三條中線</strong> — Uruguay, Philippines, South Africa/Botswana/Eswatini/Lesotho<br>
-        • <strong>黃色邊線</strong> — South Africa, Botswana, Lesotho, Eswatini, Israel, Jordan, UAE, Oman<br>
+        <p>• <strong>三條中線</strong> — <a onclick="navigateTo('country','uruguay')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uruguay</a>, <a onclick="navigateTo('country','philippines')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Philippines</a>, <a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a>/<a onclick="navigateTo('country','botswana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Botswana</a>/Eswatini/Lesotho<br>
+        • <strong>黃色邊線</strong> — <a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a>, <a onclick="navigateTo('country','botswana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Botswana</a>, Lesotho, Eswatini, <a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a>, <a onclick="navigateTo('country','jordan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jordan</a>, <a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a>, <a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a><br>
         • <strong>黃色虛線邊線</strong> — Ireland（非常獨特！）<br>
         • <strong>超長白色虛線邊線</strong> — France（Europe 中獨有）<br>
-        • <strong>全白標線（中線 + 邊線）</strong> — 在 South America 僅 Chile</p>
+        • <strong>全白標線（中線 + 邊線）</strong> — 在 South America 僅 <a onclick="navigateTo('country','chile')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Chile</a></p>
       </div>
     `
   },
@@ -9258,61 +9258,61 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>歐洲 — 主要 Bollard 樣式</h4>
-        <p>• <strong>France</strong> — 大型圓柱體，反光條環繞整個柱身<br>
-        • <strong>Germany</strong> — 扁平白色柱子，僅單側有長方形反光板，黑色條紋<br>
-        • <strong>Austria</strong> — 黑色頂蓋 + 暗紅/黑色反光板（兩者皆有 = 僅 Austria）<br>
-        • <strong>Italy</strong> — 從反光板延伸至頂部的黑色條紋<br>
-        • <strong>UK/Scotland</strong> — 黑白條紋 + 頂部大紅色長方形<br>
-        • <strong>Ireland</strong> — 綠白條紋、無反光板<br>
-        • <strong>Spain</strong> — 黃色反光板帶凹面<br>
-        • <strong>Czech Republic</strong> — 螢光橘條紋、分裂反光板、楔形<br>
-        • <strong>Slovakia</strong> — 分裂反光板、彎曲形（vs Czech 楔形）<br>
-        • <strong>Hungary</strong> — 紅色反光板、較圓的頂部<br>
-        • <strong>Iceland</strong> — 小型、全黃色、小灰色反光板<br>
-        • <strong>Switzerland</strong> — 圓頂圓柱形、黑白配色<br>
-        • <strong>Russia</strong> — 極薄「紙片狀」</p>
+        <p>• <strong><a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a></strong> — 大型圓柱體，反光條環繞整個柱身<br>
+        • <strong><a onclick="navigateTo('country','germany')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Germany</a></strong> — 扁平白色柱子，僅單側有長方形反光板，黑色條紋<br>
+        • <strong><a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a></strong> — 黑色頂蓋 + 暗紅/黑色反光板（兩者皆有 = 僅 <a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a>）<br>
+        • <strong><a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a></strong> — 從反光板延伸至頂部的黑色條紋<br>
+        • <strong><a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a>/Scotland</strong> — 黑白條紋 + 頂部大紅色長方形<br>
+        • <strong><a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a></strong> — 綠白條紋、無反光板<br>
+        • <strong><a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a></strong> — 黃色反光板帶凹面<br>
+        • <strong><a onclick="navigateTo('country','czechia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Czech Republic</a></strong> — 螢光橘條紋、分裂反光板、楔形<br>
+        • <strong><a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a></strong> — 分裂反光板、彎曲形（vs Czech 楔形）<br>
+        • <strong><a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a></strong> — 紅色反光板、較圓的頂部<br>
+        • <strong><a onclick="navigateTo('country','iceland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Iceland</a></strong> — 小型、全黃色、小灰色反光板<br>
+        • <strong><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a></strong> — 圓頂圓柱形、黑白配色<br>
+        • <strong><a onclick="navigateTo('country','russia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Russia</a></strong> — 極薄「紙片狀」</p>
       </div>
       <div class="meta-info-block">
         <h4>亞洲</h4>
-        <p>• <strong>Cambodia</strong> — 紅色金字塔頂 + 黃/白色反光板<br>
-        • <strong>Thailand/Indonesia</strong> — 黑白方塊 + 金字塔頂<br>
-        • <strong>Bangladesh</strong> — 煙囪形、紅白交替<br>
-        • <strong>Mongolia</strong> — 保齡球瓶形狀</p>
+        <p>• <strong><a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a></strong> — 紅色金字塔頂 + 黃/白色反光板<br>
+        • <strong><a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>/<a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a></strong> — 黑白方塊 + 金字塔頂<br>
+        • <strong><a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a></strong> — 煙囪形、紅白交替<br>
+        • <strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong> — 保齡球瓶形狀</p>
       </div>
       <div class="meta-info-block">
         <h4>美洲</h4>
-        <p>• <strong>Mexico/Peru</strong> — 香菸形白色圓柱<br>
-        • <strong>Ecuador</strong> — 圓柱形帶兩條紅色條紋（常見！）<br>
-        • <strong>Uruguay</strong> — 白色正面 + 頂部長方形反光板<br>
-        • <strong>Bolivia</strong> — 白色圓柱 + 紅色環或紅/黃色塊</p>
+        <p>• <strong><a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>/<a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a></strong> — 香菸形白色圓柱<br>
+        • <strong><a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a></strong> — 圓柱形帶兩條紅色條紋（常見！）<br>
+        • <strong><a onclick="navigateTo('country','uruguay')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uruguay</a></strong> — 白色正面 + 頂部長方形反光板<br>
+        • <strong><a onclick="navigateTo('country','bolivia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bolivia</a></strong> — 白色圓柱 + 紅色環或紅/黃色塊</p>
       </div>
       <div class="meta-info-block">
         <h4>Bollard 圖片參考</h4>
         <p>以下為各國 Bollard 實際外觀參考圖片：</p>
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:12px 0;">
-          <div><strong>France</strong><br><img src="https://geomastr.com/assets/media/bollards/france.jpg" alt="France bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Germany</strong><br><img src="https://geomastr.com/assets/media/bollards/germany.jpg" alt="Germany bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Austria</strong><br><img src="https://geomastr.com/assets/media/bollards/austria.jpg" alt="Austria bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Italy</strong><br><img src="https://geomastr.com/assets/media/bollards/italy.jpg" alt="Italy bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Spain</strong><br><img src="https://geomastr.com/assets/media/bollards/spain.jpg" alt="Spain bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Ireland</strong><br><img src="https://geomastr.com/assets/media/bollards/ireland.jpg" alt="Ireland bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Hungary</strong><br><img src="https://geomastr.com/assets/media/bollards/hungary.jpg" alt="Hungary bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Czech Republic</strong><br><img src="https://geomastr.com/assets/media/bollards/czech-republic.jpg" alt="Czech Republic bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Iceland</strong><br><img src="https://geomastr.com/assets/media/bollards/iceland.jpg" alt="Iceland bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Switzerland</strong><br><img src="https://geomastr.com/assets/media/bollards/switzerland.jpg" alt="Switzerland bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Denmark</strong><br><img src="https://geomastr.com/assets/media/bollards/denmark.jpg" alt="Denmark bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Norway</strong><br><img src="https://geomastr.com/assets/media/bollards/norway.jpg" alt="Norway bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Sweden</strong><br><img src="https://geomastr.com/assets/media/bollards/sweden.jpg" alt="Sweden bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Poland</strong><br><img src="https://geomastr.com/assets/media/bollards/poland.jpg" alt="Poland bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Portugal</strong><br><img src="https://geomastr.com/assets/media/bollards/portugal.jpg" alt="Portugal bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Croatia</strong><br><img src="https://geomastr.com/assets/media/bollards/croatia.jpg" alt="Croatia bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Serbia</strong><br><img src="https://geomastr.com/assets/media/bollards/serbia.jpg" alt="Serbia bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Russia</strong><br><img src="https://geomastr.com/assets/media/bollards/russia.jpg" alt="Russia bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Turkey</strong><br><img src="https://geomastr.com/assets/media/bollards/turkey.jpg" alt="Turkey bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Australia</strong><br><img src="https://geomastr.com/assets/media/bollards/australia.jpg" alt="Australia bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Cambodia</strong><br><img src="https://geomastr.com/assets/media/bollards/cambodia.jpg" alt="Cambodia bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Thailand</strong><br><img src="https://geomastr.com/assets/media/bollards/thailand.jpg" alt="Thailand bollard" style="max-width:100%;border-radius:8px;"></div>
-          <div><strong>Mongolia</strong><br><img src="https://geomastr.com/assets/media/bollards/mongolia.jpg" alt="Mongolia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a></strong><br><img src="https://geomastr.com/assets/media/bollards/france.jpg" alt="France bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','germany')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Germany</a></strong><br><img src="https://geomastr.com/assets/media/bollards/germany.jpg" alt="Germany bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a></strong><br><img src="https://geomastr.com/assets/media/bollards/austria.jpg" alt="Austria bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a></strong><br><img src="https://geomastr.com/assets/media/bollards/italy.jpg" alt="Italy bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a></strong><br><img src="https://geomastr.com/assets/media/bollards/spain.jpg" alt="Spain bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a></strong><br><img src="https://geomastr.com/assets/media/bollards/ireland.jpg" alt="Ireland bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a></strong><br><img src="https://geomastr.com/assets/media/bollards/hungary.jpg" alt="Hungary bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','czechia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Czech Republic</a></strong><br><img src="https://geomastr.com/assets/media/bollards/czech-republic.jpg" alt="Czech Republic bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','iceland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Iceland</a></strong><br><img src="https://geomastr.com/assets/media/bollards/iceland.jpg" alt="Iceland bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a></strong><br><img src="https://geomastr.com/assets/media/bollards/switzerland.jpg" alt="Switzerland bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a></strong><br><img src="https://geomastr.com/assets/media/bollards/denmark.jpg" alt="Denmark bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a></strong><br><img src="https://geomastr.com/assets/media/bollards/norway.jpg" alt="Norway bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a></strong><br><img src="https://geomastr.com/assets/media/bollards/sweden.jpg" alt="Sweden bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','poland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Poland</a></strong><br><img src="https://geomastr.com/assets/media/bollards/poland.jpg" alt="Poland bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','portugal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Portugal</a></strong><br><img src="https://geomastr.com/assets/media/bollards/portugal.jpg" alt="Portugal bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/croatia.jpg" alt="Croatia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/serbia.jpg" alt="Serbia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','russia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Russia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/russia.jpg" alt="Russia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a></strong><br><img src="https://geomastr.com/assets/media/bollards/turkey.jpg" alt="Turkey bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/australia.jpg" alt="Australia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/cambodia.jpg" alt="Cambodia bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a></strong><br><img src="https://geomastr.com/assets/media/bollards/thailand.jpg" alt="Thailand bollard" style="max-width:100%;border-radius:8px;"></div>
+          <div><strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong><br><img src="https://geomastr.com/assets/media/bollards/mongolia.jpg" alt="Mongolia bollard" style="max-width:100%;border-radius:8px;"></div>
         </div>
       </div>
     `
@@ -9346,10 +9346,10 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>靠左行駛國家（Left-Hand Traffic）</h4>
-        <p><strong>歐洲 (4)：</strong>UK, Ireland, Cyprus, Malta<br>
-        <strong>亞洲 (16+)：</strong>Japan, India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, Thailand, Malaysia, Singapore, Brunei, Indonesia, Timor-Leste, Hong Kong, Macau<br>
-        <strong>大洋洲 (10+)：</strong>Australia, New Zealand, Papua New Guinea, Fiji, Samoa, Tonga, Solomon Islands<br>
-        <strong>非洲 (14+)：</strong>South Africa, Kenya, Tanzania, Uganda, Botswana, Zimbabwe, Zambia, Malawi, Mozambique, Namibia, Lesotho, Eswatini, Mauritius<br>
+        <p><strong>歐洲 (4)：</strong><a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a>, <a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','cyprus')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cyprus</a>, <a onclick="navigateTo('country','malta')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Malta</a><br>
+        <strong>亞洲 (16+)：</strong><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a>, <a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a>, <a onclick="navigateTo('country','pakistan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Pakistan</a>, <a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a>, Nepal, Bhutan, <a onclick="navigateTo('country','sri-lanka')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sri Lanka</a>, <a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>, <a onclick="navigateTo('country','malaysia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Malaysia</a>, Singapore, Brunei, <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a>, Timor-Leste, Hong Kong, Macau<br>
+        <strong>大洋洲 (10+)：</strong><a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a>, Papua New Guinea, Fiji, Samoa, Tonga, Solomon Islands<br>
+        <strong>非洲 (14+)：</strong><a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a>, <a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a>, Tanzania, <a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a>, <a onclick="navigateTo('country','botswana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Botswana</a>, Zimbabwe, Zambia, Malawi, Mozambique, <a onclick="navigateTo('country','namibia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Namibia</a>, Lesotho, Eswatini, Mauritius<br>
         <strong>美洲：</strong>US Virgin Islands, Jamaica, Trinidad & Tobago + 數個英國屬地</p>
       </div>
       <div class="meta-info-block">
@@ -9364,15 +9364,15 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>一位數國碼</h4>
-        <p>+1 = USA/Canada &nbsp;&nbsp; +7 = Russia/Kazakhstan</p>
+        <p>+1 = <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>/<a onclick="navigateTo('country','canada')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Canada</a> &nbsp;&nbsp; +7 = <a onclick="navigateTo('country','russia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Russia</a>/Kazakhstan</p>
       </div>
       <div class="meta-info-block">
         <h4>兩位數國碼（最常見）</h4>
-        <p>+20 Egypt, +27 South Africa, +30 Greece, +31 Netherlands, +32 Belgium, +33 France, +34 Spain, +36 Hungary, +39 Italy, +40 Romania, +41 Switzerland, +44 UK, +45 Denmark, +46 Sweden, +47 Norway, +48 Poland, +49 Germany, +51 Peru, +52 Mexico, +54 Argentina, +55 Brazil, +56 Chile, +57 Colombia, +60 Malaysia, +61 Australia, +62 Indonesia, +63 Philippines, +64 New Zealand, +65 Singapore, +66 Thailand, +81 Japan, +82 South Korea, +84 Vietnam, +86 China, +90 Turkey, +91 India, +94 Sri Lanka</p>
+        <p>+20 Egypt, +27 <a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a>, +30 <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a>, +31 Netherlands, +32 <a onclick="navigateTo('country','belgium')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Belgium</a>, +33 <a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a>, +34 <a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a>, +36 <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, +39 <a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a>, +40 <a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a>, +41 <a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a>, +44 <a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a>, +45 <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a>, +46 <a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, +47 <a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, +48 <a onclick="navigateTo('country','poland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Poland</a>, +49 <a onclick="navigateTo('country','germany')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Germany</a>, +51 <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a>, +52 <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>, +54 <a onclick="navigateTo('country','argentina')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Argentina</a>, +55 <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a>, +56 <a onclick="navigateTo('country','chile')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Chile</a>, +57 <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, +60 <a onclick="navigateTo('country','malaysia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Malaysia</a>, +61 <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, +62 <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a>, +63 <a onclick="navigateTo('country','philippines')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Philippines</a>, +64 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a>, +65 Singapore, +66 <a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>, +81 <a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a>, +82 <a onclick="navigateTo('country','south-korea')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Korea</a>, +84 <a onclick="navigateTo('country','vietnam')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Vietnam</a>, +86 China, +90 <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a>, +91 <a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a>, +94 <a onclick="navigateTo('country','sri-lanka')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sri Lanka</a></p>
       </div>
       <div class="meta-info-block">
         <h4>三位數國碼（精選）</h4>
-        <p>+212 Morocco, +216 Tunisia, +233 Ghana, +234 Nigeria, +254 Kenya, +351 Portugal, +352 Luxembourg, +353 Ireland, +354 Iceland, +355 Albania, +358 Finland, +370 Lithuania, +371 Latvia, +372 Estonia, +380 Ukraine, +381 Serbia, +420 Czech Republic, +421 Slovakia, +502 Guatemala, +506 Costa Rica, +507 Panama, +593 Ecuador, +598 Uruguay, +855 Cambodia, +976 Mongolia</p>
+        <p>+212 Morocco, +216 Tunisia, +233 <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a>, +234 <a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a>, +254 <a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a>, +351 <a onclick="navigateTo('country','portugal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Portugal</a>, +352 Luxembourg, +353 <a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, +354 <a onclick="navigateTo('country','iceland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Iceland</a>, +355 <a onclick="navigateTo('country','albania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Albania</a>, +358 <a onclick="navigateTo('country','finland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Finland</a>, +370 <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a>, +371 <a onclick="navigateTo('country','latvia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Latvia</a>, +372 <a onclick="navigateTo('country','estonia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Estonia</a>, +380 <a onclick="navigateTo('country','ukraine')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ukraine</a>, +381 <a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a>, +420 <a onclick="navigateTo('country','czechia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Czech Republic</a>, +421 <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, +502 <a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a>, +506 <a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a>, +507 <a onclick="navigateTo('country','panama')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Panama</a>, +593 <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, +598 <a onclick="navigateTo('country','uruguay')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uruguay</a>, +855 <a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a>, +976 <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></p>
       </div>
     `
   },
@@ -9382,10 +9382,10 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>容易混淆的 TLD</h4>
-        <p>.za = South Africa (Zuid-Afrika) &nbsp;&nbsp; .ch = Switzerland (Confoederatio Helvetica)<br>
-        .hr = Croatia (Hrvatska) &nbsp;&nbsp; .ee = Estonia (Eesti) &nbsp;&nbsp; .rs = Serbia &nbsp;&nbsp; .mk = North Macedonia<br>
-        .ba = Bosnia &nbsp;&nbsp; .si = Slovenia &nbsp;&nbsp; .me = Montenegro &nbsp;&nbsp; .is = Iceland<br>
-        .es = Spain (España) &nbsp;&nbsp; .at = Austria &nbsp;&nbsp; .be = Belgium &nbsp;&nbsp; .fo = Faroe Islands</p>
+        <p>.za = <a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a> (Zuid-Afrika) &nbsp;&nbsp; .ch = <a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> (Confoederatio Helvetica)<br>
+        .hr = <a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a> (Hrvatska) &nbsp;&nbsp; .ee = <a onclick="navigateTo('country','estonia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Estonia</a> (Eesti) &nbsp;&nbsp; .rs = <a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a> &nbsp;&nbsp; .mk = North Macedonia<br>
+        .ba = Bosnia &nbsp;&nbsp; .si = <a onclick="navigateTo('country','slovenia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovenia</a> &nbsp;&nbsp; .me = <a onclick="navigateTo('country','montenegro')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Montenegro</a> &nbsp;&nbsp; .is = <a onclick="navigateTo('country','iceland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Iceland</a><br>
+        .es = <a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a> (España) &nbsp;&nbsp; .at = <a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a> &nbsp;&nbsp; .be = <a onclick="navigateTo('country','belgium')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Belgium</a> &nbsp;&nbsp; .fo = Faroe Islands</p>
       </div>
       <div class="meta-info-block">
         <h4>完整 TLD 參考</h4>
@@ -9411,22 +9411,22 @@ const META_SECTIONS = [
         <h4>Sky Rift（天空裂縫）</h4>
         <img src="https://d33wubrfki0l68.cloudfront.net/24ebfc52c88d821bb2cef9b7a98fb3baa77959f0/de58f/static/img/places/albania/miscellaneous/rift.jpg" alt="Sky rift example - Albania" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>主要出現國家：</strong><br>
-        • <strong>Montenegro</strong> — 全國普遍可見（南部 Bar 半島除外），是最容易辨識的特徵<br>
-        • <strong>Albania</strong> — 常見但不如 Montenegro 普遍<br>
-        • <strong>Senegal</strong> — 非洲最常見 rift 的國家<br>
+        • <strong><a onclick="navigateTo('country','montenegro')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Montenegro</a></strong> — 全國普遍可見（南部 Bar 半島除外），是最容易辨識的特徵<br>
+        • <strong><a onclick="navigateTo('country','albania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Albania</a></strong> — 常見但不如 <a onclick="navigateTo('country','montenegro')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Montenegro</a> 普遍<br>
+        • <strong><a onclick="navigateTo('country','senegal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Senegal</a></strong> — 非洲最常見 rift 的國家<br>
         • <strong>Gen 2 覆蓋</strong> — Gen 2 相機的 sky rift/halo 是其標誌性特徵</p>
       </div>
       <div class="meta-info-block">
         <h4>Ground Rift（地面裂縫）</h4>
         <p><strong>特徵：</strong>往下看地面時出現的不自然接縫或扭曲。<br>
         <strong>主要出現：</strong><br>
-        • <strong>Mexico (Oaxaca)</strong> — Gen 3 覆蓋中 99% 的 ground rift 都在 Oaxaca 州<br>
+        • <strong><a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a> (Oaxaca)</strong> — Gen 3 覆蓋中 99% 的 ground rift 都在 Oaxaca 州<br>
         • <strong>Gen 2 覆蓋</strong> — 車輛周圍的紫色圓形模糊也是一種 ground rift</p>
       </div>
       <div class="meta-info-block">
         <h4>快速辨識規則</h4>
-        <p>• 天空有明顯裂縫 + 歐洲 → <strong>Montenegro</strong>（最常見）或 <strong>Albania</strong><br>
-        • 天空有裂縫 + 非洲 → <strong>Senegal</strong><br>
+        <p>• 天空有明顯裂縫 + 歐洲 → <strong><a onclick="navigateTo('country','montenegro')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Montenegro</a></strong>（最常見）或 <strong><a onclick="navigateTo('country','albania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Albania</a></strong><br>
+        • 天空有裂縫 + 非洲 → <strong><a onclick="navigateTo('country','senegal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Senegal</a></strong><br>
         • 地面有裂縫 + 墨西哥 → <strong>Oaxaca 州</strong><br>
         • 天空有紫色光暈 (halo) → <strong>Gen 2 覆蓋</strong></p>
       </div>
