@@ -9053,6 +9053,56 @@ const COUNTRIES = {
     "Samoa（獨立）靠左行駛；American Samoa 靠右 — 關鍵區別"
   ]
 },
+
+'georgia': {
+  name: 'Georgia', localName: 'საქართველო', flag: '🇬🇪', region: 'asia',
+  drivingSide: 'right', tld: '.ge', phoneCode: '+995', language: 'Georgian', currency: 'Lari (GEL)',
+  camera: [
+    "Gen 3 和 Gen 4 覆蓋",
+    "主要城市和公路覆蓋良好",
+    "鄉村山區覆蓋較少"
+  ],
+  car: [
+    "Gen 3：白色轎車",
+    "Gen 4：標準配置"
+  ],
+  roads: [
+    "右側行駛",
+    "白色中心線和邊線",
+    "山路蜿蜒（高加索山脈）",
+    "路面品質在城市良好，鄉村差異大"
+  ],
+  landscape: [
+    "高加索山脈 — 壯觀山景",
+    "黑海沿岸",
+    "綠色山谷配葡萄園",
+    "古老石造教堂和修道院",
+    "Tbilisi 的混合建築（古老+蘇聯+現代）"
+  ],
+  signs: [
+    "喬治亞文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ქუჩა თბილისი</span> — 極度獨特的圓潤藤蔓狀字母",
+    "<strong>喬治亞文 (ქართული)</strong> — 全球唯一使用此文字的國家",
+    "俄語也偶爾可見（但不是官方語言）",
+    "路標常有喬治亞文 + 拉丁字母轉寫"
+  ],
+  plates: [
+    "白色車牌，左側藍色條紋 + GE 代碼",
+    "格式類似歐洲"
+  ],
+  unique: [
+    "<strong>喬治亞文字</strong> — 圓潤的藤蔓狀曲線，全球唯一，一眼辨識",
+    "高加索山脈壯觀景色",
+    "古老石造教堂和修道院隨處可見",
+    "葡萄酒文化（世界最古老的釀酒國之一）",
+    "Tbilisi 的硫磺浴場區可辨識",
+    "路名使用 ქუჩა (kucha = 街道)、გამზირი (gamziri = 大道)"
+  ],
+  tips: [
+    "看到圓潤藤蔓狀文字 = Georgia（全球唯一）",
+    "高加索山脈 + 喬治亞文 = Georgia",
+    "不要和美國的 Georgia 州混淆"
+  ]
+},
 };
 
 const META_SECTIONS = [

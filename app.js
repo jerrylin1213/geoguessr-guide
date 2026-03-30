@@ -121,6 +121,10 @@
     'tunisia': 'Tunisia', 'turkey': 'Turkey', 'uae': 'Uae', 'uganda': 'Uganda',
     'uk': 'Unitedkingdom', 'ukraine': 'Ukraine', 'usa': 'Unitedstates', 'uruguay': 'Uruguay',
     'vietnam': 'Vietnam',
+    'american-samoa': 'Americansamoa',
+    'liechtenstein': 'Liechtenstein',
+    'belarus': 'Belarus',
+    'georgia': 'Georgia',
   };
 
   // ===== Road Sign SVG Images (geomastr.com) =====
