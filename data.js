@@ -8512,8 +8512,8 @@ const META_SECTIONS = [
         <img src="https://d33wubrfki0l68.cloudfront.net/ab0b7f648e4579d6245bc7df6229a5bda05c2608/14526/static/img/camera-gens/gen-1.jpg" alt="Gen 1" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>畫質：</strong>極低 — 嚴重壓縮失真、模糊、天空過曝且有可見接縫。<br>
         <strong>相機：</strong>Dodeca 2360 / R2<br>
-        <strong>涵蓋國家：</strong>僅 USA, Australia, New Zealand, Japan, France, Italy, Canada, Mexico<br>
-        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 大概率是 USA 或 Australia<br>
+        <strong>涵蓋國家：</strong>僅 USA, Australia, New Zealand（只有這 3 國）<br>
+        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 USA、Australia 或 New Zealand<br>
         <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@37.7749,-122.4194,3a,75y,90t,0r/data=!3m6!1e1!3m4!1s2007" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 覆蓋 (Google Maps)</a></p>
       </div>
       <div class="meta-info-block">
@@ -8559,7 +8559,7 @@ const META_SECTIONS = [
       </div>
       <div class=meta-info-block>
         <h4>快速辨識流程</h4>
-        <p>1. 極差畫質 + 天空接縫 → <strong>Gen 1</strong>（USA/AUS）<br>
+        <p>1. 極差畫質 + 天空接縫 → <strong>Gen 1</strong>（僅 USA/AUS/NZ）<br>
         2. 天空有 purple halo + 地面模糊 → <strong>Gen 2</strong><br>
         3. 正常畫質、乾淨 → <strong>Gen 3</strong>（最常見）<br>
         4. 超鮮豔色彩 + 超高解析度 → <strong>Gen 4</strong></p>
