@@ -434,7 +434,7 @@ const COUNTRIES = {
 'cyprus': {
   name: 'Cyprus', localName: 'Κύπρος / Kıbrıs', flag: '🇨🇾', region: 'europe',
   drivingSide: 'left', tld: '.cy', phoneCode: '+357', language: 'Greek, Turkish', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋可用", "希臘區和土耳其區覆蓋良好"],
+  camera: ["<strong>96% Gen 3 + 4% Gen 4</strong>（也有少量 shitcam）", "希臘區和土耳其區覆蓋良好"],
   car: [
     "Gen 3：標準白色轎車",
     "無特殊車輛辨識特徵",
@@ -690,26 +690,38 @@ const COUNTRIES = {
   name: 'Finland', localName: 'Suomi', flag: '🇫🇮', region: 'europe',
   drivingSide: 'right', tld: '.fi', phoneCode: '+358', language: 'Finnish, Swedish', currency: 'Euro (EUR)',
   camera: [
-    "<strong>95% Gen 3 + 5% Gen 4（Gen 4 為黑色 pickup）</strong>",
-    "Gen 4 由黑色 pickup truck 拍攝",
-    "許多 Gen 3 在秋季拍攝（秋色明顯）",
-    "也有少量 shitcam",
-    "全國覆蓋良好",
-    "北部 Lapland 覆蓋較稀疏"
+    "<strong>36.5% Gen 3 + 34.1% Gen 2 + 14.9% Gen 4 + 14.5% Shitcam</strong>",
+    "Gen 3 許多在<strong>秋季</strong>拍攝（秋色明顯）— 其他北歐 Gen 3 少見秋季",
+    "<strong>Shitcam</strong>：低畫質相機，寬圓形打碼 + 棕色色調 — 歐洲僅 Finland",
+    "Gen 4 也有「小相機」覆蓋（所有北歐都有）"
   ],
   car: [
-    "Gen 3：白色轎車，灰色 roof rack 和側鏡可見",
-    "Gen 4 有限涵蓋",
-    "與 Iceland 車不同（Finland 無天線）"
+    "Gen 3：白色轎車；西南部有<strong>略微傾斜長天線</strong>；中南部有<strong>完全無天線</strong>覆蓋",
+    "Gen 4：黑色 pickup truck"
   ],
   roads: [
-    "右側行駛",
-    "白色中心線（多條中心線時用黃色）",
-    "路面品質優良",
+    "外側線<strong>始終為白色實線</strong>（Sweden/Norway 用虛線）",
+    "中線多種：白色虛線、純黃線帶白虛線、雙黃線",
+    "⚠️ 黃線正逐步淘汰，新覆蓋越來越少",
+    "Åland 群島例外：使用虛線外線 + 紅色調路面",
     "鄉村碎石路常見"
   ],
   bollardInfo: [
-    "Bollard：圓柱形，反光片上方空間較小"
+    "較長<strong>黑白路桩</strong>，正面矩形白色反光板，背面兩白點，黑色條帶<strong>傾斜</strong>",
+    "雪杆：<strong>橙色</strong>，靠近頂部有白圈（Sweden 更寬更高；Norway 在中間）",
+    "Lapland 大路有<strong>兩個長反光條</strong>雪杆（2023+ 覆蓋）"
+  ],
+  poleInfo: [
+    "木質電線杆為主，設計簡單但杆頂多樣，常附路燈",
+    "路標有<strong>藍白條紋</strong>標記（Sweden 也有；Estonia 類似但更鬆散）"
+  ],
+  signInfo: [
+    "交通標牌：<strong>黃色底色</strong>（Sweden/Iceland 也有；Norway 白底）",
+    "紅邊標牌外側有<strong>黃色細邊</strong> — 其他北歐國家沒有",
+    "誘導標：<strong>黑底黃箭頭</strong>（Sweden 為藍底黃箭頭）",
+    "人行道標志：<strong>5 條條紋</strong>（Sweden/Norway 通常 4 條）",
+    "公車站牌：藍白色或黃黑色兩種",
+    "K-Market / S-Market 連鎖超市 — 僅 Finland"
   ],
   landscape: [
     "地形平坦到微幅起伏",
@@ -1706,27 +1718,48 @@ const COUNTRIES = {
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "峽灣地區的單線道",
-    "許多隧道 — 其中一些是世界最長",
-    "主要路線道路品質優良",
-    "有多條中線時偶爾使用黃色中線"
+    "<strong>85.6% Gen 3 + 9.8% Gen 2 + 4.6% Gen 4</strong>",
+    "大路外側<strong>白色實線</strong>，中線<strong>黃橙色虛線</strong>；小路為白色長虛線",
+    "邊線有時為<strong>點狀</strong>",
+    "峽灣地區的單線道，許多隧道",
+    "⚠️ Sweden 全白線外虛線較短；Finland 外側總為實線"
   ],
   bollardInfo: [
-    "Bollard：<strong>頂部附近有小型斜向黑色條紋，白色反光片色調不同</strong>"
+    "細長彎曲矩形路桩，內嵌<strong>黑色平行四邊形反光板</strong>",
+    "雪杆：<strong>橙色</strong>，中間極細白色反光條（Sweden 更寬更高；Finland 在頂部）",
+    "<strong>木質雪杆</strong>帶反光片（其他北歐木質雪杆無反光片）",
+    "護欄常有<strong>木質支柱</strong>（Sweden/Finland 不常見）",
+    "Bergen-Trondheim 間常見<strong>黑色雪杆</strong>；西南沿海常見<strong>生鏽護欄</strong>"
+  ],
+  poleInfo: [
+    "木質電線杆為主，頂部有<strong>小型黑色金屬帽</strong>（Sweden/Finland 也有）"
+  ],
+  signInfo: [
+    "轉向誘導標：<strong>黑底黃箭頭</strong>",
+    "指路標：<strong>黃底黑框</strong>，編號綠色框（高速/主道）或白色框（小路）",
+    "交通標志：<strong>白底紅邊</strong>（Sweden/Finland 為黃底）",
+    "公交車牌：藍底白色公車圖（Sweden 無此標志）",
+    "藍底白色 M — M 中點延到底部（Sweden M 中點不到底）",
+    "路名標志在標志柱<strong>居中</strong>（Sweden 附在柱側）",
+    "人行道標志通常<strong>4 條線</strong>，也有 5 條或戴帽子版",
+    "小路牌被<strong>四個可見釘子</strong>釘起"
   ],
   landscape: [
-    "壯觀的峽灣 — 深窄的海灣",
-    "到處都是山脈",
-    "峽灣道路旁的瀑布",
-    "北部地區：北極圈以北",
-    "木造教堂",
-    "彩色木造房屋"
+    "壯觀峽灣 — Bergen-Trondheim 間高山環繞",
+    "Lofoten 群島陡峭多岩山脈",
+    "東南 Oslo 附近相對平坦大農田",
+    "Stavanger 南部平坦農田 + 圓石牆",
+    "木造房屋為主 — 比 Sweden/Finland 多<strong>黑色和白色</strong>房屋",
+    "傳統<strong>草屋頂</strong>（Sweden/Finland 較少）",
+    "南部海岸全白木屋整村出現",
+    "木板教堂（中世紀木造教堂）"
   ],
   signs: [
-    "Norwegian — 使用 æ、ø、å（與 Danish 共用）",
-    "'vei' 表示道路（vs Danish 的 'vej'）",
-    "'gate' 表示街道（vs Danish 的 'gade'）",
-    "兩種書面形式：Bokmål 和 Nynorsk"
+    "Norwegian — 使用 <strong>æ、ø、å</strong>（與 Danish 共用）",
+    "'vei/veien'（道路）、'gate/gata'（街道）— vs Danish 'vej'/'gade'",
+    "北部有 Sami 語雙語標誌（字母 Á、Đ + 多連續元音）",
+    "兩種書面形式：Bokmål 和 Nynorsk",
+    "道路編號第一位數字取決於地區"
   ],
   plates: [
     "白色車牌附藍色條紋 + N 代碼",
@@ -2721,7 +2754,7 @@ const COUNTRIES = {
   name: 'Cambodia', localName: 'កម្ពុជា', flag: '🇰🇭', region: 'asia',
   drivingSide: 'right', tld: '.kh', phoneCode: '+855', language: 'Khmer', currency: 'Riel (KHR)',
   camera: [
-    "<strong>80.2% Gen 3 + 19.8% Gen 4（也有少量 shitcam）</strong>",
+    "<strong>80.2% Gen 3 + 19.8% Shitcam（語雀：shitcam 在柬埔寨很常見）</strong>",
     "也有少量 shitcam（印度相機）覆蓋",
     "主要道路覆蓋良好",
     "部分地區使用船隻和火車拍攝"
@@ -3191,7 +3224,7 @@ const COUNTRIES = {
   name: 'Nepal', localName: 'नेपाल', flag: '🇳🇵', region: 'asia',
   drivingSide: 'left', tld: '.np', phoneCode: '+977', language: 'Nepali', currency: 'Rupee (NPR)',
   camera: [
-    "<strong>67.3% Gen 3 + 32.6% Gen 4</strong>",
+    "<strong>99.5% Shitcam + 0.4% Gen 3 Trekker + 0.1% Gen 2</strong>",
     "⚠️ 幾乎全部為低品質覆蓋 (shitcam)",
     "部分山區有 trekker 步行覆蓋（Everest Base Camp 等）"
   ],
@@ -3331,7 +3364,7 @@ const COUNTRIES = {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
   camera: [
-    "<strong>56.5% Gen 4 + 43.5% Gen 3</strong>",
+    "<strong>50% Gen 4 (low cam) + 40.4% Gen 3 + 9.6% Shitcam</strong>",
     "幾乎全部為低品質覆蓋",
     "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
     "Gen 3 使用正常高度相機",
@@ -6257,9 +6290,9 @@ const COUNTRIES = {
     language: 'Arabic, French',
     currency: 'Lebanese Pound (LBP)',
     camera: [
-    "<strong>98.9% Gen 3 + 1.1% Shitcam</strong>",
-    "⚠️ 唯一擁有官方 shitcam 覆蓋的中東國家",
-    "除 shitcam 外均為 Gen 3 trekker 步行覆蓋",
+    "<strong>98.9% Shitcam + 1.1% Gen 3</strong>",
+    "⚠️ 幾乎全部為 shitcam — 中東唯一有大規模 shitcam 的國家",
+    "僅 1.1% 為 Gen 3 trekker 步行覆蓋",
     "覆蓋集中在 Beirut 和沿海地區"
   ],
     car: [
