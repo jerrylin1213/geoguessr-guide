@@ -26,9 +26,10 @@
 
 ## 資料來源
 
-- [Plonk It](https://www.plonkit.net/guide)
-- [GeoHints](https://geohints.com)
-- [Geodummy](https://geodummy.com)
-- [Geomastr](https://geomastr.com)
-- [GeoTips](https://geotips.net)
-- [Geometas](https://geometas.com)
+- [圖寻文檔（語雀）](https://www.yuque.com/chaofun/tuxun) — 中文社群最詳細的國家指南，相機世代比例、街景車變體、區域辨識
+- [Plonk It](https://www.plonkit.net/guide) — 每國一頁完整指南
+- [GeoHints](https://geohints.com) — 互動式 meta 速查工具
+- [Geodummy](https://geodummy.com) — 車輛 meta 圖片、相機世代
+- [Geomastr](https://geomastr.com) — Bollard、車牌、道路標線圖鑑
+- [GeoTips](https://geotips.net) — 按洲分類辨識技巧
+- [Geometas](https://geometas.com) — 分類 meta 學習平台

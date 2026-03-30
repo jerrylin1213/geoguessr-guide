@@ -9141,6 +9141,12 @@ const META_SECTIONS = [
     title: '推薦學習資源',
     content: `
       <div class="meta-info-block">
+        <h4>🏆 中文社群最佳資源</h4>
+        <p><a href="https://www.yuque.com/chaofun/tuxun" target="_blank" style="color:var(--accent-yellow);font-weight:700;font-size:1.1rem;">圖寻文檔（語雀）</a><br>
+        中文社群維護的最詳細國家指南。包含精確的相機世代比例、街景車變體分布圖、區域辨識技巧、農作物/季節 meta、覆蓋年份等。本站大量資料經語雀交叉驗證。<br>
+        <strong>強烈推薦作為主要學習資源。</strong></p>
+      </div>
+      <div class="meta-info-block">
         <h4>📘 綜合國家指南</h4>
         <p><a href="https://www.plonkit.net/guide" target="_blank" style="color:var(--accent-blue);font-weight:700;font-size:1.05rem;">Plonk It (plonkit.net)</a><br>
         每個國家一頁的完整指南，涵蓋覆蓋範圍、道路特徵、車牌、語言、bollard、車輛 meta 等。適合逐國深入學習。<br>
