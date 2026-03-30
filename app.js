@@ -460,19 +460,19 @@
     const genLabels = { 1: 'Gen 1', 2: 'Gen 2', 3: 'Gen 3', 4: 'Gen 4', 0: 'Shitcam' };
 
     if (gens.length > 0 && gens.reduce((s, g) => s + g.pct, 0) > 50) {
+      // Bar: only show text inside if width > 20%, otherwise bar is clean
       barHtml = '<div style="margin-bottom:14px;">' +
-        '<div style="display:flex;height:24px;border-radius:6px;overflow:hidden;border:1px solid var(--border-color);">' +
+        '<div style="display:flex;height:28px;border-radius:6px;overflow:hidden;border:1px solid var(--border-color);">' +
         gens.filter(g => g.pct >= 0.5).map(g =>
-          '<div style="width:' + g.pct + '%;background:' + genColors[g.gen] + ';display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:white;font-weight:600;min-width:' + (g.pct > 5 ? '0' : '30px') + ';">' +
-          (g.pct > 8 ? genLabels[g.gen] + ' ' + g.pct + '%' : g.pct > 3 ? g.pct + '%' : '') +
-          '</div>'
+          '<div style="width:' + g.pct + '%;background:' + genColors[g.gen] + ';"></div>'
         ).join('') +
         '</div>' +
-        '<div style="display:flex;gap:12px;margin-top:6px;flex-wrap:wrap;">' +
+        // Legend below the bar - always show full labels here
+        '<div style="display:flex;gap:14px;margin-top:8px;flex-wrap:wrap;">' +
         gens.filter(g => g.pct >= 0.5).map(g =>
-          '<span style="font-size:0.75rem;color:var(--text-muted);display:flex;align-items:center;gap:4px;">' +
-          '<span style="width:10px;height:10px;border-radius:2px;background:' + genColors[g.gen] + ';"></span>' +
-          genLabels[g.gen] + ' ' + g.pct + '%</span>'
+          '<span style="font-size:0.82rem;color:var(--text-primary);display:flex;align-items:center;gap:5px;">' +
+          '<span style="width:12px;height:12px;border-radius:3px;background:' + genColors[g.gen] + ';flex-shrink:0;"></span>' +
+          '<strong>' + genLabels[g.gen] + '</strong> ' + g.pct + '%</span>'
         ).join('') +
         '</div></div>';
     }
