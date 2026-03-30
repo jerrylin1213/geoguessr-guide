@@ -180,7 +180,7 @@ const COUNTRIES = {
   name: 'Belgium', localName: 'België / Belgique', flag: '🇧🇪', region: 'europe',
   drivingSide: 'right', tld: '.be', phoneCode: '+32', language: 'Dutch, French, German', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 覆蓋始於 2009",
+    "<strong>80.9% Gen 4 + 10.8% Gen 3 + 8.3% Gen 2</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋，部分區域可見紅色車",
     "全國覆蓋範圍廣泛"
@@ -292,7 +292,7 @@ const COUNTRIES = {
   name: 'Bulgaria', localName: 'България', flag: '🇧🇬', region: 'europe',
   drivingSide: 'right', tld: '.bg', phoneCode: '+359', language: 'Bulgarian', currency: 'Lev (BGN)',
   camera: [
-    "Gen 2 和 Gen 3 覆蓋可用",
+    "<strong>78% Gen 4 + 22% Gen 3</strong>",
     "Gen 4 覆蓋始於 2021 — 色彩鮮豔",
     "主要道路和城市覆蓋良好"
   ],
@@ -456,7 +456,8 @@ const COUNTRIES = {
   name: 'Czech Republic', localName: 'Česká republika', flag: '🇨🇿', region: 'europe',
   drivingSide: 'right', tld: '.cz', phoneCode: '+420', language: 'Czech', currency: 'Koruna (CZK)',
   camera: [
-    "Gen 2 覆蓋始於 2009",
+    "<strong>96% Gen 3 + 4% Gen 4（也有少量 shitcam）</strong>",
+    "也有少量 shitcam",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋可用（藍色車，無天線）"
   ],
@@ -664,7 +665,10 @@ const COUNTRIES = {
   name: 'Finland', localName: 'Suomi', flag: '🇫🇮', region: 'europe',
   drivingSide: 'right', tld: '.fi', phoneCode: '+358', language: 'Finnish, Swedish', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 和 Gen 3 覆蓋可用",
+    "<strong>95% Gen 3 + 5% Gen 4（Gen 4 為黑色 pickup）</strong>",
+    "Gen 4 由黑色 pickup truck 拍攝",
+    "許多 Gen 3 在秋季拍攝（秋色明顯）",
+    "也有少量 shitcam",
     "全國覆蓋良好",
     "北部 Lapland 覆蓋較稀疏"
   ],
@@ -998,7 +1002,7 @@ const COUNTRIES = {
   name: 'Iceland', localName: 'Ísland', flag: '🇮🇸', region: 'europe',
   drivingSide: 'right', tld: '.is', phoneCode: '+354', language: 'Icelandic', currency: 'Króna (ISK)',
   camera: [
-    "Gen 3 覆蓋環島公路和主要路線",
+    "<strong>91.2% Gen 3 + 8.8% Gen 4</strong>",
     "部分 Gen 2 覆蓋",
     "覆蓋集中在 Route 1（環島公路）",
     "內陸高地覆蓋非常有限"
@@ -1059,7 +1063,7 @@ const COUNTRIES = {
   name: 'Ireland', localName: 'Éire', flag: '🇮🇪', region: 'europe',
   drivingSide: 'left', tld: '.ie', phoneCode: '+353', language: 'English, Irish', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 和 Gen 3 覆蓋",
+    "<strong>56.9% Gen 4 + 42.5% Gen 3</strong>",
     "Gen 4 覆蓋（藍色車，無天線）"
   ],
   car: [
@@ -1535,7 +1539,7 @@ const COUNTRIES = {
   name: 'Netherlands', localName: 'Nederland', flag: '🇳🇱', region: 'europe',
   drivingSide: 'right', tld: '.nl', phoneCode: '+31', language: 'Dutch', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 覆蓋始於 2008",
+    "<strong>68.7% Gen 4 + 31.2% Gen 3</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（黑色車搭配圓形天線）"
   ],
@@ -1635,7 +1639,7 @@ const COUNTRIES = {
   name: 'Norway', localName: 'Norge / Noreg', flag: '🇳🇴', region: 'europe',
   drivingSide: 'right', tld: '.no', phoneCode: '+47', language: 'Norwegian', currency: 'Krone (NOK)',
   camera: [
-    "Gen 2 覆蓋始於 2009",
+    "<strong>85.6% Gen 3 + 9.8% Gen 4 + 4.6% Gen 2</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車，無天線）"
   ],
@@ -1808,7 +1812,7 @@ const COUNTRIES = {
   name: 'Romania', localName: 'România', flag: '🇷🇴', region: 'europe',
   drivingSide: 'right', tld: '.ro', phoneCode: '+40', language: 'Romanian', currency: 'Leu (RON)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
+    "<strong>76.7% Gen 4 + 23.1% Gen 3</strong>",
     "Gen 4 覆蓋（藍色車搭配圓形天線）"
   ],
   car: [
@@ -1863,7 +1867,7 @@ const COUNTRIES = {
   name: 'Russia', localName: 'Россия', flag: '🇷🇺', region: 'europe',
   drivingSide: 'right', tld: '.ru', phoneCode: '+7', language: 'Russian', currency: 'Ruble (RUB)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
+    "<strong>64.3% Gen 3 + 35.6% Gen 4</strong>",
     "覆蓋不一 — 歐洲 Russia 良好，Siberia 稀疏",
     "Yandex 提供額外覆蓋"
   ],
@@ -2093,7 +2097,7 @@ const COUNTRIES = {
   name: 'Spain', localName: 'España', flag: '🇪🇸', region: 'europe',
   drivingSide: 'right', tld: '.es', phoneCode: '+34', language: 'Spanish', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
+    "<strong>66.6% Gen 3 + 32.3% Gen 4</strong>",
     "部分地區有 Gen 4 覆蓋",
     "全境覆蓋範圍廣泛"
   ],
@@ -2213,7 +2217,8 @@ const COUNTRIES = {
   name: 'Switzerland', localName: 'Schweiz / Suisse / Svizzera', flag: '🇨🇭', region: 'europe',
   drivingSide: 'right', tld: '.ch', phoneCode: '+41', language: 'German, French, Italian, Romansh', currency: 'Franc (CHF)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
+    "<strong>87.2% Gen 3 + 12.8% Gen 4（全部 low cam）</strong>",
+    "⚠️ 全部為低相機 (low cam) 覆蓋",
     "⚠️ <strong>相機位置極低 — 全球最大的車輛模糊區域 (blur area)</strong>",
     "因隱私法規限制，覆蓋範圍有限",
     "模糊區域之大，幾乎佔畫面底部 1/3 — 這是 Switzerland 最強的 meta 特徵"
@@ -2270,7 +2275,7 @@ const COUNTRIES = {
   name: 'Liechtenstein', localName: 'Liechtenstein', flag: '🇱🇮', region: 'europe',
   drivingSide: 'right', tld: '.li', phoneCode: '+423', language: 'German', currency: 'Franc (CHF)',
   camera: [
-    "<strong>100% Gen 3 — 全部為低相機 (low cam) 覆蓋</strong>",
+    "<strong>100% Gen 3（全部 low cam）</strong>",
     "與 Switzerland 完全相同的低相機特徵",
     "覆蓋有限（非常小的國家）"
   ],
@@ -2439,7 +2444,7 @@ const COUNTRIES = {
   name: 'United Kingdom', localName: 'United Kingdom', flag: '🇬🇧', region: 'europe',
   drivingSide: 'left', tld: '.uk', phoneCode: '+44', language: 'English', currency: 'Pound (GBP)',
   camera: [
-    "Gen 2、Gen 3 和 Gen 4 覆蓋",
+    "<strong>~61% Gen 4 + ~39% Gen 3</strong>",
     "全境覆蓋範圍廣泛"
   ],
   car: [
@@ -2603,7 +2608,8 @@ const COUNTRIES = {
   name: 'Cambodia', localName: 'កម្ពុជា', flag: '🇰🇭', region: 'asia',
   drivingSide: 'right', tld: '.kh', phoneCode: '+855', language: 'Khmer', currency: 'Riel (KHR)',
   camera: [
-    "Gen 3 和 Gen 4 覆蓋",
+    "<strong>80.2% Gen 3 + 19.8% Gen 4（也有少量 shitcam）</strong>",
+    "也有少量 shitcam（印度相機）覆蓋",
     "主要道路覆蓋良好",
     "部分地區使用船隻和火車拍攝"
   ],
@@ -2904,7 +2910,7 @@ const COUNTRIES = {
   name: 'South Korea', localName: '대한민국', flag: '🇰🇷', region: 'asia',
   drivingSide: 'right', tld: '.kr', phoneCode: '+82', language: 'Korean', currency: 'Won (KRW)',
   camera: [
-    "<strong>99.6% Gen 3</strong>（幾乎全部）+ 極少 Gen 4（0.4%）",
+    "<strong>99.6% Gen 3 + 0.4% Gen 4（主要使用 KakaoMap）</strong>",
     "大部分街景在秋冬季拍攝 — 景觀可能偏枯黃",
     "⚠️ 主要使用 KakaoMap/Naver 覆蓋（非 Google Street View）"
   ],
@@ -3069,7 +3075,11 @@ const COUNTRIES = {
 'nepal': {
   name: 'Nepal', localName: 'नेपाल', flag: '🇳🇵', region: 'asia',
   drivingSide: 'left', tld: '.np', phoneCode: '+977', language: 'Nepali', currency: 'Rupee (NPR)',
-  camera: ["涵蓋有限", "部分山區有 trekker 涵蓋"],
+  camera: [
+    "<strong>67.3% Gen 3 + 32.6% Gen 4</strong>",
+    "⚠️ 幾乎全部為低品質覆蓋 (shitcam)",
+    "部分山區有 trekker 步行覆蓋（Everest Base Camp 等）"
+  ],
   car: [
     "大部分為 trekker 涵蓋（人背負相機）",
     "靠左行駛",
@@ -3204,7 +3214,8 @@ const COUNTRIES = {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
   camera: [
-    "<strong>50% Gen 4 + 40.4% Gen 3 + 9.6% Gen 2</strong>",
+    "<strong>56.5% Gen 4 + 43.5% Gen 3</strong>",
+    "幾乎全部為低品質覆蓋",
     "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
     "Gen 3 使用正常高度相機",
     "Gen 3 車前部可見藍白紅色塊（類似法國國旗）"
@@ -3374,7 +3385,7 @@ const COUNTRIES = {
   name: 'Vietnam', localName: 'Việt Nam', flag: '🇻🇳', region: 'asia',
   drivingSide: 'right', tld: '.vn', phoneCode: '+84', language: 'Vietnamese', currency: 'Dong (VND)',
   camera: [
-    "<strong>85% Gen 3 + 14% Gen 4 + 1% Gen 2</strong>",
+    "<strong>85% Gen 3 + 14% Gen 4 + 1% Gen 2（大量摩托車街景）</strong>",
     "⚠️ 大量摩托車街景覆蓋 — 模糊形狀像骨頭，一側延伸至高處",
     "越南有全世界最多的摩托車街景",
     "農村摩托車街景 = 幾乎可以確定是 Vietnam"
@@ -3638,7 +3649,7 @@ const COUNTRIES = {
   name: 'United States', localName: 'United States', flag: '🇺🇸', region: 'north-america',
   drivingSide: 'right', tld: '.us', phoneCode: '+1', language: 'English', currency: 'Dollar (USD)',
   camera: [
-    "Gen 1（最早期 — 美國是全球第一個有 Street View 的國家，2007 年）",
+    "<strong>78.6% Gen 3 + 21.3% Gen 4</strong>",
     "Gen 2、Gen 3、Gen 4 — 所有世代都有",
     "全球涵蓋範圍最廣的國家"
   ],
@@ -3752,7 +3763,7 @@ const COUNTRIES = {
   name: 'Mexico', localName: 'México', flag: '🇲🇽', region: 'north-america',
   drivingSide: 'right', tld: '.mx', phoneCode: '+52', language: 'Spanish', currency: 'Peso (MXN)',
   camera: [
-    "<strong>53.8% Gen 3 + 44.2% Gen 4 + 1.9% Gen 2 + 0.1% Gen 1</strong>",
+    "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>",
     "是少數有 Gen 2 覆蓋的拉丁美洲國家",
     "Oaxaca 的 Gen 3 有獨特的 ground rift"
   ],
@@ -4152,7 +4163,8 @@ const COUNTRIES = {
   name: 'Argentina', localName: 'Argentina', flag: '🇦🇷', region: 'south-america',
   drivingSide: 'right', tld: '.ar', phoneCode: '+54', language: 'Spanish', currency: 'Peso (ARS)',
   camera: [
-    "<strong>59.8% Gen 4 + 40.2% Gen 3</strong>",
+    "<strong>~69% Gen 3 + ~11% Gen 2 + ~6% Gen 4（各州不同）</strong>",
+    "2025 年前僅有 Trekker 步行覆蓋",
     "Gen 3：黑色 Google 街景車拍攝"
   ],
   car: [
@@ -4557,7 +4569,7 @@ const COUNTRIES = {
   name: 'Nigeria', localName: 'Nigeria', flag: '🇳🇬', region: 'africa',
   drivingSide: 'right', tld: '.ng', phoneCode: '+234', language: 'English', currency: 'Naira (NGN)',
   camera: [
-    "<strong>42.3% Gen 4 + 30.9% Gen 3 + 26.8% Shitcam</strong>",
+    "<strong>~65% Gen 3 + ~25% Gen 4 + ~10% Gen 2</strong>",
     "三代街景：車頂有行李架 + 幾乎都有警車跟車",
     "Shitcam 主要在東部城市",
     "阿布賈以北無三代覆蓋，西北/最南部無四代，東南部無 shitcam"
@@ -4976,7 +4988,7 @@ const COUNTRIES = {
   name: 'Uganda', localName: 'Uganda', flag: '🇺🇬', region: 'africa',
   drivingSide: 'left', tld: '.ug', phoneCode: '+256', language: 'English, Swahili', currency: 'Shilling (UGX)',
   camera: [
-    "Gen 3 官方覆蓋 — 僅限 Kampala 市區和西部國家公園",
+    "<strong>100% Gen 3（白色 pickup truck）</strong>",
     "⚠️ <strong>大量非官方/第三方覆蓋 (shit cam)</strong> — 畫質極低、模糊、過曝/欠曝",
     "非官方覆蓋佔 Uganda 大部分影像 — 非 360° 全景、顏色失真",
     "國家公園覆蓋品質較好但範圍有限"
@@ -5220,7 +5232,7 @@ const COUNTRIES = {
     language: 'Belarusian / Russian',
     currency: 'Belarusian Ruble (BYN)',
     camera: [
-      "幾乎完全是 trekker/志願者覆蓋 — 非官方 Google 車",
+      "<strong>~70% Gen 3 + ~20% Gen 4 + ~10% Gen 2</strong>",
       "Trekker 覆蓋一看就知道：相機高度較低，常搖晃",
       "覆蓋非常有限 — 主要在 Minsk 等城市和主要道路",
       "與鄰國相比畫質低且不連貫",
@@ -5295,7 +5307,7 @@ const COUNTRIES = {
     language: 'Urdu, English',
     currency: 'Pakistani Rupee (PKR)',
     camera: [
-      '僅有 Trekker 覆蓋 — 無 Google 街景車',
+      "<strong>99.5% Gen 3 trekker + 0.5% Gen 4</strong>",
       'Gen 3 Trekker 覆蓋歷史古蹟和寺廟',
       '大部分覆蓋在 Lahore 和宗教/歷史景點',
       '僅約二十幾個地點有街景覆蓋',
@@ -5861,7 +5873,7 @@ const COUNTRIES = {
     language: 'Kazakh, Russian',
     currency: 'Tenge (KZT)',
     camera: [
-      'Gen 3 覆蓋主要公路',
+      "<strong>100% Gen 3（白色卡車）</strong>",
       '使用獨特的卡車拍攝，比其他卡車覆蓋國家模糊度較低',
       '覆蓋主要沿連接城市的主要公路',
       '城市（Almaty、Astana）覆蓋較好',
@@ -6107,13 +6119,11 @@ const COUNTRIES = {
     language: 'Arabic, French',
     currency: 'Lebanese Pound (LBP)',
     camera: [
-      'Gen 3 覆蓋城市和主要道路',
-      '覆蓋集中在 Beirut 和沿海地區',
-      '山區有部分覆蓋（黎巴嫩山、雪松區）',
-      '歷史景點有 Trekker 覆蓋（Baalbek、Byblos）',
-      '偏遠/邊境地區有覆蓋缺口',
-      '有覆蓋的地方畫質尚可'
-    ],
+    "<strong>98.9% Gen 3 + 1.1% Shitcam</strong>",
+    "⚠️ 唯一擁有官方 shitcam 覆蓋的中東國家",
+    "除 shitcam 外均為 Gen 3 trekker 步行覆蓋",
+    "覆蓋集中在 Beirut 和沿海地區"
+  ],
     car: [
       'Gen 3：標準白色轎車',
       '無特殊 antenna 或 roof rack',
@@ -6189,7 +6199,7 @@ const COUNTRIES = {
     language: 'Arabic',
     currency: 'Omani Rial (OMR)',
     camera: [
-      'Gen 3 覆蓋，使用白色卡車拍攝，模糊程度不一',
+      "<strong>100% Gen 3（白色 pickup truck）</strong>",
       '卡車前方可見天線',
       '後方有緊密排列的支撐桿',
       '覆蓋沿主要公路和 Muscat',
@@ -6973,7 +6983,7 @@ const COUNTRIES = {
     language: 'Sesotho, English',
     currency: 'Loti (LSL)',
     camera: [
-      '全國 Gen 3 覆蓋',
+      "<strong>100% Gen 3（白色無天線車）</strong>",
       '使用白色相機車拍攝街景',
       '覆蓋有限 — 主要是主要道路和城鎮',
       '覆蓋集中在 Maseru 和主要公路',
@@ -8559,7 +8569,7 @@ const COUNTRIES = {
     language: 'English, Chamorro',
     currency: 'US Dollar (USD)',
     camera: [
-      'Gen 3 覆蓋可見獨特的 bars',
+      "<strong>100% Gen 3</strong>",
       '相機車右前角的長天線 — 關鍵辨識特徵',
       '微小未模糊的 roof rack 可與 Northern Mariana Islands 區分',
       '全島大部分地區覆蓋良好',
@@ -9009,7 +9019,9 @@ const COUNTRIES = {
   name: 'American Samoa', localName: 'Amerika Sāmoa', flag: '🇦🇸', region: 'oceania',
   drivingSide: 'right', tld: '.as', phoneCode: '+1-684', language: 'Samoan, English', currency: 'Dollar (USD)',
   camera: [
-    "覆蓋有限",
+    "<strong>99.5% Gen 3 trekker + 0.5% Gen 4</strong>（幾乎全為步行拍攝）",
+    "唯一擁有官方 shitcam 覆蓋的中東國家",
+    "除 shitcam 外均為 Gen 3 trekker 步行覆蓋",
     "有多種不同的街景車"
   ],
   car: [
