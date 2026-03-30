@@ -301,7 +301,7 @@
                 <span class="card-flag">${c.flag}</span>
                 <div>
                   <div class="card-name">${c.name}</div>
-                  <div class="card-region">${c.drivingSide === 'left' ? '左側行駛' : '右側行駛'} · ${c.tld || ''}</div>
+                  <div class="card-region">${c.drivingSide === 'left' ? '靠左行駛' : '靠右行駛'} · ${c.tld || ''}</div>
                 </div>
               </div>
               <div class="card-facts">
@@ -343,7 +343,7 @@
           </div>
         </div>
         <div class="quick-facts">
-          ${quickFact('駕駛方向', c.drivingSide === 'left' ? '左駕' : '右駕')}
+          ${quickFact('駕駛方向', c.drivingSide === 'left' ? '靠左行駛（右駕）' : '靠右行駛（左駕）')}
           ${quickFact('TLD', c.tld || 'N/A')}
           ${quickFact('電話', c.phoneCode || 'N/A')}
           ${quickFact('語言', c.language || 'N/A')}
