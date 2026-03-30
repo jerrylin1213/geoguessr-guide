@@ -212,6 +212,7 @@ const COUNTRIES = {
     "小金屬包裹物也可在 France 找到"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "誘導標示：<strong>白底紅箭頭</strong>（Netherlands 也用此款，France 不用）",
     "行人標誌：無條紋但有兩條水平虛線，人物有<strong>方形頭</strong>（France/Netherlands 用五條垂直條紋）",
     "優先標誌菱形為<strong>橘色</strong>，比其他國家小得多",
@@ -780,6 +781,7 @@ const COUNTRIES = {
     "梯子桿頂部常有<strong>菱形三線杆頂</strong>（「法式杆頂」，Spain 也有）"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "誘導標：<strong>藍底白箭頭</strong>（1-5 個箭頭）— 歐洲僅 France 和 Spain 使用此配色"
   ],
   landscape: [
@@ -926,6 +928,7 @@ const COUNTRIES = {
     "杆頂獨特：<strong>竪琴形金屬框架</strong>（希臘獨有），常有五個垂直絕緣體"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "誘導標：<strong>黑底白箭頭</strong>（Albania、Italy、UK 也有）"
   ],
   landscape: [
@@ -1173,6 +1176,8 @@ const COUNTRIES = {
     "最常見杆頂為<strong>混凝土三叉型</strong>"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>（S 字兩端較短，角度獨特 — 也見於 Albania）",
+    "STOP 標誌：<strong>STOP</strong>",
     "誘導標：<strong>黑底白箭頭</strong>（Spain、Greece、Albania 也有）"
   ],
   landscape: [
@@ -1596,6 +1601,7 @@ const COUNTRIES = {
     "⚠️ 這是與 Belgium 的重要區別：Belgium 普遍使用電線杆"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "路標幾乎都是<strong>藍底白字</strong>（極少見黃色/白色/綠色）",
     "路標邊緣延伸到背面形成邊框 — <strong>Netherlands 獨有</strong>",
     "路標杆底常有<strong>黑白或藍白條紋</strong>標記",
@@ -2180,6 +2186,7 @@ const COUNTRIES = {
     "高壓電線塔架在西班牙非常普遍（與其他地中海國家相比）"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "轉向誘導標：<strong>藍底白箭頭</strong>或<strong>黑底白箭頭</strong>（單箭頭極罕見）",
     "⚠️ 藍底白箭頭歐洲僅 France 也用；黑底白箭頭也見於 Italy/Greece/Albania",
     "⚠️ Portugal 用黑底<strong>黃</strong>箭頭 — 區別關鍵",
@@ -2572,6 +2579,7 @@ const COUNTRIES = {
     "電線桿上有<strong>黃色警告貼紙</strong>（有被閃電擊中的人圖案，Ireland 的只有閃電）"
   ],
   signInfo: [
+    "STOP 標誌：<strong>STOP</strong>",
     "誘導標：<strong>黑底白箭頭</strong>（Ireland 為黑底黃箭頭）",
     "讓行標誌寫 'GIVE WAY'（Ireland 寫 'YIELD'）"
   ],
@@ -3147,6 +3155,7 @@ const COUNTRIES = {
     "護柱：<strong>白色保齡球瓶形</strong>，頂部兩條紅色條紋（蒙古獨有）"
   ],
   signInfo: [
+    "STOP 標誌：<strong>정지 (jeongji)</strong>",
     "停車標誌：<strong>「ЗОГС」</strong>（蒙古獨有）"
   ],
   landscape: [
@@ -3779,6 +3788,7 @@ const COUNTRIES = {
     "各州道路差異明顯"
   ],
   signInfo: [
+    "STOP 標誌：<strong>עצור (atzor)</strong> + STOP",
     "'YIELD' 讓行標誌有文字（Canada 是空白三角形）"
   ],
   landscape: [
