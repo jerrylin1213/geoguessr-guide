@@ -387,7 +387,7 @@
       </div>
 
       <div class="detail-grid animate-in">
-        ${detailCard('📷', '覆蓋 & 相機', c.camera || [])}
+        ${cameraCard(c.camera || [])}
         ${carImageCard(id, c.car || [])}
         ${detailCard('🛣️', '道路特徵', c.roads || [])}
         ${bollardImageCard(id)}
@@ -417,6 +417,76 @@
         <div class="detail-card-body">
           <ul>
             ${items.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  function cameraCard(items) {
+    if (!items || items.length === 0) return '';
+    // Parse generation percentages from first item and render as visual bar
+    let barHtml = '';
+    const first = items[0] || '';
+    const genMatch = first.match(/(\d+\.?\d*)%\s*Gen\s*(\d)/gi) || [];
+    const gens = [];
+    // Try pattern: "XX% Gen N"
+    for (const m of first.matchAll(/(\d+\.?\d*)%\s*Gen\s*(\d)/gi)) {
+      gens.push({ pct: parseFloat(m[1]), gen: parseInt(m[2]) });
+    }
+    // Try pattern: "Gen N ... XX%"
+    if (gens.length === 0) {
+      for (const m of first.matchAll(/Gen\s*(\d)[^%]*?(\d+\.?\d*)%/gi)) {
+        gens.push({ pct: parseFloat(m[2]), gen: parseInt(m[1]) });
+      }
+    }
+    // Try pattern: "XX% ... Gen N" with mixed content
+    if (gens.length === 0) {
+      const pctMatches = [...first.matchAll(/(\d+\.?\d*)%/g)];
+      const genNums = [...first.matchAll(/Gen\s*(\d)/gi)];
+      if (pctMatches.length === genNums.length && pctMatches.length > 0) {
+        for (let i = 0; i < pctMatches.length; i++) {
+          gens.push({ pct: parseFloat(pctMatches[i][1]), gen: parseInt(genNums[i][1]) });
+        }
+      }
+    }
+    // Also check for shitcam percentage
+    const shitMatch = first.match(/(\d+\.?\d*)%.*(?:shitcam|Shitcam|非官方)/i);
+    if (shitMatch) {
+      gens.push({ pct: parseFloat(shitMatch[1]), gen: 0 }); // 0 = shitcam
+    }
+
+    const genColors = { 1: '#ef4444', 2: '#f59e0b', 3: '#3b82f6', 4: '#10b981', 0: '#6b7280' };
+    const genLabels = { 1: 'Gen 1', 2: 'Gen 2', 3: 'Gen 3', 4: 'Gen 4', 0: 'Shitcam' };
+
+    if (gens.length > 0 && gens.reduce((s, g) => s + g.pct, 0) > 50) {
+      barHtml = '<div style="margin-bottom:14px;">' +
+        '<div style="display:flex;height:24px;border-radius:6px;overflow:hidden;border:1px solid var(--border-color);">' +
+        gens.filter(g => g.pct >= 0.5).map(g =>
+          '<div style="width:' + g.pct + '%;background:' + genColors[g.gen] + ';display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:white;font-weight:600;min-width:' + (g.pct > 5 ? '0' : '30px') + ';">' +
+          (g.pct > 8 ? genLabels[g.gen] + ' ' + g.pct + '%' : g.pct > 3 ? g.pct + '%' : '') +
+          '</div>'
+        ).join('') +
+        '</div>' +
+        '<div style="display:flex;gap:12px;margin-top:6px;flex-wrap:wrap;">' +
+        gens.filter(g => g.pct >= 0.5).map(g =>
+          '<span style="font-size:0.75rem;color:var(--text-muted);display:flex;align-items:center;gap:4px;">' +
+          '<span style="width:10px;height:10px;border-radius:2px;background:' + genColors[g.gen] + ';"></span>' +
+          genLabels[g.gen] + ' ' + g.pct + '%</span>'
+        ).join('') +
+        '</div></div>';
+    }
+
+    return `
+      <div class="detail-card">
+        <div class="detail-card-header">
+          <span class="icon">📷</span>
+          <h3>覆蓋 & 相機</h3>
+        </div>
+        <div class="detail-card-body">
+          ${barHtml}
+          <ul>
+            ${barHtml ? items.slice(1).map(item => '<li>' + item + '</li>').join('') : items.map(item => '<li>' + item + '</li>').join('')}
           </ul>
         </div>
       </div>
@@ -701,17 +771,68 @@
     });
   }
 
-  // ===== Lightbox (click to zoom images) =====
+  // ===== Lightbox with arrow key navigation =====
+  let lightboxImages = [];
+  let lightboxIndex = 0;
+
   function setupLightbox() {
     document.addEventListener('click', (e) => {
       if (e.target.tagName === 'IMG' && e.target.closest('.detail-card-body')) {
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImg = document.getElementById('lightboxImg');
-        lightboxImg.src = e.target.src;
-        lightbox.classList.add('active');
+        // Collect all visible images in the current detail grid
+        const grid = e.target.closest('.detail-grid') || e.target.closest('.content');
+        lightboxImages = Array.from(grid.querySelectorAll('.detail-card-body img'))
+          .filter(img => img.offsetParent !== null && img.naturalWidth > 0)
+          .map(img => img.src);
+        lightboxIndex = lightboxImages.indexOf(e.target.src);
+        if (lightboxIndex === -1) lightboxIndex = 0;
+        openLightbox();
       }
     });
+
+    // Close on overlay click (but not on image or nav buttons)
+    document.getElementById('lightbox').addEventListener('click', (e) => {
+      if (e.target.id === 'lightbox') closeLightbox();
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      const lb = document.getElementById('lightbox');
+      if (!lb.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); lightboxNext(); }
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); lightboxPrev(); }
+    });
   }
+
+  function openLightbox() {
+    const lb = document.getElementById('lightbox');
+    document.getElementById('lightboxImg').src = lightboxImages[lightboxIndex];
+    document.getElementById('lightboxCounter').textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
+    lb.classList.add('active');
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+  }
+
+  function lightboxNext() {
+    if (lightboxImages.length === 0) return;
+    lightboxIndex = (lightboxIndex + 1) % lightboxImages.length;
+    document.getElementById('lightboxImg').src = lightboxImages[lightboxIndex];
+    document.getElementById('lightboxCounter').textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
+  }
+
+  function lightboxPrev() {
+    if (lightboxImages.length === 0) return;
+    lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length;
+    document.getElementById('lightboxImg').src = lightboxImages[lightboxIndex];
+    document.getElementById('lightboxCounter').textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
+  }
+
+  // Expose for inline onclick
+  window.lightboxPrev = lightboxPrev;
+  window.lightboxNext = lightboxNext;
+  window.closeLightbox = closeLightbox;
 
   // ===== Utility =====
   function truncate(str, len) {

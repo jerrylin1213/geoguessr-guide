@@ -49,8 +49,13 @@
   </div>
 
   <button class="back-to-top" id="backToTop">↑</button>
-  <div class="lightbox-overlay" id="lightbox" onclick="this.classList.remove('active')">
+  <div class="lightbox-overlay" id="lightbox">
+    <button class="lb-close" onclick="closeLightbox()">&times;</button>
+    <button class="lb-nav lb-prev" onclick="event.stopPropagation();lightboxPrev()">&#8249;</button>
     <img id="lightboxImg" src="" alt="Zoom">
+    <button class="lb-nav lb-next" onclick="event.stopPropagation();lightboxNext()">&#8250;</button>
+    <div class="lb-counter" id="lightboxCounter">1 / 1</div>
+    <div class="lb-hint">← → 切換 · ESC 關閉</div>
   </div>
 
   <script src="data.js"></script>
