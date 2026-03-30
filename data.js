@@ -83,6 +83,7 @@ const COUNTRIES = {
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
+    "白色中心線和邊線（歐洲標準）",
     "右側行駛",
     "山路多隧道和髮夾彎",
     "路面品質良好（已開發國家）",
@@ -193,25 +194,48 @@ const COUNTRIES = {
   ],
   roads: [
     "以路況差聞名 — 柏油路面不均勻，坑洞多",
-    "白色中線和邊線（歐洲標準）",
+    "全白道路線（中線 + 邊線），可為連續或中斷",
+    "鄉村道路常用<strong>混凝土板</strong>鋪設（類似菲律賓/泰國）— Netherlands 幾乎不用",
+    "幾乎所有道路兩側都有<strong>排水溝</strong> — 鄰國不常見",
     "藍色高速公路標誌",
-    "特殊的菱形優先道路標誌，中心為橘/黃色"
+    "道路兩側常有自行車道，車道有短虛線邊線"
   ],
   bollardInfo: [
-    "Bollard：多種設計，都有橘色調 + 白色主體，也有雙紅條紋變體"
+    "白色護柱，正面<strong>黃色矩形反光板</strong>，背面白色",
+    "第二種：<strong>深棕色護柱</strong>，頂部有兩條紅色條紋（Netherlands 也有此款）",
+    "⚠️ Denmark 類似白色護柱但頂部是一條紅色條紋，反光板非矩形",
+    "護欄為 A 型，配<strong>黃色反光板</strong> — 歐洲僅 Spain、Andorra、Belgium 使用"
+  ],
+  poleInfo: [
+    "混凝土方形電線杆，上有<strong>小孔</strong>，周圍常有小金屬包裹物",
+    "第二種常見款：有<strong>橢圓形孔</strong>的混凝土杆",
+    "小金屬包裹物也可在 France 找到"
+  ],
+  signInfo: [
+    "誘導標示：<strong>白底紅箭頭</strong>（Netherlands 也用此款，France 不用）",
+    "行人標誌：無條紋但有兩條水平虛線，人物有<strong>方形頭</strong>（France/Netherlands 用五條垂直條紋）",
+    "優先標誌菱形為<strong>橘色</strong>，比其他國家小得多",
+    "路標常為<strong>橘色</strong>，標誌背面有時也是橘色 — Belgium 獨有",
+    "公里標記通常為綠色，也可能有紅色文字",
+    "紅色消防栓標誌頂部有字母 H（Germany 也有）",
+    "交通燈杆為<strong>黑黃條紋</strong>",
+    "巴士站為黃色路標，候車亭常有黃色屋頂"
   ],
   landscape: [
-    "Flanders（北部）平坦，南部 Ardennes 丘陵",
+    "Flanders（北部）平坦，南部 Ardennes 丘陵森林山谷",
     "Flanders 都市區密集",
     "中世紀城市中心（Bruges、Ghent、Brussels）",
-    "Flanders 常見紅磚建築",
-    "南部 Wallonia 建築更偏法國風格"
+    "Flanders 常見紅磚建築，南部建築灰色石材偏法國風格",
+    "北海沿岸排列公寓樓（建築物的「墻」），附近有沙丘景觀"
   ],
   signs: [
     "雙語或三語標誌（北部荷蘭語、南部法語、東部德語）",
     "Brussels 為雙語（荷蘭語/法語）",
     "注意城市名稱：Bruxelles/Brussel、Anvers/Antwerpen、Liège/Luik",
-    "荷蘭語用 'straat'，法語用 'rue'"
+    "荷蘭語用 'straat'，法語用 'rue'",
+    "街道名稱標誌多樣，常標註城鎮名稱，多為矮而高的設計（Netherlands 標誌則長而矮）",
+    "方向標誌通常為藍色或白色，常附帶額外藍色小標誌",
+    "Flanders 警告標誌 95% 為粗紅色輪廓無白邊；Wallonia 為細紅色輪廓有白邊"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋",
@@ -1015,6 +1039,7 @@ const COUNTRIES = {
     "與 Faroe Islands 不同（Faroe 有灰色 rack，無天線）"
   ],
   roads: [
+    "白色中心線和邊線，鄉村路段常無標線",
     "單線道橋梁常見（單車道配會車灣）",
     "許多碎石/未鋪裝道路（F 級道路）",
     "Route 1 環島公路 = 繞島主要公路",
@@ -1197,6 +1222,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色中心線（歐洲標準）",
     "右側行駛",
     "新舊高速公路混合",
     "歐式道路標誌",
@@ -1464,6 +1490,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色中心線（歐洲標準）",
     "右側行駛",
     "狹窄城市街道",
     "隧道",
@@ -1500,6 +1527,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色中心線和邊線",
     "右側行駛",
     "山路多隧道",
     "沿海新高速公路 vs 粗糙山路"
@@ -1539,35 +1567,58 @@ const COUNTRIES = {
   name: 'Netherlands', localName: 'Nederland', flag: '🇳🇱', region: 'europe',
   drivingSide: 'right', tld: '.nl', phoneCode: '+31', language: 'Dutch', currency: 'Euro (EUR)',
   camera: [
-    "<strong>68.7% Gen 4 + 31.2% Gen 3</strong>",
-    "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋（黑色車搭配圓形天線）"
+    "<strong>90% Gen 3 + 7.3% Gen 2 + 2.3% Gen 1</strong>",
+    "Gen 4 覆蓋部分區域（黑色車尾部有時可見模糊故障）",
+    "全國覆蓋範圍廣泛"
   ],
   car: [
-    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2023）",
+    "Gen 4：<strong>黑色轎車</strong>（部分涵蓋有車尾模糊故障）",
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "優良的自行車基礎設施 — 到處都有專用自行車道",
-    "平坦且品質優良的道路",
-    "白色中線和邊線",
-    "紅色柏油自行車道",
+    "純白道路線（中線 + 邊線），有時可見<strong>獨特的綠色中心線</strong>",
+    "紅粉色柏油自行車道 — Netherlands 最具辨識度的道路特徵",
+    "<strong>磚路</strong>在城市和農村都很常見，特定磚塊圖案非常普遍",
+    "鄉村道路兩側常有<strong>磚砌隆起</strong>",
+    "非常明顯的減速帶 — 長短交替白色警告條紋",
+    "路面品質優良，道路基礎設施維護良好",
     "許多運河和橋梁"
   ],
+  bollardInfo: [
+    "簡單白色路桩，上有<strong>紅色反光板</strong>",
+    "極少數情況有紅色帶尖頂的圓形法式護柱（紅色包裹物通常不環繞全柱）",
+    "交通島路標常有較粗的<strong>黃色標筒</strong>",
+    "農村道路有時有獨特的條紋障礙物"
+  ],
+  poleInfo: [
+    "Netherlands 通常<strong>沒有電線杆</strong> — 可能看到大型電塔，但幾乎沒有街道級小型電線杆",
+    "⚠️ 這是與 Belgium 的重要區別：Belgium 普遍使用電線杆"
+  ],
+  signInfo: [
+    "路標幾乎都是<strong>藍底白字</strong>（極少見黃色/白色/綠色）",
+    "路標邊緣延伸到背面形成邊框 — <strong>Netherlands 獨有</strong>",
+    "路標杆底常有<strong>黑白或藍白條紋</strong>標記",
+    "小鎮入口標誌為<strong>藍色</strong>，常有精緻設計和框架，標註 gemeente/gem + 城市名",
+    "公路標識：A 路白字紅框、N 路黑字黃框，路標為綠色",
+    "⚠️ Belgium 路標多樣且常標城鎮名，Netherlands 路標很少標城鎮名"
+  ],
   landscape: [
-    "極度平坦（大部分低於海平面）",
-    "風車（傳統風車和現代風力發電機）",
-    "到處都是運河",
-    "圩田（填海造地）",
+    "極度平坦（大部分低於或接近海平面）",
+    "風車（傳統風車和現代風力發電機）常見",
+    "到處都是運河和水道 — 水渠、溝渠、堤壩非常普遍",
+    "圩田（填海造地）— 西部和北部有沼澤地景觀",
     "春季鬱金香花田",
-    "紅磚建築，尤其在城市"
+    "紅褐色磚砌建築普遍，屋頂橙色或深灰色",
+    "排屋非常普遍 — 近半住房為排屋",
+    "Flevoland 全為 20 世紀填海造地 — 極其筆直的道路和農田",
+    "南 Limburg 有低矮山丘（Netherlands 唯一的丘陵區）"
   ],
   signs: [
-    "Dutch 語 — 看起來像英語和德語的混合",
-    "'straat'（街道）、'weg'（路）、'laan'（巷）、'plein'（廣場）",
-    "IJ 雙字母常見",
-    "路標遵循 EU 標準"
+    "Dutch 語 — 看起來像英語和德語的混合，大量雙元音如 ij、ieu、oe",
+    "'straat'（街道）、'weg'（路）、'laan'（大道）、'pad'（小徑）、'plein'（廣場）",
+    "Friesland 省有雙語標誌（Dutch/Frisian），街名可能以 -wei 或 -strjitte 結尾",
+    "Amsterdam 路標在街名下方以小字標註市區 — 其他城市少見"
   ],
   plates: [
     "黃色車牌（後方）— 非常獨特！",
@@ -1955,6 +2006,7 @@ const COUNTRIES = {
     "Serbia 和 North Macedonia 是東歐中少數無天線的國家"
   ],
   roads: [
+    "白色中心線（義大利風格）",
     "右側行駛",
     "白色中心線",
     "新高速公路建設中"
@@ -2097,35 +2149,57 @@ const COUNTRIES = {
   name: 'Spain', localName: 'España', flag: '🇪🇸', region: 'europe',
   drivingSide: 'right', tld: '.es', phoneCode: '+34', language: 'Spanish', currency: 'Euro (EUR)',
   camera: [
-    "<strong>66.6% Gen 3 + 32.3% Gen 4</strong>",
-    "部分地區有 Gen 4 覆蓋",
+    "<strong>43.8% Gen 3 + 41.9% Gen 4 + 14.3% Gen 2</strong>",
     "全境覆蓋範圍廣泛"
   ],
   car: [
-    "Gen 3：白色轎車，標準歐洲配置",
-    "Gen 4 涵蓋有限",
-    "無特殊車輛辨識特徵"
+    "Gen 3：天線有長/短/無三種，車尾通常不可見（少數為黑色或白色）",
+    "Gen 4：標準藍色車（有時可見），通常無天線",
+    "Andalusia 東部、Huesca、Lleida 的 Gen 3 有時有<strong>白頂長天線</strong> — 較獨特"
   ],
   roads: [
     "右側行駛",
     "白色中心線和邊線",
     "良好的 autopista/autovía 高速公路網",
+    "農村道路有時用白色虛線邊線（Portugal/Italy 幾乎沒有）— 但也有白色實線邊線",
+    "極少數山區道路有<strong>黃色標線</strong>",
     "藍色高速公路標誌"
   ],
   bollardInfo: [
-    "Bollard：<strong>黃色反光片帶微凹</strong>"
+    "標準路桩：正面<strong>橙黃色反光片（凹面）</strong>，背面兩個白點或空白",
+    "Aragón 地方道路：矮扁平矩形白色棒，前後灰色反射板",
+    "Lleida/Tarragona 省 + 加那利東部：更方形更橙色的反光板，背面一個白色反光板",
+    "Extremadura：路桩有<strong>綠色頂部</strong>變體 — 該地區獨有",
+    "Ceuta 獨有：<strong>黑白護欄</strong>",
+    "護欄為 A 型配<strong>黃色反光塊</strong>（僅 Belgium、Andorra、Gibraltar 也用）",
+    "加那利 Lanzarote 南部有藍黃色雪杆（Andalusia 獨有）"
   ],
   poleInfo: [
-    "梯子形電桿（類似 France）"
-  ,
-    "電線桿旁常見<strong>灰色方形水泥塊基座</strong> — Slovakia 較常見此特徵"
+    "混凝土<strong>梯形杆</strong>和木杆在小城鎮和農村最常見",
+    "<strong>法式杆頂</strong>（倒三角形 + 微彎水平頂杆）在西班牙較常見 — France 也有",
+    "高壓電線塔架在西班牙非常普遍（與其他地中海國家相比）"
+  ],
+  signInfo: [
+    "轉向誘導標：<strong>藍底白箭頭</strong>或<strong>黑底白箭頭</strong>（單箭頭極罕見）",
+    "⚠️ 藍底白箭頭歐洲僅 France 也用；黑底白箭頭也見於 Italy/Greece/Albania",
+    "⚠️ Portugal 用黑底<strong>黃</strong>箭頭 — 區別關鍵",
+    "STOP 標誌字體<strong>非常小</strong> — Portugal 字體明顯更大",
+    "斑馬線標誌有<strong>8 道條紋</strong> — 歐洲最多，僅 Andorra 也是 8 道",
+    "警告標誌紅色邊框<strong>延伸到邊緣，無白色窄邊</strong>（France/Italy/Portugal 有白邊）",
+    "路標用<strong>方形牌柱</strong>（Portugal、France、Andorra 也用）",
+    "Catalonia 常用圓形波紋牌柱（Basque/Balearic 也有）",
+    "狩猎標志：白色 'coto...caza' 或對角線黑白背景 — Spain 獨有",
+    "Galicia 路標頂部有綠色或藍色條帶 + 自治市名（'Concello'）",
+    "Asturias 公車站有紅色 CTA 標牌"
   ],
   landscape: [
-    "中部 Meseta — 乾燥高原",
-    "地中海海岸",
-    "北部庇里牛斯山",
-    "Andalusia — 乾燥、橄欖園、白色村莊",
-    "Canary Islands — 火山、非洲氣候",
+    "中部 Meseta — 乾燥高原，Castilla y León 平坦農業景觀",
+    "地中海海岸，東南部極乾燥半沙漠",
+    "北部庇里牛斯山（淺灰色岩石 + 松樹 + 石牆建築）",
+    "北海岸（Galicia/Asturias/Cantabria）綠色丘陵，類似 Ireland",
+    "Andalusia — 橄欖園、白色村莊、Sierra Nevada 雪峰",
+    "Canary Islands — 火山土、極端乾燥、多樣景觀",
+    "Extremadura — 聖栎/栓皮栎在開闊田野，偏地中海外觀",
     "多樣化建築：摩爾、哥德式、現代主義"
   ],
   signs: [
@@ -2160,36 +2234,64 @@ const COUNTRIES = {
   name: 'Sweden', localName: 'Sverige', flag: '🇸🇪', region: 'europe',
   drivingSide: 'right', tld: '.se', phoneCode: '+46', language: 'Swedish', currency: 'Krona (SEK)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
-    "Gen 4 覆蓋（藍色車搭配圓形天線，或紅色車）"
+    "Gen 2 + Gen 3 + Gen 4 覆蓋",
+    "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）"
   ],
   car: [
-    "Gen 4：<strong>多種車色</strong> — 藍色（+ 圓形天線）、紅色、白色皆有",
-    "Sweden 是 Gen 4 中車色最多樣的國家",
-    "藍色 + 圓形天線（與 Hungary, Bulgaria, Romania, France 共用）",
-    "Gen 3：白色轎車"
+    "Gen 4：<strong>紅/白/藍三種車色</strong>，均有短天線 — Sweden Gen 4 車色最多樣",
+    "Gen 3：白色轎車配長天線（同款也出現在 Iceland 全部 + Finland 部分）",
+    "藍色車也出現在 Norway/Finland/Denmark",
+    "西海岸 + Skåne 有<strong>白色車配藍色條紋</strong> — 幾乎僅見於 Sweden"
   ],
   roads: [
-    "白色虛線邊線，間隔比虛線長（獨特風格）",
+    "所有道路線全為<strong>白色</strong>（Norway/Finland 有黃色邊線）",
+    "低等道路：外側白色虛線，明顯比 Norway 的短",
+    "高速公路：外側線遠看為實線，近看分小塊獨特樣式（Denmark 類似但矩形塊）",
     "道路品質優良",
-    "許多駝鹿/麋鹿警告標誌"
+    "許多駝鹿/麋鹿警告標誌",
+    "Dalarna 地區的道路有非常明顯的<strong>紅色</strong>"
   ],
   bollardInfo: [
-    "Bollard：兩種風格 — 一種反光片周圍有黑色矩形邊框"
+    "路桩<strong>黑白配色</strong>，通常帶灰色反光板（交叉口為橙色）",
+    "可為楔形、圓形或細長彎曲形",
+    "雪杆：<strong>橙色</strong>，中部稍上有白色反光條（Finland 反光條細且近頂部；Norway 有 1-2 條細反光條近中部）",
+    "南部常見類似 Germany 的楔形路桩",
+    "西海岸/Värmland/Dalarna 南部：頂部有水平黑色部分的圓柱形路桩",
+    "北部主要道路：帶含反射器黑色矩形的扁平或圓柱路桩",
+    "Skåne 南部鄉村：帶藍色或紅色條紋的小白色路桩"
+  ],
+  poleInfo: [
+    "木質電線杆為主，頂部常有<strong>小型黑色金屬蓋</strong> — 北歐國家特徵",
+    "木杆上路燈安裝在略低於杆頂處，<strong>雙螺栓固定</strong>（Finland 也有雙螺栓但燈在杆頂、支架更直）",
+    "木質電纜標記（頂部白藍條）— 其他北歐國家找不到",
+    "Norway/Finland 也主要使用木製電線杆"
+  ],
+  signInfo: [
+    "轉向誘導標：<strong>藍底黃箭頭</strong> — 歐洲唯一（Luxembourg 極罕見也有）",
+    "道路警告標志：<strong>黃底紅框</strong>（Finland 類似但紅框外多一道細黃邊）",
+    "指路牌：藍底白字 + 細箭頭；另有黑字紅框黃底指示牌",
+    "人行道標志有<strong>4 道線 + 女性版</strong>（Finland/Denmark 5 道；Norway 通常 4 道）",
+    "低等道路上常見藍底大寫<strong>白色 M</strong> 標誌（Norway 類似但字體不同，M 中點延到底部）",
+    "路牌常有條紋：藍白和紅黃最常見 — 紅黃幾乎僅見於 Sweden",
+    "大量道路基礎設施（施工標/路障/誘導標）塗成<strong>紅黃配色</strong>",
+    "Sweden 教會旗：黃底紅十字 + 王冠 — 教堂附近常見"
   ],
   landscape: [
-    "森林為主（白樺、松樹、雲杉）",
-    "湖泊豐富",
-    "南部平坦到起伏，西北部多山",
-    "北部在北極圈以北（Lapland）",
-    "紅色木造房屋（falun 紅漆）常見",
-    "IKEA 門市和 Volvo/Saab 汽車"
+    "針葉林為主（白樺、松樹、雲杉），許多湖泊",
+    "南部（Skåne）最廣闊農田，起伏緩丘 + 紅磚建築",
+    "西北部多山，西海岸裸露圓形岩石 + 低矮灌木",
+    "北部在北極圈以北（Lapland），細弱北方樹木 + 沙質土壤",
+    "紅色木造房屋（falun 紅漆）極為常見，尤其鄉村",
+    "傳統木栅欄（垂直細木 + 斜疊木）— Sweden 常見，鄰國少見",
+    "Volvo 佔所有乘用車約 30%（Norway/Finland 約 10%）",
+    "Gotland：石灰石建築 + 白色沙地路邊；Öland：極平坦 + 小石墙 + 小風車"
   ],
   signs: [
     "Swedish — 使用 <strong>å、ä、ö</strong>",
     "與 Danish/Norwegian 不同：ö 取代 ø，ä 取代 æ",
-    "'väg' 或 'vägen' 表示道路",
-    "'gata' 或 'gatan' 表示街道"
+    "'vägen/v'（道路）、'gatan/g'（街道）、'gränd'（小巷）",
+    "北部有 Sami 語 + Swedish 雙語標誌；芬蘭邊境有 Meänkieli 語",
+    "常見地名後綴有地區限定分布"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + S 代碼",
@@ -2230,6 +2332,7 @@ const COUNTRIES = {
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
+    "白色中心線和邊線",
     "道路品質優良",
     "山口配髮夾彎"
   ],
@@ -2528,6 +2631,7 @@ const COUNTRIES = {
     "部分地區使用人力車/船隻拍攝"
   ],
   roads: [
+    "白色中心線（有時為黃色），路標杆黑白條紋",
     "左側通行",
     "路面品質通常較差",
     "部分涵蓋區域可見洪水",
@@ -2575,6 +2679,7 @@ const COUNTRIES = {
     "靠左行駛"
   ],
   roads: [
+    "白色或黃色中心線（標線不一致）",
     "左側行駛",
     "山路髮夾彎",
     "單車道路面常見",
@@ -2674,6 +2779,7 @@ const COUNTRIES = {
   camera: ["Gen 3 涵蓋", "密集的都市涵蓋"],
   car: ["標準車輛，相機位置低"],
   roads: [
+    "白色虛線中心線 + 白色實線邊線（英式）",
     "左側通行（英國殖民遺產）",
     "密集的都市道路網絡",
     "雙語道路標線（中文 + 英文）"
@@ -3086,6 +3192,7 @@ const COUNTRIES = {
     "極少可見標準 Google 車輛"
   ],
   roads: [
+    "標線極少，大部分道路無中心線",
     "左側行駛",
     "山路 — 狹窄蜿蜒",
     "路面品質通常很差",
@@ -3179,6 +3286,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色虛線中心線 + 白色實線邊線",
     "左側行駛",
     "路面品質極優",
     "ERP 電子道路收費閘門可見"
@@ -3278,6 +3386,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色虛線中心線 + 白色實線邊線，快慢車道分隔線",
     "右側行駛",
     "路面品質良好",
     "機車大量出現"
@@ -3536,6 +3645,7 @@ const COUNTRIES = {
   camera: ["Gen 4 涵蓋擴展中", "主要城市和高速公路有涵蓋"],
   car: ["標準車輛"],
   roads: [
+    "白色中心線 + 白色邊線",
     "遼闊的沙漠高速公路",
     "城市中有現代化道路基礎設施",
     "住宅區常見減速帶"
@@ -3618,6 +3728,7 @@ const COUNTRIES = {
     "與 UAE 區別：Qatar 是 truck，UAE 是轎車"
   ],
   roads: [
+    "白色中心線 + 白色或黃色邊線",
     "右側行駛",
     "現代多車道高速公路",
     "路面品質優良",
@@ -3902,6 +4013,8 @@ const COUNTRIES = {
   ],
   roads: [
 
+  "黃色中心線 + 白色邊線",
+
   ],
   signInfo: [
     "ALTO 停車標誌"
@@ -3936,6 +4049,8 @@ const COUNTRIES = {
   ],
   roads: [
 
+  "白色或黃色中心線",
+
   ],
   poleInfo: [
     "Santiago：電線桿底部灰色塗漆；Santo Domingo：未塗漆"
@@ -3967,6 +4082,7 @@ const COUNTRIES = {
     "Gen 3 涵蓋（主要西海岸）"
   ],
   roads: [
+    "雙黃色中心線 + 白色邊線",
     "距離標記用 KM（但速度用 MPH）",
     "圓形盾牌公路標記（編號 100-9000+）",
     "街道標誌上有 'CALLE'"
@@ -4033,6 +4149,7 @@ const COUNTRIES = {
     "Bermuda 使用 pickup truck 而非標準 Google car — 這是極強的辨識特徵"
   ],
   roads: [
+    "白色中心線",
     "靠左行駛（英國領土）",
     "窄路配 35 km/h 速限（全球最低）",
     "不允許租車 — 只有機車和計程車",
@@ -4067,6 +4184,7 @@ const COUNTRIES = {
     "Christmas Island 使用銀色 pickup truck — 與 Bermuda 的黑色 pickup 不同"
   ],
   roads: [
+    "白色中心線",
     "靠左行駛（澳洲領土）",
     "有限的道路網絡",
     "道路品質不一"
@@ -4705,6 +4823,7 @@ const COUNTRIES = {
     "大量碎石路、筆直的沙漠長路"
   ],
   roads: [
+    "白色中心線",
     "左側行駛",
     "大量碎石路 (gravel roads)",
     "長直沙漠公路",
@@ -4743,6 +4862,7 @@ const COUNTRIES = {
     "有時可見紅色棍子標記（沿 N2/R32 路段）"
   ],
   roads: [
+    "白色中心線",
     "右側行駛",
     "法式影響的道路基礎設施"
   ],
@@ -4779,6 +4899,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色中心線",
     "右側行駛",
     "高速公路品質良好",
     "法語+阿拉伯語混合路標"
@@ -4821,6 +4942,7 @@ const COUNTRIES = {
     "Follow car 顏色可辨識南北位置"
   ],
   roads: [
+    "白色中心線",
     "右側行駛",
     "法式影響的道路系統"
   ],
@@ -4856,6 +4978,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "白色中心線（標線不一致）",
     "右側行駛",
     "密集城市交通",
     "路面品質不一"
@@ -4928,6 +5051,7 @@ const COUNTRIES = {
     "無特殊車輛辨識特徵"
   ],
   roads: [
+    "標線極少",
     "右側行駛",
     "路面品質差",
     "大量未鋪設路面"
@@ -5560,6 +5684,7 @@ const COUNTRIES = {
       '無可靠 car meta'
     ],
     roads: [
+    "標線極少",
     '道路從不錯的公路到極其崎嶇的鄉村小路都有',
     '道路標線和基礎設施有限',
     '路標為緬文加部分英文',
@@ -5724,6 +5849,7 @@ const COUNTRIES = {
       '無標準 car meta'
     ],
     roads: [
+      "白色虛線中心線 + 白色實線邊線",
       '高速公路：綠底白字為快速道路；藍底為國道/市區道路',
       '棕底白字為旅遊/文化景點',
       '白底黑字為地方/重要場所（醫院等）',
@@ -5968,6 +6094,7 @@ const COUNTRIES = {
       '冬季涵蓋常見'
     ],
     roads: [
+    "白色或黃色中心線（標線不一致）",
     '藍色方向指示路標',
     '道路品質不一，從不錯的公路到崎嶇山路',
     '蘇聯式道路基礎設施',
@@ -6049,6 +6176,7 @@ const COUNTRIES = {
       '無特殊 Google 車輛辨識特徵'
     ],
     roads: [
+      "白色中心線",
       '道路品質不一，從良好公路到崎嶇鄉村道路',
       '蘇聯式道路基礎設施',
       '許多路線道路標線有限',
@@ -6214,6 +6342,7 @@ const COUNTRIES = {
       '沙漠公路 + 白色 truck + 天線 = Oman 或 Qatar'
     ],
     roads: [
+    "白色中心線",
     '主要地區公路維護良好',
     '可見部分公里標記和 T 形桿',
     '路標為阿拉伯語 + 英語雙語',
