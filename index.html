@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoGuessr 國家辨識指南</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h1><span class="logo">🌍</span> GeoGuessr Guide</h1>
+        <p>國家 Meta 參考指南</p>
+      </div>
+
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="searchInput" placeholder="搜尋國家...">
+      </div>
+
+      <nav id="sidebarNav">
+        <a class="nav-meta-link" data-page="meta">📋 通用 Meta 指南</a>
+        <!-- Navigation will be rendered by JS -->
+      </nav>
+    </aside>
+
+    <!-- Sidebar overlay for mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main content -->
+    <main class="main">
+      <div class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle" id="menuToggle">☰</button>
+          <div class="breadcrumb" id="breadcrumb">
+            <span>首頁</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" id="content">
+        <!-- Content rendered by JS -->
+      </div>
+    </main>
+  </div>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+
+  <script src="data.js"></script>
+  <script src="country_images.js" onerror="window.COUNTRY_IMAGES={}"></script>
+  <script src="app.js"></script>
+</body>
+</html>
