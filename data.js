@@ -122,11 +122,9 @@ const COUNTRIES = {
   name: 'Austria', localName: 'Österreich', flag: '🇦🇹', region: 'europe',
   drivingSide: 'right', tld: '.at', phoneCode: '+43', language: 'German', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 覆蓋始於 2009 — 可見紫色光暈",
-    "Gen 3 覆蓋始於 2012 — 影像清晰",
-    "⚠️ Austria 因隱私法規，Street View 覆蓋非常有限",
-    "大部分覆蓋在主要高速公路上；城市覆蓋非常稀疏",
-    "維也納和其他城市阻止了 Google 大規模測繪"
+    "<strong>85% Gen 4 + 15% Gen 3</strong>",
+    "與 Germany 不同，Austria 有較多 Gen 3 覆蓋",
+    "隱私法規限制覆蓋範圍"
   ],
   car: [
     "Gen 2：白色轎車，有 purple halo",
@@ -700,10 +698,10 @@ const COUNTRIES = {
   name: 'France', localName: 'France', flag: '🇫🇷', region: 'europe',
   drivingSide: 'right', tld: '.fr', phoneCode: '+33', language: 'French', currency: 'Euro (EUR)',
   camera: [
-    "Gen 1 覆蓋有限",
-    "Gen 2 覆蓋始於 2008",
-    "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋始於 2021（藍色車搭配圓形天線）"
+    "<strong>58.7% Gen 4 + 28.7% Gen 3 + 12.5% Gen 2 + 0.1% Gen 1</strong>",
+    "Gen 4 有「小相機」(low cam) 覆蓋 — 視角更低，打碼為前方帶突起的大圓盤",
+    "Gen 2 覆蓋（2008-2012）仍存在於部分區域",
+    "Gen 1 極少量（僅在最早期覆蓋）"
   ],
   car: [
     "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2021 年涵蓋）",
@@ -765,11 +763,10 @@ const COUNTRIES = {
   name: 'Germany', localName: 'Deutschland', flag: '🇩🇪', region: 'europe',
   drivingSide: 'right', tld: '.de', phoneCode: '+49', language: 'German', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 覆蓋始於 2008",
-    "⚠️ Germany 因隱私退出機制，覆蓋範圍有限",
-    "主要城市房屋有大量模糊處理",
-    "許多街道應居民要求被移除",
-    "鄉村地區覆蓋比城市好"
+    "⚠️ <strong>99.8% Gen 4</strong> — 德國幾乎全部是四代相機（2019年起拍攝）",
+    "極少量 Gen 2 和 Gen 3 trekker 步行覆蓋",
+    "部分舊覆蓋為跨國界溢出 (spillover) 街景",
+    "⚠️ 因隱私法規，覆蓋範圍有限且房屋大量模糊"
   ],
   car: [
     "Gen 2/3：白色轎車",
@@ -832,9 +829,9 @@ const COUNTRIES = {
   name: 'Greece', localName: 'Ελλάδα', flag: '🇬🇷', region: 'europe',
   drivingSide: 'right', tld: '.gr', phoneCode: '+30', language: 'Greek', currency: 'Euro (EUR)',
   camera: [
-    "Gen 2 和 Gen 3 覆蓋",
-    "Gen 4 可用",
-    "本土和主要島嶼覆蓋良好"
+    "<strong>47% Gen 4 + 32% Gen 3 + 21% Gen 2</strong>",
+    "許多 Gen 3 拍攝於秋冬季 — 景觀偏黯淡",
+    "Gen 4 覆蓋持續擴展中"
   ],
   car: [
     "Gen 4：<strong>黑色轎車，永遠沒有天線</strong> — 所有涵蓋年份皆無",
@@ -1063,10 +1060,9 @@ const COUNTRIES = {
   name: 'Italy', localName: 'Italia', flag: '🇮🇹', region: 'europe',
   drivingSide: 'right', tld: '.it', phoneCode: '+39', language: 'Italian', currency: 'Euro (EUR)',
   camera: [
-    "Gen 1 覆蓋有限",
-    "Gen 2 覆蓋始於 2008",
-    "Gen 3 覆蓋範圍廣泛",
-    "部分地區有 Gen 4 覆蓋"
+    "<strong>57.3% Gen 3 + 24.4% Gen 4 + 18.3% Gen 2</strong>",
+    "Campione d'Italia 飛地有低相機覆蓋 + 長天線 + 旗幟",
+    "Gen 2 仍存在於部分舊覆蓋區域"
   ],
   car: [
     "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（地中海地區，與 Croatia 共用）",
@@ -2150,9 +2146,9 @@ const COUNTRIES = {
   name: 'Liechtenstein', localName: 'Liechtenstein', flag: '🇱🇮', region: 'europe',
   drivingSide: 'right', tld: '.li', phoneCode: '+423', language: 'German', currency: 'Franc (CHF)',
   camera: [
-    "Gen 3 覆蓋為主",
-    "覆蓋有限 — 非常小的國家（160 km²）",
-    "可能有低相機覆蓋（與 Switzerland 類似）"
+    "<strong>100% Gen 3 — 全部為低相機 (low cam) 覆蓋</strong>",
+    "與 Switzerland 完全相同的低相機特徵",
+    "覆蓋有限（非常小的國家）"
   ],
   car: [
     "與 Switzerland 類似的車輛配置",
@@ -2198,9 +2194,9 @@ const COUNTRIES = {
   name: 'Turkey', localName: 'Türkiye', flag: '🇹🇷', region: 'europe',
   drivingSide: 'right', tld: '.tr', phoneCode: '+90', language: 'Turkish', currency: 'Lira (TRY)',
   camera: [
-    "Gen 2 and Gen 3 覆蓋",
-    "Gen 4 覆蓋（白色車）",
-    "Turkey 西部覆蓋良好，東部較稀疏"
+    "<strong>92.4% Gen 3 + 7.6% Gen 4</strong>",
+    "Gen 3 覆蓋中街景車從未有天線",
+    "西部覆蓋較多，東部較少"
   ],
   car: [
     "Gen 4：<strong>白色轎車</strong>",
@@ -2209,10 +2205,17 @@ const COUNTRIES = {
     "多種車型跨越不同涵蓋期間"
   ],
   roads: [
-    "Bollard：<strong>基本白色柱 + 紅色矩形反光片</strong>（類似 Australia 但較厚）",
-    "<strong>帶大洞的金屬電線桿</strong>（不同於 Romania/Hungary 的混凝土多孔電桿）",
-    "主要高速公路道路品質良好",
-    "白色中線"
+    "Bollard：<strong>矩形純白薄片</strong>，正面紅色反光條（Romania 和 Australia 也有類似）",
+    "<strong>道路標線不一致</strong>：大多數為白色，但<strong>黃色標線也不少見</strong>（全黃或黃白混合）",
+    "路面常有<strong>「椒鹽狀」顆粒質感</strong>",
+    "<strong>分離式道路</strong>比其他地中海國家更常見",
+    "<strong>電線桿</strong>：<strong>梯子狀/網狀金屬桿</strong>很常見（不同於 Romania/Hungary 的混凝土多孔桿）",
+    "誘導標：<strong>白底紅箭頭</strong>（箭頭尖端通常不延伸到標識邊緣，部分有霓虹黃邊框）",
+    "停車標誌：<strong>「DUR」</strong>（土耳其獨有）",
+    "雪桿：從上到下黑色、橘色、黑色、白色，附小紅色反光鏡",
+    "護欄：A 型和 B 型混用",
+    "磚鋪路面非常常見",
+    "主要高速公路道路品質良好"
   ],
   landscape: [
     "Turkey 西部：地中海/愛琴海沿岸",
@@ -2552,12 +2555,10 @@ const COUNTRIES = {
   name: 'India', localName: 'भारत', flag: '🇮🇳', region: 'asia',
   drivingSide: 'left', tld: '.in', phoneCode: '+91', language: 'Hindi, English, + 20 others', currency: 'Rupee (INR)',
   camera: [
-    "⚠️ <strong>非官方相機 (unofficial/small cam)</strong> — 畫質比標準 Gen 3 更差",
-    "影像特徵：略帶霧感 (foggy)、整體偏暗、文字較難辨認",
-    "2022 年後城市覆蓋擴展，但畫質仍低於其他國家的 Gen 3",
-    "2022 年前僅有 Mumbai 少量 Street View + 各地 trekker 覆蓋",
-    "所有官方覆蓋目前僅限城市地區",
-    "往下看時可見大型圓形模糊（比一般 Gen 3 更大）"
+    "⚠️ <strong>~99% 為 shitcam（低品質非官方相機）</strong>",
+    "Shitcam 特徵：偏棕色調、圓形大面積打碼蓋住街景車",
+    "極少量 Gen 4（~0.9%）和 Gen 3（~0.1%）覆蓋",
+    "所有覆蓋目前僅限城市地區（2022 年後擴展）"
   ],
   car: [
     "Gen 3：白色轎車，多種車型",
@@ -2567,6 +2568,9 @@ const COUNTRIES = {
   ],
   roads: [
     "左側通行",
+    "路標杆通常為<strong>黑白條紋</strong>（Bangladesh 和 Sri Lanka 也有）",
+    "<strong>電線桿</strong>：最常見為<strong>矩形混凝土桿</strong>配<strong>三叉戟杆頂</strong>；幾乎全為混凝土或金屬材質，木桿極罕見",
+    "各地有獨特的桿子和杆頂樣式",
     "路面品質差異極大",
     "混亂的交通，各種車輛混行（卡車、三輪車、牛）",
     "國道系統（NH 編號）",
@@ -2608,7 +2612,11 @@ const COUNTRIES = {
 'indonesia': {
   name: 'Indonesia', localName: 'Indonesia', flag: '🇮🇩', region: 'asia',
   drivingSide: 'left', tld: '.id', phoneCode: '+62', language: 'Indonesian (Bahasa Indonesia)', currency: 'Rupiah (IDR)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "Java、Bali 涵蓋良好，其他島嶼持續擴展"],
+  camera: [
+    "<strong>82.7% Gen 3 + 17.3% Gen 4</strong>",
+    "Gen 3 中黃色中線較罕見（近年才開始使用）",
+    "Java 覆蓋最多，Bali 次之，其他島嶼較少"
+  ],
   car: [
     "Java 地區：<strong>細短天線（thin 短粗天線 (stubby antenna)）</strong>",
     "其他地區：標準白色轎車",
@@ -2664,11 +2672,10 @@ const COUNTRIES = {
   name: 'Japan', localName: '日本', flag: '🇯🇵', region: 'asia',
   drivingSide: 'left', tld: '.jp', phoneCode: '+81', language: 'Japanese', currency: 'Yen (JPY)',
   camera: [
-    "Gen 1 早期有限涵蓋",
-    "Gen 2 和 Gen 3 廣泛涵蓋",
-    "Gen 4 可用",
-    "<strong>相機位置低</strong> — 車輛模糊區域比正常大 (larger blur than normal)",
-    "⚠️ 模糊比正常大但不如 Switzerland — Switzerland 的模糊是全球最大"
+    "<strong>87.1% Gen 3 + 12.7% Gen 2 + 0.1% Gen 4 + 0.1% Gen 1</strong>",
+    "⚠️ 因隱私法規，相機故意調低 (low cam) — 社群稱為「低相機」",
+    "Low cam 特徵：視角更低、道路看起來更寬、車輛模糊區域更大",
+    "北海道冬季積雪覆蓋率很低"
   ],
   car: [
     "<strong>低相機位置</strong> — 車輛模糊區域比正常大，路面顯得更寬，觀察角度更低",
@@ -2734,9 +2741,9 @@ const COUNTRIES = {
   name: 'South Korea', localName: '대한민국', flag: '🇰🇷', region: 'asia',
   drivingSide: 'right', tld: '.kr', phoneCode: '+82', language: 'Korean', currency: 'Won (KRW)',
   camera: [
-    "Google 涵蓋有限",
-    "<strong>KakaoMap 提供大部分涵蓋</strong>（非 Google Street View）",
-    "KakaoMap／Naver 涵蓋全國完整 360° 影像"
+    "<strong>99.6% Gen 3</strong>（幾乎全部）+ 極少 Gen 4（0.4%）",
+    "大部分街景在秋冬季拍攝 — 景觀可能偏枯黃",
+    "⚠️ 主要使用 KakaoMap/Naver 覆蓋（非 Google Street View）"
   ],
   car: [
     "KakaoMap 和 Naver 車輛（非 Google）",
@@ -3022,7 +3029,12 @@ const COUNTRIES = {
 'sri-lanka': {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
-  camera: ["Gen 3 涵蓋", "主要道路涵蓋尚可"],
+  camera: [
+    "<strong>50% Gen 4 + 40.4% Gen 3 + 9.6% Gen 2</strong>",
+    "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
+    "Gen 3 使用正常高度相機",
+    "Gen 3 車前部可見藍白紅色塊（類似法國國旗）"
+  ],
   car: [
     "<strong>白色車 + 右側紅色模糊</strong> — Sri Lanka 獨有 meta",
     "車前方可見<strong>藍/白/紅</strong>色塊（類似國旗圖案）",
@@ -3119,7 +3131,11 @@ const COUNTRIES = {
 'thailand': {
   name: 'Thailand', localName: 'ประเทศไทย', flag: '🇹🇭', region: 'asia',
   drivingSide: 'left', tld: '.th', phoneCode: '+66', language: 'Thai', currency: 'Baht (THB)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "涵蓋廣泛"],
+  camera: [
+    "<strong>~90% Gen 3</strong>",
+    "絕大部分 Gen 3 中看不見街景車",
+    "拍攝有旱季/雨季差異 — 野火造成灰霾可見"
+  ],
   car: [
     "Gen 3/4：白色轎車，可見煞車燈",
     "靠左行駛",
@@ -3173,7 +3189,12 @@ const COUNTRIES = {
 'vietnam': {
   name: 'Vietnam', localName: 'Việt Nam', flag: '🇻🇳', region: 'asia',
   drivingSide: 'right', tld: '.vn', phoneCode: '+84', language: 'Vietnamese', currency: 'Dong (VND)',
-  camera: ["Gen 3 涵蓋", "涵蓋持續擴展中"],
+  camera: [
+    "<strong>85% Gen 3 + 14% Gen 4 + 1% Gen 2</strong>",
+    "⚠️ 大量摩托車街景覆蓋 — 模糊形狀像骨頭，一側延伸至高處",
+    "越南有全世界最多的摩托車街景",
+    "農村摩托車街景 = 幾乎可以確定是 Vietnam"
+  ],
   car: [
     "Gen 3：標準白色轎車",
     "靠右行駛",
@@ -3540,7 +3561,11 @@ const COUNTRIES = {
 'mexico': {
   name: 'Mexico', localName: 'México', flag: '🇲🇽', region: 'north-america',
   drivingSide: 'right', tld: '.mx', phoneCode: '+52', language: 'Spanish', currency: 'Peso (MXN)',
-  camera: ["Gen 2、3、4 涵蓋", "全部 31 個州都有涵蓋"],
+  camera: [
+    "<strong>53.8% Gen 3 + 44.2% Gen 4 + 1.9% Gen 2 + 0.1% Gen 1</strong>",
+    "是少數有 Gen 2 覆蓋的拉丁美洲國家",
+    "Oaxaca 的 Gen 3 有獨特的 ground rift"
+  ],
   car: [
     "Gen 2/3：白色轎車",
     "Gen 4：<strong>藍色轎車</strong>",
@@ -3901,7 +3926,10 @@ const COUNTRIES = {
 'argentina': {
   name: 'Argentina', localName: 'Argentina', flag: '🇦🇷', region: 'south-america',
   drivingSide: 'right', tld: '.ar', phoneCode: '+54', language: 'Spanish', currency: 'Peso (ARS)',
-  camera: ["Gen 3、4 涵蓋"],
+  camera: [
+    "<strong>59.8% Gen 4 + 40.2% Gen 3</strong>",
+    "Gen 3：黑色 Google 街景車拍攝"
+  ],
   car: [
     "Gen 3/4：<strong>黑色轎車</strong> — 在南美洲中較為獨特",
     "後方可見，平坦荒涼的景觀（Patagonia）",
@@ -4182,9 +4210,13 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>左側行駛</strong>",
-    "<strong>三條中心線</strong>（如 Philippines、Uruguay）",
-    "<strong>黃色邊線</strong>（與 Botswana、Lesotho、Eswatini 共享）",
-    "紅白 V 形 (chevrons) 電桿標記"
+    "<strong>黃色外線 + 白色中線</strong>（Botswana、Lesotho、Eswatini 也有）",
+    "⚠️ 看到黃色外線 + 非洲 = 很可能是南部非洲",
+    "<strong>三條中心線</strong>：兩條白色實線 + 一條虛線（或兩白一黃），如 Philippines、Uruguay",
+    "<strong>電線桿</strong>：最常見為<strong>「飛鳥桿」</strong>（1-5 個平行於地面的長桿 + 絕緣裝置），各省有獨特杆頂（Western Cape 為 A 形、KwaZulu-Natal 為三叉戟、北部四省為「}」形）",
+    "誘導標：<strong>白底紅箭頭</strong>（細小版路旁也很常見）",
+    "紅白 V 形 (chevrons) 電桿標記",
+    "道路編號：N 開頭為國道、R 開頭為省道（Botswana 和 Lesotho 用 A/B 開頭）"
   ],
   landscape: [
     "多元地貌：Cape Town 海岸、Drakensberg 山脈、Highveld 高原、Karoo 半沙漠",
@@ -4265,7 +4297,12 @@ const COUNTRIES = {
 'nigeria': {
   name: 'Nigeria', localName: 'Nigeria', flag: '🇳🇬', region: 'africa',
   drivingSide: 'right', tld: '.ng', phoneCode: '+234', language: 'English', currency: 'Naira (NGN)',
-  camera: ["Gen 3 涵蓋範圍", "主要城市和高速公路有覆蓋"],
+  camera: [
+    "<strong>42.3% Gen 4 + 30.9% Gen 3 + 26.8% Shitcam</strong>",
+    "三代街景：車頂有行李架 + 幾乎都有警車跟車",
+    "Shitcam 主要在東部城市",
+    "阿布賈以北無三代覆蓋，西北/最南部無四代，東南部無 shitcam"
+  ],
   car: [
     "Gen 3：<strong>大型 pickup truck</strong>（車頭和貨斗皆可見）",
     "車色：白色或紅色",
@@ -4783,7 +4820,8 @@ const COUNTRIES = {
   name: 'Australia', localName: 'Australia', flag: '🇦🇺', region: 'oceania',
   drivingSide: 'left', tld: '.au', phoneCode: '+61', language: 'English', currency: 'Dollar (AUD)',
   camera: [
-    "Gen 1（早期）、Gen 2、Gen 3、Gen 4 — 全部都有",
+    "<strong>~64% Gen 3 + ~26% Gen 4 + ~12% Gen 2 + ~4.5% Gen 1</strong>",
+    "各州拍攝年份不同 — 可用於區域判斷",
     "南半球覆蓋最廣的國家"
   ],
   car: [
@@ -4853,9 +4891,14 @@ const COUNTRIES = {
   ],
   roads: [
     "靠左行駛",
-    "Bollard：類似 Australia 但<strong>紅色帶更寬</strong>",
-    "白色中線",
-    "許多蜿蜒的山路"
+    "Bollard：頂部有<strong>紅色帶環繞整個背部和部分前部</strong>（AU 只有正面小紅色反光片），前/後有薄黃色或白色反光體（NZ 獨有）",
+    "外線一般為白色，人口稠密處也用<strong>黃色虛線外線</strong>；中線為白色虛線或雙黃實線",
+    "<strong>電線桿</strong>：最常見為<strong>混凝土桿帶長凹槽</strong>（延伸很高），大多有銀色<strong>防負鼠裝置</strong>；也有混凝土多孔桿和圓形木桿",
+    "讓行標誌白色邊緣 + <strong>紅色文字</strong>（AU 為黑色文字）",
+    "路面常畫有<strong>讓行三角形</strong>（AU 無此設計）",
+    "誘導標：<strong>黃底黑箭頭</strong>帶一圈薄黑邊（AU 無黑邊）",
+    "許多蜿蜒的山路",
+    "綠色方向標，國道上有<strong>紅色徽章</strong>（寫有路號）"
   ],
   landscape: [
     "北島：綠色起伏丘陵、火山、地熱區",
