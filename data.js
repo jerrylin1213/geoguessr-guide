@@ -771,7 +771,11 @@ const COUNTRIES = {
     "梯形電線桿配攀爬踏板",
     "鄉村道路上的公里標記（石柱）",
     "多樣化景觀 — 從阿爾卑斯山到地中海",
-    "到處都是麵包店和藥局（綠十字）"
+    "<strong>藥局綠色霓虹十字 (Croix Verte)</strong> — 幾乎每個城鎮都有，閃爍的綠色十字掛在店面外側",
+    "<strong>Boulangerie（麵包店）</strong>招牌隨處可見 — 法國城鎮三要素：藥局、麵包店、咖啡館",
+    "<strong>Tabac（菸草店）紅色菱形招牌</strong>",
+    "<strong>狩獵牌 (panneaux de chasse)</strong> — 鄉村常見的小型標誌，標示狩獵區域",
+    "路名：Rue、Avenue、Boulevard、Chemin、Impasse、Place"
   ],
   tips: [
     "法式 bollard 反光帶環繞整個圓柱",

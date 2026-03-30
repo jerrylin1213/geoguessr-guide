@@ -788,9 +788,10 @@
       }
     });
 
-    // Close on overlay click (but not on image or nav buttons)
+    // Close on overlay click - close unless clicking on image itself or nav buttons
     document.getElementById('lightbox').addEventListener('click', (e) => {
-      if (e.target.id === 'lightbox') closeLightbox();
+      const tag = e.target.tagName;
+      if (tag !== 'IMG' && tag !== 'BUTTON') closeLightbox();
     });
 
     // Keyboard navigation
