@@ -1385,24 +1385,35 @@ const COUNTRIES = {
 'latvia': {
   name: 'Latvia', localName: 'Latvija', flag: '🇱🇻', region: 'europe',
   drivingSide: 'right', tld: '.lv', phoneCode: '+371', language: 'Latvian', currency: 'Euro (EUR)',
-  camera: ["Gen 3 涵蓋", "主要道路涵蓋尚可"],
+  camera: ["<strong>73.5% Gen 3 + 26.5% Gen 2</strong>"],
   car: [
-    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2022）",
+    "Gen 4：黑色轎車 + 圓形天線",
     "Gen 3：白色轎車"
   ],
   roads: [
-    "道路品質不一",
-    "白色中線"
+    "道路品質不一，白色中線",
+    "護欄 A 型帶<strong>白色或紅色反光體</strong>（Estonia 無；Lithuania 橙色）"
   ],
   bollardInfo: [
-    "Bollard：<strong>高、細，白色到橘色反光片，常有數字</strong>"
+    "薄且略彎，正面矩形反光條 + 背面兩圓形反射器，傾斜黑條帶",
+    "反光條下方常有<strong>數字</strong>"
+  ],
+  poleInfo: [
+    "杆頂<strong>鉤形絕緣體交替排列</strong>（左-右-左）— 波羅的海獨特"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（Estonia 相反：紅底白箭頭）",
+    "公里路標<strong>平行於道路</strong>僅一面數字（Estonia 垂直；Lithuania 45° L 形）",
+    "斑馬線 <strong>5 道條紋</strong> + 行人腿較長（Estonia/Lithuania 3 道）",
+    "公交站牌巴士 <strong>5 窗</strong>（Estonia/Lithuania 4 窗）",
+    "路牌箭頭更有<strong>風格感</strong>（Estonia/Lithuania 後部垂直）",
+    "警告標志<strong>粗紅邊 + 細白輪廓</strong>"
   ],
   landscape: [
-    "平坦的波羅的海地形",
-    "茂密的松樹和白樺林",
-    "波羅的海沙灘",
-    "Daugava 河",
-    "鄉村的木造建築"
+    "平坦波羅的海地形，Jelgava 以南更開闊少森林",
+    "茂密松樹和白樺林",
+    "Riga 有新藝術風格建築（波羅的海獨有）",
+    "鄉村白磚 + 木頭建築，陡坡波紋鐵皮屋頂"
   ],
   signs: [
     "Latvian 語 — 波羅的海語言（與 Lithuanian 相關但不同）",
