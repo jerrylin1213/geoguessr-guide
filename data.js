@@ -9481,6 +9481,33 @@ const META_SECTIONS = [
     `
   },
   
+  
+  {
+    icon: '🛡️',
+    title: 'Guardrail 護欄指南',
+    content: `
+      <div class="meta-info-block">
+        <h4>歐洲三大護欄類型</h4>
+        <p><strong>Type A (A-Profile / Armco)</strong> — 單波浪形鋼板，一條連續的波浪紋。<strong>歐洲最常見</strong>。<br>
+        A-Profile + 黑白柱 = 德語區國家（<a onclick="navigateTo('country','germany')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Germany</a>, <a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a>, <a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a>）的較強指標<br><br>
+        <strong>Type B (B-Profile / Bethlehem)</strong> — 雙波浪疊加，中間較寬，形成更複雜的圖案。<br>
+        B-Profile 中間特別寬 = <a onclick="navigateTo('country','czechia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Czechia</a> 或 <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a><br><br>
+        <strong>Thin B (細版 B)</strong> — 類似 B-Profile 但更窄/更薄。部分東歐國家使用。</p>
+      </div>
+      <div class="meta-info-block">
+        <h4>各國護欄特殊特徵</h4>
+        <p>• <a onclick="navigateTo('country','spain')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Spain</a> — 護欄上有<strong>黃橙色反光片</strong><br>
+        • <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a> — 護欄反光片為<strong>紅色</strong><br>
+        • <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a> — 獨特的<strong>方形壓扁護欄</strong>，類似傳統護欄但被壓平<br>
+        • <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a> — <strong>雙護欄</strong>（南美洲罕見）<br>
+        • <a onclick="navigateTo('country','argentina')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Argentina</a> — 護欄反光片為<strong>黃色+紅色</strong><br>
+        • <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a> — 護欄為<strong>白色+黃色</strong><br>
+        • <a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a> — 護欄為<strong>紅白色</strong><br>
+        • <a onclick="navigateTo('country','latvia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Latvia</a> — 護欄反光片為白色或紅色<br>
+        • 加拿大 Ontario — <strong>木製護欄</strong>（獨特）</p>
+      </div>
+    `
+  },
   {
     icon: '⚡',
     title: 'Rift 裂縫辨識',
