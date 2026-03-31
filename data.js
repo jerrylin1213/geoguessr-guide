@@ -8594,39 +8594,29 @@ const COUNTRIES = {
     language: 'Spanish / Guarani',
     currency: 'Guarani (PYG)',
     camera: [
-      "<strong>100% Gen 4</strong>（2024 年 7 月 - 2025 年 3 月拍攝，Hyundai 4×4 Trekker vans）",
-      "南美洲<strong>最後一個</strong>獲得 Street View 的國家",
-      "覆蓋 Asunción + 主要城市 + 主要公路 + 全部 17 省"
+      "<strong>100% Gen 4</strong>（2024 年 7 月 - 2025 年 3 月拍攝）",
+      "南美洲最後一個獲得 Street View 的國家",
+      "使用 Hyundai 4×4 Trekker vans 拍攝，覆蓋全部 17 省"
     ],
     car: [
-      "⚠️ <strong>不同道路使用不同車輛</strong> — car meta 是 Paraguay 最重要的路線辨識線索！",
-      "<strong>穴開き+錆車（有洞+生鏽）</strong>：Route 3（東西向）和 Route 7（南北向）— 非常獨特",
-      "<strong>黑車 + 側面黃/橙色溝槽 + 左上方圓形汙漬</strong>：Route 22（Concepción 南北向）— 圓形汙漬 = 22 號確定",
-      "<strong>白色車</strong>：Route 21（向西行駛）— 僅此路線使用白車",
-      "<strong>銀/灰色車</strong>：Route 6、13、18 等散布多處",
-      "<strong>黑色車</strong>：Route 8（南北大路，車不太看得到）、Route 1（南北，車更 exposed/可見範圍大）、Route 19（向南，Formosa 草密布）",
-      "車色 + 進行方向 + 道路特徵 = 可精確定位到具體路線"
+      "<strong>Hyundai 4×4 皮卡車</strong>",
+      "不同路線使用不同車輛（車色有白、黑、銀等變化）"
     ],
     roads: [
       "黃色中線 + 白色外線（標準美洲模式）",
-      "<strong>Route 2</strong>（Asunción→Ciudad del Este）：<strong>分離式道路（divided）</strong>",
-      "<strong>Route 9</strong>（泛查科公路→Villa）：分離式道路 + 有輔助車道",
-      "⚠️ 道路紅黑程度是區域線索：<strong>靠近 Brazil/Misiones 邊界 = 路面非常紅黑</strong>（Route 6）；Asunción 附近 = 正常色",
-      "北部查科：大量<strong>未鋪面道路</strong>（只有草和樹）",
+      "Route 2（Asunción→Ciudad del Este）為分離式道路",
+      "北部查科大量未鋪面道路",
+      "靠近 Brazil 邊界路面偏紅黑色",
       "城鎮中減速帶常見"
     ],
     signInfo: [
-      "PARE 停車標誌",
-      "Route 8 路旁常有<strong>誘導標（chevron signs）</strong>"
+      "PARE 停車標誌"
     ],
     landscape: [
-      "東部 Paraguay：起伏丘陵、亞熱帶森林、<strong>紅土</strong>（類似 Argentina Misiones + 南 Brazil）",
-      "西部查科：平坦、炎熱、乾燥灌木地 — <strong>未開發感</strong>（只有草木和電線桿）",
-      "最南端：開闊地形 + <strong>白粉色紅土</strong>",
-      "Route 19 附近：大量<strong>Formosa 草</strong>",
+      "東部：起伏丘陵、亞熱帶森林、紅土",
+      "西部查科：平坦、乾燥灌木地",
       "Paraguay 河將國家分為兩半",
-      "農業：大豆、畜牧、瑪黛茶",
-      "伊泰普水壩（巴西邊境）"
+      "農業：大豆、畜牧、瑪黛茶"
     ],
     signs: [
       '西班牙語和瓜拉尼語雙語標誌 — 瓜拉尼語為共同官方語言',
@@ -8645,23 +8635,18 @@ const COUNTRIES = {
       '車牌可能顯示 "PARAGUAY" 文字或國徽'
     ],
     unique: [
-      "⚠️ <strong>Car meta 是最重要的路線辨識線索</strong> — 不同路線用完全不同的車",
-      "<strong>穴開き+錆車</strong> = Route 3/7",
-      "<strong>左上圓形汙漬黑車</strong> = Route 22（Concepción）",
-      "<strong>白車</strong> = Route 21（唯一）",
-      "瓜拉尼語是最強的國家辨識線索 — 南美洲僅 Paraguay",
-      "查科的<strong>門諾派殖民地有德文</strong> — Paraguay 獨特",
+      "<strong>瓜拉尼語</strong>是最強的國家辨識線索 — 南美洲僅 Paraguay",
+      "西班牙語/瓜拉尼語雙語標誌",
+      "查科的<strong>門諾派殖民地有德文</strong>",
       "瓜拉尼貨幣（價格上的大數字）",
-      "路面紅黑程度 = 靠近 Brazil/Misiones 邊界的指標"
+      "皮卡車（Hyundai 4×4）"
     ],
     tips: [
       "瓜拉尼語 = Paraguay（南美洲唯一）",
-      "Car meta 辨路線：穴開き錆車=R3/R7、圓形汙漬黑車=R22、白車=R21",
-      "分離式道路（divided）= Route 2 或 Route 9",
-      "路面非常紅黑 = 靠近 Brazil/Misiones（Route 6）",
-      "Route 8：黑車 + 大路 + 南北 + 誘導標多",
-      "Route 19：黑車 + exposed + 南向 + Formosa 草密布",
-      "區號：021=Asunción, 03/04=北, 05=中東, 06=CDE東, 07=南",
+      "西班牙語 + 原住民語 + 非克丘亞/艾馬拉語 = Paraguay",
+      "紅土 + 平坦 + 瓜拉尼語 = 東部 Paraguay",
+      "平坦乾燥灌木地 = 西部查科",
+      "門諾派殖民地德文 = Paraguay 獨有",
       "🔗 <a href=\"https://www.google.com/maps/@-25.2637,-57.5759,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Asunción）</a>"
     ]
   },
