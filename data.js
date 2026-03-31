@@ -3717,7 +3717,9 @@ const COUNTRIES = {
     "火山地形（環太平洋火山帶）",
     "梯田（尤其是 Bali）",
     "茂密的熱帶植被",
-    "清真寺隨處可見（全球最大穆斯林人口國）"
+    "清真寺隨處可見（全球最大穆斯林人口國）",
+    "<strong>紅白色幅旗</strong>很常見（印尼國旗色）",
+    "印尼語受<strong>荷蘭語</strong>影響（vs Malaysia 受英語影響）— 如 'televisi' vs 'televisyen'"
   ],
   signs: [
     "印尼語（Bahasa Indonesia） — <strong>拉丁字母，使用馬來語系詞彙</strong>",
