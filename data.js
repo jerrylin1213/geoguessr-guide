@@ -3700,10 +3700,11 @@ const COUNTRIES = {
   name: 'India', localName: 'भारत', flag: '🇮🇳', region: 'asia',
   drivingSide: 'left', tld: '.in', phoneCode: '+91', language: 'Hindi, English, + 20 others', currency: 'Rupee (INR)',
   camera: [
-    "<strong>99% Shitcam + 0.9% Gen 4（smallcam）+ 0.1% Gen 3</strong>",
-    "Shitcam 特徵：偏棕色調、圓形大面積打碼蓋住街景車",
-    "Gen 4 為 <strong>smallcam</strong>（安裝位置比普通四代更低，前方有小凸起）",
-    "全國範圍有大量<strong>第三代徒步街景</strong>分布"
+    "<strong>Shitcam + Gen 4 smallcam + Gen 3 trekker</strong>（⚠️ 2025 年起 Gen 4 smallcam 大量擴展中）",
+    "2025 前主要為 Shitcam（偏棕色調、圓形大面積打碼）",
+    "2024 年底起 Gen 4 <strong>smallcam</strong> 從 Hyderabad/Chennai 開始，2025 已擴展至 10+ 邦（Kerala、Maharashtra、Karnataka、UP、West Bengal 等）",
+    "南亞首個獲得高品質 Gen 4 覆蓋的國家",
+    "全國範圍仍有大量<strong>第三代 trekker 步行街景</strong>"
   ],
   car: [
     "絕大多數為 Shitcam 覆蓋 — 偏棕色調、大圓形打碼",
@@ -11563,15 +11564,15 @@ const META_SECTIONS = [
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
         <p><strong>🔽 Low Cam（低相機）：</strong>確定有的國家：<strong><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a>、<a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a></strong>（因隱私法規，全國性低相機）。部分覆蓋可能有低相機：Sri Lanka（Gen 4）、<a onclick="navigateTo('country','lebanon')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lebanon</a>、Italy。Japan 和 <a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> 的模糊區域最大，是最可靠的辨識線索。<br>
-        <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> — 畫質明顯比標準 Gen 3 差，略帶霧感 (foggy)，文字難以辨認。非 Google 官方拍攝，2022 年後城市擴展。<br>
+        <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> — ⚠️ 2025 年起已大量獲得 Gen 4 smallcam 覆蓋（10+ 邦）。舊覆蓋為 Shitcam（偏棕模糊）和 Gen 3 trekker。<br>
         <strong>💩 Shit Cam（低品質第三方覆蓋）：</strong><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> 等非洲國家 — 極低畫質、嚴重模糊、過曝或欠曝、顏色失真。由 Mapillary 等第三方志願者拍攝，非 360° 全景。<br>
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。<a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a> (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
-        • <a href="https://maps.app.goo.gl/9KK63KnFc25fvAi5A" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
-        • <a href="https://maps.app.goo.gl/6Hp2GkiBxfDwBBK8A" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
-        • <a href="https://maps.app.goo.gl/gmF13RNeA6DfMNY16" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
-        • <a href="https://maps.app.goo.gl/A7GssHcV2YLo7NiL7" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a><br><br>
+        • <a href="https://maps.app.goo.gl/9KK63KnFc25fvAi5A" target="_blank" style="color:var(--accent-blue)">Japan Low Cam (Tokyo)</a><br>
+        • <a href="https://maps.app.goo.gl/6Hp2GkiBxfDwBBK8A" target="_blank" style="color:var(--accent-blue)">Switzerland Low Cam (Zürich)</a><br>
+        • <a href="https://maps.app.goo.gl/gmF13RNeA6DfMNY16" target="_blank" style="color:var(--accent-blue)">India Unofficial Cam (Delhi)</a><br>
+        • <a href="https://maps.app.goo.gl/A7GssHcV2YLo7NiL7" target="_blank" style="color:var(--accent-blue)">Uganda Coverage (Kampala)</a><br><br>
         <img src="images/meta/lowcam_japan.jpg" alt="Japan Low Cam" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <em style="font-size:0.8rem;color:var(--text-muted)">↑ Japan Low Cam 實際街景（Tokyo Suginami, 2022）— 低角度視角、道路看起來更寬</em></p>
       </div>

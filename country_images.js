@@ -1222,7 +1222,7 @@ const COUNTRY_IMAGES = {
     plates: [
     ],
     poles: [
-      'https://upload.wikimedia.org/wikipedia/commons/7/77/Electric_Pole_Inakanahalli_Coorg_Jun24_A7CR_01423.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/8/84/Old_Town_Varanasi%2C_India_%288507662832%29.jpg',
     ],
     signs: [
     ],
