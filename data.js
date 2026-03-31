@@ -8172,8 +8172,8 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Peso (CUP)',
     camera: [
-      "<strong>Gen 3 + Gen 4（Gen 4 紅色車報告）</strong>",
-      '覆蓋來自 Mapillary 和其他第三方來源',
+      "<strong>100% 非官方覆蓋</strong> — 無 Google 官方街景",
+      '覆蓋來自 Mapillary 和其他第三方眾包（非 Google 相機世代概念不適用）',
       '主要覆蓋 Havana（尤其是舊 Havana）和部分旅遊路線',
       '影像品質差異極大 — 通常低於標準 Google 覆蓋品質',
       '覆蓋為眾包：12 人團隊使用租賃汽車、機車和自行車繪製了 80-90% 的舊 Havana',
@@ -8408,9 +8408,8 @@ const COUNTRIES = {
     language: 'Spanish / Guarani',
     currency: 'Guarani (PYG)',
     camera: [
-      "<strong>67.4% Gen 3 + 32.6% Gen 4</strong>",
-      '有覆蓋的地方有 Gen 3 和 Gen 4',
-      '覆蓋集中在 Asuncion 和主要公路',
+      "<strong>Gen 3 為主 + 部分 Gen 4</strong>（⚠️ 確切比例待驗證）",
+      '覆蓋集中在 Asunción 和主要公路',
       '泛查科公路有覆蓋',
       '鄉村地區覆蓋稀疏'
     ],
@@ -8728,7 +8727,7 @@ const COUNTRIES = {
     language: 'English, French, Mauritian Creole',
     currency: 'Mauritian Rupee (MUR)',
     camera: [
-      "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>",
+      "<strong>Gen 3 為主 + 部分 Gen 4</strong>（⚠️ 確切比例待驗證）",
       '作為小島國覆蓋良好',
       '大部分主要道路和城鎮有覆蓋',
       '部分海岸和海灘有 trekker 覆蓋',
@@ -9872,7 +9871,7 @@ const COUNTRIES = {
     language: 'English, Arabic, Dinka, Nuer',
     currency: 'South Sudanese Pound (SSP)',
     camera: [
-      "<strong>~60% Gen 3 + ~30% Gen 4 + ~10% Gen 2</strong>",
+      "<strong>非官方/社群覆蓋為主</strong>（⚠️ 確切比例待驗證）",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Juba 有部分覆蓋',
       '全球覆蓋最少的國家之一',
@@ -10021,7 +10020,7 @@ const COUNTRIES = {
     language: 'English, Fijian, Fiji Hindi',
     currency: 'Fijian Dollar (FJD)',
     camera: [
-      "<strong>~60% Gen 3 + ~30% Gen 4 + ~10% Gen 2</strong>",
+      "<strong>Gen 3 為主</strong>（⚠️ 確切比例待驗證）",
       'Viti Levu（最大島嶼）主要道路和部分 Vanua Levu 有覆蓋',
       '有覆蓋的地方為 Gen 3 相機',
       '海岸和度假區可能有額外覆蓋',
