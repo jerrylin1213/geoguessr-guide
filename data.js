@@ -11426,7 +11426,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>R7（15 顆相機，首款完全由 Google 自製的相機）<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@51.5074,-0.1278,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">London Gen 3 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/KVaFNyjNE17Tb5dR7" target="_blank" style="color:var(--accent-blue)">London Gen 3 覆蓋</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 (2017–至今)</h4>
@@ -11435,7 +11435,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>7 顆 20MP 感光元件（相比 Gen 3 的 15 顆 5MP 大幅升級）+ 2 顆專用高畫質側面相機。<br>
         <strong>涵蓋國家：</strong>比 Gen 3 少見，主要為近期拍攝。<br>
         <strong>辨識要點：</strong>異常鮮豔/飽和的色彩 + 超高解析度 = Gen 4<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@59.3293,18.0686,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/z8ZeeJbzGK176QYu9" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 覆蓋</a></p>
       </div>
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
@@ -11445,10 +11445,10 @@ const META_SECTIONS = [
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。<a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a> (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
-        • <a href="https://www.google.com/maps/@35.6762,139.6503,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
-        • <a href="https://www.google.com/maps/@47.3769,8.5417,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
-        • <a href="https://www.google.com/maps/@28.6139,77.2090,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
-        • <a href="https://www.google.com/maps/@0.3136,32.5811,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a></p>
+        • <a href="https://maps.app.goo.gl/9KK63KnFc25fvAi5A" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
+        • <a href="https://maps.app.goo.gl/6Hp2GkiBxfDwBBK8A" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
+        • <a href="https://maps.app.goo.gl/gmF13RNeA6DfMNY16" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
+        • <a href="https://maps.app.goo.gl/A7GssHcV2YLo7NiL7" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a></p>
       </div>
       <div class=meta-info-block>
         <h4>快速辨識流程</h4>
