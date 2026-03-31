@@ -6835,26 +6835,36 @@ const COUNTRIES = {
   ],
   signs: [
     "英語",
-    "速限以 km/h 計",
-    "高速公路使用綠色標誌"
+    "速限：白色矩形內紅圈黑字（vs NZ 沒有白色矩形背景）",
+    "讓路標：白框+<strong>黑字</strong>（vs NZ <strong>紅字</strong>）",
+    "<strong>WA</strong>：黃色路標桿（其他州不用）",
+    "<strong>QLD</strong>：路標有<strong>螢光邊</strong>",
+    "<strong>NSW</strong>：紅色<strong>禁止停車</strong>標誌（其他州用白色版）",
+    "<strong>SA</strong>：唯一使用 25 km/h 學校區限速的州",
+    "<strong>NT</strong>：有 130 km/h 限速（全澳唯一）",
+    "C 開頭的路名 = TAS 或 VIC"
   ],
   plates: [
-    "各州不同 — 許多不同設計",
-    "NSW：黃色、VIC：白/藍色、QLD：栗色"
+    "各州不同 — 許多設計，模糊後仍可辨識",
+    "NSW：黃色、VIC：白/藍色、QLD：栗色",
+    "區號：2 位數，有地理分布規律",
+    "每個州有獨特<strong>公車站台設計</strong>（城市常見，值得學習）"
   ],
   unique: [
-    "<strong>白色 bollard 配左側細紅色反光片</strong>",
+    "<strong>白色 bollard 正面紅色反光板</strong>（vs NZ 環繞一圈）",
+    "各州<strong>電線桿完全不同</strong>：SA 三叉戟、VIC 三線圈、QLD 向上線圈、TAS L 形、NT 鏽桿",
+    "各州<strong>路樁不同</strong>：WA 棕底/黑白條紋、QLD 短紅條/黑黃、SA 短紅條",
+    "各州<strong>標誌不同</strong>：WA 黃桿、QLD 螢光邊、NSW 紅禁停",
     "袋鼠/野生動物警告標誌",
-    "桉樹林",
-    "遼闊的沙漠荒野",
-    "靠左行駛 + 英語 + km/h",
-    "獨特的野生動物穿越標誌（袋鼠、袋熊等）"
+    "靠左行駛 + 英語 + km/h + 桉樹"
   ],
   tips: [
-    "英語 + 靠左行駛 + km/h + 巨大空曠景觀 = Australia",
-    "左側細紅色反光片 bollard = Australia",
-    "袋鼠標誌 = Australia",
-    "比 New Zealand 大得多且更乾燥",
+    "英語 + 靠左 + km/h + 桉樹 = Australia",
+    "正面紅色反光板 bollard（非環繞）= Australia（vs NZ 環繞）",
+    "讓路標黑字 = AU；紅字 = NZ",
+    "速限有白色矩形背景 = AU；沒有 = NZ",
+    "Per-state 線索：WA 黃桿 / QLD 螢光邊 / SA 25km學校 / NT 130km / NSW 紅禁停",
+    "Per-state 桿頂：SA 三叉戟 / VIC 三線圈 / QLD 向上 / TAS L形 / NT 鏽桿",
     "🔗 <a href=\"https://www.google.com/maps/@-33.8688,151.2093,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sydney）</a>"
   ]
 },
