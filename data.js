@@ -4614,51 +4614,66 @@ const COUNTRIES = {
 'uae': {
   name: 'United Arab Emirates', localName: 'الإمارات', flag: '🇦🇪', region: 'middle-east',
   drivingSide: 'right', tld: '.ae', phoneCode: '+971', language: 'Arabic', currency: 'Dirham (AED)',
-  camera: ["<strong>76% Gen 4 + 24% Gen 3</strong>", "杜拜和阿布達比涵蓋極佳"],
+  camera: ["<strong>76% Gen 4 + 24% Gen 3</strong>", "杜拜和阿布達比涵蓋極佳", "東北部覆蓋最密，其他地區僅 Sir Baniyas Island 有車載街景"],
   car: [
-    "Gen 3：<strong>白色轎車</strong>（或銀色）",
-    "白色車 vs Jordan 黑色車 — 最基本的辨識差異",
-    "Gen 4 涵蓋也有白色車",
-    "無特殊 antenna 或 roof rack"
+    "Gen 3：<strong>白色轎車 + 車頂黑色支架</strong> — 中東國家中<strong>只有 UAE 用白車</strong>（Jordan 是黑車）",
+    "Gen 4：<strong>白色 pickup truck</strong>，相機離車很近，天線在車廂<strong>正中央</strong>（Qatar 天線在左側）",
+    "Gen 4 也有<strong>黑色轎車</strong>（煞車燈通常可見）— 類似 Israel 的 Gen 4 黑車",
+    "Sir Baniyas Island：罕見的白色車 + <strong>可見側鏡</strong>"
   ],
   roads: [
-    "右側行駛",
-    "現代多車道高速公路",
-    "<strong>黃色邊線</strong>",
-    "路面品質極優",
-    "路邊有沙"
+    "現代多車道高速公路，路面品質極優",
+    "<strong>黃色邊線 + 白色或黃色中線</strong>（Jordan、Israel 類似）",
+    "<strong>條紋路肩</strong>：黑白或黑黃條紋 — 中東僅 UAE 和 Oman 有",
+    "路邊有沙",
+    "大量道路分隔帶和環島"
+  ],
+  bollardInfo: [
+    "<strong>黑白條紋路標/bollard</strong> — 整個中東地區<strong>僅 UAE 採用條紋路標</strong>",
+    "路肩也是條紋狀（黑白或黑黃）"
   ],
   poleInfo: [
-    "路燈杆和標誌杆常見<strong>黑白條紋</strong>塗裝 — 海灣國家特色",
-    "現代金屬杆為主，城市區域有裝飾性路燈"
+    "<strong>深棕色木質電線桿</strong>，杆頂有 3 個絕緣器對稱連接在水平金屬棒上",
+    "vs Jordan：灰色混凝土桿，絕緣器間距更大",
+    "城市區域有現代金屬路燈"
   ],
   landscape: [
-    "沙漠中的超現代城市",
-    "杜拜：摩天大樓（哈里發塔）",
+    "平坦沙漠景觀為主",
+    "杜拜：摩天大樓天際線（哈里發塔）",
     "阿布達比：規劃完善的現代城市",
-    "可見棕櫚島",
-    "城市外有沙丘"
+    "住宅區：<strong>淺色石頭房屋</strong>，人行道常用<strong>紅色石頭</strong>鋪設",
+    "最東部有山脈分布（類似 Oman 北海岸）",
+    "Ras al Khaimah（最北部）：東部有淺色山脈",
+    "偶爾可見街景裂縫（camera rift）"
   ],
   signs: [
     "阿拉伯文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">شارع الشيخ زايد دبي</span>",
-    "所有標誌皆為阿拉伯文 + 英文",
+    "所有標誌皆為<strong>阿拉伯文 + 英文</strong>雙語（旅遊業發達）",
+    "vs Jordan：商業標牌大多<strong>不附英文</strong> — 區分 UAE/Jordan 的關鍵",
     "高速公路使用綠色標誌"
   ],
   plates: [
     "<strong>各酋長國設計不同</strong> — 可用於精確定位區域",
     "Abu Dhabi：白底 + 紅色文字；Dubai：白底 + 藍色 logo；Sharjah：白底 + 紅色邊框",
     "每個酋長國名稱印在車牌上 — 辨識度極高",
-    "格式：酋長國名 + 字母類別 + 數字（數字越少越貴）"
+    "格式：酋長國名 + 字母類別 + 數字（數字越少越貴）",
+    "長型車牌（同 Jordan，但 Jordan 有綠色帶）"
   ],
   unique: [
-    "沙漠中聳立的超現代摩天大樓",
-    "阿拉伯文 + 英文 + 可見極端財富",
-    "寬闊高速公路上有豪華車",
-    "杜拜地標可辨識"
+    "<strong>黑白條紋路標</strong> — 中東僅 UAE 有",
+    "<strong>白色街景車</strong> — 中東僅 UAE 用白車（Gen 3）",
+    "Gen 4 pickup truck 天線在<strong>正中央</strong>（Qatar 在左側）",
+    "<strong>條紋路肩</strong>（黑白/黑黃）",
+    "阿拉伯文 + 英文雙語（vs Jordan 較少英文）",
+    "超現代摩天大樓 + 沙漠",
+    "深棕色木質電線桿 + 3 絕緣器"
   ],
   tips: [
-    "超現代沙漠城市 + 阿拉伯文／英文 = UAE",
-    "沙漠中的摩天大樓 = 很可能是 Dubai／UAE",
+    "黑白條紋路標/路肩 = UAE（中東獨有）",
+    "白色街景車 + 中東沙漠 = UAE",
+    "阿拉伯文 + 英文雙語標牌 + 沙漠 = UAE（Jordan 英文少得多）",
+    "Pickup truck 天線在中央 = UAE（Qatar 在左側）",
+    "車牌上的酋長國名稱可精確定位",
     "🔗 <a href=\"https://www.google.com/maps/@25.2048,55.2708,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dubai）</a>"
   ]
 },
@@ -5777,27 +5792,41 @@ const COUNTRIES = {
 'uruguay': {
   name: 'Uruguay', localName: 'Uruguay', flag: '🇺🇾', region: 'south-america',
   drivingSide: 'right', tld: '.uy', phoneCode: '+598', language: 'Spanish', currency: 'Peso (UYU)',
-  camera: ["<strong>100% Gen 3</strong>"],
+  camera: ["<strong>100% Gen 3</strong>", "⚠️ 街景<strong>大多數在陰天拍攝</strong> — 陰沉天空是 Uruguay 重要線索"],
   car: [
-    "<strong>黑色轎車</strong>（如 Argentina）",
+    "<strong>黑色轎車，無天線</strong>（同 Argentina）",
+    "畫面略帶模糊感（比 Argentina 的黑車稍差）",
     "配合<strong>三條線：雙黃色中線 + 白色虛線交錯</strong>辨識 — Uruguay 獨有"
   ],
   roads: [
-    "<strong>三線：雙黃色中心線 + 白色虛線交錯</strong> — 僅 Uruguay！",
-    "白色木製標誌桿",
+    "<strong>三線：雙黃色中心線 + 白色虛線交錯</strong> — 僅 Uruguay！全國公路幾乎都有",
+    "<strong>白色粗木製標誌桿</strong>，背面有 4 個矩形缺口 — Uruguay 獨有",
     "白黑色交通號誌",
-    "<strong>綠色塗漆里程碑</strong> — Uruguay 獨有"
+    "<strong>綠色塗漆里程碑</strong> — Uruguay 獨有",
+    "護欄反光板支架有<strong>4 個邊</strong>（Argentina 為 3 個邊）",
+    "誘導標：<strong>黃底黑箭頭</strong>（Argentina 為白底紅箭頭）"
   ],
   bollardInfo: [
-    "Bollard：白色正面 + 頂部矩形反光片"
+    "白色 Bollard，<strong>一面塗黃色</strong>（朝車道側）— Uruguay 獨有",
+    "頂部有矩形反光片",
+    "也有<strong>石制路障</strong>（低矮石塊排列在路邊）"
+  ],
+  poleInfo: [
+    "<strong>三叉杆（trident pole）</strong>：杆頂有 3 個向上的絕緣器呈三叉戟形 — Uruguay 最獨特的電線桿",
+    "也有圓形桿配扁平金屬板、方形混凝土桿",
+    "鄉村地區木桿常見"
   ],
   signInfo: [
-    "PARE 停車標誌"
+    "PARE 停車標誌",
+    "誘導標（chevron）：<strong>黃底黑箭頭</strong> — 與 Argentina（白底紅箭頭）明確區分"
   ],
   landscape: [
-    "平坦草地牧場（牛/羊）",
-    "防風林",
-    "農業（大麥、大豆、玉米）"
+    "⚠️ <strong>幾乎永遠陰天</strong> — 陰沉灰暗天空是 Uruguay 最顯著的環境特徵",
+    "<strong>緩起伏丘陵</strong>地形 — 道路通常至少有一個緩坡（完全平坦→可能是 Argentina）",
+    "<strong>紅色土壤</strong>（從淺粉到深紅不等）— 與 Argentina 的灰/棕色土壤不同",
+    "草地牧場（牛/羊）、防風林",
+    "農業（大麥、大豆、玉米）",
+    "平屋頂混凝土房屋，牆面顏色多已褪色"
   ],
   signs: ["西班牙語"],
   plates: [
@@ -5807,15 +5836,21 @@ const COUNTRIES = {
     "Mercosul 格式也見於 Brazil 和 Argentina — 靠其他線索區分"
   ],
   unique: [
-    "<strong>三線道路（雙黃線 + 白色虛線）</strong>",
+    "<strong>三線道路（雙黃線 + 白色虛線）</strong> — 最強辨識特徵",
+    "<strong>陰天天空</strong> — 幾乎所有街景都是陰天",
+    "<strong>三叉杆（trident pole）</strong> — 杆頂 3 個向上絕緣器",
     "<strong>綠色里程碑</strong>",
+    "<strong>紅色土壤</strong>",
     "黑色 Google 街景車（與 Argentina 相同）",
     "ANCAP 加油站（Argentina 是 YPF）",
-    "白黑色交通號誌"
+    "白色粗木製標誌桿（背面 4 個缺口）",
+    "Bollard 一面塗黃色"
   ],
   tips: [
     "三線道路模式 = Uruguay（100%）",
+    "陰天 + 緩起伏丘陵 + 紅土 = Uruguay（vs Argentina 晴天 + 平坦 + 灰土）",
     "黑色車 + ANCAP 加油站 = Uruguay（Argentina 是 YPF）",
+    "三叉杆（杆頂 3 個向上絕緣器）= Uruguay",
     "道路旁的綠色里程碑 = Uruguay",
     "🔗 <a href=\"https://www.google.com/maps/@-34.9011,-56.1645,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Montevideo）</a>"
   ]
@@ -10236,6 +10271,10 @@ const COUNTRIES = {
     "靠右行駛（美國領土）",
     "白色路肩線、黃色中央分隔線（美國標準）"
   ],
+  poleInfo: [
+    "<strong>木質電線桿</strong>帶頂部橫桿 — vs Guam 使用混凝土電線桿",
+    "美式風格配置，帶絕緣器和變壓器"
+  ],
   landscape: [
     "熱帶氣候，大量茂密且相對低矮的植被",
     "<strong>鳳凰木</strong>（官方樹種）擁有寬大樹冠和鮮豔紅花 — Guam 少見此樹",
@@ -10670,6 +10709,9 @@ const COUNTRIES = {
     "右側行駛",
     "道路品質參差不齊",
     "美式道路標誌"
+  ],
+  poleInfo: [
+    "美式木質電線桿 — 標準太平洋島嶼配置"
   ],
   landscape: [
     "熱帶太平洋島嶼",

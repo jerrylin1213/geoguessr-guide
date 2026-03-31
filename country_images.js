@@ -313,7 +313,6 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/696fb756de6cb0130788acd66ab7ae6bd993e8e3/47cad/static/img/places/bolivia/car-metas/white.png',
-      'https://d33wubrfki0l68.cloudfront.net/3c50782473207f6fc3d4f762141ca0ec780c3032/14ab9/static/img/places/bolivia/car-metas/bolivia_national_park.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/0ff7fb289fe0542bde8e296230334c338d60a6ec/b4a58/static/img/places/bolivia/bollards/front.png',

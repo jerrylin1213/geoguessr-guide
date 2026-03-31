@@ -409,8 +409,8 @@
         ${bollardImageCard(id, c.bollardInfo || [])}
         ${poleImageCard(id, c.poleInfo || [])}
         ${architectureCard(id, c.landscape || [])}
-        ${signImageCard(id, c.signInfo || [])}
-        ${detailCard('🔤', '語言 & 標誌', c.signs || [])}
+        ${c.signInfo && c.signInfo.length > 0 ? signImageCard(id, c.signInfo) : ''}
+        ${signEnhancedCard(id, c.signs || [], !c.signInfo || c.signInfo.length === 0)}
         ${plateImageCard(id, c.plates || [])}
         ${detailCard('🔍', '獨特辨識特徵', c.unique || [], true)}
         ${c.tips && c.tips.length ? tipsCard(c.tips) : ''}
@@ -435,6 +435,45 @@
           <ul>
             ${items.map(item => `<li>${item}</li>`).join('')}
           </ul>
+        </div>
+      </div>
+    `;
+  }
+
+  function signEnhancedCard(countryId, items, includeImages) {
+    if (!items || items.length === 0) {
+      // Still show sign images even if no text
+      if (!includeImages) return '';
+      const geodummySigns = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.signs;
+      const bollardSlug = BOLLARD_IMAGES[countryId];
+      if ((!geodummySigns || geodummySigns.length === 0) && !bollardSlug) return '';
+    }
+    let imgHtml = '';
+    if (includeImages) {
+      const geodummySigns = typeof COUNTRY_IMAGES !== 'undefined' && COUNTRY_IMAGES[countryId]?.signs;
+      const bollardSlug = BOLLARD_IMAGES[countryId];
+      if (geodummySigns && geodummySigns.length > 0) {
+        imgHtml += '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">' +
+          geodummySigns.map(url =>
+            `<img src="${url}" alt="Road sign" style="max-width:48%;border-radius:8px;border:1px solid var(--border-color);object-fit:contain;height:auto;" onerror="this.style.display='none'">`
+          ).join('') + '</div>';
+      }
+      if (bollardSlug) {
+        const signImgs = SIGN_TYPES.map(type =>
+          `<img src="https://geomastr.com/assets/media/streetsigns/${type}/${bollardSlug}.svg" alt="${type}" style="max-width:70px;margin:4px;" onerror="this.style.display='none'">`
+        ).join('');
+        imgHtml += `<div style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;">${signImgs}</div>`;
+      }
+    }
+    return `
+      <div class="detail-card">
+        <div class="detail-card-header">
+          <span class="icon">🔤</span>
+          <h3>語言 & 標誌</h3>
+        </div>
+        <div class="detail-card-body">
+          ${imgHtml}
+          ${items && items.length > 0 ? '<ul>' + items.map(item => `<li>${item}</li>`).join('') + '</ul>' : ''}
         </div>
       </div>
     `;
@@ -472,9 +511,18 @@
     if (shitMatch) {
       gens.push({ pct: parseFloat(shitMatch[1]), gen: 0 }); // 0 = shitcam
     }
+    // Check for Trekker/Tripod/非Google
+    const trekkerMatch = first.match(/(\d+\.?\d*)%.*(?:Trekker|trekker|徒步|三腳架|Tripod)/i);
+    if (trekkerMatch) {
+      gens.push({ pct: parseFloat(trekkerMatch[1]), gen: 5 }); // 5 = Trekker
+    }
+    const nonGoogleMatch = first.match(/(\d+\.?\d*)%.*(?:非\s*Google|百度|騰訊|Baidu|Tencent|KakaoMap|Naver)/i);
+    if (nonGoogleMatch) {
+      gens.push({ pct: parseFloat(nonGoogleMatch[1]), gen: 6 }); // 6 = non-Google
+    }
 
-    const genColors = { 1: '#ef4444', 2: '#f59e0b', 3: '#3b82f6', 4: '#10b981', 0: '#6b7280' };
-    const genLabels = { 1: 'Gen 1', 2: 'Gen 2', 3: 'Gen 3', 4: 'Gen 4', 0: 'Shitcam' };
+    const genColors = { 1: '#ef4444', 2: '#f59e0b', 3: '#3b82f6', 4: '#10b981', 0: '#6b7280', 5: '#8b5cf6', 6: '#ec4899' };
+    const genLabels = { 1: 'Gen 1', 2: 'Gen 2', 3: 'Gen 3', 4: 'Gen 4', 0: 'Shitcam', 5: 'Trekker', 6: '非Google' };
 
     if (gens.length > 0 && gens.reduce((s, g) => s + g.pct, 0) > 50) {
       // Bar: only show text inside if width > 20%, otherwise bar is clean
