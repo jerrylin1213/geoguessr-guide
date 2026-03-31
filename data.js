@@ -3860,11 +3860,13 @@ const COUNTRIES = {
     "藍色箭頭形路牌懸掛在電線桿金屬條上"
   ],
   landscape: [
-    "多山地形（70% 為山地，類似 Japan）",
+    "多山地形（70% 為山地）— 即使在平坦地區也幾乎總能看到<strong>遠處地平線上的山巒</strong>",
     "密集都市（首爾、釜山）",
-    "鄉間有稻田",
-    "佛教寺廟與現代建築並存",
-    "四季分明的樹木（櫻花、秋季紅葉）"
+    "<strong>紅磚</strong>是非常常見的建築材料",
+    "傳統<strong>瓷砖屋頂</strong>（檐角向上彎曲）+ <strong>藍色屋頂</strong>常見",
+    "<strong>房屋門牌</strong>：藍色、<strong>房子形狀</strong>，上有完整地址（韓文+拉丁文）— 非常獨特",
+    "<strong>濟州島</strong>：深色火山土 + 遠處火山 + <strong>深色火山岩石牆</strong>",
+    "鄉間有稻田，四季分明"
   ],
   signs: [
     "韓文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">거리 서울특별시</span> — 方塊形音節文字",
@@ -3882,11 +3884,14 @@ const COUNTRIES = {
     "車牌上有韓文"
   ],
   unique: [
-    "<strong>韓文</strong> — 方塊音節字形，非常有辨識度",
+    "<strong>韓文</strong> — 方塊音節字形，含大量圓圈，非常有辨識度",
     "<strong>KakaoMap／Naver 涵蓋</strong>（與 Google Street View 不同）",
+    "<strong>藍色房子形門牌</strong>（完整地址韓文+拉丁文）",
     "Samsung、LG、Hyundai 品牌到處都有",
     "PC방（網咖）招牌",
-    "特色韓式公寓大樓（아파트）"
+    "特色韓式公寓大樓（아파트）",
+    "<strong>區號</strong>：02=首爾（唯一兩位數）→ 064=濟州，從北到南遞增",
+    "Gen 2 覆蓋幾乎<strong>僅限首爾和釜山</strong>"
   ],
   tips: [
     "方塊字形（韓文）= Korean",
@@ -5420,11 +5425,17 @@ const COUNTRIES = {
     "誘導標：<strong>黑底黃箭頭</strong>（南美洲大部分為黃底黑箭頭，巴西相反）"
   ],
   landscape: [
-    "<strong>紅橘色土壤</strong> — 非常獨特",
-    "Paraná 松（Paraná/Santa Catarina）",
-    "Amazon — 涵蓋稀疏",
-    "甘蔗（São Paulo）、咖啡（Minas Gerais）",
-    "裸露紅磚建築"
+    "<strong>紅橘色土壤</strong>：從 MT 附近的淺粉到 Paraná 河附近的深栗色（東北部和 RS 大部分非紅色）",
+    "<strong>橙色瓦片屋頂</strong>非常常見",
+    "<strong>透明衛星鍋</strong> — 拉美各國中<strong>通常只有 Brazil</strong> 有",
+    "屋頂常見<strong>藍色 FORTLEV 水箱</strong>",
+    "東北部：乾燥灌叢 + 多肉植物（<strong>Caatinga 景觀</strong>，半乾旱荊棘林）",
+    "Amazon：茂密雨林，道路很少，覆蓋稀疏",
+    "RS（南里奧格蘭德）：鬱綠丘陵田野（似 Uruguay）",
+    "MG/RJ/ES：連綿起伏草地丘陵；ES 有<strong>巨大裸岩石山</strong>",
+    "南部三州（PR/SC/RS）：<strong>Paraná 松</strong>（長水平枝條，葉子只在末端）",
+    "中部（TO/GO/BA/MG）：非常高的草",
+    "桉樹種植園遍布各地"
   ],
   signs: [
     "<strong>葡萄牙語</strong> — 南美洲唯一說葡萄牙語的國家",
@@ -5441,17 +5452,25 @@ const COUNTRIES = {
     "<strong>葡萄牙語</strong>（南美洲唯一）",
     "<strong>黑色標誌背面</strong>",
     "<strong>紅橘色土壤</strong>",
+    "<strong>透明衛星鍋</strong> — 拉美僅 Brazil",
+    "<strong>藍色 FORTLEV 水箱</strong>",
+    "<strong>橙色瓦片屋頂</strong>",
     "「梯子」電線桿",
-    "標誌上的 BR/SP/PR 州代碼",
-    "車上的短天線"
-  ,
-    "路名使用 Rua（街道）、Avenida (Av.)（大道）、Praça（廣場）、Travessa（小巷）"
+    "誘導標<strong>黑底黃箭頭</strong>（其他南美為黃底黑箭頭 — 相反！）",
+    "白色路緣石",
+    "<strong>區號</strong>（兩位數括號內）按地域分布（1 結尾=州府/大城市）",
+    "路名使用 Rua、Avenida (Av.)、Praça、Travessa"
   ],
   tips: [
     "南美洲的葡萄牙語（ã、õ）= Brazil（100%）",
     "黑色標誌背面 = Brazil",
-    "紅橘色土壤 = 非常可能是 Brazil",
+    "透明衛星鍋 = Brazil（拉美唯一）",
+    "藍色 FORTLEV 水箱 + 橙色瓦片屋頂 = Brazil",
+    "黑底黃箭頭誘導標 = Brazil（其他南美為相反配色）",
     "梯子電線桿 + 葡萄牙語 = Brazil",
+    "Caatinga（乾燥灌叢）= 東北部",
+    "Paraná 松 = 南部三州（PR/SC/RS）",
+    "Amapá Gen 4：右前方有<strong>相機汙漬</strong>",
     "🔗 <a href=\"https://www.google.com/maps/@-23.5505,-46.6333,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sao Paulo）</a>"
   ]
 },
