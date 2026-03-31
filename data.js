@@ -663,23 +663,28 @@ const COUNTRIES = {
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + DK 代碼",
-    "格式：AB 12 345"
+    "<strong>鸚鵡車牌</strong>（Parrot plates）：左側有<strong>黃色區域</strong> — Denmark 獨有",
+    "商業車牌為<strong>黃色</strong>（貨車常見）"
   ],
   unique: [
-    "<strong>Bollard 頂部有紅色條紋</strong>（vs Belgium 沒有）",
-    "<strong>極度平坦地形</strong>配風力發電機",
-    "文字中有 æ、ø、å — 可與 Swedish（å、ä、ö）區分",
-    "到處都是紅磚建築",
-    "幾乎每條路都有自行車道",
-    "平坦農田，完全沒有山脈"
-  ,
-    "路名使用 gade（街道）、vej（路）、plads（廣場）、allé（林蔭道）"
+    "<strong>外側標線由小白色正方形組成</strong> — Denmark 獨有",
+    "<strong>Bollard 深橙色條紋</strong>（vs Belgium 無）",
+    "<strong>鸚鵡車牌</strong>（左側黃色區域）— Denmark 獨有",
+    "極度平坦 + 風力發電機 + 紅磚建築",
+    "自行車道旁有<strong>石制路障</strong>（頂部可能塗紅）",
+    "加油站品牌：<strong>Ingo</strong>（+Sweden）、<strong>Ok</strong>（+Netherlands）、<strong>Uno-X/Yx</strong>（+Norway）",
+    "道路編號 2-5 開頭按地區分組；<strong>Bornholm 只有 1 開頭</strong>",
+    "環形公路 O1-O4 靠近大城市",
+    "路名使用 gade（街道）、vej（路）、plads（廣場）、allé（林蔭道）",
+    "<strong>Læsø 島</strong>：傳統海草屋頂"
   ],
   tips: [
     "平坦 + 紅磚 + Danish（æ、ø、å）= Denmark",
     "ø 是關鍵：Danish/Norwegian 用 ø，Swedish 用 ö",
-    "完全平坦配風力發電機 = 很可能是 Denmark（Norway 有山脈）",
-    "注意 'vej'（道路）以區分 Norwegian 的 'vei'",
+    "外側小白色正方形標線 = Denmark",
+    "鸚鵡車牌（左側黃色）= Denmark",
+    "注意 'vej'（Danish）vs 'vei'（Norwegian）",
+    "Bornholm 道路編號只有 1 開頭",
     "🔗 <a href=\"https://www.google.com/maps/@55.6761,12.5683,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Copenhagen）</a>"
   ]
 },
@@ -2217,17 +2222,23 @@ const COUNTRIES = {
     "路邊常見<strong>天主教神龛</strong>和藍白/黃白教旗"
   ],
   landscape: [
-    "中部/北部平坦，南部多山（Tatra 山脈）",
+    "中部/北部平坦，南部多山（Tatra 山脈，Zakopane 附近）",
     "茂密森林、農業平原",
     "城市中有哥德式和巴洛克建築",
-    "許多城市有蘇聯時期公寓大樓",
-    "電桿上有鸛鳥和鸛巢"
+    "許多城市有蘇聯時期公寓大樓（部分翻新）",
+    "電桿上有鸛鳥和鸛巢",
+    "建築特徵：淺色灰泥牆 + 橙/紅/黑/棕色塑料質感屋頂瓦片",
+    "東部（Podlaskie 省）常見<strong>傳統木屋</strong>",
+    "<strong>Gdańsk</strong>：歷史市中心似荷蘭黃金時代建築"
   ],
   signs: [
     "Polish 語 — 大量使用變音符號",
     "字元：<strong>ą、ć、ę、ł、ń、ó、ś、ź、ż</strong>",
     "子音密集的單字（szcz、rz、cz、sz 組合）",
-    "地名常見 -ów、-owo、-ówek 結尾"
+    "地名後綴有地域特徵：北部多 <strong>-owo</strong>，南部多 <strong>-ów</strong>，西北 <strong>-ino/-yno</strong>，中部 <strong>-ew</strong>",
+    "北部有 <strong>Kashubian 語</strong>雙語標識；Opole 省有<strong>德語</strong>雙語",
+    "區號前兩位數有地理分布（第一位數即可大幅縮小地區）",
+    "<strong>3 位數道路</strong>的第一位數字代表地區（高度集聚）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + PL 代碼",
@@ -2835,7 +2846,12 @@ const COUNTRIES = {
     "紅色木造房屋（falun 紅漆）極為常見，尤其鄉村",
     "傳統木栅欄（垂直細木 + 斜疊木）— Sweden 常見，鄰國少見",
     "Volvo 佔所有乘用車約 30%（Norway/Finland 約 10%）",
-    "Gotland：石灰石建築 + 白色沙地路邊；Öland：極平坦 + 小石墙 + 小風車"
+    "Gotland：石灰石建築 + 白色沙地路邊；Öland：極平坦 + 小石墙 + 小風車",
+    "<strong>Skåne</strong>：白石/紅磚牆 + 半木結構 + 灰色菱形瓦屋頂",
+    "<strong>Hälsingland</strong>：大型紅色農舍（2-3 層，正面長而宏偉）",
+    "<strong>西海岸</strong>（Gothenburg 到 Norway 邊境）：房屋顏色較淺（白/淡黃），沿海有密集小紅木棚",
+    "<strong>Dalarna</strong>：獨特木工藝建築",
+    "區號前 3-4 位有地理分布（Stockholm 僅 2 位），手機始終 07 開頭"
   ],
   signs: [
     "Swedish — 使用 <strong>å、ä、ö</strong>",
@@ -2861,8 +2877,10 @@ const COUNTRIES = {
   tips: [
     "å、ä、ö = Swedish（Danish/Norwegian 改用 æ、ø、å）",
     "ö（Swedish）vs ø（Danish/Norwegian）是關鍵區別",
+    "藍底黃箭頭誘導標 = Sweden（歐洲唯一）",
     "紅色木造房屋（falun 紅）+ 森林 = Sweden",
-    "駝鹿警告標誌 = Sweden/Norway/Finland",
+    "城市路牌：Stockholm 分兩行中間黑線、Gothenburg 獨特藍色、Malmö 帶黑角白色",
+    "北部有<strong>紅色叉子標誌</strong>（雪地車道）",
     "🔗 <a href=\"https://www.google.com/maps/@59.3293,18.0686,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Stockholm）</a>"
   ]
 },
