@@ -11522,48 +11522,36 @@ const META_SECTIONS = [
     content: `
       <div class="meta-info-block">
         <h4>Gen 1 (2007–2009)</h4>
-        <img src="https://d33wubrfki0l68.cloudfront.net/ab0b7f648e4579d6245bc7df6229a5bda05c2608/14526/static/img/camera-gens/gen-1.jpg" alt="Gen 1" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <p><strong>畫質：</strong>極低 — 嚴重壓縮失真、模糊、天空過曝且有可見接縫。<br>
-        <strong>相機：</strong>Dodeca 2360 / R2<br>
-        <strong>涵蓋國家：</strong>僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, New Zealand（只有這 3 國）<br>
-        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>、<a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a> 或 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/EAQJy6U5LQrRKEwr6" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 (Nov 2007)</a><br>
         <img src="images/meta/gen1_sf.jpg" alt="Gen 1 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 1 實際街景（SF King St, Nov 2007）— 極低畫質、嚴重壓縮失真</em></p>
+        <p><strong>畫質：</strong>極低 — 嚴重壓縮失真、模糊、天空過曝且有可見接縫。<br>
+        <strong>涵蓋國家：</strong>僅 USA, Australia, New Zealand（只有這 3 國）<br>
+        <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1<br>
+        <strong>🔗 </strong><a href="https://maps.app.goo.gl/EAQJy6U5LQrRKEwr6" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 範例（Nov 2007）</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 2 (2008–2012)</h4>
-        <img src="https://d33wubrfki0l68.cloudfront.net/07bd54eb5a0817610b80e59c666d19d6ce449e34/beff7/static/img/camera-gens/gen-2.jpg" alt="Gen 2 - purple halo" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <img src="images/meta/gen2_purple_halo.jpg" alt="Gen 2 purple halo" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>畫質：</strong>比 Gen 1 好但仍為低解析度。<br>
         <strong>關鍵特徵：</strong>太陽周圍有 <strong>purple halo</strong>（鏡頭光暈），地面車輛周圍有<strong>圓形紫色模糊</strong>。<br>
-        <strong>相機：</strong>R5（8 顆 5MP 相機 + 魚眼鏡頭 + 3 組雷射掃描器）<br>
-        <strong>涵蓋國家：</strong>North America, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, NZ, Western Europe<br>
-        <strong>辨識要點：</strong>天空有 purple halo = Gen 2 → 排除 Africa、大部分 Asia、South America<br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/jXeAofrWs6uec79i9" target="_blank" style="color:var(--accent-blue)">Isle of Man Gen 2 (Douglas)</a> — 100% Gen 2 覆蓋（Sep 2010）<br>
-        <img src="images/meta/gen2_iom_a3road.jpg" alt="Gen 2 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 2 實際街景（Isle of Man A3, Sep 2010）— 畫質較低、色彩偏淡</em></p>
+        <strong>涵蓋國家：</strong>North America, Australia, NZ, Western Europe<br>
+        <strong>辨識要點：</strong>天空有 purple halo = Gen 2<br>
+        <strong>🔗 </strong><a href="https://maps.app.goo.gl/bobD7pDBwrA3XQeUA" target="_blank" style="color:var(--accent-blue)">Isle of Man Gen 2 Purple Halo 範例（Oct 2010）</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
-        <img src="https://d33wubrfki0l68.cloudfront.net/369fcd7c4bdf6e36fc981df1555933be0e48df5f/5c92b/static/img/camera-gens/gen-3.jpg" alt="Gen 3" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <img src="images/meta/gen3_tirana.jpg" alt="Gen 3 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>畫質：</strong>大幅提升 — 自然色彩、文字清晰、天空乾淨。<br>
-        <strong>相機：</strong>R7（15 顆相機，首款完全由 Google 自製的相機）<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/KVaFNyjNE17Tb5dR7" target="_blank" style="color:var(--accent-blue)">London Gen 3 覆蓋</a><br>
-        <img src="images/meta/gen3_tirana.jpg" alt="Gen 3 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 3 實際街景（Tirana, 2014）— 正常畫質、乾淨天空、無失真</em></p>
+        <strong>🔗 </strong><a href="https://maps.app.goo.gl/KVaFNyjNE17Tb5dR7" target="_blank" style="color:var(--accent-blue)">London Gen 3 範例</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 (2017–至今)</h4>
-        <img src="https://d33wubrfki0l68.cloudfront.net/cbc70adb9fd0a0c4bba7dc79657ee508d7b6af35/ea3de/static/img/camera-gens/gen-4.jpg" alt="Gen 4" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <p><strong>畫質：</strong>最高 — 色彩極其鮮豔、超高解析度.<br>
-        <strong>相機：</strong>7 顆 20MP 感光元件（相比 Gen 3 的 15 顆 5MP 大幅升級）+ 2 顆專用高畫質側面相機。<br>
+        <img src="images/meta/gen4_gothenburg.jpg" alt="Gen 4 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <p><strong>畫質：</strong>最高 — 色彩極其鮮豔、超高解析度。<br>
         <strong>涵蓋國家：</strong>比 Gen 3 少見，主要為近期拍攝。<br>
         <strong>辨識要點：</strong>異常鮮豔/飽和的色彩 + 超高解析度 = Gen 4<br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/z8ZeeJbzGK176QYu9" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 覆蓋</a><br>
-        <img src="images/meta/gen4_gothenburg.jpg" alt="Gen 4 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 4 實際街景（Gothenburg, 2024）— 鮮豔色彩、超高解析度</em></p>
+        <strong>🔗 </strong><a href="https://maps.app.goo.gl/z8ZeeJbzGK176QYu9" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 範例</a></p>
       </div>
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
