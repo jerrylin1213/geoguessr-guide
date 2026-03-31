@@ -713,7 +713,6 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
-    "Gen 4 藍車天線 2023：<strong>無涵蓋</strong>（排除 Estonia、同時排除 Hungary、Slovakia、Latvia、Croatia）",
     "無特殊車輛辨識特徵"
   ],
   roads: [
@@ -1574,10 +1573,8 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.lv', phoneCode: '+371', language: 'Latvian', currency: 'Euro (EUR)',
   camera: ["<strong>73.5% Gen 3 + 26.5% Gen 2</strong>"],
   car: [
-    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2022 為主） — 少量黑車天線覆蓋",
-    "Gen 4：也有<strong>紅色轎車</strong>（2022 為主） — 紅車稀疏分布",
-    "Gen 4 藍車天線：<strong>2023 無涵蓋</strong>（排除 Latvia、同時也排除 Hungary、Slovakia、Estonia、Croatia）",
-    "Gen 3：白色轎車"
+    "Gen 3：白色轎車",
+    "少量 Gen 4 覆蓋（黑色車+天線、紅色車 — Elori doc 確認，但比例極小）"
   ],
   roads: [
     "道路品質不一，白色中線",
@@ -2994,7 +2991,7 @@ const COUNTRIES = {
   name: 'Liechtenstein', localName: 'Liechtenstein', flag: '🇱🇮', region: 'europe',
   drivingSide: 'right', tld: '.li', phoneCode: '+423', language: 'German', currency: 'Franc (CHF)',
   camera: [
-    "<strong>100% Gen 3（全部 low cam）</strong>",
+    "<strong>Gen 3 + Gen 4（全部 low cam）</strong>",
     "與 Switzerland 完全相同的低相機特徵",
     "覆蓋有限（非常小的國家）"
   ],
@@ -4771,7 +4768,7 @@ const COUNTRIES = {
   car: [
     "白色 pickup truck，通常全部打碼",
     "vs Oman：也是白色 truck",
-    "vs UAE：UAE Gen 3 用白色轎車，Qatar 用 truck"
+    "vs UAE：UAE 用轎車，Qatar 用 truck"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
