@@ -11987,6 +11987,24 @@ const META_SECTIONS = [
         <a href="https://geometas.com" target="_blank" style="color:var(--accent-blue);font-weight:700;">Geometas</a> — 分類清晰的 meta 學習平台，含互動教學<br>
         <a href="https://education.openguessr.com" target="_blank" style="color:var(--accent-blue);font-weight:700;">OpenGuessr Education</a> — 從入門到進階的系統化教學</p>
       </div>
+      <div class="meta-info-block">
+        <h4>📋 本指南資料來源</h4>
+        <p>本指南的國家資料來自以下來源交叉比對：<br><br>
+        <strong>主要來源：</strong><br>
+        • <a href="https://www.plonkit.net" target="_blank" style="color:var(--accent-blue)">Plonk It</a> — 語雀繁中翻譯版（126 國詳細指南，本指南最主要的資料來源）<br>
+        • <a href="https://geodummy.com" target="_blank" style="color:var(--accent-blue)">Geodummy</a> — 車輛 meta、相機世代、圖片來源<br>
+        • <a href="https://geomastr.com" target="_blank" style="color:var(--accent-blue)">Geomastr</a> — Bollard、車牌、道路標誌圖片<br>
+        • <a href="https://geotips.net" target="_blank" style="color:var(--accent-blue)">GeoTips</a> — 各洲國家攻略、car meta 圖片<br>
+        • <a href="https://docs.google.com/document/d/17X21eUdU_AhbiyDsEHLQCthJKjh9VuocNf7GhCvNATA" target="_blank" style="color:var(--accent-blue)">Elori Gen 4 Europe</a> — 歐洲 Gen 4 車輛 meta 資料<br><br>
+        <strong>補充來源：</strong><br>
+        • <a href="https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/" target="_blank" style="color:var(--accent-blue)">Geoguessr Note</a> — 天線/車輛 meta 圖片<br>
+        • <a href="https://github.com/fabiencelier/geoguessr-tips" target="_blank" style="color:var(--accent-blue)">fabiencelier/geoguessr-tips</a> — 車輛截圖<br>
+        • <a href="https://geometas.com/metas/categories/google_car/" target="_blank" style="color:var(--accent-blue)">Geometas</a> — Google Car meta 資料庫<br>
+        • <a href="https://upload.wikimedia.org" target="_blank" style="color:var(--accent-blue)">Wikimedia Commons</a> — 車牌、道路標誌、電線桿、地景圖片<br>
+        • <a href="https://youtu.be/83p2j62ECog" target="_blank" style="color:var(--accent-blue)">ミルト Paraguay 攻略</a> — Paraguay 路線辨識（car meta 和區域特徵）<br>
+        • <a href="https://asunciontimes.com" target="_blank" style="color:var(--accent-blue)">Asuncion Times</a> — Paraguay Street View 上線報導<br>
+        • <a href="https://docs.google.com/spreadsheets/d/1UNvkoY-LaktF75nU_cP7-wVRAEvH3fSqVZet20HqxXA" target="_blank" style="color:var(--accent-blue)">Regionguessing Meta Library</a> — 相機世代和覆蓋資料</p>
+      </div>
     `
   }
 ];
