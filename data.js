@@ -104,6 +104,9 @@ const COUNTRIES = {
     "山坡上有茂密松林",
     "狹窄山谷中有村莊",
     "庇里牛斯山典型的石材和板岩建築"
+  ,
+    "<strong>Caldea 塔 + 摩天輪</strong>在 Andorra la Vella 可見",
+    "Pas de la Casa：高海拔 2080m，無樹山地"
   ],
   signs: [
     "Catalan 語 — 類似西班牙語但有區別（注意 'carrer' 而非 'calle'）",
@@ -184,6 +187,9 @@ const COUNTRIES = {
     "'Straße'（街道）、'Gasse'（巷弄）",
     "變音字母：ä、ö、ü、ß",
     "A 級道路由東向西數字遞增；B 級道路亦同"
+  ,
+    "Vienna 路牌：<strong>區號+藍黑色</strong>獨特設計",
+    "各邦有不同 Güterweg 標誌顏色"
   ],
   plates: [
     "白色車牌，左側有 EU 藍色條紋",
@@ -401,6 +407,9 @@ const COUNTRIES = {
     "Bulgaria 被認為是西里爾字母的發源地",
     "標誌通常僅西里爾文，有時附拉丁轉寫",
     "沒有字母 Ы（Russian 有，Bulgarian 沒有）"
+  ,
+    "區號按首位數字分區（區域定位工具）",
+    "城市路牌各異：Sofia=兩紅條、Stara Zagora=棕黃"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋",
@@ -1894,6 +1903,8 @@ const COUNTRIES = {
     "Gen 3：白色轎車",
     "護柱有<strong>黑帽</strong>（類似 Austrian 風格）",
     "無特殊車輛辨識特徵"
+  ,
+    "<strong>裂紋(rift)分佈</strong>：內陸有、沿海無；<strong>短天線=沿海、長天線=內陸</strong>"
   ],
   roads: [
     "白色中心線和邊線",
@@ -4120,6 +4131,9 @@ const COUNTRIES = {
     "大部分為 trekker 涵蓋（人背負相機）",
     "靠左行駛",
     "極少可見標準 Google 車輛"
+  ,
+    "街景車顏色有區域性：<strong>橘車=特定城市、藍車=Pokhara、白車=Butwal 地區</strong>",
+    "大部分為 Shitcam 覆蓋（偏黃棕色調）"
   ],
   roads: [
     "標線極少，大部分道路無中心線",
@@ -4185,6 +4199,8 @@ const COUNTRIES = {
   poleInfo: [
     "<strong>八邊形金屬電線桿</strong>（混凝土材質）— 菲律賓很常見",
     "電線桿一側經常可見<strong>垂直支架支起的單個絕緣子</strong>"
+  ,
+    "<strong>三叉戟形杆頂</strong>+三角形支撐 — Nepal 獨特"
   ],
   landscape: [
     "熱帶群島 — 超過 7,000 個島嶼",
@@ -4789,6 +4805,8 @@ const COUNTRIES = {
     "天線在車<strong>左側</strong>（不同區域天線長度不同：北部短、多哈中等、西南長）",
     "沙漠景觀 + 白色 truck = Qatar/Oman/UAE 之一",
     "與 UAE 區別：Qatar 是 truck，UAE 是轎車"
+  ,
+    "天線長度=區域：<strong>短=北部、中等=Doha、長=西南</strong>"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
@@ -5174,6 +5192,8 @@ const COUNTRIES = {
   ],
   poleInfo: [
     "Santiago：電線桿底部灰色塗漆；Santo Domingo：未塗漆"
+  ,
+    "<strong>L形方形混凝土桿</strong> — 美洲中僅 DR、PR、Uruguay 有"
   ],
   signInfo: [
     "PARE 停車標誌（非 ALTO！）"
@@ -6365,7 +6385,9 @@ const COUNTRIES = {
     "人口非常稀少",
     "野生動物（大象、斑馬）"
   ],
-  signs: ["英語為主", "也使用 Tswana 語"],
+  signs: ["英語為主", "也使用 Tswana 語",
+    "舊式<strong>藍底路標</strong> — Botswana 相對獨有"
+  ],
   plates: [
     "白色前車牌 + <strong>黃色後車牌</strong>（類似英國/南非系統）",
     "格式：<strong>B</strong> + 數字 + 字母（B 開頭 = Botswana）",
@@ -6460,6 +6482,9 @@ const COUNTRIES = {
     "南部為熱帶（Casamance）",
     "猴麵包樹",
     "色彩繽紛的彩繪建築"
+  ,
+    "<strong>太陽能板路燈</strong>（黑色桿）常見",
+    "紅色頂蓋白色<strong>公里標</strong>帶道路編號"
   ],
   signs: [
     "法語（前法國殖民地）",
@@ -6609,6 +6634,9 @@ const COUNTRIES = {
     "Cairo 附近可見金字塔",
     "密集城市（Cairo）",
     "紅海海岸"
+  ,
+    "覆蓋全為 trekker，集中在 Cairo 7 個歷史景點 + Alexandria",
+    "<strong>砂岩建築</strong>為主要視覺線索"
   ],
   signs: ["阿拉伯語為主", "有時附加英語"],
   plates: [
@@ -8863,7 +8891,10 @@ const COUNTRIES = {
       '冬季月份有雪山頂',
       '龍舌蘭植物在鄉下常見 — 良好的猜測依據',
       '道路上常見散養牲畜（牛最常見，也有馬、驢）',
-    ],
+    ,
+    "<strong>平頂桌山</strong>（水平岩層）— Lesotho 最強辨識特徵",
+    "<strong>龍舌蘭植物</strong>常見路邊"
+  ],
     signs: [
       '標誌上有英語和塞索托語',
       '鄉村山區標誌有限',
@@ -10462,7 +10493,9 @@ const COUNTRIES = {
     poleInfo: [
       '<strong>水泥電線桿</strong> — Guam 獨有的特徵，可與 Northern Mariana Islands（木頭電線桿）區分',
       '美式風格的混凝土杆，上有變壓器和電線'
-    ],
+    ,
+    "桿頂 <strong>3 個絕緣器</strong> — 南部非洲中最可能是 Eswatini"
+  ],
     landscape: [
       '植被茂密的熱帶島嶼',
       '北部相對平坦，南部有丘陵和山峰',
