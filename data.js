@@ -282,6 +282,9 @@ const COUNTRIES = {
     "Flanders 中世紀紅磚建築",
     "密集的道路網絡和都市蔓延",
     "街上常見 Frituren（薯條店）"
+  ,
+    "車牌<strong>紅色文字</strong>（模糊後仍可辨識）",
+    "<strong>Flanders vs Wallonia 巴士站</strong>：白頂=Flanders、黃頂=Wallonia"
   ],
   tips: [
     "如果路況很差且看到荷蘭語或法語，考慮 Belgium",
@@ -486,6 +489,9 @@ const COUNTRIES = {
     "地中海和歐陸風格混合"
   ,
     "路名使用 ulica（街道）、trg（廣場）、cesta（路）"
+  ,
+    "<strong>Zagreb 藍色電車</strong> — 全國僅 Zagreb + Osijek 有電車",
+    "品牌辨識：Karlovačko/Ožujsko 啤酒、Konzum/Plodine 超市"
   ],
   tips: [
     "Gen 3 後視鏡上的黃色貼紙 = Croatia",
@@ -539,6 +545,10 @@ const COUNTRIES = {
     "英國殖民時期道路基礎設施",
     "希臘區和土耳其區之間的緩衝區（UN Green Line）",
     "地中海島嶼，乾燥多岩地形"
+  ,
+    "路樁為<strong>三角形截面</strong>（vs Turkey 平面）",
+    "標誌上希臘文<strong>全大寫</strong>（vs Greece 混合大小寫）",
+    "屋頂常見<strong>白色圓柱形水箱</strong>（橫放）"
   ],
   tips: [
     "希臘文字 + 靠左行駛 = Cyprus（不是 Greece！）",
@@ -584,6 +594,9 @@ const COUNTRIES = {
     "城市中有巴洛克和哥德式建築",
     "紅瓦屋頂的村莊",
     "啤酒文化隨處可見（到處都是啤酒廠招牌）"
+  ,
+    "<strong>Moravia</strong>：連排長屋，長邊平行於路，超大穀倉門",
+    "區域路牌顏色：東部(Ostrava)=藍色、東南(Brno)=白底紅字、北部=白底藍字"
   ],
   signs: [
     "Czech 語 — 有 háček (ˇ) 變音符號：ě、š、č、ř、ž、ů、ý",
@@ -929,6 +942,9 @@ const COUNTRIES = {
     "冬季影像有積雪覆蓋",
     "Lapland：凍原和馴鹿",
     "傳統色彩（紅色、黃色）塗裝的木造房屋"
+  ,
+    "公車站各城市不同：Helsinki(藍白HSL)、Tampere(NYSSE)、Turku(黃色)、Oulu(粉紅)",
+    "Åland 群島：車牌純白藍字無EU條、路面偏紅、外側虛線(似Sweden)"
   ],
   signs: [
     "Finnish 語 — 芬蘭-烏戈爾語系，與斯堪地那維亞語言非常不同",
@@ -1251,6 +1267,10 @@ const COUNTRIES = {
     "另有：á、é、í、ó、ö、ú、ü",
     "超長複合字",
     "地名：Budapest、Debrecen、Szeged"
+  ,
+    "道路編號首位數從 Budapest 順時針放射（1=北→8=西南）",
+    "區號可定位地區（Budapest=1）",
+    "<strong>Budapest 區號</strong>出現在大多數路牌上，可精確猜測"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + H 代碼",
@@ -1335,6 +1355,10 @@ const COUNTRIES = {
     "可見地熱活動（蒸汽、溫泉）",
     "夏季魯冰花田",
     "幾乎任何地方都沒有樹"
+  ,
+    "道路編號：<strong>1=環島、2-9 按順時針分區</strong>",
+    "街景車顏色：<strong>紅車=西南部、白車=其他</strong>",
+    "<strong>Westfjords</strong>：狹窄峽灣 + 平頂山環繞"
   ],
   tips: [
     "火山地形 + ð 和 þ 字元 = Iceland",
@@ -1409,6 +1433,10 @@ const COUNTRIES = {
     "極度翠綠的景觀",
     "Gaeltacht 地區的雙語標誌",
     "白色前車牌 + 黃色後車牌"
+  ,
+    "Dublin Gen 4 電動車有<strong>未打碼黑色半圓</strong>",
+    "<strong>Donegal</strong>：Gen 4 狹窄丘陵小路（boreen）",
+    "<strong>Burren</strong>：裸露灰色石灰石喀斯特地貌"
   ],
   tips: [
     "綠白 bollard 無反光片 = Ireland",
@@ -1644,6 +1672,10 @@ const COUNTRIES = {
     "使用鉤形符號：<strong>ą、ę</strong>，另有 ė（上方點）、ū、ų、š、ž、č",
     "與 Latvian 不同的變音符號（無長音符號）",
     "許多單字以 -as、-is、-us、-ys 結尾"
+  ,
+    "'gatve'（g.）= 街道 — Lithuania 獨有用詞",
+    "地名常以 <strong>-ai</strong> 結尾",
+    "東南部少量 Polish 雙語標誌"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + LT 代碼",
@@ -1971,6 +2003,9 @@ const COUNTRIES = {
     "排屋非常普遍 — 近半住房為排屋",
     "Flevoland 全為 20 世紀填海造地 — 極其筆直的道路和農田",
     "南 Limburg 有低矮山丘（Netherlands 唯一的丘陵區）"
+  ,
+    "Zaanstreek（Amsterdam 北）：<strong>綠/黑色木造建築</strong>白色裝飾",
+    "<strong>公里標（hectometre）</strong>：N-road 各省設計不同（黃框=路號）；A-road 為紅框"
   ],
   signs: [
     "Dutch 語 — 看起來像英語和德語的混合，大量雙元音如 ij、ieu、oe",
@@ -2387,6 +2422,10 @@ const COUNTRIES = {
     "鄉村有馬車",
     "Transylvania 的設防薩克森教堂",
     "帶有彩色壁畫的東正教教堂"
+  ,
+    "<strong>乾草堆中間插木棍</strong> — 鄉村極常見",
+    "西部橙色瓦屋頂 vs 東部金屬/塑料屋頂",
+    "<strong>Maramureș</strong>：華麗雕刻木門；<strong>Sibiu</strong>：「瞇眼」窗（dormer 像眼睛）"
   ],
   signs: [
     "Romanian 語 — 受斯拉夫影響的羅曼語",
@@ -2427,6 +2466,8 @@ const COUNTRIES = {
     "部分涵蓋為白色轎車",
     "黑色車 + 長天線 + Cyrillic = 高度確認為 Russia",
     "無 snorkel、無 車頂架 (roof rack)"
+  ,
+    "Gen 4 車色有區域分佈：<strong>紅車=東部</strong>、白車=Sakha/Magadan、黑車=Moscow 附近"
   ],
   roads: [
     "道路品質差異極大 — Moscow 附近好，偏遠地區很差",
@@ -2625,6 +2666,10 @@ const COUNTRIES = {
     "沒有 ř（Czech 有 ř，Slovak 沒有）",
     "High Tatras 山脈",
     "中世紀城堡"
+  ,
+    "vs Czechia：方向標誌<strong>小白箭頭</strong>（Czech 為大白箭頭）",
+    "<strong>百葉窗</strong>比 Czech 常見；房屋短邊朝路 + 廡殿頂",
+    "Bratislava <strong>紅色電車</strong> / Košice 黃藍白 / Žilina 綠黃白無軌電車"
   ],
   tips: [
     "看起來像 Czech 但沒有 ř = Slovak",
@@ -4049,6 +4094,10 @@ const COUNTRIES = {
     "遼闊空曠的草原，沒有樹木",
     "黑色條紋橫桿：西蒙古；無條紋：東蒙古",
     "可見遊牧文化（牧群、馬匹）"
+  ,
+    "<strong>備胎樣式分 4 區</strong>：網狀(東)、單帶(中南)、無帶(西)、無備胎(極西)",
+    "<strong>帳篷顏色分區</strong>：藍色(東)、銀色(中/西北)、灰色帶鉤(西)",
+    "行車方向通常<strong>遠離 Ulaanbaatar</strong>"
   ],
   tips: [
     "Snorkel + 車頂裝備 = Mongolia（只有 Kenya 也有 snorkel）",
@@ -4143,6 +4192,10 @@ const COUNTRIES = {
     "梯田（Banaue／Ifugao）",
     "棕櫚樹和熱帶植被",
     "天主教堂（西班牙殖民遺產）"
+  ,
+    "<strong>三輪車車頂樣式</strong>因省份不同（低/中/高/皇冠/傘/平頂）— 區域辨識線索",
+    "電線桿上<strong>黑/白盒子帶 3 字母城市縮寫</strong> — 區域猜測利器",
+    "農作物分布：玉米(Luzon北+Mindanao)、油棕(Mindanao)、甘蔗(Negros/Panay)"
   ],
   signs: [
     "菲律賓語／Tagalog + 英文 — 完全雙語",
@@ -4453,6 +4506,10 @@ const COUNTRIES = {
     "密集都市區域（河內、胡志明市）",
     "熱帶植被",
     "石灰岩喀斯特地形（下龍灣地區）"
+  ,
+    "<strong>電線桿杆頂形狀分區</strong>：倒梯形=中北部、三角形=南部、A形=中部",
+    "農業：橡膠樹(胡志明北)、茶園(北部+林同)、火龍果(平順)、黑胡椒(中部高地)",
+    "建築：屋頂尖刺<strong>僅北部</strong>；紅河三角洲多層箱型 vs 湄公河單層矮房"
   ],
   signs: [
     "越南文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">Đường Nguyễn Huệ</span> — 拉丁字母+大量聲調符號",
@@ -4507,6 +4564,9 @@ const COUNTRIES = {
     "白色中心線",
     "路面品質良好",
     "軍事檢查站有時可見"
+  ,
+    "路肩顏色多樣：<strong>紅白、黑白、紅黃、藍白</strong> — data.js 缺",
+    "公里標有<strong>粗邊框</strong>（紅/綠/藍色）"
   ],
   bollardInfo: [
     "<strong>白色圓柱形 bollard</strong>，正面有紅色反光條 — 公路邊緣常見",
@@ -6349,6 +6409,10 @@ const COUNTRIES = {
     "Skeleton Coast",
     "極度稀少人口",
     "部分城鎮有德國殖民建築"
+  ,
+    "垃圾桶塗成<strong>國旗配色</strong>（藍紅綠）",
+    "區號 62-67 有地理分布",
+    "A1 Windhoek-Okahandja = 僅有的兩條分隔公路之一"
   ],
   signs: ["英語", "部分地區可見德語（殖民遺產）", "也使用 Afrikaans 南非荷蘭語"],
   plates: [
@@ -7696,7 +7760,11 @@ const COUNTRIES = {
       '城市覆蓋中可見 Astana 的未來主義建築（Bayterek 塔）',
       '電話區碼 +7（與 Russia 共用）',
       '穿越無盡草原的超長直路'
-    ],
+    ,
+    "<strong>輸油管道</strong>在城鎮中極常見",
+    "<strong>Koshar-muiz 裝飾圖案</strong> + 城鎮入口華麗弧形拱門",
+    "電線桿漆色分區（西=紅白黑、Atyrau=藍白黑、Kostanay=綠松石+黃）"
+  ],
     tips: [
       'Kazakhstan vs Russia：Kazakhstan 更平坦、更乾旱，車牌有藍色國旗條紋',
       'Kazakhstan vs Mongolia：Kazakhstan 用卡車覆蓋；Mongolia 用有 snorkel/bars 的轎車',
