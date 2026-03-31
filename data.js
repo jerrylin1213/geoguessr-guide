@@ -3029,11 +3029,13 @@ const COUNTRIES = {
     "停車標誌：<strong>「DUR」</strong>（土耳其獨有）"
   ],
   landscape: [
-    "Turkey 西部：地中海/愛琴海沿岸",
-    "中 Anatolia：乾燥草原/高原",
+    "東南到西南：景觀從乾旱向地中海變化；北部：繁茂森林",
+    "中 Anatolia：<strong>半乾旱草原</strong>，廣袤農田 + 有限植被（最常見景觀）",
     "Turkey 東部：崎嶇山脈",
     "Cappadocia：精靈煙囪和洞穴住居",
-    "清真寺和現代建築混合"
+    "<strong>高大方正公寓樓</strong>很常見",
+    "清真寺 + <strong>高聳宣禮塔</strong> — 幾乎所有城鎮都有（辨識 Turkey 的好線索）",
+    "Rize 附近：<strong>茶園</strong>（綠色梯田山坡）"
   ],
   signs: [
     "Turkish 語 — 帶特殊字元的拉丁文字",
@@ -3042,7 +3044,9 @@ const COUNTRIES = {
   ],
   plates: [
     "白色車牌附藍色條紋 + TR 代碼",
-    "城市代碼：06（Ankara）、34（Istanbul）、35（Izmir）"
+    "城市代碼：06（Ankara）、34（Istanbul）、35（Izmir）",
+    "區號第一位數從西到東遞增：2（西部）→ 4（東部）",
+    "道路編號：O = 高速公路、D = 國道、另有省道編號"
   ],
   unique: [
     "<strong>Turkish 字元 ğ 和 ı（無點 i）</strong>",
@@ -8542,15 +8546,13 @@ const COUNTRIES = {
     language: 'Spanish / Guarani',
     currency: 'Guarani (PYG)',
     camera: [
-      "<strong>Gen 3 為主 + 部分 Gen 4</strong>（⚠️ 確切比例待驗證）",
-      '覆蓋集中在 Asunción 和主要公路',
-      '泛查科公路有覆蓋',
-      '鄉村地區覆蓋稀疏'
+      "<strong>100% Gen 4</strong>（2024 年 7 月 - 2025 年 3 月拍攝）",
+      "南美洲最後一個獲得 Street View 的國家",
+      "覆蓋 Asunción + 其他主要城市 + 主要公路 + 全部 17 省（含鄉村地區）"
     ],
     car: [
-      '白色轎車',
-      '無特殊 antenna、bars 或側鏡特徵',
-      '無獨特 car meta — 需靠其他線索辨識'
+      "<strong>Gen 4 Trekker vans（Hyundai 4×4）</strong>",
+      "與其他南美國家不同（Argentina/Brazil 用 Honda HR-V）"
     ],
     roads: [
     '黃色中線搭配白色外線（標準美洲模式）',
