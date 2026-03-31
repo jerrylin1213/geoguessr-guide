@@ -6107,11 +6107,13 @@ const COUNTRIES = {
     "減速丘常見"
   ],
   landscape: [
-    "大草原 — 非洲經典景觀",
+    "西南部：濕潤區（翠綠，Kisumu 附近）",
+    "中南部：半乾旱（Kitui 附近）",
+    "北部：乾旱/極旱（Marsabit 附近，極平坦）",
     "東非大裂谷",
     "可見 Mount Kenya",
-    "野生動物（safari 區域）",
-    "Maasai Mara 地區"
+    "野生動物 safari 區域（Maasai Mara 等）",
+    "⚠️ 標誌/海報/廣告上常有<strong>縣名</strong> — 熟悉各縣名稱對區域猜測非常有用"
   ],
   signs: [
     "英語與 Swahili 語",
@@ -6165,10 +6167,12 @@ const COUNTRIES = {
     "<strong>電線桿</strong>：<strong>混凝土桿</strong>帶凹痕和水平支撐（類似巴西梯子桿但<strong>無孔</strong>）"
   ],
   landscape: [
-    "南部為熱帶雨林",
-    "北部為大草原",
+    "南部為熱帶雨林，北部為大草原",
     "密集都市區（Lagos）",
-    "Niger Delta 石油基礎設施"
+    "Niger Delta 石油基礎設施",
+    "房屋多為<strong>單層建築</strong>，屋頂傾斜大（金屬板製），周圍常有<strong>煤渣塊圍牆</strong>",
+    "⚠️ 店面/廣告上常有<strong>城市名和州名</strong> — 熟悉各州名對區域猜測非常有用",
+    "全境地勢相當平坦（除東南 Enugu、Abuja 附近有丘陵）"
   ],
   signs: [
     "英語（官方語言）",
