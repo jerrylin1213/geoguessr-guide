@@ -11527,7 +11527,9 @@ const META_SECTIONS = [
         <strong>相機：</strong>Dodeca 2360 / R2<br>
         <strong>涵蓋國家：</strong>僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, New Zealand（只有這 3 國）<br>
         <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>、<a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a> 或 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/SmHDrbhfcsHazEiBA" target="_blank" style="color:var(--accent-blue)">San Francisco Street View</a> — ⚠️ 進入後需點「See more dates」切換至 2007 年才能看到 Gen 1</p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/EAQJy6U5LQrRKEwr6" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 (Nov 2007)</a><br>
+        <img src="images/meta/gen1_sf.jpg" alt="Gen 1 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 1 實際街景（SF King St, Nov 2007）— 極低畫質、嚴重壓縮失真</em></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 2 (2008–2012)</h4>
