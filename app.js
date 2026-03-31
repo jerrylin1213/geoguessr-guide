@@ -957,36 +957,8 @@
   // Make navigateTo global for inline onclick
   window.navigateTo = navigateTo;
 
-  // ===== Site Analytics (GoatCounter powered) =====
-  function setupAnalytics() {
-    const widget = document.createElement('div');
-    widget.id = 'analyticsWidget';
-    widget.innerHTML = `
-      <div style="padding:12px 16px;border-top:1px solid rgba(255,255,255,0.08);margin-top:auto;font-size:0.75rem;color:rgba(255,255,255,0.45);line-height:1.6;">
-        <div style="margin-bottom:4px;">📊 <span style="color:rgba(255,255,255,0.6)">網站統計</span></div>
-        <div>總瀏覽量：<strong id="statsViews" style="color:var(--accent-blue)">載入中...</strong></div>
-        <div style="margin-top:6px;">
-          <a href="https://geoguessr-guide.goatcounter.com" target="_blank"
-             style="color:var(--accent-yellow);font-size:0.7rem;text-decoration:underline dotted;">
-            查看詳細統計 →
-          </a>
-        </div>
-      </div>
-    `;
-    sidebar.appendChild(widget);
-
-    // Fetch total page views from GoatCounter API (public, no auth needed)
-    fetch('https://geoguessr-guide.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-      .then(r => r.json())
-      .then(data => {
-        const el = document.getElementById('statsViews');
-        if (el && data.count) el.textContent = data.count.toLocaleString();
-      })
-      .catch(() => {
-        const el = document.getElementById('statsViews');
-        if (el) el.textContent = '需要先設定 GoatCounter';
-      });
-  }
+  // Analytics tracking via GoatCounter (no visible widget)
+  function setupAnalytics() {}
 
   // ===== Init =====
   function init() {

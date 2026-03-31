@@ -514,11 +514,11 @@ const COUNTRIES = {
 'cyprus': {
   name: 'Cyprus', localName: 'Κύπρος / Kıbrıs', flag: '🇨🇾', region: 'europe',
   drivingSide: 'left', tld: '.cy', phoneCode: '+357', language: 'Greek, Turkish', currency: 'Euro (EUR)',
-  camera: ["<strong>96% Gen 3 + 4% Gen 4</strong>（也有少量 shitcam）", "希臘區和土耳其區覆蓋良好", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 視角更低、模糊區域更大"],
+  camera: ["<strong>Gen 4 為主 + Gen 4 smallcam</strong>（2025 年新覆蓋）", "南部共和國區 2025 年獲得首次覆蓋（Limassol 以 Gen 4 為主）", "部分地區有第三方相機覆蓋（Famagusta 區）"],
   car: [
-    "Gen 3：標準白色轎車",
-    "無特殊車輛辨識特徵",
-    "無 antenna、無 車頂架 (roof rack)"
+    "Gen 4：標準 Google 街景車 + <strong>smallcam（portable camera）</strong>",
+    "使用在 Cyprus 註冊的車輛",
+    "靠左行駛（英國殖民遺留）"
   ],
   roads: [
     "<strong>左側行駛</strong>（前英國殖民地）",
@@ -571,10 +571,9 @@ const COUNTRIES = {
   name: 'Czech Republic', localName: 'Česká republika', flag: '🇨🇿', region: 'europe',
   drivingSide: 'right', tld: '.cz', phoneCode: '+420', language: 'Czech', currency: 'Koruna (CZK)',
   camera: [
-    "<strong>96% Gen 3 + 4% Gen 4（也有少量 shitcam）</strong>",
-    "也有少量 shitcam",
+    "<strong>Gen 3 為主 + Gen 4 持續擴展中</strong>（⚠️ 確切比例待驗證）",
     "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋可用（藍色車，無天線）"
+    "Gen 4 覆蓋（藍色車）近年大量增加，Brno 等城市 2023 起更新"
   ],
   car: [
     "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
