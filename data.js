@@ -8488,7 +8488,7 @@ const COUNTRIES = {
     language: 'Spanish',
     currency: 'Bolivar (VES)',
     camera: [
-      "<strong>67.3% Gen 3 + 32.6% Gen 4</strong>",
+      "<strong>Gen 3 為主 + 部分 Gen 4</strong>（⚠️ 確切比例待驗證）",
       '大部分為第三方和非官方覆蓋 (Mapillary, etc.)',
       '旅遊區有部分 trekker 覆蓋',
       '覆蓋品質差異顯著',
@@ -8881,7 +8881,7 @@ const COUNTRIES = {
     language: 'English, Chichewa',
     currency: 'Kwacha (MWK)',
     camera: [
-      "<strong>67.8% Gen 3 + 32.1% Gen 4</strong>",
+      "<strong>Gen 3 為主</strong>（⚠️ 確切比例待驗證）",
       '有覆蓋的地方為 Gen 3 相機',
       '旅遊景點有部分 trekker 覆蓋',
       '覆蓋集中在 Malawi 南部和 Malawi 湖沿岸',
@@ -11233,7 +11233,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>Dodeca 2360 / R2<br>
         <strong>涵蓋國家：</strong>僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, New Zealand（只有這 3 國）<br>
         <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>、<a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a> 或 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@37.7749,-122.4194,3a,75y,90t,0r/data=!3m6!1e1!3m4!1s2007" target="_blank" style="color:var(--accent-blue)">San Francisco Gen 1 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@37.7749,-122.4194,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">San Francisco (Google Maps)</a> — ⚠️ 需使用時間旅行（🕐 圖標）切換至 2007 年影像才能看到 Gen 1</p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 2 (2008–2012)</h4>
@@ -11243,7 +11243,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>R5（8 顆 5MP 相機 + 魚眼鏡頭 + 3 組雷射掃描器）<br>
         <strong>涵蓋國家：</strong>North America, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, NZ, Western Europe<br>
         <strong>辨識要點：</strong>天空有 purple halo = Gen 2 → 排除 Africa、大部分 Asia、South America<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=48.8566,2.3522" target="_blank" style="color:var(--accent-blue)">Paris Gen 2 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@48.8566,2.3522,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Paris (Google Maps)</a> — ⚠️ 需使用時間旅行切換至 2008-2012 年影像才能看到 Gen 2 (purple halo)</p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
@@ -11252,7 +11252,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>R7（15 顆相機，首款完全由 Google 自製的相機）<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=51.5074,-0.1278" target="_blank" style="color:var(--accent-blue)">London Gen 3 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@51.5074,-0.1278,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">London Gen 3 覆蓋 (Google Maps)</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 (2017–至今)</h4>
@@ -11261,7 +11261,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>7 顆 20MP 感光元件（相比 Gen 3 的 15 顆 5MP 大幅升級）+ 2 顆專用高畫質側面相機。<br>
         <strong>涵蓋國家：</strong>比 Gen 3 少見，主要為近期拍攝。<br>
         <strong>辨識要點：</strong>異常鮮豔/飽和的色彩 + 超高解析度 = Gen 4<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=59.3293,18.0686" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 覆蓋 (Google Maps)</a></p>
+        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@59.3293,18.0686,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Stockholm Gen 4 覆蓋 (Google Maps)</a></p>
       </div>
       <div class="meta-info-block">
         <h4>⚠️ 特殊相機類型 — 含 Google Maps 範例</h4>
@@ -11271,10 +11271,10 @@ const META_SECTIONS = [
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。<a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a> (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6762,139.6503" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.3769,8.5417" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=28.6139,77.2090" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
-        • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=0.3136,32.5811" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a></p>
+        • <a href="https://www.google.com/maps/@35.6762,139.6503,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
+        • <a href="https://www.google.com/maps/@47.3769,8.5417,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
+        • <a href="https://www.google.com/maps/@28.6139,77.2090,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> Unofficial Cam (Delhi)</a><br>
+        • <a href="https://www.google.com/maps/@0.3136,32.5811,3a,75y,90t" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> Coverage (Kampala)</a></p>
       </div>
       <div class=meta-info-block>
         <h4>快速辨識流程</h4>
