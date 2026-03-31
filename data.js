@@ -11,15 +11,12 @@ const COUNTRIES = {
   name: 'Albania', localName: 'Shqipëria', flag: '🇦🇱', region: 'europe',
   drivingSide: 'right', tld: '.al', phoneCode: '+355', language: 'Albanian', currency: 'Lek (ALL)',
   camera: [
-    "<strong>主要 Gen 3（有兩種車：長天線版+短天線版）</strong>",
-    "Gen 3 覆蓋始於 2015 — 主要道路影像清晰",
-    "Gen 4 覆蓋始於 2022 — 色彩鮮豔，高解析度",
+    "<strong>100% Gen 3（有兩種車：長天線版+短天線版）</strong>",
     "主要公路和城市覆蓋良好，山區較稀疏"
   ],
   car: [
-    "Gen 2/3：白色轎車，無特殊辨識特徵",
+    "Gen 3：白色轎車，無特殊辨識特徵",
     "Gen 3 有天線（長或短），可見相機裂紋（camera rifts）",
-    "Gen 4：標準歐洲車輛配置",
     "無 snorkel、無 roof rack、無特殊膠帶"
   ],
   roads: [
@@ -30,6 +27,10 @@ const COUNTRIES = {
   ],
   bollardInfo: [
     "Bollard 類似義大利風格 — 反光片到頂部有黑色條紋"
+  ],
+  poleInfo: [
+    "<strong>木製電線桿</strong> — 粗壯木桿，頂部有簡單橫臂和絕緣器",
+    "鄉村地區普遍；城市地區有混凝土桿"
   ],
   landscape: [
     "北部和東部為山地地形，西部為沿海低地",
@@ -65,7 +66,8 @@ const COUNTRIES = {
     "大量 Mercedes 汽車是強力線索",
     "Albanian 語非常獨特 — 非斯拉夫語、非羅曼語、非希臘語",
     "注意標誌文字中的 ë 和 ç 字元",
-    "山脈 + 地中海海岸 + 碉堡 = Albania"
+    "山脈 + 地中海海岸 + 碉堡 = Albania",
+    "🔗 <a href=\"https://www.google.com/maps/@41.3275,19.8189,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tirana）</a>"
   ]
 },
 
@@ -73,21 +75,28 @@ const COUNTRIES = {
   name: 'Andorra', localName: 'Andorra', flag: '🇦🇩', region: 'europe',
   drivingSide: 'right', tld: '.ad', phoneCode: '+376', language: 'Catalan', currency: 'Euro (EUR)',
   camera: [
-    "<strong>Gen 2 和 Gen 3</strong>",
-    "覆蓋範圍有限 — 小國，主要覆蓋幹道",
-    "部分行人區有 trekker 覆蓋"
+    "<strong>94% Gen 3 + 6% Gen 2</strong>",
+    "小國，主要覆蓋幹道",
+    "部分行人區有 trekker 覆蓋（滑雪度假區等）"
   ],
   car: [
-    "Gen 3：白色轎車，標準歐洲配置",
-    "無特殊車輛辨識特徵",
-    "無 antenna、無 snorkel、無 車頂架 (roof rack)"
+    "Gen 3：白色轎車，所有 Gen 3 均可見<strong>中短天線</strong>",
+    "所有 Gen 3 街景為<strong>十月拍攝</strong>，落葉樹已呈秋色",
+    "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
+    "道路護欄上有<strong>黃色反光體</strong> — 歐洲僅 Andorra、Spain、Belgium 使用",
     "白色中心線和邊線（歐洲標準）",
-    "右側行駛",
     "山路多隧道和髮夾彎",
-    "路面品質良好（已開發國家）",
-    "km/h 速限"
+    "路面品質良好（已開發國家）"
+  ],
+  bollardInfo: [
+    "<strong>楔形 bollard</strong>，正面有<strong>橘色反光片</strong> — Andorra 和 Canary Islands 獨有",
+    "與 France（圓形白色 bollard）和 Spain（方形 bollard）風格明顯不同"
+  ],
+  poleInfo: [
+    "<strong>雪杆（snow pole）</strong>：綠色或棕色細長杆，頂部有反光片 — 用於冬季標示道路邊界",
+    "庇里牛斯山區常見，協助積雪時辨識路緣"
   ],
   landscape: [
     "全境為山地 — 庇里牛斯山脈",
@@ -116,7 +125,8 @@ const COUNTRIES = {
     "在 France 和 Spain 之間的山區看到 Catalan 文字，就是 Andorra",
     "Bollard 為楔形搭配橘色反光片（非法國或西班牙風格）",
     "注意免稅店標誌（香水店、菸酒店）",
-    "電話號碼只有 6 位數（非常短）"
+    "電話號碼只有 6 位數（非常短）",
+    "🔗 <a href=\"https://www.google.com/maps/@42.5063,1.5218,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Andorra la Vella）</a>"
   ]
 },
 
@@ -132,6 +142,9 @@ const COUNTRIES = {
     "Gen 3：白色轎車",
     "Gen 4 小相機：比正常 Gen 4 低，大圓形打碼前部突出",
     "西部靠近 Switzerland 邊境有<strong>錫箔天線</strong> — Austria 獨有",
+    "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數無藍車國家，另有 Turkey、Belgium）",
+    "Gen 4：幾乎全部為<strong>「無車可見」（完全打碼）</strong> — 與 Belgium、Switzerland 並列最常見",
+    "Gen 4 無車：2022 年涵蓋特別常見（也見於 Slovenia）",
     "無 antenna（除錫箔版）、無 snorkel"
   ],
   roads: [
@@ -188,7 +201,8 @@ const COUNTRIES = {
     "黑色頂蓋 + 黑色/深紅色反光片 bollard = Austria（不是 Germany！）",
     "德語文字但 Street View 覆蓋比 Germany 少很多",
     "阿爾卑斯山 + 德語 + 有限覆蓋 = 很可能是 Austria",
-    "注意車牌上的 Austria 區域代碼（W、G、L、S 等）"
+    "注意車牌上的 Austria 區域代碼（W、G、L、S 等）",
+    "🔗 <a href=\"https://www.google.com/maps/@48.2082,16.3738,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vienna）</a>"
   ]
 },
 
@@ -196,15 +210,18 @@ const COUNTRIES = {
   name: 'Belgium', localName: 'België / Belgique', flag: '🇧🇪', region: 'europe',
   drivingSide: 'right', tld: '.be', phoneCode: '+32', language: 'Dutch, French, German', currency: 'Euro (EUR)',
   camera: [
-    "<strong>80.9% Gen 4 + 10.8% Gen 3 + 8.3% Gen 2</strong>",
-    "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋，部分區域可見紅色車",
-    "全國覆蓋範圍廣泛"
+    "<strong>80.9% Gen 3 + 10.8% Gen 2 + 8.3% Gen 1</strong>",
+    "<strong>100% Gen 3</strong>範圍最廣",
+    "部分區域可見<strong>紅色車 + 長天線</strong>（非常罕見，Ukraine 更常見）",
+    "全國覆蓋範圍廣泛",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~8,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>紅色轎車</strong>（部分涵蓋區域可見）",
     "Gen 2/3：白色轎車",
-    "⚠️ Gen 4 中有時車輛不可見",
+    "極罕見：<strong>紅色車 + 長天線</strong>覆蓋（Ukraine 更常見此款）",
+    "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數無藍車國家，另有 Austria、Turkey）",
+    "Gen 4：幾乎全部為<strong>「無車可見」（完全打碼）</strong> — 與 Austria、Switzerland 並列最常見",
+    "Gen 4 無車：<strong>2021 和 2020 特別常見</strong> — 有助於與 Austria（2022 為主）區分",
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
@@ -270,7 +287,8 @@ const COUNTRIES = {
     "如果路況很差且看到荷蘭語或法語，考慮 Belgium",
     "橘色調 bollard 可與 Netherlands 和 France 區分",
     "Brussels 附近的雙語標誌（荷蘭語/法語）= Belgium",
-    "平坦地形上的紅磚建築配荷蘭語文字 = Flanders"
+    "平坦地形上的紅磚建築配荷蘭語文字 = Flanders",
+    "🔗 <a href=\"https://www.google.com/maps/@50.8503,4.3517,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Brussels）</a>"
   ]
 },
 
@@ -278,13 +296,12 @@ const COUNTRIES = {
   name: 'Bosnia and Herzegovina', localName: 'Bosna i Hercegovina', flag: '🇧🇦', region: 'europe',
   drivingSide: 'right', tld: '.ba', phoneCode: '+387', language: 'Bosnian, Croatian, Serbian', currency: 'Convertible Mark (BAM)',
   camera: [
-    "<strong>Gen 3</strong>",
-    "與鄰國 Croatia/Serbia 相比覆蓋有限",
-    "主要高速公路品質尚可"
+    "<strong>100% Gen 4</strong>（2025 年 11 月新增 Google 街景覆蓋）",
+    "⚠️ Bosnia 直到 2025 年底才有官方 Google 覆蓋 — 非常新！",
+    "與鄰國 Croatia/Serbia 相比覆蓋仍然有限"
   ],
   car: [
-    "Gen 3：白色轎車",
-    "無特殊車輛辨識特徵",
+    "Gen 4：現代化 Google 街景車",
     "無 antenna、無 車頂架 (roof rack)"
   ],
   roads: [
@@ -324,7 +341,8 @@ const COUNTRIES = {
     "清真寺和教堂混合 + 斯拉夫語言 = Bosnia",
     "同一標誌上有拉丁和西里爾文字，強烈暗示 Bosnia",
     "山脈 + 鄂圖曼建築 + 戰爭損壞 = Bosnia",
-    "價格標誌上的貨幣為 'KM'（可兌換馬克）"
+    "價格標誌上的貨幣為 'KM'（可兌換馬克）",
+    "🔗 <a href=\"https://www.google.com/maps/@43.8563,18.4131,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sarajevo）</a>"
   ]
 },
 
@@ -338,13 +356,13 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（與 Sweden, Hungary, Romania, France 共用）",
-    "Gen 4：也有<strong>黑色轎車 + 圓形天線</strong>（2024）",
-    "Gen 4：也有<strong>紅色轎車</strong>",
+    "Gen 4 藍車天線：<strong>2021 即出現</strong> — 歐洲最早一批（僅 Hungary、Sweden、少量 Romania/France）",
+    "Gen 4：也有<strong>黑色轎車 + 圓形天線</strong>（2024）— 與 Lithuania 並列此配置最多國家",
+    "Gen 4：也有<strong>紅色轎車</strong> — 紅車三大國之一（Sweden、Slovakia、Bulgaria）",
     "Gen 3：白色轎車，有天線",
-    "多種車色在 Gen 4 中可見"
+    "多種車色在 Gen 4 中可見 — Bulgaria 是歐洲 Gen 4 車色最多樣的國家之一"
   ],
   roads: [
-    "<strong>78% Gen 4 + 22% Gen 3</strong>",
     "中心線比 Romania <strong>更細</strong> — 區分兩國的可靠線索",
     "道路品質普遍較差，裂縫多偶有坑洼",
     "高速公路使用綠色標誌"
@@ -398,7 +416,8 @@ const COUNTRIES = {
     "西里爾文中 Ъ 頻繁作為母音使用 = Bulgarian（非 Russian）",
     "沒有 Ы 字母 = 不是 Russian，可能是 Bulgarian",
     "Gen 4 藍色車搭配圓形天線在西里爾文區域 = 可能是 Bulgaria",
-    "注意店面上的 .bg 網域"
+    "注意店面上的 .bg 網域",
+    "🔗 <a href=\"https://www.google.com/maps/@42.6977,23.3219,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sofia）</a>"
   ]
 },
 
@@ -406,12 +425,14 @@ const COUNTRIES = {
   name: 'Croatia', localName: 'Hrvatska', flag: '🇭🇷', region: 'europe',
   drivingSide: 'right', tld: '.hr', phoneCode: '+385', language: 'Croatian', currency: 'Euro (EUR)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
+    "<strong>77% Gen 4 + 23% Gen 3</strong>",
     "Gen 3 覆蓋範圍廣泛",
-    "海岸和內陸城市覆蓋良好"
+    "海岸和內陸城市覆蓋良好",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~5,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2022 年涵蓋）",
+    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（常見，屬天線多的中東歐群組）",
+    "Gen 4 藍車天線：2023 無涵蓋（2023 天線排除 Slovakia、Hungary、Latvia、Estonia、Croatia）",
     "Gen 3：白色轎車",
     "Gen 3：<strong>側鏡有黃色貼紙</strong> — Croatia 獨有辨識特徵",
     "無 snorkel、無 車頂架 (roof rack)"
@@ -470,14 +491,15 @@ const COUNTRIES = {
     "Gen 3 後視鏡上的黃色貼紙 = Croatia",
     "地中海海岸上的拉丁文字斯拉夫語言 = Croatia",
     "注意 č、ć、đ、š、ž 字元（Croatian 拉丁文字）",
-    "紅瓦沿海城鎮 + 斯拉夫語言 = Dalmatia Croatia"
+    "紅瓦沿海城鎮 + 斯拉夫語言 = Dalmatia Croatia",
+    "🔗 <a href=\"https://www.google.com/maps/@45.815,15.9819,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Zagreb）</a>"
   ]
 },
 
 'cyprus': {
   name: 'Cyprus', localName: 'Κύπρος / Kıbrıs', flag: '🇨🇾', region: 'europe',
   drivingSide: 'left', tld: '.cy', phoneCode: '+357', language: 'Greek, Turkish', currency: 'Euro (EUR)',
-  camera: ["<strong>96% Gen 3 + 4% Gen 4</strong>（也有少量 shitcam）", "希臘區和土耳其區覆蓋良好"],
+  camera: ["<strong>96% Gen 3 + 4% Gen 4</strong>（也有少量 shitcam）", "希臘區和土耳其區覆蓋良好", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 視角更低、模糊區域更大"],
   car: [
     "Gen 3：標準白色轎車",
     "無特殊車輛辨識特徵",
@@ -489,6 +511,11 @@ const COUNTRIES = {
     "圓環常見",
     "黃色中心線和白色邊線",
     "路面品質良好"
+  ],
+  signInfo: [
+    "標誌為<strong>雙語希臘文 + 英文</strong> — 與 Greece（僅希臘文）的關鍵區別",
+    "北 Cyprus：標誌為<strong>土耳其語 + 英語</strong>（無希臘文）",
+    "靠左行駛 + 雙語標誌 = Cyprus（Greece 靠右且通常僅希臘文）"
   ],
   landscape: [
     "地中海島嶼 — 乾燥、多岩地形",
@@ -516,7 +543,8 @@ const COUNTRIES = {
   tips: [
     "希臘文字 + 靠左行駛 = Cyprus（不是 Greece！）",
     "Greece 靠右行駛，Cyprus 靠左行駛",
-    "英國風格圓環配希臘語標誌 = Cyprus"
+    "英國風格圓環配希臘語標誌 = Cyprus",
+    "🔗 <a href=\"https://www.google.com/maps/@35.1856,33.3823,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nicosia）</a>"
   ]
 },
 
@@ -530,8 +558,10 @@ const COUNTRIES = {
     "Gen 4 覆蓋可用（藍色車，無天線）"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong>（2019-2020）",
+    "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
     "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2023）",
+    "Gen 4：也有<strong>紅色轎車</strong>（全新 2024，目前稀少）",
+    "Gen 4 藍車無天線 2021：<strong>有涵蓋</strong>（中歐僅 Czechia，排除 Slovakia、Hungary 等）",
     "Gen 3：白色轎車，天線有膠帶",
     "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
   ],
@@ -541,8 +571,12 @@ const COUNTRIES = {
     "測速照相常見"
   ],
   bollardInfo: [
-    "Bollard：<strong>螢光橘色條紋、分裂反光片 + 方形背面反光片</strong>",
-    "Bollard 為楔形（vs Slovakia 的弧形）"
+    "Bollard：正面<strong>橘色雙反光鏡</strong>，背面白色反光鏡 — 僅 Czech/Slovakia 共有此設計",
+    "護欄為特殊<strong>寬 B 型</strong> — 歐洲僅 Czech/Slovakia 使用"
+  ],
+  poleInfo: [
+    "<strong>寬圓混凝土電線杆</strong>最常見，通常成對安裝（與 Slovakia 共有）；三叉戟杆頂僅 Czech/Slovakia 有",
+    "鄉村地區木杆為主，城市區域則多為現代金屬杆"
   ],
   landscape: [
     "起伏丘陵和森林（Bohemia 景觀）",
@@ -554,7 +588,7 @@ const COUNTRIES = {
   signs: [
     "Czech 語 — 有 háček (ˇ) 變音符號：ě、š、č、ř、ž、ů、ý",
     "<strong>ř 為 Czech 獨有</strong> — 沒有其他語言使用此字母",
-    "路標遵循 EU 標準s",
+    "路標遵循 EU 標準",
     "里程標誌以 km 計"
   ],
   plates: [
@@ -575,7 +609,8 @@ const COUNTRIES = {
     "標誌上看到 ř？→ Czech Republic，絕無僅有",
     "螢光橘色 bollard 搭配分裂反光片 = Czech",
     "楔形 bollard（非弧形）可與 Slovakia 區分",
-    "háček (ˇ) 變音符號常見：š、č、ž、ř"
+    "háček (ˇ) 變音符號常見：š、č、ž、ř",
+    "🔗 <a href=\"https://www.google.com/maps/@50.0755,14.4378,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Prague）</a>"
   ]
 },
 
@@ -583,12 +618,13 @@ const COUNTRIES = {
   name: 'Denmark', localName: 'Danmark', flag: '🇩🇰', region: 'europe',
   drivingSide: 'right', tld: '.dk', phoneCode: '+45', language: 'Danish', currency: 'Krone (DKK)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
+    "<strong>82% Gen 4 + 9% Gen 3 + 9% Gen 2</strong>",
     "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋（藍色車，無天線）"
+    "Gen 4 覆蓋（藍色車，無天線）",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~2,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong>（2019-2020）",
+    "Gen 4：<strong>藍色轎車，無天線</strong>（2019 涵蓋在 Denmark 也相當常見，但不如 Ireland/Norway/Czechia）",
     "Gen 2/3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
@@ -643,7 +679,8 @@ const COUNTRIES = {
     "平坦 + 紅磚 + Danish（æ、ø、å）= Denmark",
     "ø 是關鍵：Danish/Norwegian 用 ø，Swedish 用 ö",
     "完全平坦配風力發電機 = 很可能是 Denmark（Norway 有山脈）",
-    "注意 'vej'（道路）以區分 Norwegian 的 'vei'"
+    "注意 'vej'（道路）以區分 Norwegian 的 'vei'",
+    "🔗 <a href=\"https://www.google.com/maps/@55.6761,12.5683,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Copenhagen）</a>"
   ]
 },
 
@@ -657,6 +694,7 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
+    "Gen 4 藍車天線 2023：<strong>無涵蓋</strong>（排除 Estonia、同時排除 Hungary、Slovakia、Latvia、Croatia）",
     "無特殊車輛辨識特徵"
   ],
   roads: [
@@ -714,24 +752,31 @@ const COUNTRIES = {
     "標誌上看到 õ？= Estonia（唯一使用此字母的歐洲語言）",
     "如果看起來像 Finnish 但有 õ，就是 Estonian",
     "平坦森林地形 + 芬蘭-烏戈爾語 = Estonia",
-    "非斯拉夫語，非波羅的海語言 — 與 Latvia/Lithuania 不同"
+    "非斯拉夫語，非波羅的海語言 — 與 Latvia/Lithuania 不同",
+    "🔗 <a href=\"https://www.google.com/maps/@59.437,24.7536,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tallinn）</a>"
   ]
 },
 
 'faroe-islands': {
   name: 'Faroe Islands', localName: 'Føroyar', flag: '🇫🇴', region: 'europe',
   drivingSide: 'right', tld: '.fo', phoneCode: '+298', language: 'Faroese, Danish', currency: 'Krone (DKK)',
-  camera: ["Gen 3 覆蓋", "覆蓋有限 — 小型領地", "車上有灰色 roof rack 和後視鏡"],
+  camera: ["<strong>95% Gen 3 + 5% Gen 4</strong>", "覆蓋有限 — 小型領地", "Gen 4 為黑色皮卡車前端有天線（Iceland 皮卡車無此天線）"],
   car: [
-    "灰色 roof rack + 側鏡可見",
-    "<strong>無天線</strong>（與 Iceland 車不同 — Iceland 有天線）",
-    "Faroe = 灰色 rack 無天線；Iceland = 有天線 + 紅/白/藍條紋"
+    "所有街景車均為<strong>黑色</strong>，車頂有<strong>純灰色行李架</strong>",
+    "Gen 4：黑色皮卡車前端有天線（Iceland 皮卡車無此天線）",
+    "Gen 4：也有<strong>卡車形狀完全打碼</strong>（invisible truck）— Iceland 也有，但 Faroe 打碼看起來偏黑色",
+    "Gen 3：黑色車 + 灰色 roof rack",
+    "Faroe = 黑車灰 rack；Iceland = 有天線 + 紅/白/藍條紋"
   ],
   roads: [
     "單線道配會車處常見",
     "島嶼間有隧道",
     "白色中線",
     "鄉村道路幾乎無路面標線"
+  ],
+  bollardInfo: [
+    "路桩：<strong>塗黃漆的小木頭杆子</strong>，頂端有時塗紅",
+    "護欄上有<strong>黃色反光片</strong> — 其他北歐國家都沒有黃色反光片"
   ],
   landscape: [
     "壯觀的峽灣和海崖",
@@ -746,7 +791,11 @@ const COUNTRIES = {
     "部分標誌也使用 Danish",
     "特殊字元：ð、ø、á、í、ó、ú、ý"
   ],
-  plates: ["白色車牌附 FO 代碼"],
+  plates: [
+    "白色車牌附 <strong>FO</strong> 國碼（非 EU 成員，無 EU 藍色條紋）",
+    "格式：2 字母 + 3 數字",
+    "與 Denmark 車牌相似但無 EU 藍色帶 — 有 FO 代碼即可確認"
+  ],
   unique: [
     "<strong>草皮屋頂房屋</strong> — Faroe 標誌性特徵",
     "<strong>無樹景觀</strong> — 沒有樹木，只有草覆蓋的懸崖",
@@ -759,7 +808,73 @@ const COUNTRIES = {
     "無樹綠色山脈 + 草皮屋頂房屋 = Faroe Islands（不是 Iceland）",
     "Iceland 有火山/荒蕪地形；Faroes 為翠綠",
     "Faroese 使用 ð 和 ø（Iceland 使用 ð 和 þ 但不用 ø）",
-    "比 Iceland 小得多且更翠綠"
+    "比 Iceland 小得多且更翠綠",
+    "🔗 <a href=\"https://www.google.com/maps/@62.0079,-6.7904,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Torshavn）</a>"
+  ]
+},
+
+'greenland': {
+  name: 'Greenland', localName: 'Kalaallit Nunaat', flag: '🇬🇱', region: 'europe',
+  drivingSide: 'right', tld: '.gl', phoneCode: '+299', language: 'Greenlandic, Danish', currency: 'Krone (DKK)',
+  camera: [
+    "<strong>100% Gen 3 + 非標準覆蓋</strong>",
+    "覆蓋分佈在<strong>五十餘個互不相連的地區</strong>",
+    "多數街景在西海岸南部，但海岸線其他部分也有覆蓋",
+    "每個城鎮使用<strong>不同的街景車輛</strong>（雪地摩托、全地形車、拖拉機等）— 車輛是精確定位的關鍵",
+    "也有大量<strong>船隻覆蓋</strong>"
+  ],
+  car: [
+    "Nuuk：<strong>灰色</strong>街景車",
+    "Sisimiut：<strong>雪地摩托</strong>，後視鏡豎直向上，天氣陰鬱",
+    "Ilulissat：<strong>綠色全地形車</strong>，黑色支架，司機戴米黃色帽子，天氣晴朗",
+    "Qaqortoq：<strong>紅色方形</strong>街景車，街景特別晴朗",
+    "Aasiaat：亮紅色+黑色+白色摩托，大圓後視鏡，厚積雪正在融化",
+    "Tasiilaq：全地形車兩側有<strong>巨大灰色扶手</strong>",
+    "Maniitsoq：<strong>拖拉機</strong>拍攝",
+    "每個城鎮的街景車輛不同 — 記住車輛是精確定位的關鍵"
+  ],
+  roads: [
+    "靠右行駛",
+    "鋪設道路極為有限 — 城鎮之間無公路連接",
+    "每個定居點內的短程道路",
+    "Kangerlussuaq 東側有白色大卡車拍攝的路段"
+  ],
+  landscape: [
+    "<strong>彩色小木房</strong> — 分佈稀疏，顏色鮮豔（紅、藍、黃、綠）",
+    "荒地、<strong>無高大樹木</strong>、大量山丘",
+    "通常能看到雪",
+    "主要城市有較大的極簡主義建築",
+    "Kangerlussuaq 有獨特的乾燥沙土和細小灌木",
+    "Tiilerilaaq 的房屋通常是灰色色調（與其他地方不同）",
+    "地名中大量的 <strong>Q</strong> 和 <strong>-aq</strong> 結尾"
+  ],
+  signs: [
+    "<strong>格陵蘭語</strong>（因紐特語系）— 地名中大量 Q、-aq 結尾",
+    "也使用<strong>丹麥語</strong>",
+    "標誌普遍非常稀少",
+    "利用海的方向（東岸 vs 西岸）判斷位置"
+  ],
+  plates: [
+    "白色車牌黑色文字，<strong>細紅色邊框</strong>",
+    "車輛極少 — 很難看到車牌"
+  ],
+  unique: [
+    "每個城鎮使用<strong>不同的街景車輛</strong> — 記住車輛是精確定位的關鍵",
+    "<strong>彩色小木房</strong> — 紅、藍、黃、綠等鮮豔顏色",
+    "<strong>無樹 + 荒涼 + 雪</strong>的北極景觀",
+    "覆蓋分佈在五十餘個互不相連的地區",
+    "大量<strong>船隻覆蓋</strong>（各種顏色和類型的船）",
+    "地名中大量 Q 字母和 -aq 結尾",
+    "Tiilerilaaq 獨特的灰色色調房屋"
+  ],
+  tips: [
+    "彩色小木房 + 無樹荒涼北極景觀 = Greenland",
+    "記住每個城鎮的街景車輛以精確定位",
+    "Nuuk = 灰色車；Ilulissat = 綠色全地形車；Qaqortoq = 紅色方形車",
+    "Maniitsoq = 拖拉機；Sisimiut = 雪地摩托",
+    "利用海的方向判斷東岸 vs 西岸",
+    "金字塔形山 + 蘇維埃建築 = 那是 Svalbard 不是 Greenland",
+    "🔗 <a href=\"https://www.google.com/maps/@64.1814,-51.6941,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nuuk）</a>"
   ]
 },
 
@@ -774,7 +889,9 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 3：白色轎車；西南部有<strong>略微傾斜長天線</strong>；中南部有<strong>完全無天線</strong>覆蓋",
-    "Gen 4：黑色 pickup truck"
+    "Gen 4：<strong>黑色 pickup truck</strong> — Finland 獨有",
+    "Gen 4 藍車：2024 稀少、2023 稀少、<strong>2021 無涵蓋</strong>（挪威-瑞典-芬蘭 50-50：2021 可排除 Finland）",
+    "Gen 4 藍車天線：<strong>無</strong>（Finland 不在藍車天線群組中 — 北歐僅 Sweden 有天線）"
   ],
   roads: [
     "外側線<strong>始終為白色實線</strong>（Sweden/Norway 用虛線）",
@@ -833,7 +950,8 @@ const COUNTRIES = {
     "Finnish 文字（不像斯堪地那維亞語）+ 湖泊 + 森林 = Finland",
     "沒有 å = Finnish（Swedish 區域有 å）",
     "到處都是雙母音/雙子音（kk、pp、tt、aa、oo）= Finnish",
-    "森林/湖泊景觀中的紅色木造房屋 = Finland"
+    "森林/湖泊景觀中的紅色木造房屋 = Finland",
+    "🔗 <a href=\"https://www.google.com/maps/@60.1699,24.9384,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Helsinki）</a>"
   ]
 },
 
@@ -847,7 +965,9 @@ const COUNTRIES = {
     "Gen 1 極少量（僅在最早期覆蓋）"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2021 年涵蓋）",
+    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2021 即出現 — 歐洲最早一批，僅 Hungary、Bulgaria、Sweden、少量 Romania）",
+    "Gen 4 藍車無天線 2021：法國/英國/愛爾蘭最常見的西歐涵蓋年份",
+    "Gen 4：也有電動車覆蓋 — 僅限 Frankfurt/Hamburg 及 Dublin/London",
     "Gen 2/3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
@@ -909,7 +1029,8 @@ const COUNTRIES = {
     "法式 bollard 反光帶環繞整個圓柱",
     "超長白色虛線邊線 = France",
     "梯形電線桿 = France 或 Spain",
-    "注意藥局綠十字和麵包店招牌"
+    "注意藥局綠十字和麵包店招牌",
+    "🔗 <a href=\"https://www.google.com/maps/@48.8566,2.3522,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Paris）</a>"
   ]
 },
 
@@ -924,7 +1045,9 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 2/3：白色轎車",
-    "Gen 4 涵蓋極為有限",
+    "Gen 4：涵蓋極為有限，也有 <strong>Gen 4 小相機</strong>（低相機，非常有限）",
+    "Gen 4 藍車天線：<strong>2022 無涵蓋</strong>（2022 天線排除 Germany、Netherlands、Slovenia）",
+    "Gen 4：也有<strong>電動車</strong>覆蓋 — 僅 Frankfurt am Main 和 Hamburg",
     "⚠️ 因隱私法規，涵蓋範圍有限（比 Austria 稍多）",
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
@@ -946,6 +1069,11 @@ const COUNTRIES = {
   poleInfo: [
     "<strong>電線桿</strong>：(1) 木桿上常有<strong>白色矩形貼紙</strong>（德國獨有）(2) 前東德地區有圓形混凝土桿",
     "杆頂多樣：水平桿配不對稱絕緣子、三角形杆頂、T 形杆頂等"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（與 Austria 相同，但 Austria 另有黃底紅箭頭款）",
+    "路牌：<strong>黃底黑框</strong>（Austria 為白底藍框 — 關鍵區別）",
+    "城鎮入口標誌：<strong>黃色底 + 黑字 + 金屬框</strong>"
   ],
   landscape: [
     "北部：平原（北歐平原）",
@@ -982,7 +1110,8 @@ const COUNTRIES = {
     "德語文字 + 大量模糊房屋 = Germany（Austria 覆蓋更少）",
     "德式 bollard：單側反光片配黑色條紋，非 Austria 的黑色頂蓋風格",
     "注意文字中的 ß — 德語獨特字元",
-    "藍色 Autobahn 標誌無速限 = Germany"
+    "藍色 Autobahn 標誌無速限 = Germany",
+    "🔗 <a href=\"https://www.google.com/maps/@52.52,13.405,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Berlin）</a>"
   ]
 },
 
@@ -992,13 +1121,16 @@ const COUNTRIES = {
   camera: [
     "<strong>47% Gen 4 + 32% Gen 3 + 21% Gen 2</strong>",
     "許多 Gen 3 拍攝於秋冬季 — 景觀偏黯淡",
-    "Gen 4 覆蓋持續擴展中"
+    "Gen 4 覆蓋持續擴展中",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~17,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>黑色轎車，永遠沒有天線</strong> — 所有涵蓋年份皆無",
+    "Gen 4：<strong>黑色轎車無天線</strong> — Greece 擁有<strong>最多黑色車無天線</strong>的 Gen 4 覆蓋，遠超其他國家",
     "Greece 是唯一一個 Google 車<strong>從未有天線</strong>的歐洲國家",
+    "Gen 4 藍車：2024 稀少（Greece 藍車整體偏少）",
+    "Gen 4 黑車無天線 2022：僅見於 Italy 和極少量 Spain/Latvia — Greece 的黑車主要為 2023-2024",
+    "Gen 4 無車可見：<strong>極少</strong>（Turkey 和 Greece 幾乎沒有完全打碼的情況）",
     "Gen 3 有天線（短或長）",
-    "Gen 4 也有紅色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
@@ -1051,7 +1183,8 @@ const COUNTRIES = {
     "希臘文字 = Greece 或 Cyprus",
     "希臘語 + 靠右行駛 = Greece（Cyprus 為靠左行駛）",
     "任何年份 Google 街景車都無天線 = Greece",
-    "乾燥多岩島嶼上的白藍建築 = Greek 島嶼"
+    "乾燥多岩島嶼上的白藍建築 = Greek 島嶼",
+    "🔗 <a href=\"https://www.google.com/maps/@37.9838,23.7275,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Athens）</a>"
   ]
 },
 
@@ -1059,12 +1192,14 @@ const COUNTRIES = {
   name: 'Hungary', localName: 'Magyarország', flag: '🇭🇺', region: 'europe',
   drivingSide: 'right', tld: '.hu', phoneCode: '+36', language: 'Hungarian', currency: 'Forint (HUF)',
   camera: [
-    "<strong>Gen 3 + Gen 4（Gen 3 多在冬季拍攝，畫面灰暗）</strong>",
+    "<strong>76% Gen 4 + 24% Gen 3（Gen 3 多在冬季拍攝，畫面灰暗）</strong>",
     "Gen 4 覆蓋（藍色車搭配圓形天線，或藍色車無天線）"
   ],
   car: [
     "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（或無天線）",
-    "Gen 4：2019-2020 涵蓋有藍色車",
+    "Gen 4 藍車天線：<strong>2021 即出現</strong> — 歐洲最早一批（與 Bulgaria、Sweden、少量 Romania/France 並列）",
+    "Gen 4 藍車天線：<strong>2023 無涵蓋</strong>（排除 Hungary、Slovakia、Latvia、Estonia、Croatia）",
+    "Gen 4：2019 涵蓋相當常見（與 Denmark 類似，但不如 Ireland/Norway/Czechia）",
     "Gen 3：白色轎車，天線有膠帶",
     "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
   ],
@@ -1120,7 +1255,8 @@ const COUNTRIES = {
     "看到 ő 或 ű？= 100% Hungary",
     "Hungarian 看起來不像任何其他語言 — 非印歐語系",
     "平坦地形上的多孔混凝土電桿配 Hungarian 文字 = Hungary",
-    "平坦農田 + 獨特語言 = 很可能是匈牙利大平原"
+    "平坦農田 + 獨特語言 = 很可能是匈牙利大平原",
+    "🔗 <a href=\"https://www.google.com/maps/@47.4979,19.0402,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Budapest）</a>"
   ]
 },
 
@@ -1134,8 +1270,9 @@ const COUNTRIES = {
     "內陸高地覆蓋非常有限"
   ],
   car: [
-    "Gen 4：<strong>白色或紅色 pickup truck（皮卡車）</strong>",
-    "白色 truck 為 7 月涵蓋，紅色 truck 為 8 月涵蓋（季節性變化）",
+    "Gen 4：<strong>皮卡車</strong>（非轎車） — 白色=7月、紅色=8月、<strong>藍色=9月</strong>",
+    "Gen 4：也有<strong>卡車形狀完全打碼</strong>（invisible truck） — 最常見款",
+    "⚠️ 如打碼卡車看起來偏黑色 → <strong>Faroe Islands</strong>（不是 Iceland）",
     "Gen 3：標準轎車，可見天線",
     "有時紅/白/藍條紋可見於車身",
     "與 Faroe Islands 不同（Faroe 有灰色 rack，無天線）"
@@ -1190,7 +1327,8 @@ const COUNTRIES = {
     "火山地形 + ð 和 þ 字元 = Iceland",
     "Faroe Islands 綠草如茵；Iceland 是荒蕪的火山岩",
     "單線道橋梁在 Iceland 非常常見",
-    "黃色 bollard（歐洲其他地方找不到）"
+    "黃色 bollard（歐洲其他地方找不到）",
+    "🔗 <a href=\"https://www.google.com/maps/@64.1466,-21.9426,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Reykjavik）</a>"
   ]
 },
 
@@ -1199,15 +1337,17 @@ const COUNTRIES = {
   drivingSide: 'left', tld: '.ie', phoneCode: '+353', language: 'English, Irish', currency: 'Euro (EUR)',
   camera: [
     "<strong>56.9% Gen 4 + 42.5% Gen 3</strong>",
-    "Gen 4 覆蓋（藍色車，無天線）"
+    "Gen 4 覆蓋（藍色車，無天線）",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~7,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong>",
+    "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
+    "Gen 4 藍車天線：<strong>無</strong>（Ireland 不在天線群組中）",
+    "Gen 4：也有<strong>電動車</strong>覆蓋 — Dublin 市區及部分鄉村地區",
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "<strong>56.9% Gen 4 + 42.5% Gen 3 + 0.6% Gen 2</strong>",
     "靠左行駛",
     "<strong>黃色虛線邊線</strong> — Ireland 極獨特（UK 幾乎看不到，也見於 NZ/Spain 西部）",
     "白色中線",
@@ -1261,7 +1401,8 @@ const COUNTRIES = {
     "綠白 bollard 無反光片 = Ireland",
     "翠綠景觀中的黃色虛線邊線 = Ireland",
     "靠左行駛 + 英語 + 歐元 = Ireland（UK 用英鎊）",
-    "比 UK 看起來更綠更濕"
+    "比 UK 看起來更綠更濕",
+    "🔗 <a href=\"https://www.google.com/maps/@53.3498,-6.2603,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dublin）</a>"
   ]
 },
 
@@ -1271,10 +1412,13 @@ const COUNTRIES = {
   camera: [
     "<strong>57.3% Gen 3 + 24.4% Gen 4 + 18.3% Gen 2</strong>",
     "Campione d'Italia 飛地有低相機覆蓋 + 長天線 + 旗幟",
-    "Gen 2 仍存在於部分舊覆蓋區域"
+    "Gen 2 仍存在於部分舊覆蓋區域",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（地中海地區，與 Croatia 共用）",
+    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（地中海地區，與 Croatia、Slovenia 共用）",
+    "Gen 4 藍車天線：常見（屬天線多的群組）",
+    "Gen 4 黑車無天線：<strong>2022 僅見於 Italy</strong>（加極少量 Spain/Latvia） — 有用的年份 meta",
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
@@ -1334,14 +1478,15 @@ const COUNTRIES = {
     "以母音結尾的 Italian 文字 + 地中海景觀 = Italy",
     "黑色條紋向上延伸的 bollard = Italy 或 Albania",
     "柏樹林蔭道路 = Tuscany, Italy",
-    "注意路牌上的 'Via'、'Piazza'、'Corso'"
+    "注意路牌上的 'Via'、'Piazza'、'Corso'",
+    "🔗 <a href=\"https://www.google.com/maps/@41.9028,12.4964,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Rome）</a>"
   ]
 },
 
 'kosovo': {
   name: 'Kosovo', localName: 'Kosova / Косово', flag: '🇽🇰', region: 'europe',
   drivingSide: 'right', tld: '.xk', phoneCode: '+383', language: 'Albanian, Serbian', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋有限", "主要道路覆蓋持續擴展"],
+  camera: ["<strong>100% Gen 3</strong>（覆蓋有限）", "主要道路覆蓋持續擴展"],
   car: [
     "Gen 3：白色轎車",
     "無特殊車輛辨識特徵"
@@ -1352,6 +1497,10 @@ const COUNTRIES = {
     "新舊高速公路混合",
     "歐式道路標誌",
     "路面品質持續改善中"
+  ],
+  signInfo: [
+    "標誌為<strong>Albanian 語</strong>為主，部分地區有 Serbian 西里爾文雙語標誌",
+    "⚠️ Kosovo vs Albania：Kosovo 有更多雙語（Albanian + Serbian）標誌，Albania 幾乎全部為 Albanian"
   ],
   landscape: [
     "西部和南部為山地地形",
@@ -1378,7 +1527,8 @@ const COUNTRIES = {
   tips: [
     "Albanian 文字 + 較小/較新國家感覺 = Kosovo",
     "Albanian 和 Serbian 文字/建築混合，可與 Albania 本國區分",
-    "新道路和建設工程 = 很可能是 Kosovo"
+    "新道路和建設工程 = 很可能是 Kosovo",
+    "🔗 <a href=\"https://www.google.com/maps/@42.6629,21.1655,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pristina）</a>"
   ]
 },
 
@@ -1387,7 +1537,9 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.lv', phoneCode: '+371', language: 'Latvian', currency: 'Euro (EUR)',
   camera: ["<strong>73.5% Gen 3 + 26.5% Gen 2</strong>"],
   car: [
-    "Gen 4：黑色轎車 + 圓形天線",
+    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2022 為主） — 少量黑車天線覆蓋",
+    "Gen 4：也有<strong>紅色轎車</strong>（2022 為主） — 紅車稀疏分布",
+    "Gen 4 藍車天線：<strong>2023 無涵蓋</strong>（排除 Latvia、同時也排除 Hungary、Slovakia、Estonia、Croatia）",
     "Gen 3：白色轎車"
   ],
   roads: [
@@ -1434,16 +1586,20 @@ const COUNTRIES = {
   tips: [
     "長音符號（ā、ē、ī、ū）+ 子音軟音符號（ļ、ķ、ģ、ņ）= Latvian",
     "與 Lithuanian 不同 — Lithuanian 使用鉤形符號（ą、ę）和點（ė、ż）",
-    "高細 bollard 帶數字 = Latvia"
+    "高細 bollard 帶數字 = Latvia",
+    "🔗 <a href=\"https://www.google.com/maps/@56.9496,24.1052,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Riga）</a>"
   ]
 },
 
 'lithuania': {
   name: 'Lithuania', localName: 'Lietuva', flag: '🇱🇹', region: 'europe',
   drivingSide: 'right', tld: '.lt', phoneCode: '+370', language: 'Lithuanian', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋", "Gen 4 可用"],
+  camera: ["<strong>71% Gen 4 + 29% Gen 3</strong>"],
   car: [
-    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2023-2024）",
+    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2023-2024） — Lithuania 是黑車天線<strong>最多</strong>的國家",
+    "Gen 4：也有<strong>紅色轎車</strong>（2023 為主） — 紅車稀疏分布",
+    "Gen 4 藍車天線 2023：<strong>有涵蓋</strong> — 波羅的海中僅 Lithuania 有（Latvia/Estonia 2023 天線無）",
+    "Gen 4 無車可見：常見（與 Latvia 類似，比 Estonia 多）",
     "Gen 3：白色轎車"
   ],
   roads: [
@@ -1452,6 +1608,16 @@ const COUNTRIES = {
   ],
   bollardInfo: [
     "Bollard：<strong>橘色反光片 + 白色背面反光片</strong>"
+  ],
+  poleInfo: [
+    "<strong>方形混凝土桿</strong>配燈泡排列（1×1、2×2 或 3×3 格式）— Lithuania 獨有",
+    "也有方形混凝土桿帶對角支撐（Estonia 也有類似款）"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（與 Latvia 同款；Estonia 相反為紅底白箭頭）",
+    "公里路標 <strong>45° 角 L 形</strong>（Estonia 垂直；Latvia 平行）",
+    "斑馬線標誌 <strong>3 條條紋</strong> + 行人較粗糙（Estonia 也 3 條但行人更精細；Latvia 5 條）",
+    "公交站牌巴士 <strong>4 窗</strong>（與 Estonia 相同；Latvia 5 窗）"
   ],
   landscape: [
     "平坦的波羅的海地形配緩坡",
@@ -1480,16 +1646,17 @@ const COUNTRIES = {
   tips: [
     "鉤形符號（ą、ę）+ 上方點（ė）= Lithuanian（Latvian 改用長音符號）",
     "以 -as、-is、-ys 結尾的單字 = Lithuanian",
-    "橘色 bollard 反光片 = 可能是 Lithuania"
+    "橘色 bollard 反光片 = 可能是 Lithuania",
+    "🔗 <a href=\"https://www.google.com/maps/@54.6872,25.2797,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vilnius）</a>"
   ]
 },
 
 'luxembourg': {
   name: 'Luxembourg', localName: 'Lëtzebuerg', flag: '🇱🇺', region: 'europe',
   drivingSide: 'right', tld: '.lu', phoneCode: '+352', language: 'Luxembourgish, French, German', currency: 'Euro (EUR)',
-  camera: ["Gen 3 和 Gen 4 覆蓋", "以如此小的國家來說覆蓋良好"],
+  camera: ["<strong>68.7% Gen 4 + 31.2% Gen 2 + 0.1% Gen 3</strong>", "Gen 3 非常罕見，幾乎全部為 Gen 2 或 Gen 4"],
   car: [
-    "Gen 4：<strong>白色轎車</strong>",
+    "Gen 4：<strong>白色轎車</strong> — 白色車三大國之一（Sweden、Turkey、Luxembourg）",
     "無特殊車輛辨識特徵"
   ],
   roads: [
@@ -1498,7 +1665,9 @@ const COUNTRIES = {
     "白色中心線"
   ],
   bollardInfo: [
-    "Bollard：與 Germany 相同設計"
+    "Bollard：與 Germany 相同設計但反光板上<strong>3 個螺栓</strong>（Germany 為 2 個）",
+    "誘導標：<strong>黑底黃箭頭</strong>（罕見藍底黃箭頭）— 鄰國均不使用此配色",
+    "車牌為<strong>黃色長牌</strong>左側藍條 — 歐洲僅 Netherlands 也用黃色車牌"
   ],
   landscape: [
     "起伏丘陵和森林（北部 Ardennes）",
@@ -1526,14 +1695,15 @@ const COUNTRIES = {
   tips: [
     "德式 bollard + 法語文字 = Luxembourg",
     "三語標誌（French/German/Luxembourgish）= Luxembourg",
-    "看起來非常小且富裕"
+    "看起來非常小且富裕",
+    "🔗 <a href=\"https://www.google.com/maps/@49.6116,6.1319,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Luxembourg）</a>"
   ]
 },
 
 'malta': {
   name: 'Malta', localName: 'Malta', flag: '🇲🇹', region: 'europe',
   drivingSide: 'left', tld: '.mt', phoneCode: '+356', language: 'Maltese, English', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋", "以小面積來說覆蓋良好"],
+  camera: ["<strong>72.7% Gen 3 + 27.3% Gen 2</strong>", "以小面積來說覆蓋良好"],
   car: [
     "Gen 3：標準轎車",
     "靠左行駛（英國殖民遺產）",
@@ -1559,7 +1729,10 @@ const COUNTRIES = {
     "獨特字母：ħ、ġ、ċ、ż、għ"
   ],
   plates: [
-    "白色車牌附 EU 藍色條紋 + M 代碼"
+    "白色車牌附 <strong>EU 藍色條紋 + M</strong> 國碼",
+    "格式多樣（字母 + 數字組合）",
+    "與其他 EU 國相似，靠 M 國碼辨識",
+    "靠左行駛 + EU 車牌 = 地中海僅 Malta 和 Cyprus"
   ],
   unique: [
     "<strong>靠左行駛 + 地中海島嶼</strong>",
@@ -1571,14 +1744,15 @@ const COUNTRIES = {
   tips: [
     "蜂蜜色石灰岩 + 靠左行駛 + 地中海 = Malta",
     "Maltese 文字帶 ħ、ġ = Malta",
-    "非常小的島嶼 — 如果一切看起來古老且金色 = Malta"
+    "非常小的島嶼 — 如果一切看起來古老且金色 = Malta",
+    "🔗 <a href=\"https://www.google.com/maps/@35.8989,14.5146,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Valletta）</a>"
   ]
 },
 
 'moldova': {
   name: 'Moldova', localName: 'Moldova', flag: '🇲🇩', region: 'europe',
   drivingSide: 'right', tld: '.md', phoneCode: '+373', language: 'Romanian', currency: 'Leu (MDL)',
-  camera: ["Gen 3 覆蓋主要道路", "與 Romania 相比覆蓋有限"],
+  camera: ["<strong>100% Gen 3</strong>（覆蓋主要道路）", "與 Romania 相比覆蓋有限"],
   car: [
     "Gen 3：白色轎車",
     "無特殊車輛辨識特徵"
@@ -1588,6 +1762,11 @@ const COUNTRIES = {
     "許多路面品質差",
     "白色中心線",
     "大量未鋪設/碎石鄉村道路"
+  ],
+  signInfo: [
+    "標誌為<strong>Romanian 語</strong>（拉丁文字）— 與 Romania 相同語言但基礎設施更差",
+    "Transnistria（東部分離區）：標誌為<strong>西里爾文</strong>（俄語），可見蘇聯符號和 Transnistria 旗幟",
+    "⚠️ 拉丁文 Romanian 標誌 + 破舊基礎設施 = Moldova（不是 Romania）"
   ],
   landscape: [
     "起伏丘陵配葡萄園（主要葡萄酒產區）",
@@ -1602,7 +1781,9 @@ const COUNTRIES = {
     "Romanian 字元：ă、â、î、ș、ț"
   ],
   plates: [
-    "白色車牌附 MD 代碼"
+    "白色車牌附 <strong>MD</strong> 國碼（無 EU 藍色條紋 — 非 EU 成員）",
+    "格式：地區碼 + 字母 + 數字（如 C = Chișinău）",
+    "<strong>Transnistria 有自己的車牌</strong>：附 PMR 代碼，與 Moldova 本土不同"
   ],
   unique: [
     "Romanian 語但明顯比 Romania 貧窮",
@@ -1613,14 +1794,15 @@ const COUNTRIES = {
   tips: [
     "Romanian 文字 + 蘇聯時期建築 + 差的基礎設施 = Moldova",
     "看到西里爾文 + 蘇聯符號，可能是 Moldova 的 Transnistria 地區",
-    "不如 Romania 發達 — 更差的道路、更舊的建築"
+    "不如 Romania 發達 — 更差的道路、更舊的建築",
+    "🔗 <a href=\"https://www.google.com/maps/@47.0105,28.8638,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Chișinău）</a>"
   ]
 },
 
 'monaco': {
   name: 'Monaco', localName: 'Monaco', flag: '🇲🇨', region: 'europe',
   drivingSide: 'right', tld: '.mc', phoneCode: '+377', language: 'French', currency: 'Euro (EUR)',
-  camera: ["覆蓋有限 — 非常小的城邦", "部分地區有 trekker/行人覆蓋"],
+  camera: ["<strong>55.9% Gen 2 + 44.1% Gen 3</strong>", "港灣有 Gen 3 trekker — 競技常見"],
   car: [
     "標準轎車（涵蓋極少）",
     "無特殊車輛辨識特徵"
@@ -1640,7 +1822,12 @@ const COUNTRIES = {
     "Casino de Monte-Carlo 周邊"
   ],
   signs: ["法語", "Monaco 特有的停車和交通標誌"],
-  plates: ["Monaco 特有車牌"],
+  plates: [
+    "<strong>藍底白字</strong> — 歐洲極少見的藍色車牌（僅 Monaco 和 San Marino）",
+    "歐洲最短車牌（約 260mm），僅 4 個字元",
+    "格式：數字（無字母），非常小巧",
+    "看到藍色小車牌 + 法語環境 = Monaco（San Marino 是義語環境）"
+  ],
   unique: [
     "地中海沿岸極度密集的奢華都市環境",
     "F1 大獎賽賽道基礎設施",
@@ -1649,14 +1836,15 @@ const COUNTRIES = {
   ],
   tips: [
     "極致奢華 + 微型地中海城市 + 法語文字 = Monaco",
-    "到處都是賭場、遊艇和超跑"
+    "到處都是賭場、遊艇和超跑",
+    "🔗 <a href=\"https://www.google.com/maps/@43.7384,7.4246,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Monaco）</a>"
   ]
 },
 
 'montenegro': {
   name: 'Montenegro', localName: 'Crna Gora', flag: '🇲🇪', region: 'europe',
   drivingSide: 'right', tld: '.me', phoneCode: '+382', language: 'Montenegrin', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋", "主要路線覆蓋尚可"],
+  camera: ["<strong>100% Gen 3</strong>", "主要路線覆蓋尚可"],
   car: [
     "Gen 3：白色轎車",
     "護柱有<strong>黑帽</strong>（類似 Austrian 風格）",
@@ -1669,7 +1857,18 @@ const COUNTRIES = {
     "沿海新高速公路 vs 粗糙山路"
   ],
   bollardInfo: [
-    "Bollard：<strong>有黑色帽蓋</strong>（類似 Austria 風格）"
+    "白色路桩，<strong>頂部黑色</strong>，前面紅色反光條，背面白色反光條（Slovenia 也有類似款）"
+  ],
+  poleInfo: [
+    "<strong>混凝土或金屬電線桿</strong> — 部分地區有獨特的弧形支架設計",
+    "沿海和山區桿子風格不同，山區可見簡單木桿"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底黑箭頭</strong>和<strong>黃底紅箭頭</strong>兩種（Albania 為黑底白箭頭）",
+    "A 型和 B 型護欄<strong>都有</strong> — 唯一兩者兼具的巴爾幹國家",
+    "公路護欄通常<strong>生鏽</strong>",
+    "街景覆蓋常見<strong>裂縫</strong>（圖片縫合問題）— Albania 也有但其他國家少見",
+    "標誌主要為<strong>拉丁文字</strong>，部分地區（靠近 Serbia 邊境）可見西里爾文"
   ],
   landscape: [
     "壯觀的亞得里亞海岸線（Kotor 灣）",
@@ -1684,7 +1883,10 @@ const COUNTRIES = {
     "字元：č、ć、đ、š、ž"
   ],
   plates: [
-    "白色車牌附藍色條紋 + MNE 代碼"
+    "白色車牌附左側 <strong>藍色條紋 + MNE</strong> 國碼",
+    "格式：城市代碼 + 字母 + 數字（如 PG = Podgorica, KO = Kotor）",
+    "城市代碼可幫助定位區域",
+    "與 Serbia（SRB）和 Croatia（HR）車牌格式類似，靠國碼區分"
   ],
   unique: [
     "黑色頂蓋 bollard（類似 Austria 但反光片不同）",
@@ -1695,7 +1897,8 @@ const COUNTRIES = {
   tips: [
     "壯觀海岸線 + 斯拉夫語（拉丁文字）+ 小國 = Montenegro",
     "Kotor 灣一眼就能辨認",
-    "巴爾幹背景下的黑色頂蓋 bollard = 很可能是 Montenegro"
+    "巴爾幹背景下的黑色頂蓋 bollard = 很可能是 Montenegro",
+    "🔗 <a href=\"https://www.google.com/maps/@42.4304,19.2594,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Podgorica）</a>"
   ]
 },
 
@@ -1703,12 +1906,17 @@ const COUNTRIES = {
   name: 'Netherlands', localName: 'Nederland', flag: '🇳🇱', region: 'europe',
   drivingSide: 'right', tld: '.nl', phoneCode: '+31', language: 'Dutch', currency: 'Euro (EUR)',
   camera: [
-    "<strong>Gen 3（天空裂痕非常普遍）</strong>",
+    "<strong>90% Gen 4 + 7.3% Gen 3 + 2.3% Gen 2</strong>",
+    "Gen 3 天空裂痕非常普遍",
     "Gen 4 覆蓋部分區域（黑色車尾部有時可見模糊故障）",
-    "全國覆蓋範圍廣泛"
+    "全國覆蓋範圍廣泛",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~6,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 4：<strong>黑色轎車</strong>（部分涵蓋有車尾模糊故障）",
+    "Gen 4：也有<strong>黑色轎車露出</strong>（exposed） — 方形外觀車尾可見，前部常見白色 — Netherlands <strong>獨有</strong>",
+    "Gen 4 黑車天線：少量（2023），也見於 UK、Czechia",
+    "Gen 4 藍車天線：<strong>2022 無涵蓋</strong>（排除 Netherlands、同時也排除 Germany、Slovenia）",
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
@@ -1776,23 +1984,26 @@ const COUNTRIES = {
     "黃色後車牌 = Netherlands（最獨特的特徵）",
     "平坦 + 運河 + 自行車道 + Dutch = Netherlands",
     "紅色柏油自行車道 = Netherlands",
-    "不要與 Belgium 混淆 — Netherlands 更平坦且維護更好"
+    "不要與 Belgium 混淆 — Netherlands 更平坦且維護更好",
+    "🔗 <a href=\"https://www.google.com/maps/@52.3676,4.9041,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amsterdam）</a>"
   ]
 },
 
 'north-macedonia': {
   name: 'North Macedonia', localName: 'Северна Македонија', flag: '🇲🇰', region: 'europe',
   drivingSide: 'right', tld: '.mk', phoneCode: '+389', language: 'Macedonian, Albanian', currency: 'Denar (MKD)',
-  camera: ["Gen 3 覆蓋主要道路"],
-  car: ["標準白色車",
-    "⚠️ North Macedonia <strong>沒有 Google 街景車覆蓋</strong> — 僅有 trekker 和第三方覆蓋"
+  camera: ["<strong>100% Gen 3</strong>", "覆蓋主要道路和部分城市"],
+  car: ["Gen 3 白色轎車，<strong>永遠沒有天線</strong>",
+    "⚠️ 歐洲僅 North Macedonia 的 Gen 3 完全無天線（Serbia 也大概率無天線）"
   ],
   roads: [
     "道路品質不一",
     "白色中線"
   ],
   bollardInfo: [
-    "Bollard：反光片非常靠近頂部（類似 Croatia）"
+    "兩種路桩：圓形薄款 + 厚平款，均白色 + 黑色部分有紅/白反光板（Croatia 同款楔形）",
+    "護欄為 A 型帶<strong>紅色反光器</strong>（Serbia 用 B 型）",
+    "警告標志使用<strong>黃色背景</strong> — 歐洲僅 North Macedonia 和 Greece 常用"
   ],
   landscape: [
     "山地地形",
@@ -1819,7 +2030,8 @@ const COUNTRIES = {
   tips: [
     "西里爾文有 Ѓ 和 Ќ（非 Ђ 和 Ћ）= Macedonian，不是 Serbian",
     "Ohrid 湖 + 西里爾文 = North Macedonia",
-    "雙語西里爾文/Albanian 標誌 = 很可能是 North Macedonia"
+    "雙語西里爾文/Albanian 標誌 = 很可能是 North Macedonia",
+    "🔗 <a href=\"https://www.google.com/maps/@42.0024,21.4361,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Skopje）</a>"
   ]
 },
 
@@ -1827,17 +2039,18 @@ const COUNTRIES = {
   name: 'Norway', localName: 'Norge / Noreg', flag: '🇳🇴', region: 'europe',
   drivingSide: 'right', tld: '.no', phoneCode: '+47', language: 'Norwegian', currency: 'Krone (NOK)',
   camera: [
-    "<strong>Gen 3</strong>",
+    "<strong>85.6% Gen 3 + 9.8% Gen 2 + 4.6% Gen 4</strong>",
     "Gen 3 覆蓋範圍廣泛",
-    "Gen 4 覆蓋（藍色車，無天線）"
+    "Gen 4 覆蓋（藍色車，無天線）— 也有「小相機」低角度覆蓋"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong>",
+    "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
+    "Gen 4 藍車天線：<strong>無</strong>（Norway 不在天線群組中 — 北歐僅 Sweden 有天線）",
+    "Gen 4 藍車 2023：稀少，僅 Norway 南部有涵蓋",
     "Gen 3：白色轎車",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "<strong>85.6% Gen 3 + 9.8% Gen 2 + 4.6% Gen 4</strong>",
     "大路外側<strong>白色實線</strong>，中線<strong>黃橙色虛線</strong>；小路為白色長虛線",
     "邊線有時為<strong>點狀</strong>",
     "峽灣地區的單線道，許多隧道",
@@ -1898,7 +2111,62 @@ const COUNTRIES = {
     "æ、ø、å + 山脈/峽灣 = Norway（不是平坦的 Denmark）",
     "'vei'（道路）= Norwegian；'vej'（道路）= Danish",
     "壯觀山脈 + 峽灣 + 斯堪地那維亞語言 = Norway",
-    "斜向黑色 bollard 條紋可與其他北歐國家區分"
+    "斜向黑色 bollard 條紋可與其他北歐國家區分",
+    "🔗 <a href=\"https://www.google.com/maps/@59.9139,10.7522,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Oslo）</a>"
+  ]
+},
+
+'svalbard': {
+  name: 'Svalbard', localName: 'Svalbard', flag: '🇸🇯', region: 'europe',
+  drivingSide: 'right', tld: '.sj', phoneCode: '+47', language: 'Norwegian', currency: 'Krone (NOK)',
+  camera: [
+    "<strong>100% Trekker（徒步拍攝）</strong>",
+    "北冰洋群島，挪威主權",
+    "在國家連勝中視作挪威",
+    "覆蓋僅限於少數定居點和周邊區域"
+  ],
+  car: [
+    "無街景車 — 全部為<strong>徒步拍攝者</strong>和<strong>船隻</strong>覆蓋",
+    "部分覆蓋中 Trekker 抓住一輛紅色汽車",
+    "有時可見<strong>黑色後視鏡</strong>在左側"
+  ],
+  roads: [
+    "靠右行駛（挪威領土）",
+    "鋪設道路極為有限 — 主要在朗伊爾城（Longyearbyen）內",
+    "大部分覆蓋為步道和非鋪設路徑"
+  ],
+  landscape: [
+    "<strong>荒蕪無樹的山脈</strong> — 植被非常罕見，大部分為苔蘚和野草",
+    "天空經常<strong>陰雲密布</strong>，整體感覺陰沉",
+    "朗伊爾城：方正簡約的建築",
+    "皮拉米登（Pyramiden）：荒涼的蘇維埃風格公寓，可見<strong>金字塔形山脈</strong>",
+    "巴倫支堡（Barentsburg）：最荒涼，山頂附近有色彩鮮豔的公寓，天氣更陰沉",
+    "斯匹次卑爾根西北國家公園有大船覆蓋"
+  ],
+  signs: [
+    "挪威語",
+    "有時可在標誌上看到<strong>俄語</strong>（蘇聯時期遺留影響）",
+    "標誌極為有限"
+  ],
+  plates: [
+    "<strong>黑底黃字</strong>車牌",
+    "與挪威本土的白色車牌完全不同"
+  ],
+  unique: [
+    "<strong>荒蕪無樹的北極山脈</strong> — 全球最北的定居點之一",
+    "<strong>黑底黃字車牌</strong> — 與挪威本土不同",
+    "皮拉米登的<strong>金字塔形山脈</strong>和荒廢蘇維埃建築",
+    "標誌上的<strong>俄語</strong>文字",
+    "朗伊爾城的方正簡約建築",
+    "各種<strong>船隻覆蓋</strong>（紅色小船、木甲板船、黑色甲板船等）"
+  ],
+  tips: [
+    "荒蕪無樹的北極山脈 + 挪威語/俄語 = Svalbard",
+    "黑底黃字車牌 = Svalbard（非挪威本土）",
+    "金字塔形山脈 + 蘇維埃建築 = 皮拉米登",
+    "最荒涼 + 山頂彩色公寓 = 巴倫支堡",
+    "方正簡約建築 + 最大定居點 = 朗伊爾城",
+    "🔗 <a href=\"https://www.google.com/maps/@78.2232,15.6267,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Longyearbyen）</a>"
   ]
 },
 
@@ -1906,12 +2174,14 @@ const COUNTRIES = {
   name: 'Poland', localName: 'Polska', flag: '🇵🇱', region: 'europe',
   drivingSide: 'right', tld: '.pl', phoneCode: '+48', language: 'Polish', currency: 'Złoty (PLN)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
+    "<strong>70% Gen 4 + 30% Gen 3</strong>",
     "全國覆蓋範圍廣泛"
   ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
-    "Gen 4：極罕見黑色車或白色車"
+    "Gen 4：藍色車（有天線和無天線均有），藍車天線在中東歐偏少但 Poland 有一些",
+    "Gen 4 藍車天線：<strong>2022 很少</strong>（也少見於 Sweden）",
+    "Gen 4 藍車 2023：比 2022 少（Poland 更多 2022 涵蓋）"
   ],
   roads: [
     "道路劃線<strong>全白</strong>，<strong>雙白實線</strong>中線非常常見（Denmark/Greece 也有）",
@@ -1969,7 +2239,8 @@ const COUNTRIES = {
     "ą、ę（鉤形）+ ł（斜線 L）= Polish（非 Lithuanian 或 Czech）",
     "子音組合如 szcz、rz = Polish",
     "紅色帶 bollard（非德式矩形反光片）",
-    "電桿上的鸛巢 = 非常可能是 Poland"
+    "電桿上的鸛巢 = 非常可能是 Poland",
+    "🔗 <a href=\"https://www.google.com/maps/@52.2297,21.0122,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Warsaw）</a>"
   ]
 },
 
@@ -1977,31 +2248,49 @@ const COUNTRIES = {
   name: 'Portugal', localName: 'Portugal', flag: '🇵🇹', region: 'europe',
   drivingSide: 'right', tld: '.pt', phoneCode: '+351', language: 'Portuguese', currency: 'Euro (EUR)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
-    "全國覆蓋良好"
+    "<strong>80% Gen 4 + 10% Gen 3 + 10% Gen 2</strong>",
+    "全國覆蓋良好",
+    "Gen 4 有「小相機」低角度覆蓋 — 大圓形打碼前部突出"
   ],
   car: [
     "Gen 3：白色轎車，標準歐洲配置",
-    "Gen 4 涵蓋有限",
+    "Gen 4：標準配置",
     "無特殊車輛辨識特徵"
   ],
   roads: [
     "右側行駛",
     "白色中心線",
-    "高速公路有收費"
+    "高速公路有收費",
+    "<strong>鵝卵石路</strong>非常常見（方形鵝卵石，與道路方向呈對角線排列）",
+    "<strong>黑白路石</strong>常見",
+    "路牌通常有<strong>白色邊框</strong>（Spain 大多無白邊）",
+    "農村常見<strong>紅白相間狩獵標誌</strong>（菱形或長方形）— Spain 的狩獵標誌為黑白相間"
   ],
   bollardInfo: [
-    "Bollard：<strong>反光片上方空間極小</strong>，反光片可為方形或矩形"
+    "Bollard：楔形（頂部有明顯白色薄片）或扁平型（帶寬大反光板）",
+    "反光板多為白色，也有<strong>橙色</strong>（比 Spain 的黃色明顯更深）",
+    "護欄為 A 型配<strong>紅色反光板</strong>（⚠️ Spain 用黃色 — 區別關鍵）"
   ],
   poleInfo: [
-    "混凝土梯子形電桿（向頂部漸細）"
+    "混凝土梯子形電桿，<strong>梯級間距較大</strong>，每個梯級有<strong>小孔</strong>",
+    "⚠️ Spain/France 的梯桿梯級間距較小 — 區別關鍵"
+  ],
+  signInfo: [
+    "誘導標：<strong>黑底黃箭頭</strong>（⚠️ Spain 用黑底<strong>白</strong>箭頭或藍底白箭頭 — 區別關鍵）— 地中海地區此配色僅 Portugal",
+    "STOP 標誌字體比 Spain 的明顯<strong>更大</strong>",
+    "路牌用<strong>方形牌柱</strong>（與 Spain、France、Andorra 共有）",
+    "警告標誌紅框有<strong>細白邊</strong>（Spain 沒有白邊）"
   ],
   landscape: [
     "北部丘陵地形，南部平坦的 Alentejo",
     "Algarve 海岸 — 壯觀的懸崖",
     "Douro 河谷 — 梯田葡萄園",
     "軟木橡樹林",
-    "建築上的 Azulejo 磁磚（藍白裝飾磁磚）"
+    "建築上的 Azulejo 磁磚（藍白裝飾磁磚）",
+    "<strong>白漆石屋 + 橙色瓦片屋頂</strong>極常見",
+    "門窗周圍常有<strong>藍色或黃色邊框裝飾</strong>",
+    "外牆貼馬賽克裝飾瓷磚的房屋較常見",
+    "桉樹非常常見（歐洲其他地方僅 Spain 北部有）"
   ],
   signs: [
     "Portuguese 語 — ã、õ、ç、â、ê、ô、á、é、í、ó、ú",
@@ -2010,7 +2299,8 @@ const COUNTRIES = {
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + P 代碼",
-    "格式：AA-12-BB"
+    "格式：AA-12-BB",
+    "⚠️ 大多數車牌右側有<strong>黃色條紋</strong> — Portugal 特有（2020 年起停用，舊車仍有）"
   ],
   unique: [
     "<strong>Portuguese bollard 反光片上方空間很小</strong>",
@@ -2026,7 +2316,8 @@ const COUNTRIES = {
     "歐洲的 Portuguese 文字（ã、õ）= Portugal（不是 Brazil！）",
     "Azulejo 磁磚立面 = 很可能是 Portugal",
     "鵝卵石人行道 + Portuguese = Portugal",
-    "反光片上方空間很小的 bollard = Portugal"
+    "反光片上方空間很小的 bollard = Portugal",
+    "🔗 <a href=\"https://www.google.com/maps/@38.7223,-9.1393,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lisbon）</a>"
   ]
 },
 
@@ -2038,12 +2329,13 @@ const COUNTRIES = {
     "Gen 4 覆蓋（藍色車搭配圓形天線）"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>",
+    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（天線常見 — 屬天線多的中東歐群組）",
+    "Gen 4 藍車天線 2021：少量涵蓋（與 Hungary、Bulgaria、Sweden、France 並列）",
+    "Gen 4 藍車天線 2023：常見（尤其東北部）",
     "Gen 3：白色轎車，長天線可見",
     "Gen 3：天線有膠帶（東歐共通特徵，與 Czech, Slovakia, Hungary 共用）"
   ],
   roads: [
-    "<strong>76.7% Gen 4 + 23.1% Gen 3 + 0.3% Gen 2</strong>",
     "外側線為<strong>短虛線窄空隙</strong>組成 — Romania 好線索",
     "中心線比 Bulgaria <strong>更粗</strong>",
     "道路品質差異顯著",
@@ -2098,7 +2390,8 @@ const COUNTRIES = {
     "ș 和 ț（帶逗號）= Romanian",
     "羅曼語 + 東歐基礎設施 = Romania",
     "主要道路上有馬車 = 很可能是 Romania",
-    "Dacia 汽車品牌 = Romanian"
+    "Dacia 汽車品牌 = Romanian",
+    "🔗 <a href=\"https://www.google.com/maps/@44.4268,26.1025,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bucharest）</a>"
   ]
 },
 
@@ -2123,6 +2416,10 @@ const COUNTRIES = {
   ],
   bollardInfo: [
     "Bollard：<strong>十字路口極薄的「紙片狀」bollard</strong>"
+  ],
+  poleInfo: [
+    "<strong>方形混凝土電線杆</strong>，頂部有<strong>金屬橫桿</strong>",
+    "城市區域常見灰色方形混凝土杆 — 與圓形木杆國家（Scandinavia 等）形成對比"
   ],
   landscape: [
     "極大多樣性：凍原、泰加林、草原、山脈",
@@ -2156,23 +2453,37 @@ const COUNTRIES = {
     "西里爾文帶 Ы 和 Э = Russian（Ukrainian 沒有 Ы）",
     "薄紙片 bollard = Russia",
     "大面積白樺林 + 蘇聯建築 + 西里爾文 = Russia",
-    "電話國碼 +7（僅與 Kazakhstan 共用）"
+    "電話國碼 +7（僅與 Kazakhstan 共用）",
+    "🔗 <a href=\"https://www.google.com/maps/@55.7558,37.6173,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Moscow）</a>"
   ]
 },
 
 'san-marino': {
   name: 'San Marino', localName: 'San Marino', flag: '🇸🇲', region: 'europe',
   drivingSide: 'right', tld: '.sm', phoneCode: '+378', language: 'Italian', currency: 'Euro (EUR)',
-  camera: ["覆蓋有限 — 非常小的國家"],
+  camera: ["<strong>66.6% Gen 3 + 32.3% Gen 4 + 1.1% Gen 2</strong>"],
   car: ["標準車輛"],
   roads: ["義大利風格道路", "山路（Titano 山）"],
   landscape: [
-    "Titano 山上的 San Marino 三塔",
+    "<strong>巨神峰（Monte Titano）</strong>非常高大，全國各地幾乎都能看見",
+    "山上三座塔是確認標誌",
+    "景觀為平緩農業小丘 + 蜿蜒道路 + 地中海植被",
     "被 Italy 包圍的山頂微型國家",
     "中世紀防禦工事"
   ],
   signs: ["Italian 語"],
-  plates: ["San Marino 車牌附 RSM 代碼"],
+  signInfo: [
+    "誘導標：<strong>黃底深紅箭頭</strong> — 全球唯一使用此配色",
+    "路標、電線杆和路牌樣式與 Italy 一致",
+    "路牌上常見附近 Italy 城市 Rimini 的名字",
+    "藍色斑馬線和懸掛人行橫道標志 — San Marino 獨有"
+  ],
+  plates: [
+    "<strong>藍底白字 + RSM</strong> 國碼 — 與 Monaco 類似的藍色車牌",
+    "格式：字母 + 數字組合",
+    "歐洲僅 Monaco 和 San Marino 使用藍色車牌",
+    "San Marino = 藍色車牌 + 義語環境；Monaco = 藍色車牌 + 法語環境"
+  ],
   unique: [
     "有中世紀塔樓的微型山頂國家",
     "完全被 Italy 包圍",
@@ -2180,7 +2491,8 @@ const COUNTRIES = {
   ],
   tips: [
     "Italian 文字 + 中世紀山頂堡壘 = 可能是 San Marino",
-    "非常小的領土 — 如果能看到山上的三座塔"
+    "非常小的領土 — 如果能看到山上的三座塔",
+    "🔗 <a href=\"https://www.google.com/maps/@43.9424,12.4578,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Marino）</a>"
   ]
 },
 
@@ -2236,16 +2548,20 @@ const COUNTRIES = {
   tips: [
     "西里爾文中的 Ђ 或 Ћ = Serbian（非 Russian、Bulgarian 或 Ukrainian）",
     "同一標誌上西里爾文和拉丁文混合 = 很可能是 Serbia",
-    "薄 bollard 搭配偏心反光片 = Serbia"
+    "薄 bollard 搭配偏心反光片 = Serbia",
+    "🔗 <a href=\"https://www.google.com/maps/@44.7866,20.4489,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Belgrade）</a>"
   ]
 },
 
 'slovakia': {
   name: 'Slovakia', localName: 'Slovensko', flag: '🇸🇰', region: 'europe',
   drivingSide: 'right', tld: '.sk', phoneCode: '+421', language: 'Slovak', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋", "Gen 4 覆蓋（據報有紅色車）"],
+  camera: ["<strong>89% Gen 4 + 11% Gen 3</strong>"],
   car: [
-    "Gen 4：<strong>紅色轎車</strong>",
+    "Gen 4：<strong>紅色轎車</strong> — 紅車三大國之一（Sweden、Slovakia、Bulgaria）",
+    "Gen 4 藍車無天線：<strong>2023 無涵蓋</strong>（有助於與 Czechia 區分 — Czechia 2023 藍車有涵蓋）",
+    "Gen 4 藍車天線 2023：<strong>無涵蓋</strong>（排除 Slovakia、同時排除 Hungary、Latvia、Estonia、Croatia）",
+    "50-50 Czechia vs Slovakia：2019 或 2021 → Czechia；紅車 → 多為 Slovakia；黑/白車 → Czechia",
     "Gen 3：白色轎車，天線有膠帶",
     "護柱：<strong>分裂反光片 + 弧形設計</strong>"
   ],
@@ -2256,6 +2572,16 @@ const COUNTRIES = {
   ],
   bollardInfo: [
     "Bollard：<strong>分裂式反光片 + 彎曲設計</strong>（vs Czech 楔形）"
+  ],
+  poleInfo: [
+    "<strong>寬圓混凝土電線杆</strong>最常見，通常成對安裝（與 Czech 共有）",
+    "杆頂有短金屬棒支撐絕緣體；也有倒三角形和三叉戟杆頂",
+    "木桿比 Czech 更常見，有時有白色混凝土支撐底座"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>",
+    "指路牌：綠色背景配白色文字",
+    "倒三角形杆頂（與 Czech/Albania/Serbia 共有）"
   ],
   landscape: [
     "北部 High Tatras 山脈",
@@ -2285,16 +2611,19 @@ const COUNTRIES = {
     "看起來像 Czech 但沒有 ř = Slovak",
     "ô 或 ĺ 或 ŕ = Slovak（不是 Czech）",
     "弧形 bollard（非楔形）= Slovak（Czech 是楔形）",
-    "可見 High Tatras = 很可能是 Slovakia 北部"
+    "可見 High Tatras = 很可能是 Slovakia 北部",
+    "🔗 <a href=\"https://www.google.com/maps/@48.1486,17.1077,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bratislava）</a>"
   ]
 },
 
 'slovenia': {
   name: 'Slovenia', localName: 'Slovenija', flag: '🇸🇮', region: 'europe',
   drivingSide: 'right', tld: '.si', phoneCode: '+386', language: 'Slovenian', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋", "覆蓋良好"],
+  camera: ["<strong>85.6% Gen 3 + 14.3% Gen 4 + 0.1% Gen 2</strong>", "覆蓋良好"],
   car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2023）",
+    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（天線常見 — 屬天線多的群組）",
+    "Gen 4 藍車天線：<strong>2022 無涵蓋</strong>（排除 Slovenia、同時排除 Germany、Netherlands）",
+    "Gen 4 無車可見 2022：常見（與 Austria 類似）",
     "Gen 3：白色轎車",
     "護柱有<strong>黑帽</strong>（類似 Austrian 風格但反光片較淺）"
   ],
@@ -2304,7 +2633,16 @@ const COUNTRIES = {
     "白色中心線"
   ],
   bollardInfo: [
-    "Bollard：<strong>有黑色帽蓋但反光片較淺</strong>（vs Austria 深色反光片）"
+    "黑頂白色路桩，前部<strong>亮紅色</strong>反光條，背面白色（Austria 前部為暗紅/灰，背面黑/灰；Montenegro 也有類似款）"
+  ],
+  poleInfo: [
+    "混合使用木桿和混凝土桿",
+    "木桿上常有交替鉤形絕緣子"
+  ],
+  signInfo: [
+    "誘導標：<strong>白底紅箭頭</strong>（Austria 為紅底白箭頭或黃底紅箭頭）",
+    "斑馬線標志：行人<strong>無腰帶</strong>（Croatia 行人有繫腰帶）+ 5 條條紋",
+    "指路牌：綠色背景配白色文字（高速公路為藍色）"
   ],
   landscape: [
     "西北部為高山（Julian Alps）",
@@ -2320,7 +2658,8 @@ const COUNTRIES = {
     "沿海地區也使用 Italian"
   ],
   plates: [
-    "白色車牌附 EU 藍色條紋 + SLO 代碼"
+    "白色車牌附 EU 藍色條紋 + SLO 代碼",
+    "格式：LJ（Ljubljana）、MB（Maribor）等城市代碼 + 數字"
   ],
   unique: [
     "黑色頂蓋 bollard 搭配較淺反光片（vs Austria 的深色反光片）",
@@ -2334,7 +2673,8 @@ const COUNTRIES = {
   tips: [
     "斯拉夫語 + 高山景觀 + 歐元 = 很可能是 Slovenia",
     "黑色頂蓋 bollard 搭配較淺反光片 = Slovenia（不是 Austria）",
-    "Bled 湖（高山湖泊中的島上教堂）= Slovenia"
+    "Bled 湖（高山湖泊中的島上教堂）= Slovenia",
+    "🔗 <a href=\"https://www.google.com/maps/@46.0569,14.5058,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ljubljana）</a>"
   ]
 },
 
@@ -2343,11 +2683,13 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.es', phoneCode: '+34', language: 'Spanish', currency: 'Euro (EUR)',
   camera: [
     "<strong>43.8% Gen 3 + 41.9% Gen 4 + 14.3% Gen 2</strong>",
-    "全境覆蓋範圍廣泛"
+    "全境覆蓋範圍廣泛",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~14,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 3：天線有長/短/無三種，車尾通常不可見（少數為黑色或白色）",
     "Gen 4：標準藍色車（有時可見），通常無天線",
+    "Gen 4 藍車 2021：有涵蓋（Spain 是 2021 西歐涵蓋主力之一，與 France、UK、Ireland 並列）",
     "Andalusia 東部、Huesca、Lleida 的 Gen 3 有時有<strong>白頂長天線</strong> — 較獨特"
   ],
   roads: [
@@ -2420,7 +2762,8 @@ const COUNTRIES = {
     "歐洲的 Spanish（ñ）= Spain（不是拉丁美洲）",
     "黃色凹面 bollard = Spain",
     "山頂上的 Osborne 公牛剪影 = Spain",
-    "雙語標誌（Spanish/Catalan 或 Spanish/Basque）= Spain"
+    "雙語標誌（Spanish/Catalan 或 Spanish/Basque）= Spain",
+    "🔗 <a href=\"https://www.google.com/maps/@40.4168,-3.7038,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Madrid）</a>"
   ]
 },
 
@@ -2428,11 +2771,17 @@ const COUNTRIES = {
   name: 'Sweden', localName: 'Sverige', flag: '🇸🇪', region: 'europe',
   drivingSide: 'right', tld: '.se', phoneCode: '+46', language: 'Swedish', currency: 'Krona (SEK)',
   camera: [
-    "<strong>Gen 3 + Gen 4（多種車色：藍/紅/白）</strong>",
-    "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）"
+    "<strong>79% Gen 4 + 18% Gen 3 + 3% Gen 2（多種車色：藍/紅/白）</strong>",
+    "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,600 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 4：<strong>紅/白/藍三種車色</strong>，均有短天線 — Sweden Gen 4 車色最多樣",
+    "Gen 4 紅車：紅車三大國之一（Sweden、Slovakia、Bulgaria）— Sweden 紅車可能偏南部",
+    "Gen 4 白車：白色車三大國之一（Sweden、Turkey、Luxembourg）",
+    "Gen 4 藍車天線 2021：<strong>有涵蓋</strong>（歐洲最早一批 — 與 Hungary、Bulgaria、少量 Romania/France 並列）",
+    "Gen 4 藍車天線 2022：<strong>很少</strong>（也少見於 Poland）",
+    "⚠️ 北歐 50-50：非藍色車 → Sweden；有天線 → Sweden；2019 → 多為 Norway；2021 → 排除 Finland",
     "Gen 3：白色轎車配長天線（同款也出現在 Iceland 全部 + Finland 部分）",
     "藍色車也出現在 Norway/Finland/Denmark",
     "西海岸 + Skåne 有<strong>白色車配藍色條紋</strong> — 幾乎僅見於 Sweden"
@@ -2505,7 +2854,8 @@ const COUNTRIES = {
     "å、ä、ö = Swedish（Danish/Norwegian 改用 æ、ø、å）",
     "ö（Swedish）vs ø（Danish/Norwegian）是關鍵區別",
     "紅色木造房屋（falun 紅）+ 森林 = Sweden",
-    "駝鹿警告標誌 = Sweden/Norway/Finland"
+    "駝鹿警告標誌 = Sweden/Norway/Finland",
+    "🔗 <a href=\"https://www.google.com/maps/@59.3293,18.0686,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Stockholm）</a>"
   ]
 },
 
@@ -2520,13 +2870,14 @@ const COUNTRIES = {
     "模糊區域之大，幾乎佔畫面底部 1/3 — 這是 Switzerland 最強的 meta 特徵"
   ],
   car: [
-    "<strong>相機位置極低</strong> — 所有國家中模糊區域最大",
+    "<strong>Gen 4 小相機（low cam）</strong> — 所有國家中模糊區域最大，前方可見不同顏色車輛",
     "低角度拍攝使路面看起來更寬、物體看起來更大",
-    "這是 Switzerland 最具辨識性的 meta 特徵之一",
+    "Gen 4：幾乎全部為<strong>「無車可見」（完全打碼）</strong> — 與 Austria、Belgium 並列最常見",
+    "⚠️ Switzerland + Liechtenstein 的 Gen 4 外觀與其他歐洲國家完全不同 — 一看便知",
+    "Liechtenstein 應該只有 2024 藍色車（顏色常難以辨識）",
     "無 antenna、無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
-    "<strong>87.2% Gen 3 + 12.8% Gen 4</strong>",
     "道路上有<strong>黃色長虛線</strong> — Switzerland 好線索（Liechtenstein 也有）",
     "<strong>黃色人行橫道</strong> — 歐洲僅 Switzerland/Liechtenstein",
     "道路品質優良，山口配髮夾彎"
@@ -2578,7 +2929,8 @@ const COUNTRIES = {
     "超低相機配巨大模糊區域 = Switzerland",
     "瑞士德語文字 + 阿爾卑斯山 = Switzerland（不是 Austria）",
     "黑白圓頂 bollard = Switzerland",
-    "棕色高速公路標誌可與鄰國區分"
+    "棕色高速公路標誌可與鄰國區分",
+    "🔗 <a href=\"https://www.google.com/maps/@46.9480,7.4474,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bern）</a>"
   ]
 },
 
@@ -2591,16 +2943,22 @@ const COUNTRIES = {
     "覆蓋有限（非常小的國家）"
   ],
   car: [
-    "與 Switzerland 類似的車輛配置",
+    "Gen 4 小相機（low cam）— 與 Switzerland 完全相同的低相機特徵",
+    "Liechtenstein 應該只有 <strong>2024 藍色車</strong>（顏色常難以辨識）",
     "可能有<strong>低相機</strong>（與 Switzerland 共享此特徵）"
   ],
   roads: [
     "右側行駛",
     "路面品質優良（已開發國家）",
-    "白色中心線"
+    "道路上有<strong>黃色長虛線</strong>和<strong>黃色人行橫道</strong>（與 Switzerland 相同）",
+    "<strong>黃黑條紋道路分隔器</strong>，頂部圓形有旋鈕突起 — Liechtenstein 較獨特"
   ],
   bollardInfo: [
-    "Bollard：<strong>圓頂圓柱形，黑白配色</strong>（與 Switzerland 完全相同）"
+    "Bollard：<strong>圓頂圓柱形，黑白配色</strong>，側面常有<strong>藍色附著物</strong>（與 Switzerland 幾乎相同）"
+  ],
+  signInfo: [
+    "行人標志有 <strong>7 道條紋</strong> + 高矩形藍色（與 Switzerland 同款）",
+    "公交站：<strong>綠白配色</strong>，頂部寫 LIEMOBIL，周圍有黑色金屬框 — Liechtenstein 獨有"
   ],
   landscape: [
     "阿爾卑斯山小國 — 完全被山脈環繞",
@@ -2614,8 +2972,8 @@ const COUNTRIES = {
     "路標風格類似 Switzerland"
   ],
   plates: [
-    "白色車牌，FL 代碼",
-    "黑色文字"
+    "<strong>黑底白字</strong>車牌，中間有<strong>紅黃色徽章</strong> — 模糊後呈灰色僅徽章可見",
+    "⚠️ 與 Switzerland 白色車牌明顯不同 — 可靠區分特徵"
   ],
   unique: [
     "<strong>Bollard 與 Switzerland 完全相同</strong>（圓頂黑白）",
@@ -2628,7 +2986,8 @@ const COUNTRIES = {
     "黑白圓頂 bollard + 德語 + 極小阿爾卑斯國家 = Liechtenstein 或 Switzerland",
     "看到 FL 車牌或 .li 域名 = Liechtenstein",
     "比 Switzerland 更小、幾乎只有一條山谷",
-    "與 Switzerland 極難區分 — 主要靠車牌和域名"
+    "與 Switzerland 極難區分 — 主要靠車牌和域名",
+    "🔗 <a href=\"https://www.google.com/maps/@47.141,9.5209,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vaduz）</a>"
   ]
 },
 
@@ -2638,11 +2997,15 @@ const COUNTRIES = {
   camera: [
     "<strong>92.4% Gen 3 + 7.6% Gen 4</strong>",
     "Gen 3 覆蓋中街景車從未有天線",
-    "西部覆蓋較多，東部較少"
+    "西部覆蓋較多，東部較少",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~19,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>白色轎車</strong>",
-    "Gen 4：也有<strong>灰色 pickup truck（皮卡車）</strong>",
+    "Gen 4：<strong>白色轎車</strong> — 白色車三大國之一（Sweden、Turkey、Luxembourg）",
+    "Gen 4：也有<strong>深灰色 pickup truck（皮卡車）</strong>",
+    "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數無藍車國家，另有 Austria、Belgium）",
+    "Gen 4 藍車天線：<strong>無</strong>（Turkey 不在天線群組中）",
+    "Gen 4 無車可見：<strong>極少</strong>（Turkey 和 Greece 幾乎沒有完全打碼的情況）",
     "Gen 3：白色轎車，<strong>無天線</strong>（Turkey 和 North Macedonia 在 Gen 3 中從無天線）",
     "多種車型跨越不同涵蓋期間"
   ],
@@ -2694,7 +3057,8 @@ const COUNTRIES = {
     "ğ 或 ı（無點 i）= Turkish",
     "帶洞的金屬電桿（非混凝土）= Turkey（非 Romania/Hungary）",
     "拉丁文字 + 清真寺 = Turkey（不是使用阿拉伯文字的阿拉伯國家）",
-    "注意標誌上的 İstanbul、Türkiye、ğ"
+    "注意標誌上的 İstanbul、Türkiye、ğ",
+    "🔗 <a href=\"https://www.google.com/maps/@41.0082,28.9784,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Istanbul）</a>"
   ]
 },
 
@@ -2702,20 +3066,37 @@ const COUNTRIES = {
   name: 'Ukraine', localName: 'Україна', flag: '🇺🇦', region: 'europe',
   drivingSide: 'right', tld: '.ua', phoneCode: '+380', language: 'Ukrainian', currency: 'Hryvnia (UAH)',
   camera: [
-    "<strong>Gen 3 + Gen 4（Gen 4 為紅色車）</strong>",
-    "Gen 4 覆蓋（紅色車）",
-    "覆蓋集中在 Ukraine 西部和中部"
+    "<strong>100% Gen 3</strong>（全部為第三代街景）",
+    "⚠️ Ukraine 沒有 Gen 2 或 Gen 4 — Russia 有 Gen 2 和 Gen 4",
+    "覆蓋集中在城市及城市間主要道路"
   ],
   car: [
-    "Gen 3/4：<strong>紅色轎車</strong> — 非常醒目的辨識特徵",
-    "<strong>長天線</strong>有時可見，有時不可見",
-    "紅色車是 Ukraine 最知名的 car meta",
+    "Gen 3：<strong>紅色轎車</strong> — Ukraine 幾乎獨有的紅色街景車",
+    "<strong>長天線</strong>有時可見，有時不可見；無天線時考慮 Ukraine",
+    "⚠️ Russia Gen 3 總是有天線（短或長），若完全無天線則考慮 Ukraine",
+    "也有罕見的黑車長天線、白車長天線、灰車短天線覆蓋",
     "無 snorkel、無 車頂架 (roof rack)"
   ],
   roads: [
     "道路品質不一 — 許多地區很差",
-    "白色中線",
-    "歐洲風格路標"
+    "白色中線和白色邊線",
+    "歐洲風格路標",
+    "路面上有白色公里標記（寬白色矩形 + 數字）",
+    "高速公路標誌為藍色或綠色"
+  ],
+  bollardInfo: [
+    "白色路桩帶<strong>紅色反光條</strong>，底部有時塗黑",
+    "護欄為 A 型，常有白色或紅色反光板"
+  ],
+  poleInfo: [
+    "<strong>混凝土圓柱桿</strong>最常見",
+    "樹木和電線桿底部常<strong>塗白色</strong>（Ukraine/Russia/Belarus 共通特徵）",
+    "也有木桿，部分地區有金屬桿"
+  ],
+  signInfo: [
+    "誘導標：<strong>紅底白箭頭</strong>（與 Estonia、Russia 同款）",
+    "城鎮入口標志為白底，附城市名稱",
+    "公路編號為藍色或綠色背景"
   ],
   landscape: [
     "中部/南部遼闊平坦的草原",
@@ -2747,7 +3128,8 @@ const COUNTRIES = {
     "看到 Ї（有兩個點的 I）？= Ukraine，保證",
     "看到 Є？= Ukrainian（Russian 沒有此字母）",
     "西里爾文沒有 Ы 或 Ё = 很可能是 Ukrainian",
-    "平坦草原 + 向日葵 + Ukrainian 西里爾文 = Ukraine"
+    "平坦草原 + 向日葵 + Ukrainian 西里爾文 = Ukraine",
+    "🔗 <a href=\"https://www.google.com/maps/@50.4501,30.5234,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kyiv）</a>"
   ]
 },
 
@@ -2756,10 +3138,13 @@ const COUNTRIES = {
   drivingSide: 'left', tld: '.uk', phoneCode: '+44', language: 'English', currency: 'Pound (GBP)',
   camera: [
     "<strong>~61% Gen 4 + ~39% Gen 3</strong>",
-    "全境覆蓋範圍廣泛"
+    "全境覆蓋範圍廣泛",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~27,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>藍色轎車</strong>（2023 也有黑色 + 圓形天線）",
+    "Gen 4：<strong>藍色轎車</strong>（2023 也有<strong>黑色 + 圓形天線</strong>）",
+    "Gen 4 藍車無天線 2021：常見（UK 是 2021 西歐涵蓋主力之一，與 France、Ireland 並列）",
+    "Gen 4：也有<strong>電動車</strong>覆蓋 — 僅 London 市中心",
     "Gen 2/3：白色轎車",
     "靠左行駛",
     "無 snorkel、無 車頂架 (roof rack)"
@@ -2815,7 +3200,181 @@ const COUNTRIES = {
     "英語 + 靠左行駛 + mph = UK",
     "UK 使用 mph（Ireland 使用 km/h）",
     "UK 使用英鎊（Ireland 使用歐元）",
-    "紅色郵筒 = UK（Ireland 的是綠色）"
+    "紅色郵筒 = UK（Ireland 的是綠色）",
+    "🔗 <a href=\"https://www.google.com/maps/@51.5074,-0.1278,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（London）</a>"
+  ]
+},
+
+'gibraltar': {
+  name: 'Gibraltar', localName: 'Gibraltar', flag: '🇬🇮', region: 'europe',
+  drivingSide: 'right', tld: '.gi', phoneCode: '+350', language: 'English', currency: 'Pound Sterling / Gibraltar Pound (GBP/GIP)',
+  camera: [
+    "<strong>100% Gen 3</strong>",
+    "車上有<strong>獨特的長天線，頂端為銀色</strong> — 被稱為「直布羅陀天線」",
+    "在歐洲除直布羅陀外，此天線僅在西班牙部分地區出現（不與直布羅陀接壤）",
+    "所有街景均在<strong>12月拍攝</strong> — 可見聖誕裝飾"
+  ],
+  car: [
+    "Gen 3：<strong>黑色</strong>街景車",
+    "長天線頂端銀色 — 「直布羅陀天線」",
+    "西班牙部分地區也有類似天線，但不與直布羅陀接壤"
+  ],
+  roads: [
+    "<strong>靠右行駛</strong> — 與英國本土不同！",
+    "英式風格道路標誌和基礎設施",
+    "許多上坡蜿蜒道路通往巨岩",
+    "道路空間有限 — 非常小的領地"
+  ],
+  landscape: [
+    "<strong>直布羅陀巨岩</strong>（Rock of Gibraltar）— 巨大石灰岩山，幾乎每處都可望見",
+    "裸露的白色石灰岩，形狀獨特",
+    "地中海環境",
+    "城區房屋密集，柔和色彩和百叶窗（綠色/藍色/棕色）",
+    "<strong>巴巴里獼猴</strong>（野生猴子）— 歐洲唯一可見野生猴子的地方",
+    "南端可見<strong>易卜拉欣清真寺</strong>尖塔 — 歐洲大陸最南端清真寺"
+  ],
+  signs: [
+    "<strong>英語</strong>為主 — 地中海環境中的英語官方標誌是重要線索",
+    "POLICE NOTICE、DIVERSION、SLOW 等英式標誌用語",
+    "⚠️ Malta 也使用英語且有地中海風景 — 需用其他線索區分"
+  ],
+  plates: [
+    "白色前車牌、<strong>黃色後車牌</strong> — 與英國相同",
+    "左側有藍色 EU 條紋"
+  ],
+  unique: [
+    "<strong>長天線頂端銀色</strong>（直布羅陀天線）— 關鍵辨識特徵",
+    "<strong>直布羅陀巨岩</strong> — 巨大石灰岩山幾乎處處可見",
+    "<strong>靠右行駛</strong>但使用英式黃色後車牌 — 歐洲中非常獨特的組合",
+    "<strong>巴巴里獼猴</strong> — 歐洲唯一野生猴子",
+    "12月拍攝 — <strong>聖誕裝飾</strong>可見",
+    "地中海環境中的英語標誌"
+  ],
+  tips: [
+    "銀色頂端長天線 + 地中海環境 = Gibraltar",
+    "巨大石灰岩山（巨岩）= 立即確認 Gibraltar",
+    "靠右行駛 + 英語 + 黃色後車牌 = Gibraltar（不是 UK 本土）",
+    "聖誕裝飾 + 地中海 = 可能是 Gibraltar（12月拍攝）",
+    "野生猴子 + 歐洲 = Gibraltar",
+    "🔗 <a href=\"https://www.google.com/maps/@36.1408,-5.3536,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Gibraltar）</a>"
+  ]
+},
+
+'isle-of-man': {
+  name: 'Isle of Man', localName: 'Ellan Vannin', flag: '🇮🇲', region: 'europe',
+  drivingSide: 'left', tld: '.im', phoneCode: '+44-1624', language: 'English', currency: 'Pound Sterling (GBP)',
+  camera: [
+    "<strong>100% Gen 2</strong>",
+    "低鏡頭位置，上下方有圓形模糊區域",
+    "影像色彩輕微失真",
+    "在國家連勝中算作英國"
+  ],
+  car: [
+    "Gen 2：<strong>黑色</strong>街景車",
+    "低鏡頭 — 上下方有圓形模糊區域",
+    "影像色彩失真（Gen 2 特徵）"
+  ],
+  roads: [
+    "靠左行駛（英國皇家屬地）",
+    "狹窄道路貫穿丘陵農田",
+    "沿主幹道有<strong>黑白相間路緣石</strong>",
+    "道路基礎設施與英國本土相似"
+  ],
+  landscape: [
+    "丘陵上的農田為主要景觀",
+    "整體<strong>多山</strong>，但北部例外 — 北部地勢<strong>非常平坦</strong>，向南可見山脈",
+    "類似愛爾蘭的白色粉刷牆和入口牆的房屋",
+    "<strong>金雀花（荊豆）</strong>— 明亮黃色花束，在島上常見",
+    "英國和愛爾蘭崎嶇地帶也有金雀花"
+  ],
+  signs: [
+    "英語",
+    "道路標誌與英國本土非常相似",
+    "城市中可見<strong>藍色護柱</strong>"
+  ],
+  plates: [
+    "白色前車牌、黃色後車牌",
+    "⚠️ 車牌左側有<strong>紅色條紋</strong> — 與英國本土的藍色 EU 條紋不同",
+    "紅色條紋是區分 Isle of Man 和 UK 的關鍵特徵"
+  ],
+  unique: [
+    "車牌左側<strong>紅色條紋</strong> — 最重要的辨識線索",
+    "<strong>100% Gen 2 覆蓋</strong> — 低鏡頭、圓形模糊、色彩失真",
+    "南部街景中鏡頭左側有<strong>「樹枝污漬」</strong>",
+    "<strong>藍色底座帶藍色小貼紙的燈</strong> — 島上大部分地區可見",
+    "燈上貼紙前兩個字母可精確到 21 個教區",
+    "首府 Douglas 有大量排屋，比島上其他地區人口更密集"
+  ],
+  tips: [
+    "Gen 2 覆蓋 + 類似 UK + 車牌紅色條紋 = Isle of Man",
+    "車牌紅色條紋（非藍色）= Isle of Man（非 UK 本土）",
+    "北部平坦 + 南部多山 = Isle of Man 方位參考",
+    "南部街景有鏡頭左側「樹枝污漬」",
+    "與 UK 非常相似但 Gen 2 畫質 + 紅色車牌條紋可區分",
+    "🔗 <a href=\"https://www.google.com/maps/@54.1509,-4.4806,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Douglas）</a>"
+  ]
+},
+
+'jersey': {
+  name: 'Jersey', localName: 'Jersey / Jèrri', flag: '🇯🇪', region: 'europe',
+  drivingSide: 'left', tld: '.je', phoneCode: '+44-1534', language: 'English, French', currency: 'Pound Sterling / Jersey Pound (GBP/JEP)',
+  camera: [
+    "<strong>100% Gen 2</strong>",
+    "所有全景由第 2 代相機拍攝",
+    "大部分覆蓋為<strong>晴朗天氣</strong>（藍天） — 比 UK 本土和 Isle of Man 更常見晴天",
+    "在國家連勝中算作英國"
+  ],
+  car: [
+    "Gen 2：<strong>黑色</strong>街景車",
+    "拍攝時天氣晴朗 — 與 UK 本土和 Isle of Man 的陰天形成對比"
+  ],
+  roads: [
+    "靠左行駛",
+    "道路基礎設施與英國相似（指路標誌、誘導標誌、警告標誌）",
+    "十字路口使用<strong>黃色讓行線</strong>（vs UK 使用雙虛線白線）",
+    "<strong>黃色實線外線 + 白色虛線中線</strong> — 歐洲唯一使用此標線的地方",
+    "許多蜿蜒道路和樹籬，類似英國鄉間小路"
+  ],
+  landscape: [
+    "不列顛文化和諾曼文化的<strong>獨特組合</strong>",
+    "建築與法國北部相似：淡雅柔和牆壁色彩 + 深色石板屋頂",
+    "大量<strong>紅色花崗岩</strong>建築 — 島上豐富的花崗岩資源",
+    "英式排屋也常見",
+    "<strong>黃色電話亭</strong>（vs UK 本土的紅色電話亭）",
+    "<strong>康沃爾棕櫚樹</strong>（澳洲朱蕉）— 細樹幹和拱形葉子",
+    "Les Mielles 自然保護區：西海岸的廣闘無樹土地"
+  ],
+  signs: [
+    "由於靠近法國，路名和地名<strong>大量包含法語單詞</strong>",
+    "傳統語言 <strong>Jèrriais（澤西語）</strong>出現在部分路牌上 — 與法語密切相關",
+    "大多數街道名稱標誌標有<strong>所在教區徽章</strong>",
+    "廣泛的自行車路線網絡 — 常見 <strong>\"Green Lane\"</strong> 標誌",
+    "包含島嶼輪廓的<strong>藍色路線標牌</strong>也常見"
+  ],
+  plates: [
+    "白色前車牌、黃色後車牌 — 英式格式",
+    "左側有<strong>紅色澤西徽章</strong>",
+    "未模糊車牌中代碼均以字母 <strong>\"J\"</strong> 開頭",
+    "從未加入歐盟 — 車牌<strong>無藍色 EU 條紋</strong>",
+    "後車牌左側有<strong>細白色條紋</strong>"
+  ],
+  unique: [
+    "<strong>黃色讓行線</strong>（vs UK 的白色雙虛線）",
+    "<strong>黃色實線外線 + 白色虛線中線</strong> — 歐洲唯一",
+    "<strong>黃色電話亭</strong>（vs UK 的紅色電話亭）",
+    "<strong>紅色花崗岩</strong>建築隨處可見",
+    "路名大量法語 + 英語混合",
+    "車牌以 \"J\" 開頭 + 紅色徽章 + 無 EU 藍條紋",
+    "晴朗天氣的 Gen 2 覆蓋 — 有藍天",
+    "西南部有<strong>綠紫色變色</strong>的影像故障"
+  ],
+  tips: [
+    "黃色電話亭 = Jersey（UK 紅色電話亭）",
+    "黃色讓行線 + 英法混合路名 = Jersey",
+    "紅色花崗岩建築 + 英式道路設施 = Jersey",
+    "Gen 2 + 晴朗藍天 + 英式道路 = 可能是 Jersey",
+    "車牌以 J 開頭 + 無 EU 條紋 = Jersey",
+    "🔗 <a href=\"https://www.google.com/maps/@49.2138,-2.1358,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（St Helier）</a>"
   ]
 },
 
@@ -2827,7 +3386,7 @@ const COUNTRIES = {
   name: 'Bangladesh', localName: 'বাংলাদেশ', flag: '🇧🇩', region: 'asia',
   drivingSide: 'left', tld: '.bd', phoneCode: '+880', language: 'Bengali', currency: 'Taka (BDT)',
   camera: [
-    "<strong>Gen 3 + Gen 4 + Shitcam（三代有三種特殊車型）</strong>",
+    "<strong>98% Gen 4 + 1% Gen 3 + 1% Shitcam（三代有三種特殊車型）</strong>",
     "覆蓋持續擴展中",
     "部分區域覆蓋品質較低"
   ],
@@ -2845,6 +3404,10 @@ const COUNTRIES = {
     "路面品質通常較差",
     "部分涵蓋區域可見洪水",
     "人力車在道路上極為常見"
+  ],
+  poleInfo: [
+    "<strong>混凝土電線桿</strong>為主 — 表面有橫向凹痕或小孔（梯子桿型）",
+    "鄉村地區也有竹製或簡單木桿；城市區域有鐵桿"
   ],
   landscape: [
     "極度平坦的三角洲地形",
@@ -2874,14 +3437,15 @@ const COUNTRIES = {
   tips: [
     "頂部有連接線 + 向左三角形 = 孟加拉文 = Bangladesh（不是 India）",
     "平坦 + 到處是水 + 極高人口密度 = Bangladesh",
-    "色彩鮮豔的裝飾人力車 = Bangladesh"
+    "色彩鮮豔的裝飾人力車 = Bangladesh",
+    "🔗 <a href=\"https://www.google.com/maps/@23.8103,90.4125,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dhaka）</a>"
   ]
 },
 
 'bhutan': {
   name: 'Bhutan', localName: 'འབྲུག་ཡུལ', flag: '🇧🇹', region: 'asia',
   drivingSide: 'left', tld: '.bt', phoneCode: '+975', language: 'Dzongkha', currency: 'Ngultrum (BTN)',
-  camera: ["涵蓋有限", "部分地區有 trekker 涵蓋"],
+  camera: ["<strong>100% Trekker</strong>（涵蓋極有限）", "部分地區有 trekker 涵蓋"],
   car: [
     "涵蓋極為有限 — 大部分為 trekker",
     "無標準 Google 車輛辨識特徵",
@@ -2894,6 +3458,14 @@ const COUNTRIES = {
     "單車道路面常見",
     "路況不佳"
   ],
+  bollardInfo: [
+    "<strong>黑白條紋石柱</strong> — 山路彎道外側常見，頂部有時為圓頂",
+    "部分為簡單白色混凝土柱，無反光片"
+  ],
+  poleInfo: [
+    "<strong>木製電線桿</strong>為主 — 山區常見簡單木桿，上有多條電線",
+    "部分地區有細鐵桿或混凝土桿"
+  ],
   landscape: [
     "喜馬拉雅山脈",
     "山坡茂密森林",
@@ -2905,8 +3477,13 @@ const COUNTRIES = {
     "宗喀語（藏文字母） — 有頂部橫線的方角字形",
     "標誌上也使用英文"
   ],
-  plates: ["不丹車牌"],
+  plates: [
+    "<strong>紅色車牌配白色文字</strong> — 全球極少數紅色車牌的國家！",
+    "BP 前綴為私家車；BT 前綴為計程車（黃底黑字）",
+    "紅色車牌即使透過模糊也非常醒目"
+  ],
   unique: [
+    "<strong>紅色車牌</strong> — 全球極少數，非常強的辨識線索",
     "藏文 + 喜馬拉雅山景",
     "道路沿途的經幡",
     "傳統不丹建築（白色牆面配彩色裝飾）",
@@ -2914,7 +3491,8 @@ const COUNTRIES = {
   ],
   tips: [
     "類藏文字體 + 喜馬拉雅山 + 經幡 = Bhutan",
-    "比西藏本土森林覆蓋更多"
+    "比西藏本土森林覆蓋更多",
+    "🔗 <a href=\"https://www.google.com/maps/@27.4728,89.6393,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Thimphu）</a>"
   ]
 },
 
@@ -2922,18 +3500,16 @@ const COUNTRIES = {
   name: 'Cambodia', localName: 'កម្ពុជា', flag: '🇰🇭', region: 'asia',
   drivingSide: 'right', tld: '.kh', phoneCode: '+855', language: 'Khmer', currency: 'Riel (KHR)',
   camera: [
-    "<strong>Gen 3（覆蓋有限，銀灰色無天線車）</strong>",
-    "也有少量 shitcam（印度相機）覆蓋",
+    "<strong>80.2% Gen 3 + 19.8% Shitcam（印度相機）</strong>",
+    "Shitcam 僅出現在<strong>西南半邊</strong>",
     "主要道路覆蓋良好",
     "部分地區使用船隻和火車拍攝"
   ],
   car: [
-    "<strong>多種特殊車輛</strong>被用於拍攝 Cambodia — 沒有單一標準車型",
-    "Gen 4：<strong>Stubby antenna with three ridges（三脊短粗天線）</strong>（與 New Zealand、Hawaii、USA 共享）",
-    "部分覆蓋使用帶 <strong>triple coil（三重線圈）</strong>的特殊車輛",
+    "兩種 Gen 3 街景車：(1) <strong>白色帶條紋車（左白右黃），無天線</strong> — 柬埔寨獨有 (2) <strong>短粗天線帶三條螺紋</strong>（拉美國家類似天線僅一條螺紋）",
+    "⚠️ 白色條紋車是柬埔寨獨有的，不要與 Bangladesh 條紋車混淆",
     "Mekong 河區域使用<strong>船隻</strong>拍攝",
-    "鐵路沿線使用<strong>火車</strong>拍攝",
-    "Cambodia 的車輛 meta 較複雜 — 多種車型混用，無法單靠車輛辨識國家"
+    "鐵路沿線使用<strong>火車</strong>拍攝"
   ],
   roads: [
     "右側通行",
@@ -2950,7 +3526,8 @@ const COUNTRIES = {
     "⚠️ Thailand 用方形混凝土桿（有成排小孔），Cambodia 不常見此型"
   ],
   signInfo: [
-    "誘導標：<strong>黑底黃箭頭</strong>（不常見；其他東南亞國家為黃底黑箭頭，方向相反）"
+    "誘導標：<strong>黑底黃箭頭</strong>（不常見；其他東南亞國家為黃底黑箭頭，方向相反）",
+    "停車標誌：<strong>ឈប់</strong>（chhob，高棉文）— 高棉文停車標誌是 Cambodia 強力辨識特徵"
   ],
   landscape: [
     "平坦地形 — 湄公河與洞里薩湖低地",
@@ -2965,7 +3542,12 @@ const COUNTRIES = {
     "字形非常有特色，曲線明顯",
     "比泰文或寮文曲線更銳利"
   ],
-  plates: ["白色／黃色車牌"],
+  plates: [
+    "白色車牌為一般私家車",
+    "黃色車牌為商用車輛（計程車、卡車）",
+    "車牌有高棉文字和阿拉伯數字",
+    "格式：省份代碼 + 數字"
+  ],
   unique: [
     "<strong>高棉文帶有向右的鉤</strong> — 非常有辨識度",
     "<strong>紅色金字塔頂護柱</strong>",
@@ -2978,15 +3560,16 @@ const COUNTRIES = {
     "每個字母都有向右鉤 = 高棉文 = Cambodia",
     "紅色金字塔頂護柱 = Cambodia（不是 Thailand）",
     "糖棕 + 平坦地形 + 高棉文 = Cambodia",
-    "泰文有小圓圈；高棉文有向右的鉤"
+    "泰文有小圓圈；高棉文有向右的鉤",
+    "🔗 <a href=\"https://www.google.com/maps/@11.5564,104.9282,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Phnom Penh）</a>"
   ]
 },
 
 'hong-kong': {
   name: 'Hong Kong', localName: '香港', flag: '🇭🇰', region: 'asia',
   drivingSide: 'left', tld: '.hk', phoneCode: '+852', language: 'Chinese (Cantonese), English', currency: 'HK Dollar (HKD)',
-  camera: ["Gen 3 涵蓋", "密集的都市涵蓋"],
-  car: ["標準車輛，相機位置低"],
+  camera: ["<strong>99% Gen 4 + 1% Gen 3 + 1% Gen 2</strong>", "密集的都市涵蓋，三種世代都有"],
+  car: ["白色轎車為主", "靠左行駛"],
   roads: [
     "白色虛線中心線 + 白色實線邊線（英式）",
     "左側通行（英國殖民遺產）",
@@ -3006,7 +3589,12 @@ const COUNTRIES = {
     "所有標誌皆為雙語（中文 + 英文）",
     "英式道路標誌"
   ],
-  plates: ["多種格式，帶有 HK 前綴"],
+  plates: [
+    "白色前車牌 + 黃色後車牌（與 UK/Ireland 相同系統）",
+    "格式：2 字母 + 4 數字（如 AB 1234）",
+    "無前綴 — 直接是字母數字",
+    "⚠️ Macau 為全黑色車牌 — 可區分兩地"
+  ],
   unique: [
     "<strong>左側通行 + 中文 + 英文</strong>",
     "繁體中文字（非簡體字）",
@@ -3017,7 +3605,8 @@ const COUNTRIES = {
   tips: [
     "中文 + 英文 + 左側通行 = Hong Kong",
     "密集摩天大樓 + 繁體中文 = Hong Kong",
-    "Macau 也是左側通行，但用葡萄牙文而非英文"
+    "Macau 也是左側通行，但用葡萄牙文而非英文",
+    "🔗 <a href=\"https://www.google.com/maps/@22.3193,114.1694,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hong Kong）</a>"
   ]
 },
 
@@ -3025,15 +3614,15 @@ const COUNTRIES = {
   name: 'India', localName: 'भारत', flag: '🇮🇳', region: 'asia',
   drivingSide: 'left', tld: '.in', phoneCode: '+91', language: 'Hindi, English, + 20 others', currency: 'Rupee (INR)',
   camera: [
-    "<strong>Gen 3（密集城市覆蓋）</strong>",
+    "<strong>99% Shitcam + 0.9% Gen 4（smallcam）+ 0.1% Gen 3</strong>",
     "Shitcam 特徵：偏棕色調、圓形大面積打碼蓋住街景車",
-    "極少量 Gen 4（~0.9%）和 Gen 3（~0.1%）覆蓋",
-    "所有覆蓋目前僅限城市地區（2022 年後擴展）"
+    "Gen 4 為 <strong>smallcam</strong>（安裝位置比普通四代更低，前方有小凸起）",
+    "全國範圍有大量<strong>第三代徒步街景</strong>分布"
   ],
   car: [
-    "Gen 3：白色轎車，多種車型",
+    "絕大多數為 Shitcam 覆蓋 — 偏棕色調、大圓形打碼",
+    "Gen 4 為 smallcam（比普通四代安裝更低，打碼有時完全透明）",
     "涵蓋品質和車型因地區差異很大",
-    "無特殊 antenna 或 roof rack 特徵",
     "靠左行駛"
   ],
   roads: [
@@ -3063,8 +3652,11 @@ const COUNTRIES = {
     "通常三語並列：印地語 + 地區語言 + 英文"
   ],
   plates: [
-    "白色車牌帶有邦代碼（例如 MH 代表 Maharashtra、DL 代表 Delhi）",
-    "黃色車牌為商用車輛"
+    "<strong>前後車牌顏色相同</strong> — 無前/後差異",
+    "<strong>白底黑字</strong> — 私家車（前後皆白色），帶有邦代碼（例如 MH = Maharashtra、DL = Delhi）",
+    "<strong>黃底黑字</strong> — 商用車輛（計程車、卡車、巴士，前後皆黃色）",
+    "綠底白字 — 電動車（2019 年起）",
+    "紅底白字 — 臨時登記（新車未領正式車牌）"
   ],
   unique: [
     "<strong>天城文帶有頂部連接橫線</strong>",
@@ -3078,7 +3670,8 @@ const COUNTRIES = {
     "頂部有水平橫線連接字母 = 天城文 = 很可能是 India",
     "但 Nepal 也使用天城文 — India 更平坦且交通更多",
     "同一標誌上有多種文字 = India（不同邦使用不同文字）",
-    "三輪車 + 天城文 = India"
+    "三輪車 + 天城文 = India",
+    "🔗 <a href=\"https://www.google.com/maps/@28.6139,77.209,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Delhi）</a>"
   ]
 },
 
@@ -3125,8 +3718,9 @@ const COUNTRIES = {
     "常見詞彙：'kota'（城市）、'desa'（村莊）、'pulau'（島嶼）"
   ],
   plates: [
-    "黑底白字車牌",
-    "以字母標示地區代碼"
+    "<strong>黑底白字</strong>車牌，分為<strong>三個白色區塊</strong>",
+    "⚠️ Malaysia 也是黑底白字但只有<strong>兩個</strong>區塊 — 3 vs 2 是關鍵區別！",
+    "以字母標示地區代碼（B=Jakarta、D=Bandung、L=Surabaya 等）"
   ],
   unique: [
     "<strong>黑白方塊護柱配金字塔頂</strong>",
@@ -3141,7 +3735,8 @@ const COUNTRIES = {
     "'Jalan' 或 'Jl.' = Indonesia 或 Malaysia",
     "黑色車牌 = Indonesia（Malaysia 格式不同）",
     "清真寺 + 拉丁字母 + 熱帶 = 很可能是 Indonesia",
-    "紅白條紋電桿 = Indonesia（國旗配色）"
+    "紅白條紋電桿 = Indonesia（國旗配色）",
+    "🔗 <a href=\"https://www.google.com/maps/@-6.2088,106.8456,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jakarta）</a>"
   ]
 },
 
@@ -3173,6 +3768,11 @@ const COUNTRIES = {
     "收費快速道路眾多",
     "轉角處常見交通鏡"
   ],
+  bollardInfo: [
+    "<strong>白色圓柱形路樁</strong>，頂部有<strong>圓形反射塊</strong> — 日本最常見的 bollard 類型",
+    "北海道有<strong>紅白相間箭頭型雪杆</strong>（指示積雪時道路邊界）",
+    "⚠️ Japan 路樁非常乾淨整齊，與東南亞的粗糙路樁形成對比"
+  ],
   poleInfo: [
     "<strong>電線桿</strong>：圓形混凝土桿，表面有螺絲狀水平凸起（螺紋桿）— 非常普遍",
     "電線桿上常有<strong>電力公司標牌</strong>（各地方設計不同，可用於區域猜測）和<strong>反光帶</strong>（垂直黃色條紋/對角黃色條紋/對角白色條紋）"
@@ -3197,10 +3797,13 @@ const COUNTRIES = {
     "路牌通常附有英文拼音"
   ],
   plates: [
-    "白色／黃色／綠色車牌，依車輛類型不同",
+    "<strong>顏色依車輛類型不同</strong>（前後車牌顏色相同）：",
+    "⚠️ <strong>白底綠字</strong> — 一般私家車（最常見）",
+    "⚠️ <strong>黃底黑字</strong> — 輕自動車（kei car，排氣量 660cc 以下的小型車）— GeoGuessr 中非常醒目",
+    "<strong>綠底白字</strong> — 商用車輛（營業用大型車）",
+    "<strong>黑底黃字</strong> — 輕自動車商用車（kei car 營業用）",
     "頂部有日文地區名稱",
-    "綠色車牌為商用車輛",
-    "黃色車牌為輕自動車（小型車輛）"
+    "黃色車牌在街景中辨識度極高 — 看到黃色車牌 + 日文 = Japan kei car"
   ],
   unique: [
     "<strong>三種日文文字混合使用</strong>",
@@ -3217,7 +3820,8 @@ const COUNTRIES = {
     "漢字 + 平假名 + 片假名混用 = Japan（China 只用漢字）",
     "到處都是自動販賣機 = 很可能是 Japan",
     "相機位置低（大範圍模糊） = Japan 或 Switzerland",
-    "左側通行 + 日文 = Japan"
+    "左側通行 + 日文 = Japan",
+    "🔗 <a href=\"https://www.google.com/maps/@35.6762,139.6503,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tokyo）</a>"
   ]
 },
 
@@ -3231,8 +3835,8 @@ const COUNTRIES = {
   ],
   car: [
     "KakaoMap 和 Naver 車輛（非 Google）",
-    "Google 涵蓋：<strong>黑色或白色轎車，無天線</strong>（多為黑色）",
-    "Gen 3 涵蓋為主",
+    "Google 涵蓋：<strong>黑色、白色或銀色轎車，無天線</strong>",
+    "<strong>100% Gen 3</strong>為主",
     "靠右行駛"
   ],
   roads: [
@@ -3266,7 +3870,11 @@ const COUNTRIES = {
     "主要路牌廣泛使用英文"
   ],
   plates: [
-    "白色／綠色車牌",
+    "<strong>前後車牌顏色相同</strong> — 無前/後差異",
+    "<strong>白底黑字</strong> — 一般私家車（2006 年起標準格式，左側有藍色防偽全息條紋）",
+    "<strong>綠底白字</strong> — 電動車/氫能車（2023 年起）",
+    "<strong>螢光綠車牌</strong> — 公司車（車價 8,000 萬韓元以上，2024 年起，防止逃稅）",
+    "黃底黑字 — 計程車/商用車",
     "車牌上有韓文"
   ],
   unique: [
@@ -3280,14 +3888,18 @@ const COUNTRIES = {
     "方塊字形（韓文）= Korean",
     "Street View 介面與 Google 不同 = KakaoMap = South Korea",
     "韓文 + 現代化基礎設施 = South Korea",
-    "韓文相比中文／日文更幾何化且有規律"
+    "韓文相比中文／日文更幾何化且有規律",
+    "🔗 <a href=\"https://www.google.com/maps/@37.5665,126.9780,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Seoul）</a>"
   ]
 },
 
 'malaysia': {
   name: 'Malaysia', localName: 'Malaysia', flag: '🇲🇾', region: 'asia',
   drivingSide: 'left', tld: '.my', phoneCode: '+60', language: 'Malay (Bahasa Melayu)', currency: 'Ringgit (MYR)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "涵蓋良好"],
+  camera: [
+    "<strong>67.3% Gen 3 + 32.6% Gen 4 + 0.1% Gen 2</strong>",
+    "涵蓋良好"
+  ],
   car: [
     "Gen 3/4：白色轎車",
     "靠左行駛（與 Singapore, Indonesia 相同）",
@@ -3295,11 +3907,22 @@ const COUNTRIES = {
   ],
   roads: [
     "<strong>左側行駛</strong>",
-    "<strong>雙白色中心線</strong>常見",
-    "高速公路路面品質良好"
+    "<strong>雙白色中心線</strong>常見 — 東南亞唯一使用雙白中線的國家",
+    "道路線<strong>總是白色</strong>（不像 Indonesia/Thailand 有黃色中線）",
+    "高速公路路面品質良好",
+    "粗黃帶（Malaysia 獨有，Hong Kong 和 UK 也少量出現）"
   ],
   bollardInfo: [
-    "Bollard：五段式設計帶反光片"
+    "護柱：各種黑/白/灰/紅組合，樣式不同但佈局大多相同"
+  ],
+  poleInfo: [
+    "<strong>電線桿</strong>上經常貼有<strong>黑色或白色貼紙</strong> — Malaysia 獨有特徵",
+    "黑色貼紙下有時有紅白或紅藍條紋"
+  ],
+  signInfo: [
+    "停車標誌：<strong>BERHENTI</strong>（馬來語）— Brunei 也使用相同文字",
+    "⚠️ 與 Indonesia（STOP）和 Thailand（หยุด / STOP）不同",
+    "路標杆幾乎永遠有<strong>黑白相間的條紋</strong>（亞洲的 Sri Lanka、Bhutan、Bangladesh 也有）"
   ],
   landscape: [
     "熱帶 — 到處都是油棕種植園",
@@ -3316,8 +3939,10 @@ const COUNTRIES = {
     "華人多數地區有中文字"
   ],
   plates: [
-    "多種格式 — 白色或黑色車牌",
-    "以邦名字母作為前綴"
+    "<strong>黑底白字</strong>車牌，分為<strong>兩個白色區塊</strong>",
+    "⚠️ Indonesia 也是黑底白字但分為<strong>三個</strong>區塊 — 2 vs 3 是關鍵區別！",
+    "以邦名字母作為前綴（W=KL、J=Johor、P=Penang 等）",
+    "計程車有不同顏色車牌"
   ],
   unique: [
     "五段式護柱設計",
@@ -3329,14 +3954,19 @@ const COUNTRIES = {
   tips: [
     "'Jalan' + 左側通行 = Malaysia（Indonesia 靠右行駛）",
     "標誌上有多種文字（拉丁 + 中文 + 淡米爾文） = Malaysia",
-    "油棕種植園 + 熱帶 + 左側通行 = Malaysia"
+    "油棕種植園 + 熱帶 + 左側通行 = Malaysia",
+    "🔗 <a href=\"https://www.google.com/maps/@3.139,101.6869,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（KL）</a>"
   ]
 },
 
 'mongolia': {
   name: 'Mongolia', localName: 'Монгол Улс', flag: '🇲🇳', region: 'asia',
   drivingSide: 'right', tld: '.mn', phoneCode: '+976', language: 'Mongolian', currency: 'Tugrik (MNT)',
-  camera: ["Gen 3 涵蓋", "涵蓋有限 — 廣闊的無人空間"],
+  camera: [
+    "<strong>67.4% Gen 3 + 32.6% Gen 4</strong>",
+    "涵蓋有限 — 廣闊的無人空間",
+    "所有街景都用大型皮卡車拍攝"
+  ],
   car: [
     "<strong>Snorkel 進氣管可見</strong>（僅 Kenya 和 Mongolia 有）",
     "<strong>Roof rack + 車頂露營裝備/背包</strong> — 因拍攝偏遠地區需野營",
@@ -3356,8 +3986,7 @@ const COUNTRIES = {
     "護柱：<strong>白色保齡球瓶形</strong>，頂部兩條紅色條紋（蒙古獨有）"
   ],
   signInfo: [
-    "STOP 標誌：<strong>정지 (jeongji)</strong>",
-    "停車標誌：<strong>「ЗОГС」</strong>（蒙古獨有）"
+    "停車標誌：<strong>「ЗОГС」</strong>（蒙古獨有 — 全球唯一此文字）"
   ],
   landscape: [
     "遼闊草原 — 一望無際的草地",
@@ -3372,7 +4001,11 @@ const COUNTRIES = {
     "有時可見傳統蒙古文（直書）",
     "詞彙受俄語影響"
   ],
-  plates: ["蒙古車牌，使用西里爾字母"],
+  plates: [
+    "白色車牌配西里爾字母",
+    "左側有<strong>蒙古國旗圖案</strong>（紅色 soyombo 符號）",
+    "格式：地區代碼 + 西里爾字母 + 數字"
+  ],
   unique: [
     "<strong>Snorkel + 車頂露營裝備</strong> — 非常有辨識度的車輛特徵",
     "<strong>保齡球瓶形護柱</strong>",
@@ -3384,7 +4017,8 @@ const COUNTRIES = {
     "Snorkel + 車頂裝備 = Mongolia（只有 Kenya 也有 snorkel）",
     "保齡球瓶護柱 = Mongolia",
     "遼闊空曠的草原 + 西里爾字母 = Mongolia",
-    "橫桿有橡膠填充 = 西蒙古；無填充 = 東蒙古"
+    "橫桿有橡膠填充 = 西蒙古；無填充 = 東蒙古",
+    "🔗 <a href=\"https://www.google.com/maps/@47.8864,106.9057,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（UB）</a>"
   ]
 },
 
@@ -3421,7 +4055,15 @@ const COUNTRIES = {
     "也使用英文",
     "與 India 的標誌相似但使用尼泊爾語"
   ],
-  plates: ["尼泊爾車牌"],
+  plates: [
+    "<strong>前後車牌顏色相同</strong> — 顏色編碼系統（全球最多分類之一）：",
+    "<strong>紅底白字</strong> — 私家車（最常見）",
+    "<strong>黑底白字</strong> — 商用車輛（巴士、卡車、計程車）",
+    "<strong>白底紅字</strong> — 政府車輛（街景中容易辨認）",
+    "綠底白字 — 觀光車輛",
+    "藍底白字 — 外交車輛",
+    "天城文（Devanagari）數字常見於車牌上"
+  ],
   unique: [
     "喜馬拉雅山地形",
     "天城文（與 India 共用）",
@@ -3432,14 +4074,18 @@ const COUNTRIES = {
   tips: [
     "天城文 + 極端山地 = Nepal（India 更平坦）",
     "經幡 + 喜馬拉雅山景 = Nepal 或 Bhutan",
-    "Nepal 是使用天城文的喜馬拉雅國家；Bhutan 使用藏文"
+    "Nepal 是使用天城文的喜馬拉雅國家；Bhutan 使用藏文",
+    "🔗 <a href=\"https://www.google.com/maps/@27.7172,85.3240,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kathmandu）</a>"
   ]
 },
 
 'philippines': {
   name: 'Philippines', localName: 'Pilipinas', flag: '🇵🇭', region: 'asia',
   drivingSide: 'right', tld: '.ph', phoneCode: '+63', language: 'Filipino (Tagalog), English', currency: 'Peso (PHP)',
-  camera: ["Gen 3 涵蓋", "主要島嶼涵蓋尚可"],
+  camera: [
+    "<strong>43.5% Gen 3 + 56.5% Gen 4</strong>",
+    "主要島嶼涵蓋尚可"
+  ],
   car: [
     "Gen 3：白色轎車（後方白色可見，有時前方有黑色部分）",
     "靠右行駛",
@@ -3451,7 +4097,8 @@ const COUNTRIES = {
     "Jeepney 在路上"
   ],
   poleInfo: [
-    "木製十字架形電桿 — 非常獨特"
+    "<strong>八邊形金屬電線桿</strong>（混凝土材質）— 菲律賓很常見",
+    "電線桿一側經常可見<strong>垂直支架支起的單個絕緣子</strong>"
   ],
   landscape: [
     "熱帶群島 — 超過 7,000 個島嶼",
@@ -3476,20 +4123,22 @@ const COUNTRIES = {
     "三條中線",
     "菲律賓語／英文雙語標誌",
     "天主教堂到處都有（西班牙殖民遺產）",
-    "三輪車（機車加側車）作為計程車"
+    "三輪車（機車加側車）作為計程車",
+    "<strong>圓形玻璃電錶</strong>裝在房屋外牆 — 也見於 Mexico、Guatemala、US、Dominican Republic"
   ],
   tips: [
     "木製十字架電桿 + 熱帶 + 英文／菲律賓語 = Philippines",
     "吉普尼 = Philippines（100% 獨有）",
     "英文 + 西班牙地名 + 熱帶 = Philippines",
-    "三輪車計程車 = 很可能是 Philippines"
+    "三輪車計程車 = 很可能是 Philippines",
+    "🔗 <a href=\"https://www.google.com/maps/@14.5995,120.9842,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Manila）</a>"
   ]
 },
 
 'singapore': {
   name: 'Singapore', localName: 'Singapura', flag: '🇸🇬', region: 'asia',
   drivingSide: 'left', tld: '.sg', phoneCode: '+65', language: 'English, Malay, Chinese, Tamil', currency: 'Dollar (SGD)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "涵蓋極佳 — 小型城市國家"],
+  camera: ["<strong>92% Gen 4 + 7% Gen 3 + 1% Gen 2</strong>", "涵蓋極佳 — 小型城市國家"],
   car: [
     "標準白色轎車",
     "靠左行駛",
@@ -3513,7 +4162,10 @@ const COUNTRIES = {
     "英文為主要行政語言"
   ],
   plates: [
-    "白色車牌帶 SG 前綴"
+    "白色車牌帶<strong>黑色字</strong>",
+    "格式：S + 2 字母 + 4 數字 + 校驗字母（如 SBA 1234A）",
+    "計程車車牌有 SH 前綴",
+    "紅色車牌為臨時登記"
   ],
   unique: [
     "四語言標誌",
@@ -3524,7 +4176,8 @@ const COUNTRIES = {
   tips: [
     "小型、超現代、乾淨城市 + 左側通行 + 英文／中文／馬來文／淡米爾文 = Singapore",
     "HDB 組屋 = Singapore",
-    "比 Malaysia 更小且更有序"
+    "比 Malaysia 更小且更有序",
+    "🔗 <a href=\"https://www.google.com/maps/@1.3521,103.8198,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Singapore）</a>"
   ]
 },
 
@@ -3532,8 +4185,8 @@ const COUNTRIES = {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
-    "幾乎全部為低品質覆蓋",
+    "<strong>50% Shitcam + 40.4% Gen 4 + 9.6% Gen 3</strong>",
+    "⚠️ 一半覆蓋為 Shitcam（印度相機），畫質較低",
     "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
     "Gen 3 使用正常高度相機",
     "Gen 3 車前部可見藍白紅色塊（類似法國國旗）"
@@ -3570,7 +4223,11 @@ const COUNTRIES = {
     "英文為第三語言",
     "常見三語標誌"
   ],
-  plates: ["斯里蘭卡車牌"],
+  plates: [
+    "<strong>白色前車牌 + 黃色後車牌</strong>（類似 UK 系統）",
+    "前兩字母表示省份（WP=Western、SP=Southern 等）",
+    "⚠️ 南亞/東南亞唯一有黃色後車牌的國家"
+  ],
   unique: [
     "<strong>白色車輛 + 右側紅色模糊</strong> — Sri Lanka 專有特徵",
     "<strong>僧伽羅文</strong> — 看起來像各種方向的 C 形",
@@ -3582,22 +4239,25 @@ const COUNTRIES = {
   tips: [
     "Google car 右側紅色模糊 = Sri Lanka",
     "C 形捲曲文字（僧伽羅文）= Sri Lanka",
-    "一個標誌上三種文字（僧伽羅文 + 淡米爾文 + 英文）= Sri Lanka"
+    "一個標誌上三種文字（僧伽羅文 + 淡米爾文 + 英文）= Sri Lanka",
+    "🔗 <a href=\"https://www.google.com/maps/@6.9271,79.8612,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Colombo）</a>"
   ]
 },
 
 'taiwan': {
   name: 'Taiwan', localName: '臺灣', flag: '🇹🇼', region: 'asia',
   drivingSide: 'right', tld: '.tw', phoneCode: '+886', language: 'Chinese (Mandarin)', currency: 'New Taiwan Dollar (TWD)',
-  camera: ["Gen 3 涵蓋", "全島涵蓋良好"],
+  camera: ["<strong>76% Gen 4 + 24% Gen 3 + 1% Gen 2</strong>", "全島涵蓋良好，三種世代都有"],
   car: [
-    "標準白色轎車",
+    "<strong>黑色轎車</strong>為主（部分覆蓋也有白色）",
     "靠右行駛",
-    "無特殊車輛辨識特徵"
+    "無特殊天線或 roof rack"
   ],
   roads: [
-    "白色虛線中心線 + 白色實線邊線，快慢車道分隔線",
+    "<strong>黃色中心線 + 白色實線邊線</strong>，快慢車道分隔線",
+    "⚠️ 中心線是<strong>黃色</strong>（非白色！）— 與 Japan 的全白線不同",
     "右側行駛",
+    "紅色路緣線 = 全天禁止停車；黃色路緣線 = 限時禁停",
     "路面品質良好",
     "機車大量出現"
   ],
@@ -3631,10 +4291,12 @@ const COUNTRIES = {
     "7-Eleven 和全家便利商店到處都有"
   ],
   tips: [
-    "繁體中文 + 右側通行 = Taiwan",
+    "繁體中文 + 右側通行 + <strong>黃色中心線</strong> = Taiwan",
     "繁體中文 + 左側通行 = Hong Kong",
-    "斜向黑黃條紋電桿 = Taiwan",
-    "機車密集 + 繁體中文 = Taiwan"
+    "斜向黑黃條紋電桿延伸到地面 = Taiwan（South Korea 不到地面）",
+    "機車密集 + 繁體中文 = Taiwan",
+    "停車標誌寫「<strong>停</strong>」（中文字）",
+    "🔗 <a href=\"https://www.google.com/maps/@25.0330,121.5654,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Taipei）</a>"
   ]
 },
 
@@ -3642,7 +4304,7 @@ const COUNTRIES = {
   name: 'Thailand', localName: 'ประเทศไทย', flag: '🇹🇭', region: 'asia',
   drivingSide: 'left', tld: '.th', phoneCode: '+66', language: 'Thai', currency: 'Baht (THB)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
+    "<strong>81% Gen 4 + 19% Gen 3</strong>",
     "絕大部分 Gen 3 中看不見街景車",
     "拍攝有旱季/雨季差異 — 野火造成灰霾可見"
   ],
@@ -3666,6 +4328,10 @@ const COUNTRIES = {
   poleInfo: [
     "<strong>電線桿</strong>：<strong>方形混凝土桿</strong>，桿上有<strong>垂直方向延伸的小孔</strong>（Sri Lanka 和 Cambodia 有類似桿）"
   ],
+  signInfo: [
+    "停車標誌：多數寫 <strong>STOP</strong>，少數寫 <strong>หยุด</strong>（yud）",
+    "STOP 標誌上方有泰文 หยุด = 確認 Thailand（不是 Malaysia/Cambodia）"
+  ],
   landscape: [
     "熱帶 — 翠綠茂密的植被",
     "平坦的中部平原（稻田）",
@@ -3681,7 +4347,12 @@ const COUNTRIES = {
     "編號公路標誌帶泰文"
   ],
   plates: [
-    "多種顏色 — 白色、紅色、綠色",
+    "<strong>前後車牌顏色相同</strong> — 多種顏色依車輛類型區分：",
+    "<strong>白底黑字</strong> — 私家車（最常見）",
+    "<strong>黃底</strong> — 營業用車輛（計程車、嘟嘟車、巴士）",
+    "<strong>綠底（水綠色）白字</strong> — 租賃/觀光用車",
+    "<strong>紅底</strong> — 臨時登記（新車）",
+    "文字顏色也有區分：黑色（一般）、藍色（七人以上客車）、綠色（雙門 pickup）",
     "車牌上有泰文"
   ],
   unique: [
@@ -3696,7 +4367,8 @@ const COUNTRIES = {
     "字形有小圓圈 + 部分直線 = 泰文",
     "泰文（圓圈 + 直線） vs 寮文（滑順曲線） vs 高棉文（向右的鉤）",
     "佛教寺廟 + 熱帶 + 左側通行 = Thailand",
-    "黃色中線 + 泰文 = Thailand"
+    "黃色中線 + 泰文 = Thailand",
+    "🔗 <a href=\"https://www.google.com/maps/@13.7563,100.5018,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bangkok）</a>"
   ]
 },
 
@@ -3704,7 +4376,7 @@ const COUNTRIES = {
   name: 'Vietnam', localName: 'Việt Nam', flag: '🇻🇳', region: 'asia',
   drivingSide: 'right', tld: '.vn', phoneCode: '+84', language: 'Vietnamese', currency: 'Dong (VND)',
   camera: [
-    "<strong>85% Gen 3 + 14% Gen 4 + 1% Gen 2（大量摩托車街景）</strong>",
+    "<strong>85% Gen 3 + 14% Gen 4 + 1% Shitcam（大量摩托車街景）</strong>",
     "⚠️ 大量摩托車街景覆蓋 — 模糊形狀像骨頭，一側延伸至高處",
     "越南有全世界最多的摩托車街景",
     "農村摩托車街景 = 幾乎可以確定是 Vietnam"
@@ -3718,7 +4390,20 @@ const COUNTRIES = {
     "右側行駛",
     "路面品質不一",
     "機車主導所有道路",
-    "白色中心線"
+    "<strong>黃色短虛線中線</strong>尤為常見且獨特（黃白色道路線皆有）",
+    "混凝土路面很常見（Thailand 和 Philippines 也有）",
+    "路牌有<strong>橘黃色背景</strong> — 東南亞獨有"
+  ],
+  bollardInfo: [
+    "最常見路樁為<strong>小方形白色混凝土，頂部紅色</strong>"
+  ],
+  poleInfo: [
+    "<strong>圓柱形混凝土杆</strong>，部分有<strong>圓孔排列</strong>；帶洞電線桿很常見",
+    "路標杆常為<strong>紅白條紋</strong> — Vietnam 特有的配色"
+  ],
+  signInfo: [
+    "停車標誌：<strong>STOP</strong>（拉丁字母），但也有越南文 <strong>DỪNG LẠI</strong> 輔助標誌",
+    "公里路標：<strong>紅白條紋桿</strong>配白色牌面 — 東南亞中 Vietnam 獨有風格"
   ],
   landscape: [
     "多樣化：北部山區、南部湄公河三角洲",
@@ -3735,7 +4420,11 @@ const COUNTRIES = {
     "全世界變音符號最多的拉丁字母語言"
   ],
   plates: [
-    "白色車牌帶藍色地區代碼"
+    "白色車牌帶<strong>藍色地區代碼</strong>在頂部",
+    "地區代碼對應省份（29 = Hanoi、43 = Da Nang 等）",
+    "黃色車牌為計程車/商用車輛",
+    "紅色車牌為軍用車輛",
+    "車牌上有越南文（không dấu 無聲調版）"
   ],
   unique: [
     "<strong>越南文 — 拉丁字母帶有極多變音符號</strong>",
@@ -3748,7 +4437,8 @@ const COUNTRIES = {
   tips: [
     "拉丁字母帶大量重音／變音符號 = 越南文",
     "đ + ơ + ư = 越南文",
-    "機車海 + 大量符號的拉丁字母 = Vietnam"
+    "機車海 + 大量符號的拉丁字母 = Vietnam",
+    "🔗 <a href=\"https://www.google.com/maps/@21.0285,105.8542,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hanoi）</a>"
   ]
 },
 
@@ -3759,10 +4449,14 @@ const COUNTRIES = {
 'israel': {
   name: 'Israel', localName: 'ישראל', flag: '🇮🇱', region: 'middle-east',
   drivingSide: 'right', tld: '.il', phoneCode: '+972', language: 'Hebrew, Arabic', currency: 'Shekel (ILS)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "涵蓋良好"],
+  camera: [
+    "<strong>78.6% Gen 3 + 21.3% Gen 4 + 0.1% Gen 2</strong>",
+    "涵蓋良好",
+    "Gen 3 大部分為<strong>黑色街景車配長天線</strong>；也有無天線黑車和短天線銀車"
+  ],
   car: [
     "Gen 3：<strong>黑色轎車 + 長天線</strong> — 與 Russia, Palestine 相同配置",
-    "黑色車 + 長天線 = Russia/Israel/Palestine/Donetsk",
+    "也有<strong>無天線黑車</strong>和<strong>短天線銀色車</strong>",
     "Hebrew 文字 + 黑色車 + 長天線 = Israel"
   ],
   roads: [
@@ -3771,6 +4465,19 @@ const COUNTRIES = {
     "白色中心線",
     "路面品質良好",
     "軍事檢查站有時可見"
+  ],
+  bollardInfo: [
+    "<strong>白色圓柱形 bollard</strong>，正面有紅色反光條 — 公路邊緣常見",
+    "部分路段有黑白交替條紋的方柱"
+  ],
+  poleInfo: [
+    "<strong>黑白相間漆帶電線桿</strong> — 底部黑色 + 上部白色，非常醒目",
+    "也有高壓輸電鐵塔（金屬格子型）"
+  ],
+  signInfo: [
+    "停車標誌：<strong>手掌圖案 + עצור</strong>（atzor，希伯來文）— 全球獨特設計",
+    "Israel 停車標誌有<strong>手掌張開圖案</strong>取代 STOP 文字 — 非常好辨識",
+    "⚠️ Palestine 停車標誌也有阿拉伯文，但無手掌圖案"
   ],
   landscape: [
     "西部為地中海海岸",
@@ -3802,17 +4509,19 @@ const COUNTRIES = {
     "由右至左的方塊字形且字母不連接 = 希伯來文 = Israel",
     "阿拉伯文是草寫／連接的；希伯來文是方塊／分離的",
     "黃色邊線 + 希伯來文 = Israel",
-    "三語標誌 = Israel"
+    "三語標誌 = Israel",
+    "🔗 <a href=\"https://www.google.com/maps/@31.7683,35.2137,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jerusalem）</a>"
   ]
 },
 
 'jordan': {
   name: 'Jordan', localName: 'الأردن', flag: '🇯🇴', region: 'middle-east',
   drivingSide: 'right', tld: '.jo', phoneCode: '+962', language: 'Arabic', currency: 'Dinar (JOD)',
-  camera: ["Gen 3 涵蓋", "主要道路涵蓋尚可"],
+  camera: ["<strong>100% Gen 3</strong>", "主要道路涵蓋尚可"],
   car: [
     "Gen 3：<strong>黑色轎車</strong>",
-    "<strong>無天線</strong>（與 Israel 黑色車有天線不同 — 辨識重點！）",
+    "<strong>無天線、無紅色尾燈</strong>（與 Israel 黑色車有天線不同 — 辨識重點！）",
+    "⚠️ 中東唯一無天線且無紅色尾燈的黑色街景車",
     "黑色車 vs UAE 白色車 — 這是分辨兩國最簡單的方式",
   ],
   roads: [
@@ -3820,6 +4529,10 @@ const COUNTRIES = {
     "<strong>黃色邊線</strong>（如 Israel）",
     "沙漠公路 — 長直路段",
     "路面品質尚可"
+  ],
+  bollardInfo: [
+    "<strong>白色圓柱形 bollard</strong>，正面有紅色反光條 — 沙漠公路兩側常見",
+    "樣式簡單，與 Israel 的 bollard 類似但整體維護程度較低"
   ],
   landscape: [
     "沙漠 — 乾旱地形為主",
@@ -3834,7 +4547,13 @@ const COUNTRIES = {
     "標誌上也常用英文",
     "阿拉伯文／英文雙語路牌"
   ],
-  plates: ["白色／黃色車牌"],
+  plates: [
+    "白色車牌搭配<strong>綠色文字</strong>（一般私家車）",
+    "黃色車牌為計程車",
+    "紅色車牌為外交車輛",
+    "格式：阿拉伯數字 + 阿拉伯文字",
+    "車牌尺寸窄長，類似歐洲格式"
+  ],
   unique: [
     "阿拉伯文 + 沙漠地景",
     "黑色 Google car",
@@ -3845,14 +4564,15 @@ const COUNTRIES = {
   tips: [
     "阿拉伯文 + 沙漠 + 黃色邊線 = Jordan 或海灣國家",
     "黑色 Google car 有助於縮小範圍",
-    "看起來不如海灣國家富裕 = 很可能是 Jordan"
+    "看起來不如海灣國家富裕 = 很可能是 Jordan",
+    "🔗 <a href=\"https://www.google.com/maps/@31.9539,35.9106,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amman）</a>"
   ]
 },
 
 'saudi-arabia': {
   name: 'Saudi Arabia', localName: 'المملكة العربية السعودية', flag: '🇸🇦', region: 'middle-east',
   drivingSide: 'right', tld: '.sa', phoneCode: '+966', language: 'Arabic', currency: 'Riyal (SAR)',
-  camera: ["Gen 4 涵蓋擴展中", "主要城市和高速公路有涵蓋"],
+  camera: ["<strong>100% Gen 4</strong>（涵蓋擴展中）", "主要城市和高速公路有涵蓋"],
   car: ["標準車輛"],
   roads: [
     "白色中心線 + 白色邊線",
@@ -3872,7 +4592,12 @@ const COUNTRIES = {
     "高速公路使用綠色標誌",
     "指向麥加／麥地那的方向標誌"
   ],
-  plates: ["白色車牌帶阿拉伯文 + 英文數字"],
+  plates: [
+    "白色車牌帶<strong>阿拉伯文 + 英文數字（雙語）</strong>",
+    "格式：上方阿拉伯數字 + 下方拉丁數字，左側有地區代碼",
+    "私家車白底、計程車黃底、外交藍底",
+    "與其他海灣國家區分：Saudi 車牌有地區字母碼（如 1=Riyadh）"
+  ],
   unique: [
     "遼闊沙漠 + 阿拉伯文 + 現代化基礎設施",
     "指向聖城（麥加、麥地那）的方向標誌",
@@ -3881,14 +4606,15 @@ const COUNTRIES = {
   ],
   tips: [
     "阿拉伯文 + 富裕 + 遼闊沙漠 + 指向麥加的標誌 = Saudi Arabia",
-    "比 UAE／Qatar 等海灣國家更大更分散"
+    "比 UAE／Qatar 等海灣國家更大更分散",
+    "🔗 <a href=\"https://www.google.com/maps/@24.7136,46.6753,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Riyadh）</a>"
   ]
 },
 
 'uae': {
   name: 'United Arab Emirates', localName: 'الإمارات', flag: '🇦🇪', region: 'middle-east',
   drivingSide: 'right', tld: '.ae', phoneCode: '+971', language: 'Arabic', currency: 'Dirham (AED)',
-  camera: ["Gen 3 和 Gen 4 涵蓋", "杜拜和阿布達比涵蓋極佳"],
+  camera: ["<strong>76% Gen 4 + 24% Gen 3</strong>", "杜拜和阿布達比涵蓋極佳"],
   car: [
     "Gen 3：<strong>白色轎車</strong>（或銀色）",
     "白色車 vs Jordan 黑色車 — 最基本的辨識差異",
@@ -3902,6 +4628,10 @@ const COUNTRIES = {
     "路面品質極優",
     "路邊有沙"
   ],
+  poleInfo: [
+    "路燈杆和標誌杆常見<strong>黑白條紋</strong>塗裝 — 海灣國家特色",
+    "現代金屬杆為主，城市區域有裝飾性路燈"
+  ],
   landscape: [
     "沙漠中的超現代城市",
     "杜拜：摩天大樓（哈里發塔）",
@@ -3914,7 +4644,12 @@ const COUNTRIES = {
     "所有標誌皆為阿拉伯文 + 英文",
     "高速公路使用綠色標誌"
   ],
-  plates: ["依酋長國格式不同"],
+  plates: [
+    "<strong>各酋長國設計不同</strong> — 可用於精確定位區域",
+    "Abu Dhabi：白底 + 紅色文字；Dubai：白底 + 藍色 logo；Sharjah：白底 + 紅色邊框",
+    "每個酋長國名稱印在車牌上 — 辨識度極高",
+    "格式：酋長國名 + 字母類別 + 數字（數字越少越貴）"
+  ],
   unique: [
     "沙漠中聳立的超現代摩天大樓",
     "阿拉伯文 + 英文 + 可見極端財富",
@@ -3923,17 +4658,18 @@ const COUNTRIES = {
   ],
   tips: [
     "超現代沙漠城市 + 阿拉伯文／英文 = UAE",
-    "沙漠中的摩天大樓 = 很可能是 Dubai／UAE"
+    "沙漠中的摩天大樓 = 很可能是 Dubai／UAE",
+    "🔗 <a href=\"https://www.google.com/maps/@25.2048,55.2708,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dubai）</a>"
   ]
 },
 
 'qatar': {
   name: 'Qatar', localName: 'قطر', flag: '🇶🇦', region: 'middle-east',
   drivingSide: 'right', tld: '.qa', phoneCode: '+974', language: 'Arabic', currency: 'Riyal (QAR)',
-  camera: ["Gen 4 涵蓋", "多哈地區涵蓋良好"],
+  camera: ["<strong>100% Gen 4</strong>", "多哈地區涵蓋良好"],
   car: [
-    "Gen 3：<strong>白色 pickup truck（皮卡車）</strong>（類似 Oman, Senegal）",
-    "天線在車左側",
+    "<strong>白色 pickup truck（皮卡車）</strong>（類似 Oman, Senegal），通常全部打碼",
+    "天線在車<strong>左側</strong>（不同區域天線長度不同：北部短、多哈中等、西南長）",
     "沙漠景觀 + 白色 truck = Qatar/Oman/UAE 之一",
     "與 UAE 區別：Qatar 是 truck，UAE 是轎車"
   ],
@@ -3944,13 +4680,22 @@ const COUNTRIES = {
     "路面品質優良",
     "路邊有沙"
   ],
+  bollardInfo: [
+    "<strong>白色圓柱形 bollard</strong>，正面有紅色反光條 — 高速公路和城市道路邊緣常見",
+    "現代化設計，維護良好 — 反映海灣國家的高品質基礎設施"
+  ],
   landscape: [
     "平坦沙漠半島",
     "Doha 現代天際線",
     "大量建設工程"
   ],
   signs: ["阿拉伯文 + 英文雙語"],
-  plates: ["卡達車牌"],
+  plates: [
+    "白底車牌，<strong>深紅色文字</strong>（配合國旗色調）",
+    "格式：純數字（無字母），數字越少越珍貴",
+    "私家車白底、臨時車牌綠底",
+    "與 UAE 區分：Qatar 無酋長國名，且文字為深紅色"
+  ],
   unique: [
     "小型富裕半島",
     "多哈天際線可辨識",
@@ -3958,7 +4703,8 @@ const COUNTRIES = {
   ],
   tips: [
     "小型、平坦、富裕的海灣城市 + 阿拉伯文 = 可能是 Qatar",
-    "比 UAE 小，比 Oman 平坦"
+    "比 UAE 小，比 Oman 平坦",
+    "🔗 <a href=\"https://www.google.com/maps/@25.2854,51.5310,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Doha）</a>"
   ]
 },
 
@@ -3970,9 +4716,10 @@ const COUNTRIES = {
   name: 'United States', localName: 'United States', flag: '🇺🇸', region: 'north-america',
   drivingSide: 'right', tld: '.us', phoneCode: '+1', language: 'English', currency: 'Dollar (USD)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
-    "Gen 2、Gen 3、Gen 4 — 所有世代都有",
-    "全球涵蓋範圍最廣的國家"
+    "<strong>60.1% Gen 4 + 30.4% Gen 3 + 9.4% Gen 2 + 0.1% Gen 1</strong>",
+    "Gen 2 在本土十分罕見（Alaska 和 Hawaii 較多）",
+    "全球涵蓋範圍最廣的國家",
+    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~33,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 2/3：白色轎車",
@@ -3988,9 +4735,21 @@ const COUNTRIES = {
     "'ONE WAY' 單行標誌有文字（Canada 是空白箭頭）",
     "各州道路差異明顯"
   ],
+  bollardInfo: [
+    "<strong>白色或灰色圓柱形 delineator</strong> — 頂部有白色或紅色反光片，各州設計不同",
+    "Pennsylvania 常見<strong>紅/黃反光片配對</strong>；Oklahoma 有<strong>黑帽 bollard</strong>",
+    "高速公路匝道常見<strong>橘色/黃色塑膠桶（barrel）</strong>和橘色三角錐"
+  ],
+  poleInfo: [
+    "<strong>木製電線杆</strong>在郊區和鄉村地區非常常見 — 美國最典型的杆子類型",
+    "城市區域為金屬或混凝土杆",
+    "木杆上常見大量釘子、金屬標牌、變壓器 — 辨識北美特徵"
+  ],
   signInfo: [
-    "STOP 標誌：<strong>עצור (atzor)</strong> + STOP",
-    "'YIELD' 讓行標誌有文字（Canada 是空白三角形）"
+    "STOP 標誌：<strong>STOP</strong>（紅底白字八角形）",
+    "'YIELD' 讓行標誌有文字（Canada 是空白三角形）",
+    "'SPEED LIMIT' 文字速限標誌（Canada 用 'MAXIMUM'）",
+    "'ONE WAY' 單行標誌有文字（Canada 是空白箭頭）"
   ],
   landscape: [
     "地形極為多樣：西南沙漠、東北綠地、中西部平原、太平洋沿岸",
@@ -4016,19 +4775,21 @@ const COUNTRIES = {
     "黃色校車",
     "MPH 速限",
     "消防栓",
+    "<strong>圓形玻璃電錶</strong>裝在房屋外牆（尤其是老舊社區）— 也見於 Mexico、Guatemala、Philippines、Dominican Republic"
   ],
   tips: [
     "雙黃線 + 'SPEED LIMIT' + MPH = USA（非 Canada）",
     "藍色郵筒 = USA；紅色郵筒 = Canada",
     "'YIELD'（USA）vs 空白三角形（Canada）",
-    "許多州無前車牌 — 注意各州特定線索"
+    "許多州無前車牌 — 注意各州特定線索",
+    "🔗 <a href=\"https://www.google.com/maps/@40.7128,-74.0060,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（NYC）</a>"
   ]
 },
 
 'canada': {
   name: 'Canada', localName: 'Canada', flag: '🇨🇦', region: 'north-america',
   drivingSide: 'right', tld: '.ca', phoneCode: '+1', language: 'English, French', currency: 'Dollar (CAD)',
-  camera: ["Gen 2、3、4", "涵蓋範圍集中在美國邊境附近"],
+  camera: ["<strong>74% Gen 4 + 24% Gen 3 + 2% Gen 2</strong>", "涵蓋範圍集中在美國邊境附近"],
   car: [
     "Gen 2/3：白色轎車",
     "Gen 4：<strong>藍色轎車</strong>",
@@ -4043,6 +4804,14 @@ const COUNTRIES = {
     "空白單行箭頭（無 'ONE WAY' 文字）",
     "木製標誌桿比 US 多（US 多用金屬）",
     "藍色資訊標誌較多（US 多用綠色）"
+  ],
+  bollardInfo: [
+    "<strong>省份差異明顯</strong>：Alberta 為白色圓柱 + 紅色反光條；Ontario 為橘色菱形反光片白桿",
+    "高速公路上常見<strong>木桶形（barrel）減速器</strong> — 橘色或黃色大型桶狀物排列在匝道或分隔島"
+  ],
+  poleInfo: [
+    "<strong>木製電線杆</strong>在郊區和鄉村地區非常常見 — 與 USA 相同的北美特徵",
+    "木製標誌桿比 USA 更常見（USA 多用金屬標誌桿）"
   ],
   signInfo: [
     "<strong>空白讓行三角形</strong>（無 'YIELD' 文字）"
@@ -4077,7 +4846,8 @@ const COUNTRIES = {
     "'MAXIMUM' + km/h = Canada（USA 用 'SPEED LIMIT' + mph）",
     "ARRÊT 停車標誌 = Quebec, Canada",
     "紅色郵筒 = Canada；藍色 = USA",
-    "空白讓行三角形 + km/h = Canada"
+    "空白讓行三角形 + km/h = Canada",
+    "🔗 <a href=\"https://www.google.com/maps/@45.4215,-75.6972,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ottawa）</a>"
   ]
 },
 
@@ -4090,10 +4860,9 @@ const COUNTRIES = {
     "Oaxaca 的 Gen 3 有獨特的 ground rift"
   ],
   car: [
-    "Gen 2/3：白色轎車",
-    "Gen 4：<strong>藍色轎車</strong>",
-    "<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Colombia, Ecuador, Brazil 共用",
-    "Gen 3 有煞車燈可見"
+    "Gen 3：(1) 短粗天線白車（天線上有螺旋細線）(2) 無天線白車（有紅色煞車燈）",
+    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、黑色",
+    "<strong>短粗天線（stubby antenna）</strong> — 與 Colombia, Ecuador, Brazil 共用"
   ],
   roads: [
     "<strong>單一實黃色中心線</strong> — Mexico 獨有特徵",
@@ -4131,15 +4900,16 @@ const COUNTRIES = {
     "<strong>Topes（巨大減速丘）</strong>",
     "Mexico City 的粉白色計程車",
     "八角形電線桿",
-    "Oaxaca 的 Gen 3 有獨特裂紋"
-  ,
+    "Oaxaca 的 Gen 3 有獨特裂紋",
+    "<strong>圓形玻璃電錶（medidor circular）</strong>裝在房屋外牆 — 也見於 Guatemala、Philippines、US、Dominican Republic",
     "路名使用 Calle（街道）、Avenida（大道）、Boulevard（大道）、Callejón（小巷）"
   ],
   tips: [
     "單一實黃色中心線 = Mexico",
     "ALTO（Mexico / 中美洲）vs PARE（南美洲）",
     "到處都是 Topes = Mexico",
-    "短天線 + 西班牙語 + ALTO = Mexico"
+    "短天線 + 西班牙語 + ALTO = Mexico",
+    "🔗 <a href=\"https://www.google.com/maps/@19.4326,-99.1332,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（CDMX）</a>"
   ]
 },
 
@@ -4150,7 +4920,7 @@ const COUNTRIES = {
 'guatemala': {
   name: 'Guatemala', localName: 'Guatemala', flag: '🇬🇹', region: 'central-america',
   drivingSide: 'right', tld: '.gt', phoneCode: '+502', language: 'Spanish', currency: 'Quetzal (GTQ)',
-  camera: ["Gen 3 涵蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "<strong>灰色轎車 + roof rack + 可見黑色側鏡</strong> — Guatemala 獨有配置",
     "只有 Guatemala 有這種特定的側鏡可見度",
@@ -4169,24 +4939,30 @@ const COUNTRIES = {
   ],
   landscape: ["從熱帶到高地", "火山地形", "可見瑪雅文化"],
   signs: ["西班牙語，有 Ñ"],
-  plates: ["小型格式（15cm × 30cm）"],
+  plates: [
+    "<strong>小型格式（15cm x 30cm）</strong> — 比美洲標準車牌更窄",
+    "白底黑字，格式：字母 + 數字",
+    "尺寸明顯比 Mexico 和其他中美洲國家小 — 可作為辨識線索"
+  ],
   unique: [
     "<strong>車上可見黑色後視鏡</strong> — 全球唯一",
     "<strong>紅色塗漆的電線桿底部</strong>",
     "棋盤式街道命名（Calle/Avenida）",
-    "'Una Via' / 'Doble Via' 表示單向/雙向"
+    "'Una Via' / 'Doble Via' 表示單向/雙向",
+    "<strong>圓形玻璃電錶（medidor circular）</strong>裝在房屋外牆 — 也見於 Mexico、Philippines、US、Dominican Republic"
   ],
   tips: [
     "Google 街景車上可見黑色後視鏡 = Guatemala",
     "紅色底部電線桿 + ALTO = Guatemala",
-    "編號式棋盤命名系統（Calles/Avenidas）= Guatemala"
+    "編號式棋盤命名系統（Calles/Avenidas）= Guatemala",
+    "🔗 <a href=\"https://www.google.com/maps/@14.6349,-90.5069,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Guatemala City）</a>"
   ]
 },
 
 'costa-rica': {
   name: 'Costa Rica', localName: 'Costa Rica', flag: '🇨🇷', region: 'central-america',
   drivingSide: 'right', tld: '.co.cr', phoneCode: '+506', language: 'Spanish', currency: 'Colón (CRC)',
-  camera: ["Gen 3（Trekker，2025 年前）", "2025 年起擴展全面涵蓋"],
+  camera: ["<strong>99.5% Gen 3 Trekker + 0.5% Gen 4</strong>", "2025 年起擴展全面涵蓋"],
   car: [
     "2025 年前：僅 Google Trekker — 看不到車（僅行人視角！）",
     "2025 年前的涵蓋無法離開人行道"
@@ -4209,22 +4985,24 @@ const COUNTRIES = {
   ],
   tips: [
     "卡在人行道上無法移動到馬路？= Costa Rica（2025 年前）",
-    "ALTO + 熱帶 + Kölbi 招牌 = Costa Rica"
+    "ALTO + 熱帶 + Kölbi 招牌 = Costa Rica",
+    "🔗 <a href=\"https://www.google.com/maps/@9.9281,-84.0907,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Jose）</a>"
   ]
 },
 
 'panama': {
   name: 'Panama', localName: 'Panamá', flag: '🇵🇦', region: 'central-america',
   drivingSide: 'right', tld: '.pa', phoneCode: '+507', language: 'Spanish', currency: 'Balboa/USD',
-  camera: ["Gen 3 涵蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "<strong>獨特粗天線</strong> — 全球唯一！100% 確認為 Panama",
     "即使看不到天線，模糊區域通常也比較大",
     "無 車頂架 (roof rack)、無 snorkel"
   ],
   roads: [
-
-  "黃色中心線 + 白色邊線",
+    "黃色中心線 + 白色邊線",
+    "路面品質不一 — 都市區良好，鄉村較差",
+    "泛美公路貫穿全國（但 Darién Gap 中斷）",
 
   ],
   signInfo: [
@@ -4241,7 +5019,8 @@ const COUNTRIES = {
   ],
   tips: [
     "看到車上有獨特粗天線？= Panama（100%）",
-    "這種天線在全世界其他地方都找不到"
+    "這種天線在全世界其他地方都找不到",
+    "🔗 <a href=\"https://www.google.com/maps/@8.9824,-79.5199,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Panama City）</a>"
   ]
 },
 
@@ -4252,16 +5031,16 @@ const COUNTRIES = {
 'dominican-republic': {
   name: 'Dominican Republic', localName: 'República Dominicana', flag: '🇩🇴', region: 'caribbean',
   drivingSide: 'right', tld: '.do', phoneCode: '+809', language: 'Spanish', currency: 'Peso (DOP)',
-  camera: ["Gen 3 — 僅限 Santo Domingo 和 Santiago 地區"],
+  camera: ["<strong>100% Gen 3</strong> — 僅限 Santo Domingo 和 Santiago 地區"],
   car: [
     "<strong>Roof bars + 黑色橡膠條紋在中間</strong> — 僅 DR 和 Mongolia（烏蘭巴托）有此特徵",
     "無可見側鏡（與 Guatemala 不同）",
     "白色轎車"
   ],
   roads: [
-
-  "白色或黃色中心線",
-
+    "白色或黃色中心線",
+    "路面品質不一 — Santo Domingo 周邊較好",
+    "減速帶（badenes）非常常見",
   ],
   poleInfo: [
     "Santiago：電線桿底部灰色塗漆；Santo Domingo：未塗漆"
@@ -4275,18 +5054,20 @@ const COUNTRIES = {
   unique: [
     "<strong>黑色條紋 roof bars</strong> — 僅與 Mongolia 共有",
     "PARE 停車標誌（非中美洲的 ALTO）",
-    "電線桿塗漆差異：Santiago vs Santo Domingo"
+    "電線桿塗漆差異：Santiago vs Santo Domingo",
+    "<strong>圓形玻璃電錶</strong>裝在房屋外牆 — 也見於 Mexico、Guatemala、Philippines、US"
   ],
   tips: [
     "黑色條紋 roof bars + 加勒比海 + 西班牙語 = Dominican Republic",
-    "PARE（非 ALTO）= 南美洲/加勒比海慣例"
+    "PARE（非 ALTO）= 南美洲/加勒比海慣例",
+    "🔗 <a href=\"https://www.google.com/maps/@18.4861,-69.9312,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Santo Domingo）</a>"
   ]
 },
 
 'puerto-rico': {
   name: 'Puerto Rico', localName: 'Puerto Rico', flag: '🇵🇷', region: 'caribbean',
   drivingSide: 'right', tld: '.pr', phoneCode: '+1-787', language: 'Spanish, English', currency: 'Dollar (USD)',
-  camera: ["Gen 3 涵蓋"],
+  camera: ["<strong>100% Gen 3</strong>", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,400 點位）— 視角更低、模糊區域更大"],
   car: [
     "白色轎車 + 副駕駛側天線",
     "前方無車牌",
@@ -4315,14 +5096,15 @@ const COUNTRIES = {
   ],
   tips: [
     "PARE 停車標誌 + MPH 速限 = Puerto Rico（其他地方沒有此組合）",
-    "粗壯方形電線桿 + 西班牙語 + 熱帶 = Puerto Rico"
+    "粗壯方形電線桿 + 西班牙語 + 熱帶 = Puerto Rico",
+    "🔗 <a href=\"https://www.google.com/maps/@18.4655,-66.1057,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Juan）</a>"
   ]
 },
 
 'curacao': {
   name: 'Curaçao', localName: 'Curaçao', flag: '🇨🇼', region: 'caribbean',
   drivingSide: 'right', tld: '.cw', phoneCode: '+599', language: '荷蘭語、英語、Papiamento', currency: 'Guilder (ANG)',
-  camera: ["Gen 3 涵蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "<strong>可見 bars + 可見黑色引擎蓋</strong> — 全球唯一組合",
     "黑色轎車 + roof rack + 白色貼紙",
@@ -4337,7 +5119,11 @@ const COUNTRIES = {
   ],
   landscape: ["乾旱的加勒比海島嶼", "色彩繽紛的荷蘭殖民風格房屋"],
   signs: ["荷蘭語、英語、Papiamento"],
-  plates: ["白底黑字車牌"],
+  plates: [
+    "白底黑字車牌",
+    "格式獨特 — 與荷蘭本土及 Aruba 車牌不同",
+    "加勒比荷語區看到白底黑字 + 荷蘭語 = Curacao"
+  ],
   unique: [
     "<strong>車架 + 黑色引擎蓋可見</strong> — 100% Curaçao",
     "唯一說荷蘭語的加勒比海島嶼",
@@ -4347,14 +5133,15 @@ const COUNTRIES = {
   ],
   tips: [
     "黑色引擎蓋 + roof bars = Curaçao",
-    "荷蘭語文字 + 加勒比海 = Curaçao"
+    "荷蘭語文字 + 加勒比海 = Curaçao",
+    "🔗 <a href=\"https://www.google.com/maps/@12.1696,-68.99,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Willemstad）</a>"
   ]
 },
 
 'bermuda': {
   name: 'Bermuda', localName: 'Bermuda', flag: '🇧🇲', region: 'caribbean',
   drivingSide: 'left', tld: '.bm', phoneCode: '+1-441', language: 'English', currency: 'Bermudian Dollar (BMD)',
-  camera: ["Gen 3 覆蓋", "覆蓋有限 — 小型島嶼領土"],
+  camera: ["<strong>100% Gen 3</strong>", "覆蓋有限 — 小型島嶼領土"],
   car: [
     "<strong>黑色 pickup truck（皮卡車）</strong> — 非一般轎車",
     "Bermuda 使用 pickup truck 而非標準 Google car — 這是極強的辨識特徵"
@@ -4373,7 +5160,11 @@ const COUNTRIES = {
     "英國殖民時期建築"
   ],
   signs: ["英語 — 英國風格路標"],
-  plates: ["Bermuda 車牌"],
+  plates: [
+    "島嶼特有設計 — 與英國本土車牌不同",
+    "格式多樣，尺寸較小",
+    "英屬領土但車牌非標準英國格式"
+  ],
   unique: [
     "<strong>黑色 pickup truck（皮卡車）</strong> — 非常罕見的 Google Street View 車輛",
     "靠左行駛 + 英語 + 亞熱帶島嶼",
@@ -4382,23 +5173,106 @@ const COUNTRIES = {
   ],
   tips: [
     "黑色 pickup truck + 左駕 + 英文 + 亞熱帶島嶼 = Bermuda",
-    "非常罕見的出生點 — small territory"
+    "非常罕見的出生點 — small territory",
+    "🔗 <a href=\"https://www.google.com/maps/@32.2949,-64.782,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hamilton）</a>"
+  ]
+},
+
+'us-virgin-islands': {
+  name: 'US Virgin Islands', localName: 'US Virgin Islands', flag: '🇻🇮', region: 'caribbean',
+  drivingSide: 'left', tld: '.vi', phoneCode: '+1-340', language: 'English', currency: 'Dollar (USD)',
+  camera: [
+    "<strong>100% Gen 3</strong>",
+    "覆蓋約 50% 的道路 — 島嶼領土覆蓋有限",
+    "St. Croix 覆蓋最廣（南部為主），St. Thomas 次之，St. John 最少",
+    "St. Croix 北海岸有一段船景（boat coverage）— 色調偏粉色",
+    "Buck Island 國家公園附近的街景色調也偏粉色"
+  ],
+  car: [
+    "<strong>Pickup truck（皮卡車）</strong> — 非標準 Google 轎車，車斗（tray）和 bars 可見",
+    "<strong>St. Croix（南島）</strong>：紅色 truck + 長黑天線（最常見）；也有無天線白色 truck",
+    "<strong>St. Thomas / St. John（北島）</strong>：白色 truck + 長黑天線，車頂明顯較短",
+    "⚠️ 天線全黑，頂部無白點 — 與 Puerto Rico 天線（頂部有白點）不同",
+    "truck 的 cab 比 Christmas Island 的 pickup 大得多"
+  ],
+  roads: [
+    "<strong>靠左行駛</strong> — 前丹麥殖民地，現為美國領土，美國唯一左行地區",
+    "雙黃色中心線 + 白色邊線（美式路面標線）",
+    "危險路段有<strong>黃色護欄（guardrails）</strong>",
+    "大多數為雙向單車道窄路，路面品質不一",
+    "限速 20 mph（城鎮內）/ 35 mph（城鎮外），最高 55 mph",
+    "路面常有坑洞，山區道路蜿蜒狹窄"
+  ],
+  poleInfo: [
+    "木製電線桿 — 典型美式公用設施配置",
+    "颱風後大量電線桿被替換為複合材料桿（FEMA 資助更換 934+ 根）"
+  ],
+  signInfo: [
+    "<strong>STOP 標誌 + MPH 速限</strong> — 美式 MUTCD 標準",
+    "黃色警告標誌、綠色指示標誌 — 與美國本土相同",
+    "但靠左行駛 — STOP + MPH + 左駕 = USVI",
+    "領土專屬公路標記（形狀和顏色與 50 州不同）"
+  ],
+  landscape: [
+    "<strong>St. Thomas</strong>（31 sq mi）：東西向長山脊貫穿中央，Crown Mountain 海拔 1,556 ft；港口城鎮 Charlotte Amalie",
+    "<strong>St. Croix</strong>（84 sq mi，最大島）：東部乾旱多仙人掌、岩石；西部鬱鬱蔥蔥的森林、水果樹和蕨類；地勢相對較平",
+    "<strong>St. John</strong>（20 sq mi，最小島）：2/3 為國家公園，山谷丘陵少平地，Bordeaux Mountain 海拔 1,277 ft",
+    "整體為熱帶加勒比海島嶼 — 白沙灘、碧藍海水、棕櫚樹",
+    "建築風格：巴洛克 + 洛可可 + 維多利亞風格的殖民建築，大拱門、中央廣場、庭院",
+    "丹麥殖民歷史遺跡和糖廠廢墟"
+  ],
+  signs: [
+    "英語 — 所有標誌為英語（非西班牙語）",
+    "美式標誌系統 — MUTCD 規範",
+    "速限以 MPH 標示",
+    "'AMERICA'S CARIBBEAN' 和 'TRANSFER CENTENNIAL' 等宣傳文字"
+  ],
+  plates: [
+    "美式尺寸（12\" x 6\"）— 較寬短的美洲格式",
+    "2023 年起使用 175th Emancipation 紀念版：<strong>黑色凸字 + 青色/白色/金色三條紋</strong>",
+    "舊版常見<strong>深藍色底 + 橘色島嶼輪廓</strong>，左上角美國國旗、右上角 USVI 旗",
+    "格式：字母+數字混合，<strong>首字母標示島嶼</strong>：C = St. Croix、T = St. Thomas、J = St. John",
+    "車牌多樣化設計 — 'American Paradise'、'Tropical Playground' 等口號",
+    "⚠️ 模糊化後常只看到藍色底色"
+  ],
+  unique: [
+    "<strong>靠左行駛 + 英語 + 美式標誌 + MPH</strong> — 全球獨特組合",
+    "<strong>Pickup truck</strong> — 紅色（St. Croix）或白色（St. Thomas/St. John）",
+    "天線全黑無白點 — 與 Puerto Rico 區分",
+    "⚠️ 美國唯一左行領土",
+    "殖民建築：巴洛克/洛可可/維多利亞風格混合",
+    "黃色護欄（guardrails）",
+    "開放式卡車計程車（safari taxi）— 各色車身、載多人",
+    "車牌首字母可判斷島嶼：C/T/J"
+  ],
+  tips: [
+    "<strong>靠左行駛 + STOP（非 PARE）+ MPH = USVI</strong>（Puerto Rico 靠右且用 PARE）",
+    "紅色 pickup truck + 左駕 + 英文 = USVI St. Croix",
+    "白色 pickup truck + 黑天線 + 左駕 = USVI St. Thomas / St. John",
+    "<strong>vs Puerto Rico</strong>：PR 靠右、用 PARE 和西班牙語、天線頂部有白點",
+    "<strong>vs Bermuda</strong>：Bermuda = 黑色 pickup + 北大西洋 + 粉色沙灘；USVI = 紅/白 pickup + 加勒比海",
+    "<strong>vs Jamaica</strong>：Jamaica 無特殊 truck、速限用 km/h；USVI 用 mph + 美式標誌",
+    "<strong>vs British Virgin Islands</strong>：BVI 無 Google 官方覆蓋",
+    "St. Croix 辨識：較平坦、東部乾旱仙人掌、紅色 truck",
+    "St. Thomas/St. John 辨識：多山蜿蜒道路、白色 truck、車頂較短",
+    "🔗 <a href=\"https://www.google.com/maps/@18.3358,-64.9307,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Charlotte Amalie）</a>"
   ]
 },
 
 'christmas-island': {
   name: 'Christmas Island', localName: 'Christmas Island', flag: '🇨🇽', region: 'oceania',
   drivingSide: 'left', tld: '.cx', phoneCode: '+61', language: 'English', currency: 'Australian Dollar (AUD)',
-  camera: ["Gen 3 覆蓋", "覆蓋非常有限 — small island"],
+  camera: ["<strong>100% Gen 3</strong>", "覆蓋非常有限 — 小型島嶼"],
   car: [
-    "<strong>銀色 pickup truck（皮卡車）（皮卡車）</strong> — 非標準 Google car",
+    "<strong>銀色 pickup truck（皮卡車）</strong>可見車斗 — 也有大量<strong>徒步旅者覆蓋</strong>",
     "Christmas Island 使用銀色 pickup truck — 與 Bermuda 的黑色 pickup 不同"
   ],
   roads: [
     "白色中心線",
     "靠左行駛（澳洲領土）",
-    "有限的道路網絡",
-    "道路品質不一"
+    "使用標準<strong>澳洲路樁</strong>（白色主體，前側紅色反光體，後側灰色反光體）",
+    "澳洲風格限速牌、綠色路牌等基礎設施",
+    "車牌為<strong>黃色</strong>"
   ],
   landscape: [
     "覆蓋茂密雨林的熱帶島嶼",
@@ -4407,7 +5281,11 @@ const COUNTRIES = {
     "印度洋 — 位於 Australia 和 Indonesia 之間"
   ],
   signs: ["英語 — 澳洲風格標誌"],
-  plates: ["澳洲車牌"],
+  plates: [
+    "使用澳洲車牌系統（澳洲領土）",
+    ".cx domain 和 +61 電話碼可幫助確認",
+    "車牌外觀與澳洲本土相同 — 需靠其他線索（熱帶島嶼 + 銀色 pickup）區分"
+  ],
   unique: [
     "<strong>銀色 pickup truck（皮卡車）</strong> — 與 Bermuda 的黑色 pickup 不同",
     "印度洋中的澳洲領土",
@@ -4417,7 +5295,60 @@ const COUNTRIES = {
   tips: [
     "銀色 pickup truck + 左駕 + 英文 + 熱帶島嶼 = Christmas Island",
     "與 Bermuda 區分：Bermuda = 黑色 pickup，Christmas Island = 銀色 pickup",
-    "Australian phone code (+61) 和 .cx domain"
+    "Australian phone code (+61) 和 .cx domain",
+    "🔗 <a href=\"https://www.google.com/maps/@-10.4475,105.6904,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Christmas Island）</a>"
+  ]
+},
+
+'cocos-islands': {
+  name: 'Cocos (Keeling) Islands', localName: 'Cocos (Keeling) Islands', flag: '🇨🇨', region: 'oceania',
+  drivingSide: 'left', tld: '.cc', phoneCode: '+61', language: 'English', currency: 'Australian Dollar (AUD)',
+  camera: [
+    "<strong>100% Trekker / 非標準覆蓋</strong>",
+    "由兩個珊瑚環礁組成",
+    "在國家連勝中算作澳大利亞",
+    "西島上有街景車覆蓋，其他為徒步拍攝者覆蓋"
+  ],
+  car: [
+    "西島街景車<strong>右前方有通氣管（snorkel）</strong>，車框邊緣可見",
+    "Bantam 區域可見街景車的<strong>白色後緣</strong>",
+    "街景車也可能完全被模糊",
+    "沿海有大量<strong>徒步拍攝者</strong>覆蓋"
+  ],
+  roads: [
+    "靠左行駛（澳洲領土）",
+    "科科斯群島跑道是島上最寬的鋪設道路",
+    "Bantam 可通過<strong>交錯鋪磚路面</strong>識別",
+    "道路非常有限 — 小型珊瑚環礁"
+  ],
+  landscape: [
+    "明亮的<strong>白色沙灘</strong>、大量<strong>棕櫚樹</strong>和修剪過的草坪",
+    "與 Christmas Island 相比，森林和丘陵要少得多",
+    "Direction Island 海灘上垃圾明顯較多（磚塊、聚苯乙烯泡沫、死珊瑚）",
+    "霍斯堡島（Pulau Luar）有乾燥黃色草地和較稀疏的植被",
+    "珊瑚環礁地形 — 非常平坦低矮"
+  ],
+  signs: [
+    "英語（澳洲領土）",
+    "標誌極為有限 — 非常小的領地"
+  ],
+  plates: [
+    "使用澳洲車牌系統",
+    "車輛極少 — 很難看到車牌"
+  ],
+  unique: [
+    "西島街景車<strong>右前方有通氣管</strong> — 辨識特徵",
+    "<strong>白色沙灘 + 棕櫚樹 + 珊瑚環礁</strong> — 極為平坦的小島",
+    "比 Christmas Island 平坦得多、森林少得多",
+    "西島到 Bantam 間有中型<strong>船</strong>覆蓋",
+    "Bantam 的<strong>交錯鋪磚路面</strong>可識別該區域"
+  ],
+  tips: [
+    "白色沙灘 + 棕櫚樹 + 極度平坦 = Cocos Islands（vs Christmas Island 有丘陵和雨林）",
+    "右前方通氣管的街景車 = 西島",
+    "交錯鋪磚路面 = Bantam",
+    "澳洲領土 — phone code +61，.cc domain",
+    "🔗 <a href=\"https://www.google.com/maps/@-12.1642,96.871,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cocos Islands）</a>"
   ]
 },
 
@@ -4428,10 +5359,10 @@ const COUNTRIES = {
 'brazil': {
   name: 'Brazil', localName: 'Brasil', flag: '🇧🇷', region: 'south-america',
   drivingSide: 'right', tld: '.br', phoneCode: '+55', language: 'Portuguese', currency: 'Real (BRL)',
-  camera: ["Gen 2、3、4 涵蓋", "使用 30 多輛 Fiat Stilo 車；Amazon 地區也用自行車和船"],
+  camera: ["<strong>88% Gen 4 + 12% Gen 3</strong>", "使用 30 多輛 Fiat Stilo 車；Amazon 地區也用自行車和船", "⚠️ <strong>全球最多 Gen 4 小相機 (smallcam/low cam) 覆蓋（~85,500 點位）</strong> — 視角更低、模糊區域更大"],
   car: [
     "Gen 3：白色轎車",
-    "Gen 4：<strong>藍色轎車</strong>（所有 Gen 4 涵蓋皆為藍色）",
+    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、白色（不同州出現頻率不同）",
     "<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Mexico, Colombia, Ecuador 共用",
     "有時無天線"
   ],
@@ -4442,6 +5373,10 @@ const COUNTRIES = {
     "道路兩側有<strong>白色路緣石</strong>（常見）",
     "藍色路標顯示道路編號和公里數",
     "標誌上的州代碼（PR、SP、MG 等）"
+  ],
+  bollardInfo: [
+    "<strong>黑黃色 V 字標記（chevron）</strong> — São Paulo 等州公路常見",
+    "白色圓柱形 bollard 搭配反光片，部分為黃色塗漆"
   ],
   poleInfo: [
     "<strong>電線桿</strong>：最常見為<strong>梯子桿</strong>（底部矩形寬大，有 3-4 段分段凹痕，頂部有小孔）",
@@ -4484,7 +5419,8 @@ const COUNTRIES = {
     "南美洲的葡萄牙語（ã、õ）= Brazil（100%）",
     "黑色標誌背面 = Brazil",
     "紅橘色土壤 = 非常可能是 Brazil",
-    "梯子電線桿 + 葡萄牙語 = Brazil"
+    "梯子電線桿 + 葡萄牙語 = Brazil",
+    "🔗 <a href=\"https://www.google.com/maps/@-23.5505,-46.6333,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sao Paulo）</a>"
   ]
 },
 
@@ -4492,9 +5428,9 @@ const COUNTRIES = {
   name: 'Argentina', localName: 'Argentina', flag: '🇦🇷', region: 'south-america',
   drivingSide: 'right', tld: '.ar', phoneCode: '+54', language: 'Spanish', currency: 'Peso (ARS)',
   camera: [
-    "<strong>Gen 3（銀色 pickup truck）</strong>",
-    "2025 年前僅有 Trekker 步行覆蓋",
-    "Gen 3：黑色 Google 街景車拍攝"
+    "<strong>59.8% Gen 3 + 40.2% Gen 4</strong>",
+    "Gen 3：黑色 Google 街景車拍攝",
+    "Gen 4 覆蓋持續擴展中"
   ],
   car: [
     "Gen 3/4：<strong>黑色轎車</strong> — 在南美洲中較為獨特",
@@ -4506,6 +5442,10 @@ const COUNTRIES = {
     "護欄上有<strong>黃色和紅色矩形反光片</strong>（Uruguay 也有，但支撐柱形狀不同）",
     "RN（國道）/ RP（省道）公路標誌",
     "高速公路標識獨特：頂部標明路號"
+  ],
+  bollardInfo: [
+    "<strong>白紅色 V 字形標記（chevron）</strong>貼在柱子上 — Argentina 獨有的路側標記",
+    "公路旁也有白色圓柱形 bollard，頂部有反光片"
   ],
   poleInfo: [
     "<strong>電線桿</strong>：(1) <strong>混凝土圓桿</strong>，上有三根電線交替分布 (2) <strong>雙圓桿</strong>組合（阿根廷優秀線索，Bolivia 偶爾也有）(3) <strong>木桿</strong>（含木製 A 型桿，南美洲中僅阿根廷有木製 A 型桿）",
@@ -4539,21 +5479,73 @@ const COUNTRIES = {
     "黑色 Google 街景車 + 西班牙語 + PARE = Argentina 或 Uruguay",
     "A 字形電線桿 = Argentina",
     "白紅色V字標記 = Argentina（其他南美國家沒有）",
-    "YPF 加油站 = Argentina"
+    "YPF 加油站 = Argentina",
+    "🔗 <a href=\"https://www.google.com/maps/@-34.6037,-58.3816,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Buenos Aires）</a>"
+  ]
+},
+
+'falkland-islands': {
+  name: 'Falkland Islands', localName: 'Falkland Islands / Islas Malvinas', flag: '🇫🇰', region: 'south-america',
+  drivingSide: 'left', tld: '.fk', phoneCode: '+500', language: 'English', currency: 'Falkland Islands Pound (FKP)',
+  camera: [
+    "<strong>100% Trekker（徒步拍攝）</strong>",
+    "覆蓋極為有限 — 僅三代徒步拍攝街景",
+    "僅覆蓋西部三個島嶼：Carcass Island、West Point Island、New Island",
+    "在國家連勝中視作阿根廷的一部分"
+  ],
+  car: [
+    "無街景車覆蓋 — 全部為<strong>徒步拍攝者</strong>",
+    "無法透過車輛辨識",
+    "完全沒有城鎮街景"
+  ],
+  roads: [
+    "靠左行駛（英國海外領土）",
+    "幾乎無鋪設道路可見 — 覆蓋區域為荒野步道",
+    "無道路標線或基礎設施"
+  ],
+  landscape: [
+    "寒冷多風的島嶼，覆蓋短綠草",
+    "Carcass Island：開闊平原，大海清晰可見，地面遍布石頭",
+    "West Point Island：開闘平原，微黃色草，不易看到海",
+    "New Island：沙灘、深棕色土壤、陡峭懸崖",
+    "West Point Bay 有黃色山丘和 MS National Geographic Explorer 大船",
+    "⚠️ 注意與 Faroe Islands 的徒步街景區分"
+  ],
+  signs: [
+    "英語（英國海外領土）",
+    "幾乎無標誌可見 — 覆蓋區域為無人居住的島嶼"
+  ],
+  plates: [
+    "全寬白色車牌黑色文字",
+    "幾乎不可能在街景中看到車牌"
+  ],
+  unique: [
+    "100% <strong>徒步拍攝</strong> — 無任何街景車覆蓋",
+    "僅三個西部離島有覆蓋（無東福克蘭或 Stanley）",
+    "New Island 的<strong>陡峭懸崖</strong>和<strong>深棕色土壤</strong>",
+    "West Point Bay 可見 <strong>National Geographic Explorer</strong> 大船",
+    "New Island 沙灘上可見穿<strong>紅藍色夾克</strong>的人"
+  ],
+  tips: [
+    "100% 徒步街景 + 寒冷荒涼的南大西洋島嶼 = Falkland Islands",
+    "與 Faroe Islands 區分：Falklands 更荒涼、草更黃、有海獅/企鵝",
+    "記住三個島的特徵：Carcass（石頭平原）、West Point（黃草）、New Island（懸崖+棕土）",
+    "National Geographic Explorer 大船 = West Point Bay",
+    "🔗 <a href=\"https://www.google.com/maps/@-51.7963,-59.5236,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Stanley）</a>"
   ]
 },
 
 'chile': {
   name: 'Chile', localName: 'Chile', flag: '🇨🇱', region: 'south-america',
   drivingSide: 'right', tld: '.cl', phoneCode: '+56', language: 'Spanish', currency: 'Peso (CLP)',
-  camera: ["Gen 3 覆蓋"],
+  camera: ["<strong>56.2% Gen 3 + 43.7% Gen 4 + 0.1% Gen 2</strong>"],
   car: [
-    "<strong>白色轎車 — 白色後方可見</strong>",
-    "無 antenna",
+    "Gen 3：<strong>白色轎車，無天線</strong> — (1) 普通白車 (2) 白車帶可見黑色部分（Chile 獨有）",
+    "Gen 4：<strong>藍色轎車</strong>",
     "配合<strong>全白道路線</strong>辨識（南美唯一全白線國家）"
   ],
   roads: [
-    "<strong>全白色道路標線</strong> — 南美洲唯一全白標線的國家",
+    "<strong>全白色道路標線</strong> — 南美洲唯一全白標線的國家（國家公園/大雪地區為全黃線）",
     "頂部有插槽的標誌桿"
   ],
   bollardInfo: [
@@ -4583,14 +5575,15 @@ const COUNTRIES = {
   tips: [
     "全白色道路標線（中心線和邊線都是白色）= Chile",
     "南美洲沒有其他國家使用全白色標線",
-    "橘色車牌 = Chile 的商用車輛"
+    "橘色車牌 = Chile 的商用車輛",
+    "🔗 <a href=\"https://www.google.com/maps/@-33.4489,-70.6693,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Santiago）</a>"
   ]
 },
 
 'colombia': {
   name: 'Colombia', localName: 'Colombia', flag: '🇨🇴', region: 'south-america',
   drivingSide: 'right', tld: '.co', phoneCode: '+57', language: 'Spanish', currency: 'Peso (COP)',
-  camera: ["Gen 3，部分 Gen 4"],
+  camera: ["<strong>58% Gen 4 + 42% Gen 3</strong>"],
   car: [
     "Gen 3：<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Mexico, Ecuador, Brazil 共用",
     "車色多樣：黑色、白色、灰色皆有",
@@ -4603,37 +5596,48 @@ const COUNTRIES = {
     "細白色標誌桿",
     "紅色磁磚人行道"
   ],
+  bollardInfo: [
+    "<strong>白色圓柱形 bollard</strong>，頂部有紅色反光條 — 公路彎道常見",
+    "也有混凝土道路標記柱（白色方柱 + 紅色反光片）"
+  ],
+  poleInfo: [
+    "<strong>八角形電線桿</strong> — 拉丁美洲僅 Colombia 和 Mexico 有此型",
+    "黑黃色或黑橘色漆帶（如 Bucaramanga 地區的獨特橘色杆漆）"
+  ],
   signInfo: [
     "PARE 停車標誌"
   ],
   landscape: [
     "Andes 山脈",
     "熱帶低地",
-    "咖啡產區"
+    "咖啡產區（Eje Cafetero 地區）",
+    "殖民時期白色建築配彩色陽台（Cartagena、Villa de Leyva）",
+    "紅磚建築在 Bogotá 常見"
   ],
   signs: ["西班牙語，有 Ñ"],
   plates: ["<strong>黃色車牌</strong> — 南美洲獨有", "底部有城市名稱"],
   unique: [
     "<strong>黃色車牌</strong> — Colombia 最強辨識特徵",
     "<strong>標誌背面的 Colombia Cross</strong>",
+    "<strong>八角形電線桿</strong> — 拉丁美洲僅 Colombia 和 Mexico 有",
     "細白色標誌桿",
     "紅色磁磚人行道"
   ],
   tips: [
     "黃色車牌 = Colombia（在南美洲 100% 確認）",
-    "標誌背面的 X 形金屬（Colombia Cross）= Colombia"
+    "標誌背面的 X 形金屬（Colombia Cross）= Colombia",
+    "🔗 <a href=\"https://www.google.com/maps/@4.711,-74.0721,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bogota）</a>"
   ]
 },
 
 'ecuador': {
   name: 'Ecuador', localName: 'Ecuador', flag: '🇪🇨', region: 'south-america',
   drivingSide: 'right', tld: '.ec', phoneCode: '+593', language: 'Spanish', currency: 'Dollar (USD)',
-  camera: ["Gen 3 覆蓋"],
+  camera: ["<strong>55% Gen 3 + 36% Shitcam + 9% Gen 4</strong>"],
   car: [
-    "Gen 3：白色轎車",
-    "<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Mexico, Colombia, Brazil 共用",
-    "天線短而粗",
-    "無 車頂架 (roof rack)"
+    "Gen 3：白色轎車 + <strong>短粗天線（stubby antenna）</strong> — 與 Mexico, Colombia, Brazil 共用",
+    "Gen 4：<strong>白色 pickup truck</strong>（後車斗為黑色，車頭無天線）",
+    "⚠️ 拉丁美洲唯一有 Shitcam 覆蓋的國家"
   ],
   roads: [
     "黃色中心線",
@@ -4648,9 +5652,14 @@ const COUNTRIES = {
   signInfo: [
     "PARE 停車標誌"
   ],
-  landscape: ["Andes 山脈", "Galápagos 群島", "沿海熱帶低地"],
+  landscape: ["Andes 山脈", "Galápagos 群島", "沿海熱帶低地", "殖民時期建築（Quito/Cuenca 白牆紅瓦教堂）"],
   signs: ["西班牙語，有 Ñ"],
-  plates: ["白色車牌"],
+  plates: [
+    "白色車牌，格式：<strong>3 字母 + 3-4 數字</strong>",
+    "省份首字母前綴可定位區域（A=Azuay, G=Guayas, P=Pichincha）",
+    "<strong>橘色車牌</strong> = 計程車/商用車",
+    "私家車白底 vs 商用橘底 — 顏色區分明顯"
+  ],
   unique: [
     "<strong>雙護欄</strong>（在拉丁美洲少見）",
     "<strong>常見的紅色條紋 bollard</strong>",
@@ -4660,14 +5669,15 @@ const COUNTRIES = {
   tips: [
     "雙護欄 + 紅色條紋 bollard = Ecuador",
     "法式電線桿 + 西班牙語 = Ecuador",
-    "南美洲看到 USD 價格 = Ecuador"
+    "南美洲看到 USD 價格 = Ecuador",
+    "🔗 <a href=\"https://www.google.com/maps/@-0.1807,-78.4678,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Quito）</a>"
   ]
 },
 
 'peru': {
   name: 'Peru', localName: 'Perú', flag: '🇵🇪', region: 'south-america',
   drivingSide: 'right', tld: '.pe', phoneCode: '+51', language: 'Spanish', currency: 'Sol (PEN)',
-  camera: ["Gen 3、4 涵蓋", "全球最高的 Street View 道路（4,818m）"],
+  camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 視角更低、模糊區域更大"],
   car: [
     "Gen 3：白色 + 黑色轎車皆有",
     "Gen 4：<strong>深灰色轎車</strong>",
@@ -4692,7 +5702,9 @@ const COUNTRIES = {
     "海岸：沙漠",
     "高地：2500-4000m 溫帶",
     "4000m 以上：稀疏的 Ichu 草",
-    "東部：熱帶 Amazon"
+    "東部：熱帶 Amazon",
+    "殖民時期建築（Cusco、Arequipa 白色火山岩建築）",
+    "Adobe 泥磚建築在鄉村常見"
   ],
   signs: ["高地有西班牙語 + Quechua", "常見政治海報"],
   plates: ["白色（一般）", "黃色（商用）"],
@@ -4701,25 +5713,33 @@ const COUNTRIES = {
     "<strong>三臂電線桿</strong>",
     "<strong>Mototaxis（嘟嘟車）</strong> — 拉丁美洲僅 Peru 有",
     "香菸形 bollard",
-    "混凝土底座標誌桿"
+    "混凝土底座標誌桿",
+    "<strong>長方形電錶</strong>（非圓形！）— 可快速區分 Peru vs Mexico（Mexico 用圓形電錶）"
   ],
   tips: [
     "黑白條紋標誌桿 = Peru（100%）",
     "拉丁美洲的嘟嘟車（mototaxis）= Peru",
-    "下半部塗黑的三臂電線桿 = Peru"
+    "下半部塗黑的三臂電線桿 = Peru",
+    "🔗 <a href=\"https://www.google.com/maps/@-12.0464,-77.0428,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lima）</a>"
   ]
 },
 
 'bolivia': {
   name: 'Bolivia', localName: 'Bolivia', flag: '🇧🇴', region: 'south-america',
   drivingSide: 'right', tld: '.bo', phoneCode: '+591', language: 'Spanish, Quechua', currency: 'Boliviano (BOB)',
-  camera: ["Gen 3 覆蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "白色轎車（白色光暈可見）",
     "無特殊車輛辨識特徵"
   ],
   roads: [
     "白色實線邊線 + 黃色中心線",
+    "高海拔道路（許多在 3500m 以上）",
+    "路面品質差 — 大量未鋪設道路，尤其是 Altiplano 地區",
+  ],
+  bollardInfo: [
+    "正面<strong>白色 + 頂部黃色反光條</strong>，背面有紅色反光條",
+    "也有<strong>黃色塗漆 bollard</strong> — 與 Peru 的黑白配色不同"
   ],
   poleInfo: [
     "不規則電線桿"
@@ -4734,7 +5754,11 @@ const COUNTRIES = {
     "高海拔（許多道路在 3500m 以上）"
   ],
   signs: ["西班牙語 + Quechua"],
-  plates: ["淡藍色色調"],
+  plates: [
+    "<strong>白底藍色邊框 + 藍色文字</strong> — 淡藍色色調",
+    "格式：4 數字 + 3 字母，頂部印有 \"BOLIVIA\" 字樣",
+    "藍色調在南美洲較獨特 — 看到藍色文字車牌 + 高原沙漠 = Bolivia"
+  ],
   unique: [
     "<strong>Wiphala 旗</strong> — 彩虹棋盤旗（原住民旗幟）",
     "可見 MAS 黨旗",
@@ -4745,14 +5769,15 @@ const COUNTRIES = {
   tips: [
     "Wiphala（彩虹棋盤）旗 = Bolivia",
     "乾燥沙漠 + 裸磚 + 西班牙語/Quechua = Bolivia",
-    "比 Peru 更像沙漠且更平坦"
+    "比 Peru 更像沙漠且更平坦",
+    "🔗 <a href=\"https://www.google.com/maps/@-16.5,-68.15,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（La Paz）</a>"
   ]
 },
 
 'uruguay': {
   name: 'Uruguay', localName: 'Uruguay', flag: '🇺🇾', region: 'south-america',
   drivingSide: 'right', tld: '.uy', phoneCode: '+598', language: 'Spanish', currency: 'Peso (UYU)',
-  camera: ["Gen 3 覆蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "<strong>黑色轎車</strong>（如 Argentina）",
     "配合<strong>三條線：雙黃色中線 + 白色虛線交錯</strong>辨識 — Uruguay 獨有"
@@ -4775,7 +5800,12 @@ const COUNTRIES = {
     "農業（大麥、大豆、玉米）"
   ],
   signs: ["西班牙語"],
-  plates: ["幾乎全白（比 Argentina 更白）"],
+  plates: [
+    "正在轉型為 <strong>Mercosul 統一格式</strong>（白底 + 上方藍色帶）",
+    "格式：3 字母 + 4 數字",
+    "幾乎全白 — 比 Argentina 車牌更白、更乾淨",
+    "Mercosul 格式也見於 Brazil 和 Argentina — 靠其他線索區分"
+  ],
   unique: [
     "<strong>三線道路（雙黃線 + 白色虛線）</strong>",
     "<strong>綠色里程碑</strong>",
@@ -4786,7 +5816,8 @@ const COUNTRIES = {
   tips: [
     "三線道路模式 = Uruguay（100%）",
     "黑色車 + ANCAP 加油站 = Uruguay（Argentina 是 YPF）",
-    "道路旁的綠色里程碑 = Uruguay"
+    "道路旁的綠色里程碑 = Uruguay",
+    "🔗 <a href=\"https://www.google.com/maps/@-34.9011,-56.1645,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Montevideo）</a>"
   ]
 },
 
@@ -4797,7 +5828,7 @@ const COUNTRIES = {
 'south-africa': {
   name: 'South Africa', localName: 'South Africa', flag: '🇿🇦', region: 'africa',
   drivingSide: 'left', tld: '.za', phoneCode: '+27', language: 'English, Afrikaans, Zulu + 8 others', currency: 'Rand (ZAR)',
-  camera: ["Gen 2、3、4 涵蓋範圍", "覆蓋範圍廣泛"],
+  camera: ["<strong>86% Gen 4 + 8% Gen 2 + 6% Gen 3</strong>", "覆蓋範圍廣泛", "<strong>Gen 2 在非洲大陸僅 South Africa 有</strong>（天空和腳下有巨大圓形光暈）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"],
   car: [
     "Gen 4：<strong>天藍色轎車 + 短黑色天線</strong>（在車後方）",
     "Gen 2/3：標準白色轎車",
@@ -4810,6 +5841,11 @@ const COUNTRIES = {
     "⚠️ 看到黃色外線 + 非洲 = 很可能是南部非洲",
     "<strong>三條中心線</strong>：兩條白色實線 + 一條虛線（或兩白一黃），如 Philippines、Uruguay",
     "道路編號：N 開頭為國道、R 開頭為省道（Botswana 和 Lesotho 用 A/B 開頭）"
+  ],
+  bollardInfo: [
+    "<strong>白色圓柱形 bollard</strong>，正面有紅色反光條 — 與 Kenya、Botswana 類似",
+    "也有<strong>紅白 V 字形（chevron）標記</strong>在電線桿和路側障礙物上",
+    "<strong>黃色 bollard</strong> — 部分地區（尤其 Western Cape）可見黃色漆的路樁"
   ],
   poleInfo: [
     "<strong>電線桿</strong>：最常見為<strong>「飛鳥桿」</strong>（1-5 個平行於地面的長桿 + 絕緣裝置），各省有獨特杆頂（Western Cape 為 A 形、KwaZulu-Natal 為三叉戟、北部四省為「}」形）",
@@ -4844,27 +5880,33 @@ const COUNTRIES = {
   tips: [
     "黃色邊線 + 非洲英語 = South Africa（或鄰國）",
     "三條中線 + 靠左行駛 + 英語 = South Africa",
-    "基礎設施比鄰國更發達"
+    "基礎設施比鄰國更發達",
+    "🔗 <a href=\"https://www.google.com/maps/@-33.9249,18.4241,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cape Town）</a>"
   ]
 },
 
 'kenya': {
   name: 'Kenya', localName: 'Kenya', flag: '🇰🇪', region: 'africa',
   drivingSide: 'left', tld: '.ke', phoneCode: '+254', language: 'Swahili, English', currency: 'Shilling (KES)',
-  camera: ["Gen 3 涵蓋範圍", "主要道路有不錯的覆蓋"],
+  camera: [
+    "<strong>86% Gen 4 + 14% Gen 3</strong>",
+    "Gen 3：帶涉水喉和車頂行李架的街景車（大部分已被 Gen 4 覆蓋）",
+    "Gen 4：灰色大型皮卡拍攝，可能帶涉水喉",
+    "幾乎所有街景車都有涉水喉（snorkel）— 全球除 Mongolia 外唯一"
+  ],
   car: [
     "<strong>右前方可見 SNORKEL 進氣管</strong> — 100% 確認為 Kenya（僅 Kenya 和 Mongolia 有 snorkel）",
-    "大型黑色 snorkel 進氣管，用於涉水過河",
-    "Gen 4（2022 秋季後）：更新車型",
-    "Gen 3：黑色車 + 左前側鏡（較舊涵蓋）",
-    "有 Toyota follow car（都市區較少見）",
+    "Gen 3：灰色/黑色車帶大/小涉水喉 + 車頂行李架",
+    "Gen 4：灰色大型皮卡，可能帶涉水喉",
+    "Nairobi 北部/南部部分區域：車頂有<strong>白色膠帶</strong>",
+    "有灰色 Toyota SUV follow car（都市區較少見）",
     "Lewa Wildlife Conservancy：特殊 safari 車，蛋殼色 車頂架 (roof rack)"
   ],
   roads: [
     "靠左行駛",
-    "<strong>白色外線 + 黃色中線</strong>（虛線或實線）",
+    "<strong>純白色外線 + 黃色虛線或純黃色中線</strong>",
     "路樁：大部分為<strong>紅白配色</strong>",
-    "指路標誌為<strong>綠色底 + 白色邊框和文字</strong>",
+    "指路標誌為<strong>綠色底 + 白色邊框和文字</strong>，道路編號為白色或黃色",
     "路況不一 — Nairobi 附近高速公路品質佳",
     "減速丘常見"
   ],
@@ -4879,18 +5921,25 @@ const COUNTRIES = {
     "英語與 Swahili 語",
     "路牌以英語為主"
   ],
-  plates: ["白色/黃色車牌"],
+  plates: [
+    "白色前車牌 + 黃色後車牌",
+    "格式：3 字母 + 3 數字 + 1 字母（如 KAA 123A）",
+    "以 K 開頭（Kenya 的 K）",
+    "政府車牌有 GK 前綴"
+  ],
   unique: [
     "<strong>Google car 上的 SNORKEL 進氣管</strong> — 100% 確認為 Kenya",
     "Kenya 是唯一有 Google car snorkel 的非洲國家",
     "大草原景觀",
-    "可見 Matatu（彩色小巴）",
-    "到處可見 M-Pesa 行動支付標誌"
+    "可見 Matatu（改裝彩色小巴）— Uganda 也有但設計不同",
+    "到處可見 <strong>Safaricom</strong> 電信品牌（Kenya 獨有）和 M-Pesa 行動支付標誌",
+    "桉樹常見（修長塊狀葉子、光滑樹皮）"
   ],
   tips: [
     "車輛右側有 snorkel = Kenya（或 Mongolia — 但地貌完全不同）",
     "大草原 + 英語/Swahili + snorkel = Kenya",
-    "M-Pesa 標誌 = Kenya"
+    "M-Pesa 標誌 = Kenya",
+    "🔗 <a href=\"https://www.google.com/maps/@-1.2921,36.8219,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nairobi）</a>"
   ]
 },
 
@@ -4898,9 +5947,9 @@ const COUNTRIES = {
   name: 'Nigeria', localName: 'Nigeria', flag: '🇳🇬', region: 'africa',
   drivingSide: 'right', tld: '.ng', phoneCode: '+234', language: 'English', currency: 'Naira (NGN)',
   camera: [
-    "<strong>Gen 3 + Gen 4（Gen 3 有涉水喉，Gen 4 為皮卡）</strong>",
-    "三代街景：車頂有行李架 + 幾乎都有警車跟車",
-    "Shitcam 主要在東部城市",
+    "<strong>Shitcam 42.3% + Gen 3 30.9% + Gen 4 26.8%</strong>",
+    "Gen 3：車頂有行李架，駕駛艙和拖斗可見，車色和特徵多樣",
+    "Shitcam（低品質相機）主要在東部城市 — 非洲目前主要擁有此類低品質街景的國家",
     "阿布賈以北無三代覆蓋，西北/最南部無四代，東南部無 shitcam"
   ],
   car: [
@@ -4929,7 +5978,12 @@ const COUNTRIES = {
     "英語（官方語言）",
     "可見當地語言"
   ],
-  plates: ["多種格式"],
+  plates: [
+    "白色車牌配<strong>藍色文字</strong>",
+    "左上角有國旗或國徽",
+    "格式：州代碼 + 數字 + 字母",
+    "透過模糊可見綠色色調"
+  ],
   unique: [
     "<strong>Google car 後方幾乎都能看到警車護送</strong>",
     "獨特的 roof rack 橫桿",
@@ -4940,20 +5994,21 @@ const COUNTRIES = {
   tips: [
     "警車跟隨 Google car = Nigeria",
     "熱帶非洲英語 + 靠右行駛 = Nigeria",
-    "Lagos 交通混亂 = 很可能是 Nigeria"
+    "Lagos 交通混亂 = 很可能是 Nigeria",
+    "🔗 <a href=\"https://www.google.com/maps/@6.5244,3.3792,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lagos）</a>"
   ]
 },
 
 'ghana': {
   name: 'Ghana', localName: 'Ghana', flag: '🇬🇭', region: 'africa',
   drivingSide: 'right', tld: '.gh', phoneCode: '+233', language: 'English', currency: 'Cedi (GHS)',
-  camera: ["Gen 3 涵蓋範圍", "城市和主要道路有覆蓋"],
+  camera: ["<strong>100% Gen 3</strong>", "城市和主要道路有覆蓋"],
   car: [
-    "<strong>黑色車 + 銀色 車頂架 (roof rack)</strong>",
-    "<strong>前橫桿右端包覆黑色膠帶</strong> — 全球唯一！100% 確認為 Ghana",
-    "沒有其他國家有完全相同的膠帶樣式",
-    "極少數在 Boabeng 有無膠帶版本",
-    "側鏡有時可見",
+    "車頂有<strong>可見行李架</strong>，<strong>前橫桿右端包覆黑色膠帶</strong> — 全球唯一！100% 確認為 Ghana",
+    "引擎蓋通常可見，有獨特塗裝（紅色長方形等可辨識元素）",
+    "膠帶有三種狀態：西南部 = 未剝離膠帶，東部/北部 = 剝落膠帶，Kumasi 以北/Tamale 以東 = 兩個白色斑點",
+    "極少數自然保護區有無膠帶版本（如 Boabeng Fiema 猴子保護區）",
+    "側鏡有時可見（某些保護區可見白色車身和側鏡）",
     "Ghana 膠帶在<strong>前</strong>桿 vs Réunion 膠帶在<strong>後</strong>桿"
   ],
   roads: [
@@ -4970,10 +6025,16 @@ const COUNTRIES = {
     "南部為熱帶雨林",
     "北部為大草原",
     "可可種植園",
-    "Lake Volta（世界最大人工湖之一）"
+    "Lake Volta（世界最大人工湖之一）",
+    "非常愛國 — 國旗顏色（紅黃綠 + 黑星）常塗在各種物體上",
+    "出租車採用多彩車身面板，輪罩和四分之一車身面板總是<strong>橙黃色</strong>"
   ],
   signs: ["英語（官方語言）"],
-  plates: ["多種格式"],
+  plates: [
+    "白色和黃色車牌（<strong>短版車牌</strong> — 比一般非洲車牌更短，容易辨認）",
+    "黃色車牌為商用車輛",
+    "格式：地區代碼 + 數字 + 字母"
+  ],
   unique: [
     "<strong>Roof rack 前橫桿包覆黑色膠帶</strong> — 僅 Ghana 有",
     "Réunion 僅在後橫桿包膠帶（不同）",
@@ -4983,25 +6044,31 @@ const COUNTRIES = {
   tips: [
     "前橫桿黑色膠帶 = Ghana（Réunion = 後橫桿膠帶）",
     "英語 + 西非熱帶 = Ghana 或 Nigeria",
-    "沒有警車護送 = Ghana（Nigeria 有護送）"
+    "沒有警車護送 = Ghana（Nigeria 有護送）",
+    "🔗 <a href=\"https://www.google.com/maps/@5.6037,-0.187,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Accra）</a>"
   ]
 },
 
 'botswana': {
   name: 'Botswana', localName: 'Botswana', flag: '🇧🇼', region: 'africa',
   drivingSide: 'left', tld: '.bw', phoneCode: '+267', language: 'English, Tswana', currency: 'Pula (BWP)',
-  camera: ["Gen 3 涵蓋範圍", "主要路線有覆蓋"],
+  camera: ["<strong>100% Gen 3</strong>", "主要路線有覆蓋"],
   car: [
     "Gen 3：標準白色轎車",
     "靠左行駛",
-    "三條中線（類似 South Africa）",
-    "黃色邊線",
-    "無特殊車輛辨識特徵"
+    "無特殊車輛辨識特徵",
+    "街景中常見隨機小模糊（城市尤為明顯）"
   ],
   roads: [
     "左側行駛",
-    "<strong>三條中心線</strong>（如 South Africa）",
-    "<strong>黃色邊線</strong>"
+    "<strong>黃色外線 + 白色中線</strong>（與南部非洲其他國家一致）",
+    "有時可見<strong>三條中心線</strong>（如 South Africa）",
+    "獨特的<strong>黑黃相間警示牌杆</strong> — 南部非洲僅 Botswana 使用",
+    "幹線道路以 A 開頭（South Africa 從不以 A 開頭）"
+  ],
+  poleInfo: [
+    "<strong>木製電線杆</strong>帶<strong>紅白 V 形反光標記 (chevrons)</strong> — Botswana 特色",
+    "鄉村地區木杆常見"
   ],
   landscape: [
     "Kalahari 沙漠 — 乾燥草原",
@@ -5010,7 +6077,11 @@ const COUNTRIES = {
     "野生動物（大象、斑馬）"
   ],
   signs: ["英語為主", "也使用 Tswana 語"],
-  plates: ["多種格式"],
+  plates: [
+    "白色前車牌 + <strong>黃色後車牌</strong>（類似英國/南非系統）",
+    "格式：<strong>B</strong> + 數字 + 字母（B 開頭 = Botswana）",
+    "與 South Africa 類似系統但 B 前綴可快速確認"
+  ],
   unique: [
     "黃色邊線 + 靠左行駛",
     "Kalahari 沙漠景觀",
@@ -5019,26 +6090,30 @@ const COUNTRIES = {
   ],
   tips: [
     "黃色邊線 + 沙漠 + 靠左行駛 + 英語 = Botswana",
-    "比 South Africa 較不發達，更多沙漠"
+    "比 South Africa 較不發達，更多沙漠",
+    "🔗 <a href=\"https://www.google.com/maps/@-24.6282,25.9231,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Gaborone）</a>"
   ]
 },
 
 'namibia': {
   name: 'Namibia', localName: 'Namibia', flag: '🇳🇦', region: 'africa',
   drivingSide: 'left', tld: '.na', phoneCode: '+264', language: 'English', currency: 'Dollar (NAD)',
-  camera: ["Gen 3 涵蓋範圍", "主要高速公路有覆蓋"],
+  camera: [
+    "<strong>100% Gen 3</strong>",
+    "主要高速公路有覆蓋，少數覆蓋在小路上"
+  ],
   car: [
-    "Gen 3/4：<strong>白色 pickup truck（皮卡車）</strong>",
-    "類似 Oman 的白色 truck",
-    "靠左行駛",
-    "大量碎石路、筆直的沙漠長路"
+    "Gen 3：<strong>白色 pickup truck（皮卡車）</strong>，車頂前方有<strong>短天線略微向左傾斜</strong>",
+    "天線向左傾斜是 Namibia 獨有特徵（Oman 類似但天線向右傾斜）",
+    "部分路段街景車有模糊處理，部分沒有 — 可用於區域判斷",
+    "靠左行駛"
   ],
   roads: [
-    "白色中心線",
+    "<strong>白色中線 + 單黃色外線</strong>（與其他南部非洲國家一致）",
     "左側行駛",
-    "大量碎石路 (gravel roads)",
-    "長直沙漠公路",
-    "路面品質差異大"
+    "大量碎石路 (gravel roads)，長直沙漠公路",
+    "綠色指路牌配<strong>黃色</strong>道路編號（A/B/C/D/M 開頭，與 South Africa 的 N/R 不同）",
+    "德語地名常見（殖民遺產）"
   ],
   landscape: [
     "Namib 沙漠 — 沙丘（Sossusvlei）",
@@ -5047,7 +6122,12 @@ const COUNTRIES = {
     "部分城鎮有德國殖民建築"
   ],
   signs: ["英語", "部分地區可見德語（殖民遺產）", "也使用 Afrikaans 南非荷蘭語"],
-  plates: ["Namibia 格式"],
+  plates: [
+    "<strong>黃色螢光車牌 + 黑色文字</strong> — 前後都是黃色（非常獨特！）",
+    "首字母固定為 <strong>N</strong>（= Namibia），後接數字 + 字母",
+    "非洲少見的全黃色車牌 — 辨識度極高",
+    "與 South Africa（白前/黃後）不同 — Namibia 前後都是黃色"
+  ],
   unique: [
     "沙漠景觀 — 沙丘",
     "可見德國殖民遺產",
@@ -5058,17 +6138,19 @@ const COUNTRIES = {
   tips: [
     "沙漠 + 英語 + 部分德語文字 = Namibia",
     "比 Botswana 更多沙漠",
-    "德語烘焙坊/商店名稱 = 很可能是 Namibia"
+    "德語烘焙坊/商店名稱 = 很可能是 Namibia",
+    "🔗 <a href=\"https://www.google.com/maps/@-22.5609,17.0658,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Windhoek）</a>"
   ]
 },
 
 'senegal': {
   name: 'Senegal', localName: 'Sénégal', flag: '🇸🇳', region: 'africa',
   drivingSide: 'right', tld: '.sn', phoneCode: '+221', language: 'French', currency: 'CFA Franc (XOF)',
-  camera: ["Gen 3 涵蓋範圍", "主要城市和道路有覆蓋"],
+  camera: ["<strong>97% Gen 4 + 3% Gen 3</strong>", "主要城市和道路有覆蓋"],
   car: [
-    "Gen 4：<strong>銀色/白色 pickup truck（皮卡車）</strong>（truck cab 可見）",
-    "Gen 3：有 roof rack 的車（無特殊 rack 標記）",
+    "Gen 4：<strong>銀色/白色 pickup truck（皮卡車）</strong>（truck cab 可見），各路段有不同髒汙/物品特徵可用於區域判斷",
+    "Gen 3：有 roof rack + <strong>右側後視鏡可見</strong>（Senegal 獨有）+ 天空有<strong>裂縫 (rift)</strong>",
+    "⚠️ Senegal 是非洲最常見天空裂縫 (rift) 的國家",
     "Dakar 地區：引擎蓋/車頭更明顯可見",
     "有時可見紅色棍子標記（沿 N2/R32 路段）"
   ],
@@ -5086,9 +6168,21 @@ const COUNTRIES = {
     "猴麵包樹",
     "色彩繽紛的彩繪建築"
   ],
-  signs: ["法語（前法國殖民地）"],
-  plates: ["多種格式"],
+  signs: [
+    "法語（前法國殖民地）",
+    "城鎮入口標誌為白色底 + 粗粉紅色輪廓",
+    "白色公里標帶<strong>紅色帽子</strong>，可見公路號碼和最近城鎮距離",
+    "橙黃色出租車帶黑色擋泥板常見",
+    "頂部有太陽能電池板的黑色路燈常見"
+  ],
+  plates: [
+    "<strong>藍色車牌配白色文字</strong> — 非洲唯一藍色車牌！",
+    "Gen 4 中也出現新版白色車牌（左側藍色條帶，類似歐盟款式）",
+    "地區代碼：DK（Dakar）、KD（Kolda）等",
+    "設計 20+ 年未變 — 非常可靠的辨識線索"
+  ],
   unique: [
+    "<strong>藍色車牌</strong> — 非洲唯一，極強辨識特徵",
     "非洲出現法式 bollard 護柱",
     "西非法語區",
     "猴麵包樹",
@@ -5096,14 +6190,15 @@ const COUNTRIES = {
   ],
   tips: [
     "法語 + 非洲 + 法式 bollard = Senegal",
-    "平坦地形的西非法語區"
+    "平坦地形的西非法語區",
+    "🔗 <a href=\"https://www.google.com/maps/@14.7167,-17.4677,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dakar）</a>"
   ]
 },
 
 'morocco': {
   name: 'Morocco', localName: 'المغرب', flag: '🇲🇦', region: 'africa',
   drivingSide: 'right', tld: '.ma', phoneCode: '+212', language: 'Arabic, French, Berber', currency: 'Dirham (MAD)',
-  camera: ["Gen 3 涵蓋範圍", "主要道路覆蓋良好"],
+  camera: ["<strong>100% Gen 3</strong>（主要道路覆蓋良好）", "主要道路覆蓋良好"],
   car: [
     "Gen 3：標準白色轎車",
     "法國風格的道路基礎設施",
@@ -5128,7 +6223,12 @@ const COUNTRIES = {
     "有時也可見 Berber 柏柏爾語（Tifinagh 字母）",
     "Tifinagh 看起來像幾何符號"
   ],
-  plates: ["多種格式"],
+  plates: [
+    "白色反光車牌 + 黑色文字",
+    "右側有<strong>地區編號</strong>可定位區域（1=Rabat, 6=Casablanca, 2=Fez 等）",
+    "格式：數字 + 阿拉伯文字母 + 數字 | 地區碼",
+    "與 Tunisia 車牌區分：Morocco 有地區碼分區"
+  ],
   unique: [
     "北非的阿拉伯語 + 法語組合",
     "Atlas 山脈地形",
@@ -5139,23 +6239,31 @@ const COUNTRIES = {
   tips: [
     "阿拉伯語 + 法語 + 山脈/沙漠 = Morocco",
     "Tifinagh 字母（幾何形狀）= Morocco 或 Algeria",
-    "紅色/赤陶色建築 = Marrakech, Morocco"
+    "紅色/赤陶色建築 = Marrakech, Morocco",
+    "🔗 <a href=\"https://www.google.com/maps/@33.9716,-6.8498,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Rabat）</a>"
   ]
 },
 
 'tunisia': {
   name: 'Tunisia', localName: 'تونس', flag: '🇹🇳', region: 'africa',
   drivingSide: 'right', tld: '.tn', phoneCode: '+216', language: 'Arabic, French', currency: 'Dinar (TND)',
-  camera: ["Gen 3 涵蓋範圍"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
-    "Gen 3：標準轎車",
-    "<strong>有 follow car</strong>：北部（Hammamet 以北）= 淺綠色 Toyota；中南部 = 深綠色 Mazda",
-    "Follow car 顏色可辨識南北位置"
+    "Gen 3：<strong>黑色車帶中等長度細天線</strong>",
+    "<strong>幾乎都有 follow car</strong>：北部（Hammamet 以北）= 淺綠色 Toyota；中南部 = 深綠色 Mazda（軍用車牌左側紅色條帶）",
+    "Kairouan 有獨特白色三菱 follow car",
+    "<strong>Djerba 島大多無 follow car</strong>（偶見白色賓士或深綠色車）"
   ],
   roads: [
-    "白色中心線",
+    "通常<strong>純白色公路線</strong>（外側可虛可實），Sfax 幾條道路有黃色中線",
     "右側行駛",
-    "法式影響的道路系統"
+    "法式影響的道路系統",
+    "<strong>紅白條紋路緣石</strong>常見",
+    "白色混凝土路石可見於各地（圓頂為紅/黃/綠色，兩側有距離數字，可用於精確定位）"
+  ],
+  bollardInfo: [
+    "<strong>白色混凝土路石</strong>，頂部為紅色、黃色或綠色圓頂 — Tunisia 常見的路側標記",
+    "兩側刻有距離數字，可用於精確定位省份和道路"
   ],
   poleInfo: [
     "<strong>金屬鐵絲型電桿</strong>（非常獨特）"
@@ -5167,7 +6275,12 @@ const COUNTRIES = {
     "白牆藍門/藍窗建築"
   ],
   signs: ["阿拉伯語 + 法語雙語"],
-  plates: ["Tunisia 格式，含阿拉伯數字 + 拉丁數字"],
+  plates: [
+    "黑底白字車牌 — 同時使用<strong>阿拉伯數字 + 拉丁數字</strong>",
+    "格式：數字 + 「تونس」(Tunisia) + 數字",
+    "與 Morocco 區分：Tunisia 為黑底，Morocco 為白底",
+    "部分新車牌已改為白底 — 但黑底仍常見"
+  ],
   unique: [
     "金屬線式電線桿",
     "較小的北非國家，阿拉伯語 + 法語",
@@ -5176,17 +6289,20 @@ const COUNTRIES = {
   ],
   tips: [
     "金屬線電線桿 + 阿拉伯語/法語 = Tunisia",
-    "比 Morocco 更小、更地中海風格"
+    "比 Morocco 更小、更地中海風格",
+    "🔗 <a href=\"https://www.google.com/maps/@36.8065,10.1815,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tunis）</a>"
   ]
 },
 
 'egypt': {
   name: 'Egypt', localName: 'مصر', flag: '🇪🇬', region: 'africa',
   drivingSide: 'right', tld: '.eg', phoneCode: '+20', language: 'Arabic', currency: 'Pound (EGP)',
-  camera: ["Gen 3 涵蓋範圍", "尼羅河沿線和主要道路覆蓋良好"],
+  camera: [
+    "<strong>100% Gen 3 徒步旅者 (trekker)</strong> — 所有覆蓋皆為步行拍攝",
+    "覆蓋極稀少，僅限 Cairo（4處）和 Alexandria（3處），以歷史名勝為中心"
+  ],
   car: [
-    "Gen 3：標準轎車",
-    "無特殊車輛辨識特徵"
+    "無街景車 — 全部為徒步旅者拍攝（相機離地面較低、打碼較小、無汽車輪廓陰影）"
   ],
   roads: [
     "白色中心線（標線不一致）",
@@ -5202,7 +6318,12 @@ const COUNTRIES = {
     "紅海海岸"
   ],
   signs: ["阿拉伯語為主", "有時附加英語"],
-  plates: ["Egypt 格式，含阿拉伯數字"],
+  plates: [
+    "使用<strong>阿拉伯數字（東阿拉伯數字 ٠١٢٣）</strong> — 非拉丁數字",
+    "私家車藍底、計程車橘底、商用紅底",
+    "格式：阿拉伯文字母 + 阿拉伯數字",
+    "與北非其他國家區分：Egypt 車牌只有阿拉伯文（無法語/拉丁文）"
+  ],
   unique: [
     "阿拉伯語 + 尼羅河場景",
     "沙漠 + 尼羅河沿線密集人口",
@@ -5211,16 +6332,17 @@ const COUNTRIES = {
   ],
   tips: [
     "阿拉伯語 + 沙漠 + 尼羅河 + 金字塔 = Egypt",
-    "尼羅河狹窄綠色帶狀地帶沿線有非常密集的都市區"
+    "尼羅河狹窄綠色帶狀地帶沿線有非常密集的都市區",
+    "🔗 <a href=\"https://www.google.com/maps/@30.0444,31.2357,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cairo）</a>"
   ]
 },
 
 'ethiopia': {
   name: 'Ethiopia', localName: 'ኢትዮጵያ', flag: '🇪🇹', region: 'africa',
   drivingSide: 'right', tld: '.et', phoneCode: '+251', language: 'Amharic', currency: 'Birr (ETB)',
-  camera: ["覆蓋範圍有限", "緩慢擴展中"],
+  camera: ["<strong>100% Trekker/Shitcam</strong>（覆蓋極有限）", "緩慢擴展中"],
   car: [
-    "Gen 3：標準轎車",
+    "無標準 Google 街景車 — 全為 trekker",
     "無特殊車輛辨識特徵"
   ],
   roads: [
@@ -5240,7 +6362,11 @@ const COUNTRIES = {
     "字符看起來像抽象幾何圖形",
     "標誌上也使用英語"
   ],
-  plates: ["Ethiopia 格式"],
+  plates: [
+    "左側數字表示車輛類型：<strong>1=計程車（紅底）、2=私家車（白底藍字）、3=商用（白底綠字）</strong>",
+    "⚠️ 顏色編碼系統使 Ethiopia 車牌很有辨識度",
+    "紅色車牌（計程車）最容易在街景中辨認"
+  ],
   unique: [
     "<strong>Ge'ez 字母</strong> — 僅 Ethiopia/Eritrea 使用",
     "Ethiopia 高原景觀",
@@ -5249,17 +6375,22 @@ const COUNTRIES = {
   ],
   tips: [
     "Ge'ez 字母（獨特幾何字符）= Ethiopia 或 Eritrea",
-    "高原地形 + Ge'ez 字母 = Ethiopia"
+    "高原地形 + Ge'ez 字母 = Ethiopia",
+    "🔗 <a href=\"https://www.google.com/maps/@9.032,38.7469,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Addis Ababa）</a>"
   ]
 },
 
 'madagascar': {
   name: 'Madagascar', localName: 'Madagasikara', flag: '🇲🇬', region: 'africa',
   drivingSide: 'right', tld: '.mg', phoneCode: '+261', language: 'Malagasy, French', currency: 'Ariary (MGA)',
-  camera: ["覆蓋範圍有限"],
+  camera: [
+    "<strong>100% Gen 3</strong>（幾乎全為徒步旅者覆蓋 + 少量船覆蓋）",
+    "覆蓋極有限，大部分在西海岸，陸地和船混合覆蓋",
+    "僅兩處有獨特街景車（銀色車頂行李架）"
+  ],
   car: [
-    "標準轎車",
-    "無特殊車輛辨識特徵"
+    "幾乎全為徒步旅者覆蓋 — 可透過跟隨的人物服裝辨識不同區域",
+    "RN8 路段有帶大型銀色車頂行李架的街景車"
   ],
   roads: [
     "標線極少",
@@ -5274,7 +6405,11 @@ const COUNTRIES = {
     "獨特生物多樣性"
   ],
   signs: ["馬達加斯加語（南島語系！）+ 法語"],
-  plates: ["馬達加斯加格式"],
+  plates: [
+    "紅底白字車牌（私家車）",
+    "格式：數字 + 字母 + 數字",
+    "印度洋島國 + 紅色車牌 + 法語環境 = Madagascar"
+  ],
   unique: [
     "馬達加斯加語 — 南島語系（與印尼/馬來語有關，不是非洲語言！）",
     "紅色土壤",
@@ -5284,14 +6419,15 @@ const COUNTRIES = {
   ],
   tips: [
     "法語 + 南島語系外觀的語言 + 紅土 = Madagascar",
-    "馬達加斯加語詞彙看起來更像亞洲語言而非非洲語言"
+    "馬達加斯加語詞彙看起來更像亞洲語言而非非洲語言",
+    "🔗 <a href=\"https://www.google.com/maps/@-18.8792,47.5079,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Antananarivo）</a>"
   ]
 },
 
 'reunion': {
   name: 'Réunion', localName: 'La Réunion', flag: '🇷🇪', region: 'africa',
   drivingSide: 'right', tld: '.re', phoneCode: '+262', language: 'French', currency: 'Euro (EUR)',
-  camera: ["Gen 3 覆蓋"],
+  camera: ["<strong>100% Gen 3</strong>"],
   car: [
     "<strong>後橫桿包覆黑色膠帶</strong>（Ghana = 前橫桿）",
     "側鏡可見",
@@ -5306,7 +6442,11 @@ const COUNTRIES = {
     "山地地形"
   ],
   signs: ["法語"],
-  plates: ["法國車牌（FR 格式）"],
+  plates: [
+    "使用<strong>法國標準車牌</strong>（EU 藍色帶 + F 國碼）",
+    "右側有<strong>974 省份代碼</strong> — 974 = Réunion",
+    "在熱帶島嶼看到法國車牌 + 974 代碼 = 確認 Réunion"
+  ],
   unique: [
     "<strong>僅後橫桿有黑色膠帶</strong>（Ghana = 前橫桿）",
     "印度洋中的法國領土 — 使用歐元",
@@ -5315,7 +6455,8 @@ const COUNTRIES = {
   ],
   tips: [
     "後橫桿有黑色膠帶 = Réunion（Ghana = 前橫桿）",
-    "法語 + 熱帶火山島 = Réunion"
+    "法語 + 熱帶火山島 = Réunion",
+    "🔗 <a href=\"https://www.google.com/maps/@-20.8823,55.4504,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saint-Denis）</a>"
   ]
 },
 
@@ -5323,16 +6464,16 @@ const COUNTRIES = {
   name: 'Uganda', localName: 'Uganda', flag: '🇺🇬', region: 'africa',
   drivingSide: 'left', tld: '.ug', phoneCode: '+256', language: 'English, Swahili', currency: 'Shilling (UGX)',
   camera: [
-    "<strong>Gen 3 trekker + 兩輛獨特街景車</strong>",
+    "<strong>~90% Shitcam + ~10% Gen 3</strong>（含兩輛獨特街景車）",
     "⚠️ <strong>大量非官方/第三方覆蓋 (shit cam)</strong> — 畫質極低、模糊、過曝/欠曝",
     "非官方覆蓋佔 Uganda 大部分影像 — 非 360° 全景、顏色失真",
     "國家公園覆蓋品質較好但範圍有限"
   ],
   car: [
-    "官方覆蓋：白色方形 SUV（非轎車）",
-    "車前方有<strong>黑色金屬防撞桿 (bull bar)</strong>",
-    "方形後視鏡可見",
-    "非官方覆蓋：各種車輛（機車、自行車等）"
+    "Kampala 市：白色方形 SUV（非轎車），<strong>方形側後視鏡</strong>可見 — Uganda 獨有車型",
+    "國家公園：類似白色 SUV 但車頭有<strong>黑色防撞桿 (bull bar)</strong>（打碼程度差別很大）",
+    "非官方覆蓋：各種車輛（機車、自行車等）",
+    "Kampala 市有大量藍色塊狀圖案出租車，典型深紅色鋪裝道路/泥土"
   ],
   roads: ["靠左行駛", "道路品質不一"],
   landscape: [
@@ -5343,7 +6484,11 @@ const COUNTRIES = {
     "Source of the Nile (Jinja)"
   ],
   signs: ["英語為主", "Some Swahili"],
-  plates: ["Ugandan format"],
+  plates: [
+    "白色前車牌 + <strong>黃色後車牌</strong>（英國系統遺產）",
+    "格式：<strong>U</strong> + 字母 + 數字（U 前綴 = Uganda）",
+    "與 Kenya（K 前綴）和 Tanzania（T 前綴）類似系統，靠首字母區分"
+  ],
   unique: [
     "翠綠茂密 tropical landscape in East Africa",
     "⚠️ <strong>大量低畫質非官方覆蓋</strong> — 模糊、曝光差、色彩失真",
@@ -5355,18 +6500,23 @@ const COUNTRIES = {
     "⚠️ 看到極差畫質 (blurry, washed out) + 非洲風景 = 很可能是 Uganda 非官方覆蓋",
     "Green lush landscape + English + 靠左行駛 = Uganda or Kenya",
     "More green/lush than Kenya's 大草原 (savanna)",
-    "官方覆蓋畫質正常，白色 SUV + bull bar = Uganda 官方"
+    "官方覆蓋畫質正常，白色 SUV + bull bar = Uganda 官方",
+    "🔗 <a href=\"https://www.google.com/maps/@0.3476,32.5825,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kampala）</a>"
   ]
 },
 
 'tanzania': {
   name: 'Tanzania', localName: 'Tanzania', flag: '🇹🇿', region: 'africa',
   drivingSide: 'left', tld: '.tz', phoneCode: '+255', language: 'Swahili, English', currency: 'Shilling (TZS)',
-  camera: ["Gen 3 覆蓋", "主要道路有覆蓋"],
+  camera: [
+    "<strong>100% Trekker</strong>（覆蓋極為有限）",
+    "Gombe 國家公園：Gen 3 徒步旅者覆蓋",
+    "Kilimanjaro：三腳架覆蓋",
+    "Kenya 邊境附近有少量越境街景車覆蓋"
+  ],
   car: [
-    "Gen 3：標準轎車",
-    "靠左行駛",
-    "無特殊車輛辨識特徵"
+    "主要為徒步旅者和三腳架覆蓋 — 無典型街景車",
+    "靠左行駛"
   ],
   roads: [
     "左側行駛",
@@ -5380,7 +6530,12 @@ const COUNTRIES = {
     "Ngorongoro 火山口地區"
   ],
   signs: ["斯瓦希里語（主導）+ 英語"],
-  plates: ["Tanzania 格式"],
+  plates: [
+    "車牌上有 <strong>Tanzania 國旗</strong>圖案 — 辨識度極高",
+    "<strong>T</strong> 前綴 + 數字 + 字母",
+    "白色前車牌 + 黃色後車牌（英國系統遺產）",
+    "與 Kenya（K 前綴）和 Uganda（U 前綴）類似系統"
+  ],
   unique: [
     "標誌上斯瓦希里語為主（比 Kenya 多）",
     "可見吉力馬扎羅山",
@@ -5389,16 +6544,17 @@ const COUNTRIES = {
   ],
   tips: [
     "斯瓦希里語為主的標誌 + 大草原 (savanna) + 靠左行駛 = Tanzania",
-    "Kenya 有更多英語；Tanzania 有更多斯瓦希里語"
+    "Kenya 有更多英語；Tanzania 有更多斯瓦希里語",
+    "🔗 <a href=\"https://www.google.com/maps/@-6.7924,39.2083,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dar es Salaam）</a>"
   ]
 },
 
 'rwanda': {
   name: 'Rwanda', localName: 'Rwanda', flag: '🇷🇼', region: 'africa',
   drivingSide: 'right', tld: '.rw', phoneCode: '+250', language: 'Kinyarwanda, French, English', currency: 'Franc (RWF)',
-  camera: ["Gen 3 覆蓋", "尚可覆蓋"],
+  camera: ["<strong>100% Gen 4</strong>", "覆蓋有限，正在零星發布"],
   car: [
-    "Gen 3/4：<strong>pickup truck（皮卡車）</strong>",
+    "Gen 4：<strong>pickup truck</strong>，有時完全打碼（巨大模糊）",
     "車色多樣：白色、黑色、灰/棕色",
     "車頂有<strong>紅色煞車燈</strong>可見",
     "相機支架幾乎都可見"
@@ -5415,7 +6571,11 @@ const COUNTRIES = {
     "對非洲而言非常乾淨有序"
   ],
   signs: ["基尼亞盧安達語 + 法語 + 英語（三語）"],
-  plates: ["Rwanda 格式"],
+  plates: [
+    "白色前車牌 + <strong>黃色後車牌</strong>",
+    "<strong>R</strong> 前綴 + 字母 + 數字（R = Rwanda）",
+    "與東非鄰國類似系統但靠右行駛（非左駕）— 重要區別"
+  ],
   unique: [
     "黃色中線 + 白色邊線（類似美洲慣例）",
     "地勢非常多丘陵、有梯田",
@@ -5424,7 +6584,8 @@ const COUNTRIES = {
   ],
   tips: [
     "非常綠、多丘陵、乾淨 + 黃色道路標線 + 三語 = Rwanda",
-    "對非洲國家而言維護良好得出乎意料"
+    "對非洲國家而言維護良好得出乎意料",
+    "🔗 <a href=\"https://www.google.com/maps/@-1.9536,30.0606,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kigali）</a>"
   ]
 },
 
@@ -5436,7 +6597,7 @@ const COUNTRIES = {
   name: 'Australia', localName: 'Australia', flag: '🇦🇺', region: 'oceania',
   drivingSide: 'left', tld: '.au', phoneCode: '+61', language: 'English', currency: 'Dollar (AUD)',
   camera: [
-    "<strong>Gen 4（全部，白/黑/棕色 pickup truck）</strong>",
+    "<strong>78% Gen 4 + 14% Gen 1 + 5% Gen 2 + 3% Gen 3</strong>",
     "各州拍攝年份不同 — 可用於區域判斷",
     "南半球覆蓋最廣的國家"
   ],
@@ -5497,14 +6658,15 @@ const COUNTRIES = {
     "英語 + 靠左行駛 + km/h + 巨大空曠景觀 = Australia",
     "左側細紅色反光片 bollard = Australia",
     "袋鼠標誌 = Australia",
-    "比 New Zealand 大得多且更乾燥"
+    "比 New Zealand 大得多且更乾燥",
+    "🔗 <a href=\"https://www.google.com/maps/@-33.8688,151.2093,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sydney）</a>"
   ]
 },
 
 'new-zealand': {
   name: 'New Zealand', localName: 'Aotearoa', flag: '🇳🇿', region: 'oceania',
   drivingSide: 'left', tld: '.nz', phoneCode: '+64', language: 'English, Māori', currency: 'Dollar (NZD)',
-  camera: ["Gen 1 有限、Gen 2、Gen 3、Gen 4"],
+  camera: ["<strong>80% Gen 4 + 11% Gen 3 + 7% Gen 2 + 2% Gen 1</strong>"],
   car: [
     "Gen 4：<strong>藍色轎車</strong>",
     "Gen 1-3：白色轎車",
@@ -5540,7 +6702,13 @@ const COUNTRIES = {
     "毛利語地名（Whangarei、Tauranga、Whakatane）",
     "毛利語使用長音符號：ā、ē、ī、ō、ū"
   ],
-  plates: ["各種 NZ 格式"],
+  plates: [
+    "白色車牌帶<strong>黑色字</strong>（前後相同）",
+    "格式：3 字母 + 3 數字（如 ABC 123）— 2006 年後",
+    "舊版：2 字母 + 4 數字（如 AB 1234）",
+    "藍色車牌為外交車輛",
+    "⚠️ Australia 各州有不同設計；NZ 全國統一"
+  ],
   unique: [
     "更寬紅色帶 bollard（相對 Australia 的細窄紅色帶）",
     "毛利語雙語標誌",
@@ -5552,7 +6720,8 @@ const COUNTRIES = {
   tips: [
     "英語 + 毛利語雙語標誌 = New Zealand",
     "綠色山脈 + 靠左行駛 + 英語 = New Zealand（不是 Australia）",
-    "Australia 乾燥/平坦，New Zealand 綠色/多山"
+    "Australia 乾燥/平坦，New Zealand 綠色/多山",
+    "🔗 <a href=\"https://www.google.com/maps/@-36.8485,174.7633,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Auckland）</a>"
   ]
 },
 
@@ -5567,7 +6736,7 @@ const COUNTRIES = {
     language: 'Belarusian / Russian',
     currency: 'Belarusian Ruble (BYN)',
     camera: [
-      "<strong>Gen 3 + Gen 4 + Gen 2</strong>",
+      "<strong>~50% Gen 3 + ~30% Gen 4 + ~20% Gen 2</strong>",
       "Trekker 覆蓋一看就知道：相機高度較低，常搖晃",
       "覆蓋非常有限 — 主要在 Minsk 等城市和主要道路",
       "與鄰國相比畫質低且不連貫",
@@ -5623,7 +6792,8 @@ const COUNTRIES = {
       "字母 Ў 只在白俄羅斯語中存在 — 立即確認",
       "不要與 Russia 混淆：Belarus 覆蓋少得多且車牌風格不同",
       "平坦地形 + 森林 + 蘇聯建築 + trekker 覆蓋 = Belarus",
-      "因覆蓋有限在競技遊戲中非常罕見"
+      "因覆蓋有限在競技遊戲中非常罕見",
+      "🔗 <a href=\"https://www.google.com/maps/@53.9045,27.5615,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Minsk）</a>"
     ]
   },
 
@@ -5705,7 +6875,8 @@ const COUNTRIES = {
       '烏爾都文看起來像阿拉伯文但 Pakistan 靠左行駛 — 中東國家靠右行駛',
       'Pakistan vs India：烏爾都語（從右到左）vs 印地語（從左到右天城體）',
       '如果看到莫臥兒建築 + trekker 覆蓋 = 可能是 Pakistan',
-      '不要與 India 混淆 — Pakistan 覆蓋非常有限，India 有廣泛測繪'
+      '不要與 India 混淆 — Pakistan 覆蓋非常有限，India 有廣泛測繪',
+      "🔗 <a href=\"https://www.google.com/maps/@31.5204,74.3587,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lahore）</a>"
     ]
   },
 
@@ -5740,6 +6911,10 @@ const COUNTRIES = {
       '速限以 km/h 標示',
       '道路普遍乾淨整潔',
       '有公路編號系統，但道路數量少於 Malaysia'
+    ],
+    signInfo: [
+      "停車標誌：<strong>BERHENTI</strong>（馬來語）— 與 Malaysia 相同",
+      "⚠️ 看到 BERHENTI + 富裕乾淨外觀 + 顯眼伊斯蘭建築 = Brunei（而非 Malaysia）"
     ],
     landscape: [
       '熱帶雨林覆蓋大部分國土',
@@ -5780,7 +6955,8 @@ const COUNTRIES = {
       '靠左行駛 + 馬來語 + 顯眼清真寺 + 富裕外觀 = 可能是 Brunei',
       '黃色車牌區別於 Malaysia 的黑色車牌',
       '如果看起來像富裕、乾淨版本的 Malaysia 且有顯眼伊斯蘭建築 = Brunei',
-      '因覆蓋有限，在隨機 GeoGuessr 中非常罕見'
+      '因覆蓋有限，在隨機 GeoGuessr 中非常罕見',
+      "🔗 <a href=\"https://www.google.com/maps/@4.9031,114.9398,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（BSB）</a>"
     ]
   },
 
@@ -5795,7 +6971,7 @@ const COUNTRIES = {
     language: 'Lao',
     currency: 'Kip (LAK)',
     camera: [
-      "<strong>Gen 3（圓鏡，車側有藍線）</strong>",
+      "<strong>100% Gen 3</strong>（圓鏡，車側有藍線）",
       '覆蓋主要限於大城市和國道',
       'Vientiane 覆蓋最佳',
       '鄉村地區覆蓋非常有限或完全沒有',
@@ -5804,9 +6980,9 @@ const COUNTRIES = {
     ],
     car: [
       '可見 roof rack — 除了首都 Vientiane 以外的所有地方',
-      'Gen 3：白色轎車',
+      'Gen 3：<strong>銀色轎車</strong>，車頂行李架帶兩根金屬杆 + 黑色側鏡',
       'Roof rack 是辨識 Laos 的重要線索',
-      '涵蓋僅限 4 個城市'
+      '涵蓋僅限 5 個城市：萬象、萬榮、琅勃拉邦、沙灣拿吉、巴色'
     ],
     roads: [
     '主要路線上有白色道路標線',
@@ -5820,7 +6996,12 @@ const COUNTRIES = {
     '黑白條紋 bollard'
   ],
   poleInfo: [
-    '水泥電線桿'
+    '<strong>松果形桿頂（pinecone poles）</strong>— 2 個在一側、1 個在另一側（不對稱排列）— Laos 獨有',
+    '也有小孔水泥桿（類似 Thai 桿）'
+  ],
+  signInfo: [
+    "停車標誌：<strong>ຢຸດ</strong>（yud，寮文）— 寮文停車標誌是 Laos 的強力辨識特徵",
+    "⚠️ Thailand 的 หยุด 也發音 yud，但字形完全不同（泰文有圓圈，寮文更圓滑）"
   ],
     landscape: [
       '北部地勢非常多山 — 崎嶇的喀斯特石灰岩地形',
@@ -5867,7 +7048,8 @@ const COUNTRIES = {
       'Laos vs Cambodia：寮文（類似泰文的圓圈）vs 高棉文（棱角鉤形）',
       '黑白 bollard（Laos）vs 紅白 bollard（Cambodia）',
       'Laos 感覺比 Thailand 更不發達、更鄉村',
-      'Google 車上的 roof rack（Vientiane 以外）是快速 meta 辨識線索'
+      'Google 車上的 roof rack（Vientiane 以外）是快速 meta 辨識線索',
+      "🔗 <a href=\"https://www.google.com/maps/@17.9757,102.6331,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vientiane）</a>"
     ]
   },
 
@@ -5905,6 +7087,10 @@ const COUNTRIES = {
   ],
   poleInfo: [
     '電線桿通常為木頭或竹子'
+  ],
+  signInfo: [
+    "停車標誌：<strong>ရပ်</strong>（raut，緬文）— 圓形緬文字母寫成的停車標誌",
+    "緬文停車標誌 = 確認 Myanmar（覆蓋稀少但若出現是強力辨識）"
   ],
     landscape: [
       '佛教寺廟和佛塔到處都是 — Myanmar 是深度佛教國家',
@@ -5949,7 +7135,8 @@ const COUNTRIES = {
       '靠右行駛 + 圓形文字 + 金色佛塔 = Myanmar',
       'Myanmar vs Thailand：緬文更圓；泰文有更多彎曲和迴圈',
       '覆蓋非常有限意味著如果不確定，大概不是 Myanmar',
-      '右駕車行駛在靠右的道路上是 Myanmar 的獨特怪癖'
+      '右駕車行駛在靠右的道路上是 Myanmar 的獨特怪癖',
+      "🔗 <a href=\"https://www.google.com/maps/@16.8661,96.1951,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Yangon）</a>"
     ]
   },
 
@@ -6031,7 +7218,8 @@ const COUNTRIES = {
       '天主教堂 + 葡語標誌 + 靠左行駛 = Timor-Leste',
       '看起來比 Indonesia 乾燥且不發達',
       '使用美元 — 店面價格上可見',
-      '如果看到葡萄牙文搭配熱帶山地（不像 Macau 那樣都市化）= Timor-Leste'
+      '如果看到葡萄牙文搭配熱帶山地（不像 Macau 那樣都市化）= Timor-Leste',
+      "🔗 <a href=\"https://www.google.com/maps/@-8.5569,125.5603,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dili）</a>"
     ]
   },
 
@@ -6046,7 +7234,7 @@ const COUNTRIES = {
     language: 'Mandarin Chinese',
     currency: 'Renminbi/Yuan (CNY)',
     camera: [
-      "<strong>非 Google — 使用百度/騰訊街景</strong>",
+      "<strong>非 Google — 100% 百度/騰訊街景</strong>",
       '在 GeoGuessr 中出現時，覆蓋來自第三方或非官方來源',
       '百度/騰訊覆蓋畫質不一 — 有時過暗或過亮',
       '部分覆蓋來自 Mapillary 和其他貢獻者',
@@ -6116,7 +7304,8 @@ const COUNTRIES = {
       'China vs Japan：中文只有漢字；日文混合漢字 + 平假名 + 片假名',
       '注意中文字下方的拼音（羅馬字母）— 中國大陸獨有',
       '綠色車牌（電動車）越來越常見且有辨識度',
-      '相機畫質通常低於 Google — 次要線索'
+      '相機畫質通常低於 Google — 次要線索',
+      "🔗 <a href=\"https://www.google.com/maps/@39.9042,116.4074,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beijing）</a>"
     ]
   },
 
@@ -6131,7 +7320,7 @@ const COUNTRIES = {
     language: 'Cantonese, Portuguese',
     currency: 'Pataca (MOP)',
     camera: [
-      "<strong>Gen 2（畫質較低）</strong>",
+      "<strong>100% Gen 2</strong>（畫質較低）",
       '非標準車輛或 Trekker 涵蓋',
       '因 Macau 面積極小，覆蓋範圍有限',
       'Gen 2 畫質：顆粒感較重，色彩不如 Gen 3/4 鮮豔',
@@ -6195,7 +7384,8 @@ const COUNTRIES = {
       '葡式街名（Rua de...、Avenida de...）是確定性線索',
       'Macau 比 Hong Kong 小很多 — 密集的賭場區很有辨識度',
       '靠左行駛（與 HK 相同），無法從行駛方向區分',
-      '看到賭場 + 葡文 + 中文字 = Macau'
+      '看到賭場 + 葡文 + 中文字 = Macau',
+      "🔗 <a href=\"https://www.google.com/maps/@22.1987,113.5439,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Macau）</a>"
     ]
   },
 
@@ -6275,7 +7465,8 @@ const COUNTRIES = {
       '獨特的哈薩克西里爾字符（Қ、Ң、Ө）可與俄文區分',
       'Astana = 現代/未來主義；Almaty = 以山為背景的林蔭城市',
       '主要道路有黃色路肩線，較小道路僅有白線',
-      '與 Russia 共用電話區碼 +7 — 需看車牌差異來區分'
+      '與 Russia 共用電話區碼 +7 — 需看車牌差異來區分',
+      "🔗 <a href=\"https://www.google.com/maps/@51.1694,71.4491,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Astana）</a>"
     ]
   },
 
@@ -6290,7 +7481,7 @@ const COUNTRIES = {
     language: 'Kyrgyz, Russian',
     currency: 'Som (KGS)',
     camera: [
-      "<strong>Gen 3（方鏡，車身有黑線）</strong>",
+      "<strong>100% Gen 3</strong>（方鏡，車身有黑線）",
       '獨特的相機車可見 BARS — 少數有此特徵的國家之一',
       '可見側鏡，特別是左側',
       '鏡子可能看起來髒或有風化痕跡',
@@ -6360,7 +7551,8 @@ const COUNTRIES = {
       '相機車有 bars 但無 snorkel = 可能是 Kyrgyzstan（Mongolia 有 snorkel）',
       '車上鏡子狀態可指示 Kyrgyzstan 境內哪個地區',
       '山脈 + 西里爾字母 + 車牌紅色條紋 = 確定是 Kyrgyzstan',
-      '與蒙古語共用 Ң 和 Ө 字符 — 查看車牌來區分'
+      '與蒙古語共用 Ң 和 Ө 字符 — 查看車牌來區分',
+      "🔗 <a href=\"https://www.google.com/maps/@42.8746,74.5698,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bishkek）</a>"
     ]
   },
 
@@ -6375,7 +7567,7 @@ const COUNTRIES = {
     language: 'Uzbek, Russian',
     currency: 'Som (UZS)',
     camera: [
-      "<strong>Gen 3（覆蓋有限）</strong>",
+      "<strong>100% Gen 3</strong>（覆蓋有限）",
       '覆蓋主要在大城市（Tashkent、Samarkand、Bukhara）',
       '歷史/伊斯蘭建築景點有 Trekker 覆蓋',
       '主要路線以外覆蓋稀疏',
@@ -6439,7 +7631,8 @@ const COUNTRIES = {
       'Uzbekistan vs Kazakhstan：Uzbekistan 更明顯地在西里爾字母旁使用拉丁字母',
       'trekker 覆蓋中的綠松石瓷磚伊斯蘭建築 = Uzbekistan 的絲路城市',
       '棉花田 + 乾旱地形 + 拉丁/西里爾字母混合 = Uzbekistan',
-      '在 GeoGuessr 中相對罕見 — 主要是著名歷史景點的 trekker 覆蓋'
+      '在 GeoGuessr 中相對罕見 — 主要是著名歷史景點的 trekker 覆蓋',
+      "🔗 <a href=\"https://www.google.com/maps/@41.2995,69.2401,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tashkent）</a>"
     ]
   },
 
@@ -6499,9 +7692,20 @@ const COUNTRIES = {
       '部分地區有真主黨或其他政黨旗幟/橫幅'
     ],
     plates: [
-    "標準車牌：<strong>長白牌或短白牌</strong>，左側有藍色條紋（類似 EU 風格）",
-    "出租車：<strong>顯著的深紅色車牌</strong>",
-    "其他顏色車牌也存在（政府、軍用等）"
+    "<strong>標準私家車</strong>：白底黑字，左側有<strong>藍色直條</strong>（含雪松圖案 + لبنان + 車輛分類），類似 EU 風格",
+    "格式：<strong>地區字母 + 最多 6 位數字</strong>（如 B 382445），字母代表登記地區（B=Beirut, T=Tripoli, S=Sidon, Z=Zahleh 等）",
+    "有兩種尺寸：EU 長條型（520×110mm，藍條在左側）和北美方型（320×160mm，藍條在頂部）",
+    "⚠️ 前後車牌格式相同，無明顯差異",
+    "<strong>出租車/公共運輸</strong>：<strong>紅底白字</strong> — 在 shitcam 模糊中仍可辨識紅色",
+    "<strong>租車</strong>：<strong>綠底</strong>車牌",
+    "<strong>外交</strong>：<strong>橘底</strong>（含國家代碼）",
+    "<strong>領事</strong>：<strong>紫底</strong>",
+    "<strong>駕訓班</strong>：<strong>黃底</strong>",
+    "<strong>臨時/過境</strong>：<strong>藍底</strong>（標記 TEMP 或 IMPORT）",
+    "<strong>觀光</strong>：<strong>粉紅底</strong>",
+    "<strong>棕色臨時牌</strong>：<strong>棕底</strong>",
+    "特殊字母：J=法官、R=宗教領袖、MP=國會議員（1-128）、AG=部長",
+    "⚠️ GeoGuessr 實用：shitcam 下車牌多半模糊，但<strong>紅色（出租車）和綠色（租車）</strong>底色仍可辨識"
   ],
     unique: [
     "⚠️ <strong>98.9% Shitcam</strong> — 中東唯一有大規模 shitcam 的國家",
@@ -6519,7 +7723,8 @@ const COUNTRIES = {
       '山脈非常靠近地中海海岸 = Lebanon（緊湊的國家）',
       '清真寺和教堂混合 = 宗教多元 = 可能是 Lebanon',
       '山區的雪松是 Lebanon 的標誌',
-      '如果看到阿拉伯文 + 法文 + 地中海海岸線 + 山脈 = Lebanon'
+      '如果看到阿拉伯文 + 法文 + 地中海海岸線 + 山脈 = Lebanon',
+      "🔗 <a href=\"https://www.google.com/maps/@33.8938,35.5018,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beirut）</a>"
     ]
   },
 
@@ -6534,19 +7739,19 @@ const COUNTRIES = {
     language: 'Arabic',
     currency: 'Omani Rial (OMR)',
     camera: [
-      "<strong>100% Gen 3（白色 pickup truck）</strong>",
-      '卡車前方可見天線',
-      '後方有緊密排列的支撐桿',
-      '覆蓋沿主要公路和 Muscat',
-      'Salalah 地區有獨立覆蓋且景觀獨特',
+      "<strong>100% Gen 4 Trekker（白色 pickup truck）</strong>",
+      "2024 年新增覆蓋（2024 年 2-9 月拍攝），Oman 是中東第 7 個加入 Street View 的國家",
+      "Phase 1：Muscat、Sohar、Salalah（~36,000 km）；Phase 2：其餘地區（總計 ~63,000 km）",
+      'Salalah 地區有獨立覆蓋且景觀獨特（綠色季風景觀）',
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
-      '白色 pickup truck（bars 在後方支撐相機）',
-      '天線在 truck 中間位置',
-      '與 Qatar 白色 truck 類似',
-      '不同於 UAE 的白色轎車（Oman 用 TRUCK）',
-      '沙漠公路 + 白色 truck + 天線 = Oman 或 Qatar'
+      "<strong>大型白色 pickup truck</strong>（Gen 4 Trekker 裝在 truck 上）",
+      "⚠️ 天線在 truck <strong>中間位置</strong> — 這是區分 Oman vs Qatar 的關鍵",
+      "車身有時完全被模糊，但天線仍可見",
+      "vs <strong>Qatar</strong>：也是白色 pickup truck，但天線在<strong>車左前方</strong>",
+      "vs <strong>UAE</strong>：UAE 用白色<strong>轎車</strong>，Oman 用 <strong>pickup truck</strong>",
+      '沙漠公路 + 白色 pickup truck + 中間天線 = Oman'
     ],
     roads: [
     "白色中心線",
@@ -6590,7 +7795,7 @@ const COUNTRIES = {
     ],
     unique: [
       '黃色車牌 — 在海灣地區罕見（UAE 白色、Qatar 白色/栗色）',
-      '白色卡車配天線和 bars（不像 UAE 用轎車）',
+      '白色 pickup truck + 天線在中間（vs Qatar 天線在左前方；vs UAE 用轎車）',
       'bollard 很罕見 — 其缺失有助於辨識 Oman',
       'Jebel Shams「大峽谷」是獨特景觀',
       'Salalah 的綠色季風景觀在阿拉伯半島獨一無二',
@@ -6600,13 +7805,14 @@ const COUNTRIES = {
     ],
     tips: [
       '海灣地區黃色車牌 = Oman（UAE = 白色、Qatar = 白色/栗色）',
-      'Oman vs UAE：卡車覆蓋（OM）vs 轎車覆蓋（UAE）；黃色車牌（OM）vs 白色車牌（UAE）',
-      'Oman vs Qatar：黃色車牌（OM）vs 白色/栗色車牌（QA）；山地（OM）vs 平坦（QA）',
+      'Oman vs UAE：pickup truck（OM）vs 轎車（UAE）；黃色車牌（OM）vs 白色車牌（UAE）',
+      'Oman vs Qatar：天線在中間（OM）vs 天線在左前方（QA）；黃色車牌（OM）vs 白色/栗色車牌（QA）；山地（OM）vs 平坦（QA）',
       'bollard 罕見 — 如果看到中東 + 無 bollard = 可能是 Oman',
       'Salalah 覆蓋綠意盎然（季風季節）— 在阿拉伯半島很不尋常',
-      '白色卡車配天線 = Oman（不同於 UAE 的白色轎車）',
+      '白色 pickup truck + 天線在中間 = Oman（vs Qatar 天線在左前方，vs UAE 轎車）',
       '比 UAE 更傳統/鄉村感 — 更少玻璃摩天大樓',
-      '山脈 + 沙漠 + 海岸近距離相鄰 = Oman'
+      '山脈 + 沙漠 + 海岸近距離相鄰 = Oman',
+      "🔗 <a href=\"https://www.google.com/maps/@23.5880,58.3829,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
     ]
   },
 
@@ -6686,7 +7892,8 @@ const COUNTRIES = {
       '橄欖樹和石造建築到處都是',
       '巴勒斯坦地區看起來類似 Israel 但基礎設施維護較少',
       '政治壁畫和塗鴉是巴勒斯坦地區的強力指標',
-      '如果以阿拉伯語為主 + 白色車牌 + 丘陵地形 + 橄欖樹 = Palestine'
+      '如果以阿拉伯語為主 + 白色車牌 + 丘陵地形 + 橄欖樹 = Palestine',
+      "🔗 <a href=\"https://www.google.com/maps/@31.9038,35.2034,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ramallah）</a>"
     ]
   },
 
@@ -6754,7 +7961,8 @@ const COUNTRIES = {
       '火山地形類似 Guatemala 但沒那麼多山',
       'Pulmones（退役的美國校車，塗成彩色）用作公共運輸',
       '部分城市地區有大量幫派相關塗鴉',
-      '城鎮中教堂和宗教意象突出'
+      '城鎮中教堂和宗教意象突出',
+      '<strong>圓形玻璃電錶</strong>裝在房屋外牆 — 中美洲共通特徵（Mexico、Guatemala 也有）'
     ],
     tips: [
       '官方覆蓋非常有限使 El Salvador 在 GeoGuessr 中罕見',
@@ -6762,7 +7970,8 @@ const COUNTRIES = {
       '使用美元，可能出現在價格標誌上 — 在中美洲不尋常',
       '尋找 CA 公路標記來確認中美洲位置',
       'ALTO 停車標誌 + 西班牙語 + 火山地形 + 人口稠密 = 可能是 El Salvador',
-      '與 Guatemala 區別：Guatemala 有獨特的相機車配 bars 和側鏡'
+      '與 Guatemala 區別：Guatemala 有獨特的相機車配 bars 和側鏡',
+      "🔗 <a href=\"https://www.google.com/maps/@13.6929,-89.2182,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Salvador）</a>"
     ]
   },
 
@@ -6829,14 +8038,16 @@ const COUNTRIES = {
       '加勒比海岸地區可能顯示英語影響（Bay Islands 歷史上講英語）',
       '許多鄉村地區有紅棕色土壤',
       '小城鎮有彩色房屋',
-      '商店和建築上的 Tigo 電信品牌'
+      '商店和建築上的 Tigo 電信品牌',
+      '<strong>圓形玻璃電錶</strong>裝在房屋外牆 — 中美洲共通特徵'
     ],
     tips: [
       '覆蓋非常有限使 Honduras 在 GeoGuessr 中罕見',
       '如果在中美洲看到 ALTO 標誌、道路品質差、松林覆蓋的山脈且無獨特 car meta，考慮 Honduras',
       '松林有助於與 Costa Rica 和 Panama 更熱帶的雨林區分',
       '加勒比海岸覆蓋可能看起來類似 Belize — 檢查是否有西班牙語標誌',
-      '易混淆國家：Guatemala（檢查相機 bars/側鏡）、El Salvador（更小、更擁擠）、Nicaragua（類似覆蓋問題）'
+      '易混淆國家：Guatemala（檢查相機 bars/側鏡）、El Salvador（更小、更擁擠）、Nicaragua（類似覆蓋問題）',
+      "🔗 <a href=\"https://www.google.com/maps/@14.0723,-87.1921,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tegucigalpa）</a>"
     ]
   },
 
@@ -6910,7 +8121,8 @@ const COUNTRIES = {
       '看到大湖 = 可能靠近 Nicaragua 湖或 Managua 湖',
       '火山地形 + 西班牙語 + ALTO 標誌 + 有限覆蓋 = 考慮 Nicaragua',
       '與其他中美洲國家的區別很大程度依靠排除法',
-      '無特殊車輛辨識特徵 — 靠景觀和標誌線索'
+      '無特殊車輛辨識特徵 — 靠景觀和標誌線索',
+      "🔗 <a href=\"https://www.google.com/maps/@12.1150,-86.2362,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Managua）</a>"
     ]
   },
 
@@ -6986,7 +8198,8 @@ const COUNTRIES = {
       '有切·格瓦拉、卡斯楚的革命/政治看板 = Cuba',
       '無商業廣告（無 Coca-Cola、無 McDonalds）= 強烈社會主義經濟指標',
       '蘇聯 Lada 車與老爺美國車並存是 Cuba 獨有的',
-      '第三方覆蓋品質和不尋常的拍攝角度本身就是線索'
+      '第三方覆蓋品質和不尋常的拍攝角度本身就是線索',
+      "🔗 <a href=\"https://www.google.com/maps/@23.1136,-82.3666,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Havana）</a>"
     ]
   },
 
@@ -7061,7 +8274,8 @@ const COUNTRIES = {
       '商店和建築上的紅色 Digicel 品牌是 Jamaica 的強力指標',
       '如果看到拉斯塔法里色彩（綠/金/紅）或雷鬼元素，想到 Jamaica',
       '東部 Jamaica 可見藍山 — 咖啡種植園標誌',
-      '標誌上的英語（非西班牙語）排除 Dominican Republic、Cuba、Puerto Rico'
+      '標誌上的英語（非西班牙語）排除 Dominican Republic、Cuba、Puerto Rico',
+      "🔗 <a href=\"https://www.google.com/maps/@18.0179,-76.8099,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kingston）</a>"
     ]
   },
 
@@ -7076,7 +8290,7 @@ const COUNTRIES = {
     language: 'English',
     currency: 'Dollar (TTD)',
     camera: [
-      "<strong>Gen 3 + Gen 4（Gen 4 黑色車+圓形天線）</strong>",
+      "<strong>73.5% Gen 4 + 26.5% Gen 3</strong>（Gen 4 黑色車+圓形天線）",
       '覆蓋主要在 Trinidad（較大的島）',
       'Tobago（較小的島）覆蓋有限',
       'Port of Spain 及周邊地區的主要公路和城市區域已覆蓋'
@@ -7139,7 +8353,8 @@ const COUNTRIES = {
       '加勒比海的石油/工業基礎設施 = Trinidad',
       '平坦地形和工業區 vs Jamaica 的山脈 = Trinidad',
       '更靠近南美大陸（靠近 Venezuela）= Trinidad & Tobago',
-      '如果在加勒比海看到印度教和伊斯蘭宗教場所與英語標誌並存，就是 T&T'
+      '如果在加勒比海看到印度教和伊斯蘭宗教場所與英語標誌並存，就是 T&T',
+      "🔗 <a href=\"https://www.google.com/maps/@10.6596,-61.5086,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port of Spain）</a>"
     ]
   },
 
@@ -7223,7 +8438,8 @@ const COUNTRIES = {
       '價格上的大數字（瓜拉尼貨幣）有助確認 Paraguay',
       '查科的門諾派殖民地有德文，是 Paraguay 的獨特特徵',
       '與 Argentina 區別：Argentina 有 A 形桿和 YPF 加油站；Paraguay 有瓜拉尼語',
-      '與 Brazil 區別：Brazil 用葡萄牙語；Paraguay 用西班牙語/瓜拉尼語'
+      '與 Brazil 區別：Brazil 用葡萄牙語；Paraguay 用西班牙語/瓜拉尼語',
+      "🔗 <a href=\"https://www.google.com/maps/@-25.2637,-57.5759,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Asunción）</a>"
     ]
   },
 
@@ -7304,7 +8520,8 @@ const COUNTRIES = {
       '綠色山脈 + 西班牙語 + 有限覆蓋 + 政治壁畫 = Venezuela',
       '南美洲覆蓋非常有限：考慮 Venezuela 或 Guyana（英語系）',
       '與 Colombia 區別：Colombia 有黃色車牌和更好的覆蓋；Venezuela 有帶國旗的白色車牌和革命壁畫',
-      '與 Ecuador 區別：Ecuador 有雙護欄；Venezuela 有有限覆蓋和政治壁畫'
+      '與 Ecuador 區別：Ecuador 有雙護欄；Venezuela 有有限覆蓋和政治壁畫',
+      "🔗 <a href=\"https://www.google.com/maps/@10.4806,-66.9036,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Caracas）</a>"
     ]
   },
 
@@ -7336,7 +8553,7 @@ const COUNTRIES = {
       '有些 A 前綴道路編號存在，但許多標誌完全沒有前綴',
       '狹窄山路有陡峭落差 — 戲劇性的回頭彎',
       '鋪面和未鋪面道路混合；鄉村道路常為碎石/泥土',
-      '道路標線類似 South Africa（黃色中線、白色邊線）',
+      '道路標線類似 South Africa（<strong>黃色外線 + 白色中線</strong>）',
       '山口常見且有急彎',
       '城鎮中有減速帶',
       '部分道路因降雪在冬季無法通行',
@@ -7350,6 +8567,8 @@ const COUNTRIES = {
       '夏季綠色，冬季棕/金色',
       '鄉村地區可見傳統圓形巴蘇陀小屋（rondavel）',
       '冬季月份有雪山頂',
+      '龍舌蘭植物在鄉下常見 — 良好的猜測依據',
+      '道路上常見散養牲畜（牛最常見，也有馬、驢）',
     ],
     signs: [
       '標誌上有英語和塞索托語',
@@ -7383,6 +8602,7 @@ const COUNTRIES = {
       'Maseru 是首都和覆蓋最密集的地區 — 唯一重要城市',
       '像 Sani Pass 這樣的山口是標誌性的 trekker 覆蓋地點',
       'Lesotho 全境海拔 1,400 米以上 — 如果地形看起來高且光禿，很可能是 Lesotho',
+      "🔗 <a href=\"https://www.google.com/maps/@-29.3142,27.4833,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Maseru）</a>"
     ],
   },
 
@@ -7394,13 +8614,12 @@ const COUNTRIES = {
     drivingSide: 'left',
     tld: '.sz',
     phoneCode: '+268',
-    language: 'siSwati, English',
+    language: 'siSwati (Swazi), English',
     currency: 'Lilangeni (SZL)',
     camera: [
-      "<strong>56.5% Gen 4 + 43.5% Gen 3</strong>",
+      "<strong>100% Gen 3</strong>（白色無天線車）",
       '覆蓋有限，集中在主要道路和城市',
       '覆蓋主要在 Mbabane 和 Ezulwini Valley 走廊',
-      '無 Gen 2 或 Gen 4 覆蓋',
       '小國，覆蓋範圍相對緊湊',
     ],
     car: [
@@ -7413,7 +8632,7 @@ const COUNTRIES = {
       'MR 前綴可與 South Africa（N/M/R）、Botswana（A）和 Lesotho（無前綴）區分',
       '主要路線道路狀況大致合理',
       '全國使用 SADC 標準路標',
-      '黃色中線、白色邊線（類似 South Africa）',
+      '<strong>黃色外線</strong>、白色中線（有時三條白色中線），類似 South Africa',
       '低地道路上有甘蔗卡車交通',
       '城市地區減速帶常見',
     ],
@@ -7459,6 +8678,7 @@ const COUNTRIES = {
       '甘蔗田 + 低地 = 東部 Eswatini',
       '淺綠色車牌顏色可與 South Africa 和 Lesotho 區分',
       'Mbabane 和 Ezulwini Valley 是覆蓋最多的地區',
+      "🔗 <a href=\"https://www.google.com/maps/@-26.3054,31.1367,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Mbabane）</a>"
     ],
   },
 
@@ -7534,6 +8754,7 @@ const COUNTRIES = {
       '甘蔗田到處都是 — 留意道路旁高大的綠色莖稈',
       '小島：覆蓋很快繞一圈，通常可從某處看到海',
       'Port Louis 是首都和覆蓋最密集的城市地區',
+      "🔗 <a href=\"https://www.google.com/maps/@-20.1609,57.5012,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port Louis）</a>"
     ],
   },
 
@@ -7611,6 +8832,7 @@ const COUNTRIES = {
       '沿海位置有棕櫚樹 + 葡語 = Mozambique，不是 Angola',
       'Maputo 和 Beira 是最可能的城市出生點',
       '不要與 Brazil 混淆（葡語但景觀非常不同且靠右行駛）',
+      "🔗 <a href=\"https://www.google.com/maps/@-25.9692,32.5732,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Maputo）</a>"
     ],
   },
 
@@ -7687,6 +8909,7 @@ const COUNTRIES = {
       'M/S 道路編號有助與其他東非國家區分',
       'Mulanje 山周圍南部高地的茶園',
       '比 Kenya 或 South Africa 更小且覆蓋更少 — 出生點有限',
+      "🔗 <a href=\"https://www.google.com/maps/@-13.9626,33.7741,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lilongwe）</a>"
     ],
   },
 
@@ -7766,6 +8989,7 @@ const COUNTRIES = {
       'miombo 林地是特徵：相對平坦地形上散佈的樹木',
       '基礎設施上的中文字可能表示 Zambia 的中國建造公路',
       'Lusaka 是覆蓋最密集的城市',
+      "🔗 <a href=\"https://www.google.com/maps/@-15.3875,28.3228,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lusaka）</a>"
     ],
   },
 
@@ -7844,6 +9068,7 @@ const COUNTRIES = {
       'Harare 是最可能的城市出生點',
       '東部高地（Chimanimani、Nyanga）有綠色山地地形',
       '平衡石和岩丘是獨特的景觀特徵',
+      "🔗 <a href=\"https://www.google.com/maps/@-17.8252,31.0335,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Harare）</a>"
     ],
   },
 
@@ -7922,6 +9147,7 @@ const COUNTRIES = {
       'Kinshasa 是最可能的城市出生點',
       '不要與 Republic of Congo（Brazzaville）混淆 — 它們是不同國家',
       '社群貢獻/非官方覆蓋使 meta 線索在這裡不可靠',
+      "🔗 <a href=\"https://www.google.com/maps/@-4.4419,15.2663,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kinshasa）</a>"
     ],
   },
 
@@ -7994,6 +9220,7 @@ const COUNTRIES = {
       '海岸附近的石油基礎設施 = Pointe-Noire',
       '標誌上可見 .cg 網域 vs .cd（DR Congo）',
       '除非沒有其他選項適合，否則不要猜 Republic of Congo',
+      "🔗 <a href=\"https://www.google.com/maps/@-4.2634,15.2429,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Brazzaville）</a>"
     ],
   },
 
@@ -8070,6 +9297,7 @@ const COUNTRIES = {
       '海岸附近的 Cameroon 山是西非最高點',
       'Yaounde 和 Douala 是最可能的城市出生點',
       '罕見出生點 — 只在雙語線索支持時才猜',
+      "🔗 <a href=\"https://www.google.com/maps/@3.848,11.5021,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Yaounde）</a>"
     ],
   },
 
@@ -8147,6 +9375,7 @@ const COUNTRIES = {
       'Abidjan 是最可能的出生點 — 現代天際線在西非很有辨識度',
       '無藍色車牌（那是 Senegal）、無膠帶（那是 Ghana）',
       '整體罕見出生點 — Senegal 和 Ghana 更常見得多',
+      "🔗 <a href=\"https://www.google.com/maps/@5.36,-4.0083,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Abidjan）</a>"
     ],
   },
 
@@ -8223,6 +9452,7 @@ const COUNTRIES = {
       '大部分地區機車交通多於汽車交通',
       '通過更內陸/更乾燥與 Senegal 區分',
       'CFA 法郎國家看起來都有些相似 — 尋找特定文字/品牌線索',
+      "🔗 <a href=\"https://www.google.com/maps/@12.3714,-1.5197,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ouagadougou）</a>"
     ],
   },
 
@@ -8237,16 +9467,14 @@ const COUNTRIES = {
     language: 'French, Bambara',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      "<strong>Gen 3（銀色 pickup truck）</strong>",
-      '主要為社群貢獻/非官方覆蓋',
-      '首都 Bamako 有部分覆蓋',
-      'Timbuktu 可能有 trekker 覆蓋',
-      '全國大部分地區覆蓋非常稀疏',
-      '覆蓋品質普遍低',
+      "<strong>100% Tripod 覆蓋</strong> — 普通相機架在三腳架上拍攝",
+      '僅 10 個小型步行街景，分布在 7 個地點',
+      '覆蓋有動態模糊和略微飽和的顏色，帶有「超凡脫俗」的外觀',
+      '幾乎所有覆蓋都以歷史清真寺為中心（室內+室外）',
+      '⚠️ 直接記住各處景觀外觀比學國家線索更實用',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      '無街景車 — 全部為三腳架拍攝'
     ],
     roads: [
       'RN 編號國道',
@@ -8297,6 +9525,7 @@ const COUNTRIES = {
       '泥磚蘇丹-薩赫勒建築有助與鄰國區分',
       'Bamako 是唯一可能的城市出生點',
       '非常罕見 — 只在有強力證據時才猜',
+      "🔗 <a href=\"https://www.google.com/maps/@12.6392,-8.0029,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bamako）</a>"
     ],
   },
 
@@ -8371,6 +9600,7 @@ const COUNTRIES = {
       '整體非常罕見的出生點',
       '比 Senegal 更多山，比 Mali/Burkina 更熱帶',
       '紅色紅土 + 法語 + 西非靠右行駛',
+      "🔗 <a href=\"https://www.google.com/maps/@9.6412,-13.5784,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Conakry）</a>"
     ],
   },
 
@@ -8385,7 +9615,7 @@ const COUNTRIES = {
     language: 'English, Krio',
     currency: 'Leone (SLL)',
     camera: [
-      "<strong>Gen 3（行李架中心填黑）</strong>",
+      "<strong>100% Gen 3</strong>（行李架中心填黑）",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Freetown 有部分覆蓋',
       'Sparse coverage along major roads',
@@ -8445,6 +9675,7 @@ const COUNTRIES = {
       '非常罕見 — 只在有強力證據時才猜',
       '通過行駛方向與 Ghana 區分（Ghana 也靠右但有膠帶 meta）',
       '覆蓋比 Ghana 或 Nigeria 少',
+      "🔗 <a href=\"https://www.google.com/maps/@8.4657,-13.2317,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Freetown）</a>"
     ],
   },
 
@@ -8459,7 +9690,7 @@ const COUNTRIES = {
     language: 'French, Ewe, Kabiye',
     currency: 'West African CFA Franc (XOF)',
     camera: [
-      "<strong>Gen 3（PARE+MPH 獨特組合）</strong>",
+      "<strong>100% Gen 3</strong>（PARE+MPH 獨特組合）",
       '主要為社群貢獻/非官方覆蓋',
       '首都 Lome 有部分覆蓋',
       '主要道路沿線覆蓋稀疏',
@@ -8516,6 +9747,7 @@ const COUNTRIES = {
       '與 Ghana 相鄰但講法語，不是英語',
       '穿綠色背心的機車計程車有助辨識 Lome',
       '狹窄的國家地理 — 從海岸到北部只有約 150 公里',
+      "🔗 <a href=\"https://www.google.com/maps/@6.1725,1.2314,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lomé）</a>"
     ],
   },
 
@@ -8530,7 +9762,7 @@ const COUNTRIES = {
     language: 'French, Arabic, Somali, Afar',
     currency: 'Djiboutian Franc (DJF)',
     camera: [
-      "<strong>全部 Gen 4（pickup truck）</strong>",
+      "<strong>100% Gen 4</strong>（pickup truck）",
       'Djibouti 市有部分覆蓋',
       '社群貢獻和非官方覆蓋',
       '部分地點有 Trekker',
@@ -8590,6 +9822,7 @@ const COUNTRIES = {
       '比鄰國 Ethiopia 更荒涼/更多火山',
       'Djibouti 市是唯一可能的出生點',
       '鹽灘和火山地形很有辨識度',
+      "🔗 <a href=\"https://www.google.com/maps/@11.5721,43.1456,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Djibouti）</a>"
     ],
   },
 
@@ -8604,7 +9837,7 @@ const COUNTRIES = {
     language: 'English, Arabic, Dinka, Nuer',
     currency: 'South Sudanese Pound (SSP)',
     camera: [
-      "<strong>Gen 3 + Gen 4 + Gen 2</strong>",
+      "<strong>~60% Gen 3 + ~30% Gen 4 + ~10% Gen 2</strong>",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Juba 有部分覆蓋',
       '全球覆蓋最少的國家之一',
@@ -8662,6 +9895,7 @@ const COUNTRIES = {
       'Juba 是唯一可能的出生點',
       '不要與 Sudan（阿拉伯語）或 Uganda（更多覆蓋）混淆',
       '只在看到非常強力的證據時才猜',
+      "🔗 <a href=\"https://www.google.com/maps/@4.8594,31.5713,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Juba）</a>"
     ],
   },
 
@@ -8733,6 +9967,7 @@ const COUNTRIES = {
       '阿拉伯語（非英語）與 South Sudan 區分',
       '非常罕見的出生點 -- only guess with strong evidence',
       '覆蓋比 Egypt 少但比 South Sudan 多',
+      "🔗 <a href=\"https://www.google.com/maps/@15.5007,32.5599,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Khartoum）</a>"
     ],
   },
 
@@ -8751,7 +9986,7 @@ const COUNTRIES = {
     language: 'English, Fijian, Fiji Hindi',
     currency: 'Fijian Dollar (FJD)',
     camera: [
-      "<strong>Gen 2 + Gen 3 + Gen 4</strong>",
+      "<strong>~60% Gen 3 + ~30% Gen 4 + ~10% Gen 2</strong>",
       'Viti Levu（最大島嶼）主要道路和部分 Vanua Levu 有覆蓋',
       '有覆蓋的地方為 Gen 3 相機',
       '海岸和度假區可能有額外覆蓋',
@@ -8814,6 +10049,7 @@ const COUNTRIES = {
       'Kings Road 和 Queens Road 是 Viti Levu 的主要環島路線',
       'Viti Levu 是覆蓋最多的島嶼 — 大部分出生點在這裡',
       'Fiji 比大多數小型太平洋島國覆蓋更多',
+      "🔗 <a href=\"https://www.google.com/maps/@-17.7765,177.9631,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Suva）</a>"
     ],
   },
 
@@ -8828,7 +10064,7 @@ const COUNTRIES = {
     language: 'English, Tok Pisin, Hiri Motu + 800+ indigenous',
     currency: 'Kina (PGK)',
     camera: [
-      "<strong>Gen 3 + Gen 4（涉水喉車/pickup truck）</strong>",
+      "<strong>~70% Gen 3 + ~30% Gen 4</strong>（涉水喉車/pickup truck）",
       '部分 trekker 覆蓋 along Kokoda Track and tourist areas',
       'Port Moresby 和部分公路有社群貢獻覆蓋',
       '覆蓋品質差異顯著',
@@ -8891,6 +10127,7 @@ const COUNTRIES = {
       'Port Moresby 是最可能的城市出生點',
       '有自給農業的高地山谷看起來與沿海 PNG 非常不同',
       'Digicel 紅色品牌是主要電信',
+      "🔗 <a href=\"https://www.google.com/maps/@-6.3149,143.9556,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lae）</a>"
     ],
   },
 
@@ -8927,6 +10164,10 @@ const COUNTRIES = {
       '釘路比畫線路更常見',
       '有島嶼特色設計的彩繪公車站',
       '部分地區有圓環',
+    ],
+    poleInfo: [
+      '<strong>水泥電線桿</strong> — Guam 獨有的特徵，可與 Northern Mariana Islands（木頭電線桿）區分',
+      '美式風格的混凝土杆，上有變壓器和電線'
     ],
     landscape: [
       '植被茂密的熱帶島嶼',
@@ -8971,8 +10212,63 @@ const COUNTRIES = {
       '日/韓語旅遊標誌 = 可能是 Guam（東亞主要旅遊目的地）',
       '比 CNMI 更富裕/更發達的外觀',
       '熱帶太平洋島嶼上的美式道路基礎設施',
+      "🔗 <a href=\"https://www.google.com/maps/@13.4443,144.7937,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hagatna）</a>"
     ],
   },
+
+'northern-mariana-islands': {
+  name: 'Northern Mariana Islands', localName: 'Sankattan Siha Na Islas Mariånas', flag: '🇲🇵', region: 'oceania',
+  drivingSide: 'right', tld: '.mp', phoneCode: '+1-670', language: 'English, Chamorro', currency: 'US Dollar (USD)',
+  camera: [
+    "<strong>100% Gen 3</strong>",
+    "覆蓋大部分限於塞班島（Saipan）主島",
+    "南部的天寧島（Tinian）和薩帕盧島（Sinapalu）僅有三腳架覆蓋",
+    "更北部島嶼無覆蓋"
+  ],
+  car: [
+    "整輛街景車處於<strong>打碼狀態</strong>，但右前方天線仍可見",
+    "天線比 Guam 更<strong>接近鏡頭</strong> — 正對下方縮到最小時能看到天線的是 CNMI",
+    "Guam 的天線則較遠，同視角下只能看到車打碼"
+  ],
+  roads: [
+    "美式道路基礎設施",
+    "<strong>藍色路牌</strong>（vs Guam 使用綠色路牌）",
+    "靠右行駛（美國領土）",
+    "白色路肩線、黃色中央分隔線（美國標準）"
+  ],
+  landscape: [
+    "熱帶氣候，大量茂密且相對低矮的植被",
+    "<strong>鳳凰木</strong>（官方樹種）擁有寬大樹冠和鮮豔紅花 — Guam 少見此樹",
+    "常見大量道路反光鏡（與 Guam 類似）",
+    "西海岸南半部分有密集商業區",
+    "北側的自殺崖暴露許多岩石"
+  ],
+  signs: [
+    "英語為主",
+    "常見東亞語言：<strong>日語、漢語、韓語</strong>，甚至俄語",
+    "Guam 也有類似現象",
+    "藍色路牌（vs Guam 的綠色路牌）"
+  ],
+  plates: [
+    "高窄型白色車牌，黑色或藍色字體",
+    "美式車牌格式"
+  ],
+  unique: [
+    "街景車全打碼但<strong>天線接近鏡頭</strong> — 正對下方縮小時可見天線（vs Guam 只見車打碼）",
+    "<strong>木質電線桿</strong>帶頂部橫桿（vs Guam 的混凝土電線桿）",
+    "<strong>藍色路牌</strong>（vs Guam 的綠色路牌）",
+    "<strong>鳳凰木</strong>（紅花大樹冠）— Guam 少見",
+    "日/韓/中/俄語文字常見（旅遊相關）"
+  ],
+  tips: [
+    "木質電線桿 = CNMI；混凝土電線桿 = Guam",
+    "藍色路牌 = CNMI；綠色路牌 = Guam",
+    "天線接近鏡頭 = CNMI；天線較遠 = Guam",
+    "鳳凰木（紅花）= 很可能是 CNMI",
+    "覆蓋基本僅在塞班島",
+    "🔗 <a href=\"https://www.google.com/maps/@15.1801,145.7497,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saipan）</a>"
+  ]
+},
 
 'new-caledonia': {
     name: 'New Caledonia',
@@ -9047,6 +10343,7 @@ const COUNTRIES = {
       '商業標誌上的 .nc 網域確認 New Caledonia',
       '非常罕見的出生點 — 覆蓋有限',
       '紅色土壤的礦區景觀與其他法國領土區分',
+      "🔗 <a href=\"https://www.google.com/maps/@-22.2558,166.4505,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nouméa）</a>"
     ],
   },
 
@@ -9061,7 +10358,7 @@ const COUNTRIES = {
     language: 'Samoan, English',
     currency: 'Tala (WST)',
     camera: [
-      "<strong>Gen 3（獨特膠帶車）</strong>",
+      "<strong>100% Gen 3</strong>（獨特膠帶車）",
       'Upolu 和 Savai’i 島有覆蓋',
       '有官方覆蓋的地方為 Gen 3',
       '部分 trekker 覆蓋',
@@ -9121,6 +10418,7 @@ const COUNTRIES = {
       '火山黑色岩石 + 熱帶綠色植被 + 靠左行駛 = Samoa',
       '.ws 網域（Western Samoa）與 American Samoa（.as）區分',
       '非常罕見的出生點 — 覆蓋有限 overall',
+      "🔗 <a href=\"https://www.google.com/maps/@-13.8333,-171.7500,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Apia）</a>"
     ],
   },
 
@@ -9135,7 +10433,7 @@ const COUNTRIES = {
     language: 'English, Solomon Islands Pijin',
     currency: 'Solomon Islands Dollar (SBD)',
     camera: [
-      "<strong>Gen 3 + Gen 4（天空常有裂痕）</strong>",
+      "<strong>~70% Gen 3 + ~30% Gen 4</strong>（天空常有裂痕）",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Honiara 有部分覆蓋',
       '二戰紀念景點可能有 trekker 覆蓋',
@@ -9195,6 +10493,7 @@ const COUNTRIES = {
       '非常罕見 — 只在有強力證據時才猜',
       '比 PNG 更少山地，更明顯的島鏈地理',
       'Our Telekom 品牌有助確認 Solomon Islands',
+      "🔗 <a href=\"https://www.google.com/maps/@-9.4456,160.0352,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Honiara）</a>"
     ],
   },
 
@@ -9209,8 +10508,8 @@ const COUNTRIES = {
     language: 'English, French, Bislama',
     currency: 'Vatu (VUV)',
     camera: [
-      "<strong>78.6% Gen 3 + 21.3% Gen 4</strong>",
-      '少量官方 trekker 覆蓋，主要是 Ambrym 火山',
+      "<strong>100% Gen 3 徒步旅者 (trekker)</strong>",
+      '僅 Ambrym 島有覆蓋（13 個主要島嶼中的 1 個）',
       '首都 Port Vila 有部分社群貢獻覆蓋',
       '太平洋覆蓋最少的國家之一',
       '可見黑底白字車牌但罕見',
@@ -9269,6 +10568,7 @@ const COUNTRIES = {
       '比斯拉馬語文字很有辨識度：看起來像英語但拼寫簡化',
       '非常罕見的出生點 — 只在有強力證據時才猜',
       'Port Vila 是唯一可能的城市出生點',
+      "🔗 <a href=\"https://www.google.com/maps/@-17.7333,168.3273,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port Vila）</a>"
     ],
   },
 
@@ -9283,7 +10583,7 @@ const COUNTRIES = {
     language: 'Tongan, English',
     currency: 'Pa\'anga (TOP)',
     camera: [
-      "<strong>Gen 3（黑色車，無天線）</strong>",
+      "<strong>100% Gen 3</strong>（黑色車，無天線）",
       'Tongatapu（主島）有部分覆蓋',
       '社群貢獻和 trekker 覆蓋',
       '太平洋覆蓋最少的國家之一',
@@ -9346,6 +10646,7 @@ const COUNTRIES = {
       'Nuku’alofa 是唯一可能的出生點',
       '非常罕見 — 只在有強力證據時才猜',
       '部分標誌上可能可見 .to 網域',
+      "🔗 <a href=\"https://www.google.com/maps/@-21.2094,-175.1982,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nukuʻalofa）</a>"
     ],
   },
 
@@ -9356,13 +10657,12 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.as', phoneCode: '+1-684', language: 'Samoan, English', currency: 'Dollar (USD)',
   camera: [
     "<strong>99.5% Gen 3 trekker + 0.5% Gen 4</strong>（幾乎全為步行拍攝）",
-    "唯一擁有官方 shitcam 覆蓋的中東國家",
-    "除 shitcam 外均為 Gen 3 trekker 步行覆蓋",
-    "有多種不同的街景車"
+    "有多種不同的街景車（各島不同）"
   ],
   car: [
-    "Ofu 島：銀色車",
-    "Tau 島：棕色車",
+    "Tutuila（主島）：黑色皮卡車斗稍有鏽蝕（覆蓋最廣）",
+    "Ofu/Olosega 島：銀灰色皮卡車頭兩側有後視鏡",
+    "Tau 島：有光澤的黑色皮卡兩側有後視鏡",
     "Tutuila（主島）：黑色車框很髒",
     "多種車型 — 各島不同"
   ],
@@ -9377,7 +10677,11 @@ const COUNTRIES = {
     "美屬領土 — 可見美國基礎設施"
   ],
   signs: ["英語 + Samoan 雙語", "美式路標"],
-  plates: ["美式車牌格式"],
+  plates: [
+    "美式尺寸車牌 — 有 American Samoa 領土標識",
+    "設計有本地特色圖案（與美國本土各州車牌類似概念）",
+    "右側行駛 + 美式車牌 + 太平洋島嶼 = American Samoa"
+  ],
   unique: [
     "美屬太平洋領土",
     "各島有不同的街景車（銀/棕/黑）— 可用於區域辨識",
@@ -9386,7 +10690,8 @@ const COUNTRIES = {
   ],
   tips: [
     "美式路標 + 太平洋島嶼 + 右側行駛 = American Samoa",
-    "Samoa（獨立）靠左行駛；American Samoa 靠右 — 關鍵區別"
+    "Samoa（獨立）靠左行駛；American Samoa 靠右 — 關鍵區別",
+    "🔗 <a href=\"https://www.google.com/maps/@-14.2756,-170.702,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pago Pago）</a>"
   ]
 },
 
@@ -9394,7 +10699,7 @@ const COUNTRIES = {
   name: 'Georgia', localName: 'საქართველო', flag: '🇬🇪', region: 'asia',
   drivingSide: 'right', tld: '.ge', phoneCode: '+995', language: 'Georgian', currency: 'Lari (GEL)',
   camera: [
-    "<strong>Gen 3 + Gen 4</strong>",
+    "<strong>72% Gen 3 + 28% Gen 4</strong>",
     "主要城市和公路覆蓋良好",
     "鄉村山區覆蓋較少"
   ],
@@ -9436,9 +10741,443 @@ const COUNTRIES = {
   tips: [
     "看到圓潤藤蔓狀文字 = Georgia（全球唯一）",
     "高加索山脈 + 喬治亞文 = Georgia",
-    "不要和美國的 Georgia 州混淆"
+    "不要和美國的 Georgia 州混淆",
+    "🔗 <a href=\"https://www.google.com/maps/@41.7151,44.8271,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tbilisi）</a>"
   ]
 },
+
+// ╔══════════════════════════════════════════╗
+// ║    ADDITIONAL TERRITORIES / STATES       ║
+// ╚══════════════════════════════════════════╝
+
+'pitcairn-islands': {
+  name: 'Pitcairn Islands', localName: 'Pitcairn Islands', flag: '🇵🇳', region: 'oceania',
+  drivingSide: 'left', tld: '.pn', phoneCode: '+64', language: 'English, Pitkern', currency: 'New Zealand Dollar (NZD)',
+  camera: [
+    "<strong>100% Trekker（三代徒步者拍攝）</strong>",
+    "覆蓋僅存在於兩個島嶼：Pitcairn 島和 Henderson 島",
+    "Henderson 島僅有少量海灘覆蓋",
+    "Pitcairn 島大部分覆蓋在穿過森林的小土路上"
+  ],
+  car: [
+    "無街景車 — 全部為 trekker 徒步覆蓋",
+    "相機高度低於一般街景車",
+    "無車輛輪廓、無陰影"
+  ],
+  roads: [
+    "左側行駛（英國海外領土）",
+    "穿過森林的小土路為主",
+    "Adamstown 鎮內部分道路為混凝土鋪面",
+    "大部分路面為泥土，非鋪裝道路"
+  ],
+  landscape: [
+    "南太平洋上的半熱帶島嶼，樹木茂密",
+    "<strong>土壤通常為紅色</strong> — 重要辨識特徵",
+    "Henderson 島僅有北岸和東岸的白色沙灘",
+    "Pitcairn 島地形起伏，森林覆蓋率高",
+    "英國在太平洋唯一的海外屬地"
+  ],
+  signs: [
+    "英語 + Pitkern 克里奧爾語",
+    "Adamstown 是唯一的定居點",
+    "極少標誌 — 島嶼極小（人口約 50 人）"
+  ],
+  plates: [
+    "極少車輛 — 主要使用 ATV（全地形車）",
+    "碼頭區域停放大量 ATV",
+    "無標準車牌系統"
+  ],
+  unique: [
+    "<strong>全球最小的有人居住自治領土之一</strong>（約 50 人）",
+    "100% trekker 覆蓋 — 無街景車",
+    "<strong>紅色土壤</strong> + 半熱帶森林 + 小土路 = Pitcairn",
+    "Adamstown 東端碼頭有大量 ATV",
+    "Henderson 島的白色沙灘覆蓋很獨特",
+    "英屬太平洋領土 — 極為偏遠"
+  ],
+  tips: [
+    "trekker 覆蓋 + 紅色土壤 + 半熱帶森林小路 = Pitcairn Islands",
+    "看到 ATV 集中停放 + 極小定居點 = Adamstown, Pitcairn",
+    "白色沙灘 + 無任何建築 = Henderson 島",
+    "不要和其他太平洋島嶼混淆 — Pitcairn 的 trekker + 紅土組合很獨特",
+    "🔗 <a href=\"https://www.google.com/maps/@-25.0662,-130.1005,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pitcairn Islands）</a>"
+  ]
+},
+
+'saint-pierre-and-miquelon': {
+  name: 'Saint Pierre and Miquelon', localName: 'Saint-Pierre-et-Miquelon', flag: '🇵🇲', region: 'north-america',
+  drivingSide: 'right', tld: '.pm', phoneCode: '+508', language: 'French', currency: 'Euro (EUR)',
+  camera: [
+    "<strong>100% Trekker/ATV</strong>",
+    "Miquelon-Langlade 鎮：ATV 街景車拍攝（可見 ATV 影子）",
+    "Saint-Pierre 鎮：徒步 trekker 在人行道上拍攝",
+    "Île-aux-Marins 島：徒步 trekker 覆蓋",
+    "部分船上街景（Saint-Pierre 和 Île-aux-Marins 之間）"
+  ],
+  car: [
+    "Miquelon-Langlade：ATV 街景車（可見 ATV 影子）",
+    "Saint-Pierre：徒步者 trekker，無車輛",
+    "船上街景特徵：穿灰黑色毛衣的男人"
+  ],
+  roads: [
+    "右側行駛（法國領土）",
+    "法式道路基礎設施",
+    "道路品質適中 — 小型法國海外省",
+    "Miquelon-Langlade 有部分未鋪裝道路和木棧道"
+  ],
+  landscape: [
+    "位於加拿大 Newfoundland 以南的法國海外省",
+    "<strong>色彩鮮艷的方形木質房屋</strong> — 關鍵辨識特徵",
+    "人口密度低，房屋後方常見大片開闊草地",
+    "連綿起伏的草地景觀",
+    "北端有木棧道穿過樹林的鄉村 trekker 覆蓋",
+    "Saint-Pierre 島上的鄉村覆蓋可見更多岩石"
+  ],
+  signs: [
+    "法語 — 法國海外省",
+    "在國家連勝模式中視為法國的一部分",
+    "可見法式路標和地名"
+  ],
+  plates: [
+    "使用<strong>法國標準車牌</strong>（EU 藍色帶）",
+    "白色和黃色車牌，左側有藍色歐盟條帶",
+    "白色車牌右側也有藍色條帶",
+    "部分車輛無前牌"
+  ],
+  unique: [
+    "<strong>色彩鮮艷的方形木質房屋</strong> — 非常獨特",
+    "法語 + 北美 + 開闊草地 = Saint Pierre and Miquelon",
+    "ATV 影子可見（Miquelon-Langlade）",
+    "船上街景（穿灰黑毛衣男人）",
+    "⚠️ 在國家連勝中視為法國"
+  ],
+  tips: [
+    "鮮艷方形木屋 + 法語 + 開闊草地 = Saint Pierre and Miquelon",
+    "ATV 影子 + 鮮艷木屋 = Miquelon-Langlade",
+    "trekker + 更多建築和車輛 + 更繁忙 = Saint-Pierre 鎮",
+    "起伏草地 + 方形木屋散布 = Île-aux-Marins",
+    "🔗 <a href=\"https://www.google.com/maps/@46.7738,-56.1815,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saint-Pierre-and-Miquelon）</a>"
+  ]
+},
+
+'martinique': {
+  name: 'Martinique', localName: 'Martinique', flag: '🇲🇶', region: 'caribbean',
+  drivingSide: 'right', tld: '.mq', phoneCode: '+596', language: 'French', currency: 'Euro (EUR)',
+  camera: [
+    "<strong>~95% Gen 3 Trekker + ~5% 第三方</strong>",
+    "覆蓋範圍非常有限 — 僅三個主要 trekker 點",
+    "第三方覆蓋：影像未模糊，非 360° 全景",
+    "直接記住各覆蓋點的樣子比學習 meta 更實用"
+  ],
+  car: [
+    "無標準 Google 街景車",
+    "全部為 trekker 徒步覆蓋 + 第三方影像",
+    "第三方影像的車輛未模糊"
+  ],
+  roads: [
+    "右側行駛（法國海外省）",
+    "法式道路基礎設施",
+    "位於加勒比海，Dominica 和 Saint Lucia 之間"
+  ],
+  landscape: [
+    "加勒比海熱帶島嶼",
+    "Habitation Clément 朗姆酒廠：可見卡車、叉車、H 型鋼結構",
+    "酒廠外部：紅土和棕櫚樹的鄉村土路",
+    "南部沿海：橙色屋頂房屋，透過樹林可見大海",
+    "<strong>Jardin de Balata</strong>：黑暗潮濕的熱帶花園，扶壁根、蕨類和竹子"
+  ],
+  signs: [
+    "法語 — 法國海外省",
+    "在國家連勝模式中視為法國的一部分",
+    "可見法式商業標誌"
+  ],
+  plates: [
+    "使用<strong>法國標準車牌</strong>（EU 藍色帶 + 右側藍色條帶）",
+    "法式長牌格式"
+  ],
+  unique: [
+    "<strong>覆蓋極為有限</strong> — 記住三個點的外觀最有效",
+    "Habitation Clément 朗姆酒廠（H 型鋼結構 + 紅土 + 機械展示）",
+    "南部沿海（橙色屋頂 + 海景 + 停車場和攤位）",
+    "Jardin de Balata（黑暗潮濕 + 扶壁根 + 黑衫灰帽男人）",
+    "⚠️ 在國家連勝中視為法國"
+  ],
+  tips: [
+    "朗姆酒廠 + 紅土 + 棕櫚樹 + 法語 = Martinique (Habitation Clément)",
+    "黑暗潮濕熱帶花園 + 扶壁根 + 蕨類竹子 = Martinique (Jardin de Balata)",
+    "加勒比熱帶島嶼 + 法語 + 極少覆蓋 = 可能是 Martinique",
+    "⚠️ 覆蓋太少，最好直接背三個點的外觀",
+    "🔗 <a href=\"https://www.google.com/maps/@14.6415,-61.0242,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Fort-de-France）</a>"
+  ]
+},
+
+'azores': {
+  name: 'Azores', localName: 'Açores', flag: '🇵🇹', region: 'europe',
+  drivingSide: 'right', tld: '.pt', phoneCode: '+351', language: 'Portuguese', currency: 'Euro (EUR)',
+  camera: [
+    "<strong>Gen 3 (~40%) + Gen 4 (~60%)</strong>",
+    "Gen 4 僅在 São Miguel 島",
+    "São Miguel 島和 Terceira 島有街景車覆蓋",
+    "Faial 島有 trekker 覆蓋（火山口邊緣步行）",
+    "少量 trekker 覆蓋（~0.1%）"
+  ],
+  car: [
+    "Gen 3：標準白色轎車",
+    "Gen 4：標準配置，僅 São Miguel",
+    "Faial 島：trekker 沿火山口邊緣"
+  ],
+  roads: [
+    "右側行駛",
+    "葡萄牙式道路基礎設施（電線桿、轉向標、路桩）",
+    "道路品質良好（歐盟成員）",
+    "島嶼道路蜿蜒"
+  ],
+  landscape: [
+    "<strong>連綿起伏的開闊農田</strong>，遠處有較高的圓形山丘 — 與 Madeira 區分的關鍵",
+    "<strong>火山岩乾砌石牆</strong>非常常見 — Madeira 少見此類石牆",
+    "<strong>繡球花 (Hydrangea)</strong> 在 Azores 非常常見 — Madeira 僅偶爾可見",
+    "<strong>日本雪松 (Cryptomeria japonica)</strong> 非常常見 — Madeira 和歐洲大陸均不常見",
+    "<strong>黑白乳牛</strong>非常常見 — Madeira 的牛通常是棕色帶白斑",
+    "São Miguel 島是 Azores 和 Madeira 中唯一有湖泊的島嶼"
+  ],
+  signs: [
+    "葡萄牙語",
+    "<strong>彩繪瓷磚路標 (Azulejo)</strong> — 藍色字母 + 裝飾邊框 — Azores 獨有",
+    "<strong>標誌杆有條紋</strong>（Madeira 也有）",
+    "葡萄牙標準路標格式"
+  ],
+  plates: [
+    "葡萄牙標準車牌（EU 藍色帶 + P 代碼）",
+    "格式與葡萄牙本土相同"
+  ],
+  unique: [
+    "<strong>火山岩乾砌石牆</strong> — 葡萄牙本土有石牆但非火山岩",
+    "<strong>繡球花</strong> + <strong>日本雪松</strong> = 幾乎確認 Azores",
+    "<strong>彩繪瓷磚路標</strong>（藍色字母 + 裝飾邊框）",
+    "<strong>灰色牆面裝飾</strong> — 幾乎是 Azores 獨有（本土多黃色或藍色）",
+    "白色/柔和色彩牆面 + 橙色瓦片屋頂 + 墨綠色百葉窗",
+    "黑白乳牛遍布農田",
+    "開闊農田 + 圓形山丘（Madeira 多山少平地）"
+  ],
+  tips: [
+    "火山岩石牆 + 繡球花 + 日本雪松 = Azores",
+    "開闊農田 + 圓形山丘 = Azores（Madeira 地形更陡峭）",
+    "黑白乳牛 = Azores；棕色帶白斑牛 = Madeira",
+    "彩繪瓷磚路標（藍色字母）= Azores",
+    "Gen 4 覆蓋 = São Miguel 島",
+    "trekker 沿火山口邊緣 = Faial 島",
+    "🔗 <a href=\"https://www.google.com/maps/@37.7833,-25.5,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ponta Delgada）</a>"
+  ]
+},
+
+'madeira': {
+  name: 'Madeira', localName: 'Madeira', flag: '🇵🇹', region: 'europe',
+  drivingSide: 'right', tld: '.pt', phoneCode: '+351', language: 'Portuguese', currency: 'Euro (EUR)',
+  camera: [
+    "<strong>Gen 3 (~76%) + Gen 4 (~19%) + 'Official Ari'/Shitcam (~5%)</strong>",
+    "⚠️ 有一種低畫質 'Official Ari' (shitcam) 相機 — 圓形打碼較寬、畫面較暗",
+    "Shitcam 覆蓋中常見未模糊的白色後車",
+    "正常題庫不會包含 shitcam，但需有印象以防意外"
+  ],
+  car: [
+    "Gen 3/4：標準配置",
+    "Shitcam：低畫質，寬圓形打碼，畫面陰暗",
+    "Shitcam 中白色後車後端未模糊"
+  ],
+  roads: [
+    "右側行駛",
+    "葡萄牙式道路基礎設施（電線桿、轉向標）",
+    "<strong>混凝土路障</strong>常見於道路兩旁，通常塗白色",
+    "<strong>黃黑相間護欄</strong>在山路上使用",
+    "因島嶼多山，<strong>隧道非常普遍</strong>",
+    "橋上常見<strong>深綠色欄杆</strong>"
+  ],
+  landscape: [
+    "<strong>多山的半熱帶島嶼</strong> — 比 Azores 更陡峭",
+    "廣泛採用<strong>梯田耕作</strong>，石牆分隔台地",
+    "<strong>蕨類植物</strong>全島非常常見",
+    "<strong>桉樹林</strong>與葡萄牙本土類似",
+    "<strong>非洲百合 (Agapanthus)</strong> 非常常見 — 修長草葉、長莖圓形花簇（白色/藍色）",
+    "中西部有突出高原 — 地勢平坦、薄霧、風力發電機",
+    "東端非常乾旱，幾乎無植被",
+    "南部有<strong>香蕉種植園</strong>",
+    "<strong>低雲層</strong>是典型特徵，<strong>霧天覆蓋</strong>很常見"
+  ],
+  signs: [
+    "葡萄牙語",
+    "<strong>標誌杆有條紋</strong>（Azores 也有）",
+    "葡萄牙標準路標格式",
+    "<strong>獨特限速標誌</strong> — Madeira 高速公路獨有樣式"
+  ],
+  plates: [
+    "葡萄牙標準車牌（EU 藍色帶 + P 代碼）",
+    "格式與葡萄牙本土相同"
+  ],
+  unique: [
+    "<strong>黃色出租車 + 藍色條紋</strong> — Madeira 獨有",
+    "<strong>小型路桩有紅色反光鏡</strong>（長方體或圓柱形）— Madeira 獨有",
+    "<strong>黃黑相間護欄</strong>在山路上",
+    "梯田 + 石牆 + 陡峭地形 = Madeira",
+    "棕色帶白斑乳牛（Azores 為黑白乳牛）",
+    "<strong>Shitcam 覆蓋</strong>（低畫質 + 寬圓形打碼）",
+    "<strong>公交站牌</strong>採用黑白黃三色獨特配色",
+    "Cristiano Ronaldo 國際機場（北部建在混凝土柱上）",
+    "Cascata dos Anjos 瀑布傾瀉到公路上"
+  ],
+  tips: [
+    "黃色出租車 + 藍色條紋 = Madeira",
+    "紅色反光鏡小路桩 = Madeira",
+    "多山 + 梯田 + 隧道 + 葡萄牙語 = Madeira",
+    "棕色帶白斑牛 = Madeira；黑白牛 = Azores",
+    "高原 + 風力發電機 + 霧 = Madeira 中西部",
+    "乾旱無植被 = Madeira 東端",
+    "低畫質 shitcam + 葡萄牙語島嶼 = 很可能 Madeira",
+    "🔗 <a href=\"https://www.google.com/maps/@32.6669,-16.9241,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Funchal）</a>"
+  ]
+},
+
+'hawaii': {
+  name: 'Hawaii', localName: "Hawai'i", flag: '🇺🇸', region: 'north-america',
+  drivingSide: 'right', tld: '.us', phoneCode: '+1', language: 'English, Hawaiian', currency: 'US Dollar (USD)',
+  camera: [
+    "<strong>Gen 2 (~6%) + Gen 3 (~44%) + Gen 4/小相機 (~50%)</strong>",
+    "⚠️ 大量 Gen 4 <strong>小相機 (small cam)</strong> — 比正常相機低，巨大圓形打碼",
+    "小相機打碼前部有突出，有時完全透明難以辨識",
+    "Gen 2 覆蓋在美國其他州稀少，但 Hawaii 有相當數量",
+    "Gen 2 多在鄉村小道上"
+  ],
+  car: [
+    "大島、Maui、O'ahu 的小相機：<strong>黑色街景車</strong>，引擎蓋和後視鏡常未模糊",
+    "Kaua'i、Moloka'i、Lana'i 的小相機：<strong>白色街景車</strong>",
+    "Gen 3：可見<strong>短粗天線</strong>（不一定總能看到）",
+    "Gen 2：低畫質，上下方有圓形模糊"
+  ],
+  roads: [
+    "右側行駛（美國州）",
+    "美式道路基礎設施和路標",
+    "<strong>高速路盾牌似吉他撥片</strong>，數字在下方 — Hawaii 獨有",
+    "大多數高速路牌杆為<strong>黃色</strong>",
+    "<strong>凸起路面標記</strong>獨特排列：1 個反光塊 → 4 個緊挨 → 1 個 → 循環",
+    "州級公路第一位數可判斷島嶼：1-2 大島、3 Maui、4 Moloka'i/Lana'i、5 Kaua'i、6-9 O'ahu"
+  ],
+  landscape: [
+    "火山列島 — 火山斜坡、岩石懸崖、山谷、火山口",
+    "鬱鬱蔥蔥的<strong>熱帶植被</strong> — 蕨類、高草、野花",
+    "多樣地形 + 熱帶植被是辨識 Hawaii 的關鍵組合",
+    "<strong>Kaua'i</strong>：深紅色土 + 崎嶇山丘 + 茂密叢林感",
+    "<strong>O'ahu</strong>：陡峭山坡 + 茂密叢林 + Honolulu 城區",
+    "<strong>Moloka'i</strong>：深紅色土 + 較乾燥 + 東端明顯火山",
+    "<strong>Lana'i</strong>：高大柱狀南洋杉 + 中心火山",
+    "<strong>Maui</strong>：中心乾燥平草原 + 沿海茂密 + 可見一或兩座山脈",
+    "<strong>大島 (Hawaii Island)</strong>：起伏草原 + 火山石 + 多座火山可見"
+  ],
+  signs: [
+    "<strong>夏威夷語地名</strong>非常常見 — 美國唯一使用本地語言的州",
+    "夏威夷語特徵：元音主導，僅 8 個輔音（H,K,L,M,N,P,W + 喉塞音'）",
+    "每個單詞以 A,E,I,O,U 結尾，可有長音符號（Ā,Ē,Ī,Ō,Ū）",
+    "常見雙元音：ui, ai, ae 等",
+    "英語為主要通行語言"
+  ],
+  plates: [
+    "<strong>白色底 + 弧形彩虹</strong> — Hawaii 最常見車牌",
+    "模糊後仍可見彩虹輪廓",
+    "車輛需要前牌"
+  ],
+  unique: [
+    "<strong>車牌上的彩虹</strong> — 即使模糊也能辨識",
+    "<strong>吉他撥片形高速盾牌</strong> + 黃色路牌杆 = Hawaii",
+    "<strong>大量小相機 (small cam) 覆蓋</strong> — 低矮 + 巨大圓形打碼",
+    "<strong>電線桿上厚黃條</strong>（加州為三條紋 — 不要混淆）",
+    "Gen 3 短粗天線",
+    "夏威夷語地名（元音主導 + 喉塞音）",
+    "<strong>O'ahu 獨有</strong>：可見明顯綠色模糊塊",
+    "凸起路面標記的 1-4-1 獨特排列",
+    "四個州際公路全在 O'ahu"
+  ],
+  tips: [
+    "彩虹車牌 + 熱帶火山地形 = Hawaii",
+    "吉他撥片盾牌 + 黃色路牌杆 = Hawaii",
+    "黑色小相機車 = 大島/Maui/O'ahu；白色小相機車 = Kaua'i/Moloka'i/Lana'i",
+    "深紅色土 + 叢林感山丘 = Kaua'i",
+    "城市高樓 + 陡峭山坡 = Honolulu, O'ahu",
+    "高大柱狀南洋杉 = Lana'i",
+    "Gen 2 + 鄉村小道 + 紅土 → 嘗試猜 Kaua'i",
+    "州級公路首位數判斷島嶼：1-2=大島, 3=Maui, 4=Moloka'i/Lana'i, 5=Kaua'i, 6-9=O'ahu",
+    "🔗 <a href=\"https://www.google.com/maps/@21.3069,-157.8583,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Honolulu）</a>"
+  ]
+},
+
+'alaska': {
+  name: 'Alaska', localName: 'Alaska', flag: '🇺🇸', region: 'north-america',
+  drivingSide: 'right', tld: '.us', phoneCode: '+1', language: 'English', currency: 'US Dollar (USD)',
+  camera: [
+    "<strong>Gen 2 (~8%) + Gen 3 (~19%) + Gen 4 (~69%) + Shitcam (~1%)</strong>",
+    "Gen 4 集中於 Anchorage 附近",
+    "美國唯一普遍使用 <strong>Shitcam (印度相機)</strong> 的州 — 畫質低、色彩暗淡、巨大底部打碼",
+    "Shitcam 僅在 Anchorage、Fairbanks 及連接兩地的部分路段",
+    "有相當數量的 Gen 2 覆蓋（美國其他州稀少）",
+    "部分 trekker 覆蓋（Nome、Unalakleet、Galena 等偏遠小鎮）"
+  ],
+  car: [
+    "Gen 4：標準配置，集中 Anchorage 區域",
+    "Gen 2：低畫質，部分道路大霧或下雨",
+    "Shitcam：畫質低，底部巨大打碼 — Alaska 標誌性相機",
+    "Trekker：可見淡綠色帽子或黑白無檐帽 — Nome/Unalakleet/Galena",
+    "Nome 的 trekker 特有黑白色印花大圍巾"
+  ],
+  roads: [
+    "右側行駛（美國州）",
+    "美式道路基礎設施和路標",
+    "<strong>高速盾牌左下角有北斗七星圖案</strong> — Alaska 獨有",
+    "Dalton Highway 北端：平坦開闊雪景",
+    "Denali Highway：砂石路面 + 野花和綠色灌木（暮夏拍攝）",
+    "Steese Highway：砂石路面，費爾班克斯通往 Central，周圍山較低",
+    "Highway 5：大霧下雨天氣 + Gen 2 覆蓋"
+  ],
+  landscape: [
+    "<strong>白雪皑皑的高聳山峰</strong>常見於街景中",
+    "樹木比其他州更<strong>瘦削</strong>，少有闊葉",
+    "內陸和北方：亞寒帶/苔原氣候，較少森林、更矮的樹",
+    "Alexander 群島小鎮：高山 + 蔥綠森林包圍 + 木質建築 + Gen 2 常陰鬱多霧",
+    "<strong>山楊樹 (Populus tremuloides)</strong> — 白色樹皮 + 圓葉，內陸和中南部低海拔",
+    "<strong>Alaska 管道</strong>在主幹道經常可見 — 美國其他州沒有類似管道",
+    "Prudhoe Bay：美國最北有覆蓋點，寒冷荒蕪 + 陰雲 + 無高層建築"
+  ],
+  signs: [
+    "英語",
+    "美式路標和公路標線",
+    "高速盾牌上的 'ALASKA' 字樣 + 北斗七星"
+  ],
+  plates: [
+    "<strong>通體黃色車牌</strong> — 最常見且最顯眼",
+    "Gen 4 中可見中間有大橙色圓圈的牌照",
+    "車輛需要前牌",
+    "多種歷史版本（1997-2004、2010-、2015- 等）"
+  ],
+  unique: [
+    "<strong>黃色車牌</strong> — Alaska 最具辨識度的特徵",
+    "<strong>高速盾牌北斗七星</strong> = 立即確認 Alaska",
+    "<strong>Alaska 管道</strong>在路邊可見 — 美國唯一",
+    "<strong>Shitcam</strong> — 美國唯一普遍使用印度相機的州",
+    "瘦削針葉樹 + 雪山 = Alaska",
+    "Anchorage 消防栓：淡粉色或淡黃色",
+    "Fairbanks 消防栓：亮黃色或拼色（黃+藍）",
+    "Dalton Highway 北端的平坦開闊雪景",
+    "Juneau（首府）：Alaska 狹長地帶最大定居點"
+  ],
+  tips: [
+    "黃色車牌 = Alaska",
+    "北斗七星高速盾牌 = Alaska",
+    "路邊管道 = Alaska（美國其他州沒有）",
+    "Shitcam + 美國景觀 = Alaska",
+    "瘦削樹木 + 雪山 + 荒涼 = Alaska 內陸",
+    "高山 + 蔥綠森林 + 多霧 Gen 2 = Alexander 群島（東南 Alaska）",
+    "Gen 4 集中 = Anchorage 附近",
+    "安克雷奇和費爾班克斯是唯二都市區",
+    "🔗 <a href=\"https://www.google.com/maps/@61.2181,-149.9003,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Anchorage）</a>"
+  ]
+},
+
 };
 
 const META_SECTIONS = [
@@ -9489,7 +11228,7 @@ const META_SECTIONS = [
         <strong>📷 Unofficial Cam / Small Cam（非官方/小相機）：</strong><a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a> — 畫質明顯比標準 Gen 3 差，略帶霧感 (foggy)，文字難以辨認。非 Google 官方拍攝，2022 年後城市擴展。<br>
         <strong>💩 Shit Cam（低品質第三方覆蓋）：</strong><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a> 等非洲國家 — 極低畫質、嚴重模糊、過曝或欠曝、顏色失真。由 Mapillary 等第三方志願者拍攝，非 360° 全景。<br>
         <strong>🚶 Trekker Coverage（步行拍攝）：</strong>背包式 360° 相機步行拍攝。常見於地標、國家公園、大學。<a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a> (2025前) 僅有此類覆蓋 — 只能在人行道上移動。<br>
-        <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、US Virgin Islands（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
+        <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
         • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6762,139.6503" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> Low Cam (Tokyo)</a><br>
         • <a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.3769,8.5417" target="_blank" style="color:var(--accent-blue)"><a onclick="navigateTo('country','switzerland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Switzerland</a> Low Cam (Zürich)</a><br>
@@ -9514,9 +11253,9 @@ const META_SECTIONS = [
         <p>以下國家使用 pickup truck 而非轎車拍攝 Street View：<br>
         • <strong><a onclick="navigateTo('country','bermuda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bermuda</a></strong> — 黑色 pickup truck（有時模糊化處理）<br>
         • <strong><a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a></strong> — 銀色 pickup/ute（後方貨斗可見）<br>
-        • <strong>American <a onclick="navigateTo('country','samoa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Samoa</a></strong> — 黑色 ute/truck（後方可見）<br>
-        • <strong>US Virgin Islands</strong> — St. Thomas/St. John = 白色 truck + 黑色天線；St. Croix = 紅白色 truck<br>
-        • <strong>Kazakhstan</strong> — 白色 pickup truck（bars 在後方，常被完全模糊化）<br>
+        • <strong><a onclick="navigateTo('country','american-samoa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">American Samoa</a></strong> — 黑色 ute/truck（後方可見）<br>
+        • <strong><a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a></strong> — St. Thomas/St. John = 白色 truck + 黑色天線；St. Croix = 紅白色 truck<br>
+        • <strong><a onclick="navigateTo('country','kazakhstan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kazakhstan</a></strong> — 白色 pickup truck（bars 在後方，常被完全模糊化）<br>
         • <strong><a onclick="navigateTo('country','namibia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Namibia</a></strong> — 白色 pickup truck<br>
         • <strong><a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a></strong> — 白色 pickup truck（天線在中間）<br>
         • <strong><a onclick="navigateTo('country','qatar')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Qatar</a></strong> — 白色 pickup truck（天線在左）<br>
@@ -9537,26 +11276,26 @@ const META_SECTIONS = [
       <div class="meta-info-block">
         <h4>Roof Rack 辨識</h4>
         <p>• <strong><a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a></strong> — 銀色車架，<strong>前橫桿右端</strong>纏黑色膠帶（100% <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a>）<br>
-        • <strong>Réunion</strong> — <strong>僅後橫桿</strong>纏黑色膠帶（前 vs 後 = <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a> vs Réunion）<br>
+        • <strong><a onclick="navigateTo('country','reunion')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Réunion</a></strong> — <strong>僅後橫桿</strong>纏黑色膠帶（前 vs 後 = <a onclick="navigateTo('country','ghana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ghana</a> vs Réunion）<br>
         • <strong><a onclick="navigateTo('country','nigeria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nigeria</a></strong> — 獨特黃/黑色橫桿 + 警車隨行護衛<br>
         • <strong><a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a></strong> — 車架附露營裝備/背包；西部/UB = 黑色橡膠填充橫桿；東部 = 無填充<br>
         • <strong><a onclick="navigateTo('country','kyrgyzstan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kyrgyzstan</a></strong> — 四根橫桿可見 + 側鏡，但<strong>無背包</strong>（vs <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a> 有背包）<br>
         • <strong><a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a></strong> — 灰色車 + 車架 + 可見黑色側鏡（<a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a> 獨有側鏡配置）<br>
-        • <strong>Dominican Republic</strong> — 車架中間有黑色橡膠條紋（僅 DR 和 <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a> UB 有此特徵）<br>
+        • <strong><a onclick="navigateTo('country','dominican-republic')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Dominican Republic</a></strong> — 車架中間有黑色橡膠條紋（僅 DR 和 <a onclick="navigateTo('country','mongolia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mongolia</a> UB 有此特徵）<br>
         • <strong><a onclick="navigateTo('country','curacao')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Curaçao</a></strong> — 黑色車 + 車架 + 白色貼紙 + 可見黑色引擎蓋（全球唯一組合）<br>
-        • <strong>Laos</strong> — 可見 roof rack（首都 Vientiane 除外）<br>
-        • <strong>Guam</strong> — 微小 roof rack + 右前長天線<br>
+        • <strong><a onclick="navigateTo('country','laos')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Laos</a></strong> — 可見 roof rack（首都 Vientiane 除外）<br>
+        • <strong><a onclick="navigateTo('country','guam')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guam</a></strong> — 微小 roof rack + 右前長天線<br>
         • <strong><a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a></strong> — 黑色 bars + 紅色側鏡（全球獨有配置）</p>
       </div>
       <div class="meta-info-block">
         <h4>天線類型</h4>
         <p>• <strong>圓形天線（circular）</strong> — Gen 4 Europe：Sweden, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, <a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a>, <a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a>, <a onclick="navigateTo('country','france')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">France</a>, <a onclick="navigateTo('country','croatia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Croatia</a>, <a onclick="navigateTo('country','italy')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Italy</a>, <a onclick="navigateTo('country','slovenia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovenia</a><br>
         • <strong>長天線（long）</strong> — <a onclick="navigateTo('country','russia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Russia</a>, Donetsk, <a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a>, <a onclick="navigateTo('country','palestine')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Palestine</a>（黑色車配長天線）<br>
-        • <strong>短粗天線（stubby）</strong> — <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>, <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, Brazil（拉丁美洲共通）<br>
+        • <strong>短粗天線（stubby）</strong> — <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>, <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a>, <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a>, <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a>（拉丁美洲共通）<br>
         • <strong>三脊天線（three-ridge）</strong> — <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a>, Hawaii, <a onclick="navigateTo('country','cambodia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cambodia</a><br>
         • <strong>細短天線（thin stubby）</strong> — Java, <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a> 限定<br>
-        • <strong>獨特粗天線</strong> — 僅 Panama（全球唯一，100% 確認）<br>
-        • <strong>Gen 3 膠帶天線</strong> — Czechia, <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, Romania（東歐共通特徵）<br>
+        • <strong>獨特粗天線</strong> — 僅 <a onclick="navigateTo('country','panama')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Panama</a>（全球唯一，100% 確認）<br>
+        • <strong>Gen 3 膠帶天線</strong> — <a onclick="navigateTo('country','czechia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Czechia</a>, <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>, Romania（東歐共通特徵）<br>
         • <strong>無天線</strong> — Greece（所有年份皆無）, <a onclick="navigateTo('country','serbia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Serbia</a>, <a onclick="navigateTo('country','north-macedonia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">North Macedonia</a>, <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a> (Gen 3)<br>
         • <strong>Gen 4 無天線</strong> — <a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a>, Czechia (2019-2020)</p>
       </div>
@@ -9566,7 +11305,7 @@ const META_SECTIONS = [
         <strong>藍色，無天線：</strong><a onclick="navigateTo('country','ireland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ireland</a>, <a onclick="navigateTo('country','norway')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Norway</a>, Czechia (2019-2020), <a onclick="navigateTo('country','denmark')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Denmark</a> (2019-2020), <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a> (2019-2020)<br>
         <strong>黑色 + 圓形天線：</strong><a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a> + <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a> (2024), <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a> + Czechia + Netherlands + <a onclick="navigateTo('country','uk')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UK</a> (2023), <a onclick="navigateTo('country','latvia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Latvia</a> (2022)<br>
         <strong>紅色：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','slovakia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Slovakia</a>, <a onclick="navigateTo('country','bulgaria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bulgaria</a>, <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a><br>
-        <strong>白色：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a>, Luxembourg<br>
+        <strong>白色：</strong><a onclick="navigateTo('country','sweden')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sweden</a>, <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a>, <a onclick="navigateTo('country','luxembourg')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Luxembourg</a><br>
         <strong>⚠️ 注意：</strong><a onclick="navigateTo('country','austria')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Austria</a> 和 <a onclick="navigateTo('country','belgium')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Belgium</a> 在 Gen 4 中沒有可見車輛</p>
       </div>
       <div class="meta-info-block">
@@ -9594,8 +11333,8 @@ const META_SECTIONS = [
         • <strong><a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a></strong> — Gen 4 天藍色車 + 短黑色天線；Kruger Park = 迷彩車<br>
         • <strong><a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a></strong> — 白色方形 SUV + 方形側鏡<br>
         • <strong><a onclick="navigateTo('country','rwanda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Rwanda</a></strong> — Pickup truck + 車頂紅色煞車燈<br>
-        • <strong>Réunion</strong> — 後橫桿黑色膠帶<br>
-        • <strong>Tunisia</strong> — Follow car：北部 = 淺綠 Toyota；南部 = 深綠 Mazda</p>
+        • <strong><a onclick="navigateTo('country','reunion')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Réunion</a></strong> — 後橫桿黑色膠帶<br>
+        • <strong><a onclick="navigateTo('country','tunisia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Tunisia</a></strong> — Follow car：北部 = 淺綠 Toyota；南部 = 深綠 Mazda</p>
       </div>
       <div class="meta-info-block">
         <h4>特殊功能 / 100% 辨識線索</h4>
@@ -9609,7 +11348,7 @@ const META_SECTIONS = [
         • <strong><a onclick="navigateTo('country','panama')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Panama</a></strong> — 獨特粗天線（全球唯一，100% 確認）<br>
         • <strong><a onclick="navigateTo('country','bermuda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bermuda</a></strong> — 黑色 truck（有時完全模糊化處理）<br>
         • <strong><a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a></strong> — 銀色 pickup 貨斗可見<br>
-        • <strong>American <a onclick="navigateTo('country','samoa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Samoa</a></strong> — 黑色 truck 後方可見<br>
+        • <strong><a onclick="navigateTo('country','american-samoa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">American Samoa</a></strong> — 黑色 truck 後方可見<br>
         • <strong><a onclick="navigateTo('country','pakistan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Pakistan</a></strong> — 向下看可見人的輪廓（Trekker 步行拍攝）<br>
         • <strong>Kruger National Park (South Africa)</strong> — 迷彩花紋車（全球唯一！）</p>
       </div>
@@ -9846,7 +11585,7 @@ const META_SECTIONS = [
         <strong>亞洲 (16+)：</strong><a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a>, <a onclick="navigateTo('country','india')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">India</a>, <a onclick="navigateTo('country','pakistan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Pakistan</a>, <a onclick="navigateTo('country','bangladesh')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bangladesh</a>, <a onclick="navigateTo('country','nepal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nepal</a>, <a onclick="navigateTo('country','bhutan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Bhutan</a>, <a onclick="navigateTo('country','sri-lanka')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Sri Lanka</a>, <a onclick="navigateTo('country','thailand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Thailand</a>, <a onclick="navigateTo('country','malaysia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Malaysia</a>, <a onclick="navigateTo('country','singapore')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Singapore</a>, Brunei, <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a>, <a onclick="navigateTo('country','timor-leste')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Timor-Leste</a>, <a onclick="navigateTo('country','hong-kong')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hong Kong</a>, <a onclick="navigateTo('country','macau')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Macau</a><br>
         <strong>大洋洲 (10+)：</strong><a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a>, Papua New <a onclick="navigateTo('country','guinea')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guinea</a>, <a onclick="navigateTo('country','fiji')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Fiji</a>, <a onclick="navigateTo('country','samoa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Samoa</a>, <a onclick="navigateTo('country','tonga')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Tonga</a>, <a onclick="navigateTo('country','solomon-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Solomon Islands</a><br>
         <strong>非洲 (14+)：</strong><a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a>, <a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a>, Tanzania, <a onclick="navigateTo('country','uganda')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uganda</a>, <a onclick="navigateTo('country','botswana')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Botswana</a>, <a onclick="navigateTo('country','zimbabwe')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Zimbabwe</a>, <a onclick="navigateTo('country','zambia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Zambia</a>, <a onclick="navigateTo('country','malawi')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Malawi</a>, <a onclick="navigateTo('country','mozambique')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mozambique</a>, <a onclick="navigateTo('country','namibia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Namibia</a>, <a onclick="navigateTo('country','lesotho')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lesotho</a>, <a onclick="navigateTo('country','eswatini')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Eswatini</a>, <a onclick="navigateTo('country','mauritius')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mauritius</a><br>
-        <strong>美洲：</strong>US Virgin Islands, <a onclick="navigateTo('country','jamaica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jamaica</a>, Trinidad & Tobago + 數個英國屬地</p>
+        <strong>美洲：</strong><a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>, <a onclick="navigateTo('country','jamaica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jamaica</a>, Trinidad & Tobago + 數個英國屬地</p>
       </div>
       <div class="meta-info-block">
         <h4>其他所有國家</h4>
@@ -9952,6 +11691,60 @@ const META_SECTIONS = [
         • 天空有裂縫 + 非洲 → <strong><a onclick="navigateTo('country','senegal')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Senegal</a></strong><br>
         • 地面有裂縫 + 墨西哥 → <strong>Oaxaca 州</strong><br>
         • 天空有紫色光暈 (halo) → <strong>Gen 2 覆蓋</strong></p>
+      </div>
+    `
+  },
+  {
+    icon: '⚡',
+    title: '電力基礎設施辨識',
+    content: `
+      <div class="meta-info-block">
+        <h4>🔵 圓形玻璃電錶 (Round Glass Meter)</h4>
+        <p>圓形透明玻璃罩的電錶，裝在房屋外牆上，有圓形錶盤。這種電錶主要出現在<strong>美洲和菲律賓</strong>，是很強的地理辨識線索。</p>
+        <p><strong>有圓形電錶的國家：</strong><br>
+        • <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a> — 非常常見，尤其是老舊社區<br>
+        • <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a> — 極為常見（medidor circular）<br>
+        • <a onclick="navigateTo('country','guatemala')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Guatemala</a> — 常見<br>
+        • <a onclick="navigateTo('country','philippines')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Philippines</a> — 常見（Meralco 電錶）<br>
+        • <a onclick="navigateTo('country','dominican-republic')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Dominican Republic</a> — 常見<br>
+        • <a onclick="navigateTo('country','honduras')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Honduras</a> — 常見<br>
+        • <a onclick="navigateTo('country','el-salvador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">El Salvador</a> — 常見<br>
+        • <a onclick="navigateTo('country','nicaragua')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Nicaragua</a> — 部分地區<br>
+        • <a onclick="navigateTo('country','costa-rica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Costa Rica</a> — 常見（ANSI 120V/60Hz 制式）<br>
+        • <a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a> — 部分地區<br>
+        • <a onclick="navigateTo('country','ecuador')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ecuador</a> — 部分地區<br>
+        • <a onclick="navigateTo('country','venezuela')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Venezuela</a> — 部分地區<br>
+        • <a onclick="navigateTo('country','jamaica')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jamaica</a>、<a onclick="navigateTo('country','trinidad-and-tobago')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Trinidad and Tobago</a>、<a onclick="navigateTo('country','cuba')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Cuba</a> — 加勒比海島國也使用 ANSI 制式</p>
+        <p>⚠️ <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a> 使用<strong>長方形電錶</strong>（非圓形！）— 可快速區分 Peru vs Mexico<br>
+        ⚠️ 歐洲、非洲、中東、大部分亞洲國家<strong>不使用</strong>此類電錶（使用 IEC 方形電錶）。看到圓形玻璃電錶 → 基本可以確定在美洲或 Philippines。</p>
+      </div>
+      <div class="meta-info-block">
+        <h4>🗼 電力鐵塔 (Steel Tower / Pylon) 類型</h4>
+        <p>高壓電力傳輸鐵塔的設計因國家和地區而異。常見類型：</p>
+        <p><strong>格子塔 (Lattice Tower)：</strong>最常見的傳統類型，全球皆有。以鋼構角鐵焊接而成，呈三角形或方形截面。<br>
+        <strong>管狀塔 (Tubular Steel Pole)：</strong>現代設計，在歐洲和北美較新線路常見。<br>
+        <strong>木桿 (Wooden Pole)：</strong>北歐、北美、澳洲農村常見，用於低壓配電。<br>
+        <strong>混凝土桿 (Concrete Pole)：</strong>亞洲（Japan、Thailand、Cambodia）、南美（Brazil）、東歐常見。</p>
+        <p><strong>各國獨特桿型：</strong><br>
+        • <a onclick="navigateTo('country','japan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Japan</a> — 螺紋混凝土桿（表面螺旋凸起）<br>
+        • <a onclick="navigateTo('country','brazil')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Brazil</a> — 梯子桿（矩形分段凹痕 + 頂部孔洞）<br>
+        • <a onclick="navigateTo('country','hungary')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Hungary</a>/<a onclick="navigateTo('country','romania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Romania</a>/<a onclick="navigateTo('country','poland')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Poland</a> — 多孔混凝土桿（孔延到地面=RO；不到底部=PL；小孔=HU）<br>
+        • <a onclick="navigateTo('country','turkey')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Turkey</a> — 梯子狀金屬網桿<br>
+        • <a onclick="navigateTo('country','greece')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Greece</a> — 竪琴形金屬杆頂<br>
+        • <a onclick="navigateTo('country','south-korea')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Korea</a> — 底部黑黃對角條紋（不到底部）<br>
+        • <a onclick="navigateTo('country','taiwan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Taiwan</a> — 斜向黑黃條紋延伸到地面<br>
+        • <a onclick="navigateTo('country','philippines')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Philippines</a> — 木製十字架形電桿<br>
+        • <a onclick="navigateTo('country','indonesia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Indonesia</a> — 金屬桿底部紅白條紋（國旗配色）<br>
+        • <a onclick="navigateTo('country','argentina')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Argentina</a> — A 字形木桿<br>
+        • <a onclick="navigateTo('country','south-africa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">South Africa</a> — 飛鳥桿（平行長桿 + 絕緣裝置）<br>
+        • <a onclick="navigateTo('country','peru')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Peru</a> — 三臂桿，下半部塗黑<br>
+        • <a onclick="navigateTo('country','laos')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Laos</a> — 松果形桿頂（pinecone poles），2+1 不對稱排列<br>
+        • <a onclick="navigateTo('country','estonia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Estonia</a> — 十字架形方形混凝土桿<br>
+        • <a onclick="navigateTo('country','lithuania')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Lithuania</a> — 方形混凝土桿配燈泡（1×1/2×2/3×3 格式）<br>
+        • <a onclick="navigateTo('country','uruguay')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Uruguay</a> — 三叉戟桿（3 個向上燈泡）<br>
+        • <a onclick="navigateTo('country','ukraine')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Ukraine</a> — 華夫餅紋混凝土桿，底部塗白<br>
+        • <a onclick="navigateTo('country','mexico')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Mexico</a>/<a onclick="navigateTo('country','colombia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Colombia</a> — 八角形電桿（拉美僅此兩國）<br>
+        • <a onclick="navigateTo('country','curacao')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Curaçao</a> — 底部塗白的木桿</p>
       </div>
     `
   },
