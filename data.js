@@ -4870,60 +4870,73 @@ const COUNTRIES = {
   name: 'Mexico', localName: 'México', flag: '🇲🇽', region: 'north-america',
   drivingSide: 'right', tld: '.mx', phoneCode: '+52', language: 'Spanish', currency: 'Peso (MXN)',
   camera: [
-    "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>",
-    "是少數有 Gen 2 覆蓋的拉丁美洲國家",
+    "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>（⚠️ 語雀資料顯示可能已更新為 ~54% Gen 3 + ~44% Gen 4）",
+    "是少數有 Gen 2 覆蓋的拉丁美洲國家（Brazil 也有少量但大多已更新）",
     "Oaxaca 的 Gen 3 有獨特的 ground rift"
   ],
   car: [
-    "Gen 3：(1) 短粗天線白車（天線上有螺旋細線）(2) 無天線白車（有紅色煞車燈）",
-    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、黑色",
-    "<strong>短粗天線（stubby antenna）</strong> — 與 Colombia, Ecuador, Brazil 共用"
+    "Gen 3 有兩種：(1) <strong>短粗天線白車</strong>（天線上有螺旋細線）(2) <strong>無天線白車</strong>（尾部清晰可見，有紅色煞車燈）",
+    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、黑色（前端通常可見）",
+    "短粗天線也見於 Colombia, Ecuador, Brazil — 但 Mexico 用 ALTO（南美用 PARE）"
   ],
   roads: [
-    "<strong>單一實黃色中心線</strong> — Mexico 獨有特徵",
-    "白色邊線",
-    "Topes（巨大減速丘）— 非常常見"
+    "最常見：<strong>白色邊線 + 單一實黃色中心線</strong>（單黃虛線和雙黃實線也常見）",
+    "Topes（<strong>巨大減速丘</strong>）— 非常常見",
+    "<strong>白色公里標識</strong>：白底黑字 + 黑色邊框",
+    "<strong>黃色調護欄/橋梁護欄</strong> — Mexico 非常常見",
+    "路牌上的<strong>箭頭非常粗</strong>",
+    "路名使用 Calle、Avenida、Boulevard、Callejón"
   ],
   bollardInfo: [
-    "<strong>白色香菸形 bollard，底部黑色 + 背面黃色</strong>"
+    "<strong>白色小圓柱 bollard，底部黑色</strong>，有時背面有黃色反光條 — Mexico 獨有設計"
   ],
   poleInfo: [
-    "八角形電線桿；也有黑色螺旋絕緣子的木桿"
+    "<strong>八角形混凝土電線桿</strong>，周邊常刻有文字 — 也見於 Colombia, Ecuador",
+    "木桿也常見"
   ],
   signInfo: [
-    "ALTO 停車標誌"
+    "<strong>ALTO 停車標誌</strong>（非 PARE — PARE = 南美洲）",
+    "兩種道路盾徽：高速公路頂部寫 'Mexico'（卷曲輪廓）；省道頂部為州縮寫（平直輪廓）",
+    "路牌<strong>白色字體全大寫</strong> — 獨特風格"
   ],
   landscape: [
-    "北部：Chihuahuan 沙漠",
+    "北部：Chihuahuan 沙漠 + 各種<strong>仙人掌</strong>（桶形、龍舌蘭、巨人柱等）",
     "中部：山脈",
     "南部：熱帶",
     "Yucatan：叢林",
-    "仙人掌柵欄、香蕉園"
+    "屋頂常見<strong>黑色/白色圓柱形水箱</strong>",
+    "大量<strong>美系車和皮卡</strong>",
+    "地名常有<strong>納瓦特語</strong>：含大量 x, tl, 以及 -ec, -tlan 後綴（如 Zihuateutla, Xicotepec）"
   ],
   signs: [
     "西班牙語，有 Ñ",
-    "ALTO 停車標誌（非 PARE — PARE = 南美洲）"
+    "ALTO 停車標誌（非 PARE — PARE = 南美洲）",
+    "<strong>OXXO</strong>（便利店）和 <strong>PEMEX</strong>（加油站）— Mexico 最常見品牌"
   ],
   plates: [
-    "白色車牌 — 32 種州別設計",
-    "超過 100 種車牌變化",
-    "美洲式窄高格式"
+    "白色車牌 — <strong>32 種州別設計</strong>，超過 100 種變化",
+    "短牌（美洲式），要求使用前車牌",
+    "區號第一位數按地域分布；郵遞區號按州名首字母排序"
   ],
   unique: [
-    "<strong>單一實黃色中心線</strong>",
-    "<strong>ALTO 停車標誌</strong>（非 PARE）",
-    "<strong>Topes（巨大減速丘）</strong>",
-    "Mexico City 的粉白色計程車",
-    "八角形電線桿",
-    "Oaxaca 的 Gen 3 有獨特裂紋",
-    "<strong>圓形玻璃電錶（medidor circular）</strong>裝在房屋外牆 — 也見於 Guatemala、Philippines、US、Dominican Republic",
-    "路名使用 Calle（街道）、Avenida（大道）、Boulevard（大道）、Callejón（小巷）"
+    "<strong>ALTO 停車標誌 + 單黃中心線</strong>",
+    "<strong>Topes（巨大減速丘）</strong> — 到處都是",
+    "<strong>白色小圓柱 bollard 底部黑色</strong> — Mexico 獨有",
+    "<strong>八角形電線桿</strong>",
+    "<strong>OXXO 便利店 + PEMEX 加油站</strong>",
+    "<strong>圓形玻璃電錶</strong>裝在外牆 — 也見於 Guatemala、Philippines",
+    "屋頂黑色/白色水箱",
+    "路牌箭頭非常粗",
+    "Oaxaca 的 Gen 3 有獨特地面裂紋"
   ],
   tips: [
-    "單一實黃色中心線 = Mexico",
-    "ALTO（Mexico / 中美洲）vs PARE（南美洲）",
+    "ALTO + 單黃中心線 + 仙人掌 = Mexico",
+    "OXXO 便利店 = Mexico（其他國家很少見）",
     "到處都是 Topes = Mexico",
-    "短天線 + 西班牙語 + ALTO = Mexico",
+    "白色小圓柱 bollard 底部黑色 = Mexico",
+    "納瓦特語地名（-tl, -ec, -tlan）= Mexico",
+    "屋頂圓柱水箱 = Mexico",
+    "圓形電錶 = Mexico（vs Peru 長方形電錶）",
     "🔗 <a href=\"https://www.google.com/maps/@19.4326,-99.1332,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（CDMX）</a>"
   ]
 },
