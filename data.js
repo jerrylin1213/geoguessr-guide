@@ -11527,7 +11527,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>Dodeca 2360 / R2<br>
         <strong>涵蓋國家：</strong>僅 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, New Zealand（只有這 3 國）<br>
         <strong>辨識要點：</strong>極差畫質 + 天空接縫 = Gen 1 → 只會是 <a onclick="navigateTo('country','usa')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">USA</a>、<a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a> 或 <a onclick="navigateTo('country','new-zealand')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">New Zealand</a><br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@37.7749,-122.4194,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">San Francisco (Google Maps)</a> — ⚠️ 需使用時間旅行（🕐 圖標）切換至 2007 年影像才能看到 Gen 1</p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/SmHDrbhfcsHazEiBA" target="_blank" style="color:var(--accent-blue)">San Francisco Street View</a> — ⚠️ 進入後需點「See more dates」切換至 2007 年才能看到 Gen 1</p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 2 (2008–2012)</h4>
@@ -11537,7 +11537,7 @@ const META_SECTIONS = [
         <strong>相機：</strong>R5（8 顆 5MP 相機 + 魚眼鏡頭 + 3 組雷射掃描器）<br>
         <strong>涵蓋國家：</strong>North America, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, NZ, Western Europe<br>
         <strong>辨識要點：</strong>天空有 purple halo = Gen 2 → 排除 Africa、大部分 Asia、South America<br>
-        <strong>🔗 範例：</strong><a href="https://www.google.com/maps/@48.8566,2.3522,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Paris (Google Maps)</a> — ⚠️ 需使用時間旅行切換至 2008-2012 年影像才能看到 Gen 2 (purple halo)</p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/iCuQ1ZXeaPrciAfB8" target="_blank" style="color:var(--accent-blue)">Paris Street View</a> — ⚠️ 進入後需點「See more dates」切換至 2008-2012 年才能看到 Gen 2 purple halo</p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
