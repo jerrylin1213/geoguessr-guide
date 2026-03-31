@@ -11537,7 +11537,9 @@ const META_SECTIONS = [
         <strong>相機：</strong>R5（8 顆 5MP 相機 + 魚眼鏡頭 + 3 組雷射掃描器）<br>
         <strong>涵蓋國家：</strong>North America, <a onclick="navigateTo('country','australia')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Australia</a>, NZ, Western Europe<br>
         <strong>辨識要點：</strong>天空有 purple halo = Gen 2 → 排除 Africa、大部分 Asia、South America<br>
-        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/iCuQ1ZXeaPrciAfB8" target="_blank" style="color:var(--accent-blue)">Paris Street View</a> — ⚠️ 進入後需點「See more dates」切換至 2008-2012 年才能看到 Gen 2 purple halo</p>
+        <strong>🔗 範例：</strong><a href="https://maps.app.goo.gl/jXeAofrWs6uec79i9" target="_blank" style="color:var(--accent-blue)">Isle of Man Gen 2 (Douglas)</a> — 100% Gen 2 覆蓋（Sep 2010）<br>
+        <img src="images/meta/gen2_iom_a3road.jpg" alt="Gen 2 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <em style="font-size:0.8rem;color:var(--text-muted)">↑ Gen 2 實際街景（Isle of Man A3, Sep 2010）— 畫質較低、色彩偏淡</em></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
