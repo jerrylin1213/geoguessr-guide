@@ -1056,7 +1056,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/5b787d67827550b25835a491e962a9975be65e9a/a02dc/static/img/places/greece/road-signs/chevron.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2021/04/Greece-car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/c61d88ccd5917deaebbf478752d3b75be871fc89/38156/static/img/places/greece/bollards/bollard_front.jpg',
@@ -2540,6 +2540,7 @@ const COUNTRY_IMAGES = {
     plates: [
     ],
     poles: [
+      'https://dingyiyi0226.github.io/geoguessr-note/docs/pole/pole-lk.png',
     ],
     signs: [
     ],
@@ -2649,6 +2650,7 @@ const COUNTRY_IMAGES = {
       'https://geomastr.com/assets/media/licenseplates/Tunisia2.jpg',
     ],
     poles: [
+      'https://upload.wikimedia.org/wikipedia/commons/8/89/Route_x_tunis.JPG',
     ],
     signs: [
       'https://geomastr.com/assets/media/streetsigns/stop/tunisia.svg',
@@ -3352,7 +3354,9 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Current_private_Myanmar_license_plate.jpeg/960px-Current_private_Myanmar_license_plate.jpeg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Myanmar_plate_commercial_red_2019.jpg/960px-Myanmar_plate_commercial_red_2019.jpg',
     ],
-    poles: [], signs: [
+    poles: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/20160812_Ulica_w_centrum_Rangunu_9856_DxO.jpg/960px-20160812_Ulica_w_centrum_Rangunu_9856_DxO.jpg',
+    ], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/a/a3/Myanmar_stop_sign.svg',
     ], carMetas: [
       'https://geotips.net/wp-content/uploads/2020/11/csVYAFq.jpg',
@@ -3585,7 +3589,9 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/f/f7/CH-Hinweissignal-Standort_eines_Fussg%C3%A4ngerstreifens.svg',
     ], carMetas: [
       'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
-    ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
+    ], bollards: [
+      'https://dingyiyi0226.github.io/geoguessr-note/docs/bollard/bollard-li.png',
+    ], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'cocos-islands': {
     plates: [
@@ -3599,7 +3605,9 @@ const COUNTRY_IMAGES = {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/c/cb/2023_USVI_Standard_License_Plate.png',
     ],
-    poles: [], signs: [
+    poles: [
+      'https://upload.wikimedia.org/wikipedia/commons/6/69/Crews_work_on_St._Thomas%E2%80%99_electrical_%E2%80%98backbone%E2%80%99%2C_Sept._26_%2836634871684%29.jpg',
+    ], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/c/c0/MUTCD_R1-1.svg',
     ], carMetas: [
       'https://geotips.net/wp-content/uploads/2020/12/White-Truck.jpg',
@@ -3715,7 +3723,9 @@ const COUNTRY_IMAGES = {
     architecture: [], roadMarkings: [], misc: [],
   },
   'sierra-leone': {
-    plates: [],
+    plates: [
+      'https://live.staticflickr.com/4087/5081139990_e17ec9dc2b.jpg',
+    ],
     poles: [], signs: [], carMetas: [
       'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
@@ -3754,7 +3764,9 @@ const COUNTRY_IMAGES = {
     architecture: [], roadMarkings: [], misc: [],
   },
   'south-sudan': {
-    plates: [],
+    plates: [
+      'https://matriculasdelmundo.com/matriculatop/paises/sudan-sur.jpg',
+    ],
     poles: [], signs: [], carMetas: [
       'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
