@@ -5260,8 +5260,8 @@ const COUNTRIES = {
   drivingSide: 'left', tld: '.bm', phoneCode: '+1-441', language: 'English', currency: 'Bermudian Dollar (BMD)',
   camera: ["<strong>100% Gen 3</strong>", "覆蓋有限 — 小型島嶼領土"],
   car: [
-    "<strong>黑色 pickup truck（皮卡車）</strong> — 非一般轎車",
-    "Bermuda 使用 pickup truck 而非標準 Google car — 這是極強的辨識特徵"
+    "黑色 truck，有時被完全打碼為鋸齒狀模糊",
+    "非一般轎車 — truck 或鋸齒模糊是 Bermuda 辨識特徵"
   ],
   roads: [
     "白色中心線",
