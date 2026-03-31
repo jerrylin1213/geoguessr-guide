@@ -4033,14 +4033,9 @@ const COUNTRIES = {
     "所有街景都用大型皮卡車拍攝"
   ],
   car: [
-    "⚠️ 備胎/帳篷分區資訊來自語雀翻譯，待驗證",
-    "<strong>Snorkel 進氣管可見</strong>（僅 Kenya 和 Mongolia 有）",
-    "<strong>Roof rack + 車頂露營裝備/背包</strong> — 因拍攝偏遠地區需野營",
-    "西部/烏蘭巴托：<strong>rubber-filled crossbars</strong>（黑色橡膠填充的橫桿）",
-    "東部：橫桿<strong>無</strong>橡膠填充",
-    "第二種車型：bars + <strong>紅色側鏡</strong>",
-    "部分涵蓋為 pickup truck（白/藍色系）",
-    "與 Kyrgyzstan 區別：Mongolia 有背包/露營裝備，Kyrgyzstan 沒有"
+    "Snorkel 進氣管可見（僅 Kenya 和 Mongolia 有）",
+    "Roof rack + 車頂露營裝備",
+    "具體區域差異（備胎/帳篷樣式）待驗證"
   ],
   roads: [
     "大量未鋪設道路 — 草原上的車轍痕跡",
@@ -6850,11 +6845,8 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.rw', phoneCode: '+250', language: 'Kinyarwanda, French, English', currency: 'Franc (RWF)',
   camera: ["<strong>100% Gen 4</strong>", "覆蓋有限，正在零星發布"],
   car: [
-    "⚠️ 以下描述可能有誤，待實際街景驗證",
-    "Gen 4：<strong>pickup truck</strong>，有時完全打碼（巨大模糊）",
-    "車色多樣：白色、黑色、灰/棕色",
-    "車頂有<strong>紅色煞車燈</strong>可見",
-    "相機支架幾乎都可見"
+    "Gen 4 pickup truck",
+    "車色和細節待實際街景驗證"
   ],
   roads: [
     "右側行駛",
@@ -7715,12 +7707,9 @@ const COUNTRIES = {
       '畫質尚可 — 比其他地方的類似卡車覆蓋模糊度低'
     ],
     car: [
-    "⚠️ 以下描述可能有誤，待實際街景驗證",
-      '白色 pickup truck（bars 在後方支撐相機）',
-      'Truck 常常被完全模糊化處理',
-      '支撐桿之間距離較近',
-      '平坦景觀 + 白色 truck = Kazakhstan'
-    ],
+    "白色 pickup truck",
+    "車身常被完全打碼"
+  ],
     roads: [
       '道路標線差異極大 — 主要道路有黃色路肩，多數使用全白方案',
       '公里標記：底部塗黑（通常約佔柱子 25%）',
@@ -8058,14 +8047,9 @@ const COUNTRIES = {
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
-    "⚠️ 天線位置描述待實際街景驗證",
-      "<strong>大型白色 pickup truck</strong>（Gen 4 Trekker 裝在 truck 上）",
-      "⚠️ 天線在 truck <strong>中間位置</strong> — 這是區分 Oman vs Qatar 的關鍵",
-      "車身有時完全被模糊，但天線仍可見",
-      "vs <strong>Qatar</strong>：也是白色 pickup truck，但天線在<strong>車左前方</strong>",
-      "vs <strong>UAE</strong>：UAE 用白色<strong>轎車</strong>，Oman 用 <strong>pickup truck</strong>",
-      '沙漠公路 + 白色 pickup truck + 中間天線 = Oman'
-    ],
+    "白色 pickup truck",
+    "vs Qatar：也是白色 truck，天線位置可能不同（待驗證）"
+  ],
     roads: [
     "白色中心線",
     '主要地區公路維護良好',
@@ -10969,12 +10953,8 @@ const COUNTRIES = {
     "有多種不同的街景車（各島不同）"
   ],
   car: [
-    "⚠️ 以下描述可能有誤，待實際街景驗證",
-    "Tutuila（主島）：黑色皮卡車斗稍有鏽蝕（覆蓋最廣）",
-    "Ofu/Olosega 島：銀灰色皮卡車頭兩側有後視鏡",
-    "Tau 島：有光澤的黑色皮卡兩側有後視鏡",
-    "Tutuila（主島）：黑色車框很髒",
-    "多種車型 — 各島不同"
+    "多種車型（各島不同）",
+    "具體車型和外觀待實際街景驗證"
   ],
   roads: [
     "右側行駛",
