@@ -5648,43 +5648,72 @@ const COUNTRIES = {
 'ecuador': {
   name: 'Ecuador', localName: 'Ecuador', flag: '🇪🇨', region: 'south-america',
   drivingSide: 'right', tld: '.ec', phoneCode: '+593', language: 'Spanish', currency: 'Dollar (USD)',
-  camera: ["<strong>55% Gen 3 + 36% Shitcam + 9% Gen 4</strong>"],
+  camera: ["<strong>55% Gen 3 + 36% Shitcam + 9% Gen 4</strong>", "Gen 4 在大部分地區可見，明顯例外是西北和東南"],
   car: [
     "Gen 3：白色轎車 + <strong>短粗天線（stubby antenna）</strong> — 與 Mexico, Colombia, Brazil 共用",
-    "Gen 4：<strong>白色 pickup truck</strong>（後車斗為黑色，車頭無天線）",
-    "⚠️ 拉丁美洲唯一有 Shitcam 覆蓋的國家"
+    "Gen 3 天線有兩種：<strong>高天線</strong>（螺紋在中線以上，僅在北部出現）vs <strong>低天線</strong>（大部分螺紋在中線以下）",
+    "Gen 4：<strong>白色 pickup truck</strong>（後車斗為黑色，車頭無天線；vs Panama 的 pickup 有天線）",
+    "⚠️ <strong>Shitcam</strong>：巨大圓形模糊打碼，顏色偏棕，車頭偶見<strong>紅色 logo</strong> — 拉丁美洲僅 Ecuador 有"
   ],
   roads: [
     "黃色中心線",
-    "<strong>雙護欄</strong> — 在南美洲少見"
+    "<strong>雙層護欄</strong> — 在南美洲非常少見，Ecuador 獨有特徵",
+    "<strong>混凝土道路</strong>相對常見",
+    "彎道處大量誘導標（比其他拉美國家多很多）",
+    "綠色公里標識，標有獨特的 Ecuador 高速公路標誌",
+    "<strong>路牌背面塗藍綠色</strong>（薄金屬製）— 拉美僅 Ecuador 有",
+    "白色方形速限標誌（類似澳洲風格）",
+    "<strong>單向/雙向路標</strong>：字寫在箭頭裡 — 僅 Ecuador、Dominican Republic、Puerto Rico 有"
   ],
   bollardInfo: [
-    "<strong>非常常見的 bollard</strong> — 圓柱形有兩條紅色條紋；或扁平型有兩個紅色反光片"
+    "<strong>非常常見的 bollard</strong>（拉美少見有這麼多 bollard 的國家）",
+    "兩種主要樣式：(a) 紅白條紋圓柱形；(b) 扁平型背面兩個紅色反光片"
   ],
   poleInfo: [
-    "法式梯子電線桿，有凹痕"
+    "多為圓形混凝土桿（較普通）",
+    "<strong>華夫餅電線桿</strong>：有很多小凹口像梯子 — 拉美僅 Ecuador 有（vs Brazil 的華夫餅桿只有幾個凹口）",
+    "Loja 省：<strong>橢圓形孔洞</strong>的電線桿"
   ],
   signInfo: [
-    "PARE 停車標誌"
+    "PARE 停車標誌",
+    "路牌背面<strong>藍綠色</strong> — 拉美唯一"
   ],
-  landscape: ["Andes 山脈", "Galápagos 群島", "沿海熱帶低地", "殖民時期建築（Quito/Cuenca 白牆紅瓦教堂）"],
+  landscape: [
+    "安第斯山脈從國家中間穿過，東西兩側較平坦",
+    "西南部：<strong>香蕉種植園</strong>成片",
+    "Guayaquil-Manta 之間：<strong>極度乾旱</strong>沿海景觀",
+    "亞馬遜區域：平坦 + 白色樹皮的樹 (Cordia trichotoma) + 油棕",
+    "南部：曲折山路 + 裸露棕紅色土壤",
+    "大多數房屋為<strong>灰磚</strong>+<strong>金屬屋頂</strong>（vs Bolivia 紅磚、Peru 也紅磚）",
+    "城市中有<strong>六邊形地磚</strong>路面",
+    "Galápagos 群島有徒步/船隻街景"
+  ],
   signs: ["西班牙語，有 Ñ"],
   plates: [
-    "白色車牌，格式：<strong>3 字母 + 3-4 數字</strong>",
-    "省份首字母前綴可定位區域（A=Azuay, G=Guayas, P=Pichincha）",
+    "白色車牌（長牌和短牌都有 — <strong>拉美唯一同時使用兩種長度</strong>）",
+    "格式：<strong>3 字母 + 3-4 數字</strong>",
+    "省份首字母前綴可定位區域（A=Azuay, G=Guayas, P=Pichincha）— 計程車首字母也是省份",
     "<strong>橘色車牌</strong> = 計程車/商用車",
-    "私家車白底 vs 商用橘底 — 顏色區分明顯"
+    "vs Colombia 全黃車牌 — 區分兩國的有力線索"
   ],
   unique: [
-    "<strong>雙護欄</strong>（在拉丁美洲少見）",
-    "<strong>常見的紅色條紋 bollard</strong>",
-    "法式梯子電線桿",
-    "使用 USD（$）為貨幣（在南美洲不常見）"
+    "<strong>雙層護欄</strong>（南美洲僅 Ecuador）",
+    "<strong>Shitcam 覆蓋 + 紅色 logo</strong>（拉美僅 Ecuador）",
+    "<strong>路牌背面藍綠色</strong>（拉美僅 Ecuador）",
+    "<strong>華夫餅電線桿</strong>（大量凹口，拉美僅 Ecuador）",
+    "常見紅白條紋 bollard",
+    "使用 USD（$）為貨幣（在南美洲不常見）",
+    "同時使用長牌和短牌",
+    "Guayas 省護欄塗黑黃色"
   ],
   tips: [
-    "雙護欄 + 紅色條紋 bollard = Ecuador",
-    "法式電線桿 + 西班牙語 = Ecuador",
+    "Shitcam（巨大圓形模糊 + 偏棕）= Ecuador（拉美唯一）",
+    "雙層護欄 + 紅白條紋 bollard = Ecuador",
+    "路牌背面藍綠色 = Ecuador",
+    "華夫餅電線桿（大量凹口）= Ecuador",
     "南美洲看到 USD 價格 = Ecuador",
+    "高天線（螺紋在中線以上）= Ecuador 北部",
+    "Guayas 省護欄黑黃色",
     "🔗 <a href=\"https://www.google.com/maps/@-0.1807,-78.4678,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Quito）</a>"
   ]
 },
@@ -5741,50 +5770,69 @@ const COUNTRIES = {
 
 'bolivia': {
   name: 'Bolivia', localName: 'Bolivia', flag: '🇧🇴', region: 'south-america',
-  drivingSide: 'right', tld: '.bo', phoneCode: '+591', language: 'Spanish, Quechua', currency: 'Boliviano (BOB)',
-  camera: ["<strong>100% Gen 3</strong>"],
+  drivingSide: 'right', tld: '.bo', phoneCode: '+591', language: 'Spanish, Quechua, Aymara', currency: 'Boliviano (BOB)',
+  camera: ["<strong>100% Gen 3</strong>", "全境由一台無天線白色轎車拍攝", "覆蓋限於中部和西部 — 六大城市（La Paz/El Alto, Cochabamba, Oruro, Sucre, Potosí, Santa Cruz）+ 主要公路"],
   car: [
-    "白色轎車（白色光暈可見）",
-    "無特殊車輛辨識特徵"
+    "白色轎車，<strong>無天線</strong>",
+    "拉美範圍內，無天線白車也見於 Peru、Chile"
   ],
   roads: [
-    "白色實線邊線 + 黃色中心線",
+    "雙黃中線、黃白組合中線、雙白中線均可見 — 外線<strong>總是白色</strong>",
+    "vs Chile：只有全黃或全白標線，不會有黃白組合",
+    "vs Peru：Peru 可有僅外線無中線的道路，Bolivia 很少見",
+    "<strong>混凝板路</strong>（concrete slab road）相當常見",
+    "<strong>鵝卵石道路</strong>：整齊石列分隔中間不規則石頭 — Bolivia 獨特模式",
+    "白色方形粗路標桿（vs Peru 的黑白「斑馬配色」路標桿）",
+    "護欄<strong>黃黑條紋</strong>：最外側<strong>總是黃色</strong>（vs Peru 最外側總是黑色）",
     "高海拔道路（許多在 3500m 以上）",
-    "路面品質差 — 大量未鋪設道路，尤其是 Altiplano 地區",
+    "<strong>黑白公里標識</strong>：頂部黑底白字 'km'，中下部白底黑字距離，通常<strong>無道路編號</strong>（vs Argentina 有編號）"
   ],
   bollardInfo: [
     "正面<strong>白色 + 頂部黃色反光條</strong>，背面有紅色反光條",
     "也有<strong>黃色塗漆 bollard</strong> — 與 Peru 的黑白配色不同"
   ],
   poleInfo: [
-    "不規則電線桿"
+    "<strong>圓柱形混凝土桿</strong>：頂部常有許多小孔",
+    "<strong>木質電線桿</strong>：種類繁多，各種杆頂樣式",
+    "⚠️ 東部的木質桿常<strong>極度彎曲</strong>（像用當地樹幹製成）— 極度彎曲的桿是 Bolivia 好線索",
+    "極少數情況可見 Argentina 風格電線桿"
   ],
   signInfo: [
     "PARE 停車標誌"
   ],
   landscape: [
-    "大部分為乾燥沙漠地形",
-    "比 Peru 更平坦、更像沙漠",
-    "獨特的苔蘚植被",
+    "<strong>Altiplano 高原</strong>（西部）：乾燥草原，叢生雜草（GeoGuessr 社群稱「Bolivia 刺蝟」），北部較綠、南部較乾",
+    "<strong>安第斯山脈</strong>：從西北到東南延伸，位於高原和雨林之間",
+    "安第斯以東：<strong>茂密熱帶植被</strong>，大量農業，土壤常呈粉紅色，地勢平坦（Santa Cruz 附近）",
+    "的的喀喀湖（Titicaca）：位於 Bolivia/Peru 邊界，周圍景觀格外翠綠",
+    "<strong>大型紅磚建築</strong> — 常看起來像未完工（Bolivia 最具辨識度的建築特徵）",
+    "紅磚在 Peru 部分地區也有，但 Bolivia 更為普遍",
     "高海拔（許多道路在 3500m 以上）"
   ],
-  signs: ["西班牙語 + Quechua"],
+  signs: ["西班牙語 + Quechua + Aymara"],
   plates: [
-    "<strong>白底藍色邊框 + 藍色文字</strong> — 淡藍色色調",
+    "<strong>白底藍色邊框 + 藍色文字</strong> — 模糊後看起來幾乎純白",
     "格式：4 數字 + 3 字母，頂部印有 \"BOLIVIA\" 字樣",
     "藍色調在南美洲較獨特 — 看到藍色文字車牌 + 高原沙漠 = Bolivia"
   ],
   unique: [
-    "<strong>Wiphala 旗</strong> — 彩虹棋盤旗（原住民旗幟）",
-    "可見 MAS 黨旗",
-    "Tigo 電信品牌招牌",
-    "穿傳統服飾的婦女",
-    "裸露紅磚建築",
+    "<strong>大型紅磚未完工建築</strong> — Bolivia 最顯眼的特徵",
+    "<strong>Wiphala 旗</strong> — 彩虹棋盤旗（原住民旗幟），政府大樓常見",
+    "<strong>MAS 黨/Evo 政治塗鴉</strong>：藍色、黑色、白色配色 — Bolivia 獨有",
+    "<strong>Tigo 電信</strong>藍色 logo — Peru 沒有 Tigo（二選一時的關鍵線索）",
+    "穿傳統服飾的婦女（圓頂禮帽、彩色披肩、百褶裙 pollera）",
+    "<strong>極度彎曲的木質電線桿</strong>",
+    "鵝卵石道路的獨特整齊/不規則分列模式",
+    "護欄黃黑條紋（外側=黃色，vs Peru 外側=黑色）"
   ],
   tips: [
+    "紅磚未完工建築 + 高原 = Bolivia",
+    "Tigo 電信 logo = Bolivia（Peru 沒有 Tigo）",
     "Wiphala（彩虹棋盤）旗 = Bolivia",
-    "乾燥沙漠 + 裸磚 + 西班牙語/Quechua = Bolivia",
-    "比 Peru 更像沙漠且更平坦",
+    "護欄外側黃色 = Bolivia；外側黑色 = Peru",
+    "白色方形路標桿 = Bolivia；黑白斑馬路標桿 = Peru",
+    "La Paz：山谷城市 + 高樓 + 米黃色砂岩柱；El Alto：平坦高原 + 紅磚混亂",
+    "Cochabamba：平坦大山谷，北面有雄偉山壁",
     "🔗 <a href=\"https://www.google.com/maps/@-16.5,-68.15,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（La Paz）</a>"
   ]
 },
