@@ -5445,56 +5445,68 @@ const COUNTRIES = {
   camera: [
     "<strong>59.8% Gen 3 + 40.2% Gen 4</strong>",
     "Gen 3：黑色 Google 街景車拍攝",
-    "Gen 4 覆蓋持續擴展中"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋 — 南美僅 Argentina, Peru, Brazil 有"
   ],
   car: [
-    "Gen 3/4：<strong>黑色轎車</strong> — 在南美洲中較為獨特",
-    "後方可見，平坦荒涼的景觀（Patagonia）",
-    "無 antenna、無 車頂架 (roof rack)"
+    "Gen 3/4：<strong>黑色轎車，無天線</strong>",
+    "南美黑車三國：Argentina, Peru, Uruguay",
+    "無 antenna、無 roof rack"
   ],
   roads: [
-    "<strong>混合中線</strong>：白色虛線、雙黃線、或單黃線 + 白色虛線混合",
-    "護欄上有<strong>黃色和紅色矩形反光片</strong>（Uruguay 也有，但支撐柱形狀不同）",
-    "RN（國道）/ RP（省道）公路標誌",
-    "高速公路標識獨特：頂部標明路號"
+    "<strong>混合中線</strong>：白虛線、雙黃線、或單黃線 + 白虛線混合",
+    "護欄有<strong>黃色/紅色矩形反光片</strong>（支撐柱形狀 3 邊 — vs Uruguay 4 邊）",
+    "RN（國道）/ RP（省道）<strong>獨特的高速公路標識</strong>，頂部標明路號 — Argentina 獨有",
+    "大部分地區非常開闊、荒涼、平坦且人口稀少"
   ],
   bollardInfo: [
     "<strong>白紅色 V 字形標記（chevron）</strong>貼在柱子上 — Argentina 獨有的路側標記",
     "公路旁也有白色圓柱形 bollard，頂部有反光片"
   ],
   poleInfo: [
-    "<strong>電線桿</strong>：(1) <strong>混凝土圓桿</strong>，上有三根電線交替分布 (2) <strong>雙圓桿</strong>組合（阿根廷優秀線索，Bolivia 偶爾也有）(3) <strong>木桿</strong>（含木製 A 型桿，南美洲中僅阿根廷有木製 A 型桿）",
-    "La Rioja 和 Mendoza 有<strong>「拉脫維亞式」木製電線桿</strong>（獨有）"
+    "(1) <strong>混凝土圓桿</strong>：三根電線交替分布 — 最常見",
+    "(2) <strong>雙圓桿</strong>組合 — 阿根廷優秀線索（Bolivia 偶爾也有）",
+    "(3) <strong>木製 A 型桿</strong> — 南美僅 Argentina 有",
+    "La Rioja / Mendoza：<strong>「拉脫維亞式」木桿</strong>（獨有）",
+    "Mendoza：<strong>單個絕緣器附在桿側面</strong>"
   ],
   signInfo: [
     "PARE 停車標誌",
-    "誘導標：<strong>白底紅箭頭</strong>（拉丁美洲中阿根廷獨有）"
+    "誘導標：<strong>白底紅箭頭</strong> — 拉丁美洲中<strong>僅 Argentina</strong>使用此配色（其他國家為黃底黑箭頭）"
   ],
   landscape: [
-    "Pampas：平坦草原",
-    "Patagonia：荒涼風蝕地形",
-    "西北部：沙漠山脈",
-    "Misiones：Paraná 松",
-    "葡萄酒產區（Mendoza）"
+    "大部分地區<strong>平坦、無樹、人口稀少</strong> — 非常開闊荒涼",
+    "Pampas：平坦草原 + <strong>蒲葦</strong>（Pampas grass，毛茸茸白花）",
+    "Patagonia（中南部）：荒涼風蝕地形，火地島有<strong>山毛櫸</strong>（Nothofagus）林",
+    "西北高地（Salta/Jujuy）：沙漠山脈 + <strong>黃鷹柱仙人掌</strong>（Trichocereus）+ <strong>紅磚建築</strong>",
+    "Misiones：<strong>紅壤</strong> + Paraná 松（似 Brazil 南部）",
+    "Formosa/Chaco：沙質土壤 + <strong>白蠟棕</strong>（扇葉、稀疏分布）",
+    "Mendoza：葡萄園 + <strong>高瘦楊樹</strong>成排",
+    "Tucumán：<strong>甘蔗</strong>",
+    "Buenos Aires 省：路旁偶見小湖"
   ],
   signs: ["西班牙語，有 Ñ"],
   plates: [
-    "<strong>黑底白字車牌</strong>（舊格式）",
-    "新 Mercosul 格式，藍色頂部條紋"
+    "<strong>黑底白字車牌</strong>（舊格式，中間有黑點 — Argentina 獨有）",
+    "新 Mercosul 格式：白底 + 上方藍色條（Brazil 也有類似）"
   ],
   unique: [
     "<strong>黑色 Google 街景車</strong>",
-    "<strong>白紅色V字標記</strong>",
-    "<strong>A 字形電線桿</strong>",
-    "RN/RP 公路標記",
-    "YPF 加油站（國家石油公司）",
-    "黑色車牌"
+    "<strong>白底紅箭頭誘導標</strong> — 拉美僅 Argentina",
+    "<strong>木製 A 型電線桿</strong> — 南美僅 Argentina",
+    "<strong>雙圓桿組合</strong>",
+    "RN/RP 獨特高速公路標識",
+    "<strong>YPF 加油站</strong>（國家石油 — vs Uruguay 的 ANCAP）",
+    "黑底白字車牌（中間黑點）",
+    "城市出租車有<strong>特定顏色</strong>（Buenos Aires 黑黃、Córdoba 白、Mendoza 黃等）"
   ],
   tips: [
-    "黑色 Google 街景車 + 西班牙語 + PARE = Argentina 或 Uruguay",
-    "A 字形電線桿 = Argentina",
-    "白紅色V字標記 = Argentina（其他南美國家沒有）",
-    "YPF 加油站 = Argentina",
+    "白底紅箭頭誘導標 = Argentina（拉美唯一）",
+    "A 型木桿 = Argentina",
+    "黑車 + YPF 加油站 = Argentina（vs Uruguay 的 ANCAP）",
+    "護欄支撐柱 3 邊 = Argentina（vs Uruguay 4 邊）",
+    "完全平坦 + 無樹 + 荒涼 = 很可能 Argentina（Uruguay 至少有緩坡）",
+    "紅壤 + Paraná 松 = Misiones 省",
+    "「拉脫維亞式」木桿 = La Rioja 或 Mendoza",
     "🔗 <a href=\"https://www.google.com/maps/@-34.6037,-58.3816,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Buenos Aires）</a>"
   ]
 },
