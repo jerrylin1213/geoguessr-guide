@@ -4769,12 +4769,9 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.qa', phoneCode: '+974', language: 'Arabic', currency: 'Riyal (QAR)',
   camera: ["<strong>100% Gen 4</strong>", "多哈地區涵蓋良好"],
   car: [
-    "<strong>白色 pickup truck（皮卡車）</strong>（類似 Oman, Senegal），通常全部打碼",
-    "天線在車<strong>左側</strong>（不同區域天線長度不同：北部短、多哈中等、西南長）",
-    "沙漠景觀 + 白色 truck = Qatar/Oman/UAE 之一",
-    "與 UAE 區別：Qatar 是 truck，UAE 是轎車"
-  ,
-    "天線長度=區域：<strong>短=北部、中等=Doha、長=西南</strong>"
+    "白色 pickup truck，通常全部打碼",
+    "vs Oman：也是白色 truck",
+    "vs UAE：UAE Gen 3 用白色轎車，Qatar 用 truck"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
