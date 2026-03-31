@@ -5567,42 +5567,63 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.cl', phoneCode: '+56', language: 'Spanish', currency: 'Peso (CLP)',
   camera: ["<strong>56.2% Gen 3 + 43.7% Gen 4 + 0.1% Gen 2</strong>"],
   car: [
-    "Gen 3：<strong>白色轎車，無天線</strong> — (1) 普通白車 (2) 白車帶可見黑色部分（Chile 獨有）",
+    "Gen 3：<strong>白色轎車，無天線</strong>",
+    "Gen 3 有兩種：(1) 普通白車 (2) <strong>白車帶可見黑色部分</strong> — Chile 獨有",
     "Gen 4：<strong>藍色轎車</strong>",
-    "配合<strong>全白道路線</strong>辨識（南美唯一全白線國家）"
+    "Peru/Bolivia 也有無天線白車，但 Chile 有 Gen 4 而 Bolivia 沒有"
   ],
   roads: [
-    "<strong>全白色道路標線</strong> — 南美洲唯一全白標線的國家（國家公園/大雪地區為全黃線）",
-    "頂部有插槽的標誌桿"
+    "<strong>全白色道路標線</strong>（中線+外線都是白色）— 美洲範圍內 Chile 獨有特徵",
+    "⚠️ 國家公園或大雪地區為<strong>全黃色</strong>標線 — 全黃線基本上也是 Chile 獨有",
+    "幾乎不會看到黃白組合標線（vs Argentina, Bolivia, Peru 有組合）",
+    "頂部有<strong>插槽</strong>的路標桿",
+    "<strong>紅色橋梁柵欄柱</strong> — Chile 橋梁通常有紅漆柵欄",
+    "<strong>區域道路命名</strong>：A-Y 字母從北到南遞增 — 很容易記",
+    "電話區號：2 位數，有可記憶的地理模式"
   ],
   bollardInfo: [
-    "西班牙式 bollard"
+    "正面<strong>白色反光板</strong>，背面<strong>橙黃色反光板</strong>（西班牙式） — 不太常見",
+    "也有<strong>橙色臨時 bollard</strong>，頂部兩條白色條紋"
   ],
   poleInfo: [
-    "方形混凝土電線桿，側面有凹痕 + 小孔"
+    "<strong>方形混凝土桿</strong>：兩面有凹痕，上部有小針孔（類似 Brazil 但水平支撐較少）",
+    "木桿也常見"
   ],
   signInfo: [
     "PARE 停車標誌"
   ],
   landscape: [
-    "北部：Atacama 沙漠（地球上最乾燥的地方）",
-    "中部：地中海型",
-    "南部：森林和湖泊",
-    "最南端：Patagonia"
+    "狹長國家跨 4000+ km — 氣候從北到南巨大變化",
+    "北部 <strong>Atacama 沙漠</strong>：地球上最乾燥的地方，幾乎零植被",
+    "Arica 省：<strong>光滑沙質山脈</strong>，有鱗莖狀侵蝕",
+    "Santiago 周圍：半乾旱，乾燥山丘 + 零散植被",
+    "中部 Maule：<strong>葡萄園</strong>，更綠（地中海氣候）",
+    "Bio Bío/Araucanía：<strong>康塞普西翁松</strong>（Pinus radiata，蓬鬆針葉）+ 窄林道",
+    "Araucanía 東部：<strong>智利南洋杉</strong>（Araucaria）— Argentina 邊境也有",
+    "Chiloé 島：<strong>連綿起伏農業景觀</strong>（似 New Zealand）",
+    "南部 Los Lagos/Aisén：翠綠山谷 + 岩石山體 + 常陰天",
+    "南 Aisén：秋天覆蓋有<strong>橙色/紅色</strong>植被"
   ],
   signs: ["西班牙語，有 Ñ"],
-  plates: ["白色車牌（一般）", "<strong>橘色車牌（商用/計程車）</strong>"],
+  plates: ["白色車牌（一般）", "<strong>橘色車牌（商用/計程車）</strong> — Ecuador 也有橘牌但其為舊牌"],
   unique: [
     "<strong>全白色道路標線</strong> — Chile 最強辨識特徵",
-    "可見白色車尾",
-    "頂部有插槽的標誌桿",
+    "<strong>全黃道路標線</strong>（國家公園/雪區）— 也基本 Chile 獨有",
+    "<strong>紅色橋梁柵欄</strong>",
+    "Gen 3 白車帶<strong>可見黑色部分</strong> — Chile 獨有",
+    "頂部有插槽的路標桿",
+    "A-Y 區域道路命名系統",
     "有凹痕的方形混凝土電線桿",
     "公路上的 SOS 緊急箱"
   ],
   tips: [
-    "全白色道路標線（中心線和邊線都是白色）= Chile",
-    "南美洲沒有其他國家使用全白色標線",
-    "橘色車牌 = Chile 的商用車輛",
+    "全白色道路標線 = Chile（美洲唯一）",
+    "全黃色道路標線 + 國家公園/雪景 = Chile",
+    "紅色橋梁柵欄 = Chile",
+    "道路名稱首字母 A-Y = Chile（A 最北、Y 最南）",
+    "Atacama = 幾乎零植被的極端沙漠",
+    "智利南洋杉 = Araucanía 東部",
+    "橘色車牌 = Chile 商用車",
     "🔗 <a href=\"https://www.google.com/maps/@-33.4489,-70.6693,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Santiago）</a>"
   ]
 },
