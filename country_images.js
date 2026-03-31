@@ -1911,6 +1911,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/68e49579dac1ac14e0d842bf7c4e2150c53b7ee6/5f557/static/img/places/new-zealand/car-metas/auckland_gen4_car.jpg',
     ],
     bollards: [
+      'https://www.approachsigns.co.nz/assets/products/_products/9406/Edge%20Marker%20Post.png',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/fc0767b6a2ee52f574aef8fbb4805eed2b148957/f7350/static/img/places/new-zealand/scenery/wellington_mtns.jpg',
