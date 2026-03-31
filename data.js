@@ -4033,6 +4033,7 @@ const COUNTRIES = {
     "所有街景都用大型皮卡車拍攝"
   ],
   car: [
+    "⚠️ 備胎/帳篷分區資訊來自語雀翻譯，待驗證",
     "<strong>Snorkel 進氣管可見</strong>（僅 Kenya 和 Mongolia 有）",
     "<strong>Roof rack + 車頂露營裝備/背包</strong> — 因拍攝偏遠地區需野營",
     "西部/烏蘭巴托：<strong>rubber-filled crossbars</strong>（黑色橡膠填充的橫桿）",
@@ -6849,6 +6850,7 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.rw', phoneCode: '+250', language: 'Kinyarwanda, French, English', currency: 'Franc (RWF)',
   camera: ["<strong>100% Gen 4</strong>", "覆蓋有限，正在零星發布"],
   car: [
+    "⚠️ 以下描述可能有誤，待實際街景驗證",
     "Gen 4：<strong>pickup truck</strong>，有時完全打碼（巨大模糊）",
     "車色多樣：白色、黑色、灰/棕色",
     "車頂有<strong>紅色煞車燈</strong>可見",
@@ -7713,6 +7715,7 @@ const COUNTRIES = {
       '畫質尚可 — 比其他地方的類似卡車覆蓋模糊度低'
     ],
     car: [
+    "⚠️ 以下描述可能有誤，待實際街景驗證",
       '白色 pickup truck（bars 在後方支撐相機）',
       'Truck 常常被完全模糊化處理',
       '支撐桿之間距離較近',
@@ -8055,6 +8058,7 @@ const COUNTRIES = {
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
+    "⚠️ 天線位置描述待實際街景驗證",
       "<strong>大型白色 pickup truck</strong>（Gen 4 Trekker 裝在 truck 上）",
       "⚠️ 天線在 truck <strong>中間位置</strong> — 這是區分 Oman vs Qatar 的關鍵",
       "車身有時完全被模糊，但天線仍可見",
@@ -10965,6 +10969,7 @@ const COUNTRIES = {
     "有多種不同的街景車（各島不同）"
   ],
   car: [
+    "⚠️ 以下描述可能有誤，待實際街景驗證",
     "Tutuila（主島）：黑色皮卡車斗稍有鏽蝕（覆蓋最廣）",
     "Ofu/Olosega 島：銀灰色皮卡車頭兩側有後視鏡",
     "Tau 島：有光澤的黑色皮卡兩側有後視鏡",
