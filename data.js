@@ -5598,49 +5598,67 @@ const COUNTRIES = {
 'colombia': {
   name: 'Colombia', localName: 'Colombia', flag: '🇨🇴', region: 'south-america',
   drivingSide: 'right', tld: '.co', phoneCode: '+57', language: 'Spanish', currency: 'Peso (COP)',
-  camera: ["<strong>58% Gen 4 + 42% Gen 3</strong>"],
+  camera: ["<strong>58% Gen 4 + 42% Gen 3</strong>", "南部部分 Gen 3 有<strong>飽和度過高</strong>的相機故障"],
   car: [
-    "Gen 3：<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Mexico, Ecuador, Brazil 共用",
+    "Gen 3：<strong>短粗天線（stubby antenna）</strong> — 與 Mexico, Ecuador, Brazil 共用",
+    "⚠️ Colombia 是<strong>唯一在黑色車上裝短粗天線</strong>的國家（區分 Ecuador 白車天線）",
     "車色多樣：黑色、白色、灰色皆有",
-    "天線隨機出現",
-    "Gen 4：白色或銀色轎車"
+    "Gen 4：白色或銀色轎車",
+    "San Andrés 島：獨特白色車；Providencia 島：獨特灰色車"
   ],
   roads: [
     "黃色中心線 + 白色邊線",
-    "<strong>「Colombia Cross」— 標誌背面的 X 形金屬結構</strong>",
-    "細白色標誌桿",
-    "紅色磁磚人行道"
+    "<strong>「Colombia Cross」— 路牌背面白色金屬十字形結構</strong> — Colombia 獨有",
+    "兩種獨特公里標：<strong>綠色「Pr」牌</strong>（頂部有 Pr 字母）+ 傳統石桩（底部兩位數=道路編號）",
+    "紅色磁磚人行道常見",
+    "彎道有大量誘導標（與 Ecuador 類似）"
   ],
   bollardInfo: [
     "<strong>白色圓柱形 bollard</strong>，頂部有紅色反光條 — 公路彎道常見",
     "也有混凝土道路標記柱（白色方柱 + 紅色反光片）"
   ],
   poleInfo: [
-    "<strong>八角形電線桿</strong> — 拉丁美洲僅 Colombia 和 Mexico 有此型",
-    "黑黃色或黑橘色漆帶（如 Bucaramanga 地區的獨特橘色杆漆）"
+    "<strong>八角形電線桿</strong> — 拉丁美洲僅 Colombia、Mexico、Ecuador 有此型",
+    "混凝土桿為主，<strong>顏色比鄰國更深</strong>",
+    "黑黃色或黑橘色漆帶",
+    "Antioquia 省獨特：<strong>2 黑帶 + 1 黃帶</strong>（中間黃色較長）",
+    "Barranquilla 路口常有 <strong>mojones</strong>（小水泥柱標記街名）"
   ],
   signInfo: [
     "PARE 停車標誌"
   ],
   landscape: [
-    "Andes 山脈",
-    "熱帶低地",
-    "咖啡產區（Eje Cafetero 地區）",
+    "Andes 山脈穿過國家中部",
+    "安第斯以東：<strong>Llanos</strong> 廣闊稀樹草原，有季節性洪水",
+    "北部：白色沙質土壤 + 乾旱氣候",
+    "太平洋沿岸：非裔人口為主（奴隸貿易歷史）",
+    "咖啡產區（Eje Cafetero）+ 考卡河谷<strong>甘蔗</strong>",
     "殖民時期白色建築配彩色陽台（Cartagena、Villa de Leyva）",
-    "紅磚建築在 Bogotá 常見"
+    "紅磚建築在 Bogotá 常見",
+    "<strong>木柵欄</strong>（有時漆色 + 頂部鋒利）— 幾乎 Colombia 獨有"
   ],
   signs: ["西班牙語，有 Ñ"],
-  plates: ["<strong>黃色車牌</strong> — 南美洲獨有", "底部有城市名稱"],
+  plates: [
+    "<strong>黃色車牌</strong> — 南美洲獨有（私家車幾乎全部黃底）",
+    "計程車：淡黃色車身 + <strong>白色車牌</strong>（車牌號印在車頂和側面）+ 城市名稱",
+    "vs Ecuador 計程車：橘色車牌，顏色更深"
+  ],
   unique: [
     "<strong>黃色車牌</strong> — Colombia 最強辨識特徵",
-    "<strong>標誌背面的 Colombia Cross</strong>",
-    "<strong>八角形電線桿</strong> — 拉丁美洲僅 Colombia 和 Mexico 有",
-    "細白色標誌桿",
+    "<strong>路牌背面 Colombia Cross（十字形）</strong>",
+    "<strong>綠色「Pr」公里標</strong> — Colombia 獨有",
+    "<strong>八角形電線桿</strong> + 深色混凝土桿",
+    "<strong>木柵欄</strong>（漆色、頂部鋒利）— 幾乎 Colombia 獨有",
+    "黑色車 + 短粗天線 = 只會是 Colombia",
     "紅色磁磚人行道"
   ],
   tips: [
     "黃色車牌 = Colombia（在南美洲 100% 確認）",
-    "標誌背面的 X 形金屬（Colombia Cross）= Colombia",
+    "路牌背面的白色金屬十字 = Colombia",
+    "綠色「Pr」公里標 = Colombia",
+    "黑色車 + 短粗天線 = Colombia（其他國家短粗天線只在白車上）",
+    "La Guajira 省：極度乾燥 + 低矮植被 + 仙人掌",
+    "Antioquia 桿：2 黑帶 + 1 黃帶",
     "🔗 <a href=\"https://www.google.com/maps/@4.711,-74.0721,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bogota）</a>"
   ]
 },
@@ -5721,49 +5739,71 @@ const COUNTRIES = {
 'peru': {
   name: 'Peru', localName: 'Perú', flag: '🇵🇪', region: 'south-america',
   drivingSide: 'right', tld: '.pe', phoneCode: '+51', language: 'Spanish', currency: 'Sol (PEN)',
-  camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 視角更低、模糊區域更大"],
+  camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 南美僅 Peru 和 Brazil 有"],
   car: [
-    "Gen 3：白色 + 黑色轎車皆有",
+    "Gen 3：白色 + 黑色轎車皆有（南美黑車：Argentina, Uruguay, Peru）",
+    "Gen 3：白色車也有（南美白車：Peru, Bolivia, Chile）",
     "Gen 4：<strong>深灰色轎車</strong>",
     "部分涵蓋有黑色 truck（120 號公路 Yauyos-Cochas 保護區附近）",
-    "無 antenna（與有天線的鄰國不同）"
+    "無 antenna — 與有天線的鄰國（Ecuador, Colombia, Mexico）不同",
+    "⚠️ Peru 有 Gen 4 但 Bolivia 沒有 — 如果看到 Gen 4 品質就排除 Bolivia"
   ],
   roads: [
-    "黃色中心線 + 白色路肩線",
-    "<strong>黑白條紋標誌桿</strong> — 僅 Peru！",
-    "標誌底座在凸起的混凝土塊上"
+    "白色外線<strong>總是存在</strong>；中線為單黃虛或雙黃實（鄉村山路可能無中線）",
+    "⚠️ 南美有僅外線無中線的鄉村山路 — 主要在 Peru（Bolivia 很少見此情況）",
+    "<strong>黑白條紋標誌桿（斑馬配色）</strong> — 南美僅 Peru！（vs Bolivia 白色方桿）",
+    "<strong>路牌底座在凸起的混凝土塊上</strong> — 南美僅 Peru",
+    "護欄<strong>黑黃條紋</strong>：最外側<strong>總是黑色</strong>（vs Bolivia 外側=黃色）",
+    "<strong>混凝土公里標</strong>：黑白配色，進出城市時顯示道路編號",
+    "<strong>橙色橋梁</strong> — Peru 的橋梁通常漆成橙色"
   ],
   bollardInfo: [
-    "「香菸」bollard — 白色圓柱配黑色條紋"
+    "「香菸」bollard — 三稜柱形，<strong>反光板為紅色或黃色</strong>",
+    "也有圓柱形白色配黑色條紋的變體"
   ],
   poleInfo: [
-    "三臂電線桿；下半部塗黑"
+    "混凝土或木質桿，有時有水平橫桿（Argentina 也有）",
+    "<strong>桿底塗漆</strong>：最常見黑色或黑黃色 — 南美獨見於 Peru",
+    "三臂電線桿常見"
   ],
   signInfo: [
     "PARE 停車標誌"
   ],
   landscape: [
     "海岸：沙漠",
-    "高地：2500-4000m 溫帶",
+    "高地：2500-4000m 溫帶，大部分為<strong>半乾旱山脈和山谷</strong>",
     "4000m 以上：稀疏的 Ichu 草",
     "東部：熱帶 Amazon",
+    "<strong>Mototaxis（嘟嘟車）</strong>常見於 Lima, Trujillo, Chiclayo, Piura, Iquitos",
     "殖民時期建築（Cusco、Arequipa 白色火山岩建築）",
-    "Adobe 泥磚建築在鄉村常見"
+    "Adobe 泥磚建築在鄉村常見",
+    "商用車常見寬幅<strong>紅白條紋貼紙</strong>"
   ],
-  signs: ["高地有西班牙語 + Quechua", "常見政治海報"],
-  plates: ["白色（一般）", "黃色（商用）"],
+  signs: ["高地有西班牙語 + Quechua", "常見政治黨派海報和標誌（多黨制）"],
+  plates: [
+    "白色（一般）+ 黃色（商用）",
+    "計程車：白色車牌 + 頂部黃條",
+    "南美洲黃色車牌：Peru + Colombia（Colombia 更普遍）"
+  ],
   unique: [
-    "<strong>黑白條紋標誌桿</strong> — 僅 Peru",
-    "<strong>三臂電線桿</strong>",
-    "<strong>Mototaxis（嘟嘟車）</strong> — 拉丁美洲僅 Peru 有",
+    "<strong>黑白斑馬條紋標誌桿</strong> — 南美僅 Peru",
+    "<strong>路牌底座在混凝土塊上</strong> — 南美僅 Peru",
+    "<strong>桿底塗黑</strong> — 南美獨見於 Peru",
+    "護欄黑黃條紋（外側=黑色，vs Bolivia 外側=黃色）",
+    "<strong>橙色橋梁</strong>",
+    "<strong>Mototaxis（嘟嘟車）</strong>",
+    "Sol 貨幣符號 S/（偶爾可見）",
     "香菸形 bollard",
-    "混凝土底座標誌桿",
-    "<strong>長方形電錶</strong>（非圓形！）— 可快速區分 Peru vs Mexico（Mexico 用圓形電錶）"
+    "<strong>長方形電錶</strong>（vs Mexico 圓形電錶）"
   ],
   tips: [
-    "黑白條紋標誌桿 = Peru（100%）",
+    "黑白斑馬條紋標誌桿 = Peru（100%）",
+    "路牌底座在混凝土塊上 = Peru",
+    "護欄外側黑色 = Peru；外側黃色 = Bolivia",
+    "桿底塗黑 = Peru",
+    "橙色橋梁 = Peru",
     "拉丁美洲的嘟嘟車（mototaxis）= Peru",
-    "下半部塗黑的三臂電線桿 = Peru",
+    "有 Gen 4 覆蓋 = 排除 Bolivia（Bolivia 100% Gen 3）",
     "🔗 <a href=\"https://www.google.com/maps/@-12.0464,-77.0428,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lima）</a>"
   ]
 },
