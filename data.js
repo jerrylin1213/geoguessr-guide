@@ -998,7 +998,11 @@ const COUNTRIES = {
     "Provence 的薰衣草花田",
     "許多地區遍布葡萄園",
     "城堡和石造村莊",
-    "Normandy：半木造房屋、綠色農田"
+    "Normandy：半木造房屋、綠色農田",
+    "城市街牌：<strong>藍色門牌 + 誇張襯線字體</strong> — 法國獨有",
+    "路標高度<strong>異常低矮</strong> — 非常常見",
+    "<strong>Peugeot、Renault、Citroën</strong> 佔車輛約一半",
+    "路邊的<strong>紅白紅矩形標記</strong>（奧地利國旗色） — 法國獨有"
   ],
   signs: [
     "French 語 — 重音符號：é、è、ê、ë、à、â、ç、ù、û、ü、î、ï、ô",
@@ -4352,7 +4356,12 @@ const COUNTRIES = {
     "平坦的中部平原（稻田）",
     "北部為山區",
     "佛教寺廟（wat）配金色尖塔",
-    "南部有海灘"
+    "南部有海灘",
+    "街道兩旁常懸掛<strong>黃色皇家旗幟</strong>和國旗",
+    "<strong>綠色小指示牌</strong>遍布小村莊 — 泰國獨有",
+    "<strong>水泥道路</strong>常見（看起來像方塊拼接）— 菲律賓也有",
+    "路燈柱非常獨特：細長，像掛在桿上",
+    "區號：02=曼谷（唯一 2 位），其他 3 位數按地區排列"
   ],
   signs: [
     "泰文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ถนน กรุงเทพ</span> — 有小圓圈+直線段",
