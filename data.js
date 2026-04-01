@@ -4956,8 +4956,8 @@ const COUNTRIES = {
   name: 'Mexico', localName: 'México', flag: '🇲🇽', region: 'north-america',
   drivingSide: 'right', tld: '.mx', phoneCode: '+52', language: 'Spanish', currency: 'Peso (MXN)',
   camera: [
-    "<strong>74% Gen 3 + 24% Gen 4 + 1.9% Gen 2</strong>（⚠️ 語雀資料顯示可能已更新為 ~54% Gen 3 + ~44% Gen 4）",
-    "是少數有 Gen 2 覆蓋的拉丁美洲國家（Brazil 也有少量但大多已更新）",
+    "<strong>~54% Gen 3 + ~44% Gen 4 + ~2% Gen 2</strong>",
+    "Gen 4 覆蓋持續增加中，Gen 2 極少量（拉丁美洲少數有 Gen 2 的國家）",
     "Oaxaca 的 Gen 3 有獨特的 ground rift"
   ],
   car: [

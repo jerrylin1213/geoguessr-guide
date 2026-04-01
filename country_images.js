@@ -541,9 +541,7 @@ const COUNTRY_IMAGES = {
       'https://geotips.net/wp-content/uploads/2020/12/White-car.jpg',
     ],
     bollards: [
-      'https://d33wubrfki0l68.cloudfront.net/3410ffb87a658b026fe5d00dd4fb76344aa4ba4c/f49be/static/img/places/canada/bollards/bollard_alberta.jpg',
       'https://d33wubrfki0l68.cloudfront.net/43ef361b42fabb12eb5e1e988b1036a8dac4a6dc/18ae3/static/img/places/canada/bollards/canada_total_bollards.png',
-      'https://d33wubrfki0l68.cloudfront.net/d5d566940fd9c3b797ca5cd4c142ab7aa4bb22bc/9a594/static/img/places/canada/bollards/ontario_bollard.png',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/c7e309786988d6c05c902eb9e908beeaa584cecd/671be/static/img/places/canada/scenery/tree_map.jpg',
