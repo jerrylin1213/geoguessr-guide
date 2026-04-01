@@ -4747,12 +4747,11 @@ const COUNTRIES = {
     "全球涵蓋範圍最廣的國家",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~33,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 2/3：白色轎車",
-    "Gen 4：<strong>藍色轎車</strong>",
-    "<strong>三脊天線</strong>（與 NZ, Hawaii, Cambodia 共用）",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 4 為主，Gen 2 罕見（Alaska/Hawaii 例外）",
+      "Gen 3 比 Canada 少見",
+      "Gen 3 側鏡模糊方式與 Canada 不同",
+    ],
   roads: [
     "<strong>雙黃色中心線</strong>（美國最經典的道路特徵）",
     "白色邊線",
@@ -4818,12 +4817,11 @@ const COUNTRIES = {
   name: 'Canada', localName: 'Canada', flag: '🇨🇦', region: 'north-america',
   drivingSide: 'right', tld: '.ca', phoneCode: '+1', language: 'English, French', currency: 'Dollar (CAD)',
   camera: ["<strong>74% Gen 4 + 24% Gen 3 + 2% Gen 2</strong>", "涵蓋範圍集中在美國邊境附近"],
-  car: [
-    "Gen 2/3：白色轎車",
-    "Gen 4：<strong>藍色轎車</strong>",
-    "有天線",
-    "北部有雪地摩托車和 trekker 涵蓋"
-  ],
+    car: [
+      "Gen 2 比 USA 多很多（尤其鄉村/偏遠地區）",
+      "Gen 3 比 USA 常見很多",
+      "Gen 4 有 smallcam 覆蓋",
+    ],
   roads: [
     "雙黃色中心線（但單黃線比 USA 更常見）",
     "白色實線邊線",
@@ -4887,11 +4885,10 @@ const COUNTRIES = {
     "Gen 4 覆蓋持續增加中，Gen 2 極少量（拉丁美洲少數有 Gen 2 的國家）",
     "Oaxaca 的 Gen 3 有獨特的 ground rift"
   ],
-  car: [
-    "Gen 3 有兩種：(1) <strong>短粗天線白車</strong>（天線上有螺旋細線）(2) <strong>無天線白車</strong>（尾部清晰可見，有紅色煞車燈）",
-    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、黑色（前端通常可見）",
-    "短粗天線也見於 Colombia, Ecuador, Brazil — 但 Mexico 用 ALTO（南美用 PARE）"
-  ],
+    car: [
+      "Gen 3：白色車+短粗天線（天線有斜向螺旋）",
+      "Gen 2 覆蓋存在（拉丁美洲少數有 Gen 2 的國家）",
+    ],
   roads: [
     "最常見：<strong>白色邊線 + 單一實黃色中心線</strong>（單黃虛線和雙黃實線也常見）",
     "Topes（<strong>巨大減速丘</strong>）— 非常常見",

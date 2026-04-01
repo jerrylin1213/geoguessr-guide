@@ -1802,6 +1802,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/car-breaklight-mx.png',
+      'https://www.plonkit.net/images/resize/600/80/mexico/mx_gen3car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/dfe21c41e435db70d93b247d629019db934a65e3/3dad5/static/img/places/mexico/bollards/bollard_circular.jpg',
