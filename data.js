@@ -4593,7 +4593,7 @@ const COUNTRIES = {
     "阿拉伯文是草寫／連接的；希伯來文是方塊／分離的",
     "黃色邊線 + 希伯來文 = Israel",
     "三語標誌 = Israel",
-    "🔗 <a href=\"https://www.google.com/maps/@31.7683,35.2137,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jerusalem）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/3ifysWtBgwFTs87CA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jerusalem）</a>"
   ]
 },
 
@@ -4648,7 +4648,7 @@ const COUNTRIES = {
     "阿拉伯文 + 沙漠 + 黃色邊線 = Jordan 或海灣國家",
     "黑色 Google car 有助於縮小範圍",
     "看起來不如海灣國家富裕 = 很可能是 Jordan",
-    "🔗 <a href=\"https://www.google.com/maps/@31.9539,35.9106,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amman）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/HykiPwPywgMknHLe7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amman）</a>"
   ]
 },
 
@@ -4690,7 +4690,7 @@ const COUNTRIES = {
   tips: [
     "阿拉伯文 + 富裕 + 遼闊沙漠 + 指向麥加的標誌 = Saudi Arabia",
     "比 UAE／Qatar 等海灣國家更大更分散",
-    "🔗 <a href=\"https://www.google.com/maps/@24.7136,46.6753,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Riyadh）</a>"
+    "⚠️ 無 Google 官方 Street View — 全為第三方/user upload 覆蓋"
   ]
 },
 
@@ -4757,7 +4757,7 @@ const COUNTRIES = {
     "阿拉伯文 + 英文雙語標牌 + 沙漠 = UAE（Jordan 英文少得多）",
     "Pickup truck 天線在中央 = UAE（Qatar 在左側）",
     "車牌上的酋長國名稱可精確定位",
-    "🔗 <a href=\"https://www.google.com/maps/@25.2048,55.2708,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dubai）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/RxRAa8mVVRLB1evZA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dubai）</a>"
   ]
 },
 
@@ -4802,7 +4802,7 @@ const COUNTRIES = {
   tips: [
     "小型、平坦、富裕的海灣城市 + 阿拉伯文 = 可能是 Qatar",
     "比 UAE 小，比 Oman 平坦",
-    "🔗 <a href=\"https://www.google.com/maps/@25.2854,51.5310,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Doha）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/tw1D7sTF6n4cpXrr6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Doha）</a>"
   ]
 },
 
@@ -8023,7 +8023,7 @@ const COUNTRIES = {
       '清真寺和教堂混合 = 宗教多元 = 可能是 Lebanon',
       '山區的雪松是 Lebanon 的標誌',
       '如果看到阿拉伯文 + 法文 + 地中海海岸線 + 山脈 = Lebanon',
-      "🔗 <a href=\"https://www.google.com/maps/@33.8938,35.5018,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beirut）</a>"
+      "🔗 <a href=\"https://maps.app.goo.gl/R81K71apCtRJ8zdd9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beirut）</a>"
     ]
   },
 
@@ -8108,7 +8108,7 @@ const COUNTRIES = {
       '白色 pickup truck：天線中間 = Oman、天線左前 = Qatar',
       '比 UAE 更傳統/鄉村感 — 更少玻璃摩天大樓',
       '山脈 + 沙漠 + 海岸近距離相鄰 = Oman',
-      "🔗 <a href=\"https://www.google.com/maps/@23.5880,58.3829,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
+      "🔗 <a href=\"https://maps.app.goo.gl/u8Xfm268FYjdoimV9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
     ]
   },
 
@@ -8189,7 +8189,7 @@ const COUNTRIES = {
       '巴勒斯坦地區看起來類似 Israel 但基礎設施維護較少',
       '政治壁畫和塗鴉是巴勒斯坦地區的強力指標',
       '如果以阿拉伯語為主 + 白色車牌 + 丘陵地形 + 橄欖樹 = Palestine',
-      "🔗 <a href=\"https://www.google.com/maps/@31.9038,35.2034,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ramallah）</a>"
+      "🔗 <a href=\"https://maps.app.goo.gl/aFQS4HMjkXpmm4Bz7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ramallah）</a>"
     ]
   },
 
