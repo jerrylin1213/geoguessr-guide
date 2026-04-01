@@ -212,7 +212,7 @@ const COUNTRIES = {
     "<strong>100% Gen 3</strong>範圍最廣",
     "部分區域可見<strong>紅色車 + 長天線</strong>（非常罕見，Ukraine 更常見）",
     "全國覆蓋範圍廣泛",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~8,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~8,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 4 有紅色車+長天線（罕見）",
@@ -424,7 +424,7 @@ const COUNTRIES = {
     "<strong>77% Gen 4 + 23% Gen 3</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "海岸和內陸城市覆蓋良好",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~5,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~5,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 3：車輛模糊中<strong>側鏡部分可見</strong>（非 Croatia 獨有但常見）",
@@ -618,7 +618,7 @@ const COUNTRIES = {
     "<strong>82% Gen 4 + 9% Gen 3 + 9% Gen 2</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車，無天線）",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~2,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~2,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 4：<strong>藍色轎車，無天線</strong>（2019 涵蓋在 Denmark 也相當常見，但不如 Ireland/Norway/Czechia）",
@@ -961,7 +961,7 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.fr', phoneCode: '+33', language: 'French', currency: 'Euro (EUR)',
   camera: [
     "<strong>58.7% Gen 4 + 28.7% Gen 3 + 12.5% Gen 2 + 0.1% Gen 1</strong>",
-    "Gen 4 有「小相機」(low cam) 覆蓋 — 視角更低，打碼為前方帶突起的大圓盤",
+    "Gen 4 有「小相機」(smallcam) 覆蓋 — 視角更低，打碼為前方帶突起的大圓盤",
     "Gen 2 覆蓋（2008-2012）仍存在於部分區域",
     "Gen 1 極少量（僅在最早期覆蓋）"
   ],
@@ -1124,7 +1124,7 @@ const COUNTRIES = {
     "<strong>47% Gen 4 + 32% Gen 3 + 21% Gen 2</strong>",
     "許多 Gen 3 拍攝於秋冬季 — 景觀偏黯淡",
     "Gen 4 覆蓋持續擴展中",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~17,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~17,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 4 有 smallcam 覆蓋",
@@ -1337,7 +1337,7 @@ const COUNTRIES = {
   camera: [
     "<strong>56.9% Gen 4 + 42.5% Gen 3</strong>",
     "Gen 4 覆蓋（藍色車，無天線）",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~7,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~7,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 4 有 smallcam 覆蓋",
@@ -1412,7 +1412,7 @@ const COUNTRIES = {
     "<strong>57.3% Gen 3 + 24.4% Gen 4 + 18.3% Gen 2</strong>",
     "Campione d'Italia 飛地有低相機覆蓋 + 長天線 + 旗幟",
     "Gen 2 仍存在於部分舊覆蓋區域",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 4 有 smallcam 覆蓋",
@@ -1899,7 +1899,7 @@ const COUNTRIES = {
     "Gen 3 天空裂痕非常普遍",
     "Gen 4 覆蓋部分區域（黑色車尾部有時可見模糊故障）",
     "全國覆蓋範圍廣泛",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~6,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~6,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 4：藍色車為主（有/無天線）",
@@ -2676,7 +2676,7 @@ const COUNTRIES = {
   camera: [
     "<strong>43.8% Gen 3 + 41.9% Gen 4 + 14.3% Gen 2</strong>",
     "全境覆蓋範圍廣泛",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~14,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~14,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 3：天線長/短/無三種；車尾可見時為黑色或白色",
@@ -2764,7 +2764,7 @@ const COUNTRIES = {
   camera: [
     "<strong>79% Gen 4 + 18% Gen 3 + 3% Gen 2（多種車色：藍/紅/白）</strong>",
     "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,600 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~1,600 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 3：白色車+長天線",
@@ -2986,7 +2986,7 @@ const COUNTRIES = {
     "<strong>92.4% Gen 3 + 7.6% Gen 4</strong>",
     "Gen 3 覆蓋中街景車從未有天線",
     "西部覆蓋較多，東部較少",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~19,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~19,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 3：<strong>永遠沒有天線</strong>",
@@ -3124,7 +3124,7 @@ const COUNTRIES = {
   camera: [
     "<strong>~61% Gen 4 + ~39% Gen 3</strong>",
     "全境覆蓋範圍廣泛",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~27,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~27,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
     "Gen 4：<strong>藍色轎車</strong>（2023 也有<strong>黑色 + 圓形天線</strong>）",
@@ -4728,7 +4728,7 @@ const COUNTRIES = {
     "<strong>60.1% Gen 4 + 30.4% Gen 3 + 9.4% Gen 2 + 0.1% Gen 1</strong>",
     "Gen 2 在本土十分罕見（Alaska 和 Hawaii 較多）",
     "全球涵蓋範圍最廣的國家",
-    "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~33,000 點位）— 視角更低、模糊區域更大"
+    "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~33,000 點位）— 視角更低、模糊區域更大"
   ],
     car: [
       "Gen 4 為主，Gen 2 罕見（Alaska/Hawaii 例外）",
@@ -5091,7 +5091,7 @@ const COUNTRIES = {
 'puerto-rico': {
   name: 'Puerto Rico', localName: 'Puerto Rico', flag: '🇵🇷', region: 'caribbean',
   drivingSide: 'right', tld: '.pr', phoneCode: '+1-787', language: 'Spanish, English', currency: 'Dollar (USD)',
-  camera: ["<strong>100% Gen 3</strong>", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,400 點位）— 視角更低、模糊區域更大"],
+  camera: ["<strong>100% Gen 3</strong>", "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~1,400 點位）— 視角更低、模糊區域更大"],
   car: [
     "大部分為 <strong>Smallcam（Gen 4 變體）</strong>— 寬模糊 + 天線在右前方",
     "Gen 3：天線在右前方，天線頂端有<strong>白色小點</strong>",
@@ -5385,7 +5385,7 @@ const COUNTRIES = {
 'brazil': {
   name: 'Brazil', localName: 'Brasil', flag: '🇧🇷', region: 'south-america',
   drivingSide: 'right', tld: '.br', phoneCode: '+55', language: 'Portuguese', currency: 'Real (BRL)',
-  camera: ["<strong>88% Gen 4 + 12% Gen 3</strong>", "使用 30 多輛 Fiat Stilo 車；Amazon 地區也用自行車和船", "⚠️ <strong>全球最多 Gen 4 小相機 (smallcam/low cam) 覆蓋（~85,500 點位）</strong> — 視角更低、模糊區域更大"],
+  camera: ["<strong>88% Gen 4 + 12% Gen 3</strong>", "使用 30 多輛 Fiat Stilo 車；Amazon 地區也用自行車和船", "⚠️ <strong>全球最多 Gen 4 小相機 (smallcam) 覆蓋（~85,500 點位）</strong> — 視角更低、模糊區域更大"],
     car: [
       "Gen 3：<strong>白色車</strong>，兩種 — (1) 短粗天線帶斜向螺旋 (2) 無天線",
     ],
@@ -5789,7 +5789,7 @@ const COUNTRIES = {
 'peru': {
   name: 'Peru', localName: 'Perú', flag: '🇵🇪', region: 'south-america',
   drivingSide: 'right', tld: '.pe', phoneCode: '+51', language: 'Spanish', currency: 'Sol (PEN)',
-  camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 南美僅 Peru 和 Brazil 有"],
+  camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~3,000 點位）— 南美僅 Peru 和 Brazil 有"],
     car: [
       "Gen 3：<strong>黑色或白色車</strong>",
       "南美黑色車：僅 Peru/Argentina/Uruguay",
@@ -6000,7 +6000,7 @@ const COUNTRIES = {
 'south-africa': {
   name: 'South Africa', localName: 'South Africa', flag: '🇿🇦', region: 'africa',
   drivingSide: 'left', tld: '.za', phoneCode: '+27', language: 'English, Afrikaans, Zulu + 8 others', currency: 'Rand (ZAR)',
-  camera: ["<strong>86% Gen 4 + 8% Gen 2 + 6% Gen 3</strong>", "覆蓋範圍廣泛", "<strong>Gen 2 在非洲大陸僅 South Africa 有</strong>（天空和腳下有巨大圓形光暈）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"],
+  camera: ["<strong>86% Gen 4 + 8% Gen 2 + 6% Gen 3</strong>", "覆蓋範圍廣泛", "<strong>Gen 2 在非洲大陸僅 South Africa 有</strong>（天空和腳下有巨大圓形光暈）", "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"],
     car: [
       "Gen 4：<strong>藍色車 + 短天線</strong>（天線有時被模糊隱藏）",
       "Gen 4 也有 smallcam 覆蓋（較低安裝、大圓形模糊）",
