@@ -91,7 +91,7 @@
     'luxembourg': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // Gen 2/3 black car countries
     'isle-of-man': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
-    'taiwan': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
+    'taiwan': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     // Black car with antenna
     'tunisia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     'palestine': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',

@@ -4320,9 +4320,8 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.tw', phoneCode: '+886', language: 'Chinese (Mandarin)', currency: 'New Taiwan Dollar (TWD)',
   camera: ["<strong>76% Gen 4 + 24% Gen 3 + 1% Gen 2</strong>", "全島涵蓋良好，三種世代都有"],
   car: [
-    "<strong>黑色轎車</strong>為主（部分覆蓋也有白色）",
-    "靠右行駛",
-    "無特殊天線或 roof rack"
+    "Gen 3：<strong>黑色車 + 長天線 + 紅色剎車燈</strong>（類似 Russia 車型）",
+    "也有大模糊覆蓋整車的變體（看起來像 low-cam）"
   ],
   roads: [
     "<strong>黃色中心線 + 白色實線邊線</strong>，快慢車道分隔線",
