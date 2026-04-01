@@ -2247,11 +2247,9 @@ const COUNTRIES = {
     "全國覆蓋良好",
     "Gen 4 有「小相機」低角度覆蓋 — 大圓形打碼前部突出"
   ],
-  car: [
-    "Gen 3：白色轎車，標準歐洲配置",
-    "Gen 4：標準配置",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "Gen 4 有 smallcam 覆蓋",
+    ],
   roads: [
     "右側行駛",
     "白色中心線",
@@ -11018,11 +11016,11 @@ const COUNTRIES = {
     "Faial 島有 trekker 覆蓋（火山口邊緣步行）",
     "少量 trekker 覆蓋（~0.1%）"
   ],
-  car: [
-    "Gen 3：標準白色轎車",
-    "Gen 4：標準配置，僅 São Miguel",
-    "Faial 島：trekker 沿火山口邊緣"
-  ],
+    car: [
+      "São Miguel 島有 Gen 4 覆蓋",
+      "São Miguel 和 Faial 島有 <strong>shitcam</strong>",
+      "Faial 島有火山口 trekker",
+    ],
   roads: [
     "右側行駛",
     "葡萄牙式道路基礎設施（電線桿、轉向標、路桩）",
@@ -11076,11 +11074,9 @@ const COUNTRIES = {
     "Shitcam 覆蓋中常見未模糊的白色後車",
     "正常題庫不會包含 shitcam，但需有印象以防意外"
   ],
-  car: [
-    "Gen 3/4：標準配置",
-    "Shitcam：低畫質，寬圓形打碼，畫面陰暗",
-    "Shitcam 中白色後車後端未模糊"
-  ],
+    car: [
+      "全部為<strong>shitcam（低品質覆蓋）</strong>— 寬圓形車輛模糊",
+    ],
   roads: [
     "右側行駛",
     "葡萄牙式道路基礎設施（電線桿、轉向標）",
@@ -11143,12 +11139,11 @@ const COUNTRIES = {
     "Gen 2 覆蓋在美國其他州稀少，但 Hawaii 有相當數量",
     "Gen 2 多在鄉村小道上"
   ],
-  car: [
-    "大島、Maui、O'ahu 的小相機：<strong>黑色街景車</strong>，引擎蓋和後視鏡常未模糊",
-    "Kaua'i、Moloka'i、Lana'i 的小相機：<strong>白色街景車</strong>",
-    "Gen 3：可見<strong>短粗天線</strong>（不一定總能看到）",
-    "Gen 2：低畫質，上下方有圓形模糊"
-  ],
+    car: [
+      "Gen 4 有大量 <strong>smallcam</strong> 覆蓋",
+      "Gen 3：大部分有<strong>短粗天線</strong>（不一定看得到）",
+      "Gen 2 比其他州多（尤其鄉村路）",
+    ],
   roads: [
     "右側行駛（美國州）",
     "美式道路基礎設施和路標",
@@ -11215,13 +11210,11 @@ const COUNTRIES = {
     "有相當數量的 Gen 2 覆蓋（美國其他州稀少）",
     "部分 trekker 覆蓋（Nome、Unalakleet、Galena 等偏遠小鎮）"
   ],
-  car: [
-    "Gen 4：標準配置，集中 Anchorage 區域",
-    "Gen 2：低畫質，部分道路大霧或下雨",
-    "Shitcam：畫質低，底部巨大打碼 — Alaska 標誌性相機",
-    "Trekker：可見淡綠色帽子或黑白無檐帽 — Nome/Unalakleet/Galena",
-    "Nome 的 trekker 特有黑白色印花大圍巾"
-  ],
+    car: [
+      "Gen 4：集中 Anchorage，也有 smallcam 覆蓋",
+      "Gen 2 比美國其他州多很多",
+      "<strong>Shitcam</strong> — 美國唯一有大量 shitcam 的州",
+    ],
   roads: [
     "右側行駛（美國州）",
     "美式道路基礎設施和路標",

@@ -3570,6 +3570,8 @@ const COUNTRY_IMAGES = {
   'alaska': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/e/e4/Alaska_2020_License_Plate.jpg',
+      'https://www.plonkit.net/images/resize/600/80/hawaii/hawaii_blackcar.png',
+      'https://www.plonkit.net/images/resize/600/80/hawaii/hawaii_whitecar.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3577,6 +3579,8 @@ const COUNTRY_IMAGES = {
   'azores': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/c/ce/Azores_Islands_tractor_plate.jpg',
+      'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
+      'https://www.plonkit.net/images/resize/600/80/alaska/ak_shitcam.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3584,6 +3588,7 @@ const COUNTRY_IMAGES = {
   'madeira': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2015_Madeira_Samsung_%288%29.jpg/960px-2015_Madeira_Samsung_%288%29.jpg',
+      'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
