@@ -1597,6 +1597,8 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/lebanon/lb_shitcam.png',
+      'https://www.plonkit.net/images/resize/600/80/lebanon/lb_trekker.png',
     ],
     bollards: [
     ],
@@ -2229,6 +2231,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/qatar/Qatar_cars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/qatar.jpg',
@@ -3496,6 +3499,8 @@ const COUNTRY_IMAGES = {
   'falkland-islands': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Falkland_Islands_number_plate_%28private_car%29.jpg/960px-Falkland_Islands_number_plate_%28private_car%29.jpg',
+      'https://www.plonkit.net/images/resize/600/80/israel-west-bank/ps_followcarwhite.png',
+      'https://www.plonkit.net/images/resize/600/80/israel-west-bank/ps_followcarbigwhite.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
