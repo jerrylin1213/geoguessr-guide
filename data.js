@@ -8039,16 +8039,16 @@ const COUNTRIES = {
     language: 'Arabic',
     currency: 'Omani Rial (OMR)',
     camera: [
-      "<strong>100% Gen 4 Trekker（白色 pickup truck）</strong>",
+      "<strong>100% Gen 4（Trekker 相機安裝在 pickup truck 上）</strong>",
       "2024 年新增覆蓋（2024 年 2-9 月拍攝），Oman 是中東第 7 個加入 Street View 的國家",
       "Phase 1：Muscat、Sohar、Salalah（~36,000 km）；Phase 2：其餘地區（總計 ~63,000 km）",
       'Salalah 地區有獨立覆蓋且景觀獨特（綠色季風景觀）',
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
-    "<strong>白色 pickup truck</strong>（2024 新覆蓋）",
-    "車身打碼程度和天線配置與 Qatar 類似",
-    "vs Qatar：兩者都是白色 truck — 需靠語言/路標區分（Oman 阿拉伯語+英語路標，Qatar 較少英語）"
+    "<strong>白色 pickup truck</strong>（Trekker 相機安裝在車上，2024 新覆蓋）",
+    "vs Qatar：兩者都是白色 truck — 靠車牌區分最可靠（Oman 黃色、Qatar 白色/栗色）",
+    "vs UAE：UAE 用轎車，Oman 用 truck"
   ],
     roads: [
     "白色中心線",
@@ -8092,7 +8092,7 @@ const COUNTRIES = {
     ],
     unique: [
       '黃色車牌 — 在海灣地區罕見（UAE 白色、Qatar 白色/栗色）',
-      '白色 pickup truck + 天線在中間（vs Qatar 天線在左前方；vs UAE 用轎車）',
+      '白色 pickup truck（vs Qatar 也是 truck 但車牌不同；vs UAE 用轎車）',
       'bollard 很罕見 — 其缺失有助於辨識 Oman',
       'Jebel Shams「大峽谷」是獨特景觀',
       'Salalah 的綠色季風景觀在阿拉伯半島獨一無二',
@@ -8103,10 +8103,10 @@ const COUNTRIES = {
     tips: [
       '海灣地區黃色車牌 = Oman（UAE = 白色、Qatar = 白色/栗色）',
       'Oman vs UAE：pickup truck（OM）vs 轎車（UAE）；黃色車牌（OM）vs 白色車牌（UAE）',
-      'Oman vs Qatar：天線在中間（OM）vs 天線在左前方（QA）；黃色車牌（OM）vs 白色/栗色車牌（QA）；山地（OM）vs 平坦（QA）',
+      'Oman vs Qatar：黃色車牌（OM）vs 白色/栗色車牌（QA）；山地（OM）vs 平坦（QA）',
       'bollard 罕見 — 如果看到中東 + 無 bollard = 可能是 Oman',
       'Salalah 覆蓋綠意盎然（季風季節）— 在阿拉伯半島很不尋常',
-      '白色 pickup truck + 天線在中間 = Oman（vs Qatar 天線在左前方，vs UAE 轎車）',
+      '白色 pickup truck = Oman 或 Qatar — 靠黃色車牌確認 Oman',
       '比 UAE 更傳統/鄉村感 — 更少玻璃摩天大樓',
       '山脈 + 沙漠 + 海岸近距離相鄰 = Oman',
       "🔗 <a href=\"https://www.google.com/maps/@23.5880,58.3829,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
