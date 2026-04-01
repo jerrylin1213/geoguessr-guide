@@ -1483,10 +1483,9 @@ const COUNTRIES = {
   name: 'Kosovo', localName: 'Kosova / Косово', flag: '🇽🇰', region: 'europe',
   drivingSide: 'right', tld: '.xk', phoneCode: '+383', language: 'Albanian, Serbian', currency: 'Euro (EUR)',
   camera: ["<strong>100% Gen 3</strong>（覆蓋有限）", "主要道路覆蓋持續擴展"],
-  car: [
-    "Gen 3：白色轎車",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "白色中心線（歐洲標準）",
     "右側行駛",
@@ -1699,11 +1698,9 @@ const COUNTRIES = {
   name: 'Malta', localName: 'Malta', flag: '🇲🇹', region: 'europe',
   drivingSide: 'left', tld: '.mt', phoneCode: '+356', language: 'Maltese, English', currency: 'Euro (EUR)',
   camera: ["<strong>72.7% Gen 3 + 27.3% Gen 2</strong>", "以小面積來說覆蓋良好"],
-  car: [
-    "Gen 3：標準轎車",
-    "靠左行駛（英國殖民遺產）",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "<strong>左側行駛</strong>（英國殖民遺產）",
     "狹窄城鎮街道",
@@ -1748,10 +1745,9 @@ const COUNTRIES = {
   name: 'Moldova', localName: 'Moldova', flag: '🇲🇩', region: 'europe',
   drivingSide: 'right', tld: '.md', phoneCode: '+373', language: 'Romanian', currency: 'Leu (MDL)',
   camera: ["<strong>100% Gen 3</strong>（覆蓋主要道路）", "與 Romania 相比覆蓋有限"],
-  car: [
-    "Gen 3：白色轎車",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "右側行駛",
     "許多路面品質差",
@@ -1798,10 +1794,9 @@ const COUNTRIES = {
   name: 'Monaco', localName: 'Monaco', flag: '🇲🇨', region: 'europe',
   drivingSide: 'right', tld: '.mc', phoneCode: '+377', language: 'French', currency: 'Euro (EUR)',
   camera: ["<strong>55.9% Gen 2 + 44.1% Gen 3</strong>", "港灣有 Gen 3 trekker — 競技常見"],
-  car: [
-    "標準轎車（涵蓋極少）",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "白色中心線（歐洲標準）",
     "右側行駛",
@@ -1840,13 +1835,10 @@ const COUNTRIES = {
   name: 'Montenegro', localName: 'Crna Gora', flag: '🇲🇪', region: 'europe',
   drivingSide: 'right', tld: '.me', phoneCode: '+382', language: 'Montenegrin', currency: 'Euro (EUR)',
   camera: ["<strong>100% Gen 3</strong>", "主要路線覆蓋尚可"],
-  car: [
-    "Gen 3：白色轎車",
-    "護柱有<strong>黑帽</strong>（類似 Austrian 風格）",
-    "無特殊車輛辨識特徵"
-  ,
-    "<strong>裂紋(rift)分佈</strong>：內陸有、沿海無；<strong>短天線=沿海、長天線=內陸</strong>"
-  ],
+    car: [
+      "Gen 3：天空裂紋（rifts）區域有分佈規律",
+      "海岸地區通常無裂紋",
+    ],
   roads: [
     "白色中心線和邊線",
     "右側行駛",
@@ -2471,15 +2463,9 @@ const COUNTRIES = {
   name: 'San Marino', localName: 'San Marino', flag: '🇸🇲', region: 'europe',
   drivingSide: 'right', tld: '.sm', phoneCode: '+378', language: 'Italian', currency: 'Euro (EUR)',
   camera: ["<strong>66.6% Gen 3 + 32.3% Gen 4 + 1.1% Gen 2</strong>"],
-  car: ["標準車輛"],
-  roads: ["義大利風格道路", "山路（Titano 山）"],
-  landscape: [
-    "<strong>巨神峰（Monte Titano）</strong>非常高大，全國各地幾乎都能看見",
-    "山上三座塔是確認標誌",
-    "景觀為平緩農業小丘 + 蜿蜒道路 + 地中海植被",
-    "被 Italy 包圍的山頂微型國家",
-    "中世紀防禦工事"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   signs: ["Italian 語"],
   signInfo: [
     "誘導標：<strong>黃底深紅箭頭</strong> — 全球唯一使用此配色",
@@ -3894,11 +3880,10 @@ const COUNTRIES = {
     "<strong>67.3% Gen 3 + 32.6% Gen 4 + 0.1% Gen 2</strong>",
     "涵蓋良好"
   ],
-  car: [
-    "Gen 3/4：白色轎車",
-    "靠左行駛（與 Singapore, Indonesia 相同）",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "Gen 4 Borneo 有黑色貼紙",
+      "Gunung Mulu 國家公園：獨特灰色車+長前天線",
+    ],
   roads: [
     "<strong>左側行駛</strong>",
     "<strong>雙白色中心線</strong>常見 — 東南亞唯一使用雙白中線的國家",
@@ -4141,11 +4126,9 @@ const COUNTRIES = {
   name: 'Singapore', localName: 'Singapura', flag: '🇸🇬', region: 'asia',
   drivingSide: 'left', tld: '.sg', phoneCode: '+65', language: 'English, Malay, Chinese, Tamil', currency: 'Dollar (SGD)',
   camera: ["<strong>92% Gen 4 + 7% Gen 3 + 1% Gen 2</strong>", "涵蓋極佳 — 小型城市國家"],
-  car: [
-    "標準白色轎車",
-    "靠左行駛",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "Gen 3 Pulau Ubin 島有 trekker（迷彩帽可見）",
+    ],
   roads: [
     "白色虛線中心線 + 白色實線邊線",
     "左側行駛",
@@ -6386,11 +6369,9 @@ const COUNTRIES = {
   name: 'Morocco', localName: 'المغرب', flag: '🇲🇦', region: 'africa',
   drivingSide: 'right', tld: '.ma', phoneCode: '+212', language: 'Arabic, French, Berber', currency: 'Dirham (MAD)',
   camera: ["<strong>100% Gen 3</strong>（主要道路覆蓋良好）", "主要道路覆蓋良好"],
-  car: [
-    "Gen 3：標準白色轎車",
-    "法國風格的道路基礎設施",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "白色中心線",
     "右側行駛",
@@ -6531,10 +6512,9 @@ const COUNTRIES = {
   name: 'Ethiopia', localName: 'ኢትዮጵያ', flag: '🇪🇹', region: 'africa',
   drivingSide: 'right', tld: '.et', phoneCode: '+251', language: 'Amharic', currency: 'Birr (ETB)',
   camera: ["<strong>100% Trekker/Shitcam</strong>（覆蓋極有限）", "緩慢擴展中"],
-  car: [
-    "無標準 Google 街景車 — 全為 trekker",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "無已驗證的 car meta 資料",
+    ],
   roads: [
     "右側行駛",
     "路面品質多處不佳",
@@ -6788,13 +6768,11 @@ const COUNTRIES = {
     "各州拍攝年份不同 — 可用於區域判斷",
     "南半球覆蓋最廣的國家"
   ],
-  car: [
-    "Gen 1/3：有天線",
-    "Gen 4：<strong>無特殊辨識特徵</strong>（無天線）",
-    "Gen 2：標準白色轎車",
-    "靠左行駛",
-    "Gen 4 車輛缺乏顯著特徵，難以單靠 car meta 辨識"
-  ],
+    car: [
+      "Gen 3：<strong>長天線</strong>可見",
+      "多個國家公園有獨特 snorkel 車（灰/黑色）",
+      "Gen 1 和 Gen 2 在小路/鄉村路常見",
+    ],
   roads: [
     "<strong>左側行駛</strong>",
     "<strong>幾乎只用白色公路標線</strong>（某些高山地區例外如 Mount Kosciuszko 附近可見全黃線）",
@@ -7017,9 +6995,7 @@ const COUNTRIES = {
       '覆蓋極為有限 — Pakistan 在 GeoGuessr 中非常罕見'
     ],
     car: [
-      '非標準車輛 — 全為 Trekker 涵蓋（人背負相機）',
-      '向下看可見人的輪廓',
-      '無 follow car meta'
+      "全部為 Gen 3 <strong>trekker</strong> — 無街景車",
     ],
     roads: [
     '覆蓋主要在歷史古蹟，而非道路',
@@ -7096,9 +7072,7 @@ const COUNTRIES = {
       '覆蓋範圍遠少於鄰國 Malaysia'
     ],
     car: [
-      'Gen 3：標準白色轎車',
-      '靠左行駛（與 Malaysia 相同）',
-      '無特殊 car meta'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '道路維護良好，標線清楚',
@@ -7355,12 +7329,7 @@ const COUNTRIES = {
       '有新增覆蓋但仍非常有限'
     ],
     car: [
-      '無特殊 Google 街景車 meta',
-      '部分地點有 Trekker 步行覆蓋',
-      '跟拍車輛通常是老舊破損的汽車',
-      '部分覆蓋中可見聯合國車輛',
-      '混合日本舊車和印尼車輛',
-      '機車常見'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '道路品質普遍差 — 許多未鋪面道路',
@@ -7524,8 +7493,7 @@ const COUNTRIES = {
       '部分賭場和地標有 Trekker 覆蓋'
     ],
     car: [
-      '非標準車輛或 Trekker 涵蓋',
-      '無特殊 Google car meta'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '柏油和混凝土路面，全白線或白色中線搭配黃色路肩',
@@ -7771,8 +7739,7 @@ const COUNTRIES = {
       '在 GeoGuessr 中相對罕見的國家'
     ],
     car: [
-      '標準涵蓋（有限涵蓋區域）',
-      '無特殊 Google 車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       "白色中心線",
@@ -8108,9 +8075,7 @@ const COUNTRIES = {
       '城市地區有部分 Mapillary 風格的非正式覆蓋'
     ],
     car: [
-      '因官方覆蓋有限，無獨特 Google car meta',
-      '第三方覆蓋車輛各異',
-      '出現官方覆蓋時，為標準白色轎車，無顯著特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '黃色中線搭配白色路肩線（有標線時）',
@@ -8186,8 +8151,7 @@ const COUNTRIES = {
       '覆蓋稀疏使 Honduras 在標準 GeoGuessr 中相對罕見'
     ],
     car: [
-      '涵蓋有限，無特殊 Google car meta',
-      '標準白色轎車（有涵蓋時）'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '黃色中線搭配白色路肩標線（有標線時）',
@@ -8262,8 +8226,7 @@ const COUNTRIES = {
       '旅遊區有部分 trekker 覆蓋（Granada、Leon）'
     ],
     car: [
-      '涵蓋有限，無特殊 Google car meta',
-      '第三方涵蓋車輛外觀各異'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '黃色中線搭配白色路肩線（有標線時）',
@@ -8338,8 +8301,7 @@ const COUNTRIES = {
       '非正式、非標準化影像使 Cuba 非常有辨識度'
     ],
     car: [
-      '無 Google car meta — 全為第三方涵蓋',
-      '涵蓋來自各種車型：汽車、機車、自行車'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '道路基礎設施普遍差且破碎',
@@ -8413,9 +8375,7 @@ const COUNTRIES = {
       '旅遊景點有部分 trekker 覆蓋'
     ],
     car: [
-      'Gen 3：白色轎車',
-      '靠左行駛',
-      '無特殊 antenna、bars 或側鏡特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '靠左行駛 — 少數靠左行駛的加勒比國家之一',
@@ -8489,10 +8449,7 @@ const COUNTRIES = {
       'Port of Spain 及周邊地區的主要公路和城市區域已覆蓋'
     ],
     car: [
-      '大部分覆蓋使用白色相機車',
-      '無獨特的天線、bars 或側鏡特徵',
-      '可見靠左行駛的車輛',
-      '當地汽車方向盤在右側'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '靠左行駛 — 像 Jamaica 和英國一樣靠左',
@@ -8641,9 +8598,7 @@ const COUNTRIES = {
       '部分覆蓋中有獨特 Google 車的報告但可用性有限'
     ],
     car: [
-      '涵蓋有限，無一致的 Google 車輛 meta',
-      '第三方涵蓋使用各種車型',
-      '無可靠的 car meta 辨識'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
     '有標線處為黃色中線和白色外線',
@@ -8881,9 +8836,7 @@ const COUNTRIES = {
       '使用標準 Google 相機車',
     ],
     car: [
-      'Gen 3：標準轎車',
-      '靠左行駛（英國殖民遺產）',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'M 編號高速公路和 A/B 編號主要道路',
@@ -8958,9 +8911,7 @@ const COUNTRIES = {
       '品質因覆蓋來源而異',
     ],
     car: [
-      '涵蓋來源多樣',
-      '靠左行駛',
-      '無特殊 Google car meta'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'EN 編號國道（Estrada Nacional）：EN1 是主要南北公路',
@@ -9036,9 +8987,7 @@ const COUNTRIES = {
       '影像品質普遍低於鄰國',
     ],
     car: [
-      '標準轎車',
-      '靠左行駛',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'M 編號主要道路和 S 編號次要道路',
@@ -9113,9 +9062,7 @@ const COUNTRIES = {
       '品質因地區而異',
     ],
     car: [
-      '標準轎車',
-      '靠左行駛',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'T 編號幹道和 M 編號主要道路',
@@ -9193,9 +9140,7 @@ const COUNTRIES = {
       '覆蓋比 South Africa 稀疏',
     ],
     car: [
-      '標準轎車',
-      '靠左行駛',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'A 編號道路（A1-A9 等）為主要路線和省道',
@@ -9272,10 +9217,7 @@ const COUNTRIES = {
       '非洲覆蓋最少的大國之一',
     ],
     car: [
-      '無標準 Google 街景車 meta',
-      '各種社群貢獻車輛',
-      'Trekker coverage in some areas',
-      '無一致的 snorkel、膠帶或跟拍車',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '理論上有 RN 編號國道（Route Nationale），但標誌罕見',
@@ -9351,10 +9293,7 @@ const COUNTRIES = {
       'Quality varies significantly',
     ],
     car: [
-      '無標準 Google 街景車 meta',
-      '各種來源的社群貢獻覆蓋',
-      '無一致可辨識的車輛特徵',
-      '有覆蓋的地方為 Trekker',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RN 編號國道（Route Nationale）',
@@ -9424,8 +9363,7 @@ const COUNTRIES = {
       '有官方覆蓋的地方為 Gen 3',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'N 編號國道和省道',
@@ -9501,10 +9439,7 @@ const COUNTRIES = {
       '部分 trekker 覆蓋 at notable sites',
     ],
     car: [
-      '無標準 Google 街景車 meta',
-      '各種社群貢獻車輛',
-      '無一致的 snorkel、膠帶或跟拍車',
-      '覆蓋來自多個來源',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'A 編號高速公路和國道',
@@ -9579,10 +9514,7 @@ const COUNTRIES = {
       '覆蓋品質不一',
     ],
     car: [
-      '無標準 Google 街景車 meta',
-      '各種來源的社群貢獻覆蓋',
-      '無一致可辨識的特徵',
-      '有覆蓋的地方為 Trekker',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RN 編號國道（Route Nationale）',
@@ -9729,8 +9661,7 @@ const COUNTRIES = {
       '品質因來源而異',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RN 編號國道（Route Nationale）',
@@ -9804,10 +9735,7 @@ const COUNTRIES = {
       '覆蓋品質差異顯著',
     ],
     car: [
-      '無標準 Google 街景車 meta',
-      '各種來源的社群貢獻覆蓋',
-      '無一致可辨識的特徵',
-      'No follow car, snorkel, or tape',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '有道路編號系統但標誌有限',
@@ -9879,8 +9807,7 @@ const COUNTRIES = {
       'Quality varies',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RN 編號國道',
@@ -9951,8 +9878,7 @@ const COUNTRIES = {
       '非洲覆蓋最少的國家之一',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RN 編號路線',
@@ -10026,9 +9952,7 @@ const COUNTRIES = {
       '世界地圖上出生點非常少',
     ],
     car: [
-      '無標準 Google 車覆蓋',
-      '僅有社群貢獻/trekker 覆蓋',
-      '無可辨識的 car meta',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '鋪面道路基礎設施非常有限',
@@ -10099,8 +10023,7 @@ const COUNTRIES = {
       '覆蓋品質不一',
     ],
     car: [
-      '標準轎車',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '連接 Khartoum 到 Port Sudan 和其他城市的主要公路',
@@ -10175,9 +10098,7 @@ const COUNTRIES = {
       '覆蓋密度低於 Australia/NZ',
     ],
     car: [
-      '標準轎車',
-      '靠左行駛',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'Kings Road 和 Queens Road 環繞 Viti Levu 島',
@@ -10253,10 +10174,7 @@ const COUNTRIES = {
       '大部分覆蓋為非官方/社群貢獻',
     ],
     car: [
-      '無標準 Google 街景車',
-      '各種車輛的社群貢獻覆蓋',
-      '步道上有 Trekker 覆蓋',
-      '無一致的 car meta',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'Highland Highway 連接主要高地城鎮',
@@ -10476,10 +10394,7 @@ const COUNTRIES = {
       'Quality varies significantly',
     ],
     car: [
-      '無標準 Google 街景車',
-      '各種來源的社群貢獻覆蓋',
-      '無一致的 car meta',
-      '部分地點有 Trekker',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       'RT 編號領地路線（Route Territoriale）',
@@ -10553,9 +10468,7 @@ const COUNTRIES = {
       '覆蓋集中在沿海環島道路',
     ],
     car: [
-      '靠左行駛',
-      '標準轎車或 trekker 涵蓋',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '主要道路沿海岸環繞每座島嶼',
@@ -10628,10 +10541,7 @@ const COUNTRIES = {
       '覆蓋品質不一',
     ],
     car: [
-      '無標準 Google 街景車',
-      '各種來源的社群貢獻覆蓋',
-      '無一致的 car meta',
-      '部分地點有 Trekker',
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '靠左行駛',
@@ -10778,9 +10688,7 @@ const COUNTRIES = {
       '品質不一',
     ],
     car: [
-      '標準轎車或 trekker 涵蓋',
-      '靠左行駛',
-      '無特殊車輛辨識特徵'
+      "無已驗證的 car meta 資料",
     ],
     roads: [
       '靠左行駛',
