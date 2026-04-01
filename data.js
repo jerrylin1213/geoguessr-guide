@@ -4767,10 +4767,10 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.qa', phoneCode: '+974', language: 'Arabic', currency: 'Riyal (QAR)',
   camera: ["<strong>100% Gen 4</strong>", "多哈地區涵蓋良好"],
   car: [
-    "<strong>白色 pickup truck</strong>，通常嚴重打碼",
-    "天線可見可不見（有 snorkel / antenna / 兩者都有 / 都沒有）",
-    "vs Oman：也是白色 truck，天線配置類似",
-    "vs UAE：UAE 用轎車，Qatar 用 truck — 車型差異是最可靠區分"
+    "<strong>白色 pickup truck</strong>，天線在<strong>左前方</strong>，通常嚴重打碼",
+    "有時整台白色 truck 可見",
+    "vs Oman：<strong>Qatar 天線在左前方、Oman 天線在中間</strong> — 天線位置是最可靠區分",
+    "vs UAE：UAE 用轎車，Qatar 用 truck"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
@@ -8046,8 +8046,8 @@ const COUNTRIES = {
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
-    "<strong>白色 pickup truck</strong>（Trekker 相機安裝在車上，2024 新覆蓋）",
-    "vs Qatar：兩者都是白色 truck — 靠車牌區分最可靠（Oman 黃色、Qatar 白色/栗色）",
+    "<strong>白色 pickup truck</strong>，天線在<strong>中間</strong>（Trekker 相機安裝在車上，2024 新覆蓋）",
+    "vs Qatar：兩者都是白色 truck，但 <strong>Oman 天線在中間、Qatar 天線在左前方</strong>",
     "vs UAE：UAE 用轎車，Oman 用 truck"
   ],
     roads: [
@@ -8092,7 +8092,7 @@ const COUNTRIES = {
     ],
     unique: [
       '黃色車牌 — 在海灣地區罕見（UAE 白色、Qatar 白色/栗色）',
-      '白色 pickup truck（vs Qatar 也是 truck 但車牌不同；vs UAE 用轎車）',
+      '白色 pickup truck + <strong>天線在中間</strong>（vs Qatar 天線在左前方；vs UAE 用轎車）',
       'bollard 很罕見 — 其缺失有助於辨識 Oman',
       'Jebel Shams「大峽谷」是獨特景觀',
       'Salalah 的綠色季風景觀在阿拉伯半島獨一無二',
@@ -8103,10 +8103,10 @@ const COUNTRIES = {
     tips: [
       '海灣地區黃色車牌 = Oman（UAE = 白色、Qatar = 白色/栗色）',
       'Oman vs UAE：pickup truck（OM）vs 轎車（UAE）；黃色車牌（OM）vs 白色車牌（UAE）',
-      'Oman vs Qatar：黃色車牌（OM）vs 白色/栗色車牌（QA）；山地（OM）vs 平坦（QA）',
+      'Oman vs Qatar：<strong>天線在中間（OM）vs 天線在左前方（QA）</strong>；黃色車牌（OM）vs 白色/栗色（QA）；山地（OM）vs 平坦（QA）',
       'bollard 罕見 — 如果看到中東 + 無 bollard = 可能是 Oman',
       'Salalah 覆蓋綠意盎然（季風季節）— 在阿拉伯半島很不尋常',
-      '白色 pickup truck = Oman 或 Qatar — 靠黃色車牌確認 Oman',
+      '白色 pickup truck：天線中間 = Oman、天線左前 = Qatar',
       '比 UAE 更傳統/鄉村感 — 更少玻璃摩天大樓',
       '山脈 + 沙漠 + 海岸近距離相鄰 = Oman',
       "🔗 <a href=\"https://www.google.com/maps/@23.5880,58.3829,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
