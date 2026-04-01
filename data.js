@@ -3443,14 +3443,11 @@ const COUNTRIES = {
     "覆蓋持續擴展中",
     "部分區域覆蓋品質較低"
   ],
-  car: [
-    "<strong>Gen 3 有三種街景車</strong>：支架紅鏡、經典白、條紋白",
-    "⚠️ <strong>支架紅鏡</strong>和<strong>條紋白</strong>為 Bangladesh 獨有",
-    "注意：Cambodia 也有高度相似的條紋白車，需要區分",
-    "Gen 4 有黑車和白車兩種",
-    "也有 shitcam（畫質極差的第三方覆蓋）",
-    "部分地區使用人力車/船隻拍攝"
-  ],
+    car: [
+      "Gen 3：三種車 — <strong>紅鏡+bars</strong>（獨有）、白色、<strong>條紋白色</strong>（獨有，vs Cambodia 條紋不同）",
+      "Gen 4：黑色車和白色車",
+      "也有 shitcam 覆蓋（黑色/白色車）",
+    ],
   roads: [
     "白色中心線（有時為黃色），路標杆黑白條紋",
     "左側通行",
@@ -3499,11 +3496,11 @@ const COUNTRIES = {
   name: 'Bhutan', localName: 'འབྲུག་ཡུལ', flag: '🇧🇹', region: 'asia',
   drivingSide: 'left', tld: '.bt', phoneCode: '+975', language: 'Dzongkha', currency: 'Ngultrum (BTN)',
   camera: ["<strong>100% Trekker</strong>（涵蓋極有限）", "部分地區有 trekker 涵蓋"],
-  car: [
-    "涵蓋極為有限 — 大部分為 trekker",
-    "無標準 Google 車輛辨識特徵",
-    "靠左行駛"
-  ],
+    car: [
+      "Gen 3：<strong>灰色車，無天線</strong>",
+      "唯一靠左行駛且有灰色車的國家",
+      "Haa District：車後方可見<strong>掛鉤</strong>",
+    ],
   roads: [
     "白色或黃色中心線（標線不一致）",
     "左側行駛",
@@ -3558,12 +3555,10 @@ const COUNTRIES = {
     "主要道路覆蓋良好",
     "部分地區使用船隻和火車拍攝"
   ],
-  car: [
-    "兩種 Gen 3 街景車：(1) <strong>白色帶條紋車（左白右黃），無天線</strong> — 柬埔寨獨有 (2) <strong>短粗天線帶三條螺紋</strong>（拉美國家類似天線僅一條螺紋）",
-    "⚠️ 白色條紋車是柬埔寨獨有的，不要與 Bangladesh 條紋車混淆",
-    "Mekong 河區域使用<strong>船隻</strong>拍攝",
-    "鐵路沿線使用<strong>火車</strong>拍攝"
-  ],
+    car: [
+      "Gen 3 兩種車：(1) <strong>短粗天線帶三條螺紋</strong> (2) <strong>白色帶條紋（左白右黃）無天線</strong> — 條紋車為 Cambodia 獨有",
+      "vs Bangladesh 條紋車：略有不同",
+    ],
   roads: [
     "右側通行",
     "<strong>黃色中線</strong>（虛線或實線），外線罕見但若存在則為<strong>白色實線</strong>（與 Thailand 類似）",
@@ -3673,12 +3668,11 @@ const COUNTRIES = {
     "南亞首個獲得高品質 Gen 4 覆蓋的國家",
     "全國範圍仍有大量<strong>第三代 trekker 步行街景</strong>"
   ],
-  car: [
-    "絕大多數為 Shitcam 覆蓋 — 偏棕色調、大圓形打碼",
-    "Gen 4 為 smallcam（比普通四代安裝更低，打碼有時完全透明）",
-    "涵蓋品質和車型因地區差異很大",
-    "靠左行駛"
-  ],
+    car: [
+      "大部分為 <strong>shitcam</strong>（低品質覆蓋）— 棕色偏移、模糊",
+      "Gen 4：<strong>smallcam</strong>（低安裝、大圓形模糊）— 10+ 邦",
+      "也有大量 Gen 3 trekker",
+    ],
   roads: [
     "左側通行",
     "路標杆通常為<strong>黑白條紋</strong>（Bangladesh 和 Sri Lanka 也有）",
@@ -3737,12 +3731,10 @@ const COUNTRIES = {
     "Gen 3 中黃色中線較罕見（近年才開始使用）",
     "Java 覆蓋最多，Bali 次之，其他島嶼較少"
   ],
-  car: [
-    "Java 地區：<strong>細短天線（thin 短粗天線 (stubby antenna)）</strong>",
-    "其他地區：標準白色轎車",
-    "靠左行駛",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 3：<strong>白色車</strong>",
+      "Gen 4：不同車型",
+    ],
   roads: [
     "左側通行",
     "<strong>白色或黃色中線</strong>（實線或虛線），白色外線 — Malaysia 的道路線總是白色",
@@ -3805,14 +3797,10 @@ const COUNTRIES = {
     "Low cam 特徵：視角更低、道路看起來更寬、車輛模糊區域更大",
     "北海道冬季積雪覆蓋率很低"
   ],
-  car: [
-    "<strong>低相機位置</strong> — 車輛模糊區域比正常大，路面顯得更寬，觀察角度更低",
-    "街景車通常為<strong>白色加黑色</strong>，也有純黑色街景車（較少見）",
-    "極少數有天線的街景車",
-    "Gen 2/3/4 皆有涵蓋（87% 為 Gen 3）",
-    "靠左行駛",
-    "⚠️ 唯一另一個所有覆蓋都採用低相機的國家是 Switzerland（但 Switzerland 的模糊是全球最大）"
-  ],
+    car: [
+      "外觀通常<strong>黑白色</strong>，偶爾全黑或帶天線",
+      "日本和 Switzerland 是唯二<strong>永遠 low-cam</strong> 的國家",
+    ],
   roads: [
     "左側通行",
     "路面品質極佳",
@@ -3889,12 +3877,11 @@ const COUNTRIES = {
     "大部分街景在秋冬季拍攝 — 景觀可能偏枯黃",
     "⚠️ 主要使用 KakaoMap/Naver 覆蓋（非 Google Street View）"
   ],
-  car: [
-    "KakaoMap 和 Naver 車輛（非 Google）",
-    "Google 涵蓋：<strong>黑色、白色或銀色轎車，無天線</strong>",
-    "<strong>100% Gen 3</strong>為主",
-    "靠右行駛"
-  ],
+    car: [
+      "Gen 3：三種顏色 — <strong>黑/白/銀</strong>，車尾常可見",
+      "<strong>從來沒有天線</strong>",
+      "Gen 2 也有（較少見）",
+    ],
   roads: [
     "右側通行",
     "<strong>黃色中線 + 白色外線</strong>",
@@ -4028,12 +4015,11 @@ const COUNTRIES = {
     "涵蓋有限 — 廣闊的無人空間",
     "所有街景都用大型皮卡車拍攝"
   ],
-  car: [
-    "<strong>白藍色 pickup truck</strong> + <strong>車頂帳篷</strong>（遠距離覆蓋需露天過夜）",
-    "<strong>Snorkel 進氣管</strong>可見（全球僅 Kenya 和 Mongolia 有）",
-    "<strong>Roof rack + 車頂露營裝備</strong>",
-    "西部（+ Ulaanbaatar）：車頂橫桿填滿<strong>黑色橡膠</strong>；東部：橫桿未填充"
-  ],
+    car: [
+      "所有覆蓋使用<strong>大型 pickup truck</strong> — 幾乎永遠可見",
+      "<strong>Snorkel 進氣管</strong>（全球僅 Kenya 和 Mongolia 有）",
+      "多種車頂配置：橡膠嵌條、備胎、帳篷、籠子等 — 可用於區域定位",
+    ],
   roads: [
     "大量未鋪設道路 — 草原上的車轍痕跡",
     "烏蘭巴托以外極少有鋪設道路",
@@ -4151,11 +4137,10 @@ const COUNTRIES = {
     "<strong>43.5% Gen 3 + 56.5% Gen 4</strong>",
     "主要島嶼涵蓋尚可"
   ],
-  car: [
-    "Gen 3：白色轎車（後方白色可見，有時前方有黑色部分）",
-    "靠右行駛",
-    "無特殊 antenna 或 roof rack 特徵"
-  ],
+    car: [
+      "Gen 3：<strong>白色車，黑色車頂可見</strong>",
+      "也有<strong>銀灰色車</strong>（Bhutan 也有類似）",
+    ],
   roads: [
     "右側行駛",
     "<strong>三條中心線</strong>（部分區域）",
@@ -4262,13 +4247,11 @@ const COUNTRIES = {
     "Gen 3 使用正常高度相機",
     "Gen 3 車前部可見藍白紅色塊（類似法國國旗）"
   ],
-  car: [
-    "<strong>白色車 + 右側紅色模糊</strong> — Sri Lanka 獨有 meta",
-    "車前方可見<strong>藍/白/紅</strong>色塊（類似國旗圖案）",
-    "Gen 4：低相機位置（low-cam），物體看起來更大、道路更寬",
-    "Gen 4 有較寬的圓形模糊",
-    "靠左行駛"
-  ],
+    car: [
+      "Gen 3：車前方透過模糊可見<strong>藍白紅色塊</strong>（法國國旗色）— Sri Lanka 獨有",
+      "Gen 4：<strong>low-cam</strong>（模糊明顯更大）",
+      "注意：Gen 3 是正常相機高度，只有 Gen 4 是 low-cam",
+    ],
   roads: [
     "左側通行",
     "農村公路通常<strong>有外線但無中線</strong>；大多數小路完全無標線",
@@ -4319,10 +4302,10 @@ const COUNTRIES = {
   name: 'Taiwan', localName: '臺灣', flag: '🇹🇼', region: 'asia',
   drivingSide: 'right', tld: '.tw', phoneCode: '+886', language: 'Chinese (Mandarin)', currency: 'New Taiwan Dollar (TWD)',
   camera: ["<strong>76% Gen 4 + 24% Gen 3 + 1% Gen 2</strong>", "全島涵蓋良好，三種世代都有"],
-  car: [
-    "Gen 3：<strong>黑色車 + 長天線 + 紅色剎車燈</strong>（類似 Russia 車型）",
-    "也有大模糊覆蓋整車的變體（看起來像 low-cam）"
-  ],
+    car: [
+      "Gen 3：<strong>黑色車 + 長天線 + 紅色剎車燈</strong>（類似 Russia）",
+      "也有大模糊覆蓋整車的變體（看起來像 low-cam）",
+    ],
   roads: [
     "<strong>黃色中心線 + 白色實線邊線</strong>，快慢車道分隔線",
     "⚠️ 中心線是<strong>黃色</strong>（非白色！）— 與 Japan 的全白線不同",
@@ -4378,11 +4361,10 @@ const COUNTRIES = {
     "絕大部分 Gen 3 中看不見街景車",
     "拍攝有旱季/雨季差異 — 野火造成灰霾可見"
   ],
-  car: [
-    "Gen 3/4：白色轎車，可見煞車燈",
-    "靠左行駛",
-    "無特殊 antenna 或 roof rack 特徵"
-  ],
+    car: [
+      "Gen 3：<strong>大部分沒有可見車輛</strong>",
+      "極少數有白色車+剎車燈或自行車 trekker",
+    ],
   roads: [
     "<strong>左側行駛</strong>",
     "<strong>黃色中線</strong>（實線或虛線）— Malaysia 只有白色中線",
@@ -4456,11 +4438,10 @@ const COUNTRIES = {
     "越南有全世界最多的摩托車街景",
     "農村摩托車街景 = 幾乎可以確定是 Vietnam"
   ],
-  car: [
-    "Gen 3：標準白色轎車",
-    "靠右行駛",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "Gen 3：標準車 + 部分<strong>機車覆蓋</strong>（模糊形狀像蝴蝶）",
+      "也有 shitcam 覆蓋",
+    ],
   roads: [
     "右側行駛",
     "路面品質不一",
@@ -7261,10 +7242,9 @@ const COUNTRIES = {
       '畫質尚可但覆蓋缺口明顯'
     ],
     car: [
-      '可見 roof rack — 除了首都 Vientiane 以外的所有地方',
-      'Gen 3：<strong>銀色轎車</strong>，車頂行李架帶兩根金屬杆 + 黑色側鏡',
-      'Roof rack 是辨識 Laos 的重要線索',
-      '涵蓋僅限 5 個城市：萬象、萬榮、琅勃拉邦、沙灣拿吉、巴色'
+      "除 Vientiane 外所有城市：<strong>銀色車 + 車頂架（兩條金屬桿+黑色間距件）</strong>",
+      "Vientiane：無車頂架",
+      "vs Guatemala：類似車型但景觀完全不同",
     ],
     roads: [
     '主要路線上有白色道路標線',
@@ -7774,11 +7754,8 @@ const COUNTRIES = {
       '山區有大面積覆蓋缺口'
     ],
     car: [
-      '銀色轎車 + 可見 bars（四根橫桿）',
-      '可見側鏡（特別是左側），類似 Guatemala 和 Mongolia',
-      '側鏡狀態因地區不同：東部/Bishkek = 乾淨；南部 = 未調整；西南部 = 泥濘',
-      '有 bars 但無背包/露營裝備（Mongolia 有 → 辨識重點！）',
-      '冬季涵蓋常見'
+      "Gen 3：<strong>銀色車 + 四條可見 bars</strong>",
+      "無其他類似景觀國家有此車型",
     ],
     roads: [
     "白色或黃色中心線（標線不一致）",

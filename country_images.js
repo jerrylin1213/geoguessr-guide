@@ -207,6 +207,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/53ef2669f637d8362317f5145dd7b11c28bd4df2/94be9/static/img/places/bangladesh/car-metas/rack-yellow.png',
       'https://d33wubrfki0l68.cloudfront.net/210217867d1c42f895133c9f4556f7539fcb980b/8a9d0/static/img/places/bangladesh/car-metas/white.png',
       'https://d33wubrfki0l68.cloudfront.net/df3f16f7bb8a8666bff5796cd40ee7272ceccc38/54aad/static/img/places/bangladesh/car-metas/tanguar_haor_boat.jpg',
+      'https://www.plonkit.net/images/resize/600/80/bangladesh/gen4cars.png',
     ],
     bollards: [
     ],
@@ -273,6 +274,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/a20e622293476242b937e4fdf123888525bfaf6d/866f7/static/img/places/bhutan/car-metas/car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/bhutan/googlecar.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/50a38a1048da0fab824e850f9fbabf0924162c27/ac94a/static/img/places/bhutan/bollards/bollard.png',
@@ -491,6 +493,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/f6b892c7cc4dec6dcc7bd50dfd395740a94f75af/b0c1c/static/img/places/cambodia/car-metas/cambodia_triple_coil.jpg',
       'https://d33wubrfki0l68.cloudfront.net/50b24bd4d8d8ed5414b0780ff8d353a11312f6da/7e477/static/img/places/cambodia/car-metas/mekong-boat.jpg',
       'https://d33wubrfki0l68.cloudfront.net/b59f2c757adaf647428718f76a1645e2d894ea98/50041/static/img/places/cambodia/car-metas/train.jpg',
+      'https://www.plonkit.net/images/resize/600/80/cambodia/Cambodia_cars_large.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/3b5ec7ae0092227768cc7b3538e87dcfac08bc3f/9193b/static/img/places/cambodia/bollards/bollard1.jpg',
@@ -1237,6 +1240,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/2bfe7c61dd1911a060008fba8544388f773ffbc0/ff69c/static/img/places/india/car-metas/big_blur.jpg',
       'https://d33wubrfki0l68.cloudfront.net/2f1b08e7c30ab8e8475e6da0c1ca583f5fa47170/73a22/static/img/places/india/car-metas/rectangle_blur.jpg',
+      'https://www.plonkit.net/images/resize/600/80/india/in_gen3.png',
     ],
     bollards: [
     ],
@@ -1266,6 +1270,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/558a7bc113160bf848aa76e7827ebff5c34cacd3/77d36/static/img/places/indonesia/car-metas/central_sulawesi_black_car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/1ad7df94262d7dcda1c2923a881c9c49783b7fba/9e10c/static/img/places/indonesia/car-metas/java_and_madura.png',
+      'https://www.plonkit.net/images/resize/600/80/indonesia/Anetnna_gen_3_-_Indonesia.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/cc2833a3a556874ddb6de7ce1e5eaefb8cf4358b/3a541/static/img/places/indonesia/bollards/bollard_front.jpg',
@@ -1542,6 +1547,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/ec7a50f8e11b00feabaa71d3684e9e1e9d602612/8979c/static/img/places/laos/car-metas/laos_kyrgyz_guat.jpg',
+      'https://www.plonkit.net/images/resize/600/80/laos/Laos_car.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/laos.jpg',
@@ -1825,6 +1831,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/9d01c2c98d9e04bd077fdf75129942e1e3347822/19ae0/static/img/places/mongolia/car-metas/blur_meta.jpg',
+      'https://www.plonkit.net/images/resize/600/80/mongolia/1._cars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/mongolia.jpg',
@@ -2131,6 +2138,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/e218574239d14675221f6bb4ae6f350e643e3317/7f7f3/static/img/places/philippines/car-metas/manila_bike.jpg',
       'https://d33wubrfki0l68.cloudfront.net/75960e0be7b4fed39f09e1165bbf86fff12abbde/077ca/static/img/places/philippines/car-metas/taped_car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/da55401cda829942c84f98d70f3c6975164297d8/93491/static/img/places/philippines/car-metas/ph_davao_island_black_halo.jpg',
+      'https://www.plonkit.net/images/resize/600/80/philippines/1_gen3car.png',
     ],
     bollards: [
     ],
@@ -2529,6 +2537,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/south-korea/kr_cars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/southkorea.jpg',
@@ -2577,6 +2586,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/car-lk.png',
+      'https://www.plonkit.net/images/resize/600/80/sri-lanka/Gen_3_car2.png',
     ],
     bollards: [
     ],
@@ -2656,6 +2666,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/car-breaklight-mx.png',
+      'https://www.plonkit.net/images/resize/600/80/thailand/gen3nocar.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/thailand.jpg',
@@ -3074,6 +3085,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/84c144c5db36e295bbc0f71fc3de1ccfc5e16c1e/7a62d/static/img/places/taiwan/road-signs/taiwan_mirror.jpg',
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/taiwan/black_car.png',
     ],
     bollards: [
     ],
