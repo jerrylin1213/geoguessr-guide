@@ -4535,9 +4535,8 @@ const COUNTRIES = {
     "Gen 3 大部分為<strong>黑色街景車配長天線</strong>；也有無天線黑車和短天線銀車"
   ],
   car: [
-    "Gen 3：<strong>黑色轎車 + 長天線</strong> — 與 Russia, Palestine 相同配置",
-    "也有<strong>無天線黑車</strong>和<strong>短天線銀色車</strong>",
-    "Hebrew 文字 + 黑色車 + 長天線 = Israel"
+    "車型和天線配置待實際街景驗證 — 舊資料不可靠",
+    "有多個世代覆蓋（Gen 2/3/4），不同時期車型可能不同"
   ],
   roads: [
     "右側行駛",
@@ -11612,7 +11611,7 @@ const META_SECTIONS = [
         <h4>中東車輛快速辨識</h4>
         <p>• <strong><a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a></strong> — 白色<strong>轎車</strong><br>
         • <strong><a onclick="navigateTo('country','jordan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jordan</a></strong> — <strong>黑色</strong>轎車（vs <a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a> 白色 = 最簡單辨識法）<br>
-        • <strong><a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a></strong> — 黑色轎車 + <strong>長天線</strong><br>
+        • <strong><a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a></strong> — 待驗證<br>
         • <strong><a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a></strong> — 白色 <strong>pickup truck</strong>（天線在中間）<br>
         • <strong><a onclick="navigateTo('country','qatar')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Qatar</a></strong> — 白色 <strong>pickup truck</strong>（天線在左）</p>
       </div>
