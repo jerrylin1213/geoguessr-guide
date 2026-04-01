@@ -128,6 +128,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/7e30d7222a694ce71575f5908a3094f34ace5b1b/3874e/static/img/places/australia/car-metas/barkly_leaf.png',
+      'https://www.plonkit.net/images/resize/600/80/australia/au_antenna.webp',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/876ce880138f61e9ce16ac8d3cceb08ca4e8e098/2b26b/static/img/places/australia/bollards/bollard-front.png',
@@ -611,6 +612,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/a2313ecf10195fb433aad04c1e503971c9820fce/c8625/static/img/places/christmas-island/car-metas/car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/558e7f18b69364abb298ec7336f5add8e1def587/c4fbb/static/img/places/christmas-island/car-metas/boat.jpg',
+      'https://www.plonkit.net/images/resize/600/80/christmas-island/Christmas-Island-car-meta.png',
     ],
     bollards: [
     ],
@@ -1112,6 +1114,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/3dfff1e6778f6ab39c3a2cb0377ca67121c729fa/347e9/static/img/places/guam/car-metas/antenna.jpg',
       'https://d33wubrfki0l68.cloudfront.net/892747b3e050d01a04d07df317ac3c2ba782ed8f/6670f/static/img/places/guam/car-metas/guam_rack.jpg',
+      'https://www.plonkit.net/images/resize/600/80/guam/gu_car.png',
     ],
     bollards: [
     ],
@@ -1920,6 +1923,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/68e49579dac1ac14e0d842bf7c4e2150c53b7ee6/5f557/static/img/places/new-zealand/car-metas/auckland_gen4_car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/new-zealand/nz_northcar.png',
     ],
     bollards: [
       'https://www.approachsigns.co.nz/assets/products/_products/9406/Edge%20Marker%20Post.png',
@@ -2000,6 +2004,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/777850bb95f2073193b953d6144f82c0d050c593/d1229/static/img/places/northern-mariana-islands/car-metas/antenna.jpg',
+      'https://www.plonkit.net/images/resize/600/80/northern-mariana-islands/nmi_car.png',
     ],
     bollards: [
     ],
@@ -2794,6 +2799,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/vanuatu/vu_trekker.png',
     ],
     bollards: [
     ],
@@ -2970,6 +2976,8 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/american-samoa/main_island_car.png',
+      'https://www.plonkit.net/images/resize/600/80/american-samoa/other_island_car.png',
     ],
     bollards: [
     ],

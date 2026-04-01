@@ -10955,9 +10955,10 @@ const COUNTRIES = {
     "有多種不同的街景車（各島不同）"
   ],
   car: [
-    "Tutuila 島：向下看可見<strong>黑色 ute（pickup）</strong>後斗",
-    "其他島嶼：有人手持相機步行拍攝（trekker）",
-    "Aunu'u Island 和 Rose Atoll：看不到車"
+    "Tutuila 島（主島）：<strong>微鏽黑色 truck</strong> 可見車斗",
+    "Manu'a + Olosega 島：<strong>銀灰色 truck</strong> 可見前方+側鏡",
+    "Tau 島：<strong>亮黑色 truck</strong> 可見前方+側鏡",
+    "Ofu 機場：車頂有兩條<strong>橘色綁帶</strong>"
   ],
   roads: [
     "右側行駛",
