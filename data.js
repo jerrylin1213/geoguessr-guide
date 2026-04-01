@@ -3054,8 +3054,7 @@ const COUNTRIES = {
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~19,000 點位）— 視角更低、模糊區域更大"
   ],
   car: [
-    "Gen 4：<strong>白色轎車</strong> — 白車三大國之一（Sweden、Turkey、Luxembourg）",
-    "Gen 4：也有<strong>深灰色 pickup truck</strong>",
+    "Gen 4：<strong>灰色 pickup truck</strong>（主要車型）+ 白色轎車",
     "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數，另有 Austria、Belgium）",
     "Gen 3：白色轎車，<strong>從來沒有天線</strong>"
   ],
