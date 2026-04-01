@@ -6103,12 +6103,11 @@ const COUNTRIES = {
   name: 'South Africa', localName: 'South Africa', flag: '🇿🇦', region: 'africa',
   drivingSide: 'left', tld: '.za', phoneCode: '+27', language: 'English, Afrikaans, Zulu + 8 others', currency: 'Rand (ZAR)',
   camera: ["<strong>86% Gen 4 + 8% Gen 2 + 6% Gen 3</strong>", "覆蓋範圍廣泛", "<strong>Gen 2 在非洲大陸僅 South Africa 有</strong>（天空和腳下有巨大圓形光暈）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"],
-  car: [
-    "Gen 4：<strong>天藍色轎車 + 短黑色天線</strong>（在車後方）",
-    "Gen 2/3：標準白色轎車",
-    "Kruger National Park：<strong>迷彩花紋車</strong>（全球唯一！）",
-    "靠左行駛"
-  ],
+    car: [
+      "Gen 4：<strong>藍色車 + 短天線</strong>（天線有時被模糊隱藏）",
+      "Gen 4 也有 smallcam 覆蓋（較低安裝、大圓形模糊）",
+      "Gen 2：大圓形車輛模糊 + 天空光暈（非洲唯一有 Gen 2 的國家）",
+    ],
   roads: [
     "<strong>左側行駛</strong>",
     "<strong>黃色外線 + 白色中線</strong>（Botswana、Lesotho、Eswatini 也有）",
@@ -6168,14 +6167,11 @@ const COUNTRIES = {
     "Gen 4：灰色大型皮卡拍攝，可能帶涉水喉",
     "幾乎所有街景車都有涉水喉（snorkel）— 全球除 Mongolia 外唯一"
   ],
-  car: [
-    "<strong>右前方可見 SNORKEL 進氣管</strong> — 100% 確認為 Kenya（僅 Kenya 和 Mongolia 有 snorkel）",
-    "Gen 3：灰色/黑色車帶大/小涉水喉 + 車頂行李架",
-    "Gen 4：灰色大型皮卡，可能帶涉水喉",
-    "Nairobi 北部/南部部分區域：車頂有<strong>白色膠帶</strong>",
-    "有灰色 Toyota SUV follow car（都市區較少見）",
-    "Lewa Wildlife Conservancy：特殊 safari 車，蛋殼色 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 3：<strong>灰色車 + 車頂架 + snorkel</strong>（全球僅 Kenya 和 Mongolia 有 snorkel）",
+      "灰色 Toyota SUV 跟車常見",
+      "有些覆蓋看不到車",
+    ],
   roads: [
     "靠左行駛",
     "<strong>純白色外線 + 黃色虛線或純黃色中線</strong>",
@@ -6228,14 +6224,11 @@ const COUNTRIES = {
     "Shitcam（低品質相機）主要在東部城市 — 非洲目前主要擁有此類低品質街景的國家",
     "阿布賈以北無三代覆蓋，西北/最南部無四代，東南部無 shitcam"
   ],
-  car: [
-    "Gen 3：<strong>大型 pickup truck</strong>（車頭和貨斗皆可見）",
-    "車色：白色或紅色",
-    "Roof rack 附獨特橫桿 — <strong>黃/黑色 rack 樣式</strong>（Nigeria 獨有）",
-    "<strong>幾乎都有警車跟隨護送</strong>",
-    "Follow car 類型：棕色 Toyota SUV（Lagos）、黑色 SUV（Benin City）、紅色 follow car、銀色車、警車",
-    "警燈紅色在左 = 南部；紅色在右 = 北部/Abuja 地區"
-  ],
+    car: [
+      "Pickup truck — 駕駛座和車斗可見",
+      "警車跟車（白色或黑色）幾乎永遠可見",
+      "非洲唯一有<strong>shitcam（低品質官方覆蓋）</strong>的國家（大陸）",
+    ],
   roads: [
     "靠右行駛（前英國殖民地中少見）",
     "道路線不常見 — 很多道路沒有標線或已褪色，坑洼和未鋪設路段常見",
@@ -6281,14 +6274,11 @@ const COUNTRIES = {
   name: 'Ghana', localName: 'Ghana', flag: '🇬🇭', region: 'africa',
   drivingSide: 'right', tld: '.gh', phoneCode: '+233', language: 'English', currency: 'Cedi (GHS)',
   camera: ["<strong>100% Gen 3</strong>", "城市和主要道路有覆蓋"],
-  car: [
-    "車頂有<strong>可見行李架</strong>，<strong>前橫桿右端包覆黑色膠帶</strong> — 全球唯一！100% 確認為 Ghana",
-    "引擎蓋通常可見，有獨特塗裝（紅色長方形等可辨識元素）",
-    "膠帶有三種狀態：西南部 = 未剝離膠帶，東部/北部 = 剝落膠帶，Kumasi 以北/Tamale 以東 = 兩個白色斑點",
-    "極少數自然保護區有無膠帶版本（如 Boabeng Fiema 猴子保護區）",
-    "側鏡有時可見（某些保護區可見白色車身和側鏡）",
-    "Ghana 膠帶在<strong>前</strong>桿 vs Réunion 膠帶在<strong>後</strong>桿"
-  ],
+    car: [
+      "車頂架 + 前橫桿右端有<strong>黑色膠帶</strong>",
+      "3 種不同膠帶樣式",
+      "vs Réunion：Réunion 膠帶在後橫桿，Ghana 在前橫桿",
+    ],
   roads: [
     "靠右行駛",
     "<strong>道路標線全部為白色</strong>（許多鋪設道路甚至無標線）",
@@ -6331,12 +6321,10 @@ const COUNTRIES = {
   name: 'Botswana', localName: 'Botswana', flag: '🇧🇼', region: 'africa',
   drivingSide: 'left', tld: '.bw', phoneCode: '+267', language: 'English, Tswana', currency: 'Pula (BWP)',
   camera: ["<strong>100% Gen 3</strong>", "主要路線有覆蓋"],
-  car: [
-    "Gen 3：標準白色轎車",
-    "靠左行駛",
-    "無特殊車輛辨識特徵",
-    "街景中常見隨機小模糊（城市尤為明顯）"
-  ],
+    car: [
+      "Gen 3：<strong>白色車，無天線</strong>",
+      "與 South Africa/Lesotho/Eswatini 相同白色車",
+    ],
   roads: [
     "左側行駛",
     "<strong>黃色外線 + 白色中線</strong>（與南部非洲其他國家一致）",
@@ -6382,12 +6370,11 @@ const COUNTRIES = {
     "<strong>100% Gen 3</strong>",
     "主要高速公路有覆蓋，少數覆蓋在小路上"
   ],
-  car: [
-    "Gen 3：<strong>白色 pickup truck（皮卡車）</strong>，車頂前方有<strong>短天線略微向左傾斜</strong>",
-    "天線向左傾斜是 Namibia 獨有特徵（Oman 類似但天線向右傾斜）",
-    "部分路段街景車有模糊處理，部分沒有 — 可用於區域判斷",
-    "靠左行駛"
-  ],
+    car: [
+      "<strong>白色 pickup truck + 短天線</strong>，天線始終<strong>微向左傾斜</strong>",
+      "南部無車型模糊國家中獨有此車型",
+      "vs Oman：Oman 天線不會傾斜",
+    ],
   roads: [
     "<strong>白色中線 + 單黃色外線</strong>（與其他南部非洲國家一致）",
     "左側行駛",
@@ -6431,13 +6418,11 @@ const COUNTRIES = {
   name: 'Senegal', localName: 'Sénégal', flag: '🇸🇳', region: 'africa',
   drivingSide: 'right', tld: '.sn', phoneCode: '+221', language: 'French', currency: 'CFA Franc (XOF)',
   camera: ["<strong>97% Gen 4 + 3% Gen 3</strong>", "主要城市和道路有覆蓋"],
-  car: [
-    "Gen 4：<strong>銀色/白色 pickup truck（皮卡車）</strong>（truck cab 可見），各路段有不同髒汙/物品特徵可用於區域判斷",
-    "Gen 3：有 roof rack + <strong>右側後視鏡可見</strong>（Senegal 獨有）+ 天空有<strong>裂縫 (rift)</strong>",
-    "⚠️ Senegal 是非洲最常見天空裂縫 (rift) 的國家",
-    "Dakar 地區：引擎蓋/車頭更明顯可見",
-    "有時可見紅色棍子標記（沿 N2/R32 路段）"
-  ],
+    car: [
+      "Gen 4：<strong>銀/白色 truck</strong>，多種變體",
+      "Dakar/Thiès 附近也有<strong>黑色 pickup</strong>",
+      "Gen 3：車頂架 + 右側鏡可見 + 天空裂紋（右側鏡為 Senegal 獨有）",
+    ],
   roads: [
     "白色中心線",
     "右側行駛",
@@ -6535,12 +6520,11 @@ const COUNTRIES = {
   name: 'Tunisia', localName: 'تونس', flag: '🇹🇳', region: 'africa',
   drivingSide: 'right', tld: '.tn', phoneCode: '+216', language: 'Arabic, French', currency: 'Dinar (TND)',
   camera: ["<strong>100% Gen 3</strong>"],
-  car: [
-    "Gen 3：<strong>黑色車帶中等長度細天線</strong>",
-    "<strong>幾乎都有 follow car</strong>：北部（Hammamet 以北）= 淺綠色 Toyota；中南部 = 深綠色 Mazda（軍用車牌左側紅色條帶）",
-    "Kairouan 有獨特白色三菱 follow car",
-    "<strong>Djerba 島大多無 follow car</strong>（偶見白色賓士或深綠色車）"
-  ],
+    car: [
+      "<strong>黑色車 + 中等長度細天線</strong>",
+      "<strong>跟車</strong>幾乎永遠可見 — 辨識 Tunisia 最好的方式",
+      "有多種不同跟車（軍用深綠、白色等）",
+    ],
   roads: [
     "通常<strong>純白色公路線</strong>（外側可虛可實），Sfax 幾條道路有黃色中線",
     "右側行駛",
@@ -6588,9 +6572,10 @@ const COUNTRIES = {
     "<strong>100% Gen 3 徒步旅者 (trekker)</strong> — 所有覆蓋皆為步行拍攝",
     "覆蓋極稀少，僅限 Cairo（4處）和 Alexandria（3處），以歷史名勝為中心"
   ],
-  car: [
-    "無街景車 — 全部為徒步旅者拍攝（相機離地面較低、打碼較小、無汽車輪廓陰影）"
-  ],
+    car: [
+      "全部為 Gen 3 <strong>trekker</strong> — 無街景車",
+      "覆蓋極稀疏（Cairo、Alexandria 等少數 trekker）",
+    ],
   roads: [
     "白色中心線（標線不一致）",
     "右側行駛",
@@ -6678,10 +6663,11 @@ const COUNTRIES = {
     "覆蓋極有限，大部分在西海岸，陸地和船混合覆蓋",
     "僅兩處有獨特街景車（銀色車頂行李架）"
   ],
-  car: [
-    "幾乎全為徒步旅者覆蓋 — 可透過跟隨的人物服裝辨識不同區域",
-    "RN8 路段有帶大型銀色車頂行李架的街景車"
-  ],
+    car: [
+      "全部為 Gen 3 <strong>trekker</strong>",
+      "有船上 trekker",
+      "常有人跟著 trekker 走 — 可用跟隨者服裝辨識區域",
+    ],
   roads: [
     "標線極少",
     "右側行駛",
@@ -6718,12 +6704,10 @@ const COUNTRIES = {
   name: 'Réunion', localName: 'La Réunion', flag: '🇷🇪', region: 'africa',
   drivingSide: 'right', tld: '.re', phoneCode: '+262', language: 'French', currency: 'Euro (EUR)',
   camera: ["<strong>100% Gen 3</strong>"],
-  car: [
-    "<strong>後橫桿包覆黑色膠帶</strong>（Ghana = 前橫桿）",
-    "側鏡可見",
-    "Ghana 膠帶在<strong>前</strong>桿，Réunion 膠帶在<strong>後</strong>桿 — 重要區別",
-    "法屬海外領土，法式道路基礎設施"
-  ],
+    car: [
+      "可見<strong>側鏡 + 車頂架 + 後橫桿右端黑色膠帶</strong>",
+      "vs Ghana：Ghana 膠帶在前橫桿，Réunion 在後橫桿",
+    ],
   roads: ["法式道路基礎設施", "品質良好 — 法國領土"],
   landscape: [
     "印度洋中的火山熱帶島嶼",
@@ -6759,12 +6743,10 @@ const COUNTRIES = {
     "非官方覆蓋佔 Uganda 大部分影像 — 非 360° 全景、顏色失真",
     "國家公園覆蓋品質較好但範圍有限"
   ],
-  car: [
-    "Kampala 市：白色方形 SUV（非轎車），<strong>方形側後視鏡</strong>可見 — Uganda 獨有車型",
-    "國家公園：類似白色 SUV 但車頭有<strong>黑色防撞桿 (bull bar)</strong>（打碼程度差別很大）",
-    "非官方覆蓋：各種車輛（機車、自行車等）",
-    "Kampala 市有大量藍色塊狀圖案出租車，典型深紅色鋪裝道路/泥土"
-  ],
+    car: [
+      "Kampala：<strong>白色車 + 方形側鏡 + 方正外觀</strong>（Uganda 獨有）",
+      "國家公園：類似車但前方有<strong>黑色保險桿</strong>",
+    ],
   roads: ["靠左行駛", "道路品質不一"],
   landscape: [
     "Green and lush — 'Pearl of Africa'",
@@ -6804,10 +6786,10 @@ const COUNTRIES = {
     "Kilimanjaro：三腳架覆蓋",
     "Kenya 邊境附近有少量越境街景車覆蓋"
   ],
-  car: [
-    "主要為徒步旅者和三腳架覆蓋 — 無典型街景車",
-    "靠左行駛"
-  ],
+    car: [
+      "幾乎全為 Gen 3 <strong>trekker + 三腳架</strong>",
+      "邊境地區有從 Kenya 溢出的車輛覆蓋",
+    ],
   roads: [
     "左側行駛",
     "路面品質不一",
@@ -6843,11 +6825,12 @@ const COUNTRIES = {
   name: 'Rwanda', localName: 'Rwanda', flag: '🇷🇼', region: 'africa',
   drivingSide: 'right', tld: '.rw', phoneCode: '+250', language: 'Kinyarwanda, French, English', currency: 'Franc (RWF)',
   camera: ["<strong>100% Gen 4</strong>", "覆蓋有限，正在零星發布"],
-  car: [
-    "<strong>Gen 4 低相機 pickup truck</strong> — 黑色/棕色/灰色車身",
-    "模糊程度嚴重，車輛幾乎永遠可見（包括相機支架）",
-    "極罕見：完全模糊的 truck 變體"
-  ],
+    car: [
+      "Gen 4：<strong>大型白/黑/棕色 pickup truck</strong> — 幾乎永遠完全可見",
+      "Kigali：主要是<strong>黑色 pickup</strong>",
+      "Cyangugu 附近：車輛特別髒",
+      "偶爾車輛被大模糊完全覆蓋",
+    ],
   roads: [
     "右側行駛",
     "<strong>黃色中心線 + 白色邊線</strong>（類似美洲慣例）",
@@ -8830,9 +8813,8 @@ const COUNTRIES = {
       '部分山區有 Trekker 覆蓋',
     ],
     car: [
-      'Gen 3：標準白色轎車',
-      '無特殊 snorkel、膠帶或天線',
-      '靠左行駛'
+      "Gen 3：<strong>白色車，無天線</strong>（車尾幾乎永遠可見）",
+      "與 Botswana/Eswatini/South Africa Gen 3 相同白色車",
     ],
     roads: [
       '道路編號有時無字母前綴（可與 Botswana/Eswatini 區分）',
@@ -8912,9 +8894,8 @@ const COUNTRIES = {
       '小國，覆蓋範圍相對緊湊',
     ],
     car: [
-      'Gen 3：標準轎車',
-      '無特殊車輛辨識特徵',
-      '靠左行駛'
+      "Gen 3：<strong>白色車，無天線</strong>",
+      "與 South Africa/Lesotho/Botswana 相同白色車",
     ],
     roads: [
       '道路編號以 MR（Main Road）為前綴 — 南部非洲 Eswatini 獨有',

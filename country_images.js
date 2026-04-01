@@ -362,6 +362,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/d65e0bc49d0d7ea798451cb5efcdd42d7a1091f5/5c271/static/img/places/botswana/car-metas/white.png',
+      'https://www.plonkit.net/images/resize/600/80/botswana/Botswana_car.png',
     ],
     bollards: [
     ],
@@ -1031,6 +1032,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/3122bee30f3579471465580eb79d601fe4ef203c/c24da/static/img/places/ghana/car-metas/tape.jpg',
       'https://d33wubrfki0l68.cloudfront.net/e7ddf5995c361a9746b63aa39ac0379ac0c197fd/f5e4f/static/img/places/ghana/car-metas/crumpled_tape_meta.jpg',
+      'https://www.plonkit.net/images/resize/600/80/ghana/Ghana_car.png',
     ],
     bollards: [
     ],
@@ -1490,6 +1492,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/594fac5ffe26cdc2ee00e77ba33bd7bd779b573f/3ad9b/static/img/places/kenya/car-metas/a2_road.jpg',
       'https://d33wubrfki0l68.cloudfront.net/3bba4fd72dfe76e0a694b1d22f2819569678b927/2aea8/static/img/places/kenya/car-metas/dot_meta.png',
       'https://d33wubrfki0l68.cloudfront.net/f08427876341714535e116cc0589f9676d02b534/76336/static/img/places/kenya/car-metas/lewa_national_park.jpg',
+      'https://www.plonkit.net/images/resize/600/80/kenya/Kenya_2Bcars.png',
     ],
     bollards: [
     ],
@@ -2356,6 +2359,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2022/10/Senegal-New-Car-Meta.jpg',
+      'https://www.plonkit.net/images/resize/600/80/senegal/long_antenna.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/senegal.jpg',
@@ -2489,6 +2493,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2021/04/South-Africa-Rare-Car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/south-africa/za_gen4car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/874a67a4a830a2c194fd55b316eb502ab3a6482f/647d7/static/img/places/south-africa/bollards/za_bollard.jpg',
@@ -2683,6 +2688,8 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/tunisia/googlecar.jpg',
+      'https://www.plonkit.net/images/resize/600/80/tunisia/followcars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/tunisia.jpg',
@@ -2727,6 +2734,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/uganda/ug_npcar.png',
     ],
     bollards: [
     ],
@@ -3086,6 +3094,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/cd09e73b8ed248083f91ab19391734503b24f1ae/1373c/static/img/places/eswatini/road-signs/road_sign.jpg',
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/eswatini/white_car.webp',
     ],
     bollards: [],
     scenery: [
