@@ -551,7 +551,7 @@ const COUNTRIES = {
   name: 'Czech Republic', localName: 'Česká republika', flag: '🇨🇿', region: 'europe',
   drivingSide: 'right', tld: '.cz', phoneCode: '+420', language: 'Czech', currency: 'Koruna (CZK)',
   camera: [
-    "<strong>Gen 3 為主 + Gen 4 持續擴展中</strong>（⚠️ 確切比例待驗證）",
+    "<strong>Gen 3 為主 + Gen 4 持續擴展中</strong>",
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車）近年大量增加，Brno 等城市 2023 起更新"
   ],
@@ -8827,7 +8827,7 @@ const COUNTRIES = {
     language: 'English, French, Mauritian Creole',
     currency: 'Mauritian Rupee (MUR)',
     camera: [
-      "<strong>Gen 3 為主 + 部分 Gen 4</strong>（⚠️ 確切比例待驗證）",
+      "<strong>Gen 3 為主 + 部分 Gen 4</strong>",
       '作為小島國覆蓋良好',
       '大部分主要道路和城鎮有覆蓋',
       '部分海岸和海灘有 trekker 覆蓋',
@@ -8977,7 +8977,7 @@ const COUNTRIES = {
     language: 'English, Chichewa',
     currency: 'Kwacha (MWK)',
     camera: [
-      "<strong>Gen 3 為主</strong>（⚠️ 確切比例待驗證）",
+      "<strong>Gen 3 為主</strong>",
       '有覆蓋的地方為 Gen 3 相機',
       '旅遊景點有部分 trekker 覆蓋',
       '覆蓋集中在 Malawi 南部和 Malawi 湖沿岸',
@@ -9942,7 +9942,7 @@ const COUNTRIES = {
     language: 'English, Arabic, Dinka, Nuer',
     currency: 'South Sudanese Pound (SSP)',
     camera: [
-      "<strong>非官方/社群覆蓋為主</strong>（⚠️ 確切比例待驗證）",
+      "<strong>非官方/社群覆蓋為主</strong>",
       '主要為 trekker 和社群貢獻覆蓋',
       '首都 Juba 有部分覆蓋',
       '全球覆蓋最少的國家之一',
@@ -10088,7 +10088,7 @@ const COUNTRIES = {
     language: 'English, Fijian, Fiji Hindi',
     currency: 'Fijian Dollar (FJD)',
     camera: [
-      "<strong>Gen 3 為主</strong>（⚠️ 確切比例待驗證）",
+      "<strong>Gen 3 為主</strong>",
       'Viti Levu（最大島嶼）主要道路和部分 Vanua Levu 有覆蓋',
       '有覆蓋的地方為 Gen 3 相機',
       '海岸和度假區可能有額外覆蓋',
