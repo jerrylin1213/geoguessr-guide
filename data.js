@@ -8132,9 +8132,9 @@ const COUNTRIES = {
       '覆蓋來自 Google 和第三方來源'
     ],
     car: [
-      'Gen 3：黑色轎車 + 長天線 — 與 Russia, Israel 相同配置',
-      '與 Israel 使用完全相同的車輛配置',
-      '需靠語言（Arabic vs Hebrew）和其他線索區分'
+      'Gen 3：<strong>黑色車，無天線</strong>',
+      '可見<strong>安全跟車</strong>：白色 Suzuki（中部/南部）、深藍 Ford（西北）、白色 Citroën 帶 SECURITY 字樣（Jerusalem 周邊）',
+      'vs Israel：Israel 有長天線，Palestine 無天線 — 天線有無是關鍵區分'
     ],
     roads: [
       '道路品質不一 — 有些維護良好，有些坑窪',

@@ -94,7 +94,7 @@
     'taiwan': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     // Black car with antenna
     'tunisia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
-    'palestine': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
+    'palestine': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     // Gen 4 blue car countries
     'norway': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     'netherlands': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
