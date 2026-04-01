@@ -5076,10 +5076,11 @@ const COUNTRIES = {
 'costa-rica': {
   name: 'Costa Rica', localName: 'Costa Rica', flag: '🇨🇷', region: 'central-america',
   drivingSide: 'right', tld: '.co.cr', phoneCode: '+506', language: 'Spanish', currency: 'Colón (CRC)',
-  camera: ["<strong>99.5% Gen 3 Trekker + 0.5% Gen 4</strong>", "2025 年起擴展全面涵蓋"],
+  camera: ["<strong>2024-2025 年新增全面車輛覆蓋</strong>（之前僅 Gen 3 Trekker）"],
   car: [
-    "2025 年前：僅 Google Trekker — 看不到車（僅行人視角！）",
-    "2025 年前的涵蓋無法離開人行道"
+    "<strong>白色 pickup truck</strong> — 車斗和金屬相機框架清楚可見",
+    "vs Panama：Panama truck 有白色金屬框架在駕駛座後方，Costa Rica 沒有",
+    "舊覆蓋（2025 前）：僅 Trekker — 看不到車（只能在人行道移動）"
   ],
   roads: [
     "單黃色中心線",
@@ -5100,7 +5101,7 @@ const COUNTRIES = {
   tips: [
     "卡在人行道上無法移動到馬路？= Costa Rica（2025 年前）",
     "ALTO + 熱帶 + Kölbi 招牌 = Costa Rica",
-    "🔗 <a href=\"https://www.google.com/maps/@9.9281,-84.0907,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Jose）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/e14zRCAnhTJTxTiE6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Liberia, 2025 新覆蓋）</a>"
   ]
 },
 
