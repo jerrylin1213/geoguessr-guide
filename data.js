@@ -4535,8 +4535,10 @@ const COUNTRIES = {
     "Gen 3 大部分為<strong>黑色街景車配長天線</strong>；也有無天線黑車和短天線銀車"
   ],
   car: [
-    "車型和天線配置待實際街景驗證 — 舊資料不可靠",
-    "有多個世代覆蓋（Gen 2/3/4），不同時期車型可能不同"
+    "Gen 3：<strong>黑色車 + 長天線</strong>（大部分覆蓋）；也有無天線黑車和短天線銀色車",
+    "Gen 4：<strong>黑色車</strong>（僅 Israel 有，West Bank 無）— 前鏡頭常有污漬（dirty front camera）",
+    "Gen 4 乾淨鏡頭主要在 Tel Aviv 附近",
+    "West Bank：黑色車<strong>無天線</strong> + 可見安全跟車（白色 Suzuki/深藍 Ford/白色 Citroën 帶 SECURITY 字樣）"
   ],
   roads: [
     "右側行駛",
@@ -4765,10 +4767,11 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.qa', phoneCode: '+974', language: 'Arabic', currency: 'Riyal (QAR)',
   camera: ["<strong>100% Gen 4</strong>", "多哈地區涵蓋良好"],
   car: [
-    "<strong>白色 pickup truck</strong>，天線在<strong>左前方</strong>，通常嚴重打碼",
+    "<strong>白色 pickup truck</strong>，天線在<strong>左側</strong>，通常嚴重打碼",
     "有時整台白色 truck 可見",
-    "vs Oman：<strong>Qatar 天線在左前方、Oman 天線在中間</strong> — 天線位置是最可靠區分",
-    "vs UAE：UAE 用轎車，Qatar 用 truck"
+    "天線長度因區域不同：<strong>北部短天線、Doha 長天線、西南長天線</strong>",
+    "vs Oman/UAE：<strong>Qatar 天線在左、UAE/Oman 天線在中間</strong>",
+    "vs UAE Gen 3：UAE 用白色轎車+roof rack，Qatar 用 truck"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
@@ -7955,9 +7958,9 @@ const COUNTRIES = {
     "覆蓋集中在 Beirut 和沿海地區"
   ],
     car: [
-      'Gen 3：標準白色轎車',
-      '無特殊 antenna 或 roof rack',
-      '無獨特 car meta'
+      '<strong>Shitcam（低品質覆蓋）</strong>— 中東唯一有 shitcam 的國家',
+      '<strong>Gen 3 Trekker</strong> — 大部分覆蓋為步行拍攝（觀光景點、大學、步道）',
+      'Zahle 附近：可見<strong>黑色車</strong>'
     ],
     roads: [
       '道路品質差異顯著 — 從高速公路到坑窪街道',
@@ -8045,8 +8048,8 @@ const COUNTRIES = {
     ],
     car: [
     "<strong>白色 pickup truck</strong>，天線在<strong>中間</strong>（Trekker 相機安裝在車上，2024 新覆蓋）",
-    "vs Qatar：兩者都是白色 truck，但 <strong>Oman 天線在中間、Qatar 天線在左前方</strong>",
-    "vs UAE：UAE 用轎車，Oman 用 truck"
+    "vs Qatar：<strong>Oman 天線在中間、Qatar 天線在左</strong>",
+    "vs UAE：UAE Gen 4 也有白色 pickup（天線也在中間）— 靠車牌區分（Oman 黃色 vs UAE 白色）"
   ],
     roads: [
     "白色中心線",
@@ -11611,7 +11614,7 @@ const META_SECTIONS = [
         <h4>中東車輛快速辨識</h4>
         <p>• <strong><a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a></strong> — 白色<strong>轎車</strong><br>
         • <strong><a onclick="navigateTo('country','jordan')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Jordan</a></strong> — <strong>黑色</strong>轎車（vs <a onclick="navigateTo('country','uae')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">UAE</a> 白色 = 最簡單辨識法）<br>
-        • <strong><a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a></strong> — 待驗證<br>
+        • <strong><a onclick="navigateTo('country','israel')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Israel</a></strong> — Gen 3：黑色 + 長天線；Gen 4：黑色（前鏡頭常髒）<br>
         • <strong><a onclick="navigateTo('country','oman')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Oman</a></strong> — 白色 <strong>pickup truck</strong>（天線在中間）<br>
         • <strong><a onclick="navigateTo('country','qatar')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Qatar</a></strong> — 白色 <strong>pickup truck</strong>（天線在左）</p>
       </div>
