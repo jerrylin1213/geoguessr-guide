@@ -937,10 +937,10 @@ const COUNTRIES = {
   ],
   landscape: [
     "地形平坦到微幅起伏",
-    "數千個湖泊（千湖之國）",
+    '數千個湖泊 — 🔗 <a href="https://www.google.com/maps/@61.50,24.00,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">千湖區</a>',
     "茂密的北方/針葉林（松樹、雲杉、白樺）",
     "冬季影像有積雪覆蓋",
-    "Lapland：凍原和馴鹿",
+    'Lapland 凍原 — 🔗 <a href="https://www.google.com/maps/@69.05,27.01,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Lapland</a>',
     "傳統色彩（紅色、黃色）塗裝的木造房屋"
   ,
     "公車站各城市不同：Helsinki(藍白HSL)、Tampere(NYSSE)、Turku(黃色)、Oulu(粉紅)",
@@ -1015,7 +1015,7 @@ const COUNTRIES = {
     "誘導標：<strong>藍底白箭頭</strong>（1-5 個箭頭）— 歐洲僅 France 和 Spain 使用此配色"
   ],
   landscape: [
-    "多樣化：巴黎盆地、阿爾卑斯山、庇里牛斯山、蔚藍海岸、大西洋沿岸",
+    '多樣化景觀 — 🔗 <a href="https://www.google.com/maps/@43.70,7.27,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">蔚藍海岸 Nice</a>',
     "Provence 的薰衣草花田",
     "許多地區遍布葡萄園",
     "城堡和石造村莊",
@@ -1103,7 +1103,7 @@ const COUNTRIES = {
   landscape: [
     "北部：平原（北歐平原）",
     "中部：丘陵和森林",
-    "南部：巴伐利亞阿爾卑斯山",
+    '南部：阿爾卑斯山 — 🔗 <a href="https://www.google.com/maps/@47.42,11.10,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Bavaria Alps</a>',
     "萊茵河/摩澤爾河谷：葡萄園、城堡",
     "許多地區有半木造房屋（Fachwerk）",
     "西部工業魯爾區",
@@ -1483,7 +1483,7 @@ const COUNTRIES = {
   landscape: [
     "北部阿爾卑斯山，亞平寧山脈貫穿中部",
     "地中海海岸",
-    "Tuscany：起伏丘陵配柏樹",
+    'Tuscany 柏樹丘陵 — 🔗 <a href="https://www.google.com/maps/@43.32,11.33,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Tuscany</a>',
     "Sicily 和 Sardinia 島嶼",
     "火山地區（Vesuvius、Etna）",
     "文藝復興和羅馬時期建築"
@@ -1984,7 +1984,7 @@ const COUNTRIES = {
     "⚠️ Belgium 路標多樣且常標城鎮名，Netherlands 路標很少標城鎮名"
   ],
   landscape: [
-    "極度平坦（大部分低於或接近海平面）",
+    '極度平坦 — 🔗 <a href="https://www.google.com/maps/@52.40,4.90,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">典型荷蘭平原</a>',
     "風車（傳統風車和現代風力發電機）常見",
     "到處都是運河和水道 — 水渠、溝渠、堤壩非常普遍",
     "圩田（填海造地）— 西部和北部有沼澤地景觀",
@@ -2115,7 +2115,7 @@ const COUNTRIES = {
     "小路牌被<strong>四個可見釘子</strong>釘起"
   ],
   landscape: [
-    "壯觀峽灣 — Bergen-Trondheim 間高山環繞",
+    '壯觀峽灣 — 🔗 <a href="https://www.google.com/maps/@61.20,6.85,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Geirangerfjord</a>',
     "Lofoten 群島陡峭多岩山脈",
     "東南 Oslo 附近相對平坦大農田",
     "Stavanger 南部平坦農田 + 圓石牆",
@@ -2247,7 +2247,7 @@ const COUNTRIES = {
     "路邊常見<strong>天主教神龛</strong>和藍白/黃白教旗"
   ],
   landscape: [
-    "中部/北部平坦，南部多山（Tatra 山脈，Zakopane 附近）",
+    '南部 Tatra 山 — 🔗 <a href="https://www.google.com/maps/@49.27,19.98,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Zakopane</a>',
     "茂密森林、農業平原",
     "城市中有哥德式和巴洛克建築",
     "許多城市有蘇聯時期公寓大樓（部分翻新）",
@@ -2327,7 +2327,7 @@ const COUNTRIES = {
   ],
   landscape: [
     "北部丘陵地形，南部平坦的 Alentejo",
-    "Algarve 海岸 — 壯觀的懸崖",
+    'Algarve 海岸 — 🔗 <a href="https://www.google.com/maps/@37.09,-8.67,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Algarve 懸崖</a>',
     "Douro 河谷 — 梯田葡萄園",
     "軟木橡樹林",
     "建築上的 Azulejo 磁磚（藍白裝飾磁磚）",
@@ -2784,7 +2784,7 @@ const COUNTRIES = {
     "地中海海岸，東南部極乾燥半沙漠",
     "北部庇里牛斯山（淺灰色岩石 + 松樹 + 石牆建築）",
     "北海岸（Galicia/Asturias/Cantabria）綠色丘陵，類似 Ireland",
-    "Andalusia — 橄欖園、白色村莊、Sierra Nevada 雪峰",
+    'Andalusia — 🔗 <a href="https://www.google.com/maps/@36.75,-5.17,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">白色村莊 Ronda</a>',
     "Canary Islands — 火山土、極端乾燥、多樣景觀",
     "Extremadura — 聖栎/栓皮栎在開闊田野，偏地中海外觀",
     "多樣化建築：摩爾、哥德式、現代主義"
@@ -2872,7 +2872,7 @@ const COUNTRIES = {
     "南部（Skåne）最廣闊農田，起伏緩丘 + 紅磚建築",
     "西北部多山，西海岸裸露圓形岩石 + 低矮灌木",
     "北部在北極圈以北（Lapland），細弱北方樹木 + 沙質土壤",
-    "紅色木造房屋（falun 紅漆）極為常見，尤其鄉村",
+    '紅色木造房屋（Falun 紅漆）— 🔗 <a href="https://www.google.com/maps/@60.60,15.63,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Dalarna 紅屋</a>',
     "傳統木栅欄（垂直細木 + 斜疊木）— Sweden 常見，鄰國少見",
     "Volvo 佔所有乘用車約 30%（Norway/Finland 約 10%）",
     "Gotland：石灰石建築 + 白色沙地路邊；Öland：極平坦 + 小石墙 + 小風車",
@@ -2950,7 +2950,7 @@ const COUNTRIES = {
     "限速標志文字因語區不同：Generell（德）/ Limite générale（法）/ Limitazione generale（意）"
   ],
   landscape: [
-    "南部瑞士阿爾卑斯山 — 壯觀高山景色",
+    '瑞士阿爾卑斯山 — 🔗 <a href="https://www.google.com/maps/@46.56,7.98,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Grindelwald</a>',
     "北部主要是平地或丘陵 + 大片農田，遠處森林丘陵",
     "翠綠山谷配木屋",
     "Jura 山脈：樹木茂密丘陵中裸露石灰岩 + 石牆",
@@ -3082,7 +3082,7 @@ const COUNTRIES = {
     "東南到西南：景觀從乾旱向地中海變化；北部：繁茂森林",
     "中 Anatolia：<strong>半乾旱草原</strong>，廣袤農田 + 有限植被（最常見景觀）",
     "Turkey 東部：崎嶇山脈",
-    "Cappadocia：精靈煙囪和洞穴住居",
+    'Cappadocia — 🔗 <a href="https://www.google.com/maps/@38.64,34.83,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">精靈煙囪</a>',
     "<strong>高大方正公寓樓</strong>很常見",
     "清真寺 + <strong>高聳宣禮塔</strong> — 幾乎所有城鎮都有（辨識 Turkey 的好線索）",
     "Rize 附近：<strong>茶園</strong>（綠色梯田山坡）"
@@ -3224,8 +3224,8 @@ const COUNTRIES = {
     "讓行標誌寫 'GIVE WAY'（Ireland 寫 'YIELD'）"
   ],
   landscape: [
-    "England：翠綠起伏鄉村、樹籬",
-    "Scotland：高地、湖泊、荒原",
+    'England 鄉村 — 🔗 <a href="https://www.google.com/maps/@51.75,-1.26,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Cotswolds</a>',
+    'Scotland 高地 — 🔗 <a href="https://www.google.com/maps/@57.00,-5.50,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Highlands</a>',
     "Wales：山脈、羊群",
     "城市中的紅磚排屋",
     "鄉村的石造小屋"
