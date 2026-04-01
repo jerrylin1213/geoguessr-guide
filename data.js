@@ -4030,9 +4030,10 @@ const COUNTRIES = {
     "所有街景都用大型皮卡車拍攝"
   ],
   car: [
-    "Snorkel 進氣管可見（僅 Kenya 和 Mongolia 有）",
-    "Roof rack + 車頂露營裝備",
-    "具體區域差異（備胎/帳篷樣式）待驗證"
+    "<strong>Snorkel 進氣管</strong>可見（全球僅 Kenya 和 Mongolia 有）",
+    "<strong>Roof rack + 車頂露營裝備</strong> — 因偏遠地區需露天過夜",
+    "西部（+ Ulaanbaatar）：車頂橫桿填滿<strong>黑色橡膠</strong>；東部：橫桿未填充",
+    "Gen 3 覆蓋"
   ],
   roads: [
     "大量未鋪設道路 — 草原上的車轍痕跡",
@@ -4766,9 +4767,10 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.qa', phoneCode: '+974', language: 'Arabic', currency: 'Riyal (QAR)',
   camera: ["<strong>100% Gen 4</strong>", "多哈地區涵蓋良好"],
   car: [
-    "白色 pickup truck，通常全部打碼",
-    "vs Oman：也是白色 truck",
-    "vs UAE：UAE 用轎車，Qatar 用 truck"
+    "<strong>白色 pickup truck</strong>，通常嚴重打碼",
+    "天線可見可不見（有 snorkel / antenna / 兩者都有 / 都沒有）",
+    "vs Oman：也是白色 truck，天線配置類似",
+    "vs UAE：UAE 用轎車，Qatar 用 truck — 車型差異是最可靠區分"
   ],
   roads: [
     "白色中心線 + 白色或黃色邊線",
@@ -5257,8 +5259,9 @@ const COUNTRIES = {
   drivingSide: 'left', tld: '.bm', phoneCode: '+1-441', language: 'English', currency: 'Bermudian Dollar (BMD)',
   camera: ["<strong>100% Gen 3</strong>", "覆蓋有限 — 小型島嶼領土"],
   car: [
-    "黑色 truck，有時被完全打碼為鋸齒狀模糊",
-    "非一般轎車 — truck 或鋸齒模糊是 Bermuda 辨識特徵"
+    "<strong>黑色 truck</strong>，有時被完全打碼為<strong>鋸齒狀模糊</strong>",
+    "黑色 truck + 鋸齒模糊是 Bermuda 獨有辨識特徵",
+    "靠左行駛（英式）"
   ],
   roads: [
     "白色中心線",
@@ -6839,8 +6842,9 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.rw', phoneCode: '+250', language: 'Kinyarwanda, French, English', currency: 'Franc (RWF)',
   camera: ["<strong>100% Gen 4</strong>", "覆蓋有限，正在零星發布"],
   car: [
-    "Gen 4 pickup truck",
-    "車色和細節待實際街景驗證"
+    "<strong>Gen 4 低相機 pickup truck</strong> — 黑色/棕色/灰色車身",
+    "模糊程度嚴重，車輛幾乎永遠可見（包括相機支架）",
+    "極罕見：完全模糊的 truck 變體"
   ],
   roads: [
     "右側行駛",
@@ -7701,8 +7705,9 @@ const COUNTRIES = {
       '畫質尚可 — 比其他地方的類似卡車覆蓋模糊度低'
     ],
     car: [
-    "白色 pickup truck",
-    "車身常被完全打碼"
+    "<strong>白色 pickup truck</strong>",
+    "車身常被嚴重打碼",
+    "vs Mongolia：Mongolia 有 snorkel + 露營裝備；Kazakhstan 無"
   ],
     roads: [
       '道路標線差異極大 — 主要道路有黃色路肩，多數使用全白方案',
@@ -8041,8 +8046,9 @@ const COUNTRIES = {
       '內陸沙漠地區有覆蓋缺口'
     ],
     car: [
-    "白色 pickup truck",
-    "vs Qatar：也是白色 truck，天線位置可能不同（待驗證）"
+    "<strong>白色 pickup truck</strong>（2024 新覆蓋）",
+    "車身打碼程度和天線配置與 Qatar 類似",
+    "vs Qatar：兩者都是白色 truck — 需靠語言/路標區分（Oman 阿拉伯語+英語路標，Qatar 較少英語）"
   ],
     roads: [
     "白色中心線",
@@ -10947,8 +10953,9 @@ const COUNTRIES = {
     "有多種不同的街景車（各島不同）"
   ],
   car: [
-    "多種車型（各島不同）",
-    "具體車型和外觀待實際街景驗證"
+    "Tutuila 島：向下看可見<strong>黑色 ute（pickup）</strong>後斗",
+    "其他島嶼：有人手持相機步行拍攝（trekker）",
+    "Aunu'u Island 和 Rose Atoll：看不到車"
   ],
   roads: [
     "右側行駛",
@@ -11492,10 +11499,11 @@ const META_SECTIONS = [
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
         <img src="images/meta/gen3_tirana.jpg" alt="Gen 3 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
+        <em style="font-size:0.75rem;color:var(--text-muted)">⚠️ 此截圖為 user upload（非 Google SV 官方），待替換</em>
         <p><strong>畫質：</strong>大幅提升 — 自然色彩、文字清晰、天空乾淨。<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
-        <strong>🔗 </strong><a href="https://maps.app.goo.gl/uBGXJQYBewqLqyUc7" target="_blank" style="color:var(--accent-blue)">Tirana Gen 3 範例</a><!-- ⚠️ 待確認是 Google SV --></p>
+        <strong>🔗 </strong><span style="color:var(--text-muted)">Gen 3 範例連結待補（舊連結為 user upload）</span></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 (2017–至今)</h4>
@@ -11514,8 +11522,8 @@ const META_SECTIONS = [
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
         • <a href="https://maps.app.goo.gl/9KK63KnFc25fvAi5A" target="_blank" style="color:var(--accent-blue)">Japan Low Cam (Tokyo)</a><br>
-        • <a href="https://maps.app.goo.gl/6Hp2GkiBxfDwBBK8A" target="_blank" style="color:var(--accent-blue)">Switzerland Low Cam (Zürich)</a><!-- ⚠️ 可能是 visitor upload，待換成 GSV link --><br>
-        • <a href="https://maps.app.goo.gl/gmF13RNeA6DfMNY16" target="_blank" style="color:var(--accent-blue)">India Unofficial Cam (Delhi)</a><!-- ⚠️ 可能是 visitor upload，待換成 GSV link --><br>
+        • <span style="color:var(--text-muted)">Switzerland Low Cam — 連結待補（舊連結為 user upload）</span><br>
+        • <span style="color:var(--text-muted)">India Unofficial Cam — 連結待補（舊連結為 user upload）</span><br>
         • <a href="https://maps.app.goo.gl/A7GssHcV2YLo7NiL7" target="_blank" style="color:var(--accent-blue)">Uganda Coverage (Kampala)</a><br><br>
         <img src="images/meta/lowcam_japan.jpg" alt="Japan Low Cam" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <em style="font-size:0.8rem;color:var(--text-muted)">↑ Japan Low Cam 實際街景（Tokyo Suginami, 2022）— 低角度視角、道路看起來更寬</em></p>

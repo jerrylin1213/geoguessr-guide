@@ -47,7 +47,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/0a497d9ff2fecd7441862be5f59235d72d228d42/dccea/static/img/places/andorra/road-signs/road-sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2022/09/Andorra-Google-Car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/571727df83b7561ebb68ff45d77a897dad03f353/5ed37/static/img/places/andorra/bollards/bollard.jpg',
@@ -184,6 +184,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/8/89/Koettmannsdorf_Wegscheide_Loiblpass_Strasse_Hollenburg_28082007_01.jpg',
     ],
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/f791b7cd990767c5869b37cf280697b964cc98ef/182fa/static/img/places/austria/miscellaneous/overview.webp',
@@ -455,6 +456,7 @@ const COUNTRY_IMAGES = {
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/ant-bg-2.png',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/bulgaria.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/9bbf87aedf5bc55e582499239b98aefd6a4cdca5/d0f8e/static/img/places/bulgaria/scenery/scenery.jpg',
@@ -634,6 +636,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/72bb206db689f4007521ec4510a194e05236e5d7/89988/static/img/places/colombia/poles/black_and_orange_bucaramanga_paint.jpg',
     ],
     signs: [
+      'https://geopinning.space/rule/cs_america/colombia/road-sign.jpg',
       'https://d33wubrfki0l68.cloudfront.net/d04dcef10ea66842679193b3da697a08df97e5e9/e1362/static/img/places/colombia/road-signs/colombian_cross.jpg',
     ],
     carMetas: [
@@ -669,7 +672,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/ac276ac253556009de21e6c0062abd8f88faed1c/cea9d/static/img/places/costa-rica/miscellaneous/university_sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -832,14 +834,12 @@ const COUNTRY_IMAGES = {
   },
   'egypt': {
     plates: [
-      'https://geomastr.com/assets/media/licenseplates/Egypt.jpg',
     ],
     poles: [
     ],
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -935,6 +935,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/e3edde1d62213f8423dbcd8a155994d28728d5cd/f34a8/static/img/places/finland/car-metas/gen3_snow_coerage.png',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/finland.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/d59a5814110e9a311d4c7e9f98f5c4e4c63e3c3e/25db7/static/img/places/finland/scenery/scenery.jpg',
@@ -965,7 +966,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/7d6c871c8e2ab901790d117f0f906b7f2f110182/6475a/static/img/places/france/road-signs/road_sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/88d6e388cb32411e62c970cc300b24cbd10e3481/7bee7/static/img/places/france/bollards/bollard.jpg',
@@ -998,7 +998,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/196ade94af3279c276dddcf0fbc291550d1dd027/5b097/static/img/places/germany/road-signs/berlin_sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2024/07/Germany-gen4car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/0f69b317e2953245d5e9df2492beb0ea356c4fa4/5471a/static/img/places/germany/bollards/bollard_front.jpg',
@@ -1010,6 +1010,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/8/84/B_54_bei_Steinfurt.jpg',
     ],
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/16ca70d1a698662cfcc4a3b4e6aa26fa80c0d406/78f71/static/img/places/germany/miscellaneous/overview.webp',
@@ -1179,6 +1180,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/6/64/Fahrbahnmarkierung_50%2C_F%C5%91strasse%2C_Gemeindegrenze%2C_2024_Bakonyb%C3%A9l.jpg',
     ],
     misc: [
     ],
@@ -1378,6 +1380,8 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/00bf05fa86e21a0ce6b2d86acdfeae027f2da7ab/61273/static/img/places/italy/car-metas/antenna.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/italy.jpg',
+      'https://geomastr.com/assets/media/bollards/italy2.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/9ad6d421be0a36e3feb4835533c108e43e53aa9d/574b4/static/img/places/italy/scenery/sicilian_oranges.jpg',
@@ -1387,6 +1391,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/a/a5/Strada_statale_145_Sorrentina_-_Piano_di_Sorrento.jpg',
     ],
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/784210f7921d427c7848f0b8ce269b891a8d19eb/bd910/static/img/places/italy/area-codes/codes.jpg',
@@ -1441,9 +1446,6 @@ const COUNTRY_IMAGES = {
   'jordan': {
     plates: [
       'https://d33wubrfki0l68.cloudfront.net/c68b695a50d71728dd564d41e813bf1322df11d8/9afde/static/img/places/jordan/plates/jo_plate.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Jordan.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Jordan2.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Jordan3.jpg',
     ],
     poles: [
     ],
@@ -1535,6 +1537,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/ec7a50f8e11b00feabaa71d3684e9e1e9d602612/8979c/static/img/places/laos/car-metas/laos_kyrgyz_guat.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/laos.jpg',
     ],
     scenery: [
     ],
@@ -1587,14 +1590,12 @@ const COUNTRY_IMAGES = {
   },
   'lebanon': {
     plates: [
-      'https://geomastr.com/assets/media/licenseplates/Lebanon.jpg',
     ],
     poles: [
     ],
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -1624,7 +1625,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/58c2ae59ac4bd4e4960a3bd47da9b10a2404ad45/8bc0f/static/img/places/lithuania/road-signs/lv_roadnumber.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/AXqwnKX.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/a16ec16637e6b47a2ce455a7e13eace21e454f3e/cffbe/static/img/places/lithuania/bollards/lt_orangebollard.jpg',
@@ -1659,7 +1660,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/a3c89c18180a450badbe1c46e530a65a2b86f14d/a9673/static/img/places/luxembourg/road-signs/blue_and_white_chevron.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/89e124e3568ab43ad073c6a4b34f1d9b8ad24ab2/ea474/static/img/places/luxembourg/bollards/bollards.jpg',
@@ -1724,6 +1724,8 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/0e0db15d9becab8b2dbc5b7dbbc4d903124590a8/319b0/static/img/places/malaysia/car-metas/my_black_gen3.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/malaysia.jpg',
+      'https://geomastr.com/assets/media/bollards/malaysia2.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/5f75aa9432b0082d27f8adbd1b9271cd5f026a8a/97ea0/static/img/places/malaysia/scenery/penang_scenery.jpg',
@@ -1748,7 +1750,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2025/01/malta-gen4-car.jpg',
     ],
     bollards: [
     ],
@@ -1816,6 +1818,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/9d01c2c98d9e04bd077fdf75129942e1e3347822/19ae0/static/img/places/mongolia/car-metas/blur_meta.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/mongolia.jpg',
     ],
     scenery: [
     ],
@@ -1836,9 +1839,11 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/2/2b/UlcinjSchilder.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/rgDQTe7.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/XRL8baO.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/montenegro.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/c2237b2e3f1f69037aaed29d2ed98fe7c703dca7/550fc/static/img/places/montenegro/scenery/railroad_road.jpg',
@@ -1858,7 +1863,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -1880,15 +1884,20 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2021/04/Netherlands-Antenna-Car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/dmbO7eR.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/netherlands.jpg',
+      'https://geomastr.com/assets/media/bollards/netherlands2.jpg',
+      'https://geomastr.com/assets/media/bollards/netherlands3.jpg',
     ],
     scenery: [
     ],
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/3/3e/RedBikeLane.JPG',
     ],
     misc: [
     ],
@@ -1961,9 +1970,10 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/northmacedonia.jpg',
+      'https://geomastr.com/assets/media/bollards/northmacedonia2.jpg',
     ],
     scenery: [
     ],
@@ -2011,9 +2021,9 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/norway.jpg',
     ],
     scenery: [
     ],
@@ -2035,7 +2045,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -2066,6 +2075,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/53af55719de16379178a62a07aa4a3463f327239/38f4e/static/img/places/peru/car-metas/pe_white_car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/peru.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/c60a91dbccafd1b49d5b3346d52c4320b033a920/c26bf/static/img/places/peru/scenery/peru_puno_valley.jpg',
@@ -2138,15 +2148,19 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/tTPoKC1.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/xtUrvyJ.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/poland.jpg',
+      'https://geomastr.com/assets/media/bollards/poland2.jpg',
     ],
     scenery: [
     ],
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/7/70/Droga_krajowa_nr_92.jpg',
     ],
     misc: [
     ],
@@ -2162,9 +2176,10 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/ed94a650cf486ee79c8ee03c7fb32f335edae242/a6612/static/img/places/portugal/road-signs/black_yellow_chevron.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/portugal.jpg',
+      'https://geomastr.com/assets/media/bollards/portugal2.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/d463f3a69a8653f9e64202c79c3ad3cbd0e67abd/b9c2e/static/img/places/portugal/scenery/houses_accents.png',
@@ -2206,18 +2221,12 @@ const COUNTRY_IMAGES = {
   },
   'qatar': {
     plates: [
-      'https://geomastr.com/assets/media/licenseplates/Qatar.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Qatar2.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Qatar3.jpg',
     ],
     poles: [
     ],
     signs: [
-      'https://geomastr.com/assets/media/streetsigns/stop/qatar.svg',
-      'https://geomastr.com/assets/media/streetsigns/pedestrians/qatar.svg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/qatar.jpg',
@@ -2267,6 +2276,7 @@ const COUNTRY_IMAGES = {
       'https://geotips.net/wp-content/uploads/2021/04/Romania-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/romania.jpg',
     ],
     scenery: [
     ],
@@ -2313,7 +2323,8 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2022/10/Rwanda-Car.jpg',
+      'https://geotips.net/wp-content/uploads/2022/10/Rwanda-Car-Back.jpg',
     ],
     bollards: [
     ],
@@ -2337,6 +2348,8 @@ const COUNTRY_IMAGES = {
       'https://geotips.net/wp-content/uploads/2022/10/Senegal-New-Car-Meta.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/senegal.jpg',
+      'https://geomastr.com/assets/media/bollards/senegal2.jpg',
     ],
     scenery: [
     ],
@@ -2357,9 +2370,11 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2021/01/Screenshot_87.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/serbia.jpg',
+      'https://geomastr.com/assets/media/bollards/serbia2.jpg',
     ],
     scenery: [
     ],
@@ -2378,7 +2393,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -2430,6 +2444,8 @@ const COUNTRY_IMAGES = {
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/ant-cz.png',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/slovenia.jpg',
+      'https://geomastr.com/assets/media/bollards/slovenia2.jpg',
     ],
     scenery: [
     ],
@@ -2462,7 +2478,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/4e195bdc42ee1a17e2ec0e499b480a71b2c9056c/a96a8/static/img/places/south-africa/road-signs/street-sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
       'https://geotips.net/wp-content/uploads/2021/04/South-Africa-Rare-Car.jpg',
     ],
     bollards: [
@@ -2499,9 +2514,9 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/southkorea.jpg',
     ],
     scenery: [
     ],
@@ -2522,7 +2537,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/41f78691e5fa47549c073475bb265a7c1227b662/5f9fd/static/img/places/spain/road-signs/no_hunting.png',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/xpFqP3h.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/5072a67a8d48df5e1ba0798597076b4f2aff65e5/bdd49/static/img/places/spain/bollards/extremadura.png',
@@ -2532,6 +2547,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/a/a9/Lanzarote%2C_carreteras_1993_03.jpg',
     ],
     misc: [
     ],
@@ -2571,6 +2587,8 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/9c91177ef71740cf3e7c1641fc42d00b1c8d2502/99742/static/img/places/sweden/car-metas/blue_stripe_southwest.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/sweden.jpg',
+      'https://geomastr.com/assets/media/bollards/sweden2.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/2f178e6f609bf15055861cf4e676c4b64b58c8ed/1ac10/static/img/places/sweden/scenery/gothenburg_white_house_orange_roof.png',
@@ -2596,7 +2614,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/veaunrc.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/d782834e0377de4ddd8b26ef80d913ad922281fe/e21b6/static/img/places/switzerland/bollards/circular_black_red_band.jpg',
@@ -2606,6 +2624,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/6/67/Lignes_6.02_et_6.15_A13_Mesocco.jpg',
     ],
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/66c2f6edbe47917ae805973f9dcfb305192d88ac/161b7/static/img/places/switzerland/miscellaneous/overview.webp',
@@ -2624,6 +2643,7 @@ const COUNTRY_IMAGES = {
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/car-breaklight-mx.png',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/thailand.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/e9fd6b8f11647fe1d73fc70d077e31049b380916/80a7d/static/img/places/thailand/scenery/rubber_tree.jpg',
@@ -2646,18 +2666,13 @@ const COUNTRY_IMAGES = {
   },
   'tunisia': {
     plates: [
-      'https://geomastr.com/assets/media/licenseplates/Tunisia.jpg',
-      'https://geomastr.com/assets/media/licenseplates/Tunisia2.jpg',
     ],
     poles: [
       'https://upload.wikimedia.org/wikipedia/commons/8/89/Route_x_tunis.JPG',
     ],
     signs: [
-      'https://geomastr.com/assets/media/streetsigns/stop/tunisia.svg',
-      'https://geomastr.com/assets/media/streetsigns/pedestrians/tunisia.svg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/tunisia.jpg',
@@ -2680,7 +2695,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/25193f68413264e04f5633f2160f37c7403862f5/43a19/static/img/places/turkey/bollards/snowpole.jpg',
@@ -2690,6 +2704,7 @@ const COUNTRY_IMAGES = {
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/7/72/Tedes_%286%29.jpg',
     ],
     misc: [
     ],
@@ -2702,7 +2717,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -2729,6 +2743,8 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/22bc11c01393cfbb5a20a33d9fde68eb65584301/299fe/static/img/places/ukraine/car-metas/kyiv_white_car_car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/ukraine.jpg',
+      'https://geomastr.com/assets/media/bollards/ukraine2.jpg',
     ],
     scenery: [
     ],
@@ -2747,9 +2763,10 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
+      'https://geotips.net/wp-content/uploads/2020/11/Snyu6uP.png',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/uruguay.jpg',
     ],
     scenery: [
     ],
@@ -2772,7 +2789,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -2794,9 +2810,9 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/vietnam.jpg',
     ],
     scenery: [
     ],
@@ -2819,12 +2835,15 @@ const COUNTRY_IMAGES = {
       'https://geotips.net/wp-content/uploads/2024/08/UK-car.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/unitedkingdom.jpg',
+      'https://geomastr.com/assets/media/bollards/unitedkingdom2.jpg',
     ],
     scenery: [
     ],
     architecture: [
     ],
     roadMarkings: [
+      'https://upload.wikimedia.org/wikipedia/commons/4/4d/A52_Lane_Markings_-_geograph.org.uk_-_1065142.jpg',
     ],
     misc: [
       'https://d33wubrfki0l68.cloudfront.net/c775d5c16f67c379a675de2b62282a2ce4d16a7f/129f2/static/img/places/united-kingdom/miscellaneous/road-prefixes-summary.png',
@@ -2946,7 +2965,6 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -3009,6 +3027,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/cfef59b6a20683ed9ee6dce36ab170e240c87e56/b60ac/static/img/places/united-arab-emirates/car-metas/car_with_black_lines.jpg',
     ],
     bollards: [
+      'https://geomastr.com/assets/media/bollards/unitedarabemirates.jpg',
     ],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/3cfb76c24b1cb38d4de7935b2c7c7acfd3c4fc7c/14089/static/img/places/united-arab-emirates/scenery/uae_scenery.jpg',
@@ -3034,7 +3053,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/84c144c5db36e295bbc0f71fc3de1ccfc5e16c1e/7a62d/static/img/places/taiwan/road-signs/taiwan_mirror.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [
     ],
@@ -3055,7 +3073,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/cd09e73b8ed248083f91ab19391734503b24f1ae/1373c/static/img/places/eswatini/road-signs/road_sign.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ],
     bollards: [],
     scenery: [
@@ -3097,7 +3114,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/a/a7/Bosnia_and_Herzegovina_license_plate_MD_2717_CA.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'cyprus': {
@@ -3107,7 +3123,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/7/76/Agios_Athanasios%2C_Cyprus_Road_Sign.jpg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'morocco': {
@@ -3116,7 +3131,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/License_plates_of_Morocco_0004.jpg/960px-License_plates_of_Morocco_0004.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'cuba': {
@@ -3127,7 +3141,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/d/da/Pare%2C_Habana%2C_Cuba_%289422485764%29.jpg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'jamaica': {
@@ -3135,7 +3148,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jamaica_private_license_plate_01.jpg/960px-Jamaica_private_license_plate_01.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'panama': {
@@ -3145,7 +3157,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/6/60/Panama_road_sign_R-1.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'saudi-arabia': {
@@ -3153,7 +3164,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/5/51/Saudi_Arabia_license_plate_2014_European_size.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'kazakhstan': {
@@ -3161,7 +3171,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/6/62/Kazakh_license_plate_for_non-private_vehicles.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'fiji': {
@@ -3170,7 +3179,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fiji_Car_license_plate.jpg/960px-Fiji_Car_license_plate.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'paraguay': {
@@ -3181,7 +3189,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/4/49/Paraguay_road_sign_R-01.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'venezuela': {
@@ -3191,7 +3198,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/6/6e/Venezuela_road_sign_R1-1a.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'kosovo': {
@@ -3201,7 +3207,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/7/7e/Road_sign_in_Kosovo.JPG',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'moldova': {
@@ -3211,7 +3216,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/c/c9/MD.OC.Otaci_-_national_speed_limits_-_jan_2018_%28cropped%29.jpg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'namibia': {
@@ -3219,7 +3223,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/3/35/Namibian_license_plates.JPG',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'honduras': {
@@ -3229,7 +3232,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/e/ed/SIECA_road_sign_R-1-1.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'el-salvador': {
@@ -3239,7 +3241,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/e/ed/SIECA_road_sign_R-1-1.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'nicaragua': {
@@ -3249,7 +3250,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/4/4c/ALTO_sign.png',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'trinidad-and-tobago': {
@@ -3258,7 +3258,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/License_plate_of_Trinidad_and_Tobago_02.jpg/960px-License_plate_of_Trinidad_and_Tobago_02.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'ethiopia': {
@@ -3270,7 +3269,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Milepost_%285071592947%29.jpg/960px-Milepost_%285071592947%29.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'tanzania': {
@@ -3282,7 +3280,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/T1_road_sign_Mikumi_TZ.jpg/960px-T1_road_sign_Mikumi_TZ.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'zambia': {
@@ -3294,7 +3291,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Road_signs_in_Zambia_01.jpg/960px-Road_signs_in_Zambia_01.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'zimbabwe': {
@@ -3302,7 +3298,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Zimbabwe_car_plate.JPG/960px-Zimbabwe_car_plate.JPG',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'mozambique': {
@@ -3310,7 +3305,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mozambique_plate_01.jpg/960px-Mozambique_plate_01.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Road_between_Xai-Xai_and_Chidenguele.jpg/960px-Road_between_Xai-Xai_and_Chidenguele.jpg',
@@ -3326,7 +3320,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Panneau_de_signalisation_dans_le_nord_Cameroun.jpg/960px-Panneau_de_signalisation_dans_le_nord_Cameroun.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'ivory-coast': {
@@ -3334,7 +3327,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/License_plate_C%C3%B4te_d%27Ivoire.jpg/960px-License_plate_C%C3%B4te_d%27Ivoire.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'guinea': {
@@ -3346,7 +3338,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Panneaux_de_signalisation_sur_la_route_conakry_Coyah.jpg/960px-Panneaux_de_signalisation_sur_la_route_conakry_Coyah.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'myanmar': {
@@ -3371,7 +3362,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tutong_Road_Signs.jpg/960px-Tutong_Road_Signs.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Kuala_Belait_Highway_9_July_2022.jpg/960px-Kuala_Belait_Highway_9_July_2022.jpg',
@@ -3383,7 +3373,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/7/76/2022-10-19_KFZ-Kennzeichen_aus_Oe-Cusse_Ambeno.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/DSCI2960_Road_from_Dili_to_Maubisse.jpg/960px-DSCI2960_Road_from_Dili_to_Maubisse.jpg',
@@ -3395,7 +3384,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Newest_license_plate_Uzbekistan_Samarqand_Region.jpg/960px-Newest_license_plate_Uzbekistan_Samarqand_Region.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'georgia': {
@@ -3408,7 +3396,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Georgian_road_signs.jpg/960px-Georgian_road_signs.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'monaco': {
@@ -3416,7 +3403,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/License_plate_Monaco_2014.jpg/960px-License_plate_Monaco_2014.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'gibraltar': {
@@ -3443,7 +3429,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/0c105471a8886233ef36fdc5b5f4b4cc453f4dee/13291/static/img/places/isle-of-man/plates/plate_front.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/a6e6b3e008d0ba21fa4efcfd4a07e3ff6b71c166/3cfc5/static/img/places/isle-of-man/scenery/scenery_fields_sea_meh_weather.jpg',
@@ -3496,7 +3481,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/License_plates_of_Oman_1237.jpg/960px-License_plates_of_Oman_1237.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'palestine': {
@@ -3504,7 +3488,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/License_Plate_-_Palestine_-_Private_-_1994.png/960px-License_Plate_-_Palestine_-_Private_-_1994.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'falkland-islands': {
@@ -3512,7 +3495,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Falkland_Islands_number_plate_%28private_car%29.jpg/960px-Falkland_Islands_number_plate_%28private_car%29.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'svalbard': {
@@ -3520,7 +3502,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Svalbard_23_BG_1.jpg/960px-Svalbard_23_BG_1.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'hawaii': {
@@ -3536,7 +3517,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/e/e4/Alaska_2020_License_Plate.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'azores': {
@@ -3544,7 +3524,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/c/ce/Azores_Islands_tractor_plate.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'madeira': {
@@ -3552,7 +3531,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2015_Madeira_Samsung_%288%29.jpg/960px-2015_Madeira_Samsung_%288%29.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'martinique': {
@@ -3560,7 +3538,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/License_plate_of_Martinique_01.jpg/960px-License_plate_of_Martinique_01.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'macau': {
@@ -3568,7 +3545,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/7/73/Macau_licence_plates_for_private_vehicles_2009.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'san-marino': {
@@ -3578,7 +3554,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/b/b3/Delineatore_curva_San_Marino.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'liechtenstein': {
@@ -3588,7 +3563,6 @@ const COUNTRY_IMAGES = {
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/f/f7/CH-Hinweissignal-Standort_eines_Fussg%C3%A4ngerstreifens.svg',
     ], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/bollard/bollard-li.png',
     ], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3619,7 +3593,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2002_standard_license_plate_of_China.jpg/960px-2002_standard_license_plate_of_China.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'belarus': {
@@ -3632,7 +3605,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Road_signs_in_Minsk%2C_Belarus%2C_near_Grand_Hotel_Europe.jpg/960px-Road_signs_in_Minsk%2C_Belarus%2C_near_Grand_Hotel_Europe.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Centralnaja_street_%28Minsk%2C_Belarus%29_p06.jpg/250px-Centralnaja_street_%28Minsk%2C_Belarus%29_p06.jpg',
@@ -3649,7 +3621,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mauritius_Road_Signs_-_Warning_Sign_-_Pedestrians.svg/120px-Mauritius_Road_Signs_-_Warning_Sign_-_Pedestrians.svg.png',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'malawi': {
@@ -3657,7 +3628,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/License_plate_of_Malawi.jpg/500px-License_plate_of_Malawi.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Nyika_National_Park%2C_Malawi_%282489520685%29.jpg/640px-Nyika_National_Park%2C_Malawi_%282489520685%29.jpg',
@@ -3670,7 +3640,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/DRC_presidential_license_plate.jpg/330px-DRC_presidential_license_plate.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Ici_un_embouteillage_%C3%A0_Kinshasa_%2815135583779%29.jpg/960px-Ici_un_embouteillage_%C3%A0_Kinshasa_%2815135583779%29.jpg',
@@ -3683,7 +3652,6 @@ const COUNTRY_IMAGES = {
     ],
     poles: [], signs: [],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/WPWPCG_22.jpg/960px-WPWPCG_22.jpg',
@@ -3701,7 +3669,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ouagadougou_road_sign%2C_Burkina_Faso%2C_2009.jpg/960px-Ouagadougou_road_sign%2C_Burkina_Faso%2C_2009.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ouagadougou_road.jpg/250px-Ouagadougou_road.jpg',
@@ -3714,7 +3681,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Plaque_d%27immatriculation_en_Mali.png/500px-Plaque_d%27immatriculation_en_Mali.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sahel_forest_near_Kayes_Mali.jpg/960px-Sahel_forest_near_Kayes_Mali.jpg',
@@ -3727,7 +3693,6 @@ const COUNTRY_IMAGES = {
       'https://live.staticflickr.com/4087/5081139990_e17ec9dc2b.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Freetown_street_%2813992704238%29.jpg/640px-Freetown_street_%2813992704238%29.jpg',
@@ -3743,7 +3708,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Lom%C3%A9_Togo_Road_signs.jpg/120px-Lom%C3%A9_Togo_Road_signs.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Blvd_des_Armee_Lome_%28Lome%2C_TOGO_2019%29.jpg/960px-Blvd_des_Armee_Lome_%28Lome%2C_TOGO_2019%29.jpg',
@@ -3755,7 +3719,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Djibouti_license_plate_graphic_1990s.png/500px-Djibouti_license_plate_graphic_1990s.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Rue_de_Rome%2C_Djibouti_-_panoramio.jpg/500px-Rue_de_Rome%2C_Djibouti_-_panoramio.jpg',
@@ -3768,7 +3731,6 @@ const COUNTRY_IMAGES = {
       'https://matriculasdelmundo.com/matriculatop/paises/sudan-sur.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Juba-Nimule_Road_in_South_Sudan_2022.jpg/960px-Juba-Nimule_Road_in_South_Sudan_2022.jpg',
@@ -3781,7 +3743,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/License_Plate_-_Sudan.png/250px-License_Plate_-_Sudan.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/60th_Road_-Khartoum_-Sudan-1.JPG/250px-60th_Road_-Khartoum_-Sudan-1.JPG',
@@ -3794,7 +3755,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Papua_New_Guinea_license_plate_graphic.png/330px-Papua_New_Guinea_license_plate_graphic.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Papua_New_Guinea_taxi_plate_-_Flickr_-_woody1778a.jpg/250px-Papua_New_Guinea_taxi_plate_-_Flickr_-_woody1778a.jpg',
@@ -3807,7 +3767,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/NC_2019_license_plate.jpg/500px-NC_2019_license_plate.jpg',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Road_to_La_Tontouta_%28RT1%29%2C_New_Caledonia.jpg/960px-Road_to_La_Tontouta_%28RT1%29%2C_New_Caledonia.jpg',
@@ -3833,7 +3792,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Solomon_Islands_license_plate_graphic.png/330px-Solomon_Islands_license_plate_graphic.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Main_Street%2C_Honiara%2C_Solomon_Islands.jpg/960px-Main_Street%2C_Honiara%2C_Solomon_Islands.jpg',
@@ -3845,7 +3803,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Tonga_license_plate_graphic.png/330px-Tonga_license_plate_graphic.png',
     ],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nukualofa_Tonga_2.jpg/960px-Nukualofa_Tonga_2.jpg',
@@ -3856,7 +3813,6 @@ const COUNTRY_IMAGES = {
   'pitcairn-islands': {
     plates: [],
     poles: [], signs: [], carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Pitcairn-adamstown.jpg/960px-Pitcairn-adamstown.jpg',
@@ -3877,7 +3833,6 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Arriv%C3%A9e_%C3%A0_Langlade_par_la_route.jpg/250px-Arriv%C3%A9e_%C3%A0_Langlade_par_la_route.jpg',
     ],
     carMetas: [
-      'https://geotips.net/wp-content/uploads/2024/07/gen-4-car.jpg',
     ], bollards: [],
     scenery: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Miquelon_street.jpg/960px-Miquelon_street.jpg',

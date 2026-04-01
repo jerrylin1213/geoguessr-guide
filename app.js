@@ -25,6 +25,7 @@
     '_russia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     '_red': 'https://d33wubrfki0l68.cloudfront.net/44693764265748b141750c33c2dc00223e3e61d4/f3d1e/static/img/camera-cars/red-car.jpg',
     '_pickup': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    '_blue': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     // Country-specific
     'kenya': 'https://d33wubrfki0l68.cloudfront.net/41d30c6633ce9982641124c56900844195652618/6e05b/static/img/camera-cars/kenya-car.jpg',
     'guatemala': 'https://d33wubrfki0l68.cloudfront.net/22d6175a3bc15ad62c0f71a47c4530cdc5ffd945/df962/static/img/camera-cars/guatemala-mirrors.jpg',
@@ -51,14 +52,66 @@
     'rwanda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'bermuda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'christmas-island': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'south-africa': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'south-africa': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     'brazil': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'mexico': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'usa': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'france': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'france': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     'bangladesh': 'https://d33wubrfki0l68.cloudfront.net/53ef2669f637d8362317f5145dd7b11c28bd4df2/94be9/static/img/places/bangladesh/car-metas/rack-yellow.png',
     'cambodia': 'https://d33wubrfki0l68.cloudfront.net/be13a2e2d73bb39d061d67f5f61b5acd7d79c31e/fc476/static/img/places/cambodia/car-metas/car.jpg',
     'colombia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    // Gen 3 white sedan countries
+    'andorra': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'germany': 'https://geotips.net/wp-content/uploads/2024/07/Germany-gen4car.jpg',
+    'kosovo': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'malta': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'moldova': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'montenegro': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'north-macedonia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'poland': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'portugal': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'serbia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'spain': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'vietnam': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'morocco': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'georgia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'lebanon': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'azores': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'madeira': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'brunei': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'jamaica': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'singapore': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'eswatini': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'mauritius': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'trinidad-and-tobago': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    // Gen 4 white car countries
+    'turkey': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'luxembourg': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    // Gen 2/3 black car countries
+    'isle-of-man': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
+    'taiwan': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
+    // Black car with antenna
+    'tunisia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
+    'palestine': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
+    // Gen 4 blue car countries
+    'norway': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
+    'netherlands': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
+    'lithuania': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
+    // Pickup truck countries
+    'panama': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    'paraguay': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    'kazakhstan': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    'us-virgin-islands': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    // Low cam (same as Switzerland)
+    'liechtenstein': 'https://d33wubrfki0l68.cloudfront.net/1f96c4b9410d47ba2f6efb66e609c1ac83275426/0457c/static/img/camera-cars/switzerland-blur.jpg',
+    // Standard white sedan (Africa/Pacific "標準轎車")
+    'zambia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'zimbabwe': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'cameroon': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'guinea': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'togo': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'fiji': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    'malawi': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
   };
 
   // ===== Bollard Images (from geomastr.com) =====
@@ -83,6 +136,7 @@
     'eswatini': 'eswatini', 'gibraltar': 'gibraltar', 'guam': 'guam',
     'laos': 'laos', 'lesotho': 'lesotho', 'montenegro': 'montenegro',
     'taiwan': 'taiwan', 'uruguay': 'uruguay', 'vietnam': 'vietnam',
+    'qatar': 'qatar', 'south-korea': 'southkorea', 'tunisia': 'tunisia', 'uae': 'unitedarabemirates',
   };
 
   // ===== Region definitions =====
