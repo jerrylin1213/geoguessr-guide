@@ -14,11 +14,9 @@ const COUNTRIES = {
     "<strong>100% Gen 3（有兩種車：長天線版+短天線版）</strong>",
     "主要公路和城市覆蓋良好，山區較稀疏"
   ],
-  car: [
-    "Gen 3：白色轎車，無特殊辨識特徵",
-    "Gen 3 有天線（長或短），可見相機裂紋（camera rifts）",
-    "無 snorkel、無 roof rack、無特殊膠帶"
-  ],
+    car: [
+      "Gen 3：兩種車 — <strong>長天線版</strong>（天空有裂紋）和<strong>短天線版</strong>（無裂紋）",
+    ],
   roads: [
     "公路上常見白色虛線中線",
     "道路品質差異極大 — 高速公路平整 vs 鄉村道路破損",
@@ -141,13 +139,9 @@ const COUNTRIES = {
     "⚠️ Germany 僅有 Gen 4；Switzerland 為低相機 — 可依此區分三個德語國家",
     "Burgenland 有一條 Gen 2 道路"
   ],
-  car: [
-    "Gen 3：白色轎車",
-    "Gen 4 小相機（low cam 風格）：大圓形打碼前部突出",
-    "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數，另有 Turkey、Belgium）",
-    "Gen 4：幾乎全部為<strong>完全打碼（no car visible）</strong>",
-    "西部靠近 Switzerland 邊境有<strong>錫箔天線</strong> — Austria 獨有"
-  ],
+    car: [
+      "Gen 3 和 Gen 4 覆蓋（極少量 Gen 2）",
+    ],
   roads: [
     "維護良好的高速公路和 Autobahn",
     "白色虛線中線（歐洲標準）",
@@ -220,11 +214,10 @@ const COUNTRIES = {
     "全國覆蓋範圍廣泛",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~8,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 3/2：白色轎車",
-    "Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數，另有 Austria、Turkey）",
-    "Gen 4：大多為<strong>完全打碼（no car visible）</strong>，尤其 2020-2021"
-  ],
+    car: [
+      "Gen 4 有紅色車+長天線（罕見）",
+      "Gen 4 也有 smallcam 覆蓋",
+    ],
   roads: [
     "以路況差聞名 — 柏油路面不均勻，坑洞多",
     "全白道路線（中線 + 邊線），可為連續或中斷",
@@ -358,12 +351,10 @@ const COUNTRIES = {
     "Gen 4 覆蓋始於 2021 — 色彩鮮豔",
     "主要道路和城市覆蓋良好"
   ],
-  car: [
-    "Gen 4：藍色車（有天線和無天線均有）",
-    "Gen 4：<strong>紅色車</strong> — 紅車三大國之一（Sweden、Slovakia、Bulgaria）",
-    "Gen 4：<strong>黑色車+天線</strong> — 主要在 Bulgaria 和 Lithuania",
-    "Gen 3：白色轎車"
-  ],
+    car: [
+      "Gen 4：三種車型（有/無天線），也有完全隱藏的覆蓋",
+      "Gen 3：大部分在春季（3-4月）拍攝 — 枯黃冬季景觀",
+    ],
   roads: [
     "中心線比 Romania <strong>更細</strong> — 區分兩國的可靠線索",
     "道路品質普遍較差，裂縫多偶有坑洼",
@@ -435,13 +426,9 @@ const COUNTRIES = {
     "海岸和內陸城市覆蓋良好",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~5,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（常見，屬天線多的中東歐群組）",
-    "Gen 4 藍車天線：2023 無涵蓋（2023 天線排除 Slovakia、Hungary、Latvia、Estonia、Croatia）",
-    "Gen 3：白色轎車",
-    "Gen 3：<strong>側鏡有黃色貼紙</strong> — Croatia 獨有辨識特徵",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 3：車輛模糊中<strong>側鏡部分可見</strong>（非 Croatia 獨有但常見）",
+    ],
   roads: [
     "維護良好的高速公路（A1 Zagreb-Split 非常好）",
     "白色中線和邊線",
@@ -568,14 +555,10 @@ const COUNTRIES = {
     "Gen 3 覆蓋範圍廣泛",
     "Gen 4 覆蓋（藍色車）近年大量增加，Brno 等城市 2023 起更新"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
-    "Gen 4：<strong>黑色轎車 + 圓形天線</strong>（2023）",
-    "Gen 4：也有<strong>紅色轎車</strong>（全新 2024，目前稀少）",
-    "Gen 4 藍車無天線 2021：<strong>有涵蓋</strong>（中歐僅 Czechia，排除 Slovakia、Hungary 等）",
-    "Gen 3：白色轎車，天線有膠帶",
-    "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
-  ],
+    car: [
+      "Gen 3：天線頂端有<strong>灰色膠帶</strong>（Slovakia 也有）",
+      "Gen 4：紅色或黑色車（與 Slovakia 共用）",
+    ],
   roads: [
     "維護良好的道路網絡",
     "白色中線和邊線",
@@ -711,10 +694,10 @@ const COUNTRIES = {
     "Gen 3 覆蓋比 Latvia/Lithuania 更廣（很多鄉村小路都有）",
     "Gen 3 常有<strong>綠色模糊</strong>（green tint）— Latvia/Lithuania 不常有"
   ],
-  car: [
-    "Gen 3：白色轎車，標準歐洲配置",
-    "無特殊車輛辨識特徵"
-  ],
+    car: [
+      "Gen 3：常有<strong>綠色色調</strong>（green blur）覆蓋部分畫面",
+      "Gen 3 覆蓋比其他波羅的海國家更廣（很多鄉村小路）",
+    ],
   roads: [
     "外側線有時為<strong>短虛線</strong>（Lithuania 也有；Sweden 也用短虛線）",
     "護欄為標準 A 型<strong>無反光體</strong>（Latvia/Lithuania 護欄可能有反光體）"
@@ -905,12 +888,9 @@ const COUNTRIES = {
     "<strong>Shitcam</strong>：低畫質相機，寬圓形打碼 + 棕色色調 — 歐洲僅 Finland",
     "Gen 4 也有「小相機」覆蓋（所有北歐都有）"
   ],
-  car: [
-    "Gen 3：白色轎車；西南部有<strong>略微傾斜長天線</strong>；中南部有<strong>完全無天線</strong>覆蓋",
-    "Gen 4：<strong>黑色 pickup truck</strong> — Finland 獨有",
-    "Gen 4 藍車：2024 稀少、2023 稀少、<strong>2021 無涵蓋</strong>（挪威-瑞典-芬蘭 50-50：2021 可排除 Finland）",
-    "Gen 4 藍車天線：<strong>無</strong>（Finland 不在藍車天線群組中 — 北歐僅 Sweden 有天線）"
-  ],
+    car: [
+      "Gen 3：大量秋季拍攝（樹木呈秋色）— 比其他北歐國家更常見",
+    ],
   roads: [
     "外側線<strong>始終為白色實線</strong>（Sweden/Norway 用虛線）",
     "中線多種：白色虛線、純黃線帶白虛線、雙黃線",
@@ -985,13 +965,10 @@ const COUNTRIES = {
     "Gen 2 覆蓋（2008-2012）仍存在於部分區域",
     "Gen 1 極少量（僅在最早期覆蓋）"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（2021 即出現 — 歐洲最早一批，僅 Hungary、Bulgaria、Sweden、少量 Romania）",
-    "Gen 4 藍車無天線 2021：法國/英國/愛爾蘭最常見的西歐涵蓋年份",
-    "Gen 4：也有電動車覆蓋 — 僅限 Frankfurt/Hamburg 及 Dublin/London",
-    "Gen 2/3：白色轎車",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 4 有 smallcam 覆蓋",
+      "西歐大部分國家也有 smallcam",
+    ],
   roads: [
     "<strong>外側白色虛線間距極長</strong>（long dashes）— 法國典型特徵",
     "<strong>中線白色虛線也比一般更長</strong>",
@@ -1068,14 +1045,10 @@ const COUNTRIES = {
     "部分舊覆蓋為跨國界溢出 (spillover) 街景",
     "⚠️ 因隱私法規，覆蓋範圍有限且房屋大量模糊"
   ],
-  car: [
-    "Gen 2/3：白色轎車",
-    "Gen 4：涵蓋極為有限，也有 <strong>Gen 4 小相機</strong>（低相機，非常有限）",
-    "Gen 4 藍車天線：<strong>2022 無涵蓋</strong>（2022 天線排除 Germany、Netherlands、Slovenia）",
-    "Gen 4：也有<strong>電動車</strong>覆蓋 — 僅 Frankfurt am Main 和 Hamburg",
-    "⚠️ 因隱私法規，涵蓋範圍有限（比 Austria 稍多）",
-    "無 antenna、無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "<strong>所有車輛覆蓋均為 Gen 4</strong>（Gen 2/3 僅有 trekker 和溢出覆蓋）",
+      "罕見：Hamburg 和 Frankfurt 附近有白黑色 Gen 4 車",
+    ],
   roads: [
     "右側行駛",
     "<strong>白色中心線和邊線</strong>",
@@ -1153,11 +1126,11 @@ const COUNTRIES = {
     "Gen 4 覆蓋持續擴展中",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~17,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>黑色轎車無天線</strong> — Greece 擁有<strong>最多黑色車無天線</strong>的 Gen 4",
-    "Gen 4：藍色車也有（無天線為主）",
-    "Gen 3/2：白色轎車"
-  ],
+    car: [
+      "Gen 4 有 smallcam 覆蓋",
+      "Crete 島：獨特天線（頂端有微凸）",
+      "Gen 3 有大量冬季/秋季覆蓋（蕭條景觀）",
+    ],
   roads: [
     "<strong>略微褪色的雙白色中線</strong>（可與其他地中海國家區分）",
     "<strong>黃色道路線</strong>比任何其他南歐國家都更常見",
@@ -1220,14 +1193,10 @@ const COUNTRIES = {
     "<strong>76% Gen 4 + 24% Gen 3（Gen 3 多在冬季拍攝，畫面灰暗）</strong>",
     "Gen 4 覆蓋（藍色車搭配圓形天線，或藍色車無天線）"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（或無天線）",
-    "Gen 4 藍車天線：<strong>2021 即出現</strong> — 歐洲最早一批（與 Bulgaria、Sweden、少量 Romania/France 並列）",
-    "Gen 4 藍車天線：<strong>2023 無涵蓋</strong>（排除 Hungary、Slovakia、Latvia、Estonia、Croatia）",
-    "Gen 4：2019 涵蓋相當常見（與 Denmark 類似，但不如 Ireland/Norway/Czechia）",
-    "Gen 3：白色轎車，天線有膠帶",
-    "Gen 3 有<strong>冬季涵蓋</strong>（積雪場景）"
-  ],
+    car: [
+      "Gen 3：天線上常見<strong>小灰色旗幟</strong>",
+      "Gen 4：白色車（罕見）或<strong>黑色車永遠無天線</strong>",
+    ],
   roads: [
     "路線全白色，<strong>自行車道線通常黃色</strong>",
     "良好的高速公路網（M 級道路）",
@@ -1298,13 +1267,11 @@ const COUNTRIES = {
     "覆蓋集中在 Route 1（環島公路）",
     "內陸高地覆蓋非常有限"
   ],
-  car: [
-    "Gen 4：<strong>truck（非轎車）</strong> — 三種：",
-    "• <strong>紅色 truck</strong> = 西南半部（只有 2024 copyright）",
-    "• <strong>白色 truck</strong> = 東北半部 + 部分 Reykjavik（只有 2024）",
-    "• <strong>Invisible truck</strong>（巨大 truck 形狀模糊）= 全 Iceland + Faroe Islands。<strong>如果偏黑色 → Faroe Islands</strong>",
-    "Gen 3：標準轎車，可見天線"
-  ],
+    car: [
+      "Gen 4：<strong>紅色和白色 pickup truck</strong>（打碼良好）",
+      "Gen 3：白色車+長天線",
+      "西南部=紅色 truck，其他=白色 truck",
+    ],
   roads: [
     "公路使用<strong>全白線</strong>，外側實線或虛線，無黃線（有黃線考慮 Norway/Finland）",
     "單線道橋梁常見（單車道配會車灣）",
@@ -1372,13 +1339,9 @@ const COUNTRIES = {
     "Gen 4 覆蓋（藍色車，無天線）",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~7,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車，無天線</strong> — <strong>2019 是重要 meta</strong>（歐洲僅 Ireland、Norway、Czechia 常見）",
-    "Gen 4 藍車天線：<strong>無</strong>（Ireland 不在天線群組中）",
-    "Gen 4：也有<strong>電動車</strong>覆蓋 — Dublin 市區及部分鄉村地區",
-    "Gen 3：白色轎車",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 4 有 smallcam 覆蓋",
+    ],
   roads: [
     "靠左行駛",
     "<strong>黃色虛線邊線</strong> — Ireland 極獨特（UK 幾乎看不到，也見於 NZ/Spain 西部）",
@@ -1451,13 +1414,10 @@ const COUNTRIES = {
     "Gen 2 仍存在於部分舊覆蓋區域",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（地中海地區，與 Croatia、Slovenia 共用）",
-    "Gen 4 藍車天線：常見（屬天線多的群組）",
-    "Gen 4 黑車無天線：<strong>2022 僅見於 Italy</strong>（加極少量 Spain/Latvia） — 有用的年份 meta",
-    "Gen 3：白色轎車",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "Gen 4 有 smallcam 覆蓋",
+      "Campione d'Italia（瑞士境內飛地）：低相機+長天線+旗幟",
+    ],
   roads: [
     "右側行駛",
     "<strong>最常見劃線：無中線 + 白色實線外線</strong>（在地中海國家中獨特）",
@@ -1572,10 +1532,9 @@ const COUNTRIES = {
   name: 'Latvia', localName: 'Latvija', flag: '🇱🇻', region: 'europe',
   drivingSide: 'right', tld: '.lv', phoneCode: '+371', language: 'Latvian', currency: 'Euro (EUR)',
   camera: ["<strong>73.5% Gen 3 + 26.5% Gen 2</strong>"],
-  car: [
-    "Gen 3：白色轎車",
-    "少量 Gen 4 覆蓋（黑色車+天線、紅色車 — Elori doc 確認，但比例極小）"
-  ],
+    car: [
+      "Gen 4：紅色或黑色車",
+    ],
   roads: [
     "道路品質不一，白色中線",
     "護欄 A 型帶<strong>白色或紅色反光體</strong>（Estonia 無；Lithuania 橙色）"
@@ -2671,13 +2630,9 @@ const COUNTRIES = {
   name: 'Slovenia', localName: 'Slovenija', flag: '🇸🇮', region: 'europe',
   drivingSide: 'right', tld: '.si', phoneCode: '+386', language: 'Slovenian', currency: 'Euro (EUR)',
   camera: ["<strong>85.6% Gen 3 + 14.3% Gen 4 + 0.1% Gen 2</strong>", "覆蓋良好"],
-  car: [
-    "Gen 4：<strong>藍色轎車 + 圓形天線</strong>（天線常見 — 屬天線多的群組）",
-    "Gen 4 藍車天線：<strong>2022 無涵蓋</strong>（排除 Slovenia、同時排除 Germany、Netherlands）",
-    "Gen 4 無車可見 2022：常見（與 Austria 類似）",
-    "Gen 3：白色轎車",
-    "護柱有<strong>黑帽</strong>（類似 Austrian 風格但反光片較淺）"
-  ],
+    car: [
+      "Gen 4：黑色車或白色車（白色較罕見）",
+    ],
   roads: [
     "右側行駛",
     "良好高速公路網",
@@ -2737,12 +2692,11 @@ const COUNTRIES = {
     "全境覆蓋範圍廣泛",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~14,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 3：天線有長/短/無三種，車尾通常不可見（少數為黑色或白色）",
-    "Gen 4：標準藍色車（有時可見），通常無天線",
-    "Gen 4 藍車 2021：有涵蓋（Spain 是 2021 西歐涵蓋主力之一，與 France、UK、Ireland 並列）",
-    "Andalusia 東部、Huesca、Lleida 的 Gen 3 有時有<strong>白頂長天線</strong> — 較獨特"
-  ],
+    car: [
+      "Gen 3：天線長/短/無三種；車尾可見時為黑色或白色",
+      "Gen 3 東部 Andalusia/Huesca/Lleida：長天線+<strong>白色頂端</strong>",
+      "Gen 4：藍色或黑色車（也可完全隱藏）",
+    ],
   roads: [
     "右側行駛",
     "白色中心線和邊線",
@@ -2826,14 +2780,11 @@ const COUNTRIES = {
     "Gen 4 覆蓋（紅/白/藍三色車，均有短天線）",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,600 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>紅/白/藍三種車色</strong>，均可能有短天線 — Sweden Gen 4 車色最多樣",
-    "Gen 4 紅車：紅車三大國之一（Sweden、Slovakia、Bulgaria）",
-    "Gen 4 白車：白車三大國之一（Sweden、Turkey、Luxembourg）",
-    "Gen 4 藍車天線 2021：<strong>有涵蓋</strong>（歐洲最早一批）",
-    "Gen 3：白色轎車配長天線",
-    "西海岸 + Skåne 有<strong>白色車配藍色條紋</strong> — 幾乎僅見於 Sweden"
-  ],
+    car: [
+      "Gen 3：白色車+長天線",
+      "Gen 4：<strong>三種車 — 紅/白/藍</strong>（各有/無天線）",
+      "Gen 4 也有 smallcam",
+    ],
   roads: [
     "所有道路線全為<strong>白色</strong>（Norway/Finland 有黃色邊線）",
     "低等道路：外側白色虛線，明顯比 Norway 的短",
@@ -2924,12 +2875,10 @@ const COUNTRIES = {
     "因隱私法規限制，覆蓋範圍有限",
     "模糊區域之大，幾乎佔畫面底部 1/3 — 這是 Switzerland 最強的 meta 特徵"
   ],
-  car: [
-    "<strong>Gen 4 低相機（low cam）</strong> — 前方可見不同顏色車輛",
-    "⚠️ 模糊區域全球最大",
-    "只有 Switzerland 和 Liechtenstein 使用此相機",
-    "Gen 3：也是 low cam"
-  ],
+    car: [
+      "<strong>所有車輛覆蓋永遠是 low-cam</strong> — 相機更低、模糊更大",
+      "全球僅 Japan 和 Liechtenstein 也有永久 low-cam",
+    ],
   roads: [
     "道路上有<strong>黃色長虛線</strong> — Switzerland 好線索（Liechtenstein 也有）",
     "<strong>黃色人行橫道</strong> — 歐洲僅 Switzerland/Liechtenstein",
@@ -3053,11 +3002,11 @@ const COUNTRIES = {
     "西部覆蓋較多，東部較少",
     "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~19,000 點位）— 視角更低、模糊區域更大"
   ],
-  car: [
-    "Gen 4：<strong>灰色 pickup truck</strong>（主要車型）+ 白色轎車",
-    "⚠️ Gen 4：<strong>幾乎沒有藍色車</strong>（歐洲極少數，另有 Austria、Belgium）",
-    "Gen 3：白色轎車，<strong>從來沒有天線</strong>"
-  ],
+    car: [
+      "Gen 3：<strong>永遠沒有天線</strong>",
+      "Gen 4：通常<strong>白色車</strong>（僅車尾微露）",
+      "Gen 4 也有<strong>灰色 pickup truck</strong>",
+    ],
   roads: [
     "<strong>道路標線不一致</strong>：大多數為白色，但<strong>黃色標線也不少見</strong>（全黃或黃白混合）",
     "路面常有<strong>「椒鹽狀」顆粒質感</strong>",
@@ -3123,13 +3072,10 @@ const COUNTRIES = {
     "⚠️ Ukraine 沒有 Gen 2 或 Gen 4 — Russia 有 Gen 2 和 Gen 4",
     "覆蓋集中在城市及城市間主要道路"
   ],
-  car: [
-    "Gen 3：<strong>紅色轎車</strong> — Ukraine 幾乎獨有的紅色街景車",
-    "<strong>長天線</strong>有時可見，有時不可見；無天線時考慮 Ukraine",
-    "⚠️ Russia Gen 3 總是有天線（短或長），若完全無天線則考慮 Ukraine",
-    "也有罕見的黑車長天線、白車長天線、灰車短天線覆蓋",
-    "無 snorkel、無 車頂架 (roof rack)"
-  ],
+    car: [
+      "<strong>紅色車</strong>（幾乎 Ukraine 獨有）— 有時帶天線",
+      "全為 Gen 3（無 Gen 2 或 Gen 4 — vs Russia 有 Gen 4）",
+    ],
   roads: [
     "道路品質不一 — 許多地區很差",
     "白色中線和白色邊線",

@@ -243,6 +243,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/25affe5be0951118dcd831894824bcb3fbbf57c6/71028/static/img/places/belgium/car-metas/red.png',
+      'https://www.plonkit.net/images/resize/600/80/belgium/redcar.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/099ac099c7f8b42e456cc10da343b547c9b9636a/c43e1/static/img/places/belgium/bollards/ugly_bollard.jpg',
@@ -460,6 +461,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/ant-bg-1.png',
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/ant-bg-2.png',
+      'https://www.plonkit.net/images/resize/600/80/bulgaria/gen4car.jpeg',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/bulgaria.jpg',
@@ -1009,6 +1011,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2024/07/Germany-gen4car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/germany/German_cars.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/0f69b317e2953245d5e9df2492beb0ea356c4fa4/5471a/static/img/places/germany/bollards/bollard_front.jpg',
@@ -1068,6 +1071,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2021/04/Greece-car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/greece/gr_creteantenna.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/c61d88ccd5917deaebbf478752d3b75be871fc89/38156/static/img/places/greece/bollards/bollard_front.jpg',
@@ -1181,6 +1185,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/58a9e40b6dee256437f4887141d2e9c97698a15a/de83e/static/img/places/hungary/car-metas/sopron_hungary_white_flag.jpg',
+      'https://www.plonkit.net/images/resize/600/80/hungary/hu_flagantenna.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/e566878a780e5bb05dec969bfff34a13a2051a14/879b9/static/img/places/hungary/bollards/bollard_front.jpg',
@@ -1212,6 +1217,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/e3e7484c2d5d9b662941711dbc523172c9f338f2/59893/static/img/places/iceland/car-metas/car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/iceland/Iceland_cars.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/ef3a228f663558dd3e177444ed75707504997c35/82b12/static/img/places/iceland/bollards/bollard.jpg',
@@ -1318,6 +1324,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/5362a7731d481069ffdab60bd8e8e3b0545c02a4/690dd/static/img/places/ireland/car-metas/dublin_car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/d28a90961d6edd96a77ac7bf11e6552a0ed44e63/8520d/static/img/places/ireland/car-metas/grand_canal.jpg',
+      'https://www.plonkit.net/images/resize/600/80/ireland/ireland_White_car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/20665b4bc4b126c2165360d3abbaf994d41e9378/db56d/static/img/places/ireland/bollards/grass.jpg',
@@ -2567,6 +2574,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2020/11/xpFqP3h.jpg',
+      'https://www.plonkit.net/images/resize/600/80/spain/Gen_3_cars.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/5072a67a8d48df5e1ba0798597076b4f2aff65e5/bdd49/static/img/places/spain/bollards/extremadura.png',
@@ -2615,6 +2623,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/9c91177ef71740cf3e7c1641fc42d00b1c8d2502/99742/static/img/places/sweden/car-metas/blue_stripe_southwest.jpg',
+      'https://www.plonkit.net/images/resize/600/80/sweden/gen4bil.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/sweden.jpg',
@@ -2728,6 +2737,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/turkey/tr_gen4car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/25193f68413264e04f5633f2160f37c7403862f5/43a19/static/img/places/turkey/bollards/snowpole.jpg',
@@ -2775,6 +2785,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/e76cc88577a71850e5a5fc09af0cba735ed2df48/8e4ff/static/img/places/ukraine/car-metas/kyiv_stadium.jpg',
       'https://d33wubrfki0l68.cloudfront.net/22ca67b91e380f70239b44278f4e70bd9e0cd3b4/47539/static/img/places/ukraine/car-metas/ukraine_branch_dubno.jpg',
       'https://d33wubrfki0l68.cloudfront.net/22bc11c01393cfbb5a20a33d9fde68eb65584301/299fe/static/img/places/ukraine/car-metas/kyiv_white_car_car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/ukraine/Red_car.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/ukraine.jpg',
@@ -2972,6 +2983,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://dingyiyi0226.github.io/geoguessr-note/docs/car-meta/ant-cz.png',
+      'https://www.plonkit.net/images/resize/600/80/czechia/cz_antenna.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/de679f685728ab1b93ea501d5495fd8431c03f8a/36470/static/img/places/czech-republic/bollards/bollard_front.jpg',
