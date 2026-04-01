@@ -82,6 +82,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2020/11/dkw5t8R.jpg',
+      'https://www.plonkit.net/images/resize/600/80/argentina/gen3car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/b661a9d740a04628d709184493fb575348fc1985/2994f/static/img/places/argentina/bollards/argentinian_bollards.jpg',
@@ -317,6 +318,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/696fb756de6cb0130788acd66ab7ae6bd993e8e3/47cad/static/img/places/bolivia/car-metas/white.png',
+      'https://www.plonkit.net/images/resize/600/80/bolivia/1_googlecar.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/0ff7fb289fe0542bde8e296230334c338d60a6ec/b4a58/static/img/places/bolivia/bollards/front.png',
@@ -583,6 +585,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/c6b19579d72bae2125840a4f7c6ee04e0d4e32b3/31ddc/static/img/places/chile/car-metas/car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/a34164c733e96f35d971e8b41db43c97032846f6/4d17f/static/img/places/chile/car-metas/ruta5_branch.png',
+      'https://www.plonkit.net/images/resize/600/80/chile/google_car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/e4f0e32f78367e3b7346d6d80470cca408e91b43/f210a/static/img/places/chile/bollards/chile_spanish_style.jpg',
@@ -816,6 +819,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/591b2524080035944c6b90768e3254dc50fa7c36/8c2e7/static/img/places/ecuador/car-metas/antenna.jpg',
+      'https://www.plonkit.net/images/resize/600/80/ecuador/ec_antenna.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/092d49df4ce83327ac0935f219278fc4fcef22e4/259e5/static/img/places/ecuador/bollards/boring_circle_bollard.jpg',
@@ -2091,6 +2095,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/f252ff7d8f4d759c6c15390415cb65eb6a236598/ac844/static/img/places/peru/car-metas/pe_black_car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/53af55719de16379178a62a07aa4a3463f327239/38f4e/static/img/places/peru/car-metas/pe_white_car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/peru/1.gen3cars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/peru.jpg',

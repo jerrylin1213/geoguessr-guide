@@ -5460,12 +5460,9 @@ const COUNTRIES = {
   name: 'Brazil', localName: 'Brasil', flag: '🇧🇷', region: 'south-america',
   drivingSide: 'right', tld: '.br', phoneCode: '+55', language: 'Portuguese', currency: 'Real (BRL)',
   camera: ["<strong>88% Gen 4 + 12% Gen 3</strong>", "使用 30 多輛 Fiat Stilo 車；Amazon 地區也用自行車和船", "⚠️ <strong>全球最多 Gen 4 小相機 (smallcam/low cam) 覆蓋（~85,500 點位）</strong> — 視角更低、模糊區域更大"],
-  car: [
-    "Gen 3：白色轎車",
-    "Gen 4：<strong>三種車色</strong> — 藍色、帶藍條的白色、白色（不同州出現頻率不同）",
-    "<strong>短粗天線（短粗天線 (stubby antenna)）</strong> — 與 Mexico, Colombia, Ecuador 共用",
-    "有時無天線"
-  ],
+    car: [
+      "Gen 3：<strong>白色車</strong>，兩種 — (1) 短粗天線帶斜向螺旋 (2) 無天線",
+    ],
   roads: [
     "<strong>中線雙黃線 + 白色外線</strong>（中線偶爾為單黃色虛線）",
     "<strong>黑色標誌背面</strong> — Brazil 最強辨識特徵之一",
@@ -5546,11 +5543,10 @@ const COUNTRIES = {
     "Gen 3：黑色 Google 街景車拍攝",
     "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋 — 南美僅 Argentina, Peru, Brazil 有"
   ],
-  car: [
-    "Gen 3/4：<strong>黑色轎車，無天線</strong>",
-    "南美黑車三國：Argentina, Peru, Uruguay",
-    "無 antenna、無 roof rack"
-  ],
+    car: [
+      "Gen 3：<strong>黑色車</strong>（南美僅 Argentina/Peru/Uruguay 有黑車）",
+      "Gen 4：smallcam 覆蓋（低安裝、大圓形模糊）",
+    ],
   roads: [
     "<strong>混合中線</strong>：白虛線、雙黃線、或單黃線 + 白虛線混合",
     "護欄有<strong>黃色/紅色矩形反光片</strong>（支撐柱形狀 3 邊 — vs Uruguay 4 邊）",
@@ -5665,12 +5661,11 @@ const COUNTRIES = {
   name: 'Chile', localName: 'Chile', flag: '🇨🇱', region: 'south-america',
   drivingSide: 'right', tld: '.cl', phoneCode: '+56', language: 'Spanish', currency: 'Peso (CLP)',
   camera: ["<strong>56.2% Gen 3 + 43.7% Gen 4 + 0.1% Gen 2</strong>"],
-  car: [
-    "Gen 3：<strong>白色轎車，無天線</strong>",
-    "Gen 3 有兩種：(1) 普通白車 (2) <strong>白車帶可見黑色部分</strong> — Chile 獨有",
-    "Gen 4：<strong>藍色轎車</strong>",
-    "Peru/Bolivia 也有無天線白車，但 Chile 有 Gen 4 而 Bolivia 沒有"
-  ],
+    car: [
+      "Gen 3：<strong>白色車，無天線</strong> — 兩種變體（純白 / 帶可見黑色區段）",
+      "黑色區段版為 Chile 獨有",
+      "Gen 4：藍色車",
+    ],
   roads: [
     "<strong>全白色道路標線</strong>（中線+外線都是白色）— 美洲範圍內 Chile 獨有特徵",
     "⚠️ 國家公園或大雪地區為<strong>全黃色</strong>標線 — 全黃線基本上也是 Chile 獨有",
@@ -5731,13 +5726,11 @@ const COUNTRIES = {
   name: 'Colombia', localName: 'Colombia', flag: '🇨🇴', region: 'south-america',
   drivingSide: 'right', tld: '.co', phoneCode: '+57', language: 'Spanish', currency: 'Peso (COP)',
   camera: ["<strong>58% Gen 4 + 42% Gen 3</strong>", "南部部分 Gen 3 有<strong>飽和度過高</strong>的相機故障"],
-  car: [
-    "Gen 3：<strong>短粗天線（stubby antenna）</strong> — 與 Mexico, Ecuador, Brazil 共用",
-    "⚠️ Colombia 是<strong>唯一在黑色車上裝短粗天線</strong>的國家（區分 Ecuador 白車天線）",
-    "車色多樣：黑色、白色、灰色皆有",
-    "Gen 4：白色或銀色轎車",
-    "San Andrés 島：獨特白色車；Providencia 島：獨特灰色車"
-  ],
+    car: [
+      "Gen 3：短粗天線 + <strong>黑色/白色/灰色車</strong>（Colombia 是唯一有此天線+黑車的美洲國家）",
+      "Gen 4：白色或銀色車",
+      "San Andrés 島：獨特白車",
+    ],
   roads: [
     "黃色中心線 + 白色邊線",
     "<strong>「Colombia Cross」— 路牌背面白色金屬十字形結構</strong> — Colombia 獨有",
@@ -5799,12 +5792,11 @@ const COUNTRIES = {
   name: 'Ecuador', localName: 'Ecuador', flag: '🇪🇨', region: 'south-america',
   drivingSide: 'right', tld: '.ec', phoneCode: '+593', language: 'Spanish', currency: 'Dollar (USD)',
   camera: ["<strong>55% Gen 3 + 36% Shitcam + 9% Gen 4</strong>", "Gen 4 在大部分地區可見，明顯例外是西北和東南"],
-  car: [
-    "Gen 3：白色轎車 + <strong>短粗天線（stubby antenna）</strong> — 與 Mexico, Colombia, Brazil 共用",
-    "Gen 3 天線有兩種：<strong>高天線</strong>（螺紋在中線以上，僅在北部出現）vs <strong>低天線</strong>（大部分螺紋在中線以下）",
-    "Gen 4：<strong>白色 pickup truck</strong>（後車斗為黑色，車頭無天線；vs Panama 的 pickup 有天線）",
-    "⚠️ <strong>Shitcam</strong>：巨大圓形模糊打碼，顏色偏棕，車頭偶見<strong>紅色 logo</strong> — 拉丁美洲僅 Ecuador 有"
-  ],
+    car: [
+      "Gen 3：<strong>白色車 + 短粗天線</strong>（stubby antenna，Mexico/Brazil/Colombia 也有）",
+      "Gen 4：<strong>白色 pickup truck + 黑色車斗，無天線</strong>",
+      "vs Panama/Costa Rica：Panama 和 CR 的 truck 有前方天線",
+    ],
   roads: [
     "黃色中心線",
     "<strong>雙層護欄</strong> — 在南美洲非常少見，Ecuador 獨有特徵",
@@ -5872,14 +5864,12 @@ const COUNTRIES = {
   name: 'Peru', localName: 'Perú', flag: '🇵🇪', region: 'south-america',
   drivingSide: 'right', tld: '.pe', phoneCode: '+51', language: 'Spanish', currency: 'Sol (PEN)',
   camera: ["<strong>67.8% Gen 3 + 32.1% Gen 4 + 0.1% Gen 2</strong>", "全球最高的 Street View 道路（4,818m）", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~3,000 點位）— 南美僅 Peru 和 Brazil 有"],
-  car: [
-    "Gen 3：白色 + 黑色轎車皆有（南美黑車：Argentina, Uruguay, Peru）",
-    "Gen 3：白色車也有（南美白車：Peru, Bolivia, Chile）",
-    "Gen 4：<strong>深灰色轎車</strong>",
-    "部分涵蓋有黑色 truck（120 號公路 Yauyos-Cochas 保護區附近）",
-    "無 antenna — 與有天線的鄰國（Ecuador, Colombia, Mexico）不同",
-    "⚠️ Peru 有 Gen 4 但 Bolivia 沒有 — 如果看到 Gen 4 品質就排除 Bolivia"
-  ],
+    car: [
+      "Gen 3：<strong>黑色或白色車</strong>",
+      "南美黑色車：僅 Peru/Argentina/Uruguay",
+      "南美白色車：僅 Peru/Bolivia/Chile",
+      "Peru 有 Gen 4（Bolivia 無 — 區分關鍵）",
+    ],
   roads: [
     "白色外線<strong>總是存在</strong>；中線為單黃虛或雙黃實（鄉村山路可能無中線）",
     "⚠️ 南美有僅外線無中線的鄉村山路 — 主要在 Peru（Bolivia 很少見此情況）",
@@ -5944,10 +5934,11 @@ const COUNTRIES = {
   name: 'Bolivia', localName: 'Bolivia', flag: '🇧🇴', region: 'south-america',
   drivingSide: 'right', tld: '.bo', phoneCode: '+591', language: 'Spanish, Quechua, Aymara', currency: 'Boliviano (BOB)',
   camera: ["<strong>100% Gen 3</strong>", "全境由一台無天線白色轎車拍攝", "覆蓋限於中部和西部 — 六大城市（La Paz/El Alto, Cochabamba, Oruro, Sucre, Potosí, Santa Cruz）+ 主要公路"],
-  car: [
-    "白色轎車，<strong>無天線</strong>",
-    "拉美範圍內，無天線白車也見於 Peru、Chile"
-  ],
+    car: [
+      "Gen 3：<strong>白色車，無天線</strong>（唯一世代）",
+      "與 Peru/Chile 白車相同",
+      "⚠️ Bolivia 無 Gen 4（vs Peru 有 Gen 4）",
+    ],
   roads: [
     "雙黃中線、黃白組合中線、雙白中線均可見 — 外線<strong>總是白色</strong>",
     "vs Chile：只有全黃或全白標線，不會有黃白組合",
@@ -6013,11 +6004,11 @@ const COUNTRIES = {
   name: 'Uruguay', localName: 'Uruguay', flag: '🇺🇾', region: 'south-america',
   drivingSide: 'right', tld: '.uy', phoneCode: '+598', language: 'Spanish', currency: 'Peso (UYU)',
   camera: ["<strong>100% Gen 3</strong>", "⚠️ 街景<strong>大多數在陰天拍攝</strong> — 陰沉天空是 Uruguay 重要線索"],
-  car: [
-    "<strong>黑色轎車，無天線</strong>（同 Argentina）",
-    "畫面略帶模糊感（比 Argentina 的黑車稍差）",
-    "配合<strong>三條線：雙黃色中線 + 白色虛線交錯</strong>辨識 — Uruguay 獨有"
-  ],
+    car: [
+      "Gen 3：<strong>黑色車，無天線</strong>（不一定看得到車）",
+      "與 Argentina/Peru 黑車相同",
+      "Cabo Polonio：獨特車+左側橘色綁帶",
+    ],
   roads: [
     "<strong>三線：雙黃色中心線 + 白色虛線交錯</strong> — 僅 Uruguay！全國公路幾乎都有",
     "<strong>白色粗木製標誌桿</strong>，背面有 4 個矩形缺口 — Uruguay 獨有",
