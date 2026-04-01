@@ -76,8 +76,8 @@
     'morocco': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'georgia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // lebanon: 無標準 Google 車 — shitcam + trekker + Zahle 黑車
-    'azores': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'madeira': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
+    // azores: shitcam, no standard car image
+    // madeira: shitcam, no standard car image
     'brunei': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'jamaica': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'singapore': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
