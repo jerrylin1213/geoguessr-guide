@@ -4564,9 +4564,9 @@ const COUNTRIES = {
     "⚠️ Palestine 停車標誌也有阿拉伯文，但無手掌圖案"
   ],
   landscape: [
-    "西部為地中海海岸",
-    "南部為內蓋夫沙漠",
-    "死海 — 地球最低點",
+    '地中海海岸（西部）— 🔗 <a href="https://www.google.com/maps/@32.0853,34.7818,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Tel Aviv 海岸</a>',
+    '內蓋夫沙漠（南部）— 🔗 <a href="https://www.google.com/maps/@30.85,34.78,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Negev 沙漠</a>',
+    '死海 — 地球最低點 🔗 <a href="https://www.google.com/maps/@31.50,35.47,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Dead Sea</a>',
     "北部綠意盎然，南部乾旱",
     "古老與現代建築並存"
   ],
@@ -4619,10 +4619,10 @@ const COUNTRIES = {
     "樣式簡單，與 Israel 的 bollard 類似但整體維護程度較低"
   ],
   landscape: [
-    "沙漠 — 乾旱地形為主",
-    "瓦迪倫 — 紅色砂岩沙漠",
-    "死海（西部邊界）",
-    "安曼 — 丘陵城市，石灰岩建築",
+    '沙漠 — 乾旱地形為主',
+    '瓦迪倫 — 紅色砂岩沙漠 🔗 <a href="https://www.google.com/maps/@29.57,35.42,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Wadi Rum</a>',
+    '死海（西部邊界）',
+    '安曼 — 丘陵城市 🔗 <a href="https://www.google.com/maps/@31.9539,35.9106,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Amman</a>',
     "佩特拉地區"
   ],
   signs: [
@@ -4665,7 +4665,7 @@ const COUNTRIES = {
     "住宅區常見減速帶"
   ],
   landscape: [
-    "沙漠 — 遼闊的阿拉伯沙漠",
+    '沙漠 — 遼闘的阿拉伯沙漠 🔗 <a href="https://www.google.com/maps/@24.7136,46.6753,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Riyadh</a>',
     "現代化城市（利雅德、吉達、麥加地區）",
     "可見石油基礎設施",
     "清真寺到處都有"
@@ -4722,8 +4722,8 @@ const COUNTRIES = {
     "城市區域有現代金屬路燈"
   ],
   landscape: [
-    "平坦沙漠景觀為主",
-    "杜拜：摩天大樓天際線（哈里發塔）",
+    '平坦沙漠景觀為主 — 🔗 <a href="https://www.google.com/maps/@24.45,54.65,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Abu Dhabi 沙漠公路</a>',
+    '杜拜：摩天大樓天際線 — 🔗 <a href="https://www.google.com/maps/@25.2048,55.2708,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Dubai Downtown</a>',
     "阿布達比：規劃完善的現代城市",
     "住宅區：<strong>淺色石頭房屋</strong>，人行道常用<strong>紅色石頭</strong>鋪設",
     "最東部有山脈分布（類似 Oman 北海岸）",
@@ -4784,8 +4784,8 @@ const COUNTRIES = {
     "現代化設計，維護良好 — 反映海灣國家的高品質基礎設施"
   ],
   landscape: [
-    "平坦沙漠半島",
-    "Doha 現代天際線",
+    '平坦沙漠半島 — 🔗 <a href="https://www.google.com/maps/@25.3,51.2,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">沙漠公路</a>',
+    'Doha 現代天際線 — 🔗 <a href="https://www.google.com/maps/@25.3195,51.5310,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Doha Corniche</a>',
     "大量建設工程"
   ],
   signs: ["阿拉伯文 + 英文雙語"],
@@ -7971,10 +7971,10 @@ const COUNTRIES = {
       '電力基礎設施常可見損壞或臨時發電機'
     ],
     landscape: [
-    "地中海風格景觀 — 多丘陵和岩崖",
+    '地中海風格景觀 — 🔗 <a href="https://www.google.com/maps/@33.89,35.50,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Beirut 海岸</a>',
     "<strong>砂岩磚建築</strong>非常常見（類似 Israel/Palestine 的耶路撒冷石）",
     "雪松 — Lebanon 國家象徵（黎巴嫩雪松）",
-    "冬季可見<strong>雪山</strong>（有滑雪場）",
+    '冬季可見<strong>雪山</strong> — 🔗 <a href="https://www.google.com/maps/@34.25,36.08,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Cedars Mountain</a>',
     "Beirut：密集都市區，現代建築與戰爭損壞建築混合",
     "羅馬遺跡（Baalbek 巨大寺廟群）",
     "Bekaa 谷地：山脈之間的農業/葡萄酒產區",
@@ -8064,10 +8064,10 @@ const COUNTRIES = {
     'Oman 很少有 bollard — 缺少 bollard 是線索'
   ],
     landscape: [
-      '地形多樣：壯觀的山脈（Jebel Akhdar、Jebel Shams「Oman 大峽谷」）',
-      '海岸線有碧綠海水和壯觀懸崖',
+      '地形多樣：壯觀的山脈 — 🔗 <a href="https://www.google.com/maps/@23.2358,57.3125,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Jebel Shams 大峽谷</a>',
+      '海岸線有碧綠海水和壯觀懸崖 — 🔗 <a href="https://www.google.com/maps/@23.0467,59.0289,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Sur 海岸</a>',
       '內陸沙漠（Wahiba/Sharqiya 沙地）',
-      'Salalah：季風（Khareef）季節時鬱鬱蔥蔥 — 與國家其他地區完全不同',
+      'Salalah：季風季節綠意盎然 — 🔗 <a href="https://www.google.com/maps/@17.0151,54.0924,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Salalah 綠色景觀</a>',
       '傳統 Oman 堡壘和瞭望塔',
       '乾河谷（季節性泛濫的乾涸河床）',
       'Dhofar 地區的乳香樹',
@@ -8146,7 +8146,7 @@ const COUNTRIES = {
       '舊城區街道狹窄'
     ],
     landscape: [
-      '丘陵地形 — 西岸為山地',
+      '丘陵地形 — 🔗 <a href="https://www.google.com/maps/@31.90,35.20,3a,75y,90t" target="_blank" style="color:var(--accent-blue)">Ramallah 丘陵</a>',
       '到處都是橄欖園 — 重要農產品',
       '石造建築（白色/奶油色石灰岩）類似 Israel 但更老舊',
       '難民營有密集建築',
