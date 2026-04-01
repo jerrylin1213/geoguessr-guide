@@ -4029,10 +4029,10 @@ const COUNTRIES = {
     "所有街景都用大型皮卡車拍攝"
   ],
   car: [
+    "<strong>白藍色 pickup truck</strong> + <strong>車頂帳篷</strong>（遠距離覆蓋需露天過夜）",
     "<strong>Snorkel 進氣管</strong>可見（全球僅 Kenya 和 Mongolia 有）",
-    "<strong>Roof rack + 車頂露營裝備</strong> — 因偏遠地區需露天過夜",
-    "西部（+ Ulaanbaatar）：車頂橫桿填滿<strong>黑色橡膠</strong>；東部：橫桿未填充",
-    "Gen 3 覆蓋"
+    "<strong>Roof rack + 車頂露營裝備</strong>",
+    "西部（+ Ulaanbaatar）：車頂橫桿填滿<strong>黑色橡膠</strong>；東部：橫桿未填充"
   ],
   roads: [
     "大量未鋪設道路 — 草原上的車轍痕跡",
