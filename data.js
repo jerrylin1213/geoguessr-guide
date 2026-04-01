@@ -5109,9 +5109,10 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.pa', phoneCode: '+507', language: 'Spanish', currency: 'Balboa/USD',
   camera: ["<strong>100% Gen 3</strong>"],
   car: [
-    "<strong>獨特粗天線</strong> — 全球唯一！100% 確認為 Panama",
-    "即使看不到天線，模糊區域通常也比較大",
-    "無 車頂架 (roof rack)、無 snorkel"
+    "<strong>大白 pickup truck</strong> + 駕駛座後方有<strong>白色金屬框架</strong>",
+    "車輛可完全可見或大部分打碼",
+    "vs Costa Rica truck：Costa Rica 無白色金屬框架",
+    "vs Ecuador：Ecuador 有類似 truck 但 rack 不同"
   ],
   roads: [
     "黃色中心線 + 白色邊線",
@@ -5185,9 +5186,10 @@ const COUNTRIES = {
   drivingSide: 'right', tld: '.pr', phoneCode: '+1-787', language: 'Spanish, English', currency: 'Dollar (USD)',
   camera: ["<strong>100% Gen 3</strong>", "⚠️ 有 Gen 4 小相機 (smallcam/low cam) 覆蓋（~1,400 點位）— 視角更低、模糊區域更大"],
   car: [
-    "白色轎車 + 副駕駛側天線",
-    "前方無車牌",
-    "Gen 3 涵蓋（主要西海岸）"
+    "大部分為 <strong>Smallcam（Gen 4 變體）</strong>— 寬模糊 + 天線在右前方",
+    "Gen 3：天線在右前方，天線頂端有<strong>白色小點</strong>",
+    "⚠️ Guam/NMI 也有右前方天線 — 需用其他線索區分",
+    "前方無車牌（Puerto Rico 不強制前車牌）"
   ],
   roads: [
     "雙黃色中心線 + 白色邊線",

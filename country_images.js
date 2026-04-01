@@ -670,6 +670,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/ac276ac253556009de21e6c0062abd8f88faed1c/cea9d/static/img/places/costa-rica/miscellaneous/university_sign.jpg',
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/costa-rica/cr_trekker.png',
     ],
     bollards: [
     ],
@@ -775,6 +776,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/8eefdd6355c6a11ccc193c9a58a799ed93eb1ea1/294f8/static/img/places/dominican-republic/car-metas/car-with-bars.jpg',
+      'https://www.plonkit.net/images/resize/600/80/dominican-republic/googlecar.png',
     ],
     bollards: [
     ],
@@ -1138,6 +1140,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/a2f2563e0407d1707db001d4f825f004efc253e8/e62e7/static/img/places/guatemala/car-metas/car.jpg',
       'https://d33wubrfki0l68.cloudfront.net/0d51cb0f865beac83e5ed6f98ce00b7de70cd000/c7550/static/img/places/guatemala/car-metas/guatemala_tiny_ball_on_front_left_of_google_car_meta.png',
       'https://d33wubrfki0l68.cloudfront.net/e04b8f03da8805ec447c4e1253dd90e297725c26/34446/static/img/places/guatemala/car-metas/guatemala_boat.jpg',
+      'https://www.plonkit.net/images/resize/600/80/guatemala/gt_googlecar.png',
     ],
     bollards: [
     ],
@@ -2205,6 +2208,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2020/12/Car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/puerto-rico/pr_googlecar.png',
     ],
     bollards: [
     ],
@@ -3477,6 +3481,7 @@ const COUNTRY_IMAGES = {
   'oman': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/License_plates_of_Oman_1237.jpg/960px-License_plates_of_Oman_1237.jpg',
+      'https://www.plonkit.net/images/resize/600/80/bermuda/bm_googlecar.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3589,6 +3594,7 @@ const COUNTRY_IMAGES = {
   'china': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2002_standard_license_plate_of_China.jpg/960px-2002_standard_license_plate_of_China.jpg',
+      'https://www.plonkit.net/images/resize/600/80/us-virgin-islands/vi_cars.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
