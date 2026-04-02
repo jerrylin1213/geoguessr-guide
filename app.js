@@ -37,38 +37,20 @@
     'curacao': 'https://d33wubrfki0l68.cloudfront.net/3e921f1a713e73d41d96979f76c855c026ef21ae/5a401/static/img/places/curacao/car-metas/car.jpg',
     'japan': 'https://d33wubrfki0l68.cloudfront.net/d831078ad6f1147706ad598b30954a67ff92a87d/7b4e2/static/img/camera-cars/japan-car.jpg',
     'switzerland': 'https://d33wubrfki0l68.cloudfront.net/1f96c4b9410d47ba2f6efb66e609c1ac83275426/0457c/static/img/camera-cars/switzerland-blur.jpg',
-    'russia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     'ukraine': 'https://d33wubrfki0l68.cloudfront.net/2388f50c2e25b7176833d52a01db8933f1a275ff/24f22/static/img/camera-cars/red-car-with-antenna.jpg',
-    'argentina': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
-    'uruguay': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     // Countries using generic car type images
-    'israel': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
-    'jordan': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
-    'peru': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     // iceland: Plonkit Iceland_cars.png in carMetas
     // qatar: Plonkit Qatar_cars.png in carMetas (generic pickup.jpg is wrong)
     // oman: Plonkit image in carMetas (generic pickup.jpg is wrong)
     'namibia': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'rwanda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'bermuda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     // christmas-island: Plonkit image in carMetas
-    'south-africa': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
-    'brazil': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'mexico': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'usa': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'france': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     'bangladesh': 'https://d33wubrfki0l68.cloudfront.net/53ef2669f637d8362317f5145dd7b11c28bd4df2/94be9/static/img/places/bangladesh/car-metas/rack-yellow.png',
     'cambodia': 'https://d33wubrfki0l68.cloudfront.net/be13a2e2d73bb39d061d67f5f61b5acd7d79c31e/fc476/static/img/places/cambodia/car-metas/car.jpg',
-    'colombia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // Gen 3 white sedan countries
-    'andorra': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'germany': 'https://geotips.net/wp-content/uploads/2024/07/Germany-gen4car.jpg',
     'kosovo': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'malta': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'moldova': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'montenegro': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'north-macedonia': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
-    'poland': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'portugal': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // serbia: Plonkit carMeta available
     // spain: Plonkit carMeta available
@@ -85,25 +67,18 @@
     'mauritius': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     'trinidad-and-tobago': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // UAE Gen 3: white car with roof rack
-    'uae': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // Gen 4 white car countries
     // turkey: Plonkit tr_gen4car.png in carMetas
-    'luxembourg': 'https://d33wubrfki0l68.cloudfront.net/d254a631f11a743895dc018f0d1d7b5b9efe30cc/7a11c/static/img/camera-cars/white-car.jpg',
     // Gen 2/3 black car countries
     'isle-of-man': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
-    'taiwan': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     // Black car with antenna
-    'tunisia': 'https://d33wubrfki0l68.cloudfront.net/784650dd9d42ac4db5a0ad76b2608f7caefbb877/3d8ae/static/img/camera-cars/black-car-with-antenna.jpg',
     'palestine': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     // Gen 4 blue car countries
     'norway': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
-    'netherlands': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
-    'lithuania': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     // Pickup truck countries
     'panama': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'paraguay': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'kazakhstan': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'us-virgin-islands': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     // Low cam (same as Switzerland)
     'liechtenstein': 'https://d33wubrfki0l68.cloudfront.net/1f96c4b9410d47ba2f6efb66e609c1ac83275426/0457c/static/img/camera-cars/switzerland-blur.jpg',
     // Standard white sedan (Africa/Pacific "標準轎車")
