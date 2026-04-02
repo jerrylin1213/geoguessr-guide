@@ -3191,6 +3191,7 @@ const COUNTRY_IMAGES = {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Kenteken_uit_Marokko_01.jpg/960px-Kenteken_uit_Marokko_01.jpg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/License_plates_of_Morocco_0004.jpg/960px-License_plates_of_Morocco_0004.jpg',
+      'https://www.plonkit.net/images/resize/600/80/cyprus/cy_smallcam.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3550,6 +3551,7 @@ const COUNTRY_IMAGES = {
   'palestine': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/License_Plate_-_Palestine_-_Private_-_1994.png/960px-License_Plate_-_Palestine_-_Private_-_1994.png',
+      'images/car-metas/oman-truck.jpg',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3592,6 +3594,7 @@ const COUNTRY_IMAGES = {
       'https://upload.wikimedia.org/wikipedia/commons/c/ce/Azores_Islands_tractor_plate.jpg',
       'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
       'https://www.plonkit.net/images/resize/600/80/alaska/ak_shitcam.png',
+      'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
@@ -3599,6 +3602,7 @@ const COUNTRY_IMAGES = {
   'madeira': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2015_Madeira_Samsung_%288%29.jpg/960px-2015_Madeira_Samsung_%288%29.jpg',
+      'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
       'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
     ],
     poles: [], signs: [], carMetas: [
