@@ -3545,9 +3545,9 @@ const COUNTRY_IMAGES = {
   'oman': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/License_plates_of_Oman_1237.jpg/960px-License_plates_of_Oman_1237.jpg',
-      'https://www.plonkit.net/images/resize/600/80/bermuda/bm_googlecar.png',
     ],
     poles: [], signs: [], carMetas: [
+      'images/car-metas/oman-truck.jpg',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'palestine': {
