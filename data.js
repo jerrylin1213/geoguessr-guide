@@ -11294,8 +11294,7 @@ const META_SECTIONS = [
       </div>
       <div class="meta-info-block">
         <h4>Gen 3 (2012–2019)</h4>
-        <img src="images/meta/gen3_tirana.jpg" alt="Gen 3 實際街景" style="max-width:100%;border-radius:8px;margin:8px 0;">
-        <em style="font-size:0.75rem;color:var(--text-muted)">⚠️ 此截圖為 user upload（非 Google SV 官方），待替換</em>
+        <img src="images/meta/gen3_paris.jpg" alt="Gen 3 實際街景（Paris, Jun 2012）" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <p><strong>畫質：</strong>大幅提升 — 自然色彩、文字清晰、天空乾淨。<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
