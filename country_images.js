@@ -3085,6 +3085,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/cfef59b6a20683ed9ee6dce36ab170e240c87e56/b60ac/static/img/places/united-arab-emirates/car-metas/car_with_black_lines.jpg',
+      'https://www.plonkit.net/images/resize/600/80/united-arab-emirates/UAE_Gen_4_black.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/unitedarabemirates.jpg',
