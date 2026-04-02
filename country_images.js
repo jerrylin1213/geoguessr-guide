@@ -48,6 +48,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2022/09/Andorra-Google-Car.jpg',
+      'https://www.plonkit.net/images/resize/600/80/andorra/Camera_gens.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/571727df83b7561ebb68ff45d77a897dad03f353/5ed37/static/img/places/andorra/bollards/bollard.jpg',
@@ -415,6 +416,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/d8aba2f604af4ed7ab6d921c86fb81486fc465e0/ec1d0/static/img/places/brazil/car-metas/white-silhouette.png',
       'https://d33wubrfki0l68.cloudfront.net/fd31c49336e00d6bcabe3c905f8973f6b99c9035/87613/static/img/places/brazil/car-metas/brazil_black.jpg',
+      'https://www.plonkit.net/images/resize/600/80/brazil/gen3.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/1186bfa6a9b627fd8dae2bde4e4fd141028f4d92/7271e/static/img/places/brazil/bollards/saupaulo-bollard.png',
@@ -978,6 +980,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/7d6c871c8e2ab901790d117f0f906b7f2f110182/6475a/static/img/places/france/road-signs/road_sign.jpg',
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/france/1_carbrands.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/88d6e388cb32411e62c970cc300b24cbd10e3481/7bee7/static/img/places/france/bollards/bollard.jpg',
@@ -1686,6 +1689,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/a3c89c18180a450badbe1c46e530a65a2b86f14d/a9673/static/img/places/luxembourg/road-signs/blue_and_white_chevron.jpg',
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/luxembourg/Lux_city_trekker.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/89e124e3568ab43ad073c6a4b34f1d9b8ad24ab2/ea474/static/img/places/luxembourg/bollards/bollards.jpg',
@@ -1914,6 +1918,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://geotips.net/wp-content/uploads/2021/04/Netherlands-Antenna-Car.jpg',
       'https://geotips.net/wp-content/uploads/2020/11/dmbO7eR.jpg',
+      'https://www.plonkit.net/images/resize/600/80/netherlands/Black_car_glitch.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/netherlands.jpg',
@@ -2334,6 +2339,7 @@ const COUNTRY_IMAGES = {
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/6e201412757b7e46392a7979240463b9d1f41666/240ee/static/img/places/russia/car-metas/red_car_gen4.jpg',
       'https://d33wubrfki0l68.cloudfront.net/69614ae244d50690f552c94472ff1f9131c5ee5c/a8ef3/static/img/places/russia/car-metas/buryatia_red_blur.jpg',
+      'https://www.plonkit.net/images/resize/600/80/russia/gen3car.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/4dc8cc1cf788f6afeacfd62774e334d3baa43478/58ec4/static/img/places/russia/bollards/russia_bollards.jpg',
@@ -2406,6 +2412,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://geotips.net/wp-content/uploads/2021/01/Screenshot_87.jpg',
+      'https://www.plonkit.net/images/resize/600/80/serbia/rs_antenna.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/serbia.jpg',
@@ -2857,6 +2864,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/vietnam/vn_shitcamstep1.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/vietnam.jpg',
@@ -2939,6 +2947,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/89fdd7b1f4fedff0115efaece3838e2472e562db/b09a5/static/img/places/united-states/car-metas/us_95_car_meta.jpg',
       'https://d33wubrfki0l68.cloudfront.net/e943db07dffa803fb87a1e7f561704d4f7a16af9/5f4a0/static/img/places/united-states/car-metas/silver_lake_state_park_michigan.jpg',
       'https://d33wubrfki0l68.cloudfront.net/1a0351eb6fb28a3657e4dc846c79287cc27192ab/fe3a1/static/img/places/united-states/car-metas/nv_common_glitch.jpg',
+      'https://www.plonkit.net/images/resize/600/80/united-states/cameragens_2025.png',
     ],
     bollards: [
       'https://d33wubrfki0l68.cloudfront.net/2798abc9414f6bce997cfbb49c642216c6fb97a8/45306/static/img/places/united-states/bollards/usa_bollards.png',
@@ -3075,6 +3084,7 @@ const COUNTRY_IMAGES = {
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/cfef59b6a20683ed9ee6dce36ab170e240c87e56/b60ac/static/img/places/united-arab-emirates/car-metas/car_with_black_lines.jpg',
+      'https://www.plonkit.net/images/resize/600/80/united-arab-emirates/UAE_Gen_4_black.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/unitedarabemirates.jpg',
@@ -3485,6 +3495,7 @@ const COUNTRY_IMAGES = {
     scenery: [
       'https://d33wubrfki0l68.cloudfront.net/a6e6b3e008d0ba21fa4efcfd4a07e3ff6b71c166/3cfc5/static/img/places/isle-of-man/scenery/scenery_fields_sea_meh_weather.jpg',
       'https://d33wubrfki0l68.cloudfront.net/eef7fd08f7f222dde6e3602f09391f9884fd8259/627f8/static/img/places/isle-of-man/scenery/scenery_fields_inland.jpg',
+      'https://www.plonkit.net/images/resize/600/80/isle-of-man/gen2.png',
     ],
     architecture: [],
     roadMarkings: [
