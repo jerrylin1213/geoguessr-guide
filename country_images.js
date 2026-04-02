@@ -1895,6 +1895,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'images/car-metas/nepal-sv.jpg',
     ],
     bollards: [
     ],
@@ -3181,6 +3182,7 @@ const COUNTRY_IMAGES = {
   'cyprus': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/c/cc/2013_Cyprus_sample_licence_plate.png',
+      'images/car-metas/bosnia-sv.jpg',
     ],
     poles: [], signs: [
       'https://upload.wikimedia.org/wikipedia/commons/7/76/Agios_Athanasios%2C_Cyprus_Road_Sign.jpg',
