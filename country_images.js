@@ -3611,6 +3611,7 @@ const COUNTRY_IMAGES = {
   'martinique': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/License_plate_of_Martinique_01.jpg/960px-License_plate_of_Martinique_01.jpg',
+      'https://www.plonkit.net/images/resize/600/80/madeira/madeira_shitcam',
     ],
     poles: [], signs: [], carMetas: [
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
