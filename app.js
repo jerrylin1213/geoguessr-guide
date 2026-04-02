@@ -46,8 +46,8 @@
     'jordan': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     'peru': 'https://d33wubrfki0l68.cloudfront.net/8c805fef7832ea1e694d845a6b0682904b355358/0b6e2/static/img/camera-cars/black-car.jpg',
     'iceland': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'qatar': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'oman': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
+    // qatar: Plonkit Qatar_cars.png in carMetas (generic pickup.jpg is wrong)
+    // oman: Plonkit image in carMetas (generic pickup.jpg is wrong)
     'namibia': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'rwanda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     'bermuda': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',

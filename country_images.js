@@ -683,7 +683,7 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/ac276ac253556009de21e6c0062abd8f88faed1c/cea9d/static/img/places/costa-rica/miscellaneous/university_sign.jpg',
     ],
     carMetas: [
-      'https://www.plonkit.net/images/resize/600/80/costa-rica/cr_trekker.png',
+      'images/car-metas/costa-rica-truck.jpg',
     ],
     bollards: [
     ],
