@@ -11299,7 +11299,7 @@ const META_SECTIONS = [
         <p><strong>畫質：</strong>大幅提升 — 自然色彩、文字清晰、天空乾淨。<br>
         <strong>涵蓋國家：</strong>全球 — 最常見的世代。<br>
         <strong>辨識要點：</strong>正常畫質、無失真 = 大概率 Gen 3<br>
-        <strong>🔗 </strong><span style="color:var(--text-muted)">Gen 3 範例連結待補（舊連結為 user upload）</span></p>
+        <strong>🔗 </strong><a href="https://maps.app.goo.gl/zyLx9MxxtxB6x4eT9" target="_blank" style="color:var(--accent-blue)">Paris Gen 3 範例 (Jun 2012)</a></p>
       </div>
       <div class="meta-info-block">
         <h4>Gen 4 (2017–至今)</h4>
@@ -11318,8 +11318,8 @@ const META_SECTIONS = [
         <strong>🛻 Pickup Truck 覆蓋：</strong>Bermuda（黑色 pickup）、<a onclick="navigateTo('country','christmas-island')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Christmas Island</a>（銀色 pickup）、<a onclick="navigateTo('country','us-virgin-islands')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">US Virgin Islands</a>（白色/紅色卡車）— 非轎車，可能為皮卡或 SUV。
         <br><br><strong>🔗 Google Maps 範例連結：</strong><br>
         • <a href="https://maps.app.goo.gl/9KK63KnFc25fvAi5A" target="_blank" style="color:var(--accent-blue)">Japan Low Cam (Tokyo)</a><br>
-        • <span style="color:var(--text-muted)">Switzerland Low Cam — 連結待補（舊連結為 user upload）</span><br>
-        • <span style="color:var(--text-muted)">India Unofficial Cam — 連結待補（舊連結為 user upload）</span><br>
+        • <a href="https://maps.app.goo.gl/NtZ1zq7ViKCYL7HK8" target="_blank" style="color:var(--accent-blue)">Switzerland Low Cam (Zürich, Sep 2014)</a><br>
+        • <a href="https://maps.app.goo.gl/vaMjWmxMhMz9ZgDc8" target="_blank" style="color:var(--accent-blue)">India Smallcam (Delhi, Oct 2025)</a><br>
         • <a href="https://maps.app.goo.gl/A7GssHcV2YLo7NiL7" target="_blank" style="color:var(--accent-blue)">Uganda Coverage (Kampala)</a><br><br>
         <img src="images/meta/lowcam_japan.jpg" alt="Japan Low Cam" style="max-width:100%;border-radius:8px;margin:8px 0;">
         <em style="font-size:0.8rem;color:var(--text-muted)">↑ Japan Low Cam 實際街景（Tokyo Suginami, 2022）— 低角度視角、道路看起來更寬</em></p>
