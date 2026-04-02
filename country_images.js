@@ -2266,6 +2266,7 @@ const COUNTRY_IMAGES = {
     signs: [
     ],
     carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/qatar/Qatar_cars.png',
     ],
     bollards: [
       'https://geomastr.com/assets/media/bollards/qatar.jpg',
