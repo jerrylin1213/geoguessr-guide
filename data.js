@@ -11447,6 +11447,29 @@ const META_SECTIONS = [
         • <strong>Tunisia</strong> — 北部 (Hammamet 以北) = 淺綠色 Toyota；南部 = 深綠色 Mazda<br>
         • <strong><a onclick="navigateTo('country','kenya')" style="color:var(--accent-blue);cursor:pointer;text-decoration:underline dotted">Kenya</a></strong> — Toyota follow car（都市區較少見）</p>
       </div>
+      <div class="meta-info-block">
+        <h4>© Copyright 年份辨識（Gen 4 Europe，184K 樣本）</h4>
+        <p><strong>看到特定年份 → 最可能在哪：</strong><br>
+        • <strong>©2023</strong> → <strong>27% Germany</strong>（最強線索）、15% France — Germany 62% 覆蓋都是 ©2023<br>
+        • <strong>©2024</strong> → 分佈平均，Poland 12% 略高（Poland 60% 覆蓋是 ©2024）<br>
+        • <strong>©2025</strong> → <strong>20% France</strong>、10% Spain<br>
+        • <strong>©2022</strong> → 13% Turkey、12% France<br>
+        • <strong>©2021</strong> → <strong>30% France</strong>（非常強線索 — France 是歐洲最早大批 Gen 4 的國家）<br>
+        • <strong>©2019</strong> → <strong>21% Norway</strong>（極罕見年份，挪威最強線索）</p>
+        <p><strong>各國主要 copyright：</strong><br>
+        • Germany — 62% ©2023<br>
+        • Poland — 60% ©2024<br>
+        • France — ©2021 佔比最高（歐洲最早）<br>
+        • Finland — 40% ©2025 + 39% ©2024<br>
+        • Norway North（Svalbard 等）— 54% ©2022</p>
+        <p><strong>車型 + Copyright 組合線索：</strong><br>
+        • <strong>Turkey</strong>：52% 看不到車 + 45% 白車（歐洲唯一大量白車）<br>
+        • <strong>Sweden</strong>：29% 紅車（歐洲唯一大量紅車）<br>
+        • <strong>Spain</strong>：94% 藍車（幾乎全藍）<br>
+        • <strong>Greece</strong>：61% 看不到車 + 24% 黑車<br>
+        • <strong>Belgium / Austria</strong>：~70% 看不到車<br>
+        • <strong>Germany</strong>：49% 藍車無天線 + 33% 藍車有天線</p>
+      </div>
     `
   },
   {
