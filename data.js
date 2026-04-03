@@ -141,6 +141,7 @@ const COUNTRIES = {
   ],
     car: [
       "Gen 3 和 Gen 4 覆蓋（極少量 Gen 2）",
+      'Gen 4 copyright: ©2024 31%, ©2025 29%, ©2023 20% (車不可見 68%, 藍車無天線 12%)'
     ],
   roads: [
     "維護良好的高速公路和 Autobahn",
@@ -217,6 +218,7 @@ const COUNTRIES = {
     car: [
       "Gen 4 有紅色車+長天線（罕見）",
       "Gen 4 也有 smallcam 覆蓋",
+      'Gen 4 copyright: ©2023 33%, ©2025 30%, ©2024 19% (車不可見 69%, 藍車無天線 23%)'
     ],
   roads: [
     "以路況差聞名 — 柏油路面不均勻，坑洞多",
@@ -354,6 +356,7 @@ const COUNTRIES = {
     car: [
       "Gen 4：三種車型（有/無天線），也有完全隱藏的覆蓋",
       "Gen 3：大部分在春季（3-4月）拍攝 — 枯黃冬季景觀",
+      'Gen 4 copyright: ©2024 37%, ©2023 35%, ©2022 12% (藍車無天線 25%, 藍車有天線 21%)'
     ],
   roads: [
     "中心線比 Romania <strong>更細</strong> — 區分兩國的可靠線索",
@@ -558,6 +561,7 @@ const COUNTRIES = {
     car: [
       "Gen 3：天線頂端有<strong>灰色膠帶</strong>（Slovakia 也有）",
       "Gen 4：紅色或黑色車（與 Slovakia 共用）",
+      'Gen 4 copyright: ©2024 51%, ©2025 27%, ©2022 12% (藍車無天線 54%, 藍車有天線 15%)'
     ],
   roads: [
     "維護良好的道路網絡",
@@ -623,7 +627,8 @@ const COUNTRIES = {
   car: [
     "Gen 4：<strong>藍色轎車，無天線</strong>（2019 涵蓋在 Denmark 也相當常見，但不如 Ireland/Norway/Czechia）",
     "Gen 2/3：白色轎車",
-    "無 snorkel、無 車頂架 (roof rack)"
+    "無 snorkel、無 車頂架 (roof rack)",
+      'Gen 4 copyright: ©2023 35%, ©2024 28%, ©2025 25% (藍車無天線 82%, 藍車有天線 10%)'
   ],
   roads: [
     "標線<strong>全部白色</strong>，常見<strong>雙白實線</strong>中線",
@@ -697,6 +702,7 @@ const COUNTRIES = {
     car: [
       "Gen 3：常有<strong>綠色色調</strong>（green blur）覆蓋部分畫面",
       "Gen 3 覆蓋比其他波羅的海國家更廣（很多鄉村小路）",
+      'Gen 4 copyright: ©2024 49%, ©2023 34%, ©2022 12% (藍車無天線 71%, 藍車有天線 28%)'
     ],
   roads: [
     "外側線有時為<strong>短虛線</strong>（Lithuania 也有；Sweden 也用短虛線）",
@@ -890,6 +896,7 @@ const COUNTRIES = {
   ],
     car: [
       "Gen 3：大量秋季拍攝（樹木呈秋色）— 比其他北歐國家更常見",
+      'Gen 4 copyright: ©2025 40%, ©2024 39%, ©2022 15% (車不可見 46%, 藍車無天線 45%)'
     ],
   roads: [
     "外側線<strong>始終為白色實線</strong>（Sweden/Norway 用虛線）",
@@ -968,6 +975,7 @@ const COUNTRIES = {
     car: [
       "Gen 4 有 smallcam 覆蓋",
       "西歐大部分國家也有 smallcam",
+      'Gen 4 copyright: ©2025 33%, ©2023 25%, ©2024 23% (藍車無天線 69%, 車不可見 22%)'
     ],
   roads: [
     "<strong>外側白色虛線間距極長</strong>（long dashes）— 法國典型特徵",
@@ -1048,6 +1056,7 @@ const COUNTRIES = {
     car: [
       "<strong>所有車輛覆蓋均為 Gen 4</strong>（Gen 2/3 僅有 trekker 和溢出覆蓋）",
       "罕見：Hamburg 和 Frankfurt 附近有白黑色 Gen 4 車",
+      'Gen 4 copyright: ©2023 62%, ©2024 22%, ©2025 12% (藍車無天線 49%, 藍車有天線 33%)'
     ],
   roads: [
     "右側行駛",
@@ -1130,6 +1139,7 @@ const COUNTRIES = {
       "Gen 4 有 smallcam 覆蓋",
       "Crete 島：獨特天線（頂端有微凸）",
       "Gen 3 有大量冬季/秋季覆蓋（蕭條景觀）",
+      'Gen 4 copyright: ©2025 37%, ©2024 36%, ©2023 21% (車不可見 61%, 黑車無天線 24%)'
     ],
   roads: [
     "<strong>略微褪色的雙白色中線</strong>（可與其他地中海國家區分）",
@@ -1196,6 +1206,7 @@ const COUNTRIES = {
     car: [
       "Gen 3：天線上常見<strong>小灰色旗幟</strong>",
       "Gen 4：白色車（罕見）或<strong>黑色車永遠無天線</strong>",
+      'Gen 4 copyright: ©2024 33%, ©2023 29%, ©2025 18% (藍車無天線 69%, 藍車有天線 24%)'
     ],
   roads: [
     "路線全白色，<strong>自行車道線通常黃色</strong>",
@@ -1341,6 +1352,7 @@ const COUNTRIES = {
   ],
     car: [
       "Gen 4 有 smallcam 覆蓋",
+      'Gen 4 copyright: ©2024 30%, ©2025 27%, ©2021 17% (藍車無天線 77%, 車不可見 17%)'
     ],
   roads: [
     "靠左行駛",
@@ -1417,6 +1429,7 @@ const COUNTRIES = {
     car: [
       "Gen 4 有 smallcam 覆蓋",
       "Campione d'Italia（瑞士境內飛地）：低相機+長天線+旗幟",
+      'Gen 4 copyright: ©2024 33%, ©2025 29%, ©2023 16% (藍車無天線 66%, 車不可見 20%)'
     ],
   roads: [
     "右側行駛",
@@ -1533,6 +1546,7 @@ const COUNTRIES = {
   camera: ["<strong>73.5% Gen 3 + 26.5% Gen 2</strong>"],
     car: [
       "Gen 4：紅色或黑色車",
+      'Gen 4 copyright: ©2024 51%, ©2023 27%, ©2025 16% (藍車無天線 63%, 藍車有天線 18%)'
     ],
   roads: [
     "道路品質不一，白色中線",
@@ -1590,7 +1604,8 @@ const COUNTRIES = {
   car: [
     "Gen 4：藍色車（有/無天線）",
     "Gen 4：<strong>黑色車+天線</strong> — Lithuania 是黑車天線<strong>最常見</strong>的國家（另有 Bulgaria）",
-    "Gen 3：白色轎車"
+    "Gen 3：白色轎車",
+      'Gen 4 copyright: ©2024 52%, ©2023 22%, ©2025 19% (藍車無天線 55%, 藍車有天線 33%)'
   ],
   roads: [
     "主要路線道路品質尚可",
@@ -1651,7 +1666,8 @@ const COUNTRIES = {
   camera: ["<strong>68.7% Gen 4 + 31.2% Gen 2 + 0.1% Gen 3</strong>", "Gen 3 非常罕見，幾乎全部為 Gen 2 或 Gen 4"],
   car: [
     "Gen 4：<strong>白色車</strong> — 白車三大國之一（Sweden、Turkey、Luxembourg）",
-    "Gen 4：藍色車也有"
+    "Gen 4：藍色車也有",
+      'Gen 4 copyright: ©2023 35%, ©2024 34%, ©2025 26% (藍車無天線 71%, 車不可見 25%)'
   ],
   roads: [
     "右側行駛",
@@ -1904,7 +1920,8 @@ const COUNTRIES = {
   car: [
     "Gen 4：藍色車為主（有/無天線）",
     "Gen 4：<strong>「黑色暴露車」（black exposed car）</strong> — <strong>Netherlands 獨有</strong>，方形外觀，白色前端有時可見",
-    "Gen 3/2：白色轎車"
+    "Gen 3/2：白色轎車",
+      'Gen 4 copyright: ©2023 38%, ©2025 27%, ©2024 25% (藍車無天線 54%, 車不可見 19%)'
   ],
   roads: [
     "純白道路線（中線 + 邊線），有時可見<strong>獨特的綠色中心線</strong>",
@@ -2037,7 +2054,8 @@ const COUNTRIES = {
     "Gen 4 藍車天線：<strong>無</strong>（Norway 不在天線群組中 — 北歐僅 Sweden 有天線）",
     "Gen 4 藍車 2023：稀少，僅 Norway 南部有涵蓋",
     "Gen 3：白色轎車",
-    "無 snorkel、無 車頂架 (roof rack)"
+    "無 snorkel、無 車頂架 (roof rack)",
+      'Gen 4 copyright: ©2024 35%, ©2023 24%, ©2025 21% (藍車無天線 83%, 車不可見 12%)'
   ],
   roads: [
     "大路外側<strong>白色實線</strong>，中線<strong>黃橙色虛線</strong>；小路為白色長虛線",
@@ -2170,7 +2188,8 @@ const COUNTRIES = {
     "Gen 3：白色轎車，標準歐洲配置",
     "Gen 4：藍色車（有天線和無天線均有），藍車天線在中東歐偏少但 Poland 有一些",
     "Gen 4 藍車天線：<strong>2022 很少</strong>（也少見於 Sweden）",
-    "Gen 4 藍車 2023：比 2022 少（Poland 更多 2022 涵蓋）"
+    "Gen 4 藍車 2023：比 2022 少（Poland 更多 2022 涵蓋）",
+      'Gen 4 copyright: ©2024 60%, ©2025 23%, ©2022 13% (藍車無天線 60%, 藍車有天線 28%)'
   ],
   roads: [
     "道路劃線<strong>全白</strong>，<strong>雙白實線</strong>中線非常常見（Denmark/Greece 也有）",
@@ -2249,6 +2268,7 @@ const COUNTRIES = {
   ],
     car: [
       "Gen 4 有 smallcam 覆蓋",
+      'Gen 4 copyright: ©2024 42%, ©2025 27%, ©2023 19% (藍車無天線 86%, 車不可見 11%)'
     ],
   roads: [
     "右側行駛",
@@ -2326,7 +2346,8 @@ const COUNTRIES = {
     "Gen 4 藍車天線 2021：少量涵蓋（與 Hungary、Bulgaria、Sweden、France 並列）",
     "Gen 4 藍車天線 2023：常見（尤其東北部）",
     "Gen 3：白色轎車，長天線可見",
-    "Gen 3：天線有膠帶（東歐共通特徵，與 Czech, Slovakia, Hungary 共用）"
+    "Gen 3：天線有膠帶（東歐共通特徵，與 Czech, Slovakia, Hungary 共用）",
+      'Gen 4 copyright: ©2024 42%, ©2023 31%, ©2022 17% (藍車無天線 61%, 藍車有天線 24%)'
   ],
   roads: [
     "外側線為<strong>短虛線窄空隙</strong>組成 — Romania 好線索",
@@ -2553,7 +2574,8 @@ const COUNTRIES = {
   car: [
     "Gen 4：藍色車為主",
     "Gen 4：<strong>紅色車</strong> — 紅車三大國之一（Sweden、Slovakia、Bulgaria）",
-    "Gen 3：白色轎車"
+    "Gen 3：白色轎車",
+      'Gen 4 copyright: ©2024 47%, ©2023 21%, ©2022 14% (藍車無天線 57%, 藍車有天線 15%)'
   ],
   roads: [
     "右側行駛",
@@ -2680,6 +2702,7 @@ const COUNTRIES = {
       "Gen 3：天線長/短/無三種；車尾可見時為黑色或白色",
       "Gen 3 東部 Andalusia/Huesca/Lleida：長天線+<strong>白色頂端</strong>",
       "Gen 4：藍色或黑色車（也可完全隱藏）",
+      'Gen 4 copyright: ©2025 41%, ©2024 37%, ©2023 14% (藍車無天線 94%, 黑車無天線 3%)'
     ],
   roads: [
     "右側行駛",
@@ -2768,6 +2791,7 @@ const COUNTRIES = {
       "Gen 3：白色車+長天線",
       "Gen 4：<strong>三種車 — 紅/白/藍</strong>（各有/無天線）",
       "Gen 4 也有 smallcam",
+      'Gen 4 copyright: ©2024 37%, ©2025 21%, ©2023 20% (紅車無天線 29%, 藍車無天線 18%)'
     ],
   roads: [
     "所有道路線全為<strong>白色</strong>（Norway/Finland 有黃色邊線）",
@@ -2862,6 +2886,7 @@ const COUNTRIES = {
     car: [
       "<strong>所有車輛覆蓋永遠是 low-cam</strong> — 相機更低、模糊更大",
       "全球僅 Japan 和 Liechtenstein 也有永久 low-cam",
+      'Gen 4 copyright: ©2024 56%, ©2023 22%, ©2025 21% (藍車無天線 57%, 車不可見 13%)'
     ],
   roads: [
     "道路上有<strong>黃色長虛線</strong> — Switzerland 好線索（Liechtenstein 也有）",
@@ -2990,6 +3015,7 @@ const COUNTRIES = {
       "Gen 3：<strong>永遠沒有天線</strong>",
       "Gen 4：通常<strong>白色車</strong>（僅車尾微露）",
       "Gen 4 也有<strong>灰色 pickup truck</strong>",
+      'Gen 4 copyright: ©2024 33%, ©2023 25%, ©2025 23% (車不可見 53%, 白車有天線 35%)'
     ],
   roads: [
     "<strong>道路標線不一致</strong>：大多數為白色，但<strong>黃色標線也不少見</strong>（全黃或黃白混合）",
@@ -3130,7 +3156,8 @@ const COUNTRIES = {
     "Gen 4：也有<strong>電動車</strong>覆蓋 — 僅 London 市中心",
     "Gen 2/3：白色轎車",
     "靠左行駛",
-    "無 snorkel、無 車頂架 (roof rack)"
+    "無 snorkel、無 車頂架 (roof rack)",
+      'Gen 4 copyright: ©2024 29%, ©2025 26%, ©2023 22% (藍車無天線 69%, 車不可見 26%)'
   ],
   roads: [
     "靠左行駛",

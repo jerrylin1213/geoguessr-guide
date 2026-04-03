@@ -3193,9 +3193,9 @@ const COUNTRY_IMAGES = {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Kenteken_uit_Marokko_01.jpg/960px-Kenteken_uit_Marokko_01.jpg',
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/License_plates_of_Morocco_0004.jpg/960px-License_plates_of_Morocco_0004.jpg',
-      'https://www.plonkit.net/images/resize/600/80/cyprus/cy_smallcam.png',
     ],
     poles: [], signs: [], carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/cyprus/cy_smallcam.png',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'cuba': {
@@ -3594,28 +3594,26 @@ const COUNTRY_IMAGES = {
   'azores': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/c/ce/Azores_Islands_tractor_plate.jpg',
-      'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
-      'https://www.plonkit.net/images/resize/600/80/alaska/ak_shitcam.png',
-      'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
     ],
     poles: [], signs: [], carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/alaska/ak_gen4.png',
+      'https://www.plonkit.net/images/resize/600/80/alaska/ak_shitcam.png',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'madeira': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2015_Madeira_Samsung_%288%29.jpg/960px-2015_Madeira_Samsung_%288%29.jpg',
-      'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
-      'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
     ],
     poles: [], signs: [], carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/azores/gen4.png',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'martinique': {
     plates: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/License_plate_of_Martinique_01.jpg/960px-License_plate_of_Martinique_01.jpg',
-      'https://www.plonkit.net/images/resize/600/80/madeira/madeira_shitcam',
     ],
     poles: [], signs: [], carMetas: [
+      'https://www.plonkit.net/images/resize/600/80/madeira/madeira_shitcam',
     ], bollards: [], scenery: [], architecture: [], roadMarkings: [], misc: [],
   },
   'macau': {
