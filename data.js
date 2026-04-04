@@ -3565,7 +3565,8 @@ const COUNTRIES = {
     "高棉文範例：<span class=\"script-sample\" style=\"font-size:1.2rem\">ផ្លូវ ភ្នំពេញ</span> — 每個字母頂部有向右的鉤",
     "<strong>高棉文</strong> — 幾乎每個字母頂部都有<strong>向右的小鉤</strong>",
     "字形非常有特色，曲線明顯",
-    "比泰文或寮文曲線更銳利"
+    "比泰文或寮文曲線更銳利",
+    "Chevron：黑底黃箭頭（較罕見，常用 bollard 代替）"
   ],
   plates: [
     "白色車牌為一般私家車",
@@ -4143,7 +4144,8 @@ const COUNTRIES = {
     "菲律賓語／Tagalog + 英文 — 完全雙語",
     "拉丁字母",
     "受西班牙影響的地名",
-    "標誌上有 Barangay（村）名稱"
+    "標誌上有 Barangay（村）名稱",
+    "Chevron：白底紅箭頭"
   ],
   plates: [
     "白色／綠色車牌",
@@ -4303,7 +4305,8 @@ const COUNTRIES = {
     "<strong>繁體中文字</strong> — 非簡體字",
     "與 Hong Kong 使用相同的繁體字",
     "有時可見注音符號",
-    "主要標誌附有英文拼音"
+    "主要標誌附有英文拼音",
+    "Chevron：<strong>黃底黑箭頭</strong>"
   ],
   plates: [
     "白色車牌",
@@ -4451,7 +4454,8 @@ const COUNTRIES = {
     "<strong>越南文 — 拉丁字母帶有大量變音符號</strong>",
     "â、ă、đ、ê、ô、ơ、ư + 多種聲調符號",
     "看起來像是「戴了很多帽子的拉丁字母」",
-    "全世界變音符號最多的拉丁字母語言"
+    "全世界變音符號最多的拉丁字母語言",
+    "Chevron：黃底黑箭頭 或 白底紅箭頭（通常單箭頭）"
   ],
   plates: [
     "白色車牌帶<strong>藍色地區代碼</strong>在頂部",
@@ -5472,7 +5476,8 @@ const COUNTRIES = {
     "<strong>葡萄牙語</strong> — 南美洲唯一說葡萄牙語的國家",
     "字母：ç、ã、õ、â、ê、ô",
     "ã 和 õ 可區分葡萄牙語和西班牙語",
-    "'ção' 結尾非常常見"
+    "'ção' 結尾非常常見",
+    "Chevron：<strong>黑底黃箭頭</strong>（南美洲大部分用黃底黑箭頭，Brazil 相反）"
   ],
   plates: [
     "2018 年前：白底黑字車牌",
@@ -5553,7 +5558,8 @@ const COUNTRIES = {
   signs: ["西班牙語，有 Ñ"],
   plates: [
     "<strong>黑底白字車牌</strong>（舊格式，中間有黑點 — Argentina 獨有）",
-    "新 Mercosul 格式：白底 + 上方藍色條（Brazil 也有類似）"
+    "新 Mercosul 格式：白底 + 上方藍色條（Brazil 也有類似）",
+    "Chevron：<strong>白底紅箭頭</strong>（美洲唯一此配色）"
   ],
   unique: [
     "<strong>黑色 Google 街景車</strong>",
@@ -5807,7 +5813,8 @@ const COUNTRIES = {
     "格式：<strong>3 字母 + 3-4 數字</strong>",
     "省份首字母前綴可定位區域（A=Azuay, G=Guayas, P=Pichincha）— 計程車首字母也是省份",
     "<strong>橘色車牌</strong> = 計程車/商用車",
-    "vs Colombia 全黃車牌 — 區分兩國的有力線索"
+    "vs Colombia 全黃車牌 — 區分兩國的有力線索",
+    "Chevron：大量 chevron spam（彎道密集排列），Colombia 偶爾也有"
   ],
   unique: [
     "<strong>雙層護欄</strong>（南美洲僅 Ecuador）",
@@ -6080,7 +6087,8 @@ const COUNTRIES = {
     "路牌以英語為主",
     "也可見 Afrikaans 南非荷蘭語（類似荷蘭語）",
     "11 種官方語言",
-    "綠色高速公路標誌"
+    "綠色高速公路標誌",
+    "Chevron：白底紅箭頭 + 路邊獨特的窄小單箭頭 chevron"
   ],
   plates: [
     "白色/黃色車牌附省份代碼",
@@ -6856,7 +6864,8 @@ const COUNTRIES = {
     "<strong>NSW</strong>：紅色<strong>禁止停車</strong>標誌（其他州用白色版）",
     "<strong>SA</strong>：唯一使用 25 km/h 學校區限速的州",
     "<strong>NT</strong>：有 130 km/h 限速（全澳唯一）",
-    "C 開頭的路名 = TAS 或 VIC"
+    "C 開頭的路名 = TAS 或 VIC",
+    "Chevron：黑底白箭頭 和 黃底黑箭頭"
   ],
   plates: [
     "各州不同 — 許多設計，模糊後仍可辨識",
@@ -6920,7 +6929,8 @@ const COUNTRIES = {
   signs: [
     "英語 + <strong>毛利語</strong> — 雙語標誌",
     "毛利語地名（Whangarei、Tauranga、Whakatane）",
-    "毛利語使用長音符號：ā、ē、ī、ō、ū"
+    "毛利語使用長音符號：ā、ē、ī、ō、ū",
+    "Chevron：<strong>黃底黑箭頭 + 黑色細邊框</strong>（vs Australia 無邊框）"
   ],
   plates: [
     "白色車牌帶<strong>黑色字</strong>（前後相同）",
