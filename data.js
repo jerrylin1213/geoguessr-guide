@@ -2586,7 +2586,7 @@ const COUNTRIES = {
     "白色中心線"
   ],
   bollardInfo: [
-    "Bollard：<strong>分裂式反光片 + 彎曲設計</strong>（vs Czech 楔形）"
+    "Bollard：正面<strong>橘色雙反光片</strong>，背面白色單反光片。也有藍/紅變體。新型類似 Hungary 楔形"
   ],
   poleInfo: [
     "<strong>寬圓混凝土電線杆</strong>最常見，通常成對安裝（與 Czech 共有）",
