@@ -397,7 +397,8 @@ const COUNTRIES = {
     "沒有字母 Ы（Russian 有，Bulgarian 沒有）"
   ,
     "區號按首位數字分區（區域定位工具）",
-    "城市路牌各異：Sofia=兩紅條、Stara Zagora=棕黃"
+    "城市路牌各異：Sofia=兩紅條、Stara Zagora=棕黃",
+    "Chevron：白底紅箭頭（多國相似，但鄰國 Romania/Turkey/Greece 配色不同）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋",
@@ -468,7 +469,8 @@ const COUNTRIES = {
     "Croatian（拉丁文字）— 類似 Serbian 但無西里爾文",
     "特殊字元：č、ć、đ、š、ž；常見 'ije' 組合（Serbian 用 'e' 代替）",
     "路標遵循 EU 標準",
-    "中北部地區城鎮名常以 <strong>-ec</strong> 結尾"
+    "中北部地區城鎮名常以 <strong>-ec</strong> 結尾",
+    "Chevron：黃底或白底紅箭頭"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + HR 代碼",
@@ -592,7 +594,8 @@ const COUNTRIES = {
     "Czech 語 — 有 háček (ˇ) 變音符號：ě、š、č、ř、ž、ů、ý",
     "<strong>ř 為 Czech 獨有</strong> — 沒有其他語言使用此字母",
     "路標遵循 EU 標準",
-    "里程標誌以 km 計"
+    "里程標誌以 km 計",
+    "Chevron：白底紅箭頭（也有紅底黃變體）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + CZ 代碼",
@@ -940,7 +943,8 @@ const COUNTRIES = {
     "使用 ä 和 ö（但沒有 å — Swedish 有 å）",
     "雙子音和雙母音非常常見（kauppa、Helsinki、sauna）",
     "許多單字以 -nen、-la、-lä 結尾",
-    "沿海地區有雙語標誌（Finnish/Swedish）"
+    "沿海地區有雙語標誌（Finnish/Swedish）",
+    "Chevron：<strong>黑底黃箭頭</strong>（vs Sweden 藍底黃箭頭）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + FIN 代碼",
@@ -1016,7 +1020,8 @@ const COUNTRIES = {
     "French 語 — 重音符號：é、è、ê、ë、à、â、ç、ù、û、ü、î、ï、ô",
     "路標：白底紅框（危險）、藍色（資訊）、綠色（高速公路）",
     "'Rue' 表示街道、'Avenue'、'Boulevard'",
-    "路柱上的公里標記"
+    "路柱上的公里標記",
+    "Chevron：<strong>藍底白箭頭</strong>（1-多個箭頭，唯一歐洲國家有此配色，Spain 也有但僅 2-4 箭頭）"
   ],
   plates: [
     "2009 後（SIV 系統）：<strong>白色前車牌 + 白色後車牌</strong>，格式 AA-123-AA，EU 藍條 + F 代碼",
@@ -1175,7 +1180,8 @@ const COUNTRIES = {
     "<strong>希臘字母</strong> — Φ、Γ、Δ、Θ、Λ、Ξ、Σ、Ψ、Ω",
     "標誌通常雙語（希臘語 + 拉丁轉寫）",
     "希臘文部分字母與西里爾文相似但不同",
-    "字元比西里爾文更圓潤"
+    "字元比西里爾文更圓潤",
+    "Chevron：<strong>黑底白箭頭</strong>（同 Italy/Albania）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + GR 代碼",
@@ -1248,7 +1254,8 @@ const COUNTRIES = {
   ,
     "道路編號首位數從 Budapest 順時針放射（1=北→8=西南）",
     "區號可定位地區（Budapest=1）",
-    "<strong>Budapest 區號</strong>出現在大多數路牌上，可精確猜測"
+    "<strong>Budapest 區號</strong>出現在大多數路牌上，可精確猜測",
+    "Chevron：<strong>紅底白箭頭</strong>（也有黑白變體但少見）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + H 代碼",
@@ -1467,7 +1474,8 @@ const COUNTRIES = {
     "Italian 語 — 重音符號比 French/Spanish 少",
     "單字以母音結尾（a、e、i、o）",
     "'Via' 表示街道、'Piazza' 表示廣場",
-    "綠色高速公路標誌、藍色資訊標誌"
+    "綠色高速公路標誌、藍色資訊標誌",
+    "Chevron：<strong>黑底白箭頭</strong>（南歐也見於 Greece/Albania/Spain）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + I 代碼",
@@ -2100,7 +2108,8 @@ const COUNTRIES = {
     "'vei/veien'（道路）、'gate/gata'（街道）— vs Danish 'vej'/'gade'",
     "北部有 Sami 語雙語標誌（字母 Á、Đ + 多連續元音）",
     "兩種書面形式：Bokmål 和 Nynorsk",
-    "道路編號第一位數字取決於地區"
+    "道路編號第一位數字取決於地區",
+    "Chevron：<strong>黑底黃箭頭</strong>"
   ],
   plates: [
     "白色車牌附藍色條紋 + N 代碼",
@@ -2235,7 +2244,8 @@ const COUNTRIES = {
     "地名後綴有地域特徵：北部多 <strong>-owo</strong>，南部多 <strong>-ów</strong>，西北 <strong>-ino/-yno</strong>，中部 <strong>-ew</strong>",
     "北部有 <strong>Kashubian 語</strong>雙語標識；Opole 省有<strong>德語</strong>雙語",
     "區號前兩位數有地理分布（第一位數即可大幅縮小地區）",
-    "<strong>3 位數道路</strong>的第一位數字代表地區（高度集聚）"
+    "<strong>3 位數道路</strong>的第一位數字代表地區（高度集聚）",
+    "Chevron：<strong>白底紅箭頭</strong>"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + PL 代碼",
@@ -2310,7 +2320,8 @@ const COUNTRIES = {
   signs: [
     "Portuguese 語 — ã、õ、ç、â、ê、ô、á、é、í、ó、ú",
     "書寫上與巴西 Portuguese 非常相似",
-    "'Rua'（街道）、'Avenida'（大道）、'Praça'（廣場）"
+    "'Rua'（街道）、'Avenida'（大道）、'Praça'（廣場）",
+    "Chevron：<strong>黑底黃箭頭</strong>（地中海國家中獨有此配色）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + P 代碼",
@@ -2392,7 +2403,8 @@ const COUNTRIES = {
   signs: [
     "Romanian 語 — 受斯拉夫影響的羅曼語",
     "字元：<strong>ă、â、î、ș（s-逗號）、ț（t-逗號）</strong>",
-    "ș 和 ț 下方是逗號（非軟音符號）"
+    "ș 和 ț 下方是逗號（非軟音符號）",
+    "Chevron：<strong>白底紅箭頭 + 黃色邊框</strong>（黃框是 Romania 最強辨識特徵）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + RO 代碼",
@@ -2758,7 +2770,8 @@ const COUNTRIES = {
     "Spanish（Castilian）— ñ 是關鍵字元",
     "另有：á、é、í、ó、ú、ü、¡、¿",
     "Catalonia 的 Catalan，País Vasco 的 Basque，Galicia 的 Galician",
-    "雙語標誌上的地方語言"
+    "雙語標誌上的地方語言",
+    "Chevron：黑底白箭頭 或 <strong>藍底白箭頭</strong>（單箭頭罕見）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + E 代碼",
@@ -2850,7 +2863,8 @@ const COUNTRIES = {
     "與 Danish/Norwegian 不同：ö 取代 ø，ä 取代 æ",
     "'vägen/v'（道路）、'gatan/g'（街道）、'gränd'（小巷）",
     "北部有 Sami 語 + Swedish 雙語標誌；芬蘭邊境有 Meänkieli 語",
-    "常見地名後綴有地區限定分布"
+    "常見地名後綴有地區限定分布",
+    "Chevron：<strong>藍底黃箭頭</strong>（歐洲獨有配色）"
   ],
   plates: [
     "白色車牌附 EU 藍色條紋 + S 代碼",
@@ -3052,7 +3066,8 @@ const COUNTRIES = {
   signs: [
     "Turkish 語 — 帶特殊字元的拉丁文字",
     "字元：<strong>ğ、ı（無點 i）、İ（大寫有點 I）、ş、ç、ö、ü</strong>",
-    "ğ（軟 g）和 ı/İ（無點 i 區別）為 Turkish 獨有"
+    "ğ（軟 g）和 ı/İ（無點 i 區別）為 Turkish 獨有",
+    "Chevron：<strong>白底紅箭頭</strong>（箭頭尖端不觸邊緣，有些有螢光黃邊框）"
   ],
   plates: [
     "白色車牌附藍色條紋 + TR 代碼",
