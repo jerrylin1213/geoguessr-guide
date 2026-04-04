@@ -1421,7 +1421,7 @@ const COUNTRIES = {
   name: 'Italy', localName: 'Italia', flag: '🇮🇹', region: 'europe',
   drivingSide: 'right', tld: '.it', phoneCode: '+39', language: 'Italian', currency: 'Euro (EUR)',
   camera: [
-    "<strong>57.3% Gen 3 + 24.4% Gen 4 + 18.3% Gen 2</strong>",
+    "<strong>Gen 3 為主 + Gen 4 + Gen 2</strong>",
     "Campione d'Italia 飛地有低相機覆蓋 + 長天線 + 旗幟",
     "Gen 2 仍存在於部分舊覆蓋區域",
     "⚠️ 有 Gen 4 小相機 (smallcam) 覆蓋（~22,000 點位）— 視角更低、模糊區域更大"
@@ -1713,7 +1713,7 @@ const COUNTRIES = {
 'malta': {
   name: 'Malta', localName: 'Malta', flag: '🇲🇹', region: 'europe',
   drivingSide: 'left', tld: '.mt', phoneCode: '+356', language: 'Maltese, English', currency: 'Euro (EUR)',
-  camera: ["<strong>72.7% Gen 3 + 27.3% Gen 2</strong>", "以小面積來說覆蓋良好"],
+  camera: ["<strong>Gen 3 為主 + Gen 2</strong>", "以小面積來說覆蓋良好"],
     car: [
       "無已驗證的 car meta 資料",
     ],
@@ -1911,7 +1911,7 @@ const COUNTRIES = {
   name: 'Netherlands', localName: 'Nederland', flag: '🇳🇱', region: 'europe',
   drivingSide: 'right', tld: '.nl', phoneCode: '+31', language: 'Dutch', currency: 'Euro (EUR)',
   camera: [
-    "<strong>90% Gen 4 + 7.3% Gen 3 + 2.3% Gen 2</strong>",
+    "<strong>Gen 4 為主 + 少量 Gen 3/Gen 2</strong>",
     "Gen 3 天空裂痕非常普遍",
     "Gen 4 覆蓋部分區域（黑色車尾部有時可見模糊故障）",
     "全國覆蓋範圍廣泛",
@@ -3684,7 +3684,7 @@ const COUNTRIES = {
   name: 'Indonesia', localName: 'Indonesia', flag: '🇮🇩', region: 'asia',
   drivingSide: 'left', tld: '.id', phoneCode: '+62', language: 'Indonesian (Bahasa Indonesia)', currency: 'Rupiah (IDR)',
   camera: [
-    "<strong>82.7% Gen 3 + 17.3% Gen 4</strong>",
+    "<strong>Gen 3 為主 + Gen 4</strong>",
     "Gen 3 中黃色中線較罕見（近年才開始使用）",
     "Java 覆蓋最多，Bali 次之，其他島嶼較少"
   ],
@@ -3902,7 +3902,7 @@ const COUNTRIES = {
   name: 'Malaysia', localName: 'Malaysia', flag: '🇲🇾', region: 'asia',
   drivingSide: 'left', tld: '.my', phoneCode: '+60', language: 'Malay (Bahasa Melayu)', currency: 'Ringgit (MYR)',
   camera: [
-    "<strong>67.3% Gen 3 + 32.6% Gen 4 + 0.1% Gen 2</strong>",
+    "<strong>Gen 3 為主 + Gen 4</strong>",
     "涵蓋良好"
   ],
     car: [
@@ -4195,7 +4195,7 @@ const COUNTRIES = {
   name: 'Sri Lanka', localName: 'ශ්‍රී ලංකාව', flag: '🇱🇰', region: 'asia',
   drivingSide: 'left', tld: '.lk', phoneCode: '+94', language: 'Sinhala, Tamil', currency: 'Rupee (LKR)',
   camera: [
-    "<strong>50% Shitcam + 40.4% Gen 4 + 9.6% Gen 3</strong>",
+    "<strong>Shitcam 為主 + Gen 4 (low-cam) + 少量 Gen 3</strong>",
     "⚠️ 一半覆蓋為 Shitcam（印度相機），畫質較低",
     "⚠️ Gen 4 使用低相機 (low cam) — 視角更低、道路更寬、車輛模糊更大",
     "Gen 3 使用正常高度相機",
@@ -7259,7 +7259,7 @@ const COUNTRIES = {
     language: 'Burmese',
     currency: 'Kyat (MMK)',
     camera: [
-      "<strong>72.7% Gen 4 + 27.3% Gen 3</strong>",
+      "<strong>Gen 4 為主 + Gen 3</strong>",
       '無官方 Google 街景車覆蓋',
       '蒲甘寺廟和大金寺有部分 Trekker 覆蓋',
       '覆蓋極為稀疏且不穩定',
