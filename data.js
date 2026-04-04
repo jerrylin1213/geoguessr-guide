@@ -5001,7 +5001,7 @@ const COUNTRIES = {
     "Google 街景車上可見黑色後視鏡 = Guatemala",
     "紅色底部電線桿 + ALTO = Guatemala",
     "編號式棋盤命名系統（Calles/Avenidas）= Guatemala",
-    "🔗 <a href=\"https://www.google.com/maps/@14.6349,-90.5069,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Guatemala City）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/iqAUYLRyYW7Q1MBUA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Guatemala City）</a>"
   ]
 },
 
@@ -5184,7 +5184,7 @@ const COUNTRIES = {
   tips: [
     "黑色引擎蓋 + roof bars = Curaçao",
     "荷蘭語文字 + 加勒比海 = Curaçao",
-    "🔗 <a href=\"https://www.google.com/maps/@12.1696,-68.99,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Willemstad）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/nYiivexiBGuv4djJA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Willemstad）</a>"
   ]
 },
 
@@ -10396,7 +10396,7 @@ const COUNTRIES = {
     "天線接近鏡頭 = CNMI；天線較遠 = Guam",
     "鳳凰木（紅花）= 很可能是 CNMI",
     "覆蓋基本僅在塞班島",
-    "🔗 <a href=\"https://www.google.com/maps/@15.1801,145.7497,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saipan）</a>"
+    "🔗 <a href=\"https://maps.app.goo.gl/7csYjQNoyLG5KePv5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saipan）</a>"
   ]
 },
 
