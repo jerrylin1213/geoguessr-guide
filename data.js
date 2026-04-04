@@ -301,7 +301,8 @@ const COUNTRIES = {
   ],
   car: [
     "Gen 4：現代化 Google 街景車",
-    "無 antenna、無 車頂架 (roof rack)"
+    "無 antenna、無 車頂架 (roof rack)",
+      'Gen 4 copyright: ©2024 57%, ©2022 24%, ©2025 11% (藍車無天線 66%, 黑車無天線 22%)'
   ],
   roads: [
     "右側行駛",
@@ -431,6 +432,7 @@ const COUNTRIES = {
   ],
     car: [
       "Gen 3：車輛模糊中<strong>側鏡部分可見</strong>（非 Croatia 獨有但常見）",
+      'Gen 4 copyright: ©2024 40%, ©2022 29%, ©2025 23% (藍車無天線 66%, 黑車無天線 16%)'
     ],
   roads: [
     "維護良好的高速公路（A1 Zagreb-Split 非常好）",
@@ -2427,7 +2429,8 @@ const COUNTRIES = {
     "黑色車 + 長天線 + Cyrillic = 高度確認為 Russia",
     "無 snorkel、無 車頂架 (roof rack)"
   ,
-    "Gen 4 車色有區域分佈：<strong>紅車=東部</strong>、白車=Sakha/Magadan、黑車=Moscow 附近"
+    "Gen 4 車色有區域分佈：<strong>紅車=東部</strong>、白車=Sakha/Magadan、黑車=Moscow 附近",
+      'Gen 4 copyright: ©2024 33%, ©2023 26%, ©2025 23% (藍車無天線 37%, 車不可見 33%)'
   ],
   roads: [
     "道路品質差異極大 — Moscow 附近好，偏遠地區很差",
@@ -2638,6 +2641,7 @@ const COUNTRIES = {
   camera: ["<strong>85.6% Gen 3 + 14.3% Gen 4 + 0.1% Gen 2</strong>", "覆蓋良好"],
     car: [
       "Gen 4：黑色車或白色車（白色較罕見）",
+      'Gen 4 copyright: ©2024 30%, ©2025 26%, ©2022 24% (藍車無天線 42%, 車不可見 35%)'
     ],
   roads: [
     "右側行駛",
@@ -3085,6 +3089,7 @@ const COUNTRIES = {
     car: [
       "<strong>紅色車</strong>（幾乎 Ukraine 獨有）— 有時帶天線",
       "全為 Gen 3（無 Gen 2 或 Gen 4 — vs Russia 有 Gen 4）",
+      'Gen 4 copyright: ©2024 42%, ©2023 28%, ©2022 17% (藍車無天線 62%, 藍車有天線 30%)'
     ],
   roads: [
     "道路品質不一 — 許多地區很差",
