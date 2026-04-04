@@ -65,7 +65,6 @@ const COUNTRIES = {
     "Albanian 語非常獨特 — 非斯拉夫語、非羅曼語、非希臘語",
     "注意標誌文字中的 ë 和 ç 字元",
     "山脈 + 地中海海岸 + 碉堡 = Albania",
-    "🔗 <a href=\"https://maps.app.goo.gl/J5v98LAwUVofxSadA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tirana）</a>"
   ]
 },
 
@@ -127,7 +126,6 @@ const COUNTRIES = {
     "Bollard 為楔形搭配橘色反光片（非法國或西班牙風格）",
     "注意免稅店標誌（香水店、菸酒店）",
     "電話號碼只有 6 位數（非常短）",
-    "🔗 <a href=\"https://maps.app.goo.gl/hM9iV2ehTf9dWmpd7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Andorra la Vella）</a>"
   ]
 },
 
@@ -201,7 +199,6 @@ const COUNTRIES = {
     "德語文字但 Street View 覆蓋比 Germany 少很多",
     "阿爾卑斯山 + 德語 + 有限覆蓋 = 很可能是 Austria",
     "注意車牌上的 Austria 區域代碼（W、G、L、S 等）",
-    "🔗 <a href=\"https://www.google.com/maps/@48.2082,16.3738,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vienna）</a>"
   ]
 },
 
@@ -287,7 +284,6 @@ const COUNTRIES = {
     "橘色調 bollard 可與 Netherlands 和 France 區分",
     "Brussels 附近的雙語標誌（荷蘭語/法語）= Belgium",
     "平坦地形上的紅磚建築配荷蘭語文字 = Flanders",
-    "🔗 <a href=\"https://maps.app.goo.gl/UqFitnZ4hXasvG1D7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Brussels）</a>"
   ]
 },
 
@@ -342,7 +338,6 @@ const COUNTRIES = {
     "同一標誌上有拉丁和西里爾文字，強烈暗示 Bosnia",
     "山脈 + 鄂圖曼建築 + 戰爭損壞 = Bosnia",
     "價格標誌上的貨幣為 'KM'（可兌換馬克）",
-    "🔗 <a href=\"https://maps.app.goo.gl/askVEkY4ZkYfXiS77\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sarajevo）</a>"
   ]
 },
 
@@ -418,7 +413,6 @@ const COUNTRIES = {
     "沒有 Ы 字母 = 不是 Russian，可能是 Bulgarian",
     "Gen 4 藍色車搭配圓形天線在西里爾文區域 = 可能是 Bulgaria",
     "注意店面上的 .bg 網域",
-    "🔗 <a href=\"https://maps.app.goo.gl/tsFGEuJDKM6V4gBH8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sofia）</a>"
   ]
 },
 
@@ -494,7 +488,6 @@ const COUNTRIES = {
     "地中海海岸上的拉丁文字斯拉夫語言 = Croatia",
     "注意 č、ć、đ、š、ž 字元（Croatian 拉丁文字）",
     "紅瓦沿海城鎮 + 斯拉夫語言 = Dalmatia Croatia",
-    "🔗 <a href=\"https://maps.app.goo.gl/XsWffbGXegxkG9Ec9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Zagreb）</a>"
   ]
 },
 
@@ -550,7 +543,6 @@ const COUNTRIES = {
     "希臘文字 + 靠左行駛 = Cyprus（不是 Greece！）",
     "Greece 靠右行駛，Cyprus 靠左行駛",
     "英國風格圓環配希臘語標誌 = Cyprus",
-    "🔗 <a href=\"https://www.google.com/maps/@35.1856,33.3823,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nicosia）</a>"
   ]
 },
 
@@ -616,7 +608,6 @@ const COUNTRIES = {
     "螢光橘色 bollard 搭配分裂反光片 = Czech",
     "楔形 bollard（非弧形）可與 Slovakia 區分",
     "háček (ˇ) 變音符號常見：š、č、ž、ř",
-    "🔗 <a href=\"https://maps.app.goo.gl/qk65BaBFyzGEjx6s5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Prague）</a>"
   ]
 },
 
@@ -692,7 +683,6 @@ const COUNTRIES = {
     "鸚鵡車牌（左側黃色）= Denmark",
     "注意 'vej'（Danish）vs 'vei'（Norwegian）",
     "Bornholm 道路編號只有 1 開頭",
-    "🔗 <a href=\"https://www.google.com/maps/@55.6761,12.5683,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Copenhagen）</a>"
   ]
 },
 
@@ -765,7 +755,6 @@ const COUNTRIES = {
     "如果看起來像 Finnish 但有 õ，就是 Estonian",
     "平坦森林地形 + 芬蘭-烏戈爾語 = Estonia",
     "非斯拉夫語，非波羅的海語言 — 與 Latvia/Lithuania 不同",
-    "🔗 <a href=\"https://maps.app.goo.gl/txAXjfRPYE17LNTt7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tallinn）</a>"
   ]
 },
 
@@ -821,7 +810,6 @@ const COUNTRIES = {
     "Iceland 有火山/荒蕪地形；Faroes 為翠綠",
     "Faroese 使用 ð 和 ø（Iceland 使用 ð 和 þ 但不用 ø）",
     "比 Iceland 小得多且更翠綠",
-    "🔗 <a href=\"https://maps.app.goo.gl/Pbm3inhitYEdM9Ko9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Torshavn）</a>"
   ]
 },
 
@@ -886,7 +874,6 @@ const COUNTRIES = {
     "Maniitsoq = 拖拉機；Sisimiut = 雪地摩托",
     "利用海的方向判斷東岸 vs 西岸",
     "金字塔形山 + 蘇維埃建築 = 那是 Svalbard 不是 Greenland",
-    "🔗 <a href=\"https://www.google.com/maps/@64.1814,-51.6941,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nuuk）</a>"
   ]
 },
 
@@ -965,7 +952,6 @@ const COUNTRIES = {
     "沒有 å = Finnish（Swedish 區域有 å）",
     "到處都是雙母音/雙子音（kk、pp、tt、aa、oo）= Finnish",
     "森林/湖泊景觀中的紅色木造房屋 = Finland",
-    "🔗 <a href=\"https://maps.app.goo.gl/jxUDdcsy3rswPRMFA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Helsinki）</a>"
   ]
 },
 
@@ -1047,7 +1033,6 @@ const COUNTRIES = {
     "超長白色虛線邊線 = France",
     "梯形電線桿 = France 或 Spain",
     "注意藥局綠十字和麵包店招牌",
-    "🔗 <a href=\"https://maps.app.goo.gl/kUboiNW4BdxnWfqW8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Paris）</a>"
   ]
 },
 
@@ -1129,7 +1114,6 @@ const COUNTRIES = {
     "德式 bollard：單側反光片配黑色條紋，非 Austria 的黑色頂蓋風格",
     "注意文字中的 ß — 德語獨特字元",
     "藍色 Autobahn 標誌無速限 = Germany",
-    "🔗 <a href=\"https://maps.app.goo.gl/W3iPtNWZ7mszcT6m7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Berlin）</a>"
   ]
 },
 
@@ -1200,7 +1184,6 @@ const COUNTRIES = {
     "希臘語 + 靠右行駛 = Greece（Cyprus 為靠左行駛）",
     "任何年份 Google 街景車都無天線 = Greece",
     "乾燥多岩島嶼上的白藍建築 = Greek 島嶼",
-    "🔗 <a href=\"https://maps.app.goo.gl/ne4CSJbED7uZ7tyt6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Athens）</a>"
   ]
 },
 
@@ -1274,7 +1257,6 @@ const COUNTRIES = {
     "Hungarian 看起來不像任何其他語言 — 非印歐語系",
     "平坦地形上的多孔混凝土電桿配 Hungarian 文字 = Hungary",
     "平坦農田 + 獨特語言 = 很可能是匈牙利大平原",
-    "🔗 <a href=\"https://maps.app.goo.gl/BoCVGhVbfT5mws4K8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Budapest）</a>"
   ]
 },
 
@@ -1347,7 +1329,6 @@ const COUNTRIES = {
     "Faroe Islands 綠草如茵；Iceland 是荒蕪的火山岩",
     "單線道橋梁在 Iceland 非常常見",
     "黃色 bollard（歐洲其他地方找不到）",
-    "🔗 <a href=\"https://maps.app.goo.gl/AHjPZebYTyd1km8h6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Reykjavik）</a>"
   ]
 },
 
@@ -1422,7 +1403,6 @@ const COUNTRIES = {
     "翠綠景觀中的黃色虛線邊線 = Ireland",
     "靠左行駛 + 英語 + 歐元 = Ireland（UK 用英鎊）",
     "比 UK 看起來更綠更濕",
-    "🔗 <a href=\"https://maps.app.goo.gl/5xa5tRziKBsfoWr29\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dublin）</a>"
   ]
 },
 
@@ -1498,7 +1478,6 @@ const COUNTRIES = {
     "黑色條紋向上延伸的 bollard = Italy 或 Albania",
     "柏樹林蔭道路 = Tuscany, Italy",
     "注意路牌上的 'Via'、'Piazza'、'Corso'",
-    "🔗 <a href=\"https://maps.app.goo.gl/dYeV63mdLFfW4Qfr6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Rome）</a>"
   ]
 },
 
@@ -1546,7 +1525,6 @@ const COUNTRIES = {
     "Albanian 文字 + 較小/較新國家感覺 = Kosovo",
     "Albanian 和 Serbian 文字/建築混合，可與 Albania 本國區分",
     "新道路和建設工程 = 很可能是 Kosovo",
-    "🔗 <a href=\"https://www.google.com/maps/@42.6629,21.1655,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pristina）</a>"
   ]
 },
 
@@ -1603,7 +1581,6 @@ const COUNTRIES = {
     "長音符號（ā、ē、ī、ū）+ 子音軟音符號（ļ、ķ、ģ、ņ）= Latvian",
     "與 Lithuanian 不同 — Lithuanian 使用鉤形符號（ą、ę）和點（ė、ż）",
     "高細 bollard 帶數字 = Latvia",
-    "🔗 <a href=\"https://maps.app.goo.gl/vBGWX4DjpQf6bXp87\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Riga）</a>"
   ]
 },
 
@@ -1666,7 +1643,6 @@ const COUNTRIES = {
     "鉤形符號（ą、ę）+ 上方點（ė）= Lithuanian（Latvian 改用長音符號）",
     "以 -as、-is、-ys 結尾的單字 = Lithuanian",
     "橘色 bollard 反光片 = 可能是 Lithuania",
-    "🔗 <a href=\"https://maps.app.goo.gl/rJV4QRPMvzQVtzeU7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vilnius）</a>"
   ]
 },
 
@@ -1716,7 +1692,6 @@ const COUNTRIES = {
     "德式 bollard + 法語文字 = Luxembourg",
     "三語標誌（French/German/Luxembourgish）= Luxembourg",
     "看起來非常小且富裕",
-    "🔗 <a href=\"https://maps.app.goo.gl/2XXMvrhpZUk1DcdY6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Luxembourg）</a>"
   ]
 },
 
@@ -1763,7 +1738,6 @@ const COUNTRIES = {
     "蜂蜜色石灰岩 + 靠左行駛 + 地中海 = Malta",
     "Maltese 文字帶 ħ、ġ = Malta",
     "非常小的島嶼 — 如果一切看起來古老且金色 = Malta",
-    "🔗 <a href=\"https://maps.app.goo.gl/VPSXzfYXe65HR39L9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Valletta）</a>"
   ]
 },
 
@@ -1812,7 +1786,6 @@ const COUNTRIES = {
     "Romanian 文字 + 蘇聯時期建築 + 差的基礎設施 = Moldova",
     "看到西里爾文 + 蘇聯符號，可能是 Moldova 的 Transnistria 地區",
     "不如 Romania 發達 — 更差的道路、更舊的建築",
-    "🔗 <a href=\"https://www.google.com/maps/@47.0105,28.8638,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Chișinău）</a>"
   ]
 },
 
@@ -1853,7 +1826,6 @@ const COUNTRIES = {
   tips: [
     "極致奢華 + 微型地中海城市 + 法語文字 = Monaco",
     "到處都是賭場、遊艇和超跑",
-    "🔗 <a href=\"https://maps.app.goo.gl/NjwoyGwbN21AV8wj7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Monaco）</a>"
   ]
 },
 
@@ -1913,7 +1885,6 @@ const COUNTRIES = {
     "壯觀海岸線 + 斯拉夫語（拉丁文字）+ 小國 = Montenegro",
     "Kotor 灣一眼就能辨認",
     "巴爾幹背景下的黑色頂蓋 bollard = 很可能是 Montenegro",
-    "🔗 <a href=\"https://maps.app.goo.gl/vetf15D8VGsrNvCfA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Podgorica）</a>"
   ]
 },
 
@@ -2001,7 +1972,6 @@ const COUNTRIES = {
     "平坦 + 運河 + 自行車道 + Dutch = Netherlands",
     "紅色柏油自行車道 = Netherlands",
     "不要與 Belgium 混淆 — Netherlands 更平坦且維護更好",
-    "🔗 <a href=\"https://maps.app.goo.gl/QxnnECEQ9AA7Q24K9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amsterdam）</a>"
   ]
 },
 
@@ -2047,7 +2017,6 @@ const COUNTRIES = {
     "西里爾文有 Ѓ 和 Ќ（非 Ђ 和 Ћ）= Macedonian，不是 Serbian",
     "Ohrid 湖 + 西里爾文 = North Macedonia",
     "雙語西里爾文/Albanian 標誌 = 很可能是 North Macedonia",
-    "🔗 <a href=\"https://maps.app.goo.gl/iZA2nbkzFGcE7nzb9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Skopje）</a>"
   ]
 },
 
@@ -2130,7 +2099,6 @@ const COUNTRIES = {
     "'vei'（道路）= Norwegian；'vej'（道路）= Danish",
     "壯觀山脈 + 峽灣 + 斯堪地那維亞語言 = Norway",
     "斜向黑色 bollard 條紋可與其他北歐國家區分",
-    "🔗 <a href=\"https://maps.app.goo.gl/SwfYDutn2pugWnXu8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Oslo）</a>"
   ]
 },
 
@@ -2184,7 +2152,6 @@ const COUNTRIES = {
     "金字塔形山脈 + 蘇維埃建築 = 皮拉米登",
     "最荒涼 + 山頂彩色公寓 = 巴倫支堡",
     "方正簡約建築 + 最大定居點 = 朗伊爾城",
-    "🔗 <a href=\"https://www.google.com/maps/@78.2232,15.6267,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Longyearbyen）</a>"
   ]
 },
 
@@ -2266,7 +2233,6 @@ const COUNTRIES = {
     "子音組合如 szcz、rz = Polish",
     "紅色帶 bollard（非德式矩形反光片）",
     "電桿上的鸛巢 = 非常可能是 Poland",
-    "🔗 <a href=\"https://www.google.com/maps/@52.2297,21.0122,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Warsaw）</a>"
   ]
 },
 
@@ -2343,7 +2309,6 @@ const COUNTRIES = {
     "Azulejo 磁磚立面 = 很可能是 Portugal",
     "鵝卵石人行道 + Portuguese = Portugal",
     "反光片上方空間很小的 bollard = Portugal",
-    "🔗 <a href=\"https://maps.app.goo.gl/ACLgYKyfTmdyHQoLA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lisbon）</a>"
   ]
 },
 
@@ -2423,7 +2388,6 @@ const COUNTRIES = {
     "羅曼語 + 東歐基礎設施 = Romania",
     "主要道路上有馬車 = 很可能是 Romania",
     "Dacia 汽車品牌 = Romanian",
-    "🔗 <a href=\"https://maps.app.goo.gl/izTrSuHQAwnLNuvYA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bucharest）</a>"
   ]
 },
 
@@ -2489,7 +2453,6 @@ const COUNTRIES = {
     "薄紙片 bollard = Russia",
     "大面積白樺林 + 蘇聯建築 + 西里爾文 = Russia",
     "電話國碼 +7（僅與 Kazakhstan 共用）",
-    "🔗 <a href=\"https://maps.app.goo.gl/7G3BB9PNcRf5tPKa8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Moscow）</a>"
   ]
 },
 
@@ -2521,7 +2484,6 @@ const COUNTRIES = {
   tips: [
     "Italian 文字 + 中世紀山頂堡壘 = 可能是 San Marino",
     "非常小的領土 — 如果能看到山上的三座塔",
-    "🔗 <a href=\"https://maps.app.goo.gl/RPtAJEuf9KY8Wien8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Marino）</a>"
   ]
 },
 
@@ -2578,7 +2540,6 @@ const COUNTRIES = {
     "西里爾文中的 Ђ 或 Ћ = Serbian（非 Russian、Bulgarian 或 Ukrainian）",
     "同一標誌上西里爾文和拉丁文混合 = 很可能是 Serbia",
     "薄 bollard 搭配偏心反光片 = Serbia",
-    "🔗 <a href=\"https://maps.app.goo.gl/9CaZ6xSWxmTprpQUA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Belgrade）</a>"
   ]
 },
 
@@ -2643,7 +2604,6 @@ const COUNTRIES = {
     "ô 或 ĺ 或 ŕ = Slovak（不是 Czech）",
     "弧形 bollard（非楔形）= Slovak（Czech 是楔形）",
     "可見 High Tatras = 很可能是 Slovakia 北部",
-    "🔗 <a href=\"https://maps.app.goo.gl/PiiBEf5s5LoHw8qWA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bratislava）</a>"
   ]
 },
 
@@ -2702,7 +2662,6 @@ const COUNTRIES = {
     "斯拉夫語 + 高山景觀 + 歐元 = 很可能是 Slovenia",
     "黑色頂蓋 bollard 搭配較淺反光片 = Slovenia（不是 Austria）",
     "Bled 湖（高山湖泊中的島上教堂）= Slovenia",
-    "🔗 <a href=\"https://maps.app.goo.gl/TxBbtMm7Lnmkm2R36\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ljubljana）</a>"
   ]
 },
 
@@ -2792,7 +2751,6 @@ const COUNTRIES = {
     "黃色凹面 bollard = Spain",
     "山頂上的 Osborne 公牛剪影 = Spain",
     "雙語標誌（Spanish/Catalan 或 Spanish/Basque）= Spain",
-    "🔗 <a href=\"https://maps.app.goo.gl/q8gr2TRh5tmR1agW7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Madrid）</a>"
   ]
 },
 
@@ -2887,7 +2845,6 @@ const COUNTRIES = {
     "紅色木造房屋（falun 紅）+ 森林 = Sweden",
     "城市路牌：Stockholm 分兩行中間黑線、Gothenburg 獨特藍色、Malmö 帶黑角白色",
     "北部有<strong>紅色叉子標誌</strong>（雪地車道）",
-    "🔗 <a href=\"https://maps.app.goo.gl/AkXSzzCjLJJSbLXK9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Stockholm）</a>"
   ]
 },
 
@@ -2959,7 +2916,6 @@ const COUNTRIES = {
     "瑞士德語文字 + 阿爾卑斯山 = Switzerland（不是 Austria）",
     "黑白圓頂 bollard = Switzerland",
     "棕色高速公路標誌可與鄰國區分",
-    "🔗 <a href=\"https://maps.app.goo.gl/ZNcvqorsmdssPKBG6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bern）</a>"
   ]
 },
 
@@ -3016,7 +2972,6 @@ const COUNTRIES = {
     "看到 FL 車牌或 .li 域名 = Liechtenstein",
     "比 Switzerland 更小、幾乎只有一條山谷",
     "與 Switzerland 極難區分 — 主要靠車牌和域名",
-    "🔗 <a href=\"https://www.google.com/maps/@47.141,9.5209,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vaduz）</a>"
   ]
 },
 
@@ -3089,7 +3044,6 @@ const COUNTRIES = {
     "帶洞的金屬電桿（非混凝土）= Turkey（非 Romania/Hungary）",
     "拉丁文字 + 清真寺 = Turkey（不是使用阿拉伯文字的阿拉伯國家）",
     "注意標誌上的 İstanbul、Türkiye、ğ",
-    "🔗 <a href=\"https://www.google.com/maps/@41.0082,28.9784,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Istanbul）</a>"
   ]
 },
 
@@ -3158,7 +3112,6 @@ const COUNTRIES = {
     "看到 Є？= Ukrainian（Russian 沒有此字母）",
     "西里爾文沒有 Ы 或 Ё = 很可能是 Ukrainian",
     "平坦草原 + 向日葵 + Ukrainian 西里爾文 = Ukraine",
-    "🔗 <a href=\"https://maps.app.goo.gl/4EtYvoaQGzwujwY46\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kyiv）</a>"
   ]
 },
 
@@ -3231,7 +3184,6 @@ const COUNTRIES = {
     "UK 使用 mph（Ireland 使用 km/h）",
     "UK 使用英鎊（Ireland 使用歐元）",
     "紅色郵筒 = UK（Ireland 的是綠色）",
-    "🔗 <a href=\"https://www.google.com/maps/@51.5074,-0.1278,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（London）</a>"
   ]
 },
 
@@ -3286,7 +3238,6 @@ const COUNTRIES = {
     "靠右行駛 + 英語 + 黃色後車牌 = Gibraltar（不是 UK 本土）",
     "聖誕裝飾 + 地中海 = 可能是 Gibraltar（12月拍攝）",
     "野生猴子 + 歐洲 = Gibraltar",
-    "🔗 <a href=\"https://maps.app.goo.gl/ASAqNXUHE1KjqzUc8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Gibraltar）</a>"
   ]
 },
 
@@ -3341,7 +3292,6 @@ const COUNTRIES = {
     "北部平坦 + 南部多山 = Isle of Man 方位參考",
     "南部街景有鏡頭左側「樹枝污漬」",
     "與 UK 非常相似但 Gen 2 畫質 + 紅色車牌條紋可區分",
-    "🔗 <a href=\"https://maps.app.goo.gl/ZbWErYqBDQ9XZexYA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Douglas）</a>"
   ]
 },
 
@@ -3404,7 +3354,6 @@ const COUNTRIES = {
     "紅色花崗岩建築 + 英式道路設施 = Jersey",
     "Gen 2 + 晴朗藍天 + 英式道路 = 可能是 Jersey",
     "車牌以 J 開頭 + 無 EU 條紋 = Jersey",
-    "🔗 <a href=\"https://maps.app.goo.gl/9Az6aGhviXy1Pw258\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（St Helier）</a>"
   ]
 },
 
@@ -3465,7 +3414,6 @@ const COUNTRIES = {
     "頂部有連接線 + 向左三角形 = 孟加拉文 = Bangladesh（不是 India）",
     "平坦 + 到處是水 + 極高人口密度 = Bangladesh",
     "色彩鮮豔的裝飾人力車 = Bangladesh",
-    "🔗 <a href=\"https://maps.app.goo.gl/n8uuenpz7MRT68Ys5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dhaka）</a>"
   ]
 },
 
@@ -3519,7 +3467,6 @@ const COUNTRIES = {
   tips: [
     "類藏文字體 + 喜馬拉雅山 + 經幡 = Bhutan",
     "比西藏本土森林覆蓋更多",
-    "🔗 <a href=\"https://www.google.com/maps/@27.4728,89.6393,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Thimphu）</a>"
   ]
 },
 
@@ -3587,7 +3534,6 @@ const COUNTRIES = {
     "紅色金字塔頂護柱 = Cambodia（不是 Thailand）",
     "糖棕 + 平坦地形 + 高棉文 = Cambodia",
     "泰文有小圓圈；高棉文有向右的鉤",
-    "🔗 <a href=\"https://www.google.com/maps/@11.5564,104.9282,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Phnom Penh）</a>"
   ]
 },
 
@@ -3632,7 +3578,6 @@ const COUNTRIES = {
     "中文 + 英文 + 左側通行 = Hong Kong",
     "密集摩天大樓 + 繁體中文 = Hong Kong",
     "Macau 也是左側通行，但用葡萄牙文而非英文",
-    "🔗 <a href=\"https://maps.app.goo.gl/tPD29nkEVZWtgFxi8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hong Kong）</a>"
   ]
 },
 
@@ -3697,7 +3642,6 @@ const COUNTRIES = {
     "但 Nepal 也使用天城文 — India 更平坦且交通更多",
     "同一標誌上有多種文字 = India（不同邦使用不同文字）",
     "三輪車 + 天城文 = India",
-    "🔗 <a href=\"https://maps.app.goo.gl/WkjzrHxf82TsxrsU6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Delhi）</a>"
   ]
 },
 
@@ -3762,7 +3706,6 @@ const COUNTRIES = {
     "黑色車牌 = Indonesia（Malaysia 格式不同）",
     "清真寺 + 拉丁字母 + 熱帶 = 很可能是 Indonesia",
     "紅白條紋電桿 = Indonesia（國旗配色）",
-    "🔗 <a href=\"https://maps.app.goo.gl/mpGxc6bgMqKetBca6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jakarta）</a>"
   ]
 },
 
@@ -3843,7 +3786,6 @@ const COUNTRIES = {
     "到處都是自動販賣機 = 很可能是 Japan",
     "相機位置低（大範圍模糊） = Japan 或 Switzerland",
     "左側通行 + 日文 = Japan",
-    "🔗 <a href=\"https://maps.app.goo.gl/GK26aAUos7TDgvMp8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tokyo）</a>"
   ]
 },
 
@@ -3915,7 +3857,6 @@ const COUNTRIES = {
     "Street View 介面與 Google 不同 = KakaoMap = South Korea",
     "韓文 + 現代化基礎設施 = South Korea",
     "韓文相比中文／日文更幾何化且有規律",
-    "🔗 <a href=\"https://www.google.com/maps/@37.5665,126.9780,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Seoul）</a>"
   ]
 },
 
@@ -3980,7 +3921,6 @@ const COUNTRIES = {
     "'Jalan' + 左側通行 = Malaysia（Indonesia 靠右行駛）",
     "標誌上有多種文字（拉丁 + 中文 + 淡米爾文） = Malaysia",
     "油棕種植園 + 熱帶 + 左側通行 = Malaysia",
-    "🔗 <a href=\"https://maps.app.goo.gl/VMBPLiJZSkFn1hSx9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（KL）</a>"
   ]
 },
 
@@ -4043,7 +3983,6 @@ const COUNTRIES = {
     "保齡球瓶護柱 = Mongolia",
     "遼闊空曠的草原 + 西里爾字母 = Mongolia",
     "橫桿有橡膠填充 = 西蒙古；無填充 = 東蒙古",
-    "🔗 <a href=\"https://maps.app.goo.gl/Q4zz7DfRxYzEbfsT8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（UB）</a>"
   ]
 },
 
@@ -4103,7 +4042,6 @@ const COUNTRIES = {
     "天城文 + 極端山地 = Nepal（India 更平坦）",
     "經幡 + 喜馬拉雅山景 = Nepal 或 Bhutan",
     "Nepal 是使用天城文的喜馬拉雅國家；Bhutan 使用藏文",
-    "🔗 <a href=\"https://www.google.com/maps/@27.7172,85.3240,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kathmandu）</a>"
   ]
 },
 
@@ -4165,7 +4103,6 @@ const COUNTRIES = {
     "吉普尼 = Philippines（100% 獨有）",
     "英文 + 西班牙地名 + 熱帶 = Philippines",
     "三輪車計程車 = 很可能是 Philippines",
-    "🔗 <a href=\"https://maps.app.goo.gl/LKU39kAjx5wRn4F46\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Manila）</a>"
   ]
 },
 
@@ -4209,7 +4146,6 @@ const COUNTRIES = {
     "小型、超現代、乾淨城市 + 左側通行 + 英文／中文／馬來文／淡米爾文 = Singapore",
     "HDB 組屋 = Singapore",
     "比 Malaysia 更小且更有序",
-    "🔗 <a href=\"https://www.google.com/maps/@1.3521,103.8198,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Singapore）</a>"
   ]
 },
 
@@ -4270,7 +4206,6 @@ const COUNTRIES = {
     "Google car 右側紅色模糊 = Sri Lanka",
     "C 形捲曲文字（僧伽羅文）= Sri Lanka",
     "一個標誌上三種文字（僧伽羅文 + 淡米爾文 + 英文）= Sri Lanka",
-    "🔗 <a href=\"https://www.google.com/maps/@6.9271,79.8612,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Colombo）</a>"
   ]
 },
 
@@ -4326,7 +4261,6 @@ const COUNTRIES = {
     "斜向黑黃條紋電桿延伸到地面 = Taiwan（South Korea 不到地面）",
     "機車密集 + 繁體中文 = Taiwan",
     "停車標誌寫「<strong>停</strong>」（中文字）",
-    "🔗 <a href=\"https://maps.app.goo.gl/7MVGVRCA5s7yNgyA7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Taipei）</a>"
   ]
 },
 
@@ -4402,7 +4336,6 @@ const COUNTRIES = {
     "泰文（圓圈 + 直線） vs 寮文（滑順曲線） vs 高棉文（向右的鉤）",
     "佛教寺廟 + 熱帶 + 左側通行 = Thailand",
     "黃色中線 + 泰文 = Thailand",
-    "🔗 <a href=\"https://maps.app.goo.gl/ULpNA5Q15AhCTk8A7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bangkok）</a>"
   ]
 },
 
@@ -4476,7 +4409,6 @@ const COUNTRIES = {
     "拉丁字母帶大量重音／變音符號 = 越南文",
     "đ + ơ + ư = 越南文",
     "機車海 + 大量符號的拉丁字母 = Vietnam",
-    "🔗 <a href=\"https://maps.app.goo.gl/JmQuucxkUSCLRMdu9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hanoi）</a>"
   ]
 },
 
@@ -4552,7 +4484,6 @@ const COUNTRIES = {
     "阿拉伯文是草寫／連接的；希伯來文是方塊／分離的",
     "黃色邊線 + 希伯來文 = Israel",
     "三語標誌 = Israel",
-    "🔗 <a href=\"https://maps.app.goo.gl/3ifysWtBgwFTs87CA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Jerusalem）</a>"
   ]
 },
 
@@ -4607,7 +4538,6 @@ const COUNTRIES = {
     "阿拉伯文 + 沙漠 + 黃色邊線 = Jordan 或海灣國家",
     "黑色 Google car 有助於縮小範圍",
     "看起來不如海灣國家富裕 = 很可能是 Jordan",
-    "🔗 <a href=\"https://maps.app.goo.gl/HykiPwPywgMknHLe7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Amman）</a>"
   ]
 },
 
@@ -4716,7 +4646,6 @@ const COUNTRIES = {
     "阿拉伯文 + 英文雙語標牌 + 沙漠 = UAE（Jordan 英文少得多）",
     "Pickup truck 天線在中央 = UAE（Qatar 在左側）",
     "車牌上的酋長國名稱可精確定位",
-    "🔗 <a href=\"https://maps.app.goo.gl/RxRAa8mVVRLB1evZA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dubai）</a>"
   ]
 },
 
@@ -4762,7 +4691,6 @@ const COUNTRIES = {
   tips: [
     "小型、平坦、富裕的海灣城市 + 阿拉伯文 = 可能是 Qatar",
     "比 UAE 小，比 Oman 平坦",
-    "🔗 <a href=\"https://maps.app.goo.gl/tw1D7sTF6n4cpXrr6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Doha）</a>"
   ]
 },
 
@@ -4841,7 +4769,6 @@ const COUNTRIES = {
     "藍色郵筒 = USA；紅色郵筒 = Canada",
     "'YIELD'（USA）vs 空白三角形（Canada）",
     "許多州無前車牌 — 注意各州特定線索",
-    "🔗 <a href=\"https://maps.app.goo.gl/SLPAA3ZyZrZMYqwp8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（NYC）</a>"
   ]
 },
 
@@ -4905,7 +4832,6 @@ const COUNTRIES = {
     "ARRÊT 停車標誌 = Quebec, Canada",
     "紅色郵筒 = Canada；藍色 = USA",
     "空白讓行三角形 + km/h = Canada",
-    "🔗 <a href=\"https://maps.app.goo.gl/Qovzmq9ZN5iNEWz49\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ottawa）</a>"
   ]
 },
 
@@ -4979,7 +4905,6 @@ const COUNTRIES = {
     "納瓦特語地名（-tl, -ec, -tlan）= Mexico",
     "屋頂圓柱水箱 = Mexico",
     "圓形電錶 = Mexico（vs Peru 長方形電錶）",
-    "🔗 <a href=\"https://www.google.com/maps/@19.4326,-99.1332,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（CDMX）</a>"
   ]
 },
 
@@ -5025,7 +4950,6 @@ const COUNTRIES = {
     "Google 街景車上可見黑色後視鏡 = Guatemala",
     "紅色底部電線桿 + ALTO = Guatemala",
     "編號式棋盤命名系統（Calles/Avenidas）= Guatemala",
-    "🔗 <a href=\"https://maps.app.goo.gl/iqAUYLRyYW7Q1MBUA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Guatemala City）</a>"
   ]
 },
 
@@ -5056,7 +4980,6 @@ const COUNTRIES = {
   tips: [
     "卡在人行道上無法移動到馬路？= Costa Rica（2025 年前）",
     "ALTO + 熱帶 + Kölbi 招牌 = Costa Rica",
-    "🔗 <a href=\"https://maps.app.goo.gl/e14zRCAnhTJTxTiE6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Liberia, 2025 新覆蓋）</a>"
   ]
 },
 
@@ -5091,7 +5014,6 @@ const COUNTRIES = {
   tips: [
     "看到車上有獨特粗天線？= Panama（100%）",
     "這種天線在全世界其他地方都找不到",
-    "🔗 <a href=\"https://www.google.com/maps/@8.9824,-79.5199,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Panama City）</a>"
   ]
 },
 
@@ -5133,7 +5055,6 @@ const COUNTRIES = {
   tips: [
     "黑色條紋 roof bars + 加勒比海 + 西班牙語 = Dominican Republic",
     "PARE（非 ALTO）= 南美洲/加勒比海慣例",
-    "🔗 <a href=\"https://maps.app.goo.gl/Jv6Pf4QFfoaAwv2K8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Santo Domingo）</a>"
   ]
 },
 
@@ -5171,7 +5092,6 @@ const COUNTRIES = {
   tips: [
     "PARE 停車標誌 + MPH 速限 = Puerto Rico（其他地方沒有此組合）",
     "粗壯方形電線桿 + 西班牙語 + 熱帶 = Puerto Rico",
-    "🔗 <a href=\"https://www.google.com/maps/@18.4655,-66.1057,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Juan）</a>"
   ]
 },
 
@@ -5208,7 +5128,6 @@ const COUNTRIES = {
   tips: [
     "黑色引擎蓋 + roof bars = Curaçao",
     "荷蘭語文字 + 加勒比海 = Curaçao",
-    "🔗 <a href=\"https://maps.app.goo.gl/nYiivexiBGuv4djJA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Willemstad）</a>"
   ]
 },
 
@@ -5249,7 +5168,6 @@ const COUNTRIES = {
   tips: [
     "黑色 pickup truck + 左駕 + 英文 + 亞熱帶島嶼 = Bermuda",
     "非常罕見的出生點 — small territory",
-    "🔗 <a href=\"https://www.google.com/maps/@32.2949,-64.782,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hamilton）</a>"
   ]
 },
 
@@ -5330,7 +5248,6 @@ const COUNTRIES = {
     "<strong>vs British Virgin Islands</strong>：BVI 無 Google 官方覆蓋",
     "St. Croix 辨識：較平坦、東部乾旱仙人掌、紅色 truck",
     "St. Thomas/St. John 辨識：多山蜿蜒道路、白色 truck、車頂較短",
-    "🔗 <a href=\"https://www.google.com/maps/@18.3358,-64.9307,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Charlotte Amalie）</a>"
   ]
 },
 
@@ -5371,7 +5288,6 @@ const COUNTRIES = {
     "銀色 pickup truck + 左駕 + 英文 + 熱帶島嶼 = Christmas Island",
     "與 Bermuda 區分：Bermuda = 黑色 pickup，Christmas Island = 銀色 pickup",
     "Australian phone code (+61) 和 .cx domain",
-    "🔗 <a href=\"https://maps.app.goo.gl/KqPqCihYXBzWAxgu5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Christmas Island）</a>"
   ]
 },
 
@@ -5423,7 +5339,6 @@ const COUNTRIES = {
     "右前方通氣管的街景車 = 西島",
     "交錯鋪磚路面 = Bantam",
     "澳洲領土 — phone code +61，.cc domain",
-    "🔗 <a href=\"https://www.google.com/maps/@-12.1642,96.871,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cocos Islands）</a>"
   ]
 },
 
@@ -5507,7 +5422,6 @@ const COUNTRIES = {
     "Caatinga（乾燥灌叢）= 東北部",
     "Paraná 松 = 南部三州（PR/SC/RS）",
     "Amapá Gen 4：右前方有<strong>相機汙漬</strong>",
-    "🔗 <a href=\"https://maps.app.goo.gl/SaUPDcsE6ErBNQMo7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sao Paulo）</a>"
   ]
 },
 
@@ -5579,7 +5493,6 @@ const COUNTRIES = {
     "完全平坦 + 無樹 + 荒涼 = 很可能 Argentina（Uruguay 至少有緩坡）",
     "紅壤 + Paraná 松 = Misiones 省",
     "「拉脫維亞式」木桿 = La Rioja 或 Mendoza",
-    "🔗 <a href=\"https://maps.app.goo.gl/ageC5HAeakPWj3ZAA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Buenos Aires）</a>"
   ]
 },
 
@@ -5630,7 +5543,6 @@ const COUNTRIES = {
     "與 Faroe Islands 區分：Falklands 更荒涼、草更黃、有海獅/企鵝",
     "記住三個島的特徵：Carcass（石頭平原）、West Point（黃草）、New Island（懸崖+棕土）",
     "National Geographic Explorer 大船 = West Point Bay",
-    "🔗 <a href=\"https://www.google.com/maps/@-51.7963,-59.5236,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Stanley）</a>"
   ]
 },
 
@@ -5695,7 +5607,6 @@ const COUNTRIES = {
     "Atacama = 幾乎零植被的極端沙漠",
     "智利南洋杉 = Araucanía 東部",
     "橘色車牌 = Chile 商用車",
-    "🔗 <a href=\"https://maps.app.goo.gl/mD4Y3QbqNz7oyKsg8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Santiago）</a>"
   ]
 },
 
@@ -5761,7 +5672,6 @@ const COUNTRIES = {
     "黑色車 + 短粗天線 = Colombia（其他國家短粗天線只在白車上）",
     "La Guajira 省：極度乾燥 + 低矮植被 + 仙人掌",
     "Antioquia 桿：2 黑帶 + 1 黃帶",
-    "🔗 <a href=\"https://www.google.com/maps/@4.711,-74.0721,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bogota）</a>"
   ]
 },
 
@@ -5834,7 +5744,6 @@ const COUNTRIES = {
     "南美洲看到 USD 價格 = Ecuador",
     "高天線（螺紋在中線以上）= Ecuador 北部",
     "Guayas 省護欄黑黃色",
-    "🔗 <a href=\"https://maps.app.goo.gl/NNeU7iDusYDW5rbS9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Quito）</a>"
   ]
 },
 
@@ -5904,7 +5813,6 @@ const COUNTRIES = {
     "橙色橋梁 = Peru",
     "拉丁美洲的嘟嘟車（mototaxis）= Peru",
     "有 Gen 4 覆蓋 = 排除 Bolivia（Bolivia 100% Gen 3）",
-    "🔗 <a href=\"https://maps.app.goo.gl/cLsjuKVP3LgXRPxp9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lima）</a>"
   ]
 },
 
@@ -5974,7 +5882,6 @@ const COUNTRIES = {
     "白色方形路標桿 = Bolivia；黑白斑馬路標桿 = Peru",
     "La Paz：山谷城市 + 高樓 + 米黃色砂岩柱；El Alto：平坦高原 + 紅磚混亂",
     "Cochabamba：平坦大山谷，北面有雄偉山壁",
-    "🔗 <a href=\"https://maps.app.goo.gl/NmPUReb9CJ2SFa5Q6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（La Paz）</a>"
   ]
 },
 
@@ -6041,7 +5948,6 @@ const COUNTRIES = {
     "黑色車 + ANCAP 加油站 = Uruguay（Argentina 是 YPF）",
     "三叉杆（杆頂 3 個向上絕緣器）= Uruguay",
     "道路旁的綠色里程碑 = Uruguay",
-    "🔗 <a href=\"https://maps.app.goo.gl/1qvRyJQKY8WJx1V48\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Montevideo）</a>"
   ]
 },
 
@@ -6105,7 +6011,6 @@ const COUNTRIES = {
     "黃色邊線 + 非洲英語 = South Africa（或鄰國）",
     "三條中線 + 靠左行駛 + 英語 = South Africa",
     "基礎設施比鄰國更發達",
-    "🔗 <a href=\"https://maps.app.goo.gl/zwBtFbJdWSqABfWB8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cape Town）</a>"
   ]
 },
 
@@ -6162,7 +6067,6 @@ const COUNTRIES = {
     "車輛右側有 snorkel = Kenya（或 Mongolia — 但地貌完全不同）",
     "大草原 + 英語/Swahili + snorkel = Kenya",
     "M-Pesa 標誌 = Kenya",
-    "🔗 <a href=\"https://maps.app.goo.gl/pKToBwfzcXtHHVJz6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nairobi）</a>"
   ]
 },
 
@@ -6217,7 +6121,6 @@ const COUNTRIES = {
     "警車跟隨 Google car = Nigeria",
     "熱帶非洲英語 + 靠右行駛 = Nigeria",
     "Lagos 交通混亂 = 很可能是 Nigeria",
-    "🔗 <a href=\"https://maps.app.goo.gl/ZMRjBtuescovkt6A9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lagos）</a>"
   ]
 },
 
@@ -6264,7 +6167,6 @@ const COUNTRIES = {
     "前橫桿黑色膠帶 = Ghana（Réunion = 後橫桿膠帶）",
     "英語 + 西非熱帶 = Ghana 或 Nigeria",
     "沒有警車護送 = Ghana（Nigeria 有護送）",
-    "🔗 <a href=\"https://maps.app.goo.gl/mtKsD6PUB5Gkse267\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Accra）</a>"
   ]
 },
 
@@ -6310,7 +6212,6 @@ const COUNTRIES = {
   tips: [
     "黃色邊線 + 沙漠 + 靠左行駛 + 英語 = Botswana",
     "比 South Africa 較不發達，更多沙漠",
-    "🔗 <a href=\"https://maps.app.goo.gl/WUU4QBEiWizaVBTY8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Gaborone）</a>"
   ]
 },
 
@@ -6361,7 +6262,6 @@ const COUNTRIES = {
     "沙漠 + 英語 + 部分德語文字 = Namibia",
     "比 Botswana 更多沙漠",
     "德語烘焙坊/商店名稱 = 很可能是 Namibia",
-    "🔗 <a href=\"https://maps.app.goo.gl/nvo1jGVBiTj2rn1q7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Windhoek）</a>"
   ]
 },
 
@@ -6414,7 +6314,6 @@ const COUNTRIES = {
   tips: [
     "法語 + 非洲 + 法式 bollard = Senegal",
     "平坦地形的西非法語區",
-    "🔗 <a href=\"https://maps.app.goo.gl/5XqYDc5Q3R8Gyhab7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dakar）</a>"
   ]
 },
 
@@ -6461,7 +6360,6 @@ const COUNTRIES = {
     "阿拉伯語 + 法語 + 山脈/沙漠 = Morocco",
     "Tifinagh 字母（幾何形狀）= Morocco 或 Algeria",
     "紅色/赤陶色建築 = Marrakech, Morocco",
-    "🔗 <a href=\"https://www.google.com/maps/@33.9716,-6.8498,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Rabat）</a>"
   ]
 },
 
@@ -6510,7 +6408,6 @@ const COUNTRIES = {
   tips: [
     "金屬線電線桿 + 阿拉伯語/法語 = Tunisia",
     "比 Morocco 更小、更地中海風格",
-    "🔗 <a href=\"https://maps.app.goo.gl/QMcgU8ZXabyTLHHb8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tunis）</a>"
   ]
 },
 
@@ -6557,7 +6454,6 @@ const COUNTRIES = {
   tips: [
     "阿拉伯語 + 沙漠 + 尼羅河 + 金字塔 = Egypt",
     "尼羅河狹窄綠色帶狀地帶沿線有非常密集的都市區",
-    "🔗 <a href=\"https://www.google.com/maps/@30.0444,31.2357,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Cairo）</a>"
   ]
 },
 
@@ -6599,7 +6495,6 @@ const COUNTRIES = {
   tips: [
     "Ge'ez 字母（獨特幾何字符）= Ethiopia 或 Eritrea",
     "高原地形 + Ge'ez 字母 = Ethiopia",
-    "🔗 <a href=\"https://www.google.com/maps/@9.032,38.7469,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Addis Ababa）</a>"
   ]
 },
 
@@ -6644,7 +6539,6 @@ const COUNTRIES = {
   tips: [
     "法語 + 南島語系外觀的語言 + 紅土 = Madagascar",
     "馬達加斯加語詞彙看起來更像亞洲語言而非非洲語言",
-    "🔗 <a href=\"https://www.google.com/maps/@-18.8792,47.5079,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Antananarivo）</a>"
   ]
 },
 
@@ -6678,7 +6572,6 @@ const COUNTRIES = {
   tips: [
     "後橫桿有黑色膠帶 = Réunion（Ghana = 前橫桿）",
     "法語 + 熱帶火山島 = Réunion",
-    "🔗 <a href=\"https://maps.app.goo.gl/5ajZaaMQmsne6zrg7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saint-Denis）</a>"
   ]
 },
 
@@ -6721,7 +6614,6 @@ const COUNTRIES = {
     "Green lush landscape + English + 靠左行駛 = Uganda or Kenya",
     "More green/lush than Kenya's 大草原 (savanna)",
     "官方覆蓋畫質正常，白色 SUV + bull bar = Uganda 官方",
-    "🔗 <a href=\"https://maps.app.goo.gl/PhxtAMgpA7FMyw2C7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kampala）</a>"
   ]
 },
 
@@ -6765,7 +6657,6 @@ const COUNTRIES = {
   tips: [
     "斯瓦希里語為主的標誌 + 大草原 (savanna) + 靠左行駛 = Tanzania",
     "Kenya 有更多英語；Tanzania 有更多斯瓦希里語",
-    "🔗 <a href=\"https://www.google.com/maps/@-6.7924,39.2083,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dar es Salaam）</a>"
   ]
 },
 
@@ -6805,7 +6696,6 @@ const COUNTRIES = {
   tips: [
     "非常綠、多丘陵、乾淨 + 黃色道路標線 + 三語 = Rwanda",
     "對非洲國家而言維護良好得出乎意料",
-    "🔗 <a href=\"https://maps.app.goo.gl/Uy1so8wUkW2DsJCm8\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kigali）</a>"
   ]
 },
 
@@ -6888,7 +6778,6 @@ const COUNTRIES = {
     "速限有白色矩形背景 = AU；沒有 = NZ",
     "Per-state 線索：WA 黃桿 / QLD 螢光邊 / SA 25km學校 / NT 130km / NSW 紅禁停",
     "Per-state 桿頂：SA 三叉戟 / VIC 三線圈 / QLD 向上 / TAS L形 / NT 鏽桿",
-    "🔗 <a href=\"https://www.google.com/maps/@-33.8688,151.2093,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Sydney）</a>"
   ]
 },
 
@@ -6951,7 +6840,6 @@ const COUNTRIES = {
     "英語 + 毛利語雙語標誌 = New Zealand",
     "綠色山脈 + 靠左行駛 + 英語 = New Zealand（不是 Australia）",
     "Australia 乾燥/平坦，New Zealand 綠色/多山",
-    "🔗 <a href=\"https://maps.app.goo.gl/JYZb1ia17QbCZXdB7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Auckland）</a>"
   ]
 },
 
@@ -7023,7 +6911,6 @@ const COUNTRIES = {
       "不要與 Russia 混淆：Belarus 覆蓋少得多且車牌風格不同",
       "平坦地形 + 森林 + 蘇聯建築 + trekker 覆蓋 = Belarus",
       "因覆蓋有限在競技遊戲中非常罕見",
-      "🔗 <a href=\"https://www.google.com/maps/@53.9045,27.5615,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Minsk）</a>"
     ]
   },
 
@@ -7104,7 +6991,6 @@ const COUNTRIES = {
       'Pakistan vs India：烏爾都語（從右到左）vs 印地語（從左到右天城體）',
       '如果看到莫臥兒建築 + trekker 覆蓋 = 可能是 Pakistan',
       '不要與 India 混淆 — Pakistan 覆蓋非常有限，India 有廣泛測繪',
-      "🔗 <a href=\"https://www.google.com/maps/@31.5204,74.3587,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lahore）</a>"
     ]
   },
 
@@ -7182,7 +7068,6 @@ const COUNTRIES = {
       '黃色車牌區別於 Malaysia 的黑色車牌',
       '如果看起來像富裕、乾淨版本的 Malaysia 且有顯眼伊斯蘭建築 = Brunei',
       '因覆蓋有限，在隨機 GeoGuessr 中非常罕見',
-      "🔗 <a href=\"https://www.google.com/maps/@4.9031,114.9398,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（BSB）</a>"
     ]
   },
 
@@ -7274,7 +7159,6 @@ const COUNTRIES = {
       '黑白 bollard（Laos）vs 紅白 bollard（Cambodia）',
       'Laos 感覺比 Thailand 更不發達、更鄉村',
       'Google 車上的 roof rack（Vientiane 以外）是快速 meta 辨識線索',
-      "🔗 <a href=\"https://www.google.com/maps/@17.9757,102.6331,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Vientiane）</a>"
     ]
   },
 
@@ -7361,7 +7245,6 @@ const COUNTRIES = {
       'Myanmar vs Thailand：緬文更圓；泰文有更多彎曲和迴圈',
       '覆蓋非常有限意味著如果不確定，大概不是 Myanmar',
       '右駕車行駛在靠右的道路上是 Myanmar 的獨特怪癖',
-      "🔗 <a href=\"https://www.google.com/maps/@16.8661,96.1951,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Yangon）</a>"
     ]
   },
 
@@ -7439,7 +7322,6 @@ const COUNTRIES = {
       '看起來比 Indonesia 乾燥且不發達',
       '使用美元 — 店面價格上可見',
       '如果看到葡萄牙文搭配熱帶山地（不像 Macau 那樣都市化）= Timor-Leste',
-      "🔗 <a href=\"https://www.google.com/maps/@-8.5569,125.5603,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Dili）</a>"
     ]
   },
 
@@ -7525,7 +7407,6 @@ const COUNTRIES = {
       '注意中文字下方的拼音（羅馬字母）— 中國大陸獨有',
       '綠色車牌（電動車）越來越常見且有辨識度',
       '相機畫質通常低於 Google — 次要線索',
-      "🔗 <a href=\"https://www.google.com/maps/@39.9042,116.4074,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beijing）</a>"
     ]
   },
 
@@ -7604,7 +7485,6 @@ const COUNTRIES = {
       'Macau 比 Hong Kong 小很多 — 密集的賭場區很有辨識度',
       '靠左行駛（與 HK 相同），無法從行駛方向區分',
       '看到賭場 + 葡文 + 中文字 = Macau',
-      "🔗 <a href=\"https://maps.app.goo.gl/6cPhcCVEkhoouyoV9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Macau）</a>"
     ]
   },
 
@@ -7688,7 +7568,6 @@ const COUNTRIES = {
       'Astana = 現代/未來主義；Almaty = 以山為背景的林蔭城市',
       '主要道路有黃色路肩線，較小道路僅有白線',
       '與 Russia 共用電話區碼 +7 — 需看車牌差異來區分',
-      "🔗 <a href=\"https://maps.app.goo.gl/XMgatmcSYW9EtjfG6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Astana）</a>"
     ]
   },
 
@@ -7771,7 +7650,6 @@ const COUNTRIES = {
       '車上鏡子狀態可指示 Kyrgyzstan 境內哪個地區',
       '山脈 + 西里爾字母 + 車牌紅色條紋 = 確定是 Kyrgyzstan',
       '與蒙古語共用 Ң 和 Ө 字符 — 查看車牌來區分',
-      "🔗 <a href=\"https://maps.app.goo.gl/VZgZ1HAeh75qqsWw7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bishkek）</a>"
     ]
   },
 
@@ -7850,7 +7728,6 @@ const COUNTRIES = {
       'trekker 覆蓋中的綠松石瓷磚伊斯蘭建築 = Uzbekistan 的絲路城市',
       '棉花田 + 乾旱地形 + 拉丁/西里爾字母混合 = Uzbekistan',
       '在 GeoGuessr 中相對罕見 — 主要是著名歷史景點的 trekker 覆蓋',
-      "🔗 <a href=\"https://www.google.com/maps/@41.2995,69.2401,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tashkent）</a>"
     ]
   },
 
@@ -7942,7 +7819,6 @@ const COUNTRIES = {
       '清真寺和教堂混合 = 宗教多元 = 可能是 Lebanon',
       '山區的雪松是 Lebanon 的標誌',
       '如果看到阿拉伯文 + 法文 + 地中海海岸線 + 山脈 = Lebanon',
-      "🔗 <a href=\"https://maps.app.goo.gl/R81K71apCtRJ8zdd9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Beirut）</a>"
     ]
   },
 
@@ -8027,7 +7903,6 @@ const COUNTRIES = {
       '白色 pickup truck：天線中間 = Oman、天線左前 = Qatar',
       '比 UAE 更傳統/鄉村感 — 更少玻璃摩天大樓',
       '山脈 + 沙漠 + 海岸近距離相鄰 = Oman',
-      "🔗 <a href=\"https://maps.app.goo.gl/u8Xfm268FYjdoimV9\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Muscat）</a>"
     ]
   },
 
@@ -8108,7 +7983,6 @@ const COUNTRIES = {
       '巴勒斯坦地區看起來類似 Israel 但基礎設施維護較少',
       '政治壁畫和塗鴉是巴勒斯坦地區的強力指標',
       '如果以阿拉伯語為主 + 白色車牌 + 丘陵地形 + 橄欖樹 = Palestine',
-      "🔗 <a href=\"https://maps.app.goo.gl/aFQS4HMjkXpmm4Bz7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ramallah）</a>"
     ]
   },
 
@@ -8184,7 +8058,6 @@ const COUNTRIES = {
       '尋找 CA 公路標記來確認中美洲位置',
       'ALTO 停車標誌 + 西班牙語 + 火山地形 + 人口稠密 = 可能是 El Salvador',
       '與 Guatemala 區別：Guatemala 有獨特的相機車配 bars 和側鏡',
-      "🔗 <a href=\"https://www.google.com/maps/@13.6929,-89.2182,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（San Salvador）</a>"
     ]
   },
 
@@ -8259,7 +8132,6 @@ const COUNTRIES = {
       '松林有助於與 Costa Rica 和 Panama 更熱帶的雨林區分',
       '加勒比海岸覆蓋可能看起來類似 Belize — 檢查是否有西班牙語標誌',
       '易混淆國家：Guatemala（檢查相機 bars/側鏡）、El Salvador（更小、更擁擠）、Nicaragua（類似覆蓋問題）',
-      "🔗 <a href=\"https://www.google.com/maps/@14.0723,-87.1921,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tegucigalpa）</a>"
     ]
   },
 
@@ -8333,7 +8205,6 @@ const COUNTRIES = {
       '火山地形 + 西班牙語 + ALTO 標誌 + 有限覆蓋 = 考慮 Nicaragua',
       '與其他中美洲國家的區別很大程度依靠排除法',
       '無特殊車輛辨識特徵 — 靠景觀和標誌線索',
-      "🔗 <a href=\"https://www.google.com/maps/@12.1150,-86.2362,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Managua）</a>"
     ]
   },
 
@@ -8409,7 +8280,6 @@ const COUNTRIES = {
       '無商業廣告（無 Coca-Cola、無 McDonalds）= 強烈社會主義經濟指標',
       '蘇聯 Lada 車與老爺美國車並存是 Cuba 獨有的',
       '第三方覆蓋品質和不尋常的拍攝角度本身就是線索',
-      "🔗 <a href=\"https://www.google.com/maps/@23.1136,-82.3666,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Havana）</a>"
     ]
   },
 
@@ -8483,7 +8353,6 @@ const COUNTRIES = {
       '如果看到拉斯塔法里色彩（綠/金/紅）或雷鬼元素，想到 Jamaica',
       '東部 Jamaica 可見藍山 — 咖啡種植園標誌',
       '標誌上的英語（非西班牙語）排除 Dominican Republic、Cuba、Puerto Rico',
-      "🔗 <a href=\"https://www.google.com/maps/@18.0179,-76.8099,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kingston）</a>"
     ]
   },
 
@@ -8559,7 +8428,6 @@ const COUNTRIES = {
       '平坦地形和工業區 vs Jamaica 的山脈 = Trinidad',
       '更靠近南美大陸（靠近 Venezuela）= Trinidad & Tobago',
       '如果在加勒比海看到印度教和伊斯蘭宗教場所與英語標誌並存，就是 T&T',
-      "🔗 <a href=\"https://www.google.com/maps/@10.6596,-61.5086,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port of Spain）</a>"
     ]
   },
 
@@ -8631,7 +8499,6 @@ const COUNTRIES = {
       "紅土 + 平坦 + 瓜拉尼語 = 東部 Paraguay",
       "平坦乾燥灌木地 = 西部查科",
       "門諾派殖民地德文 = Paraguay 獨有",
-      "🔗 <a href=\"https://maps.app.goo.gl/ZAs1swdLKGNdEN5m6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Asunción）</a>"
     ]
   },
 
@@ -8711,7 +8578,6 @@ const COUNTRIES = {
       '南美洲覆蓋非常有限：考慮 Venezuela 或 Guyana（英語系）',
       '與 Colombia 區別：Colombia 有黃色車牌和更好的覆蓋；Venezuela 有帶國旗的白色車牌和革命壁畫',
       '與 Ecuador 區別：Ecuador 有雙護欄；Venezuela 有有限覆蓋和政治壁畫',
-      "🔗 <a href=\"https://www.google.com/maps/@10.4806,-66.9036,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Caracas）</a>"
     ]
   },
 
@@ -8794,7 +8660,6 @@ const COUNTRIES = {
       'Maseru 是首都和覆蓋最密集的地區 — 唯一重要城市',
       '像 Sani Pass 這樣的山口是標誌性的 trekker 覆蓋地點',
       'Lesotho 全境海拔 1,400 米以上 — 如果地形看起來高且光禿，很可能是 Lesotho',
-      "🔗 <a href=\"https://maps.app.goo.gl/vbjJuuuwjLZZoXkh6\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Maseru）</a>"
     ],
   },
 
@@ -8869,7 +8734,6 @@ const COUNTRIES = {
       '甘蔗田 + 低地 = 東部 Eswatini',
       '淺綠色車牌顏色可與 South Africa 和 Lesotho 區分',
       'Mbabane 和 Ezulwini Valley 是覆蓋最多的地區',
-      "🔗 <a href=\"https://maps.app.goo.gl/NtfJ9t8cDAcCgKa67\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Mbabane）</a>"
     ],
   },
 
@@ -8943,7 +8807,6 @@ const COUNTRIES = {
       '甘蔗田到處都是 — 留意道路旁高大的綠色莖稈',
       '小島：覆蓋很快繞一圈，通常可從某處看到海',
       'Port Louis 是首都和覆蓋最密集的城市地區',
-      "🔗 <a href=\"https://www.google.com/maps/@-20.1609,57.5012,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port Louis）</a>"
     ],
   },
 
@@ -9019,7 +8882,6 @@ const COUNTRIES = {
       '沿海位置有棕櫚樹 + 葡語 = Mozambique，不是 Angola',
       'Maputo 和 Beira 是最可能的城市出生點',
       '不要與 Brazil 混淆（葡語但景觀非常不同且靠右行駛）',
-      "🔗 <a href=\"https://www.google.com/maps/@-25.9692,32.5732,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Maputo）</a>"
     ],
   },
 
@@ -9094,7 +8956,6 @@ const COUNTRIES = {
       'M/S 道路編號有助與其他東非國家區分',
       'Mulanje 山周圍南部高地的茶園',
       '比 Kenya 或 South Africa 更小且覆蓋更少 — 出生點有限',
-      "🔗 <a href=\"https://www.google.com/maps/@-13.9626,33.7741,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lilongwe）</a>"
     ],
   },
 
@@ -9172,7 +9033,6 @@ const COUNTRIES = {
       'miombo 林地是特徵：相對平坦地形上散佈的樹木',
       '基礎設施上的中文字可能表示 Zambia 的中國建造公路',
       'Lusaka 是覆蓋最密集的城市',
-      "🔗 <a href=\"https://www.google.com/maps/@-15.3875,28.3228,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lusaka）</a>"
     ],
   },
 
@@ -9249,7 +9109,6 @@ const COUNTRIES = {
       'Harare 是最可能的城市出生點',
       '東部高地（Chimanimani、Nyanga）有綠色山地地形',
       '平衡石和岩丘是獨特的景觀特徵',
-      "🔗 <a href=\"https://www.google.com/maps/@-17.8252,31.0335,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Harare）</a>"
     ],
   },
 
@@ -9325,7 +9184,6 @@ const COUNTRIES = {
       'Kinshasa 是最可能的城市出生點',
       '不要與 Republic of Congo（Brazzaville）混淆 — 它們是不同國家',
       '社群貢獻/非官方覆蓋使 meta 線索在這裡不可靠',
-      "🔗 <a href=\"https://www.google.com/maps/@-4.4419,15.2663,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Kinshasa）</a>"
     ],
   },
 
@@ -9395,7 +9253,6 @@ const COUNTRIES = {
       '海岸附近的石油基礎設施 = Pointe-Noire',
       '標誌上可見 .cg 網域 vs .cd（DR Congo）',
       '除非沒有其他選項適合，否則不要猜 Republic of Congo',
-      "🔗 <a href=\"https://www.google.com/maps/@-4.2634,15.2429,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Brazzaville）</a>"
     ],
   },
 
@@ -9471,7 +9328,6 @@ const COUNTRIES = {
       '海岸附近的 Cameroon 山是西非最高點',
       'Yaounde 和 Douala 是最可能的城市出生點',
       '罕見出生點 — 只在雙語線索支持時才猜',
-      "🔗 <a href=\"https://www.google.com/maps/@3.848,11.5021,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Yaounde）</a>"
     ],
   },
 
@@ -9546,7 +9402,6 @@ const COUNTRIES = {
       'Abidjan 是最可能的出生點 — 現代天際線在西非很有辨識度',
       '無藍色車牌（那是 Senegal）、無膠帶（那是 Ghana）',
       '整體罕見出生點 — Senegal 和 Ghana 更常見得多',
-      "🔗 <a href=\"https://www.google.com/maps/@5.36,-4.0083,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Abidjan）</a>"
     ],
   },
 
@@ -9620,7 +9475,6 @@ const COUNTRIES = {
       '大部分地區機車交通多於汽車交通',
       '通過更內陸/更乾燥與 Senegal 區分',
       'CFA 法郎國家看起來都有些相似 — 尋找特定文字/品牌線索',
-      "🔗 <a href=\"https://www.google.com/maps/@12.3714,-1.5197,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ouagadougou）</a>"
     ],
   },
 
@@ -9693,7 +9547,6 @@ const COUNTRIES = {
       '泥磚蘇丹-薩赫勒建築有助與鄰國區分',
       'Bamako 是唯一可能的城市出生點',
       '非常罕見 — 只在有強力證據時才猜',
-      "🔗 <a href=\"https://www.google.com/maps/@12.6392,-8.0029,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Bamako）</a>"
     ],
   },
 
@@ -9767,7 +9620,6 @@ const COUNTRIES = {
       '整體非常罕見的出生點',
       '比 Senegal 更多山，比 Mali/Burkina 更熱帶',
       '紅色紅土 + 法語 + 西非靠右行駛',
-      "🔗 <a href=\"https://www.google.com/maps/@9.6412,-13.5784,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Conakry）</a>"
     ],
   },
 
@@ -9839,7 +9691,6 @@ const COUNTRIES = {
       '非常罕見 — 只在有強力證據時才猜',
       '通過行駛方向與 Ghana 區分（Ghana 也靠右但有膠帶 meta）',
       '覆蓋比 Ghana 或 Nigeria 少',
-      "🔗 <a href=\"https://www.google.com/maps/@8.4657,-13.2317,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Freetown）</a>"
     ],
   },
 
@@ -9910,7 +9761,6 @@ const COUNTRIES = {
       '與 Ghana 相鄰但講法語，不是英語',
       '穿綠色背心的機車計程車有助辨識 Lome',
       '狹窄的國家地理 — 從海岸到北部只有約 150 公里',
-      "🔗 <a href=\"https://www.google.com/maps/@6.1725,1.2314,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lomé）</a>"
     ],
   },
 
@@ -9984,7 +9834,6 @@ const COUNTRIES = {
       '比鄰國 Ethiopia 更荒涼/更多火山',
       'Djibouti 市是唯一可能的出生點',
       '鹽灘和火山地形很有辨識度',
-      "🔗 <a href=\"https://www.google.com/maps/@11.5721,43.1456,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Djibouti）</a>"
     ],
   },
 
@@ -10055,7 +9904,6 @@ const COUNTRIES = {
       'Juba 是唯一可能的出生點',
       '不要與 Sudan（阿拉伯語）或 Uganda（更多覆蓋）混淆',
       '只在看到非常強力的證據時才猜',
-      "🔗 <a href=\"https://www.google.com/maps/@4.8594,31.5713,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Juba）</a>"
     ],
   },
 
@@ -10126,7 +9974,6 @@ const COUNTRIES = {
       '阿拉伯語（非英語）與 South Sudan 區分',
       '非常罕見的出生點 -- only guess with strong evidence',
       '覆蓋比 Egypt 少但比 South Sudan 多',
-      "🔗 <a href=\"https://www.google.com/maps/@15.5007,32.5599,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Khartoum）</a>"
     ],
   },
 
@@ -10206,7 +10053,6 @@ const COUNTRIES = {
       'Kings Road 和 Queens Road 是 Viti Levu 的主要環島路線',
       'Viti Levu 是覆蓋最多的島嶼 — 大部分出生點在這裡',
       'Fiji 比大多數小型太平洋島國覆蓋更多',
-      "🔗 <a href=\"https://www.google.com/maps/@-17.7765,177.9631,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Suva）</a>"
     ],
   },
 
@@ -10281,7 +10127,6 @@ const COUNTRIES = {
       'Port Moresby 是最可能的城市出生點',
       '有自給農業的高地山谷看起來與沿海 PNG 非常不同',
       'Digicel 紅色品牌是主要電信',
-      "🔗 <a href=\"https://www.google.com/maps/@-6.3149,143.9556,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Lae）</a>"
     ],
   },
 
@@ -10368,7 +10213,6 @@ const COUNTRIES = {
       '日/韓語旅遊標誌 = 可能是 Guam（東亞主要旅遊目的地）',
       '比 CNMI 更富裕/更發達的外觀',
       '熱帶太平洋島嶼上的美式道路基礎設施',
-      "🔗 <a href=\"https://www.google.com/maps/@13.4443,144.7937,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Hagatna）</a>"
     ],
   },
 
@@ -10426,7 +10270,6 @@ const COUNTRIES = {
     "天線接近鏡頭 = CNMI；天線較遠 = Guam",
     "鳳凰木（紅花）= 很可能是 CNMI",
     "覆蓋基本僅在塞班島",
-    "🔗 <a href=\"https://maps.app.goo.gl/7csYjQNoyLG5KePv5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saipan）</a>"
   ]
 },
 
@@ -10500,7 +10343,6 @@ const COUNTRIES = {
       '商業標誌上的 .nc 網域確認 New Caledonia',
       '非常罕見的出生點 — 覆蓋有限',
       '紅色土壤的礦區景觀與其他法國領土區分',
-      "🔗 <a href=\"https://www.google.com/maps/@-22.2558,166.4505,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nouméa）</a>"
     ],
   },
 
@@ -10573,7 +10415,6 @@ const COUNTRIES = {
       '火山黑色岩石 + 熱帶綠色植被 + 靠左行駛 = Samoa',
       '.ws 網域（Western Samoa）與 American Samoa（.as）區分',
       '非常罕見的出生點 — 覆蓋有限 overall',
-      "🔗 <a href=\"https://www.google.com/maps/@-13.8333,-171.7500,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Apia）</a>"
     ],
   },
 
@@ -10645,7 +10486,6 @@ const COUNTRIES = {
       '非常罕見 — 只在有強力證據時才猜',
       '比 PNG 更少山地，更明顯的島鏈地理',
       'Our Telekom 品牌有助確認 Solomon Islands',
-      "🔗 <a href=\"https://www.google.com/maps/@-9.4456,160.0352,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Honiara）</a>"
     ],
   },
 
@@ -10720,7 +10560,6 @@ const COUNTRIES = {
       '比斯拉馬語文字很有辨識度：看起來像英語但拼寫簡化',
       '非常罕見的出生點 — 只在有強力證據時才猜',
       'Port Vila 是唯一可能的城市出生點',
-      "🔗 <a href=\"https://www.google.com/maps/@-17.7333,168.3273,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Port Vila）</a>"
     ],
   },
 
@@ -10796,7 +10635,6 @@ const COUNTRIES = {
       'Nuku’alofa 是唯一可能的出生點',
       '非常罕見 — 只在有強力證據時才猜',
       '部分標誌上可能可見 .to 網域',
-      "🔗 <a href=\"https://www.google.com/maps/@-21.2094,-175.1982,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Nukuʻalofa）</a>"
     ],
   },
 
@@ -10843,7 +10681,6 @@ const COUNTRIES = {
   tips: [
     "美式路標 + 太平洋島嶼 + 右側行駛 = American Samoa",
     "Samoa（獨立）靠左行駛；American Samoa 靠右 — 關鍵區別",
-    "🔗 <a href=\"https://maps.app.goo.gl/AwTmS1u6aXe5EznJA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pago Pago）</a>"
   ]
 },
 
@@ -10894,7 +10731,6 @@ const COUNTRIES = {
     "看到圓潤藤蔓狀文字 = Georgia（全球唯一）",
     "高加索山脈 + 喬治亞文 = Georgia",
     "不要和美國的 Georgia 州混淆",
-    "🔗 <a href=\"https://www.google.com/maps/@41.7151,44.8271,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Tbilisi）</a>"
   ]
 },
 
@@ -10952,7 +10788,6 @@ const COUNTRIES = {
     "看到 ATV 集中停放 + 極小定居點 = Adamstown, Pitcairn",
     "白色沙灘 + 無任何建築 = Henderson 島",
     "不要和其他太平洋島嶼混淆 — Pitcairn 的 trekker + 紅土組合很獨特",
-    "🔗 <a href=\"https://www.google.com/maps/@-25.0662,-130.1005,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Pitcairn Islands）</a>"
   ]
 },
 
@@ -11008,7 +10843,6 @@ const COUNTRIES = {
     "ATV 影子 + 鮮艷木屋 = Miquelon-Langlade",
     "trekker + 更多建築和車輛 + 更繁忙 = Saint-Pierre 鎮",
     "起伏草地 + 方形木屋散布 = Île-aux-Marins",
-    "🔗 <a href=\"https://www.google.com/maps/@46.7738,-56.1815,3a,75y,90t\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Saint-Pierre-and-Miquelon）</a>"
   ]
 },
 
@@ -11059,7 +10893,6 @@ const COUNTRIES = {
     "黑暗潮濕熱帶花園 + 扶壁根 + 蕨類竹子 = Martinique (Jardin de Balata)",
     "加勒比熱帶島嶼 + 法語 + 極少覆蓋 = 可能是 Martinique",
     "⚠️ 覆蓋太少，最好直接背三個點的外觀",
-    "🔗 <a href=\"https://maps.app.goo.gl/pon33ToYxpSF7zrYA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Fort-de-France）</a>"
   ]
 },
 
@@ -11118,7 +10951,6 @@ const COUNTRIES = {
     "彩繪瓷磚路標（藍色字母）= Azores",
     "Gen 4 覆蓋 = São Miguel 島",
     "trekker 沿火山口邊緣 = Faial 島",
-    "🔗 <a href=\"https://maps.app.goo.gl/724qDfW5EGc8aKKFA\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Ponta Delgada）</a>"
   ]
 },
 
@@ -11182,7 +11014,6 @@ const COUNTRIES = {
     "高原 + 風力發電機 + 霧 = Madeira 中西部",
     "乾旱無植被 = Madeira 東端",
     "低畫質 shitcam + 葡萄牙語島嶼 = 很可能 Madeira",
-    "🔗 <a href=\"https://maps.app.goo.gl/CCPwUcv8pi1kTXVa7\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Funchal）</a>"
   ]
 },
 
@@ -11252,7 +11083,6 @@ const COUNTRIES = {
     "高大柱狀南洋杉 = Lana'i",
     "Gen 2 + 鄉村小道 + 紅土 → 嘗試猜 Kaua'i",
     "州級公路首位數判斷島嶼：1-2=大島, 3=Maui, 4=Moloka'i/Lana'i, 5=Kaua'i, 6-9=O'ahu",
-    "🔗 <a href=\"https://maps.app.goo.gl/ZBPtWk6Vzg8J9wR88\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Honolulu）</a>"
   ]
 },
 
@@ -11321,7 +11151,6 @@ const COUNTRIES = {
     "高山 + 蔥綠森林 + 多霧 Gen 2 = Alexander 群島（東南 Alaska）",
     "Gen 4 集中 = Anchorage 附近",
     "安克雷奇和費爾班克斯是唯二都市區",
-    "🔗 <a href=\"https://maps.app.goo.gl/o8PCUdYnuJHkVTDv5\" target=\"_blank\" style=\"color:var(--accent-blue)\">Street View 範例（Anchorage）</a>"
   ]
 },
 
