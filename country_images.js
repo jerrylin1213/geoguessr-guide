@@ -1219,7 +1219,6 @@ const COUNTRY_IMAGES = {
       'https://d33wubrfki0l68.cloudfront.net/fd65b50a71f831764699f4db8dfa3c986aca1e79/e540c/static/img/places/iceland/road-signs/warning_sign.jpg',
     ],
     carMetas: [
-      'https://d33wubrfki0l68.cloudfront.net/e3e7484c2d5d9b662941711dbc523172c9f338f2/59893/static/img/places/iceland/car-metas/car.jpg',
       'https://www.plonkit.net/images/resize/600/80/iceland/Iceland_cars.png',
     ],
     bollards: [
