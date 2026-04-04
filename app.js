@@ -42,7 +42,6 @@
     // iceland: Plonkit Iceland_cars.png in carMetas
     // qatar: Plonkit Qatar_cars.png in carMetas (generic pickup.jpg is wrong)
     // oman: Plonkit image in carMetas (generic pickup.jpg is wrong)
-    'namibia': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     // christmas-island: Plonkit image in carMetas
     'bangladesh': 'https://d33wubrfki0l68.cloudfront.net/53ef2669f637d8362317f5145dd7b11c28bd4df2/94be9/static/img/places/bangladesh/car-metas/rack-yellow.png',
     'cambodia': 'https://d33wubrfki0l68.cloudfront.net/be13a2e2d73bb39d061d67f5f61b5acd7d79c31e/fc476/static/img/places/cambodia/car-metas/car.jpg',
@@ -76,9 +75,6 @@
     // Gen 4 blue car countries
     'norway': 'https://geotips.net/wp-content/uploads/2020/11/v4zS0Uo.jpg',
     // Pickup truck countries
-    'panama': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'paraguay': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
-    'kazakhstan': 'https://d33wubrfki0l68.cloudfront.net/430c820696d05cb70e18c2d41d4f45c883f23a87/c1ef6/static/img/camera-cars/pickup.jpg',
     // Low cam (same as Switzerland)
     'liechtenstein': 'https://d33wubrfki0l68.cloudfront.net/1f96c4b9410d47ba2f6efb66e609c1ac83275426/0457c/static/img/camera-cars/switzerland-blur.jpg',
     // Standard white sedan (Africa/Pacific "標準轎車")
