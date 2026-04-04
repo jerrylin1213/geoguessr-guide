@@ -3512,7 +3512,6 @@ const COUNTRY_IMAGES = {
     poles: [],
     signs: [
       'https://d33wubrfki0l68.cloudfront.net/2aa66d5b5b476830503555fb292642ebaa7163a2/ba996/static/img/places/jersey/road-signs/jersey_sign.jpg',
-      'https://d33wubrfki0l68.cloudfront.net/9b7a2c8f3995a8096370b8cec6ae9ea76f69aac/26aac/static/img/places/jersey/road-signs/french_sign.jpg',
     ],
     carMetas: [
       'https://d33wubrfki0l68.cloudfront.net/f3d69b4305a05f1192ddf52af215e74a8f4b3d67/81115/static/img/places/jersey/car-metas/gen2_halo.jpg',
